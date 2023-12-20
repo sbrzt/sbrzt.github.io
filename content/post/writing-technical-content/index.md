@@ -1,7 +1,7 @@
 ---
-title: Example
+title: Introduction to Linked (Open) Data
 subtitle: Introduction to Linked Open Data
-summary: A crash course on Linked Open Data (LOD). It introduces the fundamental concepts of openly accessible, interconnected, and standardized data on the web. This approach aims to improve data discoverability and integration by using URIs, RDF triples, and ontologies. It encourages sharing data under open licenses, fostering collaboration and knowledge sharing. The use of SPARQL enables querying across diverse datasets, enhancing semantic understanding.
+summary: A crash course on Linked Open Data (LOD). It introduces the fundamental concepts of data publishing and integration by using URIs, RDF triples, and ontologies.
 date: 2023-12-20
 math: false
 image:
