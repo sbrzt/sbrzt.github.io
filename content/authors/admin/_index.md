@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Sebastian Barzaghi
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation:
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Sebastian
+last_name: Barzaghi
 
 # Status emoji
 status:
@@ -17,74 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Alma Mater Studiorum - University of Bologna
+    url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include metadata management, documentation patterns, data modelling and open science.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Metadata
+  - Ontologies
+  - Digital Humanities
+  - Linked Open Data
+  - Open Science
+  - User Experience Design
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+    - course: MEng in Digital Humanities and Digital Knowledge
+      institution: University of Bologna
+      year: 2020
+    - course: BSc in Cultural Heritage
+      institution: University of Milan
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -93,22 +53,22 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
+    link: mailto:sebastian.barzaghi2@unibo.it
+  - icon: orcid
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://orcid.org/my-orcid?orcid=0000-0002-0799-1527
+  - icon: mastodon
+    icon_pack: fab
+    link: https://mastodon.social/@se_ba
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.it/citations?user=qyPA9IgAAAAJ&hl=en&authuser=1&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/sebastianbarzaghi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://it.linkedin.com/in/sebastian-barzaghi
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +80,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Semantic Web methodologies and technologies. Specifically, my research interests focus on the semantic modelling of documentation patterns.
 {style="text-align: justify;"}
