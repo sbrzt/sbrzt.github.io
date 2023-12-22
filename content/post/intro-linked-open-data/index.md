@@ -136,4 +136,8 @@ pipx install academic
 academic import 'notebooks/**.ipynb' content/post/ --verbose
 ```
 
+## References
+- Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programming Historian 6 (2017), https://doi.org/10.46430/phen0068.
+- Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.
+
 ### Did you find this page helpful? Consider sharing it 🙌
