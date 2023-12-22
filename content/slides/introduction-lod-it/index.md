@@ -34,10 +34,10 @@ Sebastian Barzaghi
 
 ## Linked Data: main concepts
 
-- **U**niform **R**esource **I**dentifiers (**URI**): character strings that are used to identify a web resource
-- **R**esource **D**escription **F**ramework (**RDF**): a graph model for data representation and interchange on the Web, based on the _triple_ structure
-- **Ontology**: a data structure that formally describes a finite set of concepts and the relationships between them
-- **SPARQL**: a semantic query language for graph databases
+{{% fragment %}} - **U**niform **R**esource **I**dentifiers (**URI**): character strings that are used to identify a web resource {{% /fragment %}}
+{{% fragment %}} - **R**esource **D**escription **F**ramework (**RDF**): a graph model for data representation and interchange on the Web, based on the _triple_ structure {{% /fragment %}}
+{{% fragment %}} - **Ontology**: a data structure that formally describes a finite set of concepts and the relationships between them {{% /fragment %}}
+{{% fragment %}} - **SPARQL**: a semantic query language for graph databases {{% /fragment %}}
 
 ---
 
