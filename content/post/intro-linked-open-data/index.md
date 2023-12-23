@@ -8,6 +8,7 @@ image:
   placement: 2
   caption: '"Linked Open Data", deepai.org'
 slides: introduction-lod-it
+draft: true
 ---
 
 text 
