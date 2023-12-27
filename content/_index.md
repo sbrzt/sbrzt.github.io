@@ -125,8 +125,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Ontology Engineering
-          tag: Ontology Engineering
+        - name: Ontologies
+          tag: Ontologies
         - name: Digital Editions
           tag: Digital Editions
     design:

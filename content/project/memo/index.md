@@ -2,7 +2,7 @@
 title: Medieval Manuscript Ontology (MeMO)
 summary: The Medieval Manuscripts Ontology (MeMO) is an OWL 2 DL ontology that aims to provide a framework for the formal description of the collection of medieval codices and manuscripts. It has been developed in the context of Progetto IRNERIO, according to certain requirements and with the possibility to extend it for representing similar resources that exist in other collections.
 tags:
-  - Ontology Engineering
+  - Ontologies
 date: '2020-03-20T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

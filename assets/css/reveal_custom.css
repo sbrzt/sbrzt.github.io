@@ -1,0 +1,30 @@
+.reveal section h1 ,
+.reveal section h2 ,
+.reveal section h3 ,
+.reveal section h4 ,
+.reveal section p ,
+.reveal section ul ,
+.reveal section footer {
+    text-align: left;
+}
+
+.reveal section h2 {
+    font-size: 50px;
+}
+
+.reveal section p {
+    font-size: 30px;
+}
+
+.reveal section ul {
+    font-size: 30px;
+}
+
+.reveal section .footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 20px;
+}
