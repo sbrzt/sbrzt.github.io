@@ -85,5 +85,5 @@ links:
   url: http://arxiv.org/abs/2308.15920
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
