@@ -1,7 +1,7 @@
 ---
-title: A Literacy Action
-subtitle: A soft introduction to Digital Humanities and what it means to produce digital research projects
-summary: A soft introduction to Digital Humanities and what it means to produce digital research projects.
+title: A Literacy of Building (part 1)
+subtitle: A soft introduction to Digital Humanities and digital research projects
+summary: A soft introduction to Digital Humanities and digital research projects.
 date: 2023-12-20
 image:
   placement: 2

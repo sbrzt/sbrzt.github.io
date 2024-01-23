@@ -29,20 +29,20 @@ bio: My research interests include metadata management, documentation patterns, 
 
 # Interests to show in About widget
 interests:
-  - Metadata
-  - Ontologies
+  - Linked Open Data publishing
+  - Methodology modeling
+  - Data mining and analysis
   - Digital Humanities
-  - Linked Open Data
   - Open Science
   - User Experience Design
 
 # Education to show in About widget
 education:
   courses:
-    - course: MEng in Digital Humanities and Digital Knowledge
+    - course: Master in Digital Humanities and Digital Knowledge
       institution: University of Bologna
       year: 2020
-    - course: BSc in Cultural Heritage
+    - course: Bachelor in Cultural Heritage
       institution: University of Milan
       year: 2017
 
