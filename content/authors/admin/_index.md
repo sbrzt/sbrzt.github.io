@@ -25,15 +25,14 @@ organizations:
     url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Linked Open Data Publishing, Methodology Modeling, Data Mining and Analysis, and Open Science.
+bio: My research interests include Knowledge Management, Data Documentation, Cultural Analytics, and Open Science.
 
 # Interests to show in About widget
 interests:
-  - Linked Open Data publishing
-  - Methodology modeling
-  - Data mining and analysis
+  - Knowledge Management
+  - Data Documentation
+  - Cultural Analytics
   - Open Science
-  - User Experience Design
 
 # Education to show in About widget
 education:
@@ -79,5 +78,5 @@ social:
 highlight_name: true
 ---
 
-Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Semantic Web methodologies and technologies. Specifically, my research interests focus on Linked Open Data publishing and modeling of methodological workflows.
+Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Semantic Web methodologies and technologies. Specifically, my research interests focus on Knowledge Management and modeling of methodological workflows.
 {style="text-align: justify;"}

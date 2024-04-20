@@ -125,8 +125,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Ontologies
-          tag: Ontologies
+        - name: Knowledge Management
+          tag: Knowledge Management
         - name: Digital Editions
           tag: Digital Editions
     design:

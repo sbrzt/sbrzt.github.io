@@ -2,7 +2,8 @@
 title: Heritage Risk Assessment Ontology (HeRO)
 summary: The Heritage Risk Assessment Ontology (HeRO) is an OWL 2 DL ontology that aims at providing a framework for modeling machine-readable descriptions of risk assessment activities for heritage risk management. To this end, it leverages, adapts and formalises methodological frameworks widely known in the cultural heritage domain, such as the ABC method.
 tags:
-  - Ontologies
+  - Knowledge Management
+  - Data Documentation
 date: '2023-11-30T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
