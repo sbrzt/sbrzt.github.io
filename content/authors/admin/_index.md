@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research fellow
+role: Research fellow - Data modeler - Developer - Teacher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,13 +25,12 @@ organizations:
     url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Knowledge Management, Data Documentation, Cultural Analytics, and Open Science.
+bio: My research interests include Data Modeling, Cultural Data Analytics, and Open Science.
 
 # Interests to show in About widget
 interests:
-  - Knowledge Management
-  - Data Documentation
-  - Cultural Analytics
+  - Data Modeling
+  - Cultural Data Analytics
   - Open Science
 
 # Education to show in About widget
@@ -72,11 +71,11 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/2024-01-30_cv_en.pdf
+    link: uploads/2024-04-30_cv_en.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Semantic Web methodologies and technologies. Specifically, my research interests focus on Knowledge Management and modeling of methodological workflows.
+Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Semantic Web methodologies and technologies. Specifically, my research interests focus on Data Modeling, Cultural Data Analytics and Open Science in the Humanities and Cultural Heritage domains.
 {style="text-align: justify;"}
