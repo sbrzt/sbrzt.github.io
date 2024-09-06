@@ -8,7 +8,7 @@
 appearance:
   theme_day: minimal
   theme_night: dark
-  font: minimal
+  font: atkinson
   font_size: L
 
 # SEO
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Sebastian Barzaghi. Questo sito e i suoi contenuti sono rilasciati con licenza {license}'
     license:
       enable: true
       allow_derivatives: false

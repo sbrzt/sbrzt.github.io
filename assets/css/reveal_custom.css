@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700');
+
+.reveal section {
+    display: grid !important ;
+}
+
 .reveal section h1 ,
 .reveal section h2 ,
 .reveal section h3 ,
 .reveal section h4 ,
 .reveal section p ,
 .reveal section ul ,
-.reveal section footer {
+.reveal section footer,
+.reveal section .footer {
     text-align: left;
+    font-family: 'Atkinson Hyperlegible';
 }
 
 .reveal section h2 {
@@ -18,6 +26,7 @@
 
 .reveal section ul {
     font-size: 30px;
+    left: 0;
 }
 
 .reveal section .footer {
@@ -29,4 +38,29 @@
     margin-top: 20px;
     font-size: 20px;
     text-align: left;
+}
+
+.reveal section code {
+    background-color: bisque;
+    color: red;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.reveal section a:hover {
+    background-color: rgba(255, 255, 150, 0.778);
+}
+
+.reveal section table th, 
+.reveal section table td {
+    font-size: 1.5rem;
+}
+
+.reveal section figcaption {
+    font-size: 1rem;
+}
+
+.section-slide h2,
+.section-slide p {
+    color: white;
 }
