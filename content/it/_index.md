@@ -171,13 +171,8 @@ sections:
     id: contact
     content:
       title: Contatti
-      subtitle:
-      text: |-
-        Scrivi un messaggio...
       # Contact (add or remove contact options as necessary)
-      email: sebastian.barzaghi@pec.it
-      phone: +39 345 693 5429
-      appointment_url: 'https://calendly.com'
+      email: sebastian.barzaghi2@unibo.it
       address:
         street: Via degli Ariani, 1
         city: Ravenna
@@ -190,13 +185,32 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
+      #    captcha: true
     design:
       columns: '2'
 ---
+      #appointment_url: 'https://calendly.com'
+      address:
+        street: Via degli Ariani, 1
+        city: Ravenna
+        region: Emilia Romagna
+        postcode: '48121'
+        country: Italy
+        country_code: IT
+      directions: Floor 2
+      # Automatically link email and phone or display as text?
+      autolink: true
+      # Email form provider
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+      #    captcha: true

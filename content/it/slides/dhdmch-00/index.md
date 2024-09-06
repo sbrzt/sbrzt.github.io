@@ -31,7 +31,7 @@ Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digit
 
 Attualmente lavoro presso il laboratorio di ricerca [FrameLAB](https://framelab.unibo.it/) e collaboro con altre realtà (es. [DHARC](https://centri.unibo.it/dharc/en)).
 
-I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (Ricerca, Didattica e Terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
+I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
 
 ---
 
@@ -41,7 +41,43 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
         <img src="qr-code.png" alt="QR code per accedere al modulo" style="max-width: 100%;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <p><a href="https://forms.gle/trk7MS1VVtAoU4UN9">https://forms.gle/trk7MS1VVtAoU4UN9</a></p>
+        <p><a href="https://forms.gle/vDGQdFKu8JPKzMy26">https://forms.gle/vDGQdFKu8JPKzMy26</a></p>
+    </div>
+</div>
+
+---
+
+## I vostri percorsi di studi
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858589267&amp;format=interactive"></iframe>
+
+---
+
+## Cosa vi aspettate di imparare da questo corso?
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=2144929885&amp;format=interactive"></iframe>
+
+---
+
+## Hai mai sentito parlare di "Open Science"?
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=190797982&amp;format=interactive"></iframe>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <p>La "Scienza Aperta" è una delle macro-tematiche che affronteremo per tutto il resto del corso.</p>
+    </div>
+</div>
+
+---
+
+## Hai mai sentito parlare di "Open Science"?
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=753366255&amp;format=interactive"></iframe>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <p>Per ora, limitiamoci a dire che si tratta di <a href="https://doi.org/10.5281/zenodo.2613332">"scienza fatta bene"</a>.</p>
     </div>
 </div>
 
@@ -50,10 +86,22 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ## Hai già sentito parlare di "Digital Humanities"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=2034172206&amp;format=interactive"></iframe>
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=627035098&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-      <p>"Digital Humanities" è un termine che indica, in sostanza, un punto di contatto tra due universi che da sempre fanno fatica a conciliarsi: l'<strong>informatica</strong> da una parte, e le <strong>discipline umanistiche e sociali</strong> dall'altra. Lo vedremo tra poco.</p>
+      <p>Le "Digital Humanities" costituiscono la cornice contenutistica e tecnologica delle lezioni che affronteremo.</p>
+    </div>
+</div>
+
+---
+
+## Hai già sentito parlare di "Digital Humanities"?
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=480196988&amp;format=interactive"></iframe>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <p>Indica un punto di contatto tra le <strong>scienze informatiche</strong> e le <strong>discipline umanistiche e sociali</strong>.</p>
     </div>
 </div>
 
@@ -62,22 +110,22 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ## Hai già sentito parlare di "Data Management"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1663746687&amp;format=interactive"></iframe>
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=970674666&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-      <p>"Data Management" (o "gestione dei dati") è un termine che descrive un insieme di attività fondamentali per un corretto utilizzo dei dati. Il corso è organizzato seguendo un sottoinsieme possibile di queste attività.</p>
+      <p>Il "Data Management" (o "gestione dei dati") è il processo che guiderà lo svolgimento e lo sviluppo del resto del corso.</p>
     </div>
 </div>
 
 ---
 
-## Hai già sentito parlare di "Open Science"?
+## Hai già sentito parlare di "Data Management"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1258476252&amp;format=interactive"></iframe>
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=692205796&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-      <p>"Open Science" è il terzo grande concetto che affronteremo presto e per tutto il resto del corso. Per ora, limitiamoci a dire che si tratta di <a href="https://doi.org/10.5281/zenodo.2613332">"scienza fatta bene"</a>.</p>
+      <p>Descrive un insieme di attività fondamentali per un corretto utilizzo dei dati.</p>
     </div>
 </div>
 
@@ -86,17 +134,30 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ## Hai già sentito parlare di "Linked Open Data"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1258476252&amp;format=interactive"></iframe>
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=459400805&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <p>Quello dei "Linked Open Data" è un paradigma fondamentale per assicurare la <strong>FAIRness</strong> dei dati (e non solo), e quindi la scientificità del nostro lavoro. Esamineremo entrambi i concetti più avanti.</p>
+        <p>I "Linked Open Data" rappresentano una tematica particolare che affronteremo più avanti.</p>
     </div>
 </div>
 
 ---
 
-## Secondo te, cosa sono i dati?
-<iframe width="1000" height="500" seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubhtml?gid=1992438785&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+## Hai già sentito parlare di "Linked Open Data"?
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1532986075&amp;format=interactive"></iframe>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Si tratta di un paradigma fondamentale per assicurare la <strong>FAIRness</strong> dei dati (e non solo), e quindi la scientificità del nostro lavoro.</p>
+    </div>
+</div>
+
+---
+
+## Secondo te, cos'è un dato?
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858491784&amp;format=interactive"></iframe>
 
 ---
 
@@ -151,7 +212,7 @@ Frequentanti, non abbiate paura ad interagire e a fare domande.
 | ID | Titolo | Tipo | Tematica | Data |
 |----|--------|------|----------|------|
 | 00 | _Introduzione_ | Teorica | `Corso`, `Esame` | 07-11-2024 |
-| 01 | _Oltre il Velo_ | Teorica | `Open Science`, `Dati`, `Digital Humanities`, `Data Management` | 07-11-2024 |
+| 01 | _La grande sfida_ | Teorica | `Open Science`, `Dati`, `Digital Humanities`, `Data Management` | 07-11-2024 |
 | 02 | _Primi passi_ | Pratica | [GitHub](https://github.com/), [Visual Studio Code](https://vscode.dev/) | 18-11-2024 |
 | 03 | _PLAN: pianificare_ | Teorica | `Metadati`, `FAIR`, `Case study`, `Progetto d'esame` | 20-11-2024 |
 | 04 | _Diario di bordo_ | Pratica | [Data Management Plan](https://argos.openaire.eu/home), [Markdown](https://www.markdownguide.org/) | 21-11-2024 |

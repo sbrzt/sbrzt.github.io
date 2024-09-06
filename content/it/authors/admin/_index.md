@@ -25,7 +25,7 @@ organizations:
     url: https://www.unibo.it/it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I miei interessi di ricerca includono l'utilizzo dei Linked Open Data e dell'Open Science per migliorare i processi di ricerca, educazione e comunicazione nell'ambito delle discipline umanistiche.
+bio: I miei interessi di ricerca si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui Linked Open Data e sull'Open Science per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
 
 # Interests to show in About widget
 interests:
@@ -78,4 +78,5 @@ social:
 highlight_name: true
 ---
 
-Ricercatore presso il Dipartimento di Beni Culturali dell'Università di Bologna. Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (DHDK) presso l'Università di Bologna, attualmente lavoro presso il laboratorio di ricerca FrameLAB su vari progetti legati all'applicazione di metodologie e tecnologie Linked Open Data. Nello specifico, i miei interessi di ricerca si concentrano su come il Semantic Data Modeling e l'Open Science possano migliorare le attività accademiche (ricerca, didattica e comunicazione) nei settori delle discipline umanistiche e del patrimonio culturale.{style="text-align: justify;"}
+Ricercatore presso il Dipartimento di Beni Culturali dell'Università di Bologna. Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (DHDK) presso l'Università di Bologna, attualmente lavoro presso il laboratorio di ricerca FrameLAB su vari progetti legati all'applicazione di metodologie e tecnologie Linked Open Data. Nello specifico, i miei interessi di ricerca si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui Linked Open Data e sull'Open Science per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
+{style="text-align: justify;"}

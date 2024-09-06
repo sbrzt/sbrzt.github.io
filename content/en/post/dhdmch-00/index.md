@@ -7,7 +7,7 @@ image:
   placement: 2
   caption: 'The Domesday Book from Andrews, William: “Historic Byways and Highways of Old England” (1900). ISBN 9781406797541'
 slides: dhdmch-00
-draft: false
+draft: true
 ---
 
 ## Chapter 1

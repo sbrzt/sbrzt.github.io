@@ -170,14 +170,10 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
-      subtitle:
-      text: |-
-        Write a message here...
+      title: Contacts
       # Contact (add or remove contact options as necessary)
-      email: sebastian.barzaghi@pec.it
-      phone: +39 345 693 5429
-      appointment_url: 'https://calendly.com'
+      email: sebastian.barzaghi2@unibo.it
+      #appointment_url: 'https://calendly.com'
       address:
         street: Via degli Ariani, 1
         city: Ravenna
@@ -186,19 +182,16 @@ sections:
         country: Italy
         country_code: IT
       directions: Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
+      #    captcha: true
     design:
       columns: '2'
 ---

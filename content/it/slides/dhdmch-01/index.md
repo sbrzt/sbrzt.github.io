@@ -1,5 +1,5 @@
 ---
-title: DHDMCH - Oltre il Velo
+title: DHDMCH - La grande sfida
 summary: Lezione 01 del corso di Digital Humanities e Data Management per i Beni Culturali
 authors: [Sebastian Barzaghi]
 tags: [Digital Humanities]
@@ -13,7 +13,7 @@ slides:
   highlight_style: github-light
 ---
 
-# Oltre il Velo
+# La grande sfida
 
 #### Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
@@ -93,9 +93,9 @@ Realtà: [_as open as possible, as closed as necessary_](https://rea.ec.europa.e
 
 ---
 
-{{< slide background-image="section-02.jpg" class="section-slide">}}
+{{< slide background-image="section-02.png" class="section-slide">}}
 
-## The Data Situation
+## La situazione dei dati
 
 ---
 
@@ -244,7 +244,7 @@ La ricerca umanistica è raramente documentata, standardizzata e strutturata nel
 
 ---
 
-## Humanities lente e ostili verso la Scienza Aperta?
+## Umanisti lenti o ostili verso la Scienza Aperta?
 
 - Valori e metodi percepiti come contrastanti;
 - Paura di danneggiare la propria carriera;
@@ -377,7 +377,7 @@ I risultati di un progetto di Digital Humanities consistono spesso in **siti Web
 
 ---
 
-## Gestire i dati è fondamentale
+## Si riduce tutto alla gestione dei dati
 
 Per sviluppare in maniera corretta un progetto e produrre risultati con un impatto concreto, le DH richiedono dataset ben strutturati, documentati, accessibili, sostenibili, utilizzabili.
 
@@ -502,9 +502,9 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-{{< slide background-image="section-01.jpg" class="section-slide">}}
-
 ## Caso di studio: Mythologiae
+
+https://mythologiae.unibo.it/
 
 Collezione digitale di 4000+ opere d'arte raffiguranti scene della mitologia classica.
 

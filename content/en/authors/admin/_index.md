@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research fellow - Linked Open Data Scientist - Developer - Teacher
+role: Research fellow - Developer - Teacher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Linked Open Data Science, Data Modeling, Cultural Data Analytics, and Open Science.
+bio: My research interests focus on the study and implementation of tools and methodologies based on Linked Open Data and Open Science to enhance academic activities (research, teaching, and public engagement) in the fields of the humanities and cultural heritage.
 
 # Interests to show in About widget
 interests:
@@ -78,5 +78,5 @@ social:
 highlight_name: true
 ---
 
-Research fellow at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 from the Digital Humanities and Digital Knowledge (DHDK) master's program at the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of computational methodologies and technologies for collecting, modeling, managing and publishing Humanities and Cultural Heritage data as Linked Open Data.
+Researcher at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 with a master's degree in Digital Humanities and Digital Knowledge (DHDK) from the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Linked Open Data methodologies and technologies. Specifically, my research interests focus on the study and implementation of tools and methodologies based on Linked Open Data and Open Science to enhance academic activities (research, teaching, and public engagement) in the fields of humanities and cultural heritage.
 {style="text-align: justify;"}
