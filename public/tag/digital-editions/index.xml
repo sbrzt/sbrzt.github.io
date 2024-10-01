@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digital Editions | Sebastian Barzaghi</title>
-    <link>https://sebastianbarzaghi.github.io/tag/digital-editions/</link>
-      <atom:link href="https://sebastianbarzaghi.github.io/tag/digital-editions/index.xml" rel="self" type="application/rss+xml" />
+    <title>Digital Editions | sbrzt</title>
+    <link>http://localhost:1313/tag/digital-editions/</link>
+      <atom:link href="http://localhost:1313/tag/digital-editions/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Editions</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sebastianbarzaghi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Digital Editions</title>
-      <link>https://sebastianbarzaghi.github.io/tag/digital-editions/</link>
+      <link>http://localhost:1313/tag/digital-editions/</link>
     </image>
     
     <item>
       <title>National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/project/moro/</link>
+      <link>http://localhost:1313/project/moro/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/project/moro/</guid>
+      <guid>http://localhost:1313/project/moro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-benchmark-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-benchmark-2021/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-benchmark-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-benchmark-2021/</guid>
       <description></description>
     </item>
     

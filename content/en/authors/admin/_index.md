@@ -16,6 +16,9 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Role/position/tagline
 role: Research fellow - Developer - Teacher
 
@@ -31,7 +34,7 @@ bio: My research interests focus on the study and implementation of tools and me
 interests:
   - Linked Open Data Science
   - Data Modeling
-  - Cultural Data Analytics
+  - Data Analytics
   - Open Science
 
 # Education to show in About widget
@@ -48,7 +51,7 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
+profiles:
   - icon: envelope
     icon_pack: fas
     link: mailto:sebastian.barzaghi2@unibo.it
@@ -67,9 +70,6 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://it.linkedin.com/in/sebastian-barzaghi
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/2024-04-30_cv_en.pdf

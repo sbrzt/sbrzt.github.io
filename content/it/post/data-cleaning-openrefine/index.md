@@ -1,13 +1,13 @@
 ---
-title: Cleaning data with OpenRefine
-subtitle: A soft introduction to Data Cleaning with OpenRefine
-summary: A soft introduction to Data Cleaning with OpenRefine.
+title: Data Cleaning nelle Scienze Umane
+subtitle: Introduzione alla pulizia dei dati con OpenRefine
+summary: Una breve introduzione alla pulizia di dataset testuali usando il software OpenRefine.
 date: 2024-07-01
 image:
   placement: 2
-  caption: '"An automatically generated image, produced with the Surreal Graphics Generator (https://deepai.org/machine-learning-model/surreal-graphics-generator) by entering the prompt "Digital Humanities"'
+  caption: '"bla"'
 slides: data-cleaning-openrefine
-draft: true
+draft: false
 ---
 
 ## Intro

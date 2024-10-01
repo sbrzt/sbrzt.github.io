@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>centered computing→User interface design | Sebastian Barzaghi</title>
-    <link>https://sebastianbarzaghi.github.io/tag/centered-computinguser-interface-design/</link>
-      <atom:link href="https://sebastianbarzaghi.github.io/tag/centered-computinguser-interface-design/index.xml" rel="self" type="application/rss+xml" />
-    <description>centered computing→User interface design</description>
+    <title>Centered Computing→User Interface Design | sbrzt</title>
+    <link>http://localhost:1313/tag/centered-computinguser-interface-design/</link>
+      <atom:link href="http://localhost:1313/tag/centered-computinguser-interface-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Centered Computing→User Interface Design</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sebastianbarzaghi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>centered computing→User interface design</title>
-      <link>https://sebastianbarzaghi.github.io/tag/centered-computinguser-interface-design/</link>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Centered Computing→User Interface Design</title>
+      <link>http://localhost:1313/tag/centered-computinguser-interface-design/</link>
     </image>
     
     <item>
       <title>Digitisation of Temporary Exhibitions: the Aldrovandi Case</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-digitisation-2023/</link>
+      <link>http://localhost:1313/publication/barzaghi-digitisation-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-digitisation-2023/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-digitisation-2023/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | holyyeti</title>
+    <link>http://localhost:1313/it/publication-type/0/</link>
+      <atom:link href="http://localhost:1313/it/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>0</title>
+      <link>http://localhost:1313/it/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2024/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
+      <link>http://localhost:1313/it/publication/barzaghi-national-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-national-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
+      <link>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

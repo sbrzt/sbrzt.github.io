@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sebastian Barzaghi</title>
-    <link>https://sebastianbarzaghi.github.io/</link>
-      <atom:link href="https://sebastianbarzaghi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sebastian Barzaghi</description>
+    <title>sbrzt</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>sbrzt</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sebastianbarzaghi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Sebastian Barzaghi</title>
-      <link>https://sebastianbarzaghi.github.io/</link>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>sbrzt</title>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://sebastianbarzaghi.github.io/talk/example-talk/</link>
+      <link>http://localhost:1313/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/talk/example-talk/</guid>
+      <guid>http://localhost:1313/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -33,427 +33,1147 @@
     </item>
     
     <item>
-      <title>SKOS and Roll</title>
-      <link>https://sebastianbarzaghi.github.io/post/intro-skos/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/post/intro-skos/</guid>
-      <description>&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
-
-&lt;pre&gt;- Artifact Type
-  - Sculptures
-    - Marble Sculptures
-    - Bronze Sculptures
-    - Wood Sculptures
-  - Paintings
-    - Oil Paintings
-    - Watercolor Paintings
-    - Acrylic Paintings
-  - Textiles
-    - Carpets
-    - Tapestries
-    - Clothing&lt;/pre&gt;
+      <title>Cleaning data with OpenRefine</title>
+      <link>http://localhost:1313/slides/data-cleaning-openrefine/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/slides/data-cleaning-openrefine/</guid>
+      <description>&lt;h1 id=&#34;humanities-data-cleaning&#34;&gt;Humanities Data Cleaning&lt;/h1&gt;
+&lt;h4 id=&#34;a-soft-introduction-to-data-cleaning-with-openrefine&#34;&gt;A soft introduction to Data Cleaning with OpenRefine&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-humanities-data&#34;&gt;What is humanities data?&lt;/h2&gt;
+&lt;p&gt;Any value assigned to something that can be quantified, qualified or interpreted in some way to be used as an informative evidence&lt;/p&gt;
+&lt;p&gt;Numbers, words, images, videos, photos, audio records, interviews, manuscripts, notes, collections&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
 &lt;/div&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;to-be-useful-data-should-be-organized&#34;&gt;To be useful, data should be organized&lt;/h2&gt;
+&lt;p&gt;To be understood by yourself in the future&lt;/p&gt;
+&lt;p&gt;To be machine-readable (Interoperable in FAIR)&lt;/p&gt;
+&lt;p&gt;To be understood by others (Reusable in FAIR)&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;all-data-is-messy&#34;&gt;All data is messy&lt;/h2&gt;
+&lt;p&gt;Never take your data at face value&lt;/p&gt;
+&lt;p&gt;80% of data analysis is spent on the process of cleaning data and preparing it for further manipulation and analysis&lt;/p&gt;
+&lt;p&gt;Cleaning and preparation must be iterative&lt;/p&gt;
+&lt;p&gt;Necessary for working with datasets&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-dataset-is-a-collection-of-data&#34;&gt;A dataset is a collection of data&lt;/h2&gt;
+&lt;p&gt;Every value belongs to a variable and an observation&lt;/p&gt;
+&lt;p&gt;Every variable forms a column&lt;/p&gt;
+&lt;p&gt;Every observation forms a row&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-cleaning-is-hard-but-worth-it&#34;&gt;Data cleaning is hard (but worth it)!&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Harpring, Patricia. Introduction to controlled vocabularies: terminology for art, architecture, and other cultural works. Getty Publications, 2010.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;SKOS: A Guide for Information Professionals&amp;rdquo;, American Library Association, May 18, 2015. &lt;a href=&#34;http://www.ala.org/alcts/resources/z687/skos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ala.org/alcts/resources/z687/skos&lt;/a&gt; (Accessed December 21, 2023). Document ID: df364f20-e2ad-4b0e-bc8e-9b4eff9bc777&lt;/li&gt;
-&lt;li&gt;Ksenia Zaytseva and Matej Ďurčo (2020). Controlled Vocabularies and SKOS. Version 1.1.0. Edited by Matej Ďurčo and Tanja Wissik. DARIAH-Campus. [Training module]. &lt;a href=&#34;https://campus.dariah.eu/id/D8d6OrLdpLlGRqBSQDVN0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://campus.dariah.eu/id/D8d6OrLdpLlGRqBSQDVN0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3.org/TR/skos-primer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.w3.org/TR/skos-primer/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3.org/TR/skos-reference/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.w3.org/TR/skos-reference/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mader, Christian, Bernhard Haslhofer, and Antoine Isaac. “Finding quality issues in SKOS vocabularies.” In International Conference on Theory and Practice of Digital Libraries, pp. 222-233. Springer, Berlin, Heidelberg, 2012.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://arxiv.org/ftp/arxiv/papers/2012/2012.02325.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/ftp/arxiv/papers/2012/2012.02325.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fairvocabularies.github.io/examples/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fairvocabularies.github.io/examples/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prepare the data&lt;/li&gt;
+&lt;li&gt;Eliminate redundancy&lt;/li&gt;
+&lt;li&gt;Separate or combine values&lt;/li&gt;
+&lt;li&gt;Fix errors and inconsistencies (e.g. duplicates, empty values, inconsistent spelling or formatting, etc.)&lt;/li&gt;
+&lt;li&gt;Standardize when possible&lt;/li&gt;
+&lt;li&gt;Treat NULL values&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;common-mistakes&#34;&gt;Common mistakes&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;never-modify-your-original-data&#34;&gt;Never modify your original data&lt;/h2&gt;
+&lt;p&gt;Always make a copy before making changes&lt;/p&gt;
+&lt;p&gt;Back up your files&lt;/p&gt;
+&lt;p&gt;Keep track of all the steps&lt;/p&gt;
+&lt;p&gt;Save your files in the &lt;code&gt;UTF-8&lt;/code&gt; encoding&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Seth van Hooland, Ruben Verborgh, and Max De Wilde, &#34;Cleaning Data with OpenRefine,&#34; Programming Historian 2 (2013), &lt;a href=&#34;https://doi.org/10.46430/phen0023&#34;&gt;https://doi.org/10.46430/phen0023&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;always-describe-your-data&#34;&gt;Always describe your data&lt;/h2&gt;
+&lt;p&gt;Document everything necessary to understand what is in the dataset and how to use it&lt;/p&gt;
+&lt;p&gt;Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The who, what, when, where, and how of data collection&lt;/li&gt;
+&lt;li&gt;How to find and access the data&lt;/li&gt;
+&lt;li&gt;Suggestions on the suitability of the data for answering specific questions&lt;/li&gt;
+&lt;li&gt;Warnings about known problems or inconsistencies in the data&lt;/li&gt;
+&lt;li&gt;Information to check that the data are properly imported&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;use-standard-table-formats&#34;&gt;Use standard table formats&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Every variable must have a separate column&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;use-standard-table-formats-1&#34;&gt;Use standard table formats&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Every observation must have a separate row&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;use-standard-table-formats-2&#34;&gt;Use standard table formats&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Every cell should contain a single data value&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;avoid-aggregating-comments-and-other-information-with-data&#34;&gt;Avoid aggregating comments and other information with data&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Examples: comments placed within data cells, measurement units included in data cells, entering more than one type of information in a cell, including metadata in the table, etc.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;avoid-aggregating-comments-and-other-information-with-data-1&#34;&gt;Avoid aggregating comments and other information with data&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Add units to the column title or into a separate column&lt;/p&gt;
+        &lt;p&gt;Add information to a separate column&lt;/p&gt;
+        &lt;p&gt;Add metadata in a separate document&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;do-not-use-formatting-to-convey-information&#34;&gt;Do not use formatting to convey information&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Example: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;do-not-use-formatting-to-convey-information-1&#34;&gt;Do not use formatting to convey information&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Add units to the column title or into a separate column&lt;/p&gt;
+        &lt;p&gt;Add information to a separate column&lt;/p&gt;
+        &lt;p&gt;Add metadata in a separate document&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;do-not-use-multiple-tables-nor-tabs&#34;&gt;Do not use multiple tables nor tabs&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Multiple data tables or tabs within a single spreadsheet&lt;/p&gt;
+        &lt;p&gt;If possible, combine everything into one table, or store each table in a separate file&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;do-not-use-special-characters&#34;&gt;Do not use special characters&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Whenever possible, avoid special characters in column headings and text: / \: * . ? ‘ &lt; &gt; [ ] ( ) &amp; $ æÆøØåÅäÄ&lt;/p&gt;
+        &lt;p&gt;Always avoid using spaces in column headings - instead, use underscores or CamelCase&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;be-consistent&#34;&gt;Be consistent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dates displayed in many different formats (e.g. &amp;ldquo;12 July 2024&amp;rdquo;, &amp;ldquo;12/07/2024&amp;rdquo;, &amp;ldquo;12-07-2024&amp;rdquo;, etc.)&lt;/li&gt;
+&lt;li&gt;Names displayed in many different variants (e.g. &amp;ldquo;Alessandro Manzoni&amp;rdquo;, &amp;ldquo;A. Manzoni&amp;rdquo;, &amp;ldquo;Manzoni&amp;rdquo;, &amp;ldquo;Manzoni, Alessandro&amp;rdquo;, etc.)&lt;/li&gt;
+&lt;li&gt;Use international standard formats (e.g. &lt;code&gt;YYYY-MM-DD&lt;/code&gt; for dates)&lt;/li&gt;
+&lt;li&gt;Use authority records for names (e.g. &lt;a href=&#34;http://viaf.org/viaf/14356&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Be consistent in your capitalization of words, choice of delimiters, and naming conventions for variables&lt;/li&gt;
+&lt;li&gt;Avoid using your delimiter in the data itself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;eliminate-redundancy-with-caution&#34;&gt;Eliminate redundancy (with caution!)&lt;/h2&gt;
+&lt;p&gt;Includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicates&lt;/li&gt;
+&lt;li&gt;Irrelevant observations&lt;/li&gt;
+&lt;li&gt;Incomplete data&lt;/li&gt;
+&lt;li&gt;Invalid data&lt;/li&gt;
+&lt;li&gt;Conflicting data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s all &lt;strong&gt;interpretation&lt;/strong&gt;: consider whether an observation or a column should be removed or not!&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;always-treat-null-values&#34;&gt;Always treat NULL values&lt;/h2&gt;
+&lt;p&gt;Use a consistent way that is compatible and unlikely to cause errors (e.g. blank)&lt;/p&gt;
+&lt;p&gt;Consider that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It can be difficult to know if a value is missing or was overlooked during data entry&lt;/li&gt;
+&lt;li&gt;Blanks can be confusing when spaces or tabs are used as delimiters in text files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;NA&lt;/code&gt; and &lt;code&gt;NULL&lt;/code&gt; are reasonable null values&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;perform-basic-quality-control&#34;&gt;Perform basic quality control&lt;/h2&gt;
+&lt;p&gt;Check for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grammatical errors&lt;/li&gt;
+&lt;li&gt;Inconsistent use of upper and lowercase&lt;/li&gt;
+&lt;li&gt;Inconsistent titles for columns&lt;/li&gt;
+&lt;li&gt;Inconsistent units of measurement, data types (e.g., numeric, character), naming schemes, etc.&lt;/li&gt;
+&lt;li&gt;Out-of-range values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;export-and-share&#34;&gt;Export and share&lt;/h2&gt;
+&lt;p&gt;Use an established and open license to let others know exactly what they can and cannot do with the data (e.g. &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Use open formats to make the data interoperable (e.g. &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), when possible&lt;/p&gt;
+&lt;p&gt;Consider sharing your data on GitHub and/or publishing it on a repository (e.g. &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, etc.) to make it visible, accessible and stable&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;openrefine&#34;&gt;OpenRefine&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-tool-for-tabular-data-cleaning&#34;&gt;A tool for tabular data cleaning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to identify and fix errors&lt;/li&gt;
+&lt;li&gt;Easy to combine data from different sources&lt;/li&gt;
+&lt;li&gt;Does not change the original file&lt;/li&gt;
+&lt;li&gt;All actions are reversible and tracked&lt;/li&gt;
+&lt;li&gt;Documentation can be published alongside the data&lt;/li&gt;
+&lt;li&gt;Workflow can be saved and applied to new datasets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;some-common-scenarios&#34;&gt;Some common scenarios&lt;/h2&gt;
+&lt;p&gt;You want to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Know how many times a particular value appears in a column in your data&lt;/li&gt;
+&lt;li&gt;Know how values are distributed across your whole data set&lt;/li&gt;
+&lt;li&gt;Normalize dates which are formatted in different ways, and want to change all the dates in the list to a single common date format&lt;/li&gt;
+&lt;li&gt;Normalize names or terms that differ from each other but refer to the same people, places or concepts&lt;/li&gt;
+&lt;li&gt;Separate bits of data combined together into individual data&lt;/li&gt;
+&lt;li&gt;Align your data to an external data source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;installing-openrefine&#34;&gt;Installing OpenRefine&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Download OpenRefine: &lt;a href=&#34;https://openrefine.org/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openrefine.org/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It should already come with Java Runtime Environment&lt;/li&gt;
+&lt;li&gt;If it does not work, also download and install Java Runtime Environment: &lt;a href=&#34;https://www.java.com/it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.java.com/it/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unzip the downloaded file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Double-click on &lt;code&gt;openrefine.exe&lt;/code&gt; or &lt;code&gt;refine.bat&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Access the interface on a web browser at &lt;a href=&#34;http://127.0.0.1:3333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://127.0.0.1:3333&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creating-a-project&#34;&gt;Creating a project&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-1.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Download the Mythologiae dataset (link in chat)&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Create Project&lt;/em&gt; &gt; &lt;em&gt;This computer&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Choose files&lt;/em&gt; &gt; &lt;code&gt;mythologiae-dataset.csv&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Next&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creating-a-project-1&#34;&gt;Creating a project&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-2a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;em&gt;Parse data as&lt;/em&gt; &gt; &lt;em&gt;CSV / TSV / separator-based files&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Character encoding&lt;/em&gt; &gt; &lt;code&gt;UTF-8&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Select &lt;em&gt;Columns are separated by&lt;/em&gt; &gt; &lt;em&gt;commas (CSV)&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Flag &lt;em&gt;Use character &lt;code&gt;&#34;&lt;/code&gt; to enclose cells containing column separators&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Flag &lt;em&gt;Trim leading &amp; trailing whitespace from strings&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creating-a-project-2&#34;&gt;Creating a project&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-2b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Select &lt;em&gt;Parse next &lt;code&gt;1&lt;/code&gt; line(s) as column headers&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Flag &lt;em&gt;Store blank rows&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Flag &lt;em&gt;Store blank cells as nulls&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Create project&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;the-project-screen&#34;&gt;The project screen&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-3a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Permalink&lt;/code&gt; allows you to return to a project at a specific view state, with facets and filters applied, by putting view-specific information directly into the URL&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-project-screen-1&#34;&gt;The project screen&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-3b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Open&lt;/code&gt; opens up a new browser tab showing the Create Project screen to change settings, start a new project, or open an existing project&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Export&lt;/code&gt; allows you to pick a format for exporting a dataset&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Help&lt;/code&gt; will open up a new browser tab and bring you to this user manual on the web&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;the-grid-screen&#34;&gt;The grid screen&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-4.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Where the data of your project is displayed in a tabular format&lt;/li&gt;
+        &lt;li&gt;Number of total rows&lt;/li&gt;
+        &lt;li&gt;Rows mode vs. records mode&lt;/li&gt;
+        &lt;li&gt;Number of rows / records visible on screen at one time&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;facetfilter&#34;&gt;Facet/Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-5.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Main ways to explore your data, by displaying patterns, trends and subgroups&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Refresh&lt;/code&gt; updates each facet with the latest information&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Reset all&lt;/code&gt; resets all facets without removing them&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Remove all&lt;/code&gt; removes all facets&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;undoredo&#34;&gt;Undo/Redo&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-6.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Project&#39;s history as a list of changes in order&lt;/li&gt;
+        &lt;li&gt;Autosave every 5 minutes and when closing with &lt;code&gt;CTRL + C&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Any activity that changes the data can be undone&lt;/li&gt;
+        &lt;li&gt;The change history of each project is saved with the project itself&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;row-mode-record-mode&#34;&gt;Row mode, record mode&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-7a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;: a series of cells, one cell per column&lt;/li&gt;
+        &lt;li&gt;Sometimes, there are multiple pieces of information in one cell (e.g. &lt;code&gt;dcho_keyword&lt;/code&gt;)&lt;/li&gt;
+        &lt;li&gt;In those cases, if you successfully split these values, you can use OpenRefine&#39;s &lt;strong&gt;records mode&lt;/strong&gt; to visualize them correctly&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;row-mode-record-mode-1&#34;&gt;Row mode, record mode&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-7b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt;: a collection of one or more rows&lt;/li&gt;
+        &lt;li&gt;The multiple pieces of information in one cell (e.g. &lt;code&gt;dcho_keyword&lt;/code&gt;), once split, are visualized each in a different row, but belong to the same record&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;explore-data-with-facets&#34;&gt;Explore data with Facets&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Facet&lt;/strong&gt;: an aspect of data variance in a column&lt;/p&gt;
+&lt;p&gt;Gives a big picture look at the data&lt;/p&gt;
+&lt;p&gt;Allows further operations, like filtering and clustering&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;explore-data-with-facets-1&#34;&gt;Explore data with Facets&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Typically, you create a facet on a particular column&lt;/li&gt;
+        &lt;li&gt;Click on the &lt;em&gt;triangle&lt;/em&gt; in front of the column name (e.g. &lt;code&gt;dcho_theme&lt;/code&gt;)&lt;/li&gt;
+        &lt;li&gt;Select &lt;em&gt;Facet&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Select a Facet of your choice (e.g. &lt;em&gt;Text facet&lt;/em&gt;)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-facet&#34;&gt;Text facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Takes the total contents of the cells of the column in question and matches them up&lt;/li&gt;
+        &lt;li&gt;Sort by name or count&lt;/li&gt;
+        &lt;li&gt;Mass-edit every identical cell in the column&lt;/li&gt;
+        &lt;li&gt;Great way to have a look at the data and fix typos, whitespace, etc.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-facet-1&#34;&gt;Text facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Multiple facets are stacked on the top of each other (e.g. &lt;code&gt;cho_author&lt;/code&gt; is added)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter&#34;&gt;Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Filters can be added on a column&lt;/li&gt;
+        &lt;li&gt;Useful for identifying precise pieces of data&lt;/li&gt;
+        &lt;li&gt;Click on the arrow and select &lt;em&gt;Text filter&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter-1&#34;&gt;Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;The filter share the same space with the facets&lt;/li&gt;
+        &lt;li&gt;Type in the text you are searching for (e.g. &#34;edipo&#34;)&lt;/li&gt;
+        &lt;li&gt;Case-insensitive by default&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter-with-facets&#34;&gt;Filter with Facets&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;You can also filter through facets&lt;/li&gt;
+        &lt;li&gt;Click on any entry in a filter (e.g. &#34;Allston, Washington&#34; in the &lt;code&gt;cho_author&lt;/code&gt; facet)&lt;/li&gt;
+        &lt;li&gt;Only the rows with that value are shown&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter-with-facets-1&#34;&gt;Filter with Facets&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8g.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;You can use multiple facets to enhance filtering&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter-with-facets-2&#34;&gt;Filter with facets&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8h.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;You can use customized facets for certain effects (e.g. filter in rows with blank cells)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sorting&#34;&gt;Sorting&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8i.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Determine the order in which rows are shown based on certain conditions&lt;/li&gt;
+        &lt;li&gt;Click on the arrow and select &lt;em&gt;Sort&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sorting-1&#34;&gt;Sorting&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8l.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Select how to treat the cell values during sorting (e.g. if they are dates, you most likely want to select &lt;em&gt;dates&lt;/em&gt;)&lt;/li&gt;
+        &lt;li&gt;You can also select the sorting order&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;OK&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;clustering&#34;&gt;Clustering&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8m.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;A great way to fix inconsistencies found with facets&lt;/li&gt;
+        &lt;li&gt;Uses a variety of comparison methods to find text entries that are similar but not exact, then shares those results with you so that you can merge the cells that should match&lt;/li&gt;
+        &lt;li&gt;Create a facet&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Cluster&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;clustering-1&#34;&gt;Clustering&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8n.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Click on &lt;em&gt;Cluster&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Experiment with different algorithms to detect different clusters&lt;/li&gt;
+        &lt;li&gt;For each cluster, you can merge the values by replacing them with a single consistent value&lt;/li&gt;
+        &lt;li&gt;By default, the most common value in the cluster is used as the new value, but you can change it&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;clustering-2&#34;&gt;Clustering&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8o.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Experiment with different algorithms to detect different clusters&lt;/li&gt;
+        &lt;li&gt;For each cluster, you can merge the values by flagging &lt;em&gt;Merge?&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Merge selected &amp; re-cluster&lt;/em&gt; to check, and &lt;em&gt;Merge selected &amp; Close&lt;/em&gt; to finish&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;cell-editing&#34;&gt;Cell editing&lt;/h2&gt;
+&lt;p&gt;OpenRefine offers a number of features to edit and improve the contents of cells automatically and efficiently&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editing through a text facet: click on &lt;em&gt;Edit&lt;/em&gt; to the right of the facet, and type in a new value&lt;/li&gt;
+&lt;li&gt;Using a find/replace function: select &lt;em&gt;Edit cells&lt;/em&gt; &amp;gt; &lt;em&gt;Replace&lt;/em&gt; to input a string to search and a string to replace it with&lt;/li&gt;
+&lt;li&gt;Editing individual cells: hover over a cell and click on &lt;em&gt;Edit&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;splitting&#34;&gt;Splitting&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Sometimes a cell can contain multiple values (e.g. &lt;code&gt;dcho_keyword&lt;/code&gt; column: multiple values separated by commas &lt;code&gt;,&lt;/code&gt;)&lt;/li&gt;
+        &lt;li&gt;Click on the arrow and select &lt;em&gt;Edit cells&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Select &lt;em&gt;Split multi-valued cells&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;splitting-1&#34;&gt;Splitting&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;You can decide how to split the cells&lt;/li&gt;
+        &lt;li&gt;Ideally, you should always use a separator (e.g. &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, etc.)&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;OK&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;transforming&#34;&gt;Transforming&lt;/h2&gt;
+&lt;p&gt;A powerful way to enforce changes that cannot be achieved through simple facets, filters or clusters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;trimming leading and trailing whitespaces&lt;/li&gt;
+&lt;li&gt;splitting data into multiple columns&lt;/li&gt;
+&lt;li&gt;removing punctuation&lt;/li&gt;
+&lt;li&gt;standardising a data format&lt;/li&gt;
+&lt;li&gt;extracting a particular type of data from a textual string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Can be either preset or written ad-hoc in a language called GREL&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconciliation&#34;&gt;Reconciliation&lt;/h2&gt;
+&lt;p&gt;Semi-automated process of matching data with external sources&lt;/p&gt;
+&lt;p&gt;External sources must offer a compliant web service in order to work&lt;/p&gt;
+&lt;p&gt;Useful for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixing spelling or variations in proper names&lt;/li&gt;
+&lt;li&gt;Cleaning up manually-entered values against authority files&lt;/li&gt;
+&lt;li&gt;Linking your data to an existing dataset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Human judgment is required to review and approve the results&lt;/p&gt;
+&lt;p&gt;Happens by default through string searching&lt;/p&gt;
+&lt;p&gt;Clean and cluster data before reconciling&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconciliation-1&#34;&gt;Reconciliation&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Click on the arrow and select &lt;em&gt;Reconcile&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;Select &lt;em&gt;Start reconciling&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconciliation-2&#34;&gt;Reconciliation&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Select the reconciliation service (e.g. &lt;code&gt;VIAF&lt;/code&gt;)&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Next&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconciliation-3&#34;&gt;Reconciliation&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Depending on the column and the reconciliation service selected, choose the type of entity you want to reconcile (e.g. &lt;code&gt;Person&lt;/code&gt;)&lt;/li&gt;
+        &lt;li&gt;Click on &lt;em&gt;Start reconciling&lt;/em&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconciliation-4&#34;&gt;Reconciliation&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Some cell values are reconciled directly (e.g. &lt;em&gt;Houdon, Jean Antoine&lt;/em&gt;)&lt;/li&gt;
+        &lt;li&gt;Others need manual validation (e.g. &lt;em&gt;Gérard, Francois Baron&lt;/em&gt;)&lt;/li&gt;
+        &lt;li&gt;Click on the &lt;em&gt;single check&lt;/em&gt; to reconciliate only in that cell, or the &lt;em&gt;double check&lt;/em&gt; to extend it to all identical cells&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-to-do&#34;&gt;What to do&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;dcho_theme&#34;&gt;dcho_theme&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set a common separator (&lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Split&lt;/li&gt;
+&lt;li&gt;Cluster&lt;/li&gt;
+&lt;li&gt;Edit (e.g. keep only the last value if there is a hierarchy, delete &amp;ldquo;Non categoria&amp;rdquo;, etc.)&lt;/li&gt;
+&lt;li&gt;Standardize when possible (see &lt;a href=&#34;&#34;&gt;Iconclass&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;sign in Iconclass&lt;/li&gt;
+&lt;li&gt;search for the theme&lt;/li&gt;
+&lt;li&gt;choose the most appropriate option&lt;/li&gt;
+&lt;li&gt;replace the existing theme in the dataset with the ID of the option found&lt;/li&gt;
+&lt;li&gt;e.g. L&amp;rsquo;Enigma della Sfinge → &lt;code&gt;94T33&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. Eracle cattura il cinghiale di Erimanto → &lt;code&gt;94L324&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_century&#34;&gt;cho_century&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set a common separator (&lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Edit&lt;/li&gt;
+&lt;li&gt;Standardize (see &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;e.g. II century → &lt;code&gt;0100-01-01/0199-12-31&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. II century B.C. → &lt;code&gt;-0199-01-01/-0100-12-31&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_date&#34;&gt;cho_date&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set a common separator (&lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Edit (e.g. remove &amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, etc.)
+&lt;ul&gt;
+&lt;li&gt;Uncertainty (&amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, etc.) has to be expressed in a separate column &lt;code&gt;cho_date_uncertainty&lt;/code&gt; which only accepts &lt;code&gt;True&lt;/code&gt; (yes) or &lt;code&gt;False&lt;/code&gt; (no)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Standardize (see &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;e.g. 460 B.C. → &lt;code&gt;-0460&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. 550-530 B.C. → &lt;code&gt;-0550/-0530&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. 1705-1706 → &lt;code&gt;1705/1706&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_sources_classic&#34;&gt;cho_sources_classic&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set a common separator (&lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Edit (e.g. remove citations that are not in canonical form)
+&lt;ul&gt;
+&lt;li&gt;Non-canonical citations should be saved in a separate column &lt;code&gt;cho_sources_other&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Standardize
+&lt;ul&gt;
+&lt;li&gt;Look for the citation on &lt;a href=&#34;https://www.perseus.tufts.edu/hopper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perseus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;e.g. Apollodoro, Biblioteca, II 5 → &lt;code&gt;Apollod. 2.5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;e.g. Omero, Odissea, XI vv.601-604 → &lt;code&gt;Hom. Od. 11.601&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;other-data&#34;&gt;Other data&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All: check for NULL values, fix typos, replace separators with &lt;code&gt;|&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dcho_keyword&lt;/code&gt;: Split, Cluster, Edit&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_title&lt;/code&gt;: Edit&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_author&lt;/code&gt;: Cluster, Edit, Reconcile with VIAF (Person)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_period&lt;/code&gt;: Cluster, Edit&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_type&lt;/code&gt;: Cluster, Edit&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_location&lt;/code&gt;: Cluster, Edit, Reconcile with VIAF (Organization)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;There is already a lot you can do to increase data quality&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore data by using facets, filters and sorting&lt;/li&gt;
+&lt;li&gt;Transform data by single- and mass-editing, clustering and replacing&lt;/li&gt;
+&lt;li&gt;Reconcile data with external sources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Try and experiment! You are working on a copy, and you can alyaws trace back&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>AI and chatbots as a storytelling tool to personalize the visitor experience. The case of National Museum of Ravenna.</title>
-      <link>https://sebastianbarzaghi.github.io/publication/fabbri-ai-nodate/</link>
-      <pubDate>Wed, 20 Dec 2023 13:33:27 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/fabbri-ai-nodate/</guid>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/publication/barzaghi-thinking-2024-1/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barzaghi-thinking-2024-1/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Introduction to Linked (Open) Data</title>
-      <link>https://sebastianbarzaghi.github.io/post/intro-linked-open-data/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/post/intro-linked-open-data/</guid>
-      <description>&lt;p&gt;text&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;par&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello world&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
-
-&lt;pre&gt;- Mindmaps
-  - Links
-    - [Wowchemy Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div id=&#34;chart-827514396&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-827514396&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-
-&lt;div class=&#34;mermaid&#34;&gt;graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-&lt;/div&gt;
-&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-&lt;/div&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/div&gt;
-&lt;div class=&#34;mermaid&#34;&gt;classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--&gt; C2: Cool label
-&lt;/div&gt;
-&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
-[*] --&gt; Still
-Still --&gt; [*]
-Still --&gt; Moving
-Moving --&gt; Still
-Moving --&gt; Crash
-Crash --&gt; [*]
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-&lt;table class=&#34;table&#34;&gt;
-  
+      <title>Cultural Heritage Acquisition and Digitisation Application Profile (CHAD-AP)</title>
+      <link>http://localhost:1313/project/chad-ap/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/chad-ap/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes</title>
+      <link>http://localhost:1313/publication/barzaghi-developing-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barzaghi-developing-2024/</guid>
+      <description></description>
+    </item>
     
-    &lt;tr&gt;  &lt;th&gt;customer_id&lt;/th&gt;  &lt;th&gt;score&lt;/th&gt;  &lt;/tr&gt;
-  
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;0&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;2&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;text&#34;&gt;0.5&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;3&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-  
-    &lt;caption&gt;Table 1: My results&lt;/caption&gt;
-  
-&lt;/table&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
-  &lt;p&gt;You found me!&lt;/p&gt;
-&lt;/details&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h2 id=&#34;organize-your-notebooks&#34;&gt;Organize your notebooks&lt;/h2&gt;
-&lt;p&gt;Place the notebooks that you would like to publish in a &lt;code&gt;notebooks&lt;/code&gt; folder at the root of your website.&lt;/p&gt;
-&lt;h2 id=&#34;import-the-notebooks-into-your-site&#34;&gt;Import the notebooks into your site&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pipx install academic
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;academic import &lt;span class=&#34;s1&#34;&gt;&amp;#39;notebooks/**.ipynb&amp;#39;&lt;/span&gt; content/post/ --verbose
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Jonathan Blaney, &amp;ldquo;Introduction to the Principles of Linked Open Data,&amp;rdquo; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan &amp;amp; Claypool.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
+    <item>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/publication/barzaghi-thinking-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barzaghi-thinking-2024/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
-      <link>https://sebastianbarzaghi.github.io/publication/balzani-saving-2023/</link>
+      <link>http://localhost:1313/publication/balzani-saving-2024/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/balzani-saving-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritage Risk Assessment Ontology (HeRO)</title>
+      <link>http://localhost:1313/project/hero/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/publication/balzani-saving-2023/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/balzani-saving-2023/</guid>
+      <guid>http://localhost:1313/publication/balzani-saving-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI and chatbots as a storytelling tool to personalize the visitor experience. The case of National Museum of Ravenna.</title>
+      <link>http://localhost:1313/publication/fabbri-ai-nodate/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fabbri-ai-nodate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digitisation of Temporary Exhibitions: the Aldrovandi Case</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-digitisation-2023/</link>
+      <link>http://localhost:1313/publication/barzaghi-digitisation-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-digitisation-2023/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-digitisation-2023/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Introduction to Linked Open Data</title>
-      <link>https://sebastianbarzaghi.github.io/slides/introduction-lod-it/</link>
+      <title>DHDMCH - Introduzione</title>
+      <link>http://localhost:1313/slides/dhdmch-00/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/slides/introduction-lod-it/</guid>
-      <description>&lt;h1 id=&#34;introduction-to-linked-open-data&#34;&gt;Introduction to Linked (Open) Data&lt;/h1&gt;
-&lt;p&gt;Sebastian Barzaghi&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/slides/dhdmch-00/</guid>
+      <description>&lt;h1 id=&#34;introduzione&#34;&gt;Introduzione&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;linked-data-definition&#34;&gt;Linked Data: definition&lt;/h2&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;ul&gt;
-&lt;li&gt;A way of publishing structured data so that they can be interlinked, and be processed by machines, so as to make it possible to formulate semantic queries that will yield richer information&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;ul&gt;
-&lt;li&gt;Linked &lt;strong&gt;Open&lt;/strong&gt; Data: linked data that is freely and publicly available (open content)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;ul&gt;
-&lt;li&gt;New opportunities for publishing and re-using digital research output&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
+&lt;h2 id=&#34;piacere&#34;&gt;Piacere!&lt;/h2&gt;
+&lt;p&gt;Ricercatore presso il Dipartimento di Beni Culturali dell&amp;rsquo;Università di Bologna&lt;/p&gt;
+&lt;p&gt;Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (DHDK) presso l&amp;rsquo;Università di Bologna&lt;/p&gt;
+&lt;p&gt;Attualmente lavoro presso il laboratorio di ricerca FrameLAB e collaboro con altre realtà (es. DHARC)&lt;/p&gt;
+&lt;p&gt;Faccio ricerca su come il Semantic Data Modeling e l&amp;rsquo;Open Science possano migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;linked-data-main-concepts&#34;&gt;Linked Data: main concepts&lt;/h2&gt;
+&lt;h2 id=&#34;cosa-vi-aspettate&#34;&gt;Cosa vi aspettate?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdL-MvkTUYg3f5AJemIt3n_b2lwUGa1TCYvR_dHAq1mTZwY6w/viewform?usp=sf_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/forms/d/e/1FAIpQLSdL-MvkTUYg3f5AJemIt3n_b2lwUGa1TCYvR_dHAq1mTZwY6w/viewform?usp=sf_link&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;domanda-1&#34;&gt;Domanda 1?&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=2034172206&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;domanda-2&#34;&gt;Domanda 2?&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1663746687&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;domanda-3&#34;&gt;Domanda 3?&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1258476252&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;domanda-4&#34;&gt;Domanda 4?&lt;/h1&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/1iBenuiP7MlSU6YxDSXTRw9M8zLJ4fSRsgfKnh-LrKAw/pubchart?oid=1829626366&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;informazioni-preliminari&#34;&gt;Informazioni preliminari&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Obiettivi&lt;/strong&gt;: fornire competenze e strumenti pratici per l’ideazione, gestione e pubblicazione di risorse digitali riguardanti i beni culturali e basate su dati di ambito umanistico&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Temi&lt;/strong&gt;: Digital Humanities, Gestione dei dati, Modellazione dei dati, Open Science, &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Risultati&lt;/strong&gt;: progetti &lt;em&gt;vostri&lt;/em&gt; che testimoniano le competenze acquisite&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;regole&#34;&gt;Regole&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Materiale integrativo, gratuito e accessibile&lt;/strong&gt;: i libri e gli articoli sono pensati per essere un accompagnamento alle lezioni e saranno resi disponibili sulla piattaforma istituzionale Virtuale e nella repository GitHub&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Presenza fortemente consigliata&lt;/strong&gt;: per i non frequentanti ci sarà solo più materiale da studiare; frequentanti: non abbiate paura ad interagire e a fare domande&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Progetto finale&lt;/strong&gt;: vi verranno forniti dettagli più avanti, ma per il momento sappiate che la natura dell’esame non sarà negoziabile, ma solo il suo contenuto&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;organizzazione-del-corso&#34;&gt;Organizzazione del corso&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;U&lt;/strong&gt;niform &lt;strong&gt;R&lt;/strong&gt;esource &lt;strong&gt;I&lt;/strong&gt;dentifiers (&lt;strong&gt;URI&lt;/strong&gt;): character strings that are used to identify a web resource&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt;esource &lt;strong&gt;D&lt;/strong&gt;escription &lt;strong&gt;F&lt;/strong&gt;ramework (&lt;strong&gt;RDF&lt;/strong&gt;): a graph model for data representation and interchange on the Web, based on the &lt;em&gt;triple&lt;/em&gt; structure&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ontology&lt;/strong&gt;: a data structure that formally describes a finite set of concepts and the relationships between them&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SPARQL&lt;/strong&gt;: a semantic query language for graph databases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386/orariolezioni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;15 lezioni&lt;/a&gt; (lunedì, mercoledì, giovedì)&lt;/li&gt;
+&lt;li&gt;2 ore per lezione&lt;/li&gt;
+&lt;li&gt;~ 7 moduli&lt;/li&gt;
+&lt;li&gt;Una sessione teorica e una sessione pratica per ogni modulo&lt;/li&gt;
+&lt;li&gt;1 pausa di 10 minuti (concordiamo su quando)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Lunedì: Aula 2&lt;/li&gt;
+&lt;li&gt;Mercoledì e giovedì: Laboratorio informatico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Come&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;Virtuale&lt;/li&gt;
+&lt;li&gt;Registrazioni&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;h2 id=&#34;organizzazione-del-corso-1&#34;&gt;Organizzazione del corso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cosa&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;Cosa sono le Digital Humanities?&lt;/li&gt;
+&lt;li&gt;Cosa sono i dati umanistici?&lt;/li&gt;
+&lt;li&gt;Cos&amp;rsquo;è l&amp;rsquo;Open Science?&lt;/li&gt;
+&lt;li&gt;Cosa sono i Linked Open Data?&lt;/li&gt;
+&lt;li&gt;Cos&amp;rsquo;è il Data Management?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Pianificare&lt;/li&gt;
+&lt;li&gt;Raccogliere&lt;/li&gt;
+&lt;li&gt;Processare&lt;/li&gt;
+&lt;li&gt;Analizzare&lt;/li&gt;
+&lt;li&gt;Descrivere&lt;/li&gt;
+&lt;li&gt;Pubblicare&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;/aside&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Come fare tutto questo?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;esame&#34;&gt;Esame&lt;/h2&gt;
+&lt;p&gt;Un progetto originale di &lt;em&gt;gestione dei dati&lt;/em&gt; correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub)&lt;/p&gt;
+&lt;p&gt;Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nel repository GitHub&lt;/p&gt;
+&lt;p&gt;Gli studenti potranno lavorare al progetto individualmente o in gruppo (massimo 3 persone)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;preparazione-allesame&#34;&gt;Preparazione all&amp;rsquo;esame&lt;/h2&gt;
+&lt;p&gt;Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode)&lt;/p&gt;
+&lt;p&gt;Nelle sessioni pratiche, lavoreremo assieme su un &lt;em&gt;progetto giocattolo&lt;/em&gt; di gestione dei dati in cui io parteciperò attivamente e voi avrete già modo di sperimentare con gli strumenti e i metodi che vi presenterò a lezione&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;valutazione&#34;&gt;Valutazione&lt;/h2&gt;
+&lt;p&gt;Il contributo personale di ciascuna persona e la conoscenza degli argomenti del corso saranno valutati durante il colloquio orale&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;50% (valutazione negativa): preparazione non adeguata in nessun aspetto del progetto&lt;/li&gt;
+&lt;li&gt;51-70% (valutazione sufficiente): preparazione accettabile in almeno uno degli aspetti del progetto (punteggio compreso tra 18/30 e 23/30)&lt;/li&gt;
+&lt;li&gt;71-90% (valutazione positiva): preparazione adeguata in tutti gli aspetti del progetto (punteggio compreso tra 24/30 e 27/30)&lt;/li&gt;
+&lt;li&gt;91-100% (valutazione eccellente): ottima preparazione in tutte le parti della verifica e possiede significative capacità di elaborazione critica degli argomenti trattati (punteggio compreso tra 28/30 e 30/30)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;valutazione-1&#34;&gt;Valutazione&lt;/h2&gt;
+&lt;p&gt;Ad un certo punto, anche voi dovrete valutare me :P&lt;/p&gt;
+&lt;p&gt;Vi prego di essere quanto più correttti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;raccomandazioni-finali&#34;&gt;Raccomandazioni finali&lt;/h2&gt;
+&lt;p&gt;Affrontare cose nuove è sempre difficile, quindi non preoccupatevi se il corso può sembrare complicato: lo è, perché di base si tratta di tematiche difficili, ma l&amp;rsquo;ho pensato cercando di renderlo accessibile ai non addetti ai lavori (perchiò una vostra valutazione onesta è assolutamente fondamentale)&lt;/p&gt;
+&lt;p&gt;Se fatte in buona fede, non esistono domande stupide&lt;/p&gt;
+&lt;p&gt;Nel dubbio, chiedete sempre: a seconda della domanda, potrei aver bisogno di tempo per darvi una risposta sensata, quindi nel caso abbiate un po&amp;rsquo; di pazienza :P&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/project/moro/</link>
+      <link>http://localhost:1313/project/moro/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/project/moro/</guid>
+      <guid>http://localhost:1313/project/moro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Controlled vocabulary of Aldo Moro&#39;s roles</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-controlled-2021/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-controlled-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Controlled vocabulary of Aldo Moro&#39;s works subjects</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021-1/</link>
+      <link>http://localhost:1313/publication/barzaghi-controlled-2021-1/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021-1/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-controlled-2021-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Controlled vocabulary of Aldo Moro&#39;s works types</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021-2/</link>
+      <link>http://localhost:1313/publication/barzaghi-controlled-2021-2/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-controlled-2021-2/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-controlled-2021-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021-2/</link>
+      <link>http://localhost:1313/publication/barzaghi-source-2021-2/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021-2/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-source-2021-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021-1/</link>
+      <link>http://localhost:1313/publication/barzaghi-source-2021-1/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021-1/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-source-2021-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-national-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-national-2021/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-national-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-national-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-source-2021/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-source-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-source-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Protocol of the competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-protocol-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-protocol-2021/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-protocol-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-protocol-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>La modellazione dei dati nell&#39;Edizione Nazionale delle Opere di Aldo Moro</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-modellazione-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-modellazione-2021/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-modellazione-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-modellazione-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-benchmark-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-benchmark-2021/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-benchmark-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-benchmark-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-competitive-2021/</link>
+      <link>http://localhost:1313/publication/barzaghi-competitive-2021/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-competitive-2021/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-competitive-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medieval Manuscript Ontology (MeMO)</title>
-      <link>https://sebastianbarzaghi.github.io/project/memo/</link>
+      <link>http://localhost:1313/project/memo/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/project/memo/</guid>
+      <guid>http://localhost:1313/project/memo/</guid>
       <description>&lt;p&gt;MeMO, the Medieval Manuscripts Ontology, is an OWL 2 DL ontology that aims to provide a framework for the formal description of the medieval codices and manuscripts described in the Project IRNERIO catalogue and the relations that exist between them. It is centered on a set of concepts (codex, manuscript, folio, text and gloss), which have been precisely defined via the Functional Requirements for Bibliographic Records (FRBR) standard in order to model such complexity in an accurate and logically consistent structure. The model thus becomes able to cover multiple use cases and scenarios in proportion to how many requirements have been adequately met.&lt;/p&gt;
 &lt;p&gt;While developing MeMO, a high priority has been given to the goal of reaching a sound balance between precision (to satisfy the user’s needs) and coverage (to ensure a certain degree of extensibility and reuse) of the model. Ultimately, the idea behind the development of MeMO has been to provide a data model for representing the aforementioned collection of medieval codices and manuscripts according to certain requirements and with the possibility to extend it for representing similar resources that exist in other collections.&lt;/p&gt;
 &lt;p&gt;FRBR allows a holistic perspective about the resource, on multiple levels of conceptualization, by breaking down the semantic and conceptual ambiguities related to objects created by human hands into different but related and layered concepts and by allowing the description of an artifact and its relations with other entities to be more expressive, precise and dynamic. Nonetheless, FRBR has some limitations. Even though the definitions of its concepts are quite straightforward, FRBR is not easily understood by the common user, who finds the terms work, expression, manifestation and item not very clear.&lt;/p&gt;
@@ -464,33 +1184,33 @@ Crash --&gt; [*]
     
     <item>
       <title>Development of an ontology for modelling medieval manuscripts: the case of Progetto IRNERIO</title>
-      <link>https://sebastianbarzaghi.github.io/publication/barzaghi-development-2020/</link>
+      <link>http://localhost:1313/publication/barzaghi-development-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/barzaghi-development-2020/</guid>
+      <guid>http://localhost:1313/publication/barzaghi-development-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
-      <link>https://sebastianbarzaghi.github.io/publication/tomasi-vespasiano-2020/</link>
+      <link>http://localhost:1313/publication/tomasi-vespasiano-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/tomasi-vespasiano-2020/</guid>
+      <guid>http://localhost:1313/publication/tomasi-vespasiano-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conformità all&#39;Open Access delle riviste pubblicate dall&#39;Università di Bologna</title>
-      <link>https://sebastianbarzaghi.github.io/publication/auddino-conformita-2019/</link>
+      <link>http://localhost:1313/publication/auddino-conformita-2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/auddino-conformita-2019/</guid>
+      <guid>http://localhost:1313/publication/auddino-conformita-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Protocollo di Conformità di Riviste Scientifiche all Open Access</title>
-      <link>https://sebastianbarzaghi.github.io/publication/cavestri-protocollo-2019/</link>
+      <link>http://localhost:1313/publication/cavestri-protocollo-2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://sebastianbarzaghi.github.io/publication/cavestri-protocollo-2019/</guid>
+      <guid>http://localhost:1313/publication/cavestri-protocollo-2019/</guid>
       <description></description>
     </item>
     

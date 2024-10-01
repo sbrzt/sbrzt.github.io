@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5609693425197255918.png">
+
+  <link rel="canonical" href="http://localhost:1313/slides/data-cleaning-openrefine/">
+
+  <title>Cleaning data with OpenRefine | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="humanities-data-cleaning">Humanities Data Cleaning</h1>
+<h4 id="a-soft-introduction-to-data-cleaning-with-openrefine">A soft introduction to Data Cleaning with OpenRefine</h4>
+<p>Sebastian Barzaghi |
+<a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> |
+<a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="what-is-humanities-data">What is humanities data?</h2>
+<p>Any value assigned to something that can be quantified, qualified or interpreted in some way to be used as an informative evidence</p>
+<p>Numbers, words, images, videos, photos, audio records, interviews, manuscripts, notes, collections&hellip;</p>
+<div class="footer">
+  Gualandi, B., Pareschi, L., & Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. <a href="https://doi.org/10.1108/JD-07-2022-0146">https://doi.org/10.1108/JD-07-2022-0146</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="to-be-useful-data-should-be-organized">To be useful, data should be organized</h2>
+<p>To be understood by yourself in the future</p>
+<p>To be machine-readable (Interoperable in FAIR)</p>
+<p>To be understood by others (Reusable in FAIR)</p>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="all-data-is-messy">All data is messy</h2>
+<p>Never take your data at face value</p>
+<p>80% of data analysis is spent on the process of cleaning data and preparing it for further manipulation and analysis</p>
+<p>Cleaning and preparation must be iterative</p>
+<p>Necessary for working with datasets</p>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="a-dataset-is-a-collection-of-data">A dataset is a collection of data</h2>
+<p>Every value belongs to a variable and an observation</p>
+<p>Every variable forms a column</p>
+<p>Every observation forms a row</p>
+<div class="footer">
+  S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. <a href="https://knowingmachines.org/critical-field-guide">https://knowingmachines.org/critical-field-guide</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="data-cleaning-is-hard-but-worth-it">Data cleaning is hard (but worth it)!</h2>
+<ul>
+<li>Prepare the data</li>
+<li>Eliminate redundancy</li>
+<li>Separate or combine values</li>
+<li>Fix errors and inconsistencies (e.g. duplicates, empty values, inconsistent spelling or formatting, etc.)</li>
+<li>Standardize when possible</li>
+<li>Treat NULL values</li>
+</ul>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="common-mistakes">Common mistakes</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="never-modify-your-original-data">Never modify your original data</h2>
+<p>Always make a copy before making changes</p>
+<p>Back up your files</p>
+<p>Keep track of all the steps</p>
+<p>Save your files in the <code>UTF-8</code> encoding</p>
+<div class="footer">
+  Seth van Hooland, Ruben Verborgh, and Max De Wilde, "Cleaning Data with OpenRefine," Programming Historian 2 (2013), <a href="https://doi.org/10.46430/phen0023">https://doi.org/10.46430/phen0023</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="always-describe-your-data">Always describe your data</h2>
+<p>Document everything necessary to understand what is in the dataset and how to use it</p>
+<p>Consider:</p>
+<ul>
+<li>The who, what, when, where, and how of data collection</li>
+<li>How to find and access the data</li>
+<li>Suggestions on the suitability of the data for answering specific questions</li>
+<li>Warnings about known problems or inconsistencies in the data</li>
+<li>Information to check that the data are properly imported</li>
+</ul>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="use-standard-table-formats">Use standard table formats</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="tidy-1.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Every variable must have a separate column</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="use-standard-table-formats-1">Use standard table formats</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="tidy-2.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Every observation must have a separate row</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="use-standard-table-formats-2">Use standard table formats</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="tidy-3.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Every cell should contain a single data value</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="avoid-aggregating-comments-and-other-information-with-data">Avoid aggregating comments and other information with data</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="multiple-info.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Examples: comments placed within data cells, measurement units included in data cells, entering more than one type of information in a cell, including metadata in the table, etc.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="avoid-aggregating-comments-and-other-information-with-data-1">Avoid aggregating comments and other information with data</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="single-info.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Add units to the column title or into a separate column</p>
+        <p>Add information to a separate column</p>
+        <p>Add metadata in a separate document</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="do-not-use-formatting-to-convey-information">Do not use formatting to convey information</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="formatting.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Example: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="do-not-use-formatting-to-convey-information-1">Do not use formatting to convey information</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="good-formatting.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Add units to the column title or into a separate column</p>
+        <p>Add information to a separate column</p>
+        <p>Add metadata in a separate document</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="do-not-use-multiple-tables-nor-tabs">Do not use multiple tables nor tabs</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="multiple-tables.jpg" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Multiple data tables or tabs within a single spreadsheet</p>
+        <p>If possible, combine everything into one table, or store each table in a separate file</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="do-not-use-special-characters">Do not use special characters</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="special-characters.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <p>Whenever possible, avoid special characters in column headings and text: / \: * . ? ‘ < > [ ] ( ) & $ æÆøØåÅäÄ</p>
+        <p>Always avoid using spaces in column headings - instead, use underscores or CamelCase</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="be-consistent">Be consistent</h2>
+<ul>
+<li>Dates displayed in many different formats (e.g. &ldquo;12 July 2024&rdquo;, &ldquo;12/07/2024&rdquo;, &ldquo;12-07-2024&rdquo;, etc.)</li>
+<li>Names displayed in many different variants (e.g. &ldquo;Alessandro Manzoni&rdquo;, &ldquo;A. Manzoni&rdquo;, &ldquo;Manzoni&rdquo;, &ldquo;Manzoni, Alessandro&rdquo;, etc.)</li>
+<li>Use international standard formats (e.g. <code>YYYY-MM-DD</code> for dates)</li>
+<li>Use authority records for names (e.g. <a href="http://viaf.org/viaf/14356" target="_blank" rel="noopener">VIAF</a>)</li>
+<li>Be consistent in your capitalization of words, choice of delimiters, and naming conventions for variables</li>
+<li>Avoid using your delimiter in the data itself</li>
+</ul>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="eliminate-redundancy-with-caution">Eliminate redundancy (with caution!)</h2>
+<p>Includes:</p>
+<ul>
+<li>Duplicates</li>
+<li>Irrelevant observations</li>
+<li>Incomplete data</li>
+<li>Invalid data</li>
+<li>Conflicting data</li>
+</ul>
+<p>It&rsquo;s all <strong>interpretation</strong>: consider whether an observation or a column should be removed or not!</p>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="always-treat-null-values">Always treat NULL values</h2>
+<p>Use a consistent way that is compatible and unlikely to cause errors (e.g. blank)</p>
+<p>Consider that:</p>
+<ul>
+<li>It can be difficult to know if a value is missing or was overlooked during data entry</li>
+<li>Blanks can be confusing when spaces or tabs are used as delimiters in text files</li>
+</ul>
+<p><code>NA</code> and <code>NULL</code> are reasonable null values</p>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="perform-basic-quality-control">Perform basic quality control</h2>
+<p>Check for:</p>
+<ul>
+<li>Grammatical errors</li>
+<li>Inconsistent use of upper and lowercase</li>
+<li>Inconsistent titles for columns</li>
+<li>Inconsistent units of measurement, data types (e.g., numeric, character), naming schemes, etc.</li>
+<li>Out-of-range values</li>
+</ul>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="export-and-share">Export and share</h2>
+<p>Use an established and open license to let others know exactly what they can and cannot do with the data (e.g. <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero (CC0)</a>)</p>
+<p>Use open formats to make the data interoperable (e.g. <a href="https://en.wikipedia.org/wiki/Comma-separated_values" target="_blank" rel="noopener">CSV</a>), when possible</p>
+<p>Consider sharing your data on GitHub and/or publishing it on a repository (e.g. <a href="https://zenodo.org/" target="_blank" rel="noopener">Zenodo</a>, <a href="https://figshare.com/" target="_blank" rel="noopener">Figshare</a>, etc.) to make it visible, accessible and stable</p>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="openrefine">OpenRefine</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="a-tool-for-tabular-data-cleaning">A tool for tabular data cleaning</h2>
+<ul>
+<li>Easy to identify and fix errors</li>
+<li>Easy to combine data from different sources</li>
+<li>Does not change the original file</li>
+<li>All actions are reversible and tracked</li>
+<li>Documentation can be published alongside the data</li>
+<li>Workflow can be saved and applied to new datasets</li>
+</ul>
+<div class="footer">
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="some-common-scenarios">Some common scenarios</h2>
+<p>You want to:</p>
+<ul>
+<li>Know how many times a particular value appears in a column in your data</li>
+<li>Know how values are distributed across your whole data set</li>
+<li>Normalize dates which are formatted in different ways, and want to change all the dates in the list to a single common date format</li>
+<li>Normalize names or terms that differ from each other but refer to the same people, places or concepts</li>
+<li>Separate bits of data combined together into individual data</li>
+<li>Align your data to an external data source</li>
+</ul>
+<div class="footer">
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="installing-openrefine">Installing OpenRefine</h2>
+<ul>
+<li>
+<p>Download OpenRefine: <a href="https://openrefine.org/download.html" target="_blank" rel="noopener">https://openrefine.org/download.html</a></p>
+<ul>
+<li>It should already come with Java Runtime Environment</li>
+<li>If it does not work, also download and install Java Runtime Environment: <a href="https://www.java.com/it/" target="_blank" rel="noopener">https://www.java.com/it/</a></li>
+</ul>
+</li>
+<li>
+<p>Unzip the downloaded file</p>
+</li>
+<li>
+<p>Double-click on <code>openrefine.exe</code> or <code>refine.bat</code></p>
+</li>
+<li>
+<p>Access the interface on a web browser at <a href="http://127.0.0.1:3333" target="_blank" rel="noopener">http://127.0.0.1:3333</a></p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="creating-a-project">Creating a project</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-1.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Download the Mythologiae dataset (link in chat)</li>
+        <li><em>Create Project</em> > <em>This computer</em></li>
+        <li>Click on <em>Choose files</em> > <code>mythologiae-dataset.csv</code></li>
+        <li>Click on <em>Next</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="creating-a-project-1">Creating a project</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-2a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li><em>Parse data as</em> > <em>CSV / TSV / separator-based files</em></li>
+        <li><em>Character encoding</em> > <code>UTF-8</code></li>
+        <li>Select <em>Columns are separated by</em> > <em>commas (CSV)</em></li>
+        <li>Flag <em>Use character <code>"</code> to enclose cells containing column separators</em></li>
+        <li>Flag <em>Trim leading & trailing whitespace from strings</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="creating-a-project-2">Creating a project</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-2b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Select <em>Parse next <code>1</code> line(s) as column headers</em></li>
+        <li>Flag <em>Store blank rows</em></li>
+        <li>Flag <em>Store blank cells as nulls</em></li>
+        <li>Click on <em>Create project</em></li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="the-project-screen">The project screen</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-3a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li><code>Permalink</code> allows you to return to a project at a specific view state, with facets and filters applied, by putting view-specific information directly into the URL</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="the-project-screen-1">The project screen</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-3b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li><code>Open</code> opens up a new browser tab showing the Create Project screen to change settings, start a new project, or open an existing project</li>
+        <li><code>Export</code> allows you to pick a format for exporting a dataset</li>
+        <li><code>Help</code> will open up a new browser tab and bring you to this user manual on the web</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="the-grid-screen">The grid screen</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-4.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Where the data of your project is displayed in a tabular format</li>
+        <li>Number of total rows</li>
+        <li>Rows mode vs. records mode</li>
+        <li>Number of rows / records visible on screen at one time</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="facetfilter">Facet/Filter</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-5.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <p>Main ways to explore your data, by displaying patterns, trends and subgroups</p>
+      <ul>
+        <li><code>Refresh</code> updates each facet with the latest information</li>
+        <li><code>Reset all</code> resets all facets without removing them</li>
+        <li><code>Remove all</code> removes all facets</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="undoredo">Undo/Redo</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-6.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Project's history as a list of changes in order</li>
+        <li>Autosave every 5 minutes and when closing with <code>CTRL + C</code></li>
+        <li>Any activity that changes the data can be undone</li>
+        <li>The change history of each project is saved with the project itself</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="row-mode-record-mode">Row mode, record mode</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-7a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li><strong>Row</strong>: a series of cells, one cell per column</li>
+        <li>Sometimes, there are multiple pieces of information in one cell (e.g. <code>dcho_keyword</code>)</li>
+        <li>In those cases, if you successfully split these values, you can use OpenRefine's <strong>records mode</strong> to visualize them correctly</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="row-mode-record-mode-1">Row mode, record mode</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-7b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li><strong>Record</strong>: a collection of one or more rows</li>
+        <li>The multiple pieces of information in one cell (e.g. <code>dcho_keyword</code>), once split, are visualized each in a different row, but belong to the same record</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="explore-data-with-facets">Explore data with Facets</h2>
+<p><strong>Facet</strong>: an aspect of data variance in a column</p>
+<p>Gives a big picture look at the data</p>
+<p>Allows further operations, like filtering and clustering</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="explore-data-with-facets-1">Explore data with Facets</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Typically, you create a facet on a particular column</li>
+        <li>Click on the <em>triangle</em> in front of the column name (e.g. <code>dcho_theme</code>)</li>
+        <li>Select <em>Facet</em></li>
+        <li>Select a Facet of your choice (e.g. <em>Text facet</em>)</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="text-facet">Text facet</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Takes the total contents of the cells of the column in question and matches them up</li>
+        <li>Sort by name or count</li>
+        <li>Mass-edit every identical cell in the column</li>
+        <li>Great way to have a look at the data and fix typos, whitespace, etc.</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="text-facet-1">Text facet</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8c.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Multiple facets are stacked on the top of each other (e.g. <code>cho_author</code> is added)</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="filter">Filter</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8d.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Filters can be added on a column</li>
+        <li>Useful for identifying precise pieces of data</li>
+        <li>Click on the arrow and select <em>Text filter</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="filter-1">Filter</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8e.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>The filter share the same space with the facets</li>
+        <li>Type in the text you are searching for (e.g. "edipo")</li>
+        <li>Case-insensitive by default</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="filter-with-facets">Filter with Facets</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8f.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>You can also filter through facets</li>
+        <li>Click on any entry in a filter (e.g. "Allston, Washington" in the <code>cho_author</code> facet)</li>
+        <li>Only the rows with that value are shown</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="filter-with-facets-1">Filter with Facets</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8g.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>You can use multiple facets to enhance filtering</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="filter-with-facets-2">Filter with facets</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8h.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>You can use customized facets for certain effects (e.g. filter in rows with blank cells)</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="sorting">Sorting</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8i.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Determine the order in which rows are shown based on certain conditions</li>
+        <li>Click on the arrow and select <em>Sort</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="sorting-1">Sorting</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8l.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Select how to treat the cell values during sorting (e.g. if they are dates, you most likely want to select <em>dates</em>)</li>
+        <li>You can also select the sorting order</li>
+        <li>Click on <em>OK</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="clustering">Clustering</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8m.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>A great way to fix inconsistencies found with facets</li>
+        <li>Uses a variety of comparison methods to find text entries that are similar but not exact, then shares those results with you so that you can merge the cells that should match</li>
+        <li>Create a facet</li>
+        <li>Click on <em>Cluster</em></li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="clustering-1">Clustering</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8n.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Click on <em>Cluster</em></li>
+        <li>Experiment with different algorithms to detect different clusters</li>
+        <li>For each cluster, you can merge the values by replacing them with a single consistent value</li>
+        <li>By default, the most common value in the cluster is used as the new value, but you can change it</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="clustering-2">Clustering</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-8o.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Experiment with different algorithms to detect different clusters</li>
+        <li>For each cluster, you can merge the values by flagging <em>Merge?</em></li>
+        <li>Click on <em>Merge selected & re-cluster</em> to check, and <em>Merge selected & Close</em> to finish</li>
+      </ul>
+    </div>
+</div> 
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="cell-editing">Cell editing</h2>
+<p>OpenRefine offers a number of features to edit and improve the contents of cells automatically and efficiently</p>
+<ul>
+<li>Editing through a text facet: click on <em>Edit</em> to the right of the facet, and type in a new value</li>
+<li>Using a find/replace function: select <em>Edit cells</em> &gt; <em>Replace</em> to input a string to search and a string to replace it with</li>
+<li>Editing individual cells: hover over a cell and click on <em>Edit</em></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="splitting">Splitting</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Sometimes a cell can contain multiple values (e.g. <code>dcho_keyword</code> column: multiple values separated by commas <code>,</code>)</li>
+        <li>Click on the arrow and select <em>Edit cells</em></li>
+        <li>Select <em>Split multi-valued cells</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="splitting-1">Splitting</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>You can decide how to split the cells</li>
+        <li>Ideally, you should always use a separator (e.g. <code>,</code>, <code>|</code>, <code>;</code>, etc.)</li>
+        <li>Click on <em>OK</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="transforming">Transforming</h2>
+<p>A powerful way to enforce changes that cannot be achieved through simple facets, filters or clusters</p>
+<ul>
+<li>trimming leading and trailing whitespaces</li>
+<li>splitting data into multiple columns</li>
+<li>removing punctuation</li>
+<li>standardising a data format</li>
+<li>extracting a particular type of data from a textual string</li>
+</ul>
+<p>Can be either preset or written ad-hoc in a language called GREL</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="reconciliation">Reconciliation</h2>
+<p>Semi-automated process of matching data with external sources</p>
+<p>External sources must offer a compliant web service in order to work</p>
+<p>Useful for:</p>
+<ul>
+<li>Fixing spelling or variations in proper names</li>
+<li>Cleaning up manually-entered values against authority files</li>
+<li>Linking your data to an existing dataset</li>
+</ul>
+<p>Human judgment is required to review and approve the results</p>
+<p>Happens by default through string searching</p>
+<p>Clean and cluster data before reconciling</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="reconciliation-1">Reconciliation</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9c.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Click on the arrow and select <em>Reconcile</em></li>
+        <li>Select <em>Start reconciling</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="reconciliation-2">Reconciliation</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9d.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Select the reconciliation service (e.g. <code>VIAF</code>)</li>
+        <li>Click on <em>Next</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="reconciliation-3">Reconciliation</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9e.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Depending on the column and the reconciliation service selected, choose the type of entity you want to reconcile (e.g. <code>Person</code>)</li>
+        <li>Click on <em>Start reconciling</em></li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="reconciliation-4">Reconciliation</h2>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <img src="openrefine-9f.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <ul>
+        <li>Some cell values are reconciled directly (e.g. <em>Houdon, Jean Antoine</em>)</li>
+        <li>Others need manual validation (e.g. <em>Gérard, Francois Baron</em>)</li>
+        <li>Click on the <em>single check</em> to reconciliate only in that cell, or the <em>double check</em> to extend it to all identical cells</li>
+      </ul>
+    </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="what-to-do">What to do</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="dcho_theme">dcho_theme</h2>
+<ul>
+<li>Set a common separator (<code>|</code>)</li>
+<li>Split</li>
+<li>Cluster</li>
+<li>Edit (e.g. keep only the last value if there is a hierarchy, delete &ldquo;Non categoria&rdquo;, etc.)</li>
+<li>Standardize when possible (see <a href="">Iconclass</a>)
+<ul>
+<li>sign in Iconclass</li>
+<li>search for the theme</li>
+<li>choose the most appropriate option</li>
+<li>replace the existing theme in the dataset with the ID of the option found</li>
+<li>e.g. L&rsquo;Enigma della Sfinge → <code>94T33</code></li>
+<li>e.g. Eracle cattura il cinghiale di Erimanto → <code>94L324</code></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="cho_century">cho_century</h2>
+<ul>
+<li>Set a common separator (<code>|</code>)</li>
+<li>Edit</li>
+<li>Standardize (see <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>)
+<ul>
+<li>e.g. II century → <code>0100-01-01/0199-12-31</code></li>
+<li>e.g. II century B.C. → <code>-0199-01-01/-0100-12-31</code></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="cho_date">cho_date</h2>
+<ul>
+<li>Set a common separator (<code>|</code>)</li>
+<li>Edit (e.g. remove &ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, etc.)
+<ul>
+<li>Uncertainty (&ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, etc.) has to be expressed in a separate column <code>cho_date_uncertainty</code> which only accepts <code>True</code> (yes) or <code>False</code> (no)</li>
+</ul>
+</li>
+<li>Standardize (see <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>)
+<ul>
+<li>e.g. 460 B.C. → <code>-0460</code></li>
+<li>e.g. 550-530 B.C. → <code>-0550/-0530</code></li>
+<li>e.g. 1705-1706 → <code>1705/1706</code></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="cho_sources_classic">cho_sources_classic</h2>
+<ul>
+<li>Set a common separator (<code>|</code>)</li>
+<li>Edit (e.g. remove citations that are not in canonical form)
+<ul>
+<li>Non-canonical citations should be saved in a separate column <code>cho_sources_other</code></li>
+</ul>
+</li>
+<li>Standardize
+<ul>
+<li>Look for the citation on <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus</a></li>
+<li>e.g. Apollodoro, Biblioteca, II 5 → <code>Apollod. 2.5</code></li>
+<li>e.g. Omero, Odissea, XI vv.601-604 → <code>Hom. Od. 11.601</code></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="other-data">Other data</h2>
+<ul>
+<li>All: check for NULL values, fix typos, replace separators with <code>|</code></li>
+<li><code>dcho_keyword</code>: Split, Cluster, Edit</li>
+<li><code>cho_title</code>: Edit</li>
+<li><code>cho_author</code>: Cluster, Edit, Reconcile with VIAF (Person)</li>
+<li><code>cho_period</code>: Cluster, Edit</li>
+<li><code>cho_type</code>: Cluster, Edit</li>
+<li><code>cho_location</code>: Cluster, Edit, Reconcile with VIAF (Organization)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="conclusion">Conclusion</h2>
+<p>There is already a lot you can do to increase data quality</p>
+<ul>
+<li>Explore data by using facets, filters and sorting</li>
+<li>Transform data by single- and mass-editing, clustering and replacing</li>
+<li>Reconcile data with external sources</li>
+</ul>
+<p>Try and experiment! You are working on a copy, and you can alyaws trace back</p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

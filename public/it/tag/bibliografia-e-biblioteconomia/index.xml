@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bibliografia E Biblioteconomia | holyyeti</title>
+    <link>http://localhost:1313/it/tag/bibliografia-e-biblioteconomia/</link>
+      <atom:link href="http://localhost:1313/it/tag/bibliografia-e-biblioteconomia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bibliografia E Biblioteconomia</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Bibliografia E Biblioteconomia</title>
+      <link>http://localhost:1313/it/tag/bibliografia-e-biblioteconomia/</link>
+    </image>
+    
+    <item>
+      <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
+      <link>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

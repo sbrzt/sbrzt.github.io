@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>holyyeti</title>
+    <link>http://localhost:1313/it/</link>
+      <atom:link href="http://localhost:1313/it/index.xml" rel="self" type="application/rss+xml" />
+    <description>holyyeti</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>holyyeti</title>
+      <link>http://localhost:1313/it/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>http://localhost:1313/it/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/reference/content-types/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Cleaning nelle Scienze Umane</title>
+      <link>http://localhost:1313/it/post/data-cleaning-openrefine/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/post/data-cleaning-openrefine/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Cleaning nelle Scienze Umane</title>
+      <link>http://localhost:1313/it/slides/data-cleaning-openrefine/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/data-cleaning-openrefine/</guid>
+      <description>&lt;h1 id=&#34;data-cleaning-nelle-scienze-umane&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
+&lt;h4 id=&#34;introduzione-alla-pulizia-dei-dati-con-openrefine&#34;&gt;Introduzione alla pulizia dei dati con OpenRefine&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;i-dati-nelle-scienze-umane&#34;&gt;I dati nelle scienze umane&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-sono-i-dati-nelle-scienze-umane&#34;&gt;Cosa sono i dati nelle scienze umane?&lt;/h2&gt;
+&lt;p&gt;Un dato è qualsiasi valore assegnato a qualcosa che può essere quantificato, qualificato o interpretato in qualche modo per essere utilizzato come prova informativa.&lt;/p&gt;
+&lt;p&gt;Numeri, parole, immagini, video, foto, registrazioni audio, interviste, manoscritti, appunti, collezioni&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;per-essere-utili-i-dati-devono-essere-organizzati&#34;&gt;Per essere utili, i dati devono essere organizzati&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; per essere compresi da te in futuro.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; per essere leggibili dalle macchine (&lt;em&gt;Interoperable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;hellip; per essere compresi dagli altri (&lt;em&gt;Reusable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tutti-i-dati-sono-disordinati&#34;&gt;Tutti i dati sono disordinati&lt;/h2&gt;
+&lt;p&gt;Non dare mai la qualità dei tuoi dati per scontato.&lt;/p&gt;
+&lt;p&gt;L&#39;80% dell&amp;rsquo;analisi dei dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.&lt;/p&gt;
+&lt;p&gt;La pulizia e la preparazione devono essere iterative.&lt;/p&gt;
+&lt;p&gt;La pulizia e la preparazione sono necessarie per lavorare con i dataset.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;un-dataset-è-una-raccolta-di-dati&#34;&gt;Un dataset è una raccolta di dati&lt;/h2&gt;
+&lt;p&gt;Ogni &lt;strong&gt;valore&lt;/strong&gt; appartiene a una &lt;strong&gt;variabile&lt;/strong&gt; e a un&amp;rsquo;&lt;strong&gt;osservazione&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ogni &lt;strong&gt;variabile&lt;/strong&gt; forma una &lt;strong&gt;colonna&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ogni &lt;strong&gt;osservazione&lt;/strong&gt; forma una &lt;strong&gt;riga&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;mythologiae&#34;&gt;Mythologiae&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;un-dataset-di-fonti-di-iconografie-mitologiche&#34;&gt;Un dataset di fonti di iconografie mitologiche&lt;/h2&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://mythologiae.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mythologiae.unibo.it/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Obiettivo: raccogliere un insieme di fonti iconografiche, classificarle, localizzarle rispetto agli istituti fisici di conservazione e creare
+un collegamento fra rappresentazione iconografica e fonti testuali di riferimento.&lt;/p&gt;
+&lt;p&gt;La collezione è il frutto di attività laboratoriali, in cui gli studenti sono stati chiamati a scegliere e interpretare opere d’arte eterogenee, provenienti da diverse realtà di conservazione.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;un-dataset-di-fonti-di-iconografie-mitologiche-1&#34;&gt;Un dataset di fonti di iconografie mitologiche&lt;/h2&gt;
+&lt;p&gt;Il filo conduttore che lega fra di loro le opere della collezione è la scena mitologica che esse raffigurano.&lt;/p&gt;
+&lt;p&gt;Gli annotatori, dunque, non solo hanno compiuto un’analisi ermeneutica di ciascuna opera, assegnando una categoria concettuale (tema ricorrente) concordata sulla base di una tassonomia interna, ma hanno anche associato al tema, dove possibile, le opere letterarie da cui il tema ha tratto origine o quelle opere che lo hanno, in una qualche forma, ripreso.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;un-dataset-di-fonti-di-iconografie-mitologiche-2&#34;&gt;Un dataset di fonti di iconografie mitologiche&lt;/h2&gt;
+&lt;p&gt;Ogni opera è descritta da una serie di metadati, per lo più con valori testuali, come &lt;em&gt;titolo&lt;/em&gt;, &lt;em&gt;autore&lt;/em&gt;, &lt;em&gt;periodo&lt;/em&gt;, &lt;em&gt;collocazione&lt;/em&gt;, e &lt;em&gt;note&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Questo rende i dati contenuti in Mythologie estremamente ricchi da una parte, ed estremamente poco strutturati dall&amp;rsquo;altra.&lt;/p&gt;
+&lt;p&gt;Inoltre, essendo stato compilato manualmente da diverse persone, alcuni dati contenuti in Mythologiae tendono ad essere disomogenei (es. formati, separatori, ecc.).&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;errori-comuni&#34;&gt;Errori comuni&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;la-pulizia-dei-dati-è-difficile-ma-ne-vale-la-pena&#34;&gt;La pulizia dei dati è difficile (ma ne vale la pena)!&lt;/h2&gt;
+&lt;p&gt;Prepara i dati.&lt;/p&gt;
+&lt;p&gt;Elimina inutili ridondanze.&lt;/p&gt;
+&lt;p&gt;Separa o combina i valori.&lt;/p&gt;
+&lt;p&gt;Gestisci errori e incoerenze (es. duplicati, valori nulli, errori di ortografia o formattazione incoerenti, ecc.).&lt;/p&gt;
+&lt;p&gt;Standardizza quando possibile.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-modificare-mai-i-dati-originali&#34;&gt;Non modificare mai i dati originali&lt;/h2&gt;
+&lt;p&gt;Fai sempre una copia prima di apportare modifiche.&lt;/p&gt;
+&lt;p&gt;Esegui il backup dei file.&lt;/p&gt;
+&lt;p&gt;Tieni traccia di tutti i passaggi.&lt;/p&gt;
+&lt;p&gt;Salva i tuoi file nella codifica &lt;code&gt;UTF-8&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Seth van Hooland, Ruben Verborgh, and Max De Wilde, &#34;Cleaning Data with OpenRefine,&#34; Programming Historian 2 (2013), &lt;a href=&#34;https://doi.org/10.46430/phen0023&#34;&gt;https://doi.org/10.46430/phen0023&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;descrivi-sempre-i-dati&#34;&gt;Descrivi sempre i dati&lt;/h2&gt;
+&lt;p&gt;Documenta tutto il necessario per capire cosa c&amp;rsquo;è nel dataset e come utilizzarlo&lt;/p&gt;
+&lt;p&gt;Considera:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Il &amp;ldquo;chi&amp;rdquo;, &amp;ldquo;cosa&amp;rdquo;, &amp;ldquo;quando&amp;rdquo;, &amp;ldquo;dove&amp;rdquo; e &amp;ldquo;come&amp;rdquo; dei dati;&lt;/li&gt;
+&lt;li&gt;Come trovare e accedere ai dati;&lt;/li&gt;
+&lt;li&gt;Suggerimenti sull&amp;rsquo;idoneità dei dati per rispondere a domande specifiche;&lt;/li&gt;
+&lt;li&gt;Avvertenze sui problemi o le incoerenze note nei dati;&lt;/li&gt;
+&lt;li&gt;Informazioni per verificare che i dati siano importati correttamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle&#34;&gt;Usa formati standard per le tabelle&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Ogni variabile deve avere una colonna separata.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-1&#34;&gt;Usa formati standard per le tabelle&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Ogni osservazione deve avere una riga separata.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-2&#34;&gt;Usa formati standard per le tabelle&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Ogni cella dovrebbe contenere un singolo valore.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Inserimento di più di un tipo di informazione in una cella, es. commenti, unità di misura, metadati, ecc.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-1&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Aggiungi le informazioni aggiuntive al titolo della colonna o in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi i metadati in un documento separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Es. evidenziare celle, righe o colonne che dovrebbero essere escluse da un&#39;analisi; lasciare righe vuote per indicare separazioni nei dati, ecc.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-1&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Aggiungi le unità al titolo della colonna o in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi le informazioni in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi i metadati in un documento separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Es. più di una tabella o scheda all&#39;interno di un singolo foglio di calcolo.&lt;/p&gt;
+        &lt;p&gt;Se possibile, combina tutto in una tabella unica o mantieni ogni tabella in un file separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Se possibile, evita &lt;a href=&#34;https://www.edatlas.it/scarica/1836/Capitolo5/ContenutiDigitali/2EntitaCarattere.pdf&#34;&gt;caratteri speciali&lt;/a&gt; nei titoli delle colonne e nel testo: &lt;code&gt;/&lt;/code&gt; &lt;code&gt;\&lt;/code&gt; &lt;code&gt;:&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;.&lt;/code&gt; &lt;code&gt;?&lt;/code&gt; &lt;code&gt;‘&lt;/code&gt; &lt;code&gt;&lt;&lt;/code&gt; &lt;code&gt;&gt;&lt;/code&gt; &lt;code&gt;[&lt;/code&gt; &lt;code&gt;]&lt;/code&gt; &lt;code&gt;(&lt;/code&gt; &lt;code&gt;)&lt;/code&gt; &lt;code&gt;&amp;&lt;/code&gt; &lt;code&gt;$&lt;/code&gt; &lt;code&gt;æ&lt;/code&gt; &lt;code&gt;Æ&lt;/code&gt; ...&lt;/p&gt;
+        &lt;p&gt;Evita sempre di utilizzare spazi nei titoli delle colonne: invece, utilizza underscore (&lt;code&gt;_&lt;/code&gt;) o CamelCase (es. &lt;code&gt;TitoloPrincipale&lt;/code&gt;).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sii-coerente&#34;&gt;Sii coerente&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Es. date visualizzate in molti formati diversi (es. &amp;ldquo;12 luglio 2024&amp;rdquo;, &amp;ldquo;12/07/2024&amp;rdquo;, &amp;ldquo;12-07-2024&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;Es. nomi visualizzati in molte varianti diverse (es. &amp;ldquo;Alessandro Manzoni&amp;rdquo;, &amp;ldquo;A. Manzoni&amp;rdquo;, &amp;ldquo;Manzoni&amp;rdquo;, &amp;ldquo;Manzoni, Alessandro&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;standard internazionali&lt;/strong&gt; (es. &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;record di autorità&lt;/strong&gt; (es. &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Sii coerente nella &lt;strong&gt;capitalizzazione&lt;/strong&gt; delle parole, nella scelta dei &lt;strong&gt;delimitatori&lt;/strong&gt; e nelle convenzioni di &lt;strong&gt;denominazione&lt;/strong&gt; per le variabili;&lt;/li&gt;
+&lt;li&gt;Evita di utilizzare il delimitatore del dataset (es. &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, ecc.) nei dati stessi;&lt;/li&gt;
+&lt;li&gt;Fai attenzione agli &lt;strong&gt;spazi&lt;/strong&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h2&gt;
+&lt;p&gt;Includi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicati;&lt;/li&gt;
+&lt;li&gt;Osservazioni irrilevanti;&lt;/li&gt;
+&lt;li&gt;Dati incompleti;&lt;/li&gt;
+&lt;li&gt;Dati non validi;&lt;/li&gt;
+&lt;li&gt;Dati in conflitto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sono tutte &lt;strong&gt;interpretazioni&lt;/strong&gt;: considera sempre se un&amp;rsquo;osservazione o una colonna debbano essere eliminate o meno!&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tratta-sempre-i-valori-null&#34;&gt;Tratta sempre i valori NULL&lt;/h2&gt;
+&lt;p&gt;Usa un metodo coerente che sia compatibile e che non causi errori (es. lasciare la cella vuota).&lt;/p&gt;
+&lt;p&gt;Considera che:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Può essere difficile sapere se un valore è mancante o è stato trascurato durante l&amp;rsquo;inserimento dei dati;&lt;/li&gt;
+&lt;li&gt;Gli spazi vuoti possono essere confusi quando spazi (&lt;code&gt;  &lt;/code&gt;) o tabs (&lt;code&gt;/&lt;/code&gt;) sono usati come delimitatori;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NA&lt;/code&gt; e &lt;code&gt;NULL&lt;/code&gt; sono valori nulli ragionevoli.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esegui-sempre-un-controllo-di-qualità&#34;&gt;Esegui sempre un controllo di qualità&lt;/h2&gt;
+&lt;p&gt;Verifica:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Errori grammaticali;&lt;/li&gt;
+&lt;li&gt;Uso incoerente di maiuscole e minuscole;&lt;/li&gt;
+&lt;li&gt;Titoli incoerenti per le colonne;&lt;/li&gt;
+&lt;li&gt;Unità di misura incoerenti, tipi di dati incoerenti (es. numerico, carattere), schemi di denominazione, ecc.;&lt;/li&gt;
+&lt;li&gt;Valori fuori intervallo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;quando-hai-finito-esporta-e-condividi&#34;&gt;Quando hai finito, esporta e condividi&lt;/h2&gt;
+&lt;p&gt;Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (es. &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Utilizza formati aperti per rendere i dati interoperabili (es. &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), quando possibile.&lt;/p&gt;
+&lt;p&gt;Considera di condividere i tuoi dati su &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; e/o di pubblicarli su un repository (es. &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, ecc.) per renderli visibili, accessibili e stabili.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;openrefine&#34;&gt;OpenRefine&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;uno-strumento-per-la-pulizia-dei-dati&#34;&gt;Uno strumento per la pulizia dei dati&lt;/h2&gt;
+&lt;p&gt;OpenRefine permette di:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identificare e correggere errori;&lt;/li&gt;
+&lt;li&gt;Combinare dati da diverse fonti;&lt;/li&gt;
+&lt;li&gt;Non modifica il file originale;&lt;/li&gt;
+&lt;li&gt;Tutte le azioni sono reversibili e tracciate;&lt;/li&gt;
+&lt;li&gt;La documentazione può essere pubblicata insieme ai dati;&lt;/li&gt;
+&lt;li&gt;Il flusso di lavoro può essere salvato e applicato a nuovi dataset.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;alcuni-scenari-di-utilizzo&#34;&gt;Alcuni scenari di utilizzo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vuoi sapere quante volte un particolare valore appare in una colonna nei tuoi dati;&lt;/li&gt;
+&lt;li&gt;Vuoi sapere come i valori sono distribuiti in tutto il dataset;&lt;/li&gt;
+&lt;li&gt;Vuoi normalizzare date formattate in modi diversi ad un unico formato comune;&lt;/li&gt;
+&lt;li&gt;Vuoi normalizzare nomi o termini che, pur riferendosi alle stesse entità, differiscono tra loro;&lt;/li&gt;
+&lt;li&gt;Vuoi separare frammenti di dati combinati insieme in dati individuali;&lt;/li&gt;
+&lt;li&gt;Vuoi allineare i dati a una fonte esterna.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;installazione-di-openrefine&#34;&gt;Installazione di OpenRefine&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scarica OpenRefine: &lt;a href=&#34;https://openrefine.org/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openrefine.org/download.html&lt;/a&gt;;
+&lt;ul&gt;
+&lt;li&gt;Dovrebbe già includere Java Runtime Environment;&lt;/li&gt;
+&lt;li&gt;Se non funziona, scarica e installa anche Java Runtime Environment: &lt;a href=&#34;https://www.java.com/it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.java.com/it/&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Decomprimi il file scaricato;&lt;/li&gt;
+&lt;li&gt;Fai doppio clic su &lt;code&gt;openrefine.exe&lt;/code&gt; (su Windows), &lt;code&gt;openrefine.dmg&lt;/code&gt; (su OS) o &lt;code&gt;refine.bat&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Accedi all&amp;rsquo;interfaccia su un browser web all&amp;rsquo;indirizzo &lt;a href=&#34;http://127.0.0.1:3333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://127.0.0.1:3333&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creazione-di-un-progetto&#34;&gt;Creazione di un progetto&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-1.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Scarica il dataset Mythologiae (link in chat);&lt;/li&gt;
+        &lt;li&gt;In &lt;em&gt;Create Project&lt;/em&gt; &gt; &lt;em&gt;This computer&lt;/em&gt;, clicca su &lt;em&gt;Choose files&lt;/em&gt; e carica &lt;code&gt;mythologiae-dataset.csv&lt;/code&gt;;&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Next&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creazione-di-un-progetto-1&#34;&gt;Creazione di un progetto&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-2a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;In &lt;em&gt;Parse data as&lt;/em&gt; &gt; &lt;em&gt;CSV / TSV / separator-based files&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Character encoding&lt;/em&gt; deve avere &lt;code&gt;UTF-8&lt;/code&gt; come valore;&lt;/li&gt;
+        &lt;li&gt;Seleziona &lt;em&gt;Columns are separated by&lt;/em&gt; &gt; &lt;em&gt;commas (CSV)&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Spunta &lt;em&gt;Use character &lt;code&gt;&#34;&lt;/code&gt; to enclose cells containing column separators&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Spunta &lt;em&gt;Trim leading &amp; trailing whitespace from strings&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creazione-di-un-progetto-2&#34;&gt;Creazione di un progetto&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-2b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Seleziona &lt;em&gt;Parse next &lt;code&gt;1&lt;/code&gt; line(s) as column headers&lt;/em&gt;&lt;;/li&gt;
+        &lt;li&gt;Spunta &lt;em&gt;Store blank rows&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Spunta &lt;em&gt;Store blank cells as nulls&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Create project&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;schermata-del-progetto&#34;&gt;Schermata del progetto&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-3a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Permalink&lt;/code&gt; ti consente di tornare ad uno stato di visualizzazione specifico del progetto, con filtri e faccette applicati, inserendo informazioni specifiche della visualizzazione direttamente nell&#39;URL.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;schermata-del-progetto-1&#34;&gt;Schermata del progetto&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-3b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Open&lt;/code&gt; apre una nuova scheda del browser mostrando la schermata di creazione del progetto per modificare le impostazioni, avviare un nuovo progetto o aprire un progetto esistente;&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Export&lt;/code&gt; ti consente di selezionare un formato per esportare il dataset;&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Help&lt;/code&gt; apre una nuova scheda del browser contenente un manuale utente.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;schermata-della-griglia&#34;&gt;Schermata della griglia&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-4.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Visualizzazione dei dati in formato tabellare;&lt;/li&gt;
+        &lt;li&gt;Numero totale di righe;&lt;/li&gt;
+        &lt;li&gt;Modalità rows vs modalità records;&lt;/li&gt;
+        &lt;li&gt;Numero di righe/record visibili su schermo contemporaneamente.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;facetfilter&#34;&gt;Facet/Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-5.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Modi principali per esplorare i dati, mostrando pattern, tendenze e sottogruppi;&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;code&gt;Refresh&lt;/code&gt; aggiorna ciascuna facet con le informazioni più recenti;&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Reset all&lt;/code&gt; resetta tutte le faccette senza rimuoverle;&lt;/li&gt;
+        &lt;li&gt;&lt;code&gt;Remove all&lt;/code&gt; rimuove tutte le faccette.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;undoredo&#34;&gt;Undo/Redo&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-6.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Storico del progetto come elenco di modifiche in ordine cronologico;&lt;/li&gt;
+        &lt;li&gt;Salvataggio automatico ogni 5 minuti e alla chiusura con &lt;code&gt;CTRL + C&lt;/code&gt;;&lt;/li&gt;
+        &lt;li&gt;Ogni attività che modifica i dati può essere annullata;&lt;/li&gt;
+        &lt;li&gt;La cronologia delle modifiche di ciascun progetto è salvata insieme al progetto stesso.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;modalità-rows&#34;&gt;Modalità rows&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-7a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;: una serie di celle, una cella per colonna;&lt;/li&gt;
+        &lt;li&gt;A volte, ci sono più informazioni in una singola cella (es. &lt;code&gt;dcho_keyword&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;In questi casi, se riesci a dividere correttamente questi valori, puoi utilizzare la modalità &lt;strong&gt;records&lt;/strong&gt; di OpenRefine per visualizzarli correttamente.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;modalità-records&#34;&gt;Modalità records&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-7b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt;: una collezione di una o più righe;&lt;/li&gt;
+        &lt;li&gt;Le molteplici informazioni in una singola cella (es. &lt;code&gt;dcho_keyword&lt;/code&gt;), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esplora-i-dati-con-le-facet&#34;&gt;Esplora i dati con le Facet&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Facet&lt;/strong&gt;: un aspetto della varianza dei dati in una colonna.&lt;/p&gt;
+&lt;p&gt;Fornisce una visione d&amp;rsquo;insieme dei dati.&lt;/p&gt;
+&lt;p&gt;Consente ulteriori operazioni, come il filtraggio e il clustering.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esplora-i-fati-con-le-facet&#34;&gt;Esplora i fati con le Facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Tipicamente, crei una facet su una particolare colonna;&lt;/li&gt;
+        &lt;li&gt;Fai clic sul &lt;em&gt;triangolo&lt;/em&gt; davanti al nome della colonna (es. &lt;code&gt;dcho_theme&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Seleziona &lt;em&gt;Facet&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Seleziona una facet a tua scelta (es. &lt;em&gt;Text facet&lt;/em&gt;).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-facet&#34;&gt;Text facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Prende il contenuto totale delle celle della colonna in questione e le abbina;&lt;/li&gt;
+        &lt;li&gt;Ordina per nome o conteggio;&lt;/li&gt;
+        &lt;li&gt;Modifica in massa ogni cella identica nella colonna;&lt;/li&gt;
+        &lt;li&gt;Ottimo per esaminare i dati e correggere errori di battitura, spazi in eccesso, ecc.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-facet-1&#34;&gt;Text facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Molteplici facet sono impilate una sopra l&#39;altra (es. nell&#39;immagine viene aggiunta &lt;code&gt;cho_author&lt;/code&gt;).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter&#34;&gt;Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;I filtri possono essere aggiunti su una colonna;&lt;/li&gt;
+        &lt;li&gt;Utili per identificare più precisamente dei dati;&lt;/li&gt;
+        &lt;li&gt;Clicca sulla freccia e seleziona &lt;em&gt;Text filter&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filter-1&#34;&gt;Filter&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;I filtri condividono lo stesso spazio con le facet;&lt;/li&gt;
+        &lt;li&gt;Digita il testo da cercare (es. &#34;edipo&#34;) per restituire le righe con quel testo contenuto in quella colonna;&lt;/li&gt;
+        &lt;li&gt;Sensibilità alle maiuscole e minuscole disattivata di default.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filtrare-con-i-facet&#34;&gt;Filtrare con i Facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;È possibile filtrare anche tramite facet;&lt;/li&gt;
+        &lt;li&gt;Clicca su qualsiasi voce in un filtro (es. &#34;Allston, Washington&#34; nella facet &lt;code&gt;cho_author&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Vengono visualizzate solo le righe con quel valore in quella colonna.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filtrare-con-i-facet-1&#34;&gt;Filtrare con i Facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8g.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Puoi usare più facet per migliorare il filtraggio.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;filtrare-con-i-facet-2&#34;&gt;Filtrare con i Facet&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8h.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Puoi usare facet personalizzati per ottenere determinati effetti (es. filtrare le righe con celle vuote).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sort&#34;&gt;Sort&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8i.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Puoi determinare l&#39;ordine in cui vengono mostrate le righe in base ad alcune condizioni.&lt;/li&gt;
+        &lt;li&gt;Clicca sulla freccia e seleziona &lt;em&gt;Sort&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sort-1&#34;&gt;Sort&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8l.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Seleziona come trattare i valori delle celle durante l&#39;ordinamento (es. se sono date, molto probabilmente vorrai selezionare &lt;em&gt;date&lt;/em&gt;);&lt;/li&gt;
+        &lt;li&gt;Puoi anche selezionare l&#39;ordine effettivo (es. prima tutti i valori validi, poi quelli errati, poi quelli mancanti);&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;OK&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cluster&#34;&gt;Cluster&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8m.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Un ottimo modo per correggere le incongruenze trovate con le facet;&lt;/li&gt;
+        &lt;li&gt;Utilizza una varietà di metodi di confronto per trovare diciture simili ma non identiche, e mostrarle in modo da rendere possibile l&#39;allineamento dei valori che dovrebbero essere uguali;&lt;/li&gt;
+        &lt;li&gt;Crea una facet;&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Cluster&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cluster-1&#34;&gt;Cluster&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8n.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Cluster&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Prova diversi algoritmi per rilevare vari cluster;&lt;/li&gt;
+        &lt;li&gt;Per ogni cluster, puoi unire i valori sostituendoli con un valore unico e coerente;&lt;/li&gt;
+        &lt;li&gt;Per impostazione predefinita, il valore più comune nel cluster viene utilizzato come nuovo valore, ma puoi cambiarlo.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;cluster-2&#34;&gt;Cluster&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-8o.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Prova diversi algoritmi per rilevare vari cluster;&lt;/li&gt;
+        &lt;li&gt;Per ogni cluster, puoi unire i valori spuntando &lt;em&gt;Merge?&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Merge selected &amp; re-cluster&lt;/em&gt; per verificare e su &lt;em&gt;Merge selected &amp; Close&lt;/em&gt; per terminare.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;modifica-delle-celle&#34;&gt;Modifica delle celle&lt;/h2&gt;
+&lt;p&gt;OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto delle celle in modo automatico ed efficiente.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modifica tramite una facet di testo: clicca su &lt;em&gt;Edit&lt;/em&gt; a destra della facet e inserisci un nuovo valore;&lt;/li&gt;
+&lt;li&gt;Utilizzo della funzione trova/sostituisci: seleziona &lt;em&gt;Edit cells&lt;/em&gt; &amp;gt; &lt;em&gt;Replace&lt;/em&gt; per inserire una stringa da cercare e una stringa da sostituire;&lt;/li&gt;
+&lt;li&gt;Modifica delle singole celle: passa il mouse su una cella e clicca su &lt;em&gt;Edit&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;split&#34;&gt;Split&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;A volte una cella può contenere più valori (ad esempio, colonna &lt;code&gt;dcho_keyword&lt;/code&gt;: più valori separati da virgole &lt;code&gt;,&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Fai clic sulla freccia e seleziona &lt;em&gt;Edit cells&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Seleziona &lt;em&gt;Split multi-valued cells&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;split-1&#34;&gt;Split&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Puoi decidere come dividere le celle;&lt;/li&gt;
+        &lt;li&gt;Idealmente, dovresti sempre usare nel testo un separatore (ad esempio &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, ecc.), e indicarlo qui;&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;OK&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;transform&#34;&gt;Transform&lt;/h2&gt;
+&lt;p&gt;Un meccanismo potente per applicare modifiche che non possono essere ottenute tramite semplici facet, filtri o cluster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eliminare spazi bianchi iniziali e finali;&lt;/li&gt;
+&lt;li&gt;dividere i dati in più colonne;&lt;/li&gt;
+&lt;li&gt;rimuovere la punteggiatura;&lt;/li&gt;
+&lt;li&gt;standardizzare un formato di dati;&lt;/li&gt;
+&lt;li&gt;estrarre un particolare tipo di dati da una stringa di testo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Possono essere preimpostate o scritte ad hoc in un linguaggio chiamato GREL.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconcile&#34;&gt;Reconcile&lt;/h2&gt;
+&lt;p&gt;Processo semi-automatico di allineamento dei dati a fonti esterne.&lt;/p&gt;
+&lt;p&gt;Utile per:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Correggere errori di ortografia o variazioni nei nomi propri;&lt;/li&gt;
+&lt;li&gt;Pulire i valori inseriti manualmente confrontandoli con file di autorità;&lt;/li&gt;
+&lt;li&gt;Collegare i tuoi dati a un dataset esistente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;È necessario il giudizio umano per rivedere e approvare i risultati.&lt;/p&gt;
+&lt;p&gt;Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dati prima di riconciliarli!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconcile-1&#34;&gt;Reconcile&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Clicca sulla freccia e seleziona &lt;em&gt;Reconcile&lt;/em&gt;;&lt;/li&gt;
+        &lt;li&gt;Seleziona &lt;em&gt;Start reconciling&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconcile-2&#34;&gt;Reconcile&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Seleziona il servizio di riconciliazione (ad esempio &lt;code&gt;VIAF&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Next&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconcile-3&#34;&gt;Reconcile&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;A seconda della colonna e del servizio di riconciliazione selezionato, scegli il tipo di entità che desideri riconciliare (es. &lt;code&gt;Person&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Clicca su &lt;em&gt;Start reconciling&lt;/em&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reconcile-4&#34;&gt;Reconcile&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;openrefine-9f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Alcuni valori delle celle vengono riconciliati direttamente (ad esempio &lt;em&gt;Houdon, Jean Antoine&lt;/em&gt;);&lt;/li&gt;
+        &lt;li&gt;Altri richiedono una validazione manuale (ad esempio &lt;em&gt;Gérard, Francois Baron&lt;/em&gt;);&lt;/li&gt;
+        &lt;li&gt;Cliccare sul &lt;em&gt;segno di spunta singolo&lt;/em&gt; per riconciliare solo quella cella, o sul &lt;em&gt;segno di spunta doppio&lt;/em&gt; per estenderlo a tutte le celle identiche.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;cosa-fare&#34;&gt;Cosa fare&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-fare-1&#34;&gt;Cosa fare&lt;/h2&gt;
+&lt;p&gt;Abbiamo individuato quattro colonne problematiche che richiedono particolare attenzione in termini di qualità e pulizia dei dati.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dcho_theme&lt;/code&gt;: il tema mitologico individuato nell&amp;rsquo;opera;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_century&lt;/code&gt;: il secolo a cui risale l&amp;rsquo;opera;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_date&lt;/code&gt;: la data di creazione dell&amp;rsquo;opera;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_sources_classic&lt;/code&gt;: le fonti classiche associate al tema mitologico individuato nell&amp;rsquo;opera.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;dcho_theme&#34;&gt;dcho_theme&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Dividere i valori (&lt;em&gt;split&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Raggruppare i valori (&lt;em&gt;cluster&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Modificare (es. mantenere solo l&amp;rsquo;ultimo valore se c&amp;rsquo;è una gerarchia, eliminare &amp;ldquo;Non categoria&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;Standardizzare quando possibile (vedi &lt;a href=&#34;https://iconclass.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Iconclass&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;iscriviti e accedi a Iconclass;&lt;/li&gt;
+&lt;li&gt;cerca il tema;&lt;/li&gt;
+&lt;li&gt;scegli l&amp;rsquo;opzione più appropriata;&lt;/li&gt;
+&lt;li&gt;sostituisci il tema esistente nel dataset con l&amp;rsquo;ID dell&amp;rsquo;opzione trovata:
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;L&amp;rsquo;Enigma della Sfinge&amp;rdquo; → &lt;code&gt;94T33&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;es. &amp;ldquo;Eracle cattura il cinghiale di Erimanto&amp;rdquo; → &lt;code&gt;94L324&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_century&#34;&gt;cho_century&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Modificare;&lt;/li&gt;
+&lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;20 giugno 1992&amp;rdquo; → &lt;code&gt;1992-06-20&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;II secolo a.C.&amp;rdquo; → &lt;code&gt;-0199-01-01/-0100-12-31&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione dei periodi: &lt;code&gt;[beginning][&amp;quot;/&amp;quot;][end]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;II secolo&amp;rdquo; → &lt;code&gt;0100-01-01/0199-12-31&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_date&#34;&gt;cho_date&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Modificare (es. rimuovi &amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, ecc.);
+&lt;ul&gt;
+&lt;li&gt;L&amp;rsquo;incertezza (&amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, ecc.) deve essere espressa in una colonna separata &lt;code&gt;cho_date_uncertainty&lt;/code&gt; che accetta solo &lt;code&gt;True&lt;/code&gt; (sì) o &lt;code&gt;False&lt;/code&gt; (no)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;1992&amp;rdquo; → &lt;code&gt;1992&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;460 a.C.&amp;rdquo; → &lt;code&gt;-0460&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione dei periodi CE: &lt;code&gt;[beginning][&amp;quot;/&amp;quot;][end]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;1705-1706&amp;rdquo; → &lt;code&gt;1705/1706&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione dei periodi BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][beginning][&amp;quot;/&amp;quot;][&amp;quot;-&amp;quot;][end]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;550-530 a.C.&amp;rdquo; → &lt;code&gt;-0550/-0530&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rappresentazione dell&amp;rsquo;incertezza: &lt;code&gt;[date][&amp;quot;%&amp;quot;]&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;1590 circa&amp;rdquo; → &lt;code&gt;1590%&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cho_sources_classic&#34;&gt;cho_sources_classic&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Modificare (es. rimuovere le citazioni che non sono in forma canonica):
+&lt;ul&gt;
+&lt;li&gt;Le citazioni non canoniche devono essere salvate così come sono in una colonna separata &lt;code&gt;cho_sources_other&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.perseus.tufts.edu/hopper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perseus&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;Cerca la citazione su Perseus;&lt;/li&gt;
+&lt;li&gt;Scegli l&amp;rsquo;opzione più appropriata;&lt;/li&gt;
+&lt;li&gt;Sostituisci la citazione esistente nel dataset con l&amp;rsquo;opzione trovata:
+&lt;ul&gt;
+&lt;li&gt;es. &amp;ldquo;Apollodoro, Biblioteca, II 5&amp;rdquo; → &lt;code&gt;Apollod. 2.5&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;es. &amp;ldquo;Omero, Odissea, XI vv.601-604&amp;rdquo; → &lt;code&gt;Hom. Od. 11.601&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;altre-colonne&#34;&gt;Altre colonne&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutte: controllare i valori NULL, correggere i refusi, sostituire i separatori con &lt;code&gt;|&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dcho_keyword&lt;/code&gt;: dividere, raggruppare, modificare (mantenere solo italiano);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_author&lt;/code&gt;: raggruppare, modificare, riconciliare con VIAF (&amp;ldquo;Person&amp;rdquo;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_period&lt;/code&gt;: raggruppare, modificare;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_type&lt;/code&gt;: raggruppare, modificare;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cho_location&lt;/code&gt;: raggruppare, modificare, riconciliare con VIAF (&amp;ldquo;Organization&amp;rdquo;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusioni&#34;&gt;Conclusioni&lt;/h2&gt;
+&lt;p&gt;Potete già fare molto per aumentare la qualità dei dati!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esplorate i dati utilizzando &lt;em&gt;facet&lt;/em&gt;, filtri e &lt;em&gt;sorting&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (&lt;em&gt;cluster&lt;/em&gt;), divisioni (&lt;em&gt;split&lt;/em&gt;) e sostituzioni;&lt;/li&gt;
+&lt;li&gt;Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Provate! State lavorando su una copia e potete sempre tornare indietro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cultural Heritage Acquisition and Digitisation Application Profile (CHAD-AP)</title>
+      <link>http://localhost:1313/it/project/chad-ap/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/chad-ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes</title>
+      <link>http://localhost:1313/it/publication/barzaghi-developing-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-developing-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2024/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritage Risk Assessment Ontology (HeRO)</title>
+      <link>http://localhost:1313/it/project/hero/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI and chatbots as a storytelling tool to personalize the visitor experience. The case of National Museum of Ravenna.</title>
+      <link>http://localhost:1313/it/publication/fabbri-ai-nodate/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/fabbri-ai-nodate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitisation of Temporary Exhibitions: the Aldrovandi Case</title>
+      <link>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - Introduzione</title>
+      <link>http://localhost:1313/it/slides/dhdmch-00/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-00/</guid>
+      <description>&lt;h1 id=&#34;introduzione&#34;&gt;Introduzione&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-00-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 00 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;piacere&#34;&gt;Piacere!&lt;/h2&gt;
+&lt;p&gt;Ricercatore presso il Dipartimento di Beni Culturali dell&amp;rsquo;Università di Bologna.&lt;/p&gt;
+&lt;p&gt;Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (&lt;a href=&#34;https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DHDK&lt;/a&gt;) presso l&amp;rsquo;Università di Bologna.&lt;/p&gt;
+&lt;p&gt;Attualmente lavoro presso il laboratorio di ricerca &lt;a href=&#34;https://framelab.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FrameLAB&lt;/a&gt; e collaboro con altre realtà (es. &lt;a href=&#34;https://centri.unibo.it/dharc/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DHARC&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I miei interessi si concentrano sullo studio e l&amp;rsquo;implementazione di strumenti e metodologie basate sui &lt;strong&gt;Linked Open Data&lt;/strong&gt; e l&amp;rsquo;&lt;strong&gt;Open Science&lt;/strong&gt; per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-vi-aspettate&#34;&gt;Cosa vi aspettate?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;qr-code.png&#34; alt=&#34;QR code per accedere al modulo&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;&lt;a href=&#34;https://forms.gle/vDGQdFKu8JPKzMy26&#34;&gt;https://forms.gle/vDGQdFKu8JPKzMy26&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-vostri-percorsi-di-studi&#34;&gt;I vostri percorsi di studi&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858589267&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-vi-aspettate-di-imparare-da-questo-corso&#34;&gt;Cosa vi aspettate di imparare da questo corso?&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=2144929885&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-mai-sentito-parlare-di-open-science&#34;&gt;Hai mai sentito parlare di &amp;ldquo;Open Science&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=190797982&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;La &#34;Scienza Aperta&#34; è una delle macro-tematiche che affronteremo per tutto il resto del corso.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-mai-sentito-parlare-di-open-science-1&#34;&gt;Hai mai sentito parlare di &amp;ldquo;Open Science&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=753366255&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Per ora, limitiamoci a dire che si tratta di &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;&#34;scienza fatta bene&#34;&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-digital-humanities&#34;&gt;Hai già sentito parlare di &amp;ldquo;Digital Humanities&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=627035098&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Le &#34;Digital Humanities&#34; costituiscono la cornice contenutistica e tecnologica delle lezioni che affronteremo.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-digital-humanities-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Digital Humanities&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=480196988&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Indica un punto di contatto tra le &lt;strong&gt;scienze informatiche&lt;/strong&gt; e le &lt;strong&gt;discipline umanistiche e sociali&lt;/strong&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-data-management&#34;&gt;Hai già sentito parlare di &amp;ldquo;Data Management&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=970674666&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Il &#34;Data Management&#34; (o &#34;gestione dei dati&#34;) è il processo che guiderà lo svolgimento e lo sviluppo del resto del corso.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-data-management-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Data Management&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=692205796&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;Descrive un insieme di attività fondamentali per un corretto utilizzo dei dati.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-linked-open-data&#34;&gt;Hai già sentito parlare di &amp;ldquo;Linked Open Data&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=459400805&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;I &#34;Linked Open Data&#34; rappresentano una tematica particolare che affronteremo più avanti.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hai-già-sentito-parlare-di-linked-open-data-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Linked Open Data&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1532986075&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Si tratta di un paradigma fondamentale per assicurare la &lt;strong&gt;FAIRness&lt;/strong&gt; dei dati (e non solo), e quindi la scientificità del nostro lavoro.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;secondo-te-cosè-un-dato&#34;&gt;Secondo te, cos&amp;rsquo;è un dato?&lt;/h2&gt;
+&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858491784&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;informazioni-preliminari&#34;&gt;Informazioni preliminari&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Obiettivi&lt;/strong&gt;: fornire competenze e strumenti pratici per l&amp;rsquo;ideazione, gestione e pubblicazione di risorse digitali riguardanti i beni culturali e basate su dati di ambito umanistico.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Temi&lt;/strong&gt;: Digital Humanities, Data management, Linked Open Data, Open Science, e molto altro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Risultati&lt;/strong&gt;: progetti &lt;em&gt;vostri&lt;/em&gt; che testimoniano le competenze acquisite.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;regole&#34;&gt;Regole&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Materiale integrativo, gratuito e accessibile&lt;/strong&gt;: i libri e gli articoli sono pensati per essere un accompagnamento alle lezioni e saranno resi disponibili sulla piattaforma istituzionale &lt;a href=&#34;https://virtuale.unibo.it/course/view.php?id=66104&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtuale&lt;/a&gt; e nella repository &lt;a href=&#34;https://github.com/dhdmch/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Spesso in una slide troverete un riquadro di questo tipo, contenente la fonte bibliografica (liberamente accessibile) da cui ho tratto il contenuto della slide. Consideratela parte facoltativa del materiale integrativo, da leggere secondo il vostro interesse.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;regole-1&#34;&gt;Regole&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Presenza fortemente consigliata&lt;/strong&gt;: per i non frequentanti ci sarà solo più materiale obbligatorio da studiare e probabilmente più difficoltà nello sviluppo del progetto.&lt;/p&gt;
+&lt;p&gt;Frequentanti, non abbiate paura ad interagire e a fare domande.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Progetto finale&lt;/strong&gt;: vi verranno forniti dettagli più avanti, ma per il momento sappiate che la natura dell&amp;rsquo;esame &lt;em&gt;non&lt;/em&gt; sarà negoziabile.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;organizzazione-del-corso&#34;&gt;Organizzazione del corso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386/orariolezioni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;15 lezioni&lt;/a&gt; (lunedì, mercoledì, giovedì)&lt;/li&gt;
+&lt;li&gt;2 ore per lezione&lt;/li&gt;
+&lt;li&gt;Circa 7 moduli&lt;/li&gt;
+&lt;li&gt;Sessione teorica e pratica per ogni modulo&lt;/li&gt;
+&lt;li&gt;1 pausa di 10 minuti (concordiamo su quando)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Lunedì: Aula 2&lt;/li&gt;
+&lt;li&gt;Mercoledì e giovedì: Laboratorio informatico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Come&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dhdmch/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://virtuale.unibo.it/course/view.php?id=66104&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtuale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhNZP7JyGstEvrgE_PGMgJ0BqGsfnUiMG7otV3TfPaIzkQ?e=Icg7zc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Registrazioni&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;organizzazione-del-corso-1&#34;&gt;Organizzazione del corso&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;ID&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Titolo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tematica&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Data&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Introduzione&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Corso&lt;/code&gt;, &lt;code&gt;Esame&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;07-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;La grande sfida&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Open Science&lt;/code&gt;, &lt;code&gt;Dati&lt;/code&gt;, &lt;code&gt;Digital Humanities&lt;/code&gt;, &lt;code&gt;Data Management&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;07-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Primi passi&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://vscode.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;18-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;PLAN: pianificare&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;, &lt;code&gt;Case study&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Diario di bordo&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://argos.openaire.eu/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Management Plan&lt;/a&gt;, &lt;a href=&#34;https://www.markdownguide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;21-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;COLLECT: creare e raccogliere&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Raccolta e creazione dati&lt;/code&gt;, &lt;code&gt;Documentazione&lt;/code&gt;, &lt;code&gt;File system&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;25-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Il biblioggetto&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;27-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;ID&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Titolo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tematica&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Data&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;COLLECT: descrivere&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Modellazione dei dati&lt;/code&gt;, &lt;code&gt;XML&lt;/code&gt;, &lt;code&gt;Linked Open Data&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;28-11-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;08&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Strutture codificate&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.html.it/guide/guida-xml-di-base/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML&lt;/a&gt;, &lt;a href=&#34;https://tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;02-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Oltre il testo&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Resource_Description_Framework&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RDF&lt;/a&gt;, &lt;a href=&#34;https://it.wikipedia.org/wiki/SKOS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKOS&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;04-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;PROCESS: preparare ed elaborare&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Pulizia dei dati&lt;/code&gt;, &lt;code&gt;Qualità dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;05-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Lawful goodness&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://openrefine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenRefine&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;09-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;ANALYZE: analizzare&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Analisi dei dati&lt;/code&gt;, &lt;code&gt;Visualizzazione dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Tutto è rivelato&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voyant Tools&lt;/a&gt;, &lt;a href=&#34;https://gephi.org/gephi-lite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gephi&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;SHARE: condividere e riutilizzare&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Preservazione dei dati&lt;/code&gt;, &lt;code&gt;Citazione dei dati&lt;/code&gt;, &lt;code&gt;Pubblicazione dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Al vostro servizio&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;18-12-2024&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esame&#34;&gt;Esame&lt;/h2&gt;
+&lt;p&gt;Un progetto di &lt;em&gt;gestione dei dati&lt;/em&gt; correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).&lt;/p&gt;
+&lt;p&gt;Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nel repository GitHub.&lt;/p&gt;
+&lt;p&gt;Gli studenti potranno lavorare al progetto individualmente o in gruppo (massimo 3 persone).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;preparazione-allesame&#34;&gt;Preparazione all&amp;rsquo;esame&lt;/h2&gt;
+&lt;p&gt;Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode).&lt;/p&gt;
+&lt;p&gt;Nelle sessioni pratiche, lavoreremo assieme su un &lt;em&gt;caso di studio&lt;/em&gt; di gestione dei dati in cui vi aiuterò attivamente, per farvi sperimentare con gli strumenti e i metodi presentati a lezione.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;valutazione&#34;&gt;Valutazione&lt;/h2&gt;
+&lt;p&gt;Il contributo personale di ciascuna persona e la conoscenza degli argomenti del corso saranno valutati durante il colloquio orale:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;50% (valutazione insufficiente): preparazione non adeguata in nessun aspetto del progetto;&lt;/li&gt;
+&lt;li&gt;51-70% (valutazione sufficiente): tra 18/30 e 23/30;&lt;/li&gt;
+&lt;li&gt;71-90% (valutazione positiva): tra 24/30 e 27/30;&lt;/li&gt;
+&lt;li&gt;91-100% (valutazione eccellente): tra 28/30 e 30/30.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;valutazione-1&#34;&gt;Valutazione&lt;/h2&gt;
+&lt;p&gt;Ad un certo punto, anche voi dovrete valutare me!&lt;/p&gt;
+&lt;p&gt;Vi prego di essere quanto più correttti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;raccomandazioni-finali&#34;&gt;Raccomandazioni finali&lt;/h2&gt;
+&lt;p&gt;Affrontare cose nuove è sempre difficile, quindi non preoccupatevi se il corso può sembrare complicato: lo è!&lt;/p&gt;
+&lt;p&gt;Però, è pensato per essere accessibile a studenti non avvezzi a questo tipo di tematiche e ai non addetti ai lavori (per questo motivo, una vostra valutazione onesta è assolutamente fondamentale).&lt;/p&gt;
+&lt;p&gt;Se fatte in buona fede, non esistono domande stupide.&lt;/p&gt;
+&lt;p&gt;Nel dubbio, chiedete sempre (dal vivo o per mail). A seconda della domanda, potrei aver bisogno di tempo per darvi una risposta sensata, quindi - nel caso - abbiate un po&amp;rsquo; di pazienza!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-00-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 00 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - La grande sfida</title>
+      <link>http://localhost:1313/it/slides/dhdmch-01/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-01/</guid>
+      <description>&lt;h1 id=&#34;la-grande-sfida&#34;&gt;La grande sfida&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;partiamo-dalla-scienza&#34;&gt;Partiamo dalla scienza&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-intendiamo-con-_scienza_&#34;&gt;Cosa intendiamo con &lt;em&gt;scienza&lt;/em&gt;?&lt;/h2&gt;
+&lt;p&gt;Da &lt;em&gt;scientia&lt;/em&gt; (conoscenza): conoscenza acquisita attraverso lo studio o la pratica; padronanza di una disciplina o area particolare.&lt;/p&gt;
+&lt;p&gt;La scienza è il processo organizzato attraverso il quale l&amp;rsquo;umanità cerca di scoprire e comprendere i fenomeni naturali, sociali e culturali, convalidando le scoperte attraverso la condivisione dei dati e la revisione tra pari, al fine di utilizzare tale conoscenza a proprio vantaggio.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Möller, L. (2023). UNESCO Recommendation on Open Science. In 66. Helmholtz Open Science online seminar. &lt;a href=&#34;https://unesdoc.unesco.org/ark:/48223/pf0000379949&#34;&gt;https://unesdoc.unesco.org/ark:/48223/pf0000379949&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosè-la-scienza-aperta&#34;&gt;Cos&amp;rsquo;è la Scienza Aperta?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;os.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Melanie Imming, Jon Tennant, &amp; Ivo Grigorov. (2018). Stickers Open Science just science done right (IT). Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;https://doi.org/10.5281/zenodo.2613332&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          UNESCO la definisce come un costrutto che combina movimenti e pratiche che mirano a rendere la conoscenza scientifica più trasparente, accessibile e riutilizzabile per tutti.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UNESCO (2021). UNESCO Recommendation on Open Science. &lt;a href=&#34;https://doi.org/10.54677/MNMH8546&#34;&gt;https://doi.org/10.54677/MNMH8546&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;perché-la-scienza-aperta&#34;&gt;Perché la Scienza Aperta?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Argomento scientifico&lt;/strong&gt;: maggiore riproducibilità dei risultati della ricerca; maggiore trasparenza dei metodi di ricerca e valutazione.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Argomento sociologico&lt;/strong&gt;: la conoscenza scientifica è un prodotto di collaborazione sociale e quindi appartiene alla comunità.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Argomento utilitaristico&lt;/strong&gt;: più citazioni; più attenzione mediatica; più possibilità di collaborazioni e opportunità di lavoro e finanziamento; più risparmio di tempo e denaro; requisiti dei finanziatori a livello nazionale e internazionale.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ok-ma-concretamente-di-_cosa_-si-tratta&#34;&gt;OK, ma concretamente di &lt;em&gt;cosa&lt;/em&gt; si tratta?&lt;/h2&gt;
+&lt;p&gt;In breve, è la creazione e condivisione di &lt;strong&gt;dati aperti&lt;/strong&gt;, cioé dati liberamente disponibili per l&amp;rsquo;accesso e il (ri)utilizzo.&lt;/p&gt;
+&lt;p&gt;Ideale: dati senza restrizioni da copyright, brevetti o altri meccanismi di controllo.&lt;/p&gt;
+&lt;p&gt;Realtà: &lt;a href=&#34;https://rea.ec.europa.eu/open-science_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;as open as possible, as closed as necessary&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-02.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;la-situazione-dei-dati&#34;&gt;La situazione dei dati&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-sono-i-dati&#34;&gt;Cosa sono i dati?&lt;/h2&gt;
+&lt;p&gt;Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analisi, quanto come prodotti del processo stesso di ricerca.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I dati sono record fattuali raccolti, generati o riutilizzati nella pratica di ricerca, come base di analisi, ragionamenti, discussioni o calcoli.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  OECD (2007), OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-sono-una-categoria-relazionale&#34;&gt;I dati sono una categoria relazionale&lt;/h2&gt;
+&lt;p&gt;Ciò che è considerabile &amp;ldquo;dato&amp;rdquo; dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
+&lt;p&gt;Percepire, osservare, raccogliere dati sono tutti atti interpretativi, in un contesto che dà forma ai dati e ne definisce i limiti.&lt;/p&gt;
+&lt;p&gt;Possono essere digitali o analogici, qualitativi o quantitativi, creati da macchine o da esseri umani, estremamente strutturati o completamente non-strutturati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of Chicago Press. &lt;a href=&#34;https://doi.org/10.7208/chicago/9780226416502.001.0001&#34;&gt;https://doi.org/10.7208/chicago/9780226416502.001.0001&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-sono-raccolti-in-dataset&#34;&gt;I dati sono raccolti in dataset&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Una raccolta di dati organizzati in modo ordinato e strutturati secondo criteri precisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Un dataset è uno strumento fondamentale per la replicabilità delle analisi condotte.&lt;/p&gt;
+&lt;p&gt;La sua corretta gestione garantisce l&amp;rsquo;efficienza, l&amp;rsquo;affidabilità e l&amp;rsquo;utilità dei dati nella ricerca.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ciston, S., &amp; Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-è-facile-parlare-di-dati-nelle-discipline-umanistiche&#34;&gt;Non è facile parlare di dati nelle discipline umanistiche&lt;/h2&gt;
+&lt;p&gt;Non c&amp;rsquo;è consenso su che cosa siano i &amp;ldquo;dati&amp;rdquo; nelle discipline umanistiche.&lt;/p&gt;
+&lt;p&gt;Il termine stesso &amp;ldquo;discipline umanistiche&amp;rdquo; è ampio e racchiude in sé domini di conoscenza estremamente diversi.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;anche-gli-umanisti-usano-e-producono-dati&#34;&gt;Anche gli umanisti usano e producono dati&lt;/h2&gt;
+&lt;p&gt;Ogni tipo di ricerca produce o riusa dei dati, anche se magari il termine &amp;ldquo;dato&amp;rdquo; non viene utilizzato in certi contesti.&lt;/p&gt;
+&lt;p&gt;Esempio: un qualsiasi ricercatore utilizza delle fonti (primarie o secondarie) per rispondere alle proprie domande di ricerca, e così facendo produce &lt;em&gt;almeno&lt;/em&gt; una bibliografia.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ma-quindi-_cosa_-sono-questi-dati&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;data.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+          Noppe, N., Vanvelk, J., &amp; Callens, N. (2023, novembre 6). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Pubblicazioni (fonti primarie e secondarie);&lt;/li&gt;
+          &lt;li&gt;Altre fonti primarie (manoscritti, dipinti, statue, ecc.);&lt;/li&gt;
+          &lt;li&gt;Rappresentazioni digitali (facsimili, foto, audio, video, modelli 3D, ecc.);&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ma-quindi-_cosa_-sono-questi-dati-1&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;data.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+          Noppe, N., Vanvelk, J., &amp; Callens, N. (2023, novembre 6). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Altri prodotti digitali (software, edizioni, dataset, siti Web, applicazioni, database, modelli di dati, ecc.);&lt;/li&gt;
+          &lt;li&gt;Documentazione (note, commenti, protocolli, documenti tecnici, ecc.).&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;p&gt;Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.&lt;/p&gt;
+&lt;p&gt;I sistemi semiotici delle discipline umanistiche tendono ad essere specifici e individualistici.&lt;/p&gt;
+&lt;p&gt;Le metodologie di ricerca tendono ad essere implicite, date per scontate.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti-1&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;p&gt;I processi della ricerca umanistica sono ancora dominati da paradigmi tradizionali (poche fonti concentrate, analisi manuali che vanno nel dettaglio, maggiore importanza all&amp;rsquo;&lt;em&gt;unico&lt;/em&gt; e all&amp;rsquo;&lt;em&gt;eccezione&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;La ricerca umanistica dipende generalmente da una &lt;em&gt;stratificazione densa&lt;/em&gt; di interpretazioni e commenti.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti-2&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;p&gt;I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.&lt;/p&gt;
+&lt;p&gt;La ricerca umanistica è raramente documentata, standardizzata e strutturata nell&amp;rsquo;ottica dell&amp;rsquo;accesso e riutilizzo da parte di &lt;em&gt;altri&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;umanisti-lenti-o-ostili-verso-la-scienza-aperta&#34;&gt;Umanisti lenti o ostili verso la Scienza Aperta?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Valori e metodi percepiti come contrastanti;&lt;/li&gt;
+&lt;li&gt;Paura di danneggiare la propria carriera;&lt;/li&gt;
+&lt;li&gt;Mancanza di finanziamenti;&lt;/li&gt;
+&lt;li&gt;Problemi con copyright e licenze;&lt;/li&gt;
+&lt;li&gt;Mancanza di documentazione e standardizzazione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ma-esistono-anche-forti-incentivi&#34;&gt;Ma esistono anche forti incentivi!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nuove prospettive di ricerca;&lt;/li&gt;
+&lt;li&gt;Pubblicazione e diffusione della ricerca;&lt;/li&gt;
+&lt;li&gt;Aumento dell&amp;rsquo;impatto e della visibilità (e quindi citazioni);&lt;/li&gt;
+&lt;li&gt;Allineamento alle politiche dell&amp;rsquo;UE (e quindi finanziamenti).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;scienza-aperta-per-umanisti-perché&#34;&gt;Scienza Aperta per umanisti: perché?&lt;/h2&gt;
+&lt;p&gt;Anche solo piccoli cambiamenti nel flusso di lavoro, come l&amp;rsquo;adozione di &lt;a href=&#34;https://orcid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ORCID&lt;/a&gt; e l&amp;rsquo;uso di strumenti come &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, possono fare una grande differenza.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un migliore accesso ai materiali rari;&lt;/li&gt;
+&lt;li&gt;Una maggiore rappresentazione di posizioni marginali;&lt;/li&gt;
+&lt;li&gt;Una maggiore credibilità della ricerca umanistica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Edmond, J., &amp; Tóth-Czifra, E. (2018). Open data for humanists, a pragmatic guide. &lt;a href=&#34;https://shs.hal.science/halshs-02115443&#34;&gt;https://shs.hal.science/halshs-02115443&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;il-ruolo-fondamentale-del-digitale&#34;&gt;Il ruolo fondamentale del digitale&lt;/h2&gt;
+&lt;p&gt;Le tecnologie digitali forniscono l&amp;rsquo;importante opportunità all&amp;rsquo;Open Science di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica acceessibili e trasparenti.&lt;/p&gt;
+&lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali nelle discipline umanistiche è spesso chiamato &lt;strong&gt;Digital Humanities&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-03.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;un-nuovo-paradigma&#34;&gt;Un &amp;ldquo;nuovo&amp;rdquo; paradigma&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h2&gt;
+&lt;p&gt;Il termine &lt;em&gt;Digital Humanities&lt;/em&gt; (DH) descrive contemporaneamente una comunità, un insieme di metodi e di strumenti, un cambio di paradigma, un campo di ricerca.&lt;/p&gt;
+&lt;p&gt;Comprende una vasta gamma di attività, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. &lt;a href=&#34;https://cmu-lib.github.io/dhlg/&#34;&gt;https://cmu-lib.github.io/dhlg/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creiamo-dataset&#34;&gt;Creiamo dataset&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;catalogue.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+        &lt;figcaption&gt;
+            Valentina Pasqual, &amp; Francesca Tomasi. (2021). mythlod/1.0 (1.0) [Data set]. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.4639821&#34;&gt;https://doi.org/10.5281/zenodo.4639821&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Collezioni di dati strutturati, resi disponibili ad un pubblico più ampio per ulteriori studi e analisi.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;img src=&#34;model.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+          Barzaghi, S. and Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Astrazioni per organizzare e descrivere dati in formati strutturati e azionabili dalle macchine.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;img src=&#34;edition.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+          Moro, Aldo, Edizione Nazionale delle Opere di Aldo Moro, voll., Bologna, Università di Bologna, 2021. ISBN: 9788854970496; DOI: &lt;a href=&#34;https://doi.org/10.6092/unibo/aldomoro&#34;&gt;https://doi.org/10.6092/unibo/aldomoro&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;Software e applicazioni che permettono di eseguire determinate operazioni sui dati (es. ricerca, caricamento, manipolazione, pubblicazione, ecc.) tramite interfacce visive e/o di programmazione.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-e-facciamo-moltissime-altre-cose-che-prendono-forma-in-progetti&#34;&gt;&amp;hellip; E facciamo moltissime altre cose, che prendono forma in progetti.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-_progetti_-sono-il-cuore-delle-dh&#34;&gt;I &lt;em&gt;progetti&lt;/em&gt; sono il cuore delle DH&lt;/h2&gt;
+&lt;p&gt;La struttura di base di qualsiasi progetto di DH è una combinazione di &lt;strong&gt;risorse digitali&lt;/strong&gt;, memorizzate in una &lt;strong&gt;struttura&lt;/strong&gt; (es. un database, un file system, un modello di dati) e accessibili tramite un insieme di &lt;strong&gt;servizi&lt;/strong&gt; (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un&amp;rsquo;&lt;strong&gt;interfaccia&lt;/strong&gt; che supporta l&amp;rsquo;esperienza dell&amp;rsquo;utente.&lt;/p&gt;
+&lt;p&gt;I risultati di un progetto di Digital Humanities consistono spesso in &lt;strong&gt;siti Web&lt;/strong&gt;, &lt;strong&gt;applicazioni&lt;/strong&gt;, &lt;strong&gt;dati&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt;, &lt;strong&gt;metodologie&lt;/strong&gt;, &lt;strong&gt;documentazione&lt;/strong&gt; e altre risorse digitali accessibili ad altri studiosi e/o al pubblico generalista, per facilitare la condivisione e il riuso dei dati, la riproducibilità del processo di ricerca, e così via.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;si-riduce-tutto-alla-gestione-dei-dati&#34;&gt;Si riduce tutto alla gestione dei dati&lt;/h2&gt;
+&lt;p&gt;Per sviluppare in maniera corretta un progetto e produrre risultati con un impatto concreto, le DH richiedono dataset ben strutturati, documentati, accessibili, sostenibili, utilizzabili.&lt;/p&gt;
+&lt;p&gt;Per farlo, è necessario seguire una serie di attività rigorose, orientate ad una consapevole gestione dei dati (&lt;strong&gt;Data Management&lt;/strong&gt;).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Strasser, C., Cook, R., Michener, W., &amp; Budden, A. (2012). Primer on Data Management: What you always wanted to know.
+ &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;section-04.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;unimpresa-necessaria&#34;&gt;Un&amp;rsquo;impresa necessaria&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosè-la-gestione-dei-dati&#34;&gt;Cos&amp;rsquo;è la gestione dei dati?&lt;/h2&gt;
+&lt;p&gt;La gestione e l&amp;rsquo;organizzazione critica dei dati durante l&amp;rsquo;intero ciclo di ricerca, con l&amp;rsquo;obiettivo di:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rendere il processo efficiente;&lt;/li&gt;
+&lt;li&gt;rendere i dati stessi interpretabili, comprensibili e rintracciabili nel tempo;&lt;/li&gt;
+&lt;li&gt;favorire l&amp;rsquo;integrità della ricerca;&lt;/li&gt;
+&lt;li&gt;stimolare la collaborazione tra ricercatori.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Smits, D.A.B. and Teperek, M., 2020. Research Data Management for Master’s Students: From Awareness to Action. Data Science Journal, 19(1), p.30. 
+ &lt;a href=&#34;http://doi.org/10.5334/dsj-2020-030&#34;&gt;http://doi.org/10.5334/dsj-2020-030&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;in-cosa-consiste&#34;&gt;In cosa consiste?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;dmanagement.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Gualandi, B. (2024, luglio 26). Data stewardship e open science nelle discipline umanistiche. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.12937887&#34;&gt;https://doi.org/10.5281/zenodo.12937887&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;
+          La gestione dei dati accompagna tutte le fasi di produzione, raccolta e analisi dati e si conclude con la preservazione e la condivisione degli stessi.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;in-cosa-consiste-1&#34;&gt;In cosa consiste?&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;figcaption&gt;
+    Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pianificazione&#34;&gt;Pianificazione&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;
+          Azioni principali: identificare i tipi di dati, identificare i metadati, pianificare la loro organizzazione in dataset, e redigere un Data Management Plan (DMP).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+        &lt;p&gt;
+          Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;preservazione-e-condivisione&#34;&gt;Preservazione e condivisione&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: valutare quali dati depositare, scegliere la repository, depositare i dati, applicare una licenza ai dati.
+      &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;caso-di-studio-mythologiae&#34;&gt;Caso di studio: Mythologiae&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://mythologiae.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mythologiae.unibo.it/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Collezione digitale di 4000+ opere d&amp;rsquo;arte raffiguranti scene della mitologia classica.&lt;/p&gt;
+&lt;p&gt;Ogni oggetto della collezione è descritto da una serie di metadati.&lt;/p&gt;
+&lt;p&gt;Lavoreremo su alcune sezioni di questo dataset, sperimentando con strumenti e metodi in maniera pratica e &lt;em&gt;simulando ciò che poi dovrete portare all&amp;rsquo;esame&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edizione Nazionale delle Opere di Aldo Moro</title>
+      <link>http://localhost:1313/it/project/moro/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/moro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s roles</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works subjects</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works types</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
+      <link>http://localhost:1313/it/publication/barzaghi-national-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-national-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocol of the competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-protocol-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-protocol-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La modellazione dei dati nell&#39;Edizione Nazionale delle Opere di Aldo Moro</title>
+      <link>http://localhost:1313/it/publication/barzaghi-modellazione-2021/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-modellazione-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-competitive-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-competitive-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medieval Manuscript Ontology (MeMO)</title>
+      <link>http://localhost:1313/it/project/memo/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/memo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of an ontology for modelling medieval manuscripts: the case of Progetto IRNERIO</title>
+      <link>http://localhost:1313/it/publication/barzaghi-development-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-development-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
+      <link>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conformità all&#39;Open Access delle riviste pubblicate dall&#39;Università di Bologna</title>
+      <link>http://localhost:1313/it/publication/auddino-conformita-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/auddino-conformita-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocollo di Conformità di Riviste Scientifiche all Open Access</title>
+      <link>http://localhost:1313/it/publication/cavestri-protocollo-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/cavestri-protocollo-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

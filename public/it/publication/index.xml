@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | holyyeti</title>
+    <link>http://localhost:1313/it/publication/</link>
+      <atom:link href="http://localhost:1313/it/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/it/publication/</link>
+    </image>
+    
+    <item>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes</title>
+      <link>http://localhost:1313/it/publication/barzaghi-developing-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-developing-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2024/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI and chatbots as a storytelling tool to personalize the visitor experience. The case of National Museum of Ravenna.</title>
+      <link>http://localhost:1313/it/publication/fabbri-ai-nodate/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/fabbri-ai-nodate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitisation of Temporary Exhibitions: the Aldrovandi Case</title>
+      <link>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s roles</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works subjects</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works types</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
+      <link>http://localhost:1313/it/publication/barzaghi-national-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-national-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocol of the competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-protocol-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-protocol-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La modellazione dei dati nell&#39;Edizione Nazionale delle Opere di Aldo Moro</title>
+      <link>http://localhost:1313/it/publication/barzaghi-modellazione-2021/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-modellazione-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive audit for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-competitive-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-competitive-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of an ontology for modelling medieval manuscripts: the case of Progetto IRNERIO</title>
+      <link>http://localhost:1313/it/publication/barzaghi-development-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-development-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
+      <link>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conformità all&#39;Open Access delle riviste pubblicate dall&#39;Università di Bologna</title>
+      <link>http://localhost:1313/it/publication/auddino-conformita-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/auddino-conformita-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocollo di Conformità di Riviste Scientifiche all Open Access</title>
+      <link>http://localhost:1313/it/publication/cavestri-protocollo-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/cavestri-protocollo-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

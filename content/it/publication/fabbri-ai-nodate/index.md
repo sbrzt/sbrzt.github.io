@@ -11,7 +11,7 @@ authors:
 - Sebastian Barzaghi
 tags: []
 categories: []
-date: -01-01
+date: 2023-01-01
 lastmod: 2023-12-20T14:33:28+01:00
 featured: false
 draft: false

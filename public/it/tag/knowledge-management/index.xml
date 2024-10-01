@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge Management | holyyeti</title>
+    <link>http://localhost:1313/it/tag/knowledge-management/</link>
+      <atom:link href="http://localhost:1313/it/tag/knowledge-management/index.xml" rel="self" type="application/rss+xml" />
+    <description>Knowledge Management</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Knowledge Management</title>
+      <link>http://localhost:1313/it/tag/knowledge-management/</link>
+    </image>
+    
+    <item>
+      <title>Cultural Heritage Acquisition and Digitisation Application Profile (CHAD-AP)</title>
+      <link>http://localhost:1313/it/project/chad-ap/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/chad-ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritage Risk Assessment Ontology (HeRO)</title>
+      <link>http://localhost:1313/it/project/hero/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medieval Manuscript Ontology (MeMO)</title>
+      <link>http://localhost:1313/it/project/memo/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/project/memo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

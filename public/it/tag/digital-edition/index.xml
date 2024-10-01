@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Edition | holyyeti</title>
+    <link>http://localhost:1313/it/tag/digital-edition/</link>
+      <atom:link href="http://localhost:1313/it/tag/digital-edition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Edition</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Digital Edition</title>
+      <link>http://localhost:1313/it/tag/digital-edition/</link>
+    </image>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s roles</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works subjects</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Controlled vocabulary of Aldo Moro&#39;s works types</title>
+      <link>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-2/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
+      <link>http://localhost:1313/it/publication/barzaghi-national-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-national-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
