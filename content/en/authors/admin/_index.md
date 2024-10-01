@@ -66,7 +66,7 @@ profiles:
     link: https://scholar.google.it/citations?user=qyPA9IgAAAAJ&hl=en&authuser=1&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/holyyeti
+    link: https://github.com/sbrzt
   - icon: linkedin
     icon_pack: fab
     link: https://it.linkedin.com/in/sebastian-barzaghi
