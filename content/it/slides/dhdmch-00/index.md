@@ -6,10 +6,7 @@ tags: [Digital Humanities]
 categories: [Digital Humanities]
 date: '2022-12-31T00:00:00Z'
 slides:
-  # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: white
-  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
-  #   Light style: github. Dark style: dracula (default).
   highlight_style: github-light
 ---
 
@@ -213,9 +210,9 @@ Frequentanti, non abbiate paura ad interagire e a fare domande.
 |----|--------|------|----------|------|
 | 00 | _Introduzione_ | Teorica | `Corso`, `Esame` | 07-11-2024 |
 | 01 | _La grande sfida_ | Teorica | `Open Science`, `Dati`, `Digital Humanities`, `Data Management` | 07-11-2024 |
-| 02 | _Primi passi_ | Pratica | [GitHub](https://github.com/), [Visual Studio Code](https://vscode.dev/) | 18-11-2024 |
+| 02 | _Primi passi_ | Pratica | [GitHub](https://github.com/) | 18-11-2024 |
 | 03 | _PLAN: pianificare_ | Teorica | `Metadati`, `FAIR`, `Case study`, `Progetto d'esame` | 20-11-2024 |
-| 04 | _Diario di bordo_ | Pratica | [Data Management Plan](https://argos.openaire.eu/home), [Markdown](https://www.markdownguide.org/) | 21-11-2024 |
+| 04 | _Diario di bordo_ | Pratica | [Markdown](https://www.markdownguide.org/) | 21-11-2024 |
 | 05 | _COLLECT: creare e raccogliere_ | Teorica | `Raccolta e creazione dati`, `Documentazione`, `File system` | 25-11-2024 |
 | 06 | _Il biblioggetto_ | Pratica | [Zotero](https://www.zotero.org/) | 27-11-2024 |
 
@@ -223,15 +220,15 @@ Frequentanti, non abbiate paura ad interagire e a fare domande.
 
 | ID | Titolo | Tipo | Tematica | Data |
 |----|--------|------|----------|------|
-| 07 | _COLLECT: descrivere_ | Teorica | `Modellazione dei dati`, `XML`, `Linked Open Data` | 28-11-2024 |
-| 08 | _Strutture codificate_ | Pratica | [XML](https://www.html.it/guide/guida-xml-di-base/), [TEI](https://tei-c.org/) | 02-12-2024 |
-| 09 | _Oltre il testo_ | Pratica | [RDF](https://it.wikipedia.org/wiki/Resource_Description_Framework), [SKOS](https://it.wikipedia.org/wiki/SKOS) | 04-12-2024 |
-| 10 | _PROCESS: preparare ed elaborare_ | Teorica | `Pulizia dei dati`, `Qualità dei dati`  | 05-12-2024 |
-| 11 | _Lawful goodness_ | Pratica | [OpenRefine](https://openrefine.org/) | 09-12-2024 |
+| 07 | _COLLECT: descrivere_ | Teorica | `Modellazione dei dati`, `Linked Open Data` | 28-11-2024 |
+| 08 | _Strutture nascoste_ | Pratica | [TEI](https://tei-c.org/) | 02-12-2024 |
+| 09 | _L'oltretesto_ | Pratica | [RDF](https://it.wikipedia.org/wiki/Resource_Description_Framework) | 04-12-2024 |
+| 10 | _PROCESS: preparare ed elaborare_ | Teorica | `Pulizia dei dati`, `Qualità dei dati` | 05-12-2024 |
+| 11 | _Metti la cera, togli la cera_ | Pratica | [OpenRefine](https://openrefine.org/) | 09-12-2024 |
 | 12 | _ANALYZE: analizzare_ | Teorica | `Analisi dei dati`, `Visualizzazione dei dati` | 11-12-2024 |
-| 13 | _Tutto è rivelato_ | Pratica | [Voyant Tools](https://voyant-tools.org/), [Gephi](https://gephi.org/gephi-lite/) | 12-12-2024 |
+| 13 | _Tutto è rivelato_ | Pratica | [Voyant Tools](https://voyant-tools.org/) | 12-12-2024 |
 | 14 | _SHARE: condividere e riutilizzare_ | Teorica | `Preservazione dei dati`, `Citazione dei dati`, `Pubblicazione dei dati` | 16-12-2024 |
-| 15 | _Al vostro servizio_ | Pratica | [Zenodo](https://zenodo.org/) | 18-12-2024 |
+| 15 | _L'eredità di Alessandria_ | Pratica | [Zenodo](https://zenodo.org/) | 18-12-2024 |
 
 ---
 
