@@ -12,7 +12,7 @@ en:
 it:
   languageCode: it
   contentDir: content/it
-  title: holyyeti
+  title: sbrzt
   params:
     description: Il sito personale di Sebastian Barzaghi, ricercatore in Digital Humanities specializzato in Linked Open Data e Open Science.
   menu:
