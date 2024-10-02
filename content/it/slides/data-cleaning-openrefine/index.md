@@ -12,7 +12,7 @@ slides:
 
 # Data Cleaning nelle Scienze Umane
 
-#### Introduzione alla pulizia dei dati con OpenRefine
+#### Laboratorio introduttivo alla pulizia dei dati con OpenRefine
 
 Sebastian Barzaghi | 
 [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
@@ -498,7 +498,7 @@ OpenRefine permette di:
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Seleziona <em>Parse next <code>1</code> line(s) as column headers</em><;/li>
+        <li>Seleziona <em>Parse next <code>1</code> line(s) as column headers</em>;</li>
         <li>Spunta <em>Store blank rows</em>;</li>
         <li>Spunta <em>Store blank cells as nulls</em>;</li>
         <li>Clicca su <em>Create project</em>.</li>
@@ -620,7 +620,8 @@ OpenRefine permette di:
     <div style="flex: 1; padding-left: 20px;">
       <ul>
         <li><strong>Record</strong>: una collezione di una o più righe;</li>
-        <li>Le molteplici informazioni in una singola cella (esempio: <code>dcho_keyword</code>), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record.</li>
+        <li>Le molteplici informazioni in una singola cella (esempio: <code>dcho_keyword</code>), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record;</li>
+        <li>Funziona dopo aver eseguito uno <emph>split</emph>, un'operazione che vedremo tra poco.</li>
       </ul>
     </div>
 </div>
@@ -874,6 +875,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
     <div style="flex: 1; padding-left: 20px;">
       <ul>
         <li>A volte una cella può contenere più valori (ad esempio, colonna <code>dcho_keyword</code>: più valori separati da virgole <code>,</code>);</li>
+        <li>Fondamentale per la modalità <emph>records</emph>;</li>
         <li>Fai clic sulla freccia e seleziona <em>Edit cells</em>;</li>
         <li>Seleziona <em>Split multi-valued cells</em>.</li>
       </ul>
@@ -1015,7 +1017,8 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 * Impostare un separatore comune (`|`);
 * Dividere i valori (_split_);
 * Raggruppare i valori (_cluster_);
-* Modificare (esempio: mantenere solo l'ultimo valore se c'è una gerarchia, eliminare "Non categoria", ecc.);
+* Mantenere solo l'ultimo valore a destra se c'è una gerarchia, solitamente indicata da una sequenza di termini separati da `>`. Esempio: "Gli dèi>Efeso" &rarr; `Efeso`;
+* Normalizzare i valori NULL (esempio: "Non categoria" &rarr; `NULL`).
 
 ---
 
@@ -1033,8 +1036,8 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 
 ## cho_century
 
-* Impostare un separatore comune (`|`);
-* Modificare;
+* Modificare (esempio: eliminare le virgole);
+* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
   * Rappresentazione delle date CE: `[year][“-”][month][“-”][day]`;
     * Esempio: "20 giugno 1992" &rarr; `1992-06-20`;
@@ -1050,6 +1053,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 
 * Impostare un separatore comune (`|`);
 * Modificare (esempio: rimuovi "ca.", "circa", ecc.);
+* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
   * Rappresentazione delle date CE: `[year][“-”][month][“-”][day]`;
     * Esempio: "1992" &rarr; `1992`;
@@ -1073,6 +1077,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 ## cho_sources_classic
 
 * Impostare un separatore comune (`|`);
+* Normalizzare i valori NULL (esempio: "Non categoria" &rarr; `NULL`).
 * Modificare (esempio: rimuovere le citazioni che non sono in forma canonica):
   * Le citazioni non canoniche devono essere salvate così come sono in una colonna separata `cho_sources_other`;
 * Standardizzare (vedi [Perseus](https://www.perseus.tufts.edu/hopper/)):
@@ -1086,7 +1091,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 
 ## Altre colonne
 
-* Tutte: controllare i valori NULL, correggere i refusi, sostituire i separatori con `|`;
+* Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con `|`;
 * `dcho_keyword`: dividere, raggruppare, modificare (mantenere solo italiano);
 * `cho_author`: raggruppare, modificare, riconciliare con VIAF ("Person");
 * `cho_period`: raggruppare, modificare;
@@ -1097,10 +1102,22 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 
 ## Conclusioni
 
-Potete già fare molto per aumentare la qualità dei dati!
+Potete già fare molto per aumentare la qualità dei dati! Riassumendo:
 
-* Esplorate i dati utilizzando _facet_, filtri e _sorting_
+* Esplorate i dati utilizzando _facet_, filtri e _sorting_;
 * Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (_cluster_), divisioni (_split_) e sostituzioni;
 * Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.
 
 Provate! State lavorando su una copia e potete sempre tornare indietro.
+
+---
+
+# Data Cleaning nelle Scienze Umane
+
+#### Fine
+
+Sebastian Barzaghi | 
+[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
+[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+
+---
