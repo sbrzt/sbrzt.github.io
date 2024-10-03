@@ -21,7 +21,7 @@
 
   <link rel="canonical" href="http://localhost:1313/it/slides/data-cleaning-openrefine/">
 
-  <title>Data Cleaning nelle Scienze Umane | holyyeti</title>
+  <title>Data Cleaning nelle Scienze Umane | sbrzt</title>
 
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
@@ -66,7 +66,7 @@
     <section>
     
       <h1 id="data-cleaning-nelle-scienze-umane">Data Cleaning nelle Scienze Umane</h1>
-<h4 id="introduzione-alla-pulizia-dei-dati-con-openrefine">Introduzione alla pulizia dei dati con OpenRefine</h4>
+<h4 id="laboratorio-introduttivo-alla-pulizia-dei-dati-con-openrefine">Laboratorio introduttivo alla pulizia dei dati con OpenRefine</h4>
 <p>Sebastian Barzaghi |
 <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> |
 <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></p>
@@ -88,7 +88,8 @@
       class="section-slide"
   >
 
-<h2 id="i-dati-nelle-scienze-umane">I dati nelle scienze umane</h2>
+<h2 id="partiamo-dai-dati">Partiamo dai dati</h2>
+<p>Immagine: Redon, O. (1905–1916). <em>The Chariot of Apollo</em> [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.</p>
 
     </section>
     
@@ -766,7 +767,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Seleziona <em>Parse next <code>1</code> line(s) as column headers</em><;/li>
+        <li>Seleziona <em>Parse next <code>1</code> line(s) as column headers</em>;</li>
         <li>Spunta <em>Store blank rows</em>;</li>
         <li>Spunta <em>Store blank cells as nulls</em>;</li>
         <li>Clicca su <em>Create project</em>.</li>
@@ -930,7 +931,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     <div style="flex: 1; padding-left: 20px;">
       <ul>
         <li><strong>Record</strong>: una collezione di una o più righe;</li>
-        <li>Le molteplici informazioni in una singola cella (esempio: <code>dcho_keyword</code>), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record.</li>
+        <li>Le molteplici informazioni in una singola cella (esempio: <code>dcho_keyword</code>), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record;</li>
+        <li>Funziona dopo aver eseguito uno <emph>split</emph>, un'operazione che vedremo tra poco.</li>
       </ul>
     </div>
 </div>
@@ -1279,6 +1281,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     <div style="flex: 1; padding-left: 20px;">
       <ul>
         <li>A volte una cella può contenere più valori (ad esempio, colonna <code>dcho_keyword</code>: più valori separati da virgole <code>,</code>);</li>
+        <li>Fondamentale per la modalità <emph>records</emph>;</li>
         <li>Fai clic sulla freccia e seleziona <em>Edit cells</em>;</li>
         <li>Seleziona <em>Split multi-valued cells</em>.</li>
       </ul>
@@ -1488,7 +1491,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <li>Impostare un separatore comune (<code>|</code>);</li>
 <li>Dividere i valori (<em>split</em>);</li>
 <li>Raggruppare i valori (<em>cluster</em>);</li>
-<li>Modificare (esempio: mantenere solo l&rsquo;ultimo valore se c&rsquo;è una gerarchia, eliminare &ldquo;Non categoria&rdquo;, ecc.);</li>
+<li>Mantenere solo l&rsquo;ultimo valore a destra se c&rsquo;è una gerarchia, solitamente indicata da una sequenza di termini separati da <code>&gt;</code>. Esempio: &ldquo;Gli dèi&gt;Efeso&rdquo; → <code>Efeso</code>;</li>
+<li>Normalizzare i valori NULL (esempio: &ldquo;Non categoria&rdquo; → <code>NULL</code>).</li>
 </ul>
 
     </section>
@@ -1528,8 +1532,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h2 id="cho_century">cho_century</h2>
 <ul>
-<li>Impostare un separatore comune (<code>|</code>);</li>
-<li>Modificare;</li>
+<li>Modificare (esempio: eliminare le virgole);</li>
+<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
 <li>Rappresentazione delle date CE: <code>[year][“-”][month][“-”][day]</code>;
@@ -1565,6 +1569,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <ul>
 <li>Impostare un separatore comune (<code>|</code>);</li>
 <li>Modificare (esempio: rimuovi &ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, ecc.);</li>
+<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
 <li>Rappresentazione delle date CE: <code>[year][“-”][month][“-”][day]</code>;
@@ -1625,6 +1630,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <h2 id="cho_sources_classic">cho_sources_classic</h2>
 <ul>
 <li>Impostare un separatore comune (<code>|</code>);</li>
+<li>Normalizzare i valori NULL (esempio: &ldquo;Non categoria&rdquo; → <code>NULL</code>).</li>
 <li>Modificare (esempio: rimuovere le citazioni che non sono in forma canonica):
 <ul>
 <li>Le citazioni non canoniche devono essere salvate così come sono in una colonna separata <code>cho_sources_other</code>;</li>
@@ -1655,7 +1661,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h2 id="altre-colonne">Altre colonne</h2>
 <ul>
-<li>Tutte: controllare i valori NULL, correggere i refusi, sostituire i separatori con <code>|</code>;</li>
+<li>Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con <code>|</code>;</li>
 <li><code>dcho_keyword</code>: dividere, raggruppare, modificare (mantenere solo italiano);</li>
 <li><code>cho_author</code>: raggruppare, modificare, riconciliare con VIAF (&ldquo;Person&rdquo;);</li>
 <li><code>cho_period</code>: raggruppare, modificare;</li>
@@ -1673,13 +1679,28 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     
       
 <h2 id="conclusioni">Conclusioni</h2>
-<p>Potete già fare molto per aumentare la qualità dei dati!</p>
+<p>Potete già fare molto per aumentare la qualità dei dati! Riassumendo:</p>
 <ul>
-<li>Esplorate i dati utilizzando <em>facet</em>, filtri e <em>sorting</em></li>
+<li>Esplorate i dati utilizzando <em>facet</em>, filtri e <em>sorting</em>;</li>
 <li>Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (<em>cluster</em>), divisioni (<em>split</em>) e sostituzioni;</li>
 <li>Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.</li>
 </ul>
 <p>Provate! State lavorando su una copia e potete sempre tornare indietro.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="data-cleaning-nelle-scienze-umane-1">Data Cleaning nelle Scienze Umane</h1>
+<h4 id="fine">Fine</h4>
+<p>Sebastian Barzaghi |
+<a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> |
+<a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></p>
 
     </section>
     

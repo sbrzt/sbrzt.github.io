@@ -22,7 +22,10 @@ Sebastian Barzaghi |
 
 {{< slide background-image="img/section-01.jpg" class="section-slide">}}
 
-## I dati nelle scienze umane
+## Partiamo dai dati
+
+Immagine: Redon, O. (1905–1916). *The Chariot of Apollo* [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.
+
 
 ---
 
@@ -1119,5 +1122,3 @@ Provate! State lavorando su una copia e potete sempre tornare indietro.
 Sebastian Barzaghi | 
 [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
 [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
-
----

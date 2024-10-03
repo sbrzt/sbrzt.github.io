@@ -60,7 +60,17 @@
     font-size: 1rem;
 }
 
-.section-slide h2,
+.section-slide h1 ,
+.section-slide h2 ,
+.section-slide h3 ,
+.section-slide h4 ,
+.section-slide h5 ,
+.section-slide h6 ,
 .section-slide p {
     color: white;
+}
+
+.section-slide p {
+    font-size: xx-small ;
+    padding-top: 10rem ;
 }
