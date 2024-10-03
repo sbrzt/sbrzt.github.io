@@ -181,12 +181,12 @@ Considera di indicare almeno:
         <img src="img/tidy-1.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <p>Ogni variabile deve avere una colonna separata.</p>
+        <p>Una colonna per ogni variabile.</p>
     </div>
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -198,12 +198,12 @@ Considera di indicare almeno:
         <img src="img/tidy-2.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <p>Ogni osservazione deve avere una riga separata.</p>
+        <p>Una riga per ogni osservazione.</p>
     </div>
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -215,12 +215,12 @@ Considera di indicare almeno:
         <img src="img/tidy-3.png" alt="https://r4ds.had.co.nz/tidy-data.html" style="max-width: 100%;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <p>Ogni cella dovrebbe contenere un singolo valore.</p>
+        <p>Una cella per ogni valore.</p>
     </div>
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -237,7 +237,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -255,7 +255,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -272,7 +272,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -291,7 +291,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -309,7 +309,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -327,7 +327,7 @@ Considera di indicare almeno:
 </div>
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -343,7 +343,7 @@ Considera di indicare almeno:
 * Fai attenzione agli **spazi**!
 
 <div class="footer">
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
 </div>
 
 ---
@@ -426,7 +426,7 @@ OpenRefine permette di:
 * Il flusso di lavoro può essere salvato e applicato a nuovi dataset.
 
 <div class="footer">
-  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>.
 </div>
 
 ---
@@ -441,7 +441,7 @@ OpenRefine permette di:
 * Vuoi allineare i dati a una fonte esterna.
 
 <div class="footer">
-  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>.
 </div>
 
 ---
@@ -877,7 +877,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>A volte una cella può contenere più valori (ad esempio, colonna <code>dcho_keyword</code>: più valori separati da virgole <code>,</code>);</li>
+        <li>A volte una cella può contenere più valori (esempio: colonna <code>dcho_keyword</code>, con più valori separati da virgole <code>,</code>);</li>
         <li>Fondamentale per la modalità <emph>records</emph>;</li>
         <li>Fai clic sulla freccia e seleziona <em>Edit cells</em>;</li>
         <li>Seleziona <em>Split multi-valued cells</em>.</li>
@@ -896,7 +896,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
     <div style="flex: 1; padding-left: 20px;">
       <ul>
         <li>Puoi decidere come dividere le celle;</li>
-        <li>Idealmente, dovresti sempre usare nel testo un separatore (ad esempio <code>,</code>, <code>|</code>, <code>;</code>, ecc.), e indicarlo qui;</li>
+        <li>Idealmente, dovresti sempre usare nel testo un separatore (esempio: <code>,</code>, <code>|</code>, <code>;</code>, ecc.), e indicarlo qui;</li>
         <li>Clicca su <em>OK</em>.</li>
       </ul>
     </div>
@@ -957,7 +957,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Seleziona il servizio di riconciliazione (ad esempio <code>VIAF</code>);</li>
+        <li>Seleziona il servizio di riconciliazione (esempio: <code>VIAF</code>);</li>
         <li>Clicca su <em>Next</em>.</li>
       </ul>
     </div>
@@ -989,8 +989,8 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Alcuni valori delle celle vengono riconciliati direttamente (ad esempio <em>Houdon, Jean Antoine</em>);</li>
-        <li>Altri richiedono una validazione manuale (ad esempio <em>Gérard, Francois Baron</em>);</li>
+        <li>Alcuni valori delle celle vengono riconciliati direttamente (esempio: <em>Houdon, Jean Antoine</em>);</li>
+        <li>Altri richiedono una validazione manuale (esempio: <em>Gérard, Francois Baron</em>);</li>
         <li>Cliccare sul <em>segno di spunta singolo</em> per riconciliare solo quella cella, o sul <em>segno di spunta doppio</em> per estenderlo a tutte le celle identiche.</li>
       </ul>
     </div>
@@ -1111,7 +1111,7 @@ Potete già fare molto per aumentare la qualità dei dati! Riassumendo:
 * Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (_cluster_), divisioni (_split_) e sostituzioni;
 * Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.
 
-Provate! State lavorando su una copia e potete sempre tornare indietro.
+Provate! Ricordate che potete sempre tornare indietro.
 
 ---
 

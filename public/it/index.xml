@@ -63,8 +63,8 @@
       class=&#34;section-slide&#34;
   &gt;
 
-&lt;h2 id=&#34;i-dati-nelle-scienze-umane&#34;&gt;I dati nelle scienze umane&lt;/h2&gt;
-&lt;h6 id=&#34;redon-o-19051916-the-chariot-of-apollo-oil-on-canvas-26-x-32-in-66-x-813-cm-anonymous-gift-1927-accession-no-2729&#34;&gt;Redon, O. (1905–1916). &lt;em&gt;The Chariot of Apollo&lt;/em&gt; [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.&lt;/h6&gt;
+&lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
+&lt;p&gt;Immagine: Redon, O. (1905–1916). &lt;em&gt;The Chariot of Apollo&lt;/em&gt; [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;cosa-sono-i-dati-nelle-scienze-umane&#34;&gt;Cosa sono i dati nelle scienze umane?&lt;/h2&gt;
 &lt;p&gt;Un dato è qualsiasi valore assegnato a qualcosa che può essere quantificato, qualificato o interpretato in qualche modo per essere utilizzato come prova informativa.&lt;/p&gt;
@@ -176,14 +176,19 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h2&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for data science. &#34; O&#39;Reilly Media, Inc.&#34;. https://r4ds.hadley.nz/.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
         &lt;p&gt;Ogni variabile deve avere una colonna separata.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-23&#34;&gt;Usa formati standard per le tabelle (2/3)&lt;/h2&gt;
@@ -196,7 +201,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-33&#34;&gt;Usa formati standard per le tabelle (3/3)&lt;/h2&gt;
@@ -209,7 +214,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (1/2)&lt;/h2&gt;
@@ -222,7 +227,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (2/2)&lt;/h2&gt;
@@ -236,7 +241,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-12&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (1/2)&lt;/h2&gt;
@@ -249,7 +254,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-22&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (2/2)&lt;/h2&gt;
@@ -264,7 +269,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h2&gt;
@@ -278,7 +283,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h2&gt;
@@ -292,7 +297,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;sii-coerente&#34;&gt;Sii coerente&lt;/h2&gt;
@@ -312,7 +317,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Fai attenzione agli &lt;strong&gt;spazi&lt;/strong&gt;!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h2&gt;
@@ -385,7 +390,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Il flusso di lavoro può essere salvato e applicato a nuovi dataset.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;alcuni-scenari-di-utilizzo&#34;&gt;Alcuni scenari di utilizzo&lt;/h2&gt;
@@ -398,7 +403,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Vuoi allineare i dati a una fonte esterna.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;
+  Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;installazione-di-openrefine&#34;&gt;Installazione di OpenRefine&lt;/h2&gt;
@@ -1011,14 +1016,13 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (&lt;em&gt;cluster&lt;/em&gt;), divisioni (&lt;em&gt;split&lt;/em&gt;) e sostituzioni;&lt;/li&gt;
 &lt;li&gt;Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Provate! State lavorando su una copia e potete sempre tornare indietro.&lt;/p&gt;
+&lt;p&gt;Provate! Ricordate che potete sempre tornare indietro.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;data-cleaning-nelle-scienze-umane-1&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
 &lt;h4 id=&#34;fine&#34;&gt;Fine&lt;/h4&gt;
 &lt;p&gt;Sebastian Barzaghi |
 &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
 &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
 </description>
     </item>
     
