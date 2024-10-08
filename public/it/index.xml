@@ -176,15 +176,10 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h2&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;figure&gt;
         &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
-        &lt;figcaption&gt;
-          Fonte: Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for data science. &#34; O&#39;Reilly Media, Inc.&#34;. https://r4ds.hadley.nz/.
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;Ogni variabile deve avere una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Una colonna per ogni variabile.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -197,7 +192,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
         &lt;img src=&#34;img/tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;Ogni osservazione deve avere una riga separata.&lt;/p&gt;
+        &lt;p&gt;Una riga per ogni osservazione.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -210,7 +205,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
         &lt;img src=&#34;img/tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;Ogni cella dovrebbe contenere un singolo valore.&lt;/p&gt;
+        &lt;p&gt;Una cella per ogni valore.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -762,7 +757,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;A volte una cella può contenere più valori (ad esempio, colonna &lt;code&gt;dcho_keyword&lt;/code&gt;: più valori separati da virgole &lt;code&gt;,&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;A volte una cella può contenere più valori (esempio: colonna &lt;code&gt;dcho_keyword&lt;/code&gt;, con più valori separati da virgole &lt;code&gt;,&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Fondamentale per la modalità &lt;emph&gt;records&lt;/emph&gt;;&lt;/li&gt;
         &lt;li&gt;Fai clic sulla freccia e seleziona &lt;em&gt;Edit cells&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;Seleziona &lt;em&gt;Split multi-valued cells&lt;/em&gt;.&lt;/li&gt;
@@ -778,7 +773,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Puoi decidere come dividere le celle;&lt;/li&gt;
-        &lt;li&gt;Idealmente, dovresti sempre usare nel testo un separatore (ad esempio &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, ecc.), e indicarlo qui;&lt;/li&gt;
+        &lt;li&gt;Idealmente, dovresti sempre usare nel testo un separatore (esempio: &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, ecc.), e indicarlo qui;&lt;/li&gt;
         &lt;li&gt;Clicca su &lt;em&gt;OK&lt;/em&gt;.&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -826,7 +821,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;Seleziona il servizio di riconciliazione (ad esempio &lt;code&gt;VIAF&lt;/code&gt;);&lt;/li&gt;
+        &lt;li&gt;Seleziona il servizio di riconciliazione (esempio: &lt;code&gt;VIAF&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Clicca su &lt;em&gt;Next&lt;/em&gt;.&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -852,8 +847,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;Alcuni valori delle celle vengono riconciliati direttamente (ad esempio &lt;em&gt;Houdon, Jean Antoine&lt;/em&gt;);&lt;/li&gt;
-        &lt;li&gt;Altri richiedono una validazione manuale (ad esempio &lt;em&gt;Gérard, Francois Baron&lt;/em&gt;);&lt;/li&gt;
+        &lt;li&gt;Alcuni valori delle celle vengono riconciliati direttamente (esempio: &lt;em&gt;Houdon, Jean Antoine&lt;/em&gt;);&lt;/li&gt;
+        &lt;li&gt;Altri richiedono una validazione manuale (esempio: &lt;em&gt;Gérard, Francois Baron&lt;/em&gt;);&lt;/li&gt;
         &lt;li&gt;Cliccare sul &lt;em&gt;segno di spunta singolo&lt;/em&gt; per riconciliare solo quella cella, o sul &lt;em&gt;segno di spunta doppio&lt;/em&gt; per estenderlo a tutte le celle identiche.&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -896,12 +891,13 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Iscriviti e accedi a Iconclass;&lt;/li&gt;
 &lt;li&gt;Cerca il tema;&lt;/li&gt;
 &lt;li&gt;Scegli l&amp;rsquo;opzione più appropriata;&lt;/li&gt;
-&lt;li&gt;Sostituisci il tema esistente nel dataset con l&amp;rsquo;ID dell&amp;rsquo;opzione trovata:
+&lt;li&gt;Sostituisci il tema esistente nel dataset con l&amp;rsquo;identificativo dell&amp;rsquo;opzione trovata:
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;L&amp;rsquo;Enigma della Sfinge&amp;rdquo; → &lt;code&gt;94T33&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;Eracle cattura il cinghiale di Erimanto&amp;rdquo; → &lt;code&gt;94L324&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;Eracle cattura il cinghiale di Erimanto&amp;rdquo; → &lt;code&gt;94L324&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Se non lo trovi, lascia il valore così com&amp;rsquo;è (dopo averlo ovviamente pulito e corretto).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -924,8 +920,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;/li&gt;
 &lt;li&gt;Rappresentazione dei periodi: &lt;code&gt;[beginning][&amp;quot;/&amp;quot;][end]&lt;/code&gt;;
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;II secolo&amp;rdquo; → &lt;code&gt;0100-01-01/0199-12-31&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;II secolo a.C.&amp;rdquo; → &lt;code&gt;-0199-01-01/-0100-12-31&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;II secolo&amp;rdquo; → &lt;code&gt;0100/0199&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;II secolo a.C.&amp;rdquo; → &lt;code&gt;-0199/-0100&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1013,7 +1009,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;p&gt;Potete già fare molto per aumentare la qualità dei dati! Riassumendo:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Esplorate i dati utilizzando &lt;em&gt;facet&lt;/em&gt;, filtri e &lt;em&gt;sorting&lt;/em&gt;;&lt;/li&gt;
-&lt;li&gt;Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (&lt;em&gt;cluster&lt;/em&gt;), divisioni (&lt;em&gt;split&lt;/em&gt;) e sostituzioni;&lt;/li&gt;
+&lt;li&gt;Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (&lt;em&gt;cluster&lt;/em&gt;), divisioni (&lt;em&gt;split&lt;/em&gt;) e sostituzioni;&lt;/li&gt;
 &lt;li&gt;Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Provate! Ricordate che potete sempre tornare indietro.&lt;/p&gt;
@@ -1096,6 +1092,454 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Dati e modelli per il patrimonio culturale e la loro rappresentazione</title>
+      <link>http://localhost:1313/it/slides/data-model-representation/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/data-model-representation/</guid>
+      <description>&lt;h3 id=&#34;dati-e-modelli-per-il-patrimonio-culturale-e-la-loro-rappresentazione&#34;&gt;Dati e modelli per il patrimonio culturale e la loro rappresentazione&lt;/h3&gt;
+&lt;h5 id=&#34;i-casi-del-_rinascimento-digitale-di-ulisse-aldrovandi_-e-del-_progetto-sirius_&#34;&gt;I casi del &lt;em&gt;Rinascimento digitale di Ulisse Aldrovandi&lt;/em&gt; e del &lt;em&gt;Progetto SIRIUS&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outline&#34;&gt;Outline&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Concetti chiave
+&lt;ul&gt;
+&lt;li&gt;Dato&lt;/li&gt;
+&lt;li&gt;Modello (di dati)&lt;/li&gt;
+&lt;li&gt;FAIRness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Casi di studio
+&lt;ul&gt;
+&lt;li&gt;Aldrovandi (Spoke 4)&lt;/li&gt;
+&lt;li&gt;SIRIUS (Spoke 6)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosa-sono-i-dati&#34;&gt;Cosa sono i dati?&lt;/h2&gt;
+&lt;p&gt;Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analisi, quanto come prodotti del processo stesso di ricerca.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I dati sono record fattuali raccolti, generati o riutilizzati nella pratica di ricerca, come base di analisi, ragionamenti, discussioni o calcoli.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  OECD (2007), OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;le-sfide-dei-dati-culturali&#34;&gt;Le sfide dei dati culturali&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fonte-noppe-n-vanvelk-j--callens-n-2023-the-hands-on-guide-to-research-data-management-for-ku-leuven-researchers-students-and-research-support-staff-in-the-humanities-and-social-sciences-zenodo-httpsdoiorg105281zenodo8010618&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Fonte: Noppe, N., Vanvelk, J., &amp; Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. https://doi.org/10.5281/zenodo.8010618.&#34; srcset=&#34;
+               /it/slides/data-model-representation/img/data_hu11649200702062879805.webp 400w,
+               /it/slides/data-model-representation/img/data_hu141214033480253273.webp 760w,
+               /it/slides/data-model-representation/img/data_hu13159011806826835119.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/data-model-representation/img/data_hu11649200702062879805.webp&#34;
+               width=&#34;701&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fonte: Noppe, N., Vanvelk, J., &amp;amp; Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;le-sfide-dei-dati-culturali-1&#34;&gt;Le sfide dei dati culturali&lt;/h2&gt;
+&lt;p&gt;Processi di ricerca umanistica ancora dominati da paradigmi tradizionali, mancanza di finanziamenti, problemi di copyright, ecc.&lt;/p&gt;
+&lt;p&gt;→ La ricerca umanistica è raramente documentata, standardizzata e strutturata per facilitarne la comprensione e il riuso da parte di &lt;em&gt;altri&lt;/em&gt; (umani o macchine).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-sono-rappresentati-secondo-_modelli_&#34;&gt;I dati sono rappresentati secondo &lt;em&gt;modelli&lt;/em&gt;&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/model.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Rappresentazioni formali di segmenti di realtà che li rendono computabili.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Fondamentali per descrivere, organizzare e gestire i dati.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Flanders, J., &amp; Jannidis, F. (2015). Data modeling. A new companion to digital humanities, 229-237. &lt;a href=&#34;https://doi.org/10.1002/9781118680605.ch16&#34;&gt;https://doi.org/10.1002/9781118680605.ch16&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;dati-e-modelli-ai-tempi-dellopen-science&#34;&gt;Dati e modelli ai tempi dell&amp;rsquo;Open Science&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cosè-la-scienza-aperta&#34;&gt;Cos&amp;rsquo;è la Scienza Aperta?&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/os.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Melanie Imming, Jon Tennant, &amp; Ivo Grigorov. (2018). Stickers Open Science just science done right (IT). Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;https://doi.org/10.5281/zenodo.2613332&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Un costrutto che combina movimenti e pratiche con l&#39;obiettivo di rendere la conoscenza scientifica più trasparente, accessibile e riutilizzabile per tutti.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UNESCO (2021). UNESCO Recommendation on Open Science. &lt;a href=&#34;https://doi.org/10.54677/MNMH8546&#34;&gt;https://doi.org/10.54677/MNMH8546&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;open-science-per-il-patrimonio-culturale-perché&#34;&gt;Open Science per il patrimonio culturale: perché?&lt;/h2&gt;
+&lt;p&gt;Rendere i dati disponibili a ricercatori, organizzazioni e cittadini.&lt;/p&gt;
+&lt;p&gt;Costruire collaborativamente strumenti e servizi di gestione, manipolazione e visualizzazione dei dati.&lt;/p&gt;
+&lt;p&gt;Aumentare la replicabilità e l&amp;rsquo;interdisciplinarietà della ricerca umanistica.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Edmond, J., &amp; Tóth-Czifra, E. (2018). Open data for humanists, a pragmatic guide. &lt;a href=&#34;https://shs.hal.science/halshs-02115443&#34;&gt;https://shs.hal.science/halshs-02115443&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-fair-data&#34;&gt;&amp;ldquo;My FAIR Data&amp;rdquo;&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/fair.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            MBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., ... &amp; Tennant, J. (2018). The Open Science Training Handbook. &lt;a href=&#34;https://open-science-training-handbook.gitbook.io/book&#34;&gt;https://open-science-training-handbook.gitbook.io/book&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Rintracciabilità, tramite identificatori persistenti e metadati descrittivi.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... &amp; Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9. &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-fair-data-1&#34;&gt;&amp;ldquo;My FAIR Data&amp;rdquo;&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/fair.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            MBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., ... &amp; Tennant, J. (2018). The Open Science Training Handbook. &lt;a href=&#34;https://open-science-training-handbook.gitbook.io/book&#34;&gt;https://open-science-training-handbook.gitbook.io/book&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Accessibilità, tramite protocolli standard ed eventualmente anche sistemi di autenticazione.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... &amp; Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9. &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-fair-data-2&#34;&gt;&amp;ldquo;My FAIR Data&amp;rdquo;&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/fair.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            MBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., ... &amp; Tennant, J. (2018). The Open Science Training Handbook. &lt;a href=&#34;https://open-science-training-handbook.gitbook.io/book&#34;&gt;https://open-science-training-handbook.gitbook.io/book&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Interoperabilità, tramite formati e modelli standardizzati.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... &amp; Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9. &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-fair-data-3&#34;&gt;&amp;ldquo;My FAIR Data&amp;rdquo;&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/fair.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            MBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., ... &amp; Tennant, J. (2018). The Open Science Training Handbook. &lt;a href=&#34;https://open-science-training-handbook.gitbook.io/book&#34;&gt;https://open-science-training-handbook.gitbook.io/book&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Riusabilità, tramite documentazione e licenze quanto più aperte possibile.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... &amp; Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9. &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;linked-open-data&#34;&gt;Linked Open Data&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/lod.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://5stardata.info/en/&#34;&gt;https://5stardata.info/en/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Dati semi-strutturati, azionabili dalle macchine e pubblicati in formato aperto.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Fondamentali per Interoperabilità e Riusabilità.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Blaney, J. (2017). Introduction to the principles of linked open data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;linked-open-data-1&#34;&gt;Linked Open Data&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/triple.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Blaney, J. (2017). Introduction to the principles of linked open data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Basati sul concetto di tripla RDF.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Blaney, J. (2017). Introduction to the principles of linked open data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/aldrovandi.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;caso-1-aldrovandi&#34;&gt;Caso 1: Aldrovandi&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;digitalizzare-una-mostra-temporanea&#34;&gt;Digitalizzare una mostra temporanea&lt;/h2&gt;
+&lt;p&gt;Creare una versione digitale della mostra &amp;ldquo;L&amp;rsquo;Altro Rinascimento: Ulisse Aldrovandi e le meraviglie del mondo&amp;rdquo; e renderla accessibile online.&lt;/p&gt;
+&lt;p&gt;Progetto pilota per raccogliere linee guida di acquisizione e digitalizzazione del patrimonio culturale da applicare ai casi core dello Spoke.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-catalogo-degli-oggetti&#34;&gt;I dati: catalogo degli oggetti&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/chad-ap-object.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Barzaghi, S., Bordignon, A., Gualandi, B., &amp; Peroni, S. (2024, June 5). Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities. MeTe digitali. Mediterraneo in rete tra testi e contesti (AIUCD 2024), Catania, Italy. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.11487997&#34;&gt;https://doi.org/10.5281/zenodo.11487997&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Descrizione strutturata per ogni oggetto, definita da una serie di metadati bibliografici estratti da cataloghi museali e note dei curatori (es. titolo, identificativo, tipo, tecnica, soggetti, ruoli, ecc.).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-tabella-dei-processi&#34;&gt;I dati: tabella dei processi&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/chad-ap-object.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Barzaghi, S., Bordignon, A., Gualandi, B., &amp; Peroni, S. (2024, June 5). Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities. MeTe digitali. Mediterraneo in rete tra testi e contesti (AIUCD 2024), Catania, Italy. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.11487997&#34;&gt;https://doi.org/10.5281/zenodo.11487997&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          Descrizione strutturata per il processo di digitalizzazione di ogni oggetto, definita da una serie di metadati assegnati ad ogni fase prevista dal flusso di lavoro (es. acquisizione, elaborazione, modellazione, ecc.).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;il-modello-chad-ap&#34;&gt;Il modello: CHAD-AP&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/chad-ap-object.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Barzaghi, S. and Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;il-modello-chad-ap-1&#34;&gt;Il modello: CHAD-AP&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/chad-ap-process.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Barzaghi, S. and Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esempio&#34;&gt;Esempio&lt;/h2&gt;
+&lt;p&gt;XXX&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sviluppi-futuri&#34;&gt;Sviluppi futuri&lt;/h2&gt;
+&lt;p&gt;XXX&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/sirius.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;caso-2-sirius&#34;&gt;Caso 2: SIRIUS&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;promuovere-una-cultura-del-rischio&#34;&gt;Promuovere una cultura del rischio&lt;/h2&gt;
+&lt;p&gt;Progetto per lo sviluppo di strategie condivise per la gestione dei rischi che impattano la salvaguardia del patrimonio culturale.&lt;/p&gt;
+&lt;p&gt;Obiettivi di stimolare collaborazione e coordinamento tra i diversi agenti coinvolti, fornire strumenti utili alle autorità locali per la gestione di situazioni di rischio potenziale, aumentare consapevolezza e responsabilizzazione presso i cittadini.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-assessment-del-rischio&#34;&gt;I dati: assessment del rischio&lt;/h2&gt;
+&lt;p&gt;Dati sparsi, raramente accessibili, non strutturati, non interoperabili.&lt;/p&gt;
+&lt;p&gt;Numerose metodologie riconosciute, ma non formalizzate da protocolli FAIR.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;il-modello-hero&#34;&gt;Il modello: HeRO&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fonte-barzaghi-s-2023-heritage-risk-assessment-ontology-httpsw3idorgsiriusontologyhero&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Fonte: Barzaghi, S. (2023). Heritage Risk Assessment Ontology. https://w3id.org/sirius/ontology/hero.&#34; srcset=&#34;
+               /it/slides/data-model-representation/img/hero_hu1687102465371218995.webp 400w,
+               /it/slides/data-model-representation/img/hero_hu7470433940715735555.webp 760w,
+               /it/slides/data-model-representation/img/hero_hu15374590120518797793.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/data-model-representation/img/hero_hu1687102465371218995.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;557&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fonte: Barzaghi, S. (2023). Heritage Risk Assessment Ontology. &lt;a href=&#34;https://w3id.org/sirius/ontology/hero&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://w3id.org/sirius/ontology/hero&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esempio-1&#34;&gt;Esempio&lt;/h2&gt;
+&lt;p&gt;XXX&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sviluppi-futuri-1&#34;&gt;Sviluppi futuri&lt;/h2&gt;
+&lt;p&gt;Sviluppo di uno o più vocabolari controllati per definire formalmente (quindi in LOD) una terminologia multilingua comune riguardante il rischio nell&amp;rsquo;ambito del patrimonio culturale.&lt;/p&gt;
+&lt;p&gt;Sviluppo di una web app per la visualizzazione interattiva dei dati raccolti tramite richieste API da un&amp;rsquo;istanza di Omeka S (per dati sul rischio) e Wikidata (per dati sugli oggetti).&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/section-01.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;conclusioni&#34;&gt;Conclusioni&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rendiamo-i-nostri-dati-più-aperti-e-fair&#34;&gt;Rendiamo i nostri dati più aperti e FAIR&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; tramite modelli semantici (ontologie, application profile e vocabolari controllati) esistenti o creati sulla base di requisiti concreti.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; tramite la loro pubblicazione in formati standard che ne valorizzano la ricchezza semantica, su piattaforme accessibili, con licenze aperte.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tra-i-dati-diamo-spazio-anche-alle-metodologie&#34;&gt;Tra i dati, diamo spazio anche alle metodologie&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; modellandole come i dati stessi.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; documentandole abbondantemente con esempi.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; pubblicandole sotto forma di protocolli riutilizzabili.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;facciamo-comunicare-dati-e-modelli-di-progetti-diversi&#34;&gt;Facciamo comunicare dati e modelli di progetti diversi&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&amp;hellip; tramite modelli semantici (ontologie, application profile e vocabolari controllati) esistenti o creati sulla base di requisiti concreti.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;grazie&#34;&gt;Grazie!&lt;/h1&gt;
+&lt;h2 id=&#34;domande&#34;&gt;Domande?&lt;/h2&gt;
+&lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
+&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

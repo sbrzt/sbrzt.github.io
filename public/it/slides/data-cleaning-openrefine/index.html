@@ -1468,8 +1468,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     <section>
     
       
-<h2 id="cosa-fare-1">Cosa fare</h2>
-<p>Abbiamo individuato quattro colonne problematiche che richiedono particolare attenzione in termini di qualità e pulizia dei dati.</p>
+<h2 id="le-vostre-_task_">Le vostre <em>task</em></h2>
+<p>Abbiamo individuato quattro colonne problematiche che richiedono una pulizia approfondita dei dati:</p>
 <ul>
 <li><code>dcho_theme</code>: il tema mitologico individuato nell&rsquo;opera;</li>
 <li><code>cho_century</code>: il secolo a cui risale l&rsquo;opera;</li>
@@ -1511,12 +1511,13 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <li>Iscriviti e accedi a Iconclass;</li>
 <li>Cerca il tema;</li>
 <li>Scegli l&rsquo;opzione più appropriata;</li>
-<li>Sostituisci il tema esistente nel dataset con l&rsquo;ID dell&rsquo;opzione trovata:
+<li>Sostituisci il tema esistente nel dataset con l&rsquo;identificativo dell&rsquo;opzione trovata:
 <ul>
 <li>Esempio: &ldquo;L&rsquo;Enigma della Sfinge&rdquo; → <code>94T33</code>;</li>
-<li>Esempio: &ldquo;Eracle cattura il cinghiale di Erimanto&rdquo; → <code>94L324</code>.</li>
+<li>Esempio: &ldquo;Eracle cattura il cinghiale di Erimanto&rdquo; → <code>94L324</code>;</li>
 </ul>
 </li>
+<li>Se non lo trovi, lascia il valore così com&rsquo;è (dopo averlo ovviamente pulito e corretto).</li>
 </ul>
 </li>
 </ul>
@@ -1536,20 +1537,20 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
-<li>Rappresentazione delle date CE: <code>[year][“-”][month][“-”][day]</code>;
+<li>Rappresentazione delle date CE: <code>[YYYY][“-”][MM][“-”][DD]</code>;
 <ul>
 <li>Esempio: &ldquo;20 giugno 1992&rdquo; → <code>1992-06-20</code>;</li>
 </ul>
 </li>
-<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][year][“-”][month][“-”][day]</code>;
+<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][YYYY][“-”][MM][“-”][DD]</code>;
 <ul>
 <li>Esempio: &ldquo;1800 a.C.&rdquo; → <code>-1800</code>;</li>
 </ul>
 </li>
-<li>Rappresentazione dei periodi: <code>[beginning][&quot;/&quot;][end]</code>;
+<li>Rappresentazione dei periodi: <code>[YYYY][&quot;/&quot;][YYYY]</code>;
 <ul>
-<li>Esempio: &ldquo;II secolo&rdquo; → <code>0100-01-01/0199-12-31</code>;</li>
-<li>Esempio: &ldquo;II secolo a.C.&rdquo; → <code>-0199-01-01/-0100-12-31</code>.</li>
+<li>Esempio: &ldquo;II secolo&rdquo; → <code>0100/0199</code>;</li>
+<li>Esempio: &ldquo;II secolo a.C.&rdquo; → <code>-0199/-0100</code>.</li>
 </ul>
 </li>
 </ul>
@@ -1568,16 +1569,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <h2 id="cho_date-12">cho_date (1/2)</h2>
 <ul>
 <li>Impostare un separatore comune (<code>|</code>);</li>
-<li>Modificare (esempio: rimuovi &ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, ecc.);</li>
+<li>Modificare (esempio: rimuovi &ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, ecc.) (ma tieni bene a mente l&rsquo;ultimo punto della pagina successiva!);</li>
 <li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
-<li>Rappresentazione delle date CE: <code>[year][“-”][month][“-”][day]</code>;
+<li>Rappresentazione delle date CE: <code>[YYYY][“-”][MM][“-”][DD]</code>;
 <ul>
 <li>Esempio: &ldquo;1992&rdquo; → <code>1992</code>;</li>
 </ul>
 </li>
-<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][year][“-”][month][“-”][day]</code>;
+<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][YYYY][“-”][MM][“-”][DD]</code>;
 <ul>
 <li>Esempio: &ldquo;460 a.C.&rdquo; → <code>-0460</code></li>
 </ul>
@@ -1599,19 +1600,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <ul>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
-<li>Rappresentazione dei periodi CE: <code>[beginning][&quot;/&quot;][end]</code>;
+<li>Rappresentazione dei periodi CE: <code>[YYYY][&quot;/&quot;][YYYY]</code>;
 <ul>
 <li>Esempio: &ldquo;1705-1706&rdquo; → <code>1705/1706</code></li>
-</ul>
-</li>
-<li>Rappresentazione dei periodi BCE: <code>[&quot;-&quot;][beginning][&quot;/&quot;][&quot;-&quot;][end]</code>;
-<ul>
 <li>Esempio: &ldquo;550-530 a.C.&rdquo; → <code>-0550/-0530</code></li>
 </ul>
 </li>
 <li>Rappresentazione dell&rsquo;incertezza: <code>[date][&quot;%&quot;]</code>;
 <ul>
-<li>Esempio: &ldquo;1590 circa&rdquo; → <code>1590%</code>.</li>
+<li>Esempio: &ldquo;1590 circa&rdquo; → <code>1590%</code>;</li>
+<li>Esempio: &ldquo;1705-1706 ca.&rdquo; → <code>1705/1706%</code></li>
 </ul>
 </li>
 </ul>
@@ -1682,7 +1680,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <p>Potete già fare molto per aumentare la qualità dei dati! Riassumendo:</p>
 <ul>
 <li>Esplorate i dati utilizzando <em>facet</em>, filtri e <em>sorting</em>;</li>
-<li>Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (<em>cluster</em>), divisioni (<em>split</em>) e sostituzioni;</li>
+<li>Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (<em>cluster</em>), divisioni (<em>split</em>) e sostituzioni;</li>
 <li>Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.</li>
 </ul>
 <p>Provate! Ricordate che potete sempre tornare indietro.</p>

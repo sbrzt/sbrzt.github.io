@@ -15,8 +15,9 @@ slides:
 #### Laboratorio introduttivo alla pulizia dei dati con OpenRefine
 
 Sebastian Barzaghi | 
+[https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |
 [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) |
 
 ---
 
@@ -1004,9 +1005,9 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Cosa fare
+## Le vostre _task_
 
-Abbiamo individuato quattro colonne problematiche che richiedono particolare attenzione in termini di qualità e pulizia dei dati.
+Abbiamo individuato quattro colonne problematiche che richiedono una pulizia approfondita dei dati:
 
 * `dcho_theme`: il tema mitologico individuato nell'opera;
 * `cho_century`: il secolo a cui risale l'opera;
@@ -1031,9 +1032,10 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
   * Iscriviti e accedi a Iconclass;
   * Cerca il tema;
   * Scegli l'opzione più appropriata;
-  * Sostituisci il tema esistente nel dataset con l'ID dell'opzione trovata:
+  * Sostituisci il tema esistente nel dataset con l'identificativo dell'opzione trovata:
     * Esempio: "L'Enigma della Sfinge" &rarr; `94T33`;
-    * Esempio: "Eracle cattura il cinghiale di Erimanto" &rarr; `94L324`.
+    * Esempio: "Eracle cattura il cinghiale di Erimanto" &rarr; `94L324`;
+  * Se non lo trovi, lascia il valore così com'è (dopo averlo ovviamente pulito e corretto).
 
 ---
 
@@ -1042,25 +1044,25 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 * Modificare (esempio: eliminare le virgole);
 * Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
-  * Rappresentazione delle date CE: `[year][“-”][month][“-”][day]`;
+  * Rappresentazione delle date CE: `[YYYY][“-”][MM][“-”][DD]`;
     * Esempio: "20 giugno 1992" &rarr; `1992-06-20`;
-  * Rappresentazione delle date BCE: `["-"][year][“-”][month][“-”][day]`;
+  * Rappresentazione delle date BCE: `["-"][YYYY][“-”][MM][“-”][DD]`;
     * Esempio: "1800 a.C." &rarr; `-1800`;
-  * Rappresentazione dei periodi: `[beginning]["/"][end]`;
-    * Esempio: "II secolo" &rarr; `0100-01-01/0199-12-31`;
-    * Esempio: "II secolo a.C." &rarr; `-0199-01-01/-0100-12-31`.
+  * Rappresentazione dei periodi: `[YYYY]["/"][YYYY]`;
+    * Esempio: "II secolo" &rarr; `0100/0199`;
+    * Esempio: "II secolo a.C." &rarr; `-0199/-0100`.
 
 ---
 
 ## cho_date (1/2)
 
 * Impostare un separatore comune (`|`);
-* Modificare (esempio: rimuovi "ca.", "circa", ecc.);
+* Modificare (esempio: rimuovi "ca.", "circa", ecc.) (ma tieni bene a mente l'ultimo punto della pagina successiva!);
 * Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
-  * Rappresentazione delle date CE: `[year][“-”][month][“-”][day]`;
+  * Rappresentazione delle date CE: `[YYYY][“-”][MM][“-”][DD]`;
     * Esempio: "1992" &rarr; `1992`;
-  * Rappresentazione delle date BCE: `["-"][year][“-”][month][“-”][day]`;
+  * Rappresentazione delle date BCE: `["-"][YYYY][“-”][MM][“-”][DD]`;
     * Esempio: "460 a.C." &rarr; `-0460`
   
 ---
@@ -1068,12 +1070,13 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 ## cho_date (2/2)
 
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
-  * Rappresentazione dei periodi CE: `[beginning]["/"][end]`;
+  * Rappresentazione dei periodi CE: `[YYYY]["/"][YYYY]`;
     * Esempio: "1705-1706" &rarr; `1705/1706`
-  * Rappresentazione dei periodi BCE: `["-"][beginning]["/"]["-"][end]`;
     * Esempio: "550-530 a.C." &rarr; `-0550/-0530`
   * Rappresentazione dell'incertezza: `[date]["%"]`;
-    * Esempio: "1590 circa" &rarr; `1590%`.
+    * Esempio: "1590 circa" &rarr; `1590%`;
+    * Esempio: "1705-1706 ca." &rarr; `1705/1706%`
+
 
 ---
 
@@ -1108,7 +1111,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono particolare att
 Potete già fare molto per aumentare la qualità dei dati! Riassumendo:
 
 * Esplorate i dati utilizzando _facet_, filtri e _sorting_;
-* Trasformate i dati tramite modifiche singole e di massa, raggruppamenti (_cluster_), divisioni (_split_) e sostituzioni;
+* Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (_cluster_), divisioni (_split_) e sostituzioni;
 * Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.
 
 Provate! Ricordate che potete sempre tornare indietro.
@@ -1120,5 +1123,6 @@ Provate! Ricordate che potete sempre tornare indietro.
 #### Fine
 
 Sebastian Barzaghi | 
+[https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |
 [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
 [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
