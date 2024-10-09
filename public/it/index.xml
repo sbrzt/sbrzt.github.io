@@ -50,8 +50,9 @@
       <description>&lt;h1 id=&#34;data-cleaning-nelle-scienze-umane&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
 &lt;h4 id=&#34;laboratorio-introduttivo-alla-pulizia-dei-dati-con-openrefine&#34;&gt;Laboratorio introduttivo alla pulizia dei dati con OpenRefine&lt;/h4&gt;
 &lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
 &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; |&lt;/p&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -866,8 +867,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 
 &lt;h2 id=&#34;cosa-fare&#34;&gt;Cosa fare&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosa-fare-1&#34;&gt;Cosa fare&lt;/h2&gt;
-&lt;p&gt;Abbiamo individuato quattro colonne problematiche che richiedono particolare attenzione in termini di qualità e pulizia dei dati.&lt;/p&gt;
+&lt;h2 id=&#34;le-vostre-_task_&#34;&gt;Le vostre &lt;em&gt;task&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Abbiamo individuato quattro colonne problematiche che richiedono una pulizia approfondita dei dati:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;dcho_theme&lt;/code&gt;: il tema mitologico individuato nell&amp;rsquo;opera;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cho_century&lt;/code&gt;: il secolo a cui risale l&amp;rsquo;opera;&lt;/li&gt;
@@ -908,17 +909,17 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
-&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;20 giugno 1992&amp;rdquo; → &lt;code&gt;1992-06-20&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;1800 a.C.&amp;rdquo; → &lt;code&gt;-1800&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Rappresentazione dei periodi: &lt;code&gt;[beginning][&amp;quot;/&amp;quot;][end]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione dei periodi: &lt;code&gt;[YYYY][&amp;quot;/&amp;quot;][YYYY]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;II secolo&amp;rdquo; → &lt;code&gt;0100/0199&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;Esempio: &amp;ldquo;II secolo a.C.&amp;rdquo; → &lt;code&gt;-0199/-0100&lt;/code&gt;.&lt;/li&gt;
@@ -931,16 +932,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;h2 id=&#34;cho_date-12&#34;&gt;cho_date (1/2)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;Modificare (esempio: rimuovi &amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;Modificare (esempio: rimuovi &amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, ecc.) (ma tieni bene a mente l&amp;rsquo;ultimo punto della pagina successiva!);&lt;/li&gt;
 &lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
-&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;1992&amp;rdquo; → &lt;code&gt;1992&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][year][“-”][month][“-”][day]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;460 a.C.&amp;rdquo; → &lt;code&gt;-0460&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -953,19 +954,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;ul&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
-&lt;li&gt;Rappresentazione dei periodi CE: &lt;code&gt;[beginning][&amp;quot;/&amp;quot;][end]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione dei periodi CE: &lt;code&gt;[YYYY][&amp;quot;/&amp;quot;][YYYY]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;1705-1706&amp;rdquo; → &lt;code&gt;1705/1706&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Rappresentazione dei periodi BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][beginning][&amp;quot;/&amp;quot;][&amp;quot;-&amp;quot;][end]&lt;/code&gt;;
-&lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;550-530 a.C.&amp;rdquo; → &lt;code&gt;-0550/-0530&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Rappresentazione dell&amp;rsquo;incertezza: &lt;code&gt;[date][&amp;quot;%&amp;quot;]&lt;/code&gt;;
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;1590 circa&amp;rdquo; → &lt;code&gt;1590%&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;1590 circa&amp;rdquo; → &lt;code&gt;1590%&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;1705-1706 ca.&amp;rdquo; → &lt;code&gt;1705/1706%&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1017,6 +1015,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;h1 id=&#34;data-cleaning-nelle-scienze-umane-1&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
 &lt;h4 id=&#34;fine&#34;&gt;Fine&lt;/h4&gt;
 &lt;p&gt;Sebastian Barzaghi |
+&lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
 &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
 &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
 </description>

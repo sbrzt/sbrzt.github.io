@@ -12,12 +12,12 @@ slides:
 
 # Data Cleaning nelle Scienze Umane
 
-#### Laboratorio introduttivo alla pulizia dei dati con OpenRefine
+## Laboratorio introduttivo alla pulizia dei dati con OpenRefine
 
 Sebastian Barzaghi | 
 [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |
 [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) |
+[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
 
 ---
 
@@ -25,12 +25,12 @@ Sebastian Barzaghi |
 
 ## Partiamo dai dati
 
-Immagine: Redon, O. (1905–1916). *The Chariot of Apollo* [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.
+<p class="bg-caption">Immagine: Redon, O. (1905–1916). *The Chariot of Apollo* [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.</p>
 
 
 ---
 
-## Cosa sono i dati nelle scienze umane?
+### Cosa sono i dati nelle scienze umane?
 
 Un dato è qualsiasi valore assegnato a qualcosa che può essere quantificato, qualificato o interpretato in qualche modo per essere utilizzato come prova informativa.
 
@@ -42,7 +42,7 @@ Numeri, parole, immagini, video, foto, registrazioni audio, interviste, manoscri
 
 ---
 
-## Per essere utili, i dati devono essere organizzati...
+### Per essere utili, i dati devono essere organizzati...
 
 ... per essere compresi da te in futuro.
 
@@ -56,7 +56,7 @@ Numeri, parole, immagini, video, foto, registrazioni audio, interviste, manoscri
 
 ---
 
-## Tutti i dati sono disordinati
+### Tutti i dati sono disordinati
 
 Non dare mai la qualità dei tuoi dati per scontato.
 
@@ -72,7 +72,7 @@ La pulizia e la preparazione sono necessarie per lavorare con i dataset.
 
 ---
 
-## Un dataset è una raccolta di dati
+### Un dataset è una raccolta di dati
 
 Ogni **valore** appartiene a una **variabile** e a un'**osservazione**.
 
@@ -88,11 +88,11 @@ Ogni **osservazione** forma una **riga**.
 
 {{< slide background-image="img/section-01.jpg" class="section-slide">}}
 
-## Mythologiae
+### Mythologiae
 
 ---
 
-## Un dataset di fonti iconografiche mitologiche (1/3)
+### Un dataset di fonti iconografiche mitologiche (1/3)
 
 Link: https://mythologiae.unibo.it/
 
@@ -103,7 +103,7 @@ La collezione è il frutto di attività laboratoriali, in cui gli studenti sono 
 
 ---
 
-## Un dataset di fonti iconografiche mitologiche (2/3)
+### Un dataset di fonti iconografiche mitologiche (2/3)
 
 Il filo conduttore che lega fra di loro le opere della collezione è la scena mitologica che esse raffigurano. 
 
@@ -111,7 +111,7 @@ Gli annotatori, dunque, non solo hanno compiuto un’analisi ermeneutica di cias
 
 ---
 
-## Un dataset di fonti iconografiche mitologiche (3/3)
+### Un dataset di fonti iconografiche mitologiche (3/3)
 
 Ogni opera è descritta da una serie di metadati, per lo più con valori testuali, come _titolo_, _autore_, _periodo_, _collocazione_, e _note_.
 
@@ -127,7 +127,7 @@ Inoltre, essendo stato compilato manualmente da diverse persone, alcuni dati con
 
 ---
 
-## La pulizia dei dati è difficile (ma ne vale la pena)!
+### La pulizia dei dati è difficile (ma ne vale la pena)!
 
 Può essere riassunta in una serie di attività:
 * Preparare i dati;
@@ -142,7 +142,7 @@ Può essere riassunta in una serie di attività:
 
 ---
 
-## Non modificare mai i dati originali
+### Non modificare mai i dati originali
 
 Fai sempre una copia prima di apportare modifiche.
 
@@ -158,7 +158,7 @@ Salva i tuoi file nella codifica `UTF-8`.
 
 ---
 
-## Descrivi sempre i dati
+### Descrivi sempre i dati
 
 Documenta tutto il necessario per capire cosa c'è nel dataset e come utilizzarlo
 
@@ -175,7 +175,7 @@ Considera di indicare almeno:
 
 ---
 
-## Usa formati standard per le tabelle (1/3)
+### Usa formati standard per le tabelle (1/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -192,7 +192,7 @@ Considera di indicare almeno:
 
 ---
 
-## Usa formati standard per le tabelle (2/3)
+### Usa formati standard per le tabelle (2/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -209,7 +209,7 @@ Considera di indicare almeno:
 
 ---
 
-## Usa formati standard per le tabelle (3/3)
+### Usa formati standard per le tabelle (3/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -226,7 +226,7 @@ Considera di indicare almeno:
 
 ---
 
-## Evita di aggregare commenti e altre informazioni con i dati (1/2)
+### Evita di aggregare commenti e altre informazioni con i dati (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -243,7 +243,7 @@ Considera di indicare almeno:
 
 ---
 
-## Evita di aggregare commenti e altre informazioni con i dati (2/2)
+### Evita di aggregare commenti e altre informazioni con i dati (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -261,7 +261,7 @@ Considera di indicare almeno:
 
 ---
 
-## Non utilizzare la formattazione per trasmettere informazioni (1/2)
+### Non utilizzare la formattazione per trasmettere informazioni (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -278,7 +278,7 @@ Considera di indicare almeno:
 
 ---
 
-## Non utilizzare la formattazione per trasmettere informazioni (2/2)
+### Non utilizzare la formattazione per trasmettere informazioni (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -297,7 +297,7 @@ Considera di indicare almeno:
 
 ---
 
-## Non utilizzare più tabelle o più schede
+### Non utilizzare più tabelle o più schede
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -315,7 +315,7 @@ Considera di indicare almeno:
 
 ---
 
-## Non utilizzare caratteri speciali
+### Non utilizzare caratteri speciali
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -333,7 +333,7 @@ Considera di indicare almeno:
 
 ---
 
-## Sii coerente
+### Sii coerente
 
 * Scenario 1: date visualizzate in molti formati diversi (esempi: "12 luglio 2024", "12/07/2024", "12-07-2024", ecc.);
   * Utilizza **standard internazionali** (esempi: [EDTF](https://www.loc.gov/standards/datetime/));
@@ -349,7 +349,7 @@ Considera di indicare almeno:
 
 ---
 
-## Elimina la ridondanza (con cautela!)
+### Elimina la ridondanza (con cautela!)
 
 Nell'eliminazione includi:
 * Duplicati;
@@ -366,7 +366,7 @@ Sono tutte **interpretazioni**: considera sempre se un'osservazione o una colonn
 
 ---
 
-## Tratta sempre i valori NULL
+### Tratta sempre i valori NULL
 
 Usa un metodo coerente che sia compatibile e che non causi errori (come lasciare la cella vuota).
 
@@ -381,7 +381,7 @@ Considera che:
 
 ---
 
-## Esegui sempre un controllo di qualità
+### Esegui sempre un controllo di qualità
 
 Verifica:
 * Errori grammaticali;
@@ -396,7 +396,7 @@ Verifica:
 
 ---
 
-## Quando hai finito, esporta e condividi
+### Quando hai finito, esporta e condividi
 
 Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (esempio: [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/)).
 
@@ -416,7 +416,7 @@ Considera di condividere i tuoi dati su [GitHub](https://github.com/) e/o di pub
 
 ---
 
-## Uno strumento per la pulizia dei dati
+### Uno strumento per la pulizia dei dati
 
 OpenRefine permette di:
 * Identificare e correggere errori;
@@ -432,7 +432,7 @@ OpenRefine permette di:
 
 ---
 
-## Alcuni scenari di utilizzo
+### Alcuni scenari di utilizzo
 
 * Vuoi sapere quante volte un particolare valore appare in una colonna nei tuoi dati;
 * Vuoi sapere come i valori sono distribuiti in tutto il dataset;
@@ -447,7 +447,7 @@ OpenRefine permette di:
 
 ---
 
-## Installazione di OpenRefine
+### Installazione di OpenRefine
 
 * Scarica OpenRefine: [https://openrefine.org/download.html](https://openrefine.org/download.html);
   * Dovrebbe già includere Java Runtime Environment;
@@ -458,7 +458,7 @@ OpenRefine permette di:
 
 ---
 
-## Creazione di un progetto (1/3)
+### Creazione di un progetto (1/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -475,7 +475,7 @@ OpenRefine permette di:
 
 ---
 
-## Creazione di un progetto (2/3)
+### Creazione di un progetto (2/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -494,7 +494,7 @@ OpenRefine permette di:
 
 ---
 
-## Creazione di un progetto (3/3)
+### Creazione di un progetto (3/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -512,7 +512,7 @@ OpenRefine permette di:
 
 ---
 
-## Schermata del progetto (1/2)
+### Schermata del progetto (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -527,7 +527,7 @@ OpenRefine permette di:
 
 ---
 
-## Schermata del progetto (2/2)
+### Schermata del progetto (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -544,7 +544,7 @@ OpenRefine permette di:
 
 ---
 
-## Schermata della griglia
+### Schermata della griglia
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -562,7 +562,7 @@ OpenRefine permette di:
 
 ---
 
-## Facet/Filter
+### Facet/Filter
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -580,7 +580,7 @@ OpenRefine permette di:
 
 ---
 
-## Undo/Redo
+### Undo/Redo
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -598,7 +598,7 @@ OpenRefine permette di:
 
 ---
 
-## Modalità rows
+### Modalità rows
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -615,7 +615,7 @@ OpenRefine permette di:
 
 ---
 
-## Modalità records
+### Modalità records
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -632,7 +632,7 @@ OpenRefine permette di:
 
 ---
 
-## Esplora i dati con le Facet (1/2)
+### Esplora i dati con le Facet (1/2)
 
 **Facet**: un aspetto della varianza dei dati in una colonna.
 
@@ -642,7 +642,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Esplora i dati con le Facet (2/2)
+### Esplora i dati con le Facet (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -660,7 +660,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Text facet (1/2)
+### Text facet (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -678,7 +678,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Text facet (2/2)
+### Text facet (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -693,7 +693,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Filter (1/2)
+### Filter (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -710,7 +710,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Filter (2/2)
+### Filter (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -727,7 +727,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Filtrare con i Facet (1/3)
+### Filtrare con i Facet (1/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -744,7 +744,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Filtrare con i Facet (2/3)
+### Filtrare con i Facet (2/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -759,7 +759,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Filtrare con i Facet (3/3)
+### Filtrare con i Facet (3/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -774,7 +774,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Sort (1/2)
+### Sort (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -790,7 +790,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Sort (2/2)
+### Sort (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -807,7 +807,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Cluster (1/3)
+### Cluster (1/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -825,7 +825,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Cluster (2/3)
+### Cluster (2/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -843,7 +843,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Cluster (3/3)
+### Cluster (3/3)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -860,7 +860,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 ---
 
-## Modifica delle celle
+### Modifica delle celle
 
 OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto delle celle in modo automatico ed efficiente.
 
@@ -870,7 +870,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
 
 ---
 
-## Split (1/2)
+### Split (1/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -888,7 +888,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
 
 ---
 
-## Split (2/2)
+### Split (2/2)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -905,7 +905,7 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
 
 ---
 
-## Transform
+### Transform
 
 Un meccanismo potente per applicare modifiche che non possono essere ottenute tramite semplici facet, filtri o cluster.
 
@@ -919,7 +919,7 @@ Possono essere preimpostate o scritte ad hoc in un linguaggio chiamato GREL.
 
 ---
 
-## Reconcile (1/5)
+### Reconcile (1/5)
 
 Processo semi-automatico di allineamento dei dati a fonti esterne.
 
@@ -934,7 +934,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Reconcile (2/5)
+### Reconcile (2/5)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -950,7 +950,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Reconcile (3/5)
+### Reconcile (3/5)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -966,7 +966,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Reconcile (4/5)
+### Reconcile (4/5)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -982,7 +982,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Reconcile (5/5)
+### Reconcile (5/5)
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -1005,7 +1005,7 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 ---
 
-## Le vostre _task_
+### Le vostre _task_
 
 Abbiamo individuato quattro colonne problematiche che richiedono una pulizia approfondita dei dati:
 
@@ -1016,7 +1016,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## dcho_theme (1/2)
+### dcho_theme (1/2)
 
 * Impostare un separatore comune (`|`);
 * Dividere i valori (_split_);
@@ -1026,7 +1026,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## dcho_theme (2/2)
+### dcho_theme (2/2)
 
 * Standardizzare quando possibile (vedi [Iconclass](https://iconclass.org/)):
   * Iscriviti e accedi a Iconclass;
@@ -1039,7 +1039,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## cho_century
+### cho_century
 
 * Modificare (esempio: eliminare le virgole);
 * Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
@@ -1054,7 +1054,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## cho_date (1/2)
+### cho_date (1/2)
 
 * Impostare un separatore comune (`|`);
 * Modificare (esempio: rimuovi "ca.", "circa", ecc.) (ma tieni bene a mente l'ultimo punto della pagina successiva!);
@@ -1067,7 +1067,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
   
 ---
 
-## cho_date (2/2)
+### cho_date (2/2)
 
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
   * Rappresentazione dei periodi CE: `[YYYY]["/"][YYYY]`;
@@ -1080,7 +1080,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## cho_sources_classic
+### cho_sources_classic
 
 * Impostare un separatore comune (`|`);
 * Normalizzare i valori NULL (esempio: "Non categoria" &rarr; `NULL`).
@@ -1095,7 +1095,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## Altre colonne
+### Altre colonne
 
 * Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con `|`;
 * `dcho_keyword`: dividere, raggruppare, modificare (mantenere solo italiano);
@@ -1106,7 +1106,7 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ---
 
-## Conclusioni
+### Conclusioni
 
 Potete già fare molto per aumentare la qualità dei dati! Riassumendo:
 
@@ -1120,7 +1120,7 @@ Provate! Ricordate che potete sempre tornare indietro.
 
 # Data Cleaning nelle Scienze Umane
 
-#### Fine
+## Fine
 
 Sebastian Barzaghi | 
 [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |

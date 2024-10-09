@@ -12,9 +12,25 @@
 .reveal section ul ,
 .reveal section footer,
 .reveal section .footer {
-    text-align: left;
     font-family: 'Atkinson Hyperlegible';
 }
+
+.reveal section h1 ,
+.reveal section h2 {
+    text-align: center;
+}
+
+.reveal section h3 ,
+.reveal section h4 ,
+.reveal section h5 ,
+.reveal section h6 ,
+.reveal section p ,
+.reveal section ul ,
+.reveal section footer,
+.reveal section .footer {
+    text-align: left;
+}
+
 
 .reveal section h2 {
     font-size: 50px;
@@ -70,7 +86,6 @@
     color: white;
 }
 
-.section-slide p {
-    font-size: xx-small ;
-    padding-top: 10rem ;
+.section-slide .bg-caption {
+    font-size: 1rem;
 }
