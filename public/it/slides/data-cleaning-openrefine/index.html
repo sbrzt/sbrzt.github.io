@@ -67,10 +67,7 @@
     
       <h1 id="data-cleaning-nelle-scienze-umane">Data Cleaning nelle Scienze Umane</h1>
 <h2 id="laboratorio-introduttivo-alla-pulizia-dei-dati-con-openrefine">Laboratorio introduttivo alla pulizia dei dati con OpenRefine</h2>
-<p>Sebastian Barzaghi |
-<a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a> |
-<a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> |
-<a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></p>
+<h6 id="sebastian-barzaghi--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527">Sebastian Barzaghi | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a> | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></h6>
 
     </section>
     
@@ -177,7 +174,7 @@
       class="section-slide"
   >
 
-<h3 id="mythologiae">Mythologiae</h3>
+<h2 id="mythologiae">Mythologiae</h2>
 
     </section>
     
@@ -1489,11 +1486,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h3 id="dcho_theme-12">dcho_theme (1/2)</h3>
 <ul>
-<li>Impostare un separatore comune (<code>|</code>);</li>
+<li>Impostare un separatore comune (<code>|</code>), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti prima e/o dopo!);</li>
 <li>Dividere i valori (<em>split</em>);</li>
 <li>Raggruppare i valori (<em>cluster</em>);</li>
-<li>Mantenere solo l&rsquo;ultimo valore a destra se c&rsquo;è una gerarchia, solitamente indicata da una sequenza di termini separati da <code>&gt;</code>. Esempio: &ldquo;Gli dèi&gt;Efeso&rdquo; → <code>Efeso</code>;</li>
-<li>Normalizzare i valori NULL (esempio: &ldquo;Non categoria&rdquo; → <code>NULL</code>).</li>
+<li>Normalizzare i valori NULL (esempio: <em>Non categoria</em> → <code>NULL</code>);</li>
+<li>Mantenere solo l&rsquo;ultimo valore a destra se c&rsquo;è una gerarchia, solitamente indicata da una sequenza di termini separati da <code>&gt;</code>;
+<ul>
+<li>Esempio: <em>Gli dèi&gt;Efeso</em> → <code>Efeso</code>;</li>
+<li>Esempio: <em>Saghe familiari e epiche&gt;Enea&gt;Enea e Didone innamorati</em> → <code>Enea e Didone innamorati</code>.</li>
+</ul>
+</li>
 </ul>
 
     </section>
@@ -1510,12 +1512,12 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <li>Standardizzare quando possibile (vedi <a href="https://iconclass.org/" target="_blank" rel="noopener">Iconclass</a>):
 <ul>
 <li>Iscriviti e accedi a Iconclass;</li>
-<li>Cerca il tema;</li>
-<li>Scegli l&rsquo;opzione più appropriata;</li>
-<li>Sostituisci il tema esistente nel dataset con l&rsquo;identificativo dell&rsquo;opzione trovata:
+<li>Cerca il tema nella barra di ricerca;</li>
+<li>Scegli l&rsquo;opzione più appropriata (magari sarà necessario adattarsi un po&rsquo;);</li>
+<li>Aggiungi al tema esistente nel dataset l&rsquo;identificativo dell&rsquo;opzione trovata tra parentesi e preceduto da <code>Iconclass:</code>:
 <ul>
-<li>Esempio: &ldquo;L&rsquo;Enigma della Sfinge&rdquo; → <code>94T33</code>;</li>
-<li>Esempio: &ldquo;Eracle cattura il cinghiale di Erimanto&rdquo; → <code>94L324</code>;</li>
+<li>Esempio: <em>L&rsquo;Enigma della Sfinge</em> → <code>L'Enigma della Sfinge (Iconclass:94T33)</code>;</li>
+<li>Esempio: <em>Eracle cattura il cinghiale di Erimanto</em> → <code>Eracle cattura il cinghiale di Erimanto (Iconclass:94L324)</code>;</li>
 </ul>
 </li>
 <li>Se non lo trovi, lascia il valore così com&rsquo;è (dopo averlo ovviamente pulito e corretto).</li>
@@ -1534,16 +1536,17 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h3 id="cho_century">cho_century</h3>
 <ul>
-<li>Modificare (esempio: eliminare le virgole);</li>
-<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
+<li>Raggruppare i valori (<em>cluster</em>);</li>
+<li>Modificare (Esempio: eliminare le virgole);</li>
+<li>Normalizzare i valori NULL (Esempio: cella vuota → <code>NULL</code>).</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
-<li>Rappresentazione delle date CE: <code>[YYYY][“-”][MM][“-”][DD]</code>;
+<li>Rappresentazione delle date CE (d.C.): <code>[YYYY]</code>(<code>[“-”][MM]</code>)(<code>[“-”][DD]</code>);
 <ul>
 <li>Esempio: &ldquo;20 giugno 1992&rdquo; → <code>1992-06-20</code>;</li>
 </ul>
 </li>
-<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][YYYY][“-”][MM][“-”][DD]</code>;
+<li>Rappresentazione delle date BCE (a.C.): <code>[&quot;-&quot;][YYYY]</code>(<code>[“-”][MM]</code>)(<code>[“-”][DD]</code>);
 <ul>
 <li>Esempio: &ldquo;1800 a.C.&rdquo; → <code>-1800</code>;</li>
 </ul>
@@ -1569,19 +1572,24 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h3 id="cho_date-12">cho_date (1/2)</h3>
 <ul>
-<li>Impostare un separatore comune (<code>|</code>);</li>
-<li>Modificare (esempio: rimuovi &ldquo;ca.&rdquo;, &ldquo;circa&rdquo;, ecc.) (ma tieni bene a mente l&rsquo;ultimo punto della pagina successiva!);</li>
-<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>).</li>
+<li>Impostare un separatore comune (<code>|</code>), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);</li>
+<li>Dividere i valori (<em>split</em>);</li>
+<li>Raggruppare i valori (<em>cluster</em>);</li>
+<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>);</li>
 <li>Standardizzare (vedi <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>):
 <ul>
-<li>Rappresentazione delle date CE: <code>[YYYY][“-”][MM][“-”][DD]</code>;
+<li>Rappresentazione delle date CE (d.C.): <code>[YYYY]</code>(<code>[“-”][MM]</code>)(<code>[“-”][DD]</code>): anno a quattro cifre obbligatorio, mese e giorno a due cifre facoltativi a seconda della precisione della data esistente;
 <ul>
-<li>Esempio: &ldquo;1992&rdquo; → <code>1992</code>;</li>
+<li>Esempio: <em>1992</em> → <code>1992</code>;</li>
+<li>Esempio: <em>Maggio 1992</em> → <code>1992-05</code>;</li>
+<li>Esempio: <em>8 maggio 1992</em> → <code>1992-05-08</code>;</li>
+<li>Esempio: <em>640 d.C.</em> → <code>0640</code>;</li>
 </ul>
 </li>
-<li>Rappresentazione delle date BCE: <code>[&quot;-&quot;][YYYY][“-”][MM][“-”][DD]</code>;
+<li>Rappresentazione delle date BCE (a.C.): <code>[&quot;-&quot;][YYYY]</code>(<code>[“-”][MM]</code>)(<code>[“-”][DD]</code>);
 <ul>
-<li>Esempio: &ldquo;460 a.C.&rdquo; → <code>-0460</code></li>
+<li>Esempio: <em>460 a.C.</em> → <code>-0460</code>;</li>
+<li>Esempio: <em>1500 a.C.</em> → <code>-1500</code>;</li>
 </ul>
 </li>
 </ul>
@@ -1604,13 +1612,16 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <li>Rappresentazione dei periodi CE: <code>[YYYY][&quot;/&quot;][YYYY]</code>;
 <ul>
 <li>Esempio: &ldquo;1705-1706&rdquo; → <code>1705/1706</code></li>
-<li>Esempio: &ldquo;550-530 a.C.&rdquo; → <code>-0550/-0530</code></li>
+<li>Esempio: &ldquo;550-530 a.C.&rdquo; → <code>-0550/-0530</code>;</li>
 </ul>
 </li>
 <li>Rappresentazione dell&rsquo;incertezza: <code>[date][&quot;%&quot;]</code>;
 <ul>
-<li>Esempio: &ldquo;1590 circa&rdquo; → <code>1590%</code>;</li>
-<li>Esempio: &ldquo;1705-1706 ca.&rdquo; → <code>1705/1706%</code></li>
+<li>Nel dataset l&rsquo;incertezza è indicata con una certa varianza (<em>ca.</em>, <em>circa</em>, ecc.), da eliminare di conseguenza e sostituire con <code>%</code> alla fine della data;</li>
+<li>Esempio: <em>1590 circa</em> → <code>1590%</code>;</li>
+<li>Esempio: <em>1705-1706 ca.</em> → <code>1705/1706%</code>;</li>
+<li>Esempio: <em>ca 403 a.C.</em> → <code>-0403%</code>;</li>
+<li>Esempio: <em>Sconosciuta (fra il 1635 e il 1700)</em> → <code>1635-1700&amp;</code>.</li>
 </ul>
 </li>
 </ul>
@@ -1626,25 +1637,98 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     <section>
     
       
-<h3 id="cho_sources_classic">cho_sources_classic</h3>
+<h3 id="cho_sources_classic-14">cho_sources_classic (1/4)</h3>
 <ul>
-<li>Impostare un separatore comune (<code>|</code>);</li>
-<li>Normalizzare i valori NULL (esempio: &ldquo;Non categoria&rdquo; → <code>NULL</code>).</li>
-<li>Modificare (esempio: rimuovere le citazioni che non sono in forma canonica):
+<li>Impostare un separatore comune (<code>|</code>), sostituendo quindi quelli (plurale!) esistenti (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);
 <ul>
-<li>Le citazioni non canoniche devono essere salvate così come sono in una colonna separata <code>cho_sources_other</code>;</li>
+<li>Un piccolo anticipo: alcune celle, pur avendo valori separabili, non hanno un separatore (quindi usa il buonsenso e correggi manualmente);</li>
+<li>Esempio: <em>Ovidio, Le Metamorfosi, I, vv. 750 e ss, Igino, Fabulae, 161, Callimaco, Inni, Inno ad Apollo</em> → <code>Ovidio, Le Metamorfosi, I, vv. 750 e ss|Igino, Fabulae, 161|Callimaco, Inni, Inno ad Apollo</code>;</li>
 </ul>
 </li>
+<li>Dividere i valori (<em>split</em>);</li>
+<li>Raggruppare i valori (<em>cluster</em>);</li>
+<li>Normalizzare i valori NULL (esempio: cella vuota → <code>NULL</code>);
+<ul>
+<li>Attenzione: usa <code>NULL</code> solo per le celle già vuote, prima dello split; se tra più citazioni ne hai una vuota, elimina solo quella e mantieni le altre;</li>
+<li>Esempio: <em>Apollod. 3.5.8| |Hdt. 2.175</em> → <code>Apollod. 3.5.8|Hdt. 2.175</code>;</li>
+<li>Esempio: cella vuota → <code>NULL</code>;</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cho_sources_classic-24">cho_sources_classic (2/4)</h3>
+<ul>
 <li>Standardizzare (vedi <a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus</a>):
 <ul>
 <li>Cerca la citazione su Perseus;</li>
 <li>Scegli l&rsquo;opzione più appropriata;</li>
 <li>Sostituisci la citazione esistente nel dataset con l&rsquo;opzione trovata:
 <ul>
-<li>Esempio: &ldquo;Apollodoro, Biblioteca, II 5&rdquo; → <code>Apollod. 2.5</code>;</li>
-<li>Esempio: &ldquo;Omero, Odissea, XI vv.601-604&rdquo; → <code>Hom. Od. 11.601</code>.</li>
+<li>Esempio: <em>Apollodoro, Biblioteca, II 5</em> → <code>Apollod. 2.5</code>;</li>
+<li>Esempio: <em>Omero, Odissea, XI vv.601-604</em> → <code>Hom. Od. 11.601-604</code>;</li>
+<li>Esempio: <em>Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.</em> → <code>Hom. Od. 10-12</code>;</li>
+<li>Esempio: <em>Apollodorus, Epitome</em> → <code>Apollod. Epit.</code></li>
+<li>Esempio: <em>Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.</em> → <code>Ov. Met. 15</code>;</li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cho_sources_classic-34">cho_sources_classic (3/4)</h3>
+<ul>
+<li>Le citazioni non canoniche vanno salvate così come sono in una colonna separata <code>cho_sources_other</code>, sempre con <code>|</code> come separatore, anche se non le trovate su Perseus;
+<ul>
+<li>Esempio: <em>Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.; Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.;</em> → <code>Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.|Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.</code>;</li>
+</ul>
+</li>
+<li>Le citazioni consecutive (magari separate da una virgola, o uno spazio) vanno esplicitate separatamente;
+<ul>
+<li>Esempio: <em>Diod. 1.16, 4.61</em> → <code>Diod. 1.16|Diod. 4.61</code>;</li>
+<li>Esempio: <em>Hes. Th. 304 327-335</em> → <code>Hes. Th. 304|Hes. Th. 327-335</code>;</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cho_sources_classic-44">cho_sources_classic (4/4)</h3>
+<ul>
+<li>Testo superfluo come <em>ss.</em> va eliminato;
+<ul>
+<li>Esempio: <em>Hes. Theog. 288 ss.</em> → <code>Hes. Th. 288</code>;</li>
+<li>Esempio: <em>Eneide II 594-620 &ldquo;Figlio quale grande dolore suscita indomabili ire?&rdquo; (trad. Luca Canali)</em> → <code>Hom. Aen. 2.594-620</code>;</li>
+<li>Esempio: <em>Altre fonti su Enea: Omero, Iliade</em> → <code>Hom. Il.</code>;</li>
+</ul>
+</li>
+<li>Non dimenticare di eliminare eventuali spazi tra i numeri (sostituendoli ove necessario con un punto), oppure di aggiungerli se mancano tra i nomi e i numeri:
+<ul>
+<li>Esempio: <em>Hes. Th.287-295</em> → <code>Hes. Th. 287-295</code>;</li>
 </ul>
 </li>
 </ul>
@@ -1660,7 +1744,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h3 id="altre-colonne">Altre colonne</h3>
 <ul>
-<li>Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con <code>|</code>;</li>
+<li>Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con <code>|</code>, fate attenzione agli spazi;</li>
 <li><code>dcho_keyword</code>: dividere, raggruppare, modificare (mantenere solo italiano);</li>
 <li><code>cho_author</code>: raggruppare, modificare, riconciliare con VIAF (&ldquo;Person&rdquo;);</li>
 <li><code>cho_period</code>: raggruppare, modificare;</li>
@@ -1682,9 +1766,9 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 <ul>
 <li>Esplorate i dati utilizzando <em>facet</em>, filtri e <em>sorting</em>;</li>
 <li>Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (<em>cluster</em>), divisioni (<em>split</em>) e sostituzioni;</li>
-<li>Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.</li>
+<li>Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente;</li>
+<li>Ricordate che potete sempre tornare indietro.</li>
 </ul>
-<p>Provate! Ricordate che potete sempre tornare indietro.</p>
 
     </section>
     
@@ -1697,10 +1781,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       
 <h1 id="data-cleaning-nelle-scienze-umane-1">Data Cleaning nelle Scienze Umane</h1>
 <h2 id="fine">Fine</h2>
-<p>Sebastian Barzaghi |
-<a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a> |
-<a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> |
-<a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></p>
+<h6 id="sebastian-barzaghi--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527-1">Sebastian Barzaghi | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a> | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a></h6>
 
     </section>
     

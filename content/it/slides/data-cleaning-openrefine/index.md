@@ -14,10 +14,7 @@ slides:
 
 ## Laboratorio introduttivo alla pulizia dei dati con OpenRefine
 
-Sebastian Barzaghi | 
-[https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
 
 ---
 
@@ -88,7 +85,7 @@ Ogni **osservazione** forma una **riga**.
 
 {{< slide background-image="img/section-01.jpg" class="section-slide">}}
 
-### Mythologiae
+## Mythologiae
 
 ---
 
@@ -1018,11 +1015,13 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ### dcho_theme (1/2)
 
-* Impostare un separatore comune (`|`);
+* Impostare un separatore comune (`|`), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti prima e/o dopo!);
 * Dividere i valori (_split_);
 * Raggruppare i valori (_cluster_);
-* Mantenere solo l'ultimo valore a destra se c'è una gerarchia, solitamente indicata da una sequenza di termini separati da `>`. Esempio: "Gli dèi>Efeso" &rarr; `Efeso`;
-* Normalizzare i valori NULL (esempio: "Non categoria" &rarr; `NULL`).
+* Normalizzare i valori NULL (esempio: _Non categoria_ &rarr; `NULL`);
+* Mantenere solo l'ultimo valore a destra se c'è una gerarchia, solitamente indicata da una sequenza di termini separati da `>`;
+  * Esempio: _Gli dèi>Efeso_ &rarr; `Efeso`;
+  * Esempio: _Saghe familiari e epiche>Enea>Enea e Didone innamorati_ &rarr; `Enea e Didone innamorati`.
 
 ---
 
@@ -1030,23 +1029,24 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 * Standardizzare quando possibile (vedi [Iconclass](https://iconclass.org/)):
   * Iscriviti e accedi a Iconclass;
-  * Cerca il tema;
-  * Scegli l'opzione più appropriata;
-  * Sostituisci il tema esistente nel dataset con l'identificativo dell'opzione trovata:
-    * Esempio: "L'Enigma della Sfinge" &rarr; `94T33`;
-    * Esempio: "Eracle cattura il cinghiale di Erimanto" &rarr; `94L324`;
+  * Cerca il tema nella barra di ricerca;
+  * Scegli l'opzione più appropriata (magari sarà necessario adattarsi un po');
+  * Aggiungi al tema esistente nel dataset l'identificativo dell'opzione trovata tra parentesi e preceduto da `Iconclass:`:
+    * Esempio: _L'Enigma della Sfinge_ &rarr; `L'Enigma della Sfinge (Iconclass:94T33)`;
+    * Esempio: _Eracle cattura il cinghiale di Erimanto_ &rarr; `Eracle cattura il cinghiale di Erimanto (Iconclass:94L324)`;
   * Se non lo trovi, lascia il valore così com'è (dopo averlo ovviamente pulito e corretto).
 
 ---
 
 ### cho_century
 
-* Modificare (esempio: eliminare le virgole);
-* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
+* Raggruppare i valori (_cluster_);
+* Modificare (Esempio: eliminare le virgole);
+* Normalizzare i valori NULL (Esempio: cella vuota &rarr; `NULL`).
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
-  * Rappresentazione delle date CE: `[YYYY][“-”][MM][“-”][DD]`;
+  * Rappresentazione delle date CE (d.C.): `[YYYY]`(`[“-”][MM]`)(`[“-”][DD]`);
     * Esempio: "20 giugno 1992" &rarr; `1992-06-20`;
-  * Rappresentazione delle date BCE: `["-"][YYYY][“-”][MM][“-”][DD]`;
+  * Rappresentazione delle date BCE (a.C.): `["-"][YYYY]`(`[“-”][MM]`)(`[“-”][DD]`);
     * Esempio: "1800 a.C." &rarr; `-1800`;
   * Rappresentazione dei periodi: `[YYYY]["/"][YYYY]`;
     * Esempio: "II secolo" &rarr; `0100/0199`;
@@ -1056,15 +1056,20 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 
 ### cho_date (1/2)
 
-* Impostare un separatore comune (`|`);
-* Modificare (esempio: rimuovi "ca.", "circa", ecc.) (ma tieni bene a mente l'ultimo punto della pagina successiva!);
-* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`).
+* Impostare un separatore comune (`|`), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);
+* Dividere i valori (_split_);
+* Raggruppare i valori (_cluster_);
+* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`);
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
-  * Rappresentazione delle date CE: `[YYYY][“-”][MM][“-”][DD]`;
-    * Esempio: "1992" &rarr; `1992`;
-  * Rappresentazione delle date BCE: `["-"][YYYY][“-”][MM][“-”][DD]`;
-    * Esempio: "460 a.C." &rarr; `-0460`
-  
+  * Rappresentazione delle date CE (d.C.): `[YYYY]`(`[“-”][MM]`)(`[“-”][DD]`): anno a quattro cifre obbligatorio, mese e giorno a due cifre facoltativi a seconda della precisione della data esistente;
+    * Esempio: _1992_ &rarr; `1992`;
+    * Esempio: _Maggio 1992_ &rarr; `1992-05`;
+    * Esempio: _8 maggio 1992_ &rarr; `1992-05-08`;
+    * Esempio: _640 d.C._ &rarr; `0640`;
+  * Rappresentazione delle date BCE (a.C.): `["-"][YYYY]`(`[“-”][MM]`)(`[“-”][DD]`);
+    * Esempio: _460 a.C._ &rarr; `-0460`;
+    * Esempio: _1500 a.C._ &rarr; `-1500`;
+
 ---
 
 ### cho_date (2/2)
@@ -1072,32 +1077,68 @@ Abbiamo individuato quattro colonne problematiche che richiedono una pulizia app
 * Standardizzare (vedi [EDTF](https://www.loc.gov/standards/datetime/)):
   * Rappresentazione dei periodi CE: `[YYYY]["/"][YYYY]`;
     * Esempio: "1705-1706" &rarr; `1705/1706`
-    * Esempio: "550-530 a.C." &rarr; `-0550/-0530`
+    * Esempio: "550-530 a.C." &rarr; `-0550/-0530`;
   * Rappresentazione dell'incertezza: `[date]["%"]`;
-    * Esempio: "1590 circa" &rarr; `1590%`;
-    * Esempio: "1705-1706 ca." &rarr; `1705/1706%`
-
+    * Nel dataset l'incertezza è indicata con una certa varianza (_ca._, _circa_, ecc.), da eliminare di conseguenza e sostituire con `%` alla fine della data;
+    * Esempio: _1590 circa_ &rarr; `1590%`;
+    * Esempio: _1705-1706 ca._ &rarr; `1705/1706%`;
+    * Esempio: _ca 403 a.C._ &rarr; `-0403%`;
+    * Esempio: _Sconosciuta (fra il 1635 e il 1700)_ &rarr; `1635-1700&`.
 
 ---
 
-### cho_sources_classic
+### cho_sources_classic (1/4)
 
-* Impostare un separatore comune (`|`);
-* Normalizzare i valori NULL (esempio: "Non categoria" &rarr; `NULL`).
-* Modificare (esempio: rimuovere le citazioni che non sono in forma canonica):
-  * Le citazioni non canoniche devono essere salvate così come sono in una colonna separata `cho_sources_other`;
+* Impostare un separatore comune (`|`), sostituendo quindi quelli (plurale!) esistenti (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);
+  * Un piccolo anticipo: alcune celle, pur avendo valori separabili, non hanno un separatore (quindi usa il buonsenso e correggi manualmente);
+  * Esempio: _Ovidio, Le Metamorfosi, I, vv. 750 e ss, Igino, Fabulae, 161, Callimaco, Inni, Inno ad Apollo_ &rarr; `Ovidio, Le Metamorfosi, I, vv. 750 e ss|Igino, Fabulae, 161|Callimaco, Inni, Inno ad Apollo`;
+* Dividere i valori (_split_);
+* Raggruppare i valori (_cluster_);
+* Normalizzare i valori NULL (esempio: cella vuota &rarr; `NULL`);
+  * Attenzione: usa `NULL` solo per le celle già vuote, prima dello split; se tra più citazioni ne hai una vuota, elimina solo quella e mantieni le altre;
+  * Esempio: _Apollod. 3.5.8| |Hdt. 2.175_ &rarr; `Apollod. 3.5.8|Hdt. 2.175`;
+  * Esempio: cella vuota &rarr; `NULL`;
+
+---
+
+### cho_sources_classic (2/4)
+
 * Standardizzare (vedi [Perseus](https://www.perseus.tufts.edu/hopper/)):
   * Cerca la citazione su Perseus;
   * Scegli l'opzione più appropriata;
   * Sostituisci la citazione esistente nel dataset con l'opzione trovata:
-    * Esempio: "Apollodoro, Biblioteca, II 5" &rarr; `Apollod. 2.5`;
-    * Esempio: "Omero, Odissea, XI vv.601-604" &rarr; `Hom. Od. 11.601`.
+    * Esempio: _Apollodoro, Biblioteca, II 5_ &rarr; `Apollod. 2.5`;
+    * Esempio: _Omero, Odissea, XI vv.601-604_ &rarr; `Hom. Od. 11.601-604`;
+    * Esempio: _Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C._ &rarr; `Hom. Od. 10-12`;
+    * Esempio: _Apollodorus, Epitome_ &rarr; `Apollod. Epit.`
+    * Esempio: _Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C._ &rarr; `Ov. Met. 15`;
+
+---
+
+### cho_sources_classic (3/4)
+
+  * Le citazioni non canoniche vanno salvate così come sono in una colonna separata `cho_sources_other`, sempre con `|` come separatore, anche se non le trovate su Perseus;
+    * Esempio: _Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.; Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.;_ &rarr; `Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.|Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.`; 
+  * Le citazioni consecutive (magari separate da una virgola, o uno spazio) vanno esplicitate separatamente;
+    * Esempio: _Diod. 1.16, 4.61_ &rarr; `Diod. 1.16|Diod. 4.61`;
+    * Esempio: _Hes. Th. 304 327-335_ &rarr; `Hes. Th. 304|Hes. Th. 327-335`;
+
+---
+
+### cho_sources_classic (4/4)
+
+  * Testo superfluo come _ss._ va eliminato;
+    * Esempio: _Hes. Theog. 288 ss._ &rarr; `Hes. Th. 288`;
+    * Esempio: _Eneide II 594-620 "Figlio quale grande dolore suscita indomabili ire?" (trad. Luca Canali)_ &rarr; `Hom. Aen. 2.594-620`;
+    * Esempio: _Altre fonti su Enea: Omero, Iliade_ &rarr; `Hom. Il.`;
+  * Non dimenticare di eliminare eventuali spazi tra i numeri (sostituendoli ove necessario con un punto), oppure di aggiungerli se mancano tra i nomi e i numeri:
+    * Esempio: _Hes. Th.287-295_ &rarr; `Hes. Th. 287-295`;
 
 ---
 
 ### Altre colonne
 
-* Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con `|`;
+* Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con `|`, fate attenzione agli spazi;
 * `dcho_keyword`: dividere, raggruppare, modificare (mantenere solo italiano);
 * `cho_author`: raggruppare, modificare, riconciliare con VIAF ("Person");
 * `cho_period`: raggruppare, modificare;
@@ -1112,9 +1153,8 @@ Potete già fare molto per aumentare la qualità dei dati! Riassumendo:
 
 * Esplorate i dati utilizzando _facet_, filtri e _sorting_;
 * Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (_cluster_), divisioni (_split_) e sostituzioni;
-* Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.
-
-Provate! Ricordate che potete sempre tornare indietro.
+* Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente;
+* Ricordate che potete sempre tornare indietro.
 
 ---
 
@@ -1122,7 +1162,4 @@ Provate! Ricordate che potete sempre tornare indietro.
 
 ## Fine
 
-Sebastian Barzaghi | 
-[https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) |
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/) | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)

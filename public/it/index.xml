@@ -48,11 +48,11 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/data-cleaning-openrefine/</guid>
       <description>&lt;h1 id=&#34;data-cleaning-nelle-scienze-umane&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
-&lt;h4 id=&#34;laboratorio-introduttivo-alla-pulizia-dei-dati-con-openrefine&#34;&gt;Laboratorio introduttivo alla pulizia dei dati con OpenRefine&lt;/h4&gt;
+&lt;h2 id=&#34;laboratorio-introduttivo-alla-pulizia-dei-dati-con-openrefine&#34;&gt;Laboratorio introduttivo alla pulizia dei dati con OpenRefine&lt;/h2&gt;
 &lt;p&gt;Sebastian Barzaghi |
 &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
 &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; |&lt;/p&gt;
+&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -65,16 +65,16 @@
   &gt;
 
 &lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
-&lt;p&gt;Immagine: Redon, O. (1905–1916). &lt;em&gt;The Chariot of Apollo&lt;/em&gt; [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.&lt;/p&gt;
+&lt;p class=&#34;bg-caption&#34;&gt;Immagine: Redon, O. (1905–1916). *The Chariot of Apollo* [Oil on canvas, 26 x 32 in. (66 x 81.3 cm)]. Anonymous Gift, 1927. Accession No. 27.29.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosa-sono-i-dati-nelle-scienze-umane&#34;&gt;Cosa sono i dati nelle scienze umane?&lt;/h2&gt;
+&lt;h3 id=&#34;cosa-sono-i-dati-nelle-scienze-umane&#34;&gt;Cosa sono i dati nelle scienze umane?&lt;/h3&gt;
 &lt;p&gt;Un dato è qualsiasi valore assegnato a qualcosa che può essere quantificato, qualificato o interpretato in qualche modo per essere utilizzato come prova informativa.&lt;/p&gt;
 &lt;p&gt;Numeri, parole, immagini, video, foto, registrazioni audio, interviste, manoscritti, appunti, collezioni&amp;hellip;&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;per-essere-utili-i-dati-devono-essere-organizzati&#34;&gt;Per essere utili, i dati devono essere organizzati&amp;hellip;&lt;/h2&gt;
+&lt;h3 id=&#34;per-essere-utili-i-dati-devono-essere-organizzati&#34;&gt;Per essere utili, i dati devono essere organizzati&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;&amp;hellip; per essere compresi da te in futuro.&lt;/p&gt;
 &lt;p&gt;&amp;hellip; per essere leggibili dalle macchine (&lt;em&gt;Interoperable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;&amp;hellip; per essere compresi dagli altri (&lt;em&gt;Reusable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
@@ -82,7 +82,7 @@
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;tutti-i-dati-sono-disordinati&#34;&gt;Tutti i dati sono disordinati&lt;/h2&gt;
+&lt;h3 id=&#34;tutti-i-dati-sono-disordinati&#34;&gt;Tutti i dati sono disordinati&lt;/h3&gt;
 &lt;p&gt;Non dare mai la qualità dei tuoi dati per scontato.&lt;/p&gt;
 &lt;p&gt;L&#39;80% dell&amp;rsquo;analisi dei dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.&lt;/p&gt;
 &lt;p&gt;La pulizia e la preparazione devono essere iterative.&lt;/p&gt;
@@ -91,7 +91,7 @@
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;un-dataset-è-una-raccolta-di-dati&#34;&gt;Un dataset è una raccolta di dati&lt;/h2&gt;
+&lt;h3 id=&#34;un-dataset-è-una-raccolta-di-dati&#34;&gt;Un dataset è una raccolta di dati&lt;/h3&gt;
 &lt;p&gt;Ogni &lt;strong&gt;valore&lt;/strong&gt; appartiene a una &lt;strong&gt;variabile&lt;/strong&gt; e a un&amp;rsquo;&lt;strong&gt;osservazione&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ogni &lt;strong&gt;variabile&lt;/strong&gt; forma una &lt;strong&gt;colonna&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ogni &lt;strong&gt;osservazione&lt;/strong&gt; forma una &lt;strong&gt;riga&lt;/strong&gt;.&lt;/p&gt;
@@ -111,17 +111,17 @@
 
 &lt;h2 id=&#34;mythologiae&#34;&gt;Mythologiae&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-13&#34;&gt;Un dataset di fonti iconografiche mitologiche (1/3)&lt;/h2&gt;
+&lt;h3 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-13&#34;&gt;Un dataset di fonti iconografiche mitologiche (1/3)&lt;/h3&gt;
 &lt;p&gt;Link: &lt;a href=&#34;https://mythologiae.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mythologiae.unibo.it/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Obiettivo: raccogliere un insieme di fonti iconografiche, classificarle, localizzarle rispetto agli istituti fisici di conservazione e creare
 un collegamento fra rappresentazione iconografica e fonti testuali di riferimento.&lt;/p&gt;
 &lt;p&gt;La collezione è il frutto di attività laboratoriali, in cui gli studenti sono stati chiamati a scegliere e interpretare opere d’arte eterogenee, provenienti da diverse realtà di conservazione.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-23&#34;&gt;Un dataset di fonti iconografiche mitologiche (2/3)&lt;/h2&gt;
+&lt;h3 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-23&#34;&gt;Un dataset di fonti iconografiche mitologiche (2/3)&lt;/h3&gt;
 &lt;p&gt;Il filo conduttore che lega fra di loro le opere della collezione è la scena mitologica che esse raffigurano.&lt;/p&gt;
 &lt;p&gt;Gli annotatori, dunque, non solo hanno compiuto un’analisi ermeneutica di ciascuna opera, assegnando una categoria concettuale (tema ricorrente) concordata sulla base di una tassonomia interna, ma hanno anche associato al tema, dove possibile, le opere letterarie da cui il tema ha tratto origine o quelle opere che lo hanno, in una qualche forma, ripreso.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-33&#34;&gt;Un dataset di fonti iconografiche mitologiche (3/3)&lt;/h2&gt;
+&lt;h3 id=&#34;un-dataset-di-fonti-iconografiche-mitologiche-33&#34;&gt;Un dataset di fonti iconografiche mitologiche (3/3)&lt;/h3&gt;
 &lt;p&gt;Ogni opera è descritta da una serie di metadati, per lo più con valori testuali, come &lt;em&gt;titolo&lt;/em&gt;, &lt;em&gt;autore&lt;/em&gt;, &lt;em&gt;periodo&lt;/em&gt;, &lt;em&gt;collocazione&lt;/em&gt;, e &lt;em&gt;note&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Questo rende i dati contenuti in Mythologiae estremamente ricchi da una parte, ed estremamente poco strutturati dall&amp;rsquo;altra.&lt;/p&gt;
 &lt;p&gt;Inoltre, essendo stato compilato manualmente da diverse persone, alcuni dati contenuti nel dataset tendono ad essere disomogenei in termini di formato, separatori, ecc.&lt;/p&gt;
@@ -138,7 +138,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 
 &lt;h2 id=&#34;errori-comuni&#34;&gt;Errori comuni&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;la-pulizia-dei-dati-è-difficile-ma-ne-vale-la-pena&#34;&gt;La pulizia dei dati è difficile (ma ne vale la pena)!&lt;/h2&gt;
+&lt;h3 id=&#34;la-pulizia-dei-dati-è-difficile-ma-ne-vale-la-pena&#34;&gt;La pulizia dei dati è difficile (ma ne vale la pena)!&lt;/h3&gt;
 &lt;p&gt;Può essere riassunta in una serie di attività:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Preparare i dati;&lt;/li&gt;
@@ -151,7 +151,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-modificare-mai-i-dati-originali&#34;&gt;Non modificare mai i dati originali&lt;/h2&gt;
+&lt;h3 id=&#34;non-modificare-mai-i-dati-originali&#34;&gt;Non modificare mai i dati originali&lt;/h3&gt;
 &lt;p&gt;Fai sempre una copia prima di apportare modifiche.&lt;/p&gt;
 &lt;p&gt;Esegui il backup dei file.&lt;/p&gt;
 &lt;p&gt;Tieni traccia di tutti i passaggi.&lt;/p&gt;
@@ -160,7 +160,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   Seth van Hooland, Ruben Verborgh, and Max De Wilde, &#34;Cleaning Data with OpenRefine,&#34; Programming Historian 2 (2013), &lt;a href=&#34;https://doi.org/10.46430/phen0023&#34;&gt;https://doi.org/10.46430/phen0023&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;descrivi-sempre-i-dati&#34;&gt;Descrivi sempre i dati&lt;/h2&gt;
+&lt;h3 id=&#34;descrivi-sempre-i-dati&#34;&gt;Descrivi sempre i dati&lt;/h3&gt;
 &lt;p&gt;Documenta tutto il necessario per capire cosa c&amp;rsquo;è nel dataset e come utilizzarlo&lt;/p&gt;
 &lt;p&gt;Considera di indicare almeno:&lt;/p&gt;
 &lt;ul&gt;
@@ -174,7 +174,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h2&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -187,7 +187,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-23&#34;&gt;Usa formati standard per le tabelle (2/3)&lt;/h2&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-23&#34;&gt;Usa formati standard per le tabelle (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -200,7 +200,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;usa-formati-standard-per-le-tabelle-33&#34;&gt;Usa formati standard per le tabelle (3/3)&lt;/h2&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-33&#34;&gt;Usa formati standard per le tabelle (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -213,7 +213,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -226,7 +226,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -240,7 +240,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-12&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-12&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -253,7 +253,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-22&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-22&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -268,7 +268,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h2&gt;
+&lt;h3 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -282,7 +282,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h2&gt;
+&lt;h3 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -296,7 +296,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;sii-coerente&#34;&gt;Sii coerente&lt;/h2&gt;
+&lt;h3 id=&#34;sii-coerente&#34;&gt;Sii coerente&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Scenario 1: date visualizzate in molti formati diversi (esempi: &amp;ldquo;12 luglio 2024&amp;rdquo;, &amp;ldquo;12/07/2024&amp;rdquo;, &amp;ldquo;12-07-2024&amp;rdquo;, ecc.);
 &lt;ul&gt;
@@ -316,7 +316,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h2&gt;
+&lt;h3 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h3&gt;
 &lt;p&gt;Nell&amp;rsquo;eliminazione includi:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Duplicati;&lt;/li&gt;
@@ -330,7 +330,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;tratta-sempre-i-valori-null&#34;&gt;Tratta sempre i valori NULL&lt;/h2&gt;
+&lt;h3 id=&#34;tratta-sempre-i-valori-null&#34;&gt;Tratta sempre i valori NULL&lt;/h3&gt;
 &lt;p&gt;Usa un metodo coerente che sia compatibile e che non causi errori (come lasciare la cella vuota).&lt;/p&gt;
 &lt;p&gt;Considera che:&lt;/p&gt;
 &lt;ul&gt;
@@ -342,7 +342,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;esegui-sempre-un-controllo-di-qualità&#34;&gt;Esegui sempre un controllo di qualità&lt;/h2&gt;
+&lt;h3 id=&#34;esegui-sempre-un-controllo-di-qualità&#34;&gt;Esegui sempre un controllo di qualità&lt;/h3&gt;
 &lt;p&gt;Verifica:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Errori grammaticali;&lt;/li&gt;
@@ -355,7 +355,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;quando-hai-finito-esporta-e-condividi&#34;&gt;Quando hai finito, esporta e condividi&lt;/h2&gt;
+&lt;h3 id=&#34;quando-hai-finito-esporta-e-condividi&#34;&gt;Quando hai finito, esporta e condividi&lt;/h3&gt;
 &lt;p&gt;Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (esempio: &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Utilizza formati aperti per rendere i dati interoperabili (esempio: &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), quando possibile.&lt;/p&gt;
 &lt;p&gt;Considera di condividere i tuoi dati su &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; e/o di pubblicarli su un repository (esempio: &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, ecc.) per renderli visibili, accessibili e stabili.&lt;/p&gt;
@@ -375,7 +375,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 
 &lt;h2 id=&#34;openrefine&#34;&gt;OpenRefine&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;uno-strumento-per-la-pulizia-dei-dati&#34;&gt;Uno strumento per la pulizia dei dati&lt;/h2&gt;
+&lt;h3 id=&#34;uno-strumento-per-la-pulizia-dei-dati&#34;&gt;Uno strumento per la pulizia dei dati&lt;/h3&gt;
 &lt;p&gt;OpenRefine permette di:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Identificare e correggere errori;&lt;/li&gt;
@@ -389,7 +389,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;alcuni-scenari-di-utilizzo&#34;&gt;Alcuni scenari di utilizzo&lt;/h2&gt;
+&lt;h3 id=&#34;alcuni-scenari-di-utilizzo&#34;&gt;Alcuni scenari di utilizzo&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Vuoi sapere quante volte un particolare valore appare in una colonna nei tuoi dati;&lt;/li&gt;
 &lt;li&gt;Vuoi sapere come i valori sono distribuiti in tutto il dataset;&lt;/li&gt;
@@ -402,7 +402,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;installazione-di-openrefine&#34;&gt;Installazione di OpenRefine&lt;/h2&gt;
+&lt;h3 id=&#34;installazione-di-openrefine&#34;&gt;Installazione di OpenRefine&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Scarica OpenRefine: &lt;a href=&#34;https://openrefine.org/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openrefine.org/download.html&lt;/a&gt;;
 &lt;ul&gt;
@@ -415,7 +415,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Accedi all&amp;rsquo;interfaccia su un browser web all&amp;rsquo;indirizzo &lt;a href=&#34;http://127.0.0.1:3333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://127.0.0.1:3333&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creazione-di-un-progetto-13&#34;&gt;Creazione di un progetto (1/3)&lt;/h2&gt;
+&lt;h3 id=&#34;creazione-di-un-progetto-13&#34;&gt;Creazione di un progetto (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-1.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -429,7 +429,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creazione-di-un-progetto-23&#34;&gt;Creazione di un progetto (2/3)&lt;/h2&gt;
+&lt;h3 id=&#34;creazione-di-un-progetto-23&#34;&gt;Creazione di un progetto (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-2a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -445,7 +445,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creazione-di-un-progetto-33&#34;&gt;Creazione di un progetto (3/3)&lt;/h2&gt;
+&lt;h3 id=&#34;creazione-di-un-progetto-33&#34;&gt;Creazione di un progetto (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-2b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -460,7 +460,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;schermata-del-progetto-12&#34;&gt;Schermata del progetto (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;schermata-del-progetto-12&#34;&gt;Schermata del progetto (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-3a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -472,7 +472,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;schermata-del-progetto-22&#34;&gt;Schermata del progetto (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;schermata-del-progetto-22&#34;&gt;Schermata del progetto (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-3b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -486,7 +486,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;schermata-della-griglia&#34;&gt;Schermata della griglia&lt;/h2&gt;
+&lt;h3 id=&#34;schermata-della-griglia&#34;&gt;Schermata della griglia&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-4.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -501,7 +501,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;facetfilter&#34;&gt;Facet/Filter&lt;/h2&gt;
+&lt;h3 id=&#34;facetfilter&#34;&gt;Facet/Filter&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-5.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -516,7 +516,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;undoredo&#34;&gt;Undo/Redo&lt;/h2&gt;
+&lt;h3 id=&#34;undoredo&#34;&gt;Undo/Redo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-6.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -531,7 +531,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;modalità-rows&#34;&gt;Modalità rows&lt;/h2&gt;
+&lt;h3 id=&#34;modalità-rows&#34;&gt;Modalità rows&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-7a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -545,7 +545,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;modalità-records&#34;&gt;Modalità records&lt;/h2&gt;
+&lt;h3 id=&#34;modalità-records&#34;&gt;Modalità records&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-7b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -559,12 +559,12 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;esplora-i-dati-con-le-facet-12&#34;&gt;Esplora i dati con le Facet (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;esplora-i-dati-con-le-facet-12&#34;&gt;Esplora i dati con le Facet (1/2)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Facet&lt;/strong&gt;: un aspetto della varianza dei dati in una colonna.&lt;/p&gt;
 &lt;p&gt;Fornisce una visione d&amp;rsquo;insieme dei dati.&lt;/p&gt;
 &lt;p&gt;Consente ulteriori operazioni, come il filtraggio e il clustering.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;esplora-i-dati-con-le-facet-22&#34;&gt;Esplora i dati con le Facet (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;esplora-i-dati-con-le-facet-22&#34;&gt;Esplora i dati con le Facet (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -579,7 +579,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;text-facet-12&#34;&gt;Text facet (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;text-facet-12&#34;&gt;Text facet (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -594,7 +594,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;text-facet-22&#34;&gt;Text facet (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;text-facet-22&#34;&gt;Text facet (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -606,7 +606,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;filter-12&#34;&gt;Filter (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;filter-12&#34;&gt;Filter (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -620,7 +620,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;filter-22&#34;&gt;Filter (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;filter-22&#34;&gt;Filter (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -634,7 +634,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;filtrare-con-i-facet-13&#34;&gt;Filtrare con i Facet (1/3)&lt;/h2&gt;
+&lt;h3 id=&#34;filtrare-con-i-facet-13&#34;&gt;Filtrare con i Facet (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -648,7 +648,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;filtrare-con-i-facet-23&#34;&gt;Filtrare con i Facet (2/3)&lt;/h2&gt;
+&lt;h3 id=&#34;filtrare-con-i-facet-23&#34;&gt;Filtrare con i Facet (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8g.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -660,7 +660,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;filtrare-con-i-facet-33&#34;&gt;Filtrare con i Facet (3/3)&lt;/h2&gt;
+&lt;h3 id=&#34;filtrare-con-i-facet-33&#34;&gt;Filtrare con i Facet (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8h.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -672,7 +672,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;sort-12&#34;&gt;Sort (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;sort-12&#34;&gt;Sort (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8i.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -685,7 +685,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;sort-22&#34;&gt;Sort (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;sort-22&#34;&gt;Sort (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8l.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -699,7 +699,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cluster-13&#34;&gt;Cluster (1/3)&lt;/h2&gt;
+&lt;h3 id=&#34;cluster-13&#34;&gt;Cluster (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8m.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -714,7 +714,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cluster-23&#34;&gt;Cluster (2/3)&lt;/h2&gt;
+&lt;h3 id=&#34;cluster-23&#34;&gt;Cluster (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8n.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -729,7 +729,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt; 
 &lt;hr&gt;
-&lt;h2 id=&#34;cluster-33&#34;&gt;Cluster (3/3)&lt;/h2&gt;
+&lt;h3 id=&#34;cluster-33&#34;&gt;Cluster (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-8o.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -743,7 +743,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;modifica-delle-celle&#34;&gt;Modifica delle celle&lt;/h2&gt;
+&lt;h3 id=&#34;modifica-delle-celle&#34;&gt;Modifica delle celle&lt;/h3&gt;
 &lt;p&gt;OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto delle celle in modo automatico ed efficiente.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Modifica tramite una facet di testo: clicca su &lt;em&gt;Edit&lt;/em&gt; a destra della facet e inserisci un nuovo valore;&lt;/li&gt;
@@ -751,7 +751,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;Modifica delle singole celle: passa il mouse su una cella e clicca su &lt;em&gt;Edit&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;split-12&#34;&gt;Split (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;split-12&#34;&gt;Split (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -766,7 +766,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;split-22&#34;&gt;Split (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;split-22&#34;&gt;Split (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -780,7 +780,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;transform&#34;&gt;Transform&lt;/h2&gt;
+&lt;h3 id=&#34;transform&#34;&gt;Transform&lt;/h3&gt;
 &lt;p&gt;Un meccanismo potente per applicare modifiche che non possono essere ottenute tramite semplici facet, filtri o cluster.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Eliminare spazi bianchi iniziali e finali;&lt;/li&gt;
@@ -791,7 +791,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;/ul&gt;
 &lt;p&gt;Possono essere preimpostate o scritte ad hoc in un linguaggio chiamato GREL.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;reconcile-15&#34;&gt;Reconcile (1/5)&lt;/h2&gt;
+&lt;h3 id=&#34;reconcile-15&#34;&gt;Reconcile (1/5)&lt;/h3&gt;
 &lt;p&gt;Processo semi-automatico di allineamento dei dati a fonti esterne.&lt;/p&gt;
 &lt;p&gt;Utile per:&lt;/p&gt;
 &lt;ul&gt;
@@ -802,7 +802,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;p&gt;È necessario il giudizio umano per rivedere e approvare i risultati.&lt;/p&gt;
 &lt;p&gt;Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dati prima di riconciliarli!&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;reconcile-25&#34;&gt;Reconcile (2/5)&lt;/h2&gt;
+&lt;h3 id=&#34;reconcile-25&#34;&gt;Reconcile (2/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -815,7 +815,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;reconcile-35&#34;&gt;Reconcile (3/5)&lt;/h2&gt;
+&lt;h3 id=&#34;reconcile-35&#34;&gt;Reconcile (3/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -828,7 +828,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;reconcile-45&#34;&gt;Reconcile (4/5)&lt;/h2&gt;
+&lt;h3 id=&#34;reconcile-45&#34;&gt;Reconcile (4/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -841,7 +841,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;reconcile-55&#34;&gt;Reconcile (5/5)&lt;/h2&gt;
+&lt;h3 id=&#34;reconcile-55&#34;&gt;Reconcile (5/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;img src=&#34;img/openrefine-9f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
@@ -867,7 +867,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 
 &lt;h2 id=&#34;cosa-fare&#34;&gt;Cosa fare&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;le-vostre-_task_&#34;&gt;Le vostre &lt;em&gt;task&lt;/em&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;le-vostre-_task_&#34;&gt;Le vostre &lt;em&gt;task&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Abbiamo individuato quattro colonne problematiche che richiedono una pulizia approfondita dei dati:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;dcho_theme&lt;/code&gt;: il tema mitologico individuato nell&amp;rsquo;opera;&lt;/li&gt;
@@ -876,26 +876,31 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;&lt;code&gt;cho_sources_classic&lt;/code&gt;: le fonti classiche associate al tema mitologico individuato nell&amp;rsquo;opera.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;dcho_theme-12&#34;&gt;dcho_theme (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;dcho_theme-12&#34;&gt;dcho_theme (1/2)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti prima e/o dopo!);&lt;/li&gt;
 &lt;li&gt;Dividere i valori (&lt;em&gt;split&lt;/em&gt;);&lt;/li&gt;
 &lt;li&gt;Raggruppare i valori (&lt;em&gt;cluster&lt;/em&gt;);&lt;/li&gt;
-&lt;li&gt;Mantenere solo l&amp;rsquo;ultimo valore a destra se c&amp;rsquo;è una gerarchia, solitamente indicata da una sequenza di termini separati da &lt;code&gt;&amp;gt;&lt;/code&gt;. Esempio: &amp;ldquo;Gli dèi&amp;gt;Efeso&amp;rdquo; → &lt;code&gt;Efeso&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Normalizzare i valori NULL (esempio: &amp;ldquo;Non categoria&amp;rdquo; → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Normalizzare i valori NULL (esempio: &lt;em&gt;Non categoria&lt;/em&gt; → &lt;code&gt;NULL&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Mantenere solo l&amp;rsquo;ultimo valore a destra se c&amp;rsquo;è una gerarchia, solitamente indicata da una sequenza di termini separati da &lt;code&gt;&amp;gt;&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Gli dèi&amp;gt;Efeso&lt;/em&gt; → &lt;code&gt;Efeso&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Saghe familiari e epiche&amp;gt;Enea&amp;gt;Enea e Didone innamorati&lt;/em&gt; → &lt;code&gt;Enea e Didone innamorati&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;dcho_theme-22&#34;&gt;dcho_theme (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;dcho_theme-22&#34;&gt;dcho_theme (2/2)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Standardizzare quando possibile (vedi &lt;a href=&#34;https://iconclass.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Iconclass&lt;/a&gt;):
 &lt;ul&gt;
 &lt;li&gt;Iscriviti e accedi a Iconclass;&lt;/li&gt;
-&lt;li&gt;Cerca il tema;&lt;/li&gt;
-&lt;li&gt;Scegli l&amp;rsquo;opzione più appropriata;&lt;/li&gt;
-&lt;li&gt;Sostituisci il tema esistente nel dataset con l&amp;rsquo;identificativo dell&amp;rsquo;opzione trovata:
+&lt;li&gt;Cerca il tema nella barra di ricerca;&lt;/li&gt;
+&lt;li&gt;Scegli l&amp;rsquo;opzione più appropriata (magari sarà necessario adattarsi un po&amp;rsquo;);&lt;/li&gt;
+&lt;li&gt;Aggiungi al tema esistente nel dataset l&amp;rsquo;identificativo dell&amp;rsquo;opzione trovata tra parentesi e preceduto da &lt;code&gt;Iconclass:&lt;/code&gt;:
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;L&amp;rsquo;Enigma della Sfinge&amp;rdquo; → &lt;code&gt;94T33&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;Eracle cattura il cinghiale di Erimanto&amp;rdquo; → &lt;code&gt;94L324&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;L&amp;rsquo;Enigma della Sfinge&lt;/em&gt; → &lt;code&gt;L&#39;Enigma della Sfinge (Iconclass:94T33)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Eracle cattura il cinghiale di Erimanto&lt;/em&gt; → &lt;code&gt;Eracle cattura il cinghiale di Erimanto (Iconclass:94L324)&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Se non lo trovi, lascia il valore così com&amp;rsquo;è (dopo averlo ovviamente pulito e corretto).&lt;/li&gt;
@@ -903,18 +908,19 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cho_century&#34;&gt;cho_century&lt;/h2&gt;
+&lt;h3 id=&#34;cho_century&#34;&gt;cho_century&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Modificare (esempio: eliminare le virgole);&lt;/li&gt;
-&lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Raggruppare i valori (&lt;em&gt;cluster&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Modificare (Esempio: eliminare le virgole);&lt;/li&gt;
+&lt;li&gt;Normalizzare i valori NULL (Esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
-&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date CE (d.C.): &lt;code&gt;[YYYY]&lt;/code&gt;(&lt;code&gt;[“-”][MM]&lt;/code&gt;)(&lt;code&gt;[“-”][DD]&lt;/code&gt;);
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;20 giugno 1992&amp;rdquo; → &lt;code&gt;1992-06-20&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date BCE (a.C.): &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY]&lt;/code&gt;(&lt;code&gt;[“-”][MM]&lt;/code&gt;)(&lt;code&gt;[“-”][DD]&lt;/code&gt;);
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;1800 a.C.&amp;rdquo; → &lt;code&gt;-1800&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
@@ -929,73 +935,127 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cho_date-12&#34;&gt;cho_date (1/2)&lt;/h2&gt;
+&lt;h3 id=&#34;cho_date-12&#34;&gt;cho_date (1/2)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;Modificare (esempio: rimuovi &amp;ldquo;ca.&amp;rdquo;, &amp;ldquo;circa&amp;rdquo;, ecc.) (ma tieni bene a mente l&amp;rsquo;ultimo punto della pagina successiva!);&lt;/li&gt;
-&lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;), sostituendo quindi quello esistente (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);&lt;/li&gt;
+&lt;li&gt;Dividere i valori (&lt;em&gt;split&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Raggruppare i valori (&lt;em&gt;cluster&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
-&lt;li&gt;Rappresentazione delle date CE: &lt;code&gt;[YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date CE (d.C.): &lt;code&gt;[YYYY]&lt;/code&gt;(&lt;code&gt;[“-”][MM]&lt;/code&gt;)(&lt;code&gt;[“-”][DD]&lt;/code&gt;): anno a quattro cifre obbligatorio, mese e giorno a due cifre facoltativi a seconda della precisione della data esistente;
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;1992&amp;rdquo; → &lt;code&gt;1992&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;1992&lt;/em&gt; → &lt;code&gt;1992&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Maggio 1992&lt;/em&gt; → &lt;code&gt;1992-05&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;8 maggio 1992&lt;/em&gt; → &lt;code&gt;1992-05-08&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;640 d.C.&lt;/em&gt; → &lt;code&gt;0640&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Rappresentazione delle date BCE: &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY][“-”][MM][“-”][DD]&lt;/code&gt;;
+&lt;li&gt;Rappresentazione delle date BCE (a.C.): &lt;code&gt;[&amp;quot;-&amp;quot;][YYYY]&lt;/code&gt;(&lt;code&gt;[“-”][MM]&lt;/code&gt;)(&lt;code&gt;[“-”][DD]&lt;/code&gt;);
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;460 a.C.&amp;rdquo; → &lt;code&gt;-0460&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;460 a.C.&lt;/em&gt; → &lt;code&gt;-0460&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;1500 a.C.&lt;/em&gt; → &lt;code&gt;-1500&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cho_date-22&#34;&gt;cho_date (2/2)&lt;/h2&gt;
+&lt;h3 id=&#34;cho_date-22&#34;&gt;cho_date (2/2)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;):
 &lt;ul&gt;
 &lt;li&gt;Rappresentazione dei periodi CE: &lt;code&gt;[YYYY][&amp;quot;/&amp;quot;][YYYY]&lt;/code&gt;;
 &lt;ul&gt;
 &lt;li&gt;Esempio: &amp;ldquo;1705-1706&amp;rdquo; → &lt;code&gt;1705/1706&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;550-530 a.C.&amp;rdquo; → &lt;code&gt;-0550/-0530&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Esempio: &amp;ldquo;550-530 a.C.&amp;rdquo; → &lt;code&gt;-0550/-0530&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Rappresentazione dell&amp;rsquo;incertezza: &lt;code&gt;[date][&amp;quot;%&amp;quot;]&lt;/code&gt;;
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;1590 circa&amp;rdquo; → &lt;code&gt;1590%&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;1705-1706 ca.&amp;rdquo; → &lt;code&gt;1705/1706%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Nel dataset l&amp;rsquo;incertezza è indicata con una certa varianza (&lt;em&gt;ca.&lt;/em&gt;, &lt;em&gt;circa&lt;/em&gt;, ecc.), da eliminare di conseguenza e sostituire con &lt;code&gt;%&lt;/code&gt; alla fine della data;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;1590 circa&lt;/em&gt; → &lt;code&gt;1590%&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;1705-1706 ca.&lt;/em&gt; → &lt;code&gt;1705/1706%&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;ca 403 a.C.&lt;/em&gt; → &lt;code&gt;-0403%&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Sconosciuta (fra il 1635 e il 1700)&lt;/em&gt; → &lt;code&gt;1635-1700&amp;amp;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cho_sources_classic&#34;&gt;cho_sources_classic&lt;/h2&gt;
+&lt;h3 id=&#34;cho_sources_classic-14&#34;&gt;cho_sources_classic (1/4)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;Normalizzare i valori NULL (esempio: &amp;ldquo;Non categoria&amp;rdquo; → &lt;code&gt;NULL&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;Modificare (esempio: rimuovere le citazioni che non sono in forma canonica):
+&lt;li&gt;Impostare un separatore comune (&lt;code&gt;|&lt;/code&gt;), sostituendo quindi quelli (plurale!) esistenti (ricordati di rimuovere anche gli spazi vuoti, prima e/o dopo!);
 &lt;ul&gt;
-&lt;li&gt;Le citazioni non canoniche devono essere salvate così come sono in una colonna separata &lt;code&gt;cho_sources_other&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Un piccolo anticipo: alcune celle, pur avendo valori separabili, non hanno un separatore (quindi usa il buonsenso);&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Ovidio, Le Metamorfosi, I, vv. 750 e ss, Igino, Fabulae, 161, Callimaco, Inni, Inno ad Apollo&lt;/em&gt; → &lt;code&gt;Ovidio, Le Metamorfosi, I, vv. 750 e ss|Igino, Fabulae, 161|Callimaco, Inni, Inno ad Apollo&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Dividere i valori (&lt;em&gt;split&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Raggruppare i valori (&lt;em&gt;cluster&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Normalizzare i valori NULL (esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;);
+&lt;ul&gt;
+&lt;li&gt;Attenzione: usa &lt;code&gt;NULL&lt;/code&gt; solo per le celle già vuote, prima dello split; se tra più citazioni ne hai una vuota, elimina solo quella e mantieni le altre;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Apollod. 3.5.8| |Hdt. 2.175&lt;/em&gt; → &lt;code&gt;Apollod. 3.5.8|Hdt. 2.175&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: cella vuota → &lt;code&gt;NULL&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cho_sources_classic-24&#34;&gt;cho_sources_classic (2/4)&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;Standardizzare (vedi &lt;a href=&#34;https://www.perseus.tufts.edu/hopper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perseus&lt;/a&gt;):
 &lt;ul&gt;
 &lt;li&gt;Cerca la citazione su Perseus;&lt;/li&gt;
 &lt;li&gt;Scegli l&amp;rsquo;opzione più appropriata;&lt;/li&gt;
 &lt;li&gt;Sostituisci la citazione esistente nel dataset con l&amp;rsquo;opzione trovata:
 &lt;ul&gt;
-&lt;li&gt;Esempio: &amp;ldquo;Apollodoro, Biblioteca, II 5&amp;rdquo; → &lt;code&gt;Apollod. 2.5&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Esempio: &amp;ldquo;Omero, Odissea, XI vv.601-604&amp;rdquo; → &lt;code&gt;Hom. Od. 11.601&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Apollodoro, Biblioteca, II 5&lt;/em&gt; → &lt;code&gt;Apollod. 2.5&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Omero, Odissea, XI vv.601-604&lt;/em&gt; → &lt;code&gt;Hom. Od. 11.601-604&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.&lt;/em&gt; → &lt;code&gt;Hom. Od. 10-12&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Apollodorus, Epitome&lt;/em&gt; → &lt;code&gt;Apollod. Epit.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.&lt;/em&gt; → &lt;code&gt;Ov. Met. 15&lt;/code&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;altre-colonne&#34;&gt;Altre colonne&lt;/h2&gt;
+&lt;h3 id=&#34;cho_sources_classic-34&#34;&gt;cho_sources_classic (3/4)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con &lt;code&gt;|&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Le citazioni non canoniche vanno salvate così come sono in una colonna separata &lt;code&gt;cho_sources_other&lt;/code&gt;, sempre con &lt;code&gt;|&lt;/code&gt; come separatore, anche se non le trovate su Perseus;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.; Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.;&lt;/em&gt; → &lt;code&gt;Omero, Odýsseia, Lib. X - Lib. XII, VI secolo a.C.|Publio Ovidio Nasone, Metamorphoseon libri XV, Lib. XIV, fine VIII secolo d.C.&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Le citazioni consecutive (magari separate da una virgola, o uno spazio) vanno esplicitate separatamente;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Diod. 1.16, 4.61&lt;/em&gt; → &lt;code&gt;Diod. 1.16|Diod. 4.61&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Hes. Th. 304 327-335&lt;/em&gt; → &lt;code&gt;Hes. Th. 304|Hes. Th. 327-335&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cho_sources_classic-44&#34;&gt;cho_sources_classic (4/4)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Testo superfluo come &lt;em&gt;ss.&lt;/em&gt; va eliminato;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Hes. Theog. 288 ss.&lt;/em&gt; → &lt;code&gt;Hes. Th. 288&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Eneide II 594-620 &amp;ldquo;Figlio quale grande dolore suscita indomabili ire?&amp;rdquo; (trad. Luca Canali)&lt;/em&gt; → &lt;code&gt;Hom. Aen. 2.594-620&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Altre fonti su Enea: Omero, Iliade&lt;/em&gt; → &lt;code&gt;Hom. Il.&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Non dimenticare di eliminare eventuali spazi tra i numeri (sostituendoli ove necessario con un punto), oppure di aggiungerli se mancano tra i nomi e i numeri:
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;em&gt;Hes. Th.287-295&lt;/em&gt; → &lt;code&gt;Hes. Th. 287-295&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-colonne&#34;&gt;Altre colonne&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutte: normalizzare i valori NULL, correggere i refusi, sostituire i separatori con &lt;code&gt;|&lt;/code&gt;, fate attenzione agli spazi;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dcho_keyword&lt;/code&gt;: dividere, raggruppare, modificare (mantenere solo italiano);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cho_author&lt;/code&gt;: raggruppare, modificare, riconciliare con VIAF (&amp;ldquo;Person&amp;rdquo;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cho_period&lt;/code&gt;: raggruppare, modificare;&lt;/li&gt;
@@ -1003,17 +1063,17 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;&lt;code&gt;cho_location&lt;/code&gt;: raggruppare, modificare, riconciliare con VIAF (&amp;ldquo;Organization&amp;rdquo;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;conclusioni&#34;&gt;Conclusioni&lt;/h2&gt;
+&lt;h3 id=&#34;conclusioni&#34;&gt;Conclusioni&lt;/h3&gt;
 &lt;p&gt;Potete già fare molto per aumentare la qualità dei dati! Riassumendo:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Esplorate i dati utilizzando &lt;em&gt;facet&lt;/em&gt;, filtri e &lt;em&gt;sorting&lt;/em&gt;;&lt;/li&gt;
 &lt;li&gt;Trasformate i dati tramite: modifiche singole e di massa, raggruppamenti (&lt;em&gt;cluster&lt;/em&gt;), divisioni (&lt;em&gt;split&lt;/em&gt;) e sostituzioni;&lt;/li&gt;
-&lt;li&gt;Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente.&lt;/li&gt;
+&lt;li&gt;Riconciliate i dati con fonti esterne, quando possibile, automaticamente o manualmente;&lt;/li&gt;
+&lt;li&gt;Ricordate che potete sempre tornare indietro.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Provate! Ricordate che potete sempre tornare indietro.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;data-cleaning-nelle-scienze-umane-1&#34;&gt;Data Cleaning nelle Scienze Umane&lt;/h1&gt;
-&lt;h4 id=&#34;fine&#34;&gt;Fine&lt;/h4&gt;
+&lt;h2 id=&#34;fine&#34;&gt;Fine&lt;/h2&gt;
 &lt;p&gt;Sebastian Barzaghi |
 &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt; |
 &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |

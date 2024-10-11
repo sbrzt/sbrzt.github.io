@@ -16,14 +16,14 @@
 }
 
 .reveal section h1 ,
-.reveal section h2 {
+.reveal section h2 ,
+.reveal section h6 {
     text-align: center;
 }
 
 .reveal section h3 ,
 .reveal section h4 ,
 .reveal section h5 ,
-.reveal section h6 ,
 .reveal section p ,
 .reveal section ul ,
 .reveal section footer,
@@ -32,16 +32,24 @@
 }
 
 
+.reveal section h1 {
+    font-size: 55px;
+}
+
 .reveal section h2 {
-    font-size: 50px;
+    font-size: 45px;
+}
+
+.reveal section h3 {
+    font-size: 35px;
 }
 
 .reveal section p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .reveal section ul {
-    font-size: 30px;
+    font-size: 25px;
     left: 0;
 }
 
@@ -52,7 +60,7 @@
     background-color: #f1f1f1;
     padding: 10px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
 }
 
