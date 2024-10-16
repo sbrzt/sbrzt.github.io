@@ -1056,26 +1056,26 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;hr&gt;
 &lt;h3 id=&#34;outline&#34;&gt;Outline&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Concetti chiave
+&lt;li&gt;Concetti chiave&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;Dato&lt;/li&gt;
 &lt;li&gt;Modello (di dati)&lt;/li&gt;
 &lt;li&gt;FAIRness&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Casi di studio
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Casi di studio&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;Aldrovandi (Spoke 4)&lt;/li&gt;
 &lt;li&gt;SIRIUS (Spoke 6)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/data-intro.jpeg&#34;
+      data-background-image=&#34;img/data-intro.jpg&#34;
   
       
       class=&#34;section-slide&#34;
@@ -1083,8 +1083,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 
 &lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
 &lt;!--
-Batik pattern: Grompol - National Museum of World Cultures Foundation, Netherlands - CC0.
-https://www.europeana.eu/item/2048221/europeana_fashion_674256
+Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Greg Becker&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/body-of-water-under-clear-blue-sky-sYzFIusQp3Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
 &lt;section&gt;
@@ -1117,7 +1116,7 @@ https://www.europeana.eu/item/2048221/europeana_fashion_674256
     I processi della ricerca in ambito culturale sono ancora dominati da paradigmi tradizionali.
   &lt;/p&gt;
   &lt;p&gt;
-    I dati culturali sono raramente documentati e rappresentati in modo da facilitarne l&#39;integrazione, la comprensione e il riutilizzo da parte di altri agenti.
+    I dati culturali sono complessi e raramente documentati in modo da facilitarne l&#39;integrazione, la comprensione e il riutilizzo da parte di altri.
   &lt;/p&gt;
   &lt;div class=&#34;footer&#34;&gt;
     Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
@@ -1134,7 +1133,10 @@ https://www.europeana.eu/item/2048221/europeana_fashion_674256
       class=&#34;section-slide&#34;
   &gt;
 
-&lt;h2 id=&#34;modelli&#34;&gt;modelli&lt;/h2&gt;
+&lt;h2 id=&#34;semplifichiamo&#34;&gt;Semplifichiamo&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;section&gt;
   &lt;h3&gt;I dati sono rappresentati da modelli&lt;/h3&gt;
@@ -1143,7 +1145,7 @@ https://www.europeana.eu/item/2048221/europeana_fashion_674256
       &lt;figure&gt;
       &lt;img src=&#34;img/model.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &lt;/a&gt;.
+            Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science&lt;/a&gt;.
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
@@ -1166,7 +1168,7 @@ https://www.europeana.eu/item/2048221/europeana_fashion_674256
     I dati rappresentati da modelli uguali (o formalmente allineati) parlano la stessa lingua.
   &lt;/p&gt;
   &lt;p&gt;
-    Questo fatto è fondamentale per una gestione FAIR dei dati.
+    Questa rappresentazione è fondamentale per l&#39;apertura dei dati.
   &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -1200,9 +1202,6 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
         &lt;p&gt;
           La Scienza Aperta è un insieme di movimenti e pratiche che ha l&#39;obiettivo di rendere la conoscenza scientifica più trasparente, accessibile e riutilizzabile per tutti.
         &lt;/p&gt;
-        &lt;p&gt;
-          Non viene reinventata la ruota, diffusione più rapida delle idee, nuove collaborazioni, maggiore riconoscimento e feedback più informati.
-        &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;footer&#34;&gt;
@@ -1225,10 +1224,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
         Processo di trasformazione di dati non-FAIR in una loro versione FAIR.
       &lt;/p&gt;
       &lt;p&gt;
-        Le fasi centrali del processo sono dedicate alla definizione di un modello semantico e alla sua applicazione per collegare i dati tra loro e con altre fonti esterne.
+        Include la definizione di un modello semantico e la sua applicazione per collegare i dati tra loro.
       &lt;/p&gt;
       &lt;p&gt;
-        Per fare questo, si utilizzano tecnologie del Semantic Web e Linked Open Data.
+        Per fare questo, si utilizzano tecnologie legate al paradigma dei Linked Open Data.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1249,10 +1248,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        I Linked Open Data (LOD) sono dati semi-strutturati in grafi, pubblicati in formato aperto e descritti tramite modelli comuni. 
+        I Linked Open Data (LOD) sono dati semi-strutturati, pubblicati in formato aperto e descritti tramite modelli semantici. 
       &lt;/p&gt;
       &lt;p&gt;
-        Sono rappresentati tramite triple soggetto-predicato-oggetto su cui si basa RDF (Resource Description Framework) e in cui entità e relazioni sono espressi tramite URI (Uniform Resource Identifiers).
+        Sono rappresentati tramite triple soggetto-predicato-oggetto su cui si basa RDF (Resource Description Framework).
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1273,10 +1272,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        La digitalizzazione di una mostra temporanea ricca di miscellanea complessi, e la valorizzazione di dati di valutazione dei rischi a cui i beni culturali possono essere soggetti.
+        La digitalizzazione di una mostra temporanea, e la valorizzazione di dati di valutazione dei rischi in ambito culturale.
       &lt;/p&gt;
       &lt;p&gt;
-        In entrambi i casi, mi sono occupato dell&#39;analisi, definizione, sviluppo e implementazione di modello semantico alla base che &#34;FAIRifica&#34; dati esistenti.
+        Definizione, sviluppo e implementazione di un modello semantico che &#34;FAIRifica&#34; i dati esistenti.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1296,6 +1295,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
   &gt;
 
 &lt;h2 id=&#34;caso-1-il-rinascimento-digitale-di-ulisse-aldrovandi&#34;&gt;Caso 1: Il Rinascimento Digitale di Ulisse Aldrovandi&lt;/h2&gt;
+&lt;!--
+
+--&gt;
 &lt;hr&gt;
 &lt;section&gt;
   &lt;h3&gt;Digitalizzare una mostra temporanea&lt;/h3&gt;
@@ -1310,7 +1312,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Progetto pilota per raccogliere linee guida di acquisizione e digitalizzazione del patrimonio culturale da applicare ai casi core dello Spoke.
+        Progetto pilota per raccogliere linee guida di acquisizione e digitalizzazione del patrimonio culturale, da applicare ai casi core dello Spoke 4.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1539,12 +1541,21 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;/section&gt;
 &lt;section&gt;
   &lt;h3&gt;Risultati&lt;/h3&gt;
-  &lt;p&gt;
-    Un profilo applicativo totalmente documentato, estendibile, allineato a standard internazionali, e pubblicamente disponibile, per rappresentare oggetti culturali e il loro processo di digitalizzazione come dati interconnessi tra loro.
-  &lt;/p&gt;
-  &lt;p&gt;
-    Trattamento dei modelli 3D come veri e propri prodotti della ricerca.
-  &lt;/p&gt;
+  &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/aldrovandi-qr.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Un profilo applicativo totalmente documentato, estendibile, allineato a standard internazionali, e &lt;a href=&#34;https://github.com/dharc-org/chad-ap/tree/main&#34;&gt;pubblicamente disponibile&lt;/a&gt;, per rappresentare oggetti culturali e il loro processo di digitalizzazione.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Opportunità: trattamento dei modelli 3D come veri e propri dati della ricerca.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 
@@ -1575,7 +1586,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Progetto che punta all&#39;implementazione su scala locale di linee guida internazionali per la prevenzione di rischi di natura ambientale ed antropica che hanno un impatto sul patrimonio culturale.
+        Progetto che punta all&#39;implementazione su scala locale di linee guida internazionali per la prevenzione di rischi ambientali e antropici che impattano sul patrimonio culturale.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1596,7 +1607,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Processo scientifico complesso che coinvolge svariate attività di raccolta, analisi, valutazione e produzione di dati, i quali tendono ad essere sparsi, raramente accessibili, spesso non strutturati né interoperabili.
+        Processo scientifico complesso che coinvolge svariate attività di raccolta, analisi, valutazione e produzione di dati, spesso sparsi e non strutturati.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1669,12 +1680,21 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 &lt;/section&gt;
 &lt;section&gt;
   &lt;h3&gt;Risultati&lt;/h3&gt;
-  &lt;p&gt;
-    Un design pattern facilmente integrabile, estendibile, documentato su GitHub e archiviato ad ogni update su Zenodo, per rappresentare come dati interoperabili e riusabili le attività coivolte nella valutazione dei rischi a cui sono soggetti i beni culturali.
-  &lt;/p&gt;
-  &lt;p&gt;
-    Opportunità: pubblicazione di dati sparsi e ricchi di complessità e un loro riutilizzo per un impatto sulla comunità.
-  &lt;/p&gt;
+  &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/sirius-qr.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Un design pattern facilmente integrabile, estendibile, documentato su &lt;a href=&#34;https://github.com/sirius-org/hero&#34;&gt;GitHub&lt;/a&gt; e archiviato ad ogni update su &lt;a href=&#34;https://doi.org/10.5281/zenodo.13857430&#34;&gt;Zenodo&lt;/a&gt;, per rappresentare le attività coivolte nella valutazione dei rischi a cui sono soggetti i beni culturali.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Opportunità: pubblicazione di dati sparsi e ricchi di complessità e un loro riutilizzo per un impatto potenzialmente più significativo sulla comunità.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/section&gt;
 &lt;section&gt;
   &lt;h3&gt;Nel prossimo futuro&lt;/h3&gt;
@@ -1692,7 +1712,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
           Al momento stiamo sviluppando un&#39;applicazione Web per la visualizzazione interattiva dei dati.
         &lt;/p&gt;
         &lt;p&gt;
-          Un&#39;altra attività riguarderà lo sviluppo di (almeno) un vocabolario controllato multilingue in SKOS per definire una &#34;terminologia del rischio&#34; nel contesto dei beni culturali.
+          Un&#39;altra attività riguarderà lo sviluppo di (almeno) un vocabolario controllato per definire una &#34;terminologia del rischio&#34; per i beni culturali.
         &lt;/p&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -1713,10 +1733,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 &lt;section&gt;
   &lt;h3&gt;Dati + modelli + FAIRness = buona rappresentazione&lt;/h3&gt;
   &lt;p&gt;
-    Una rappresentazione FAIR dei dati attraverso modelli semantici adeguati è essenziale per la gestione del patrimonio culturale.
+    Una rappresentazione FAIR dei dati attraverso modelli semantici adeguati è essenziale per una gestione scientifica del patrimonio culturale.
   &lt;/p&gt;
   &lt;p&gt;
-    Se ben concertato, questo approccio garantisce l&#39;interoperabilità con altri dati e sistemi, oltre a favorire la riusabilità da parte di tutti: pubbliche amministrazioni, privati e cittadini.
+    Se ben concertato, questo approccio ha impatti significativi non solo sulla ricerca, ma anche sull&#39;industria e sulla cittadinanza.
   &lt;/p&gt;    
 &lt;/section&gt;
 &lt;section&gt;
@@ -1725,10 +1745,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     I modelli semantici non solo facilitano la comunicazione tra diversi dati e servizi, ma sono anche essenziali per documentarli e renderli più comprensibili.
   &lt;/p&gt;
   &lt;p&gt;
-    Le metodologie sono dati, quindi trattiamole come tali: come facciamo le cose è importante tanto quanto (o più de)le cose che facciamo!
+    Metadati e documentazione relativi ai processi e alle metodologie devono essere raccolti e valorizzati, soprattutto durante lo svolgimento del progetto.
   &lt;/p&gt;
   &lt;p&gt;
-    Metadati e documentazione relativi ai processi e alle metodologie devono essere raccolti e valorizzati, soprattutto durante lo svolgimento del progetto.
+    Le metodologie sono dati, quindi trattiamole come tali: come facciamo le cose è importante tanto quanto (o più de)le cose che facciamo!
   &lt;/p&gt;
 &lt;/section&gt;
 &lt;section&gt;
@@ -1919,62 +1939,62 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;ID&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Titolo&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Tematica&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Data&lt;/th&gt;
+          &lt;th&gt;ID&lt;/th&gt;
+          &lt;th&gt;Titolo&lt;/th&gt;
+          &lt;th&gt;Tipo&lt;/th&gt;
+          &lt;th&gt;Tematica&lt;/th&gt;
+          &lt;th&gt;Data&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;00&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Introduzione&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Corso&lt;/code&gt;, &lt;code&gt;Esame&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;07-11-2024&lt;/td&gt;
+          &lt;td&gt;00&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Introduzione&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Corso&lt;/code&gt;, &lt;code&gt;Esame&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;07-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;01&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;La grande sfida&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Open Science&lt;/code&gt;, &lt;code&gt;Dati&lt;/code&gt;, &lt;code&gt;Digital Humanities&lt;/code&gt;, &lt;code&gt;Data Management&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;07-11-2024&lt;/td&gt;
+          &lt;td&gt;01&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;La grande sfida&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Open Science&lt;/code&gt;, &lt;code&gt;Dati&lt;/code&gt;, &lt;code&gt;Digital Humanities&lt;/code&gt;, &lt;code&gt;Data Management&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;07-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;02&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Primi passi&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;18-11-2024&lt;/td&gt;
+          &lt;td&gt;02&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Primi passi&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;18-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;03&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;PLAN: pianificare&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;, &lt;code&gt;Case study&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;20-11-2024&lt;/td&gt;
+          &lt;td&gt;03&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;PLAN: pianificare&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;, &lt;code&gt;Case study&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;20-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;04&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Diario di bordo&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;21-11-2024&lt;/td&gt;
+          &lt;td&gt;04&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Diario di bordo&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;21-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;05&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;COLLECT: creare e raccogliere&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Raccolta e creazione dati&lt;/code&gt;, &lt;code&gt;Documentazione&lt;/code&gt;, &lt;code&gt;File system&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;25-11-2024&lt;/td&gt;
+          &lt;td&gt;05&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;COLLECT: creare e raccogliere&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Raccolta e creazione dati&lt;/code&gt;, &lt;code&gt;Documentazione&lt;/code&gt;, &lt;code&gt;File system&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;25-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;06&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Il biblioggetto&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;27-11-2024&lt;/td&gt;
+          &lt;td&gt;06&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Il biblioggetto&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;27-11-2024&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1982,76 +2002,76 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;ID&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Titolo&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Tematica&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Data&lt;/th&gt;
+          &lt;th&gt;ID&lt;/th&gt;
+          &lt;th&gt;Titolo&lt;/th&gt;
+          &lt;th&gt;Tipo&lt;/th&gt;
+          &lt;th&gt;Tematica&lt;/th&gt;
+          &lt;th&gt;Data&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;07&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;COLLECT: descrivere&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Modellazione dei dati&lt;/code&gt;, &lt;code&gt;Linked Open Data&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;28-11-2024&lt;/td&gt;
+          &lt;td&gt;07&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;COLLECT: descrivere&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Modellazione dei dati&lt;/code&gt;, &lt;code&gt;Linked Open Data&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;28-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;08&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Strutture nascoste&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;02-12-2024&lt;/td&gt;
+          &lt;td&gt;08&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Strutture nascoste&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;02-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;09&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;L&amp;rsquo;oltretesto&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Resource_Description_Framework&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RDF&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;04-12-2024&lt;/td&gt;
+          &lt;td&gt;09&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;L&amp;rsquo;oltretesto&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Resource_Description_Framework&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RDF&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;04-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;PROCESS: preparare ed elaborare&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Pulizia dei dati&lt;/code&gt;, &lt;code&gt;Qualità dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;05-12-2024&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;PROCESS: preparare ed elaborare&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Pulizia dei dati&lt;/code&gt;, &lt;code&gt;Qualità dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;05-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Metti la cera, togli la cera&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://openrefine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenRefine&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;09-12-2024&lt;/td&gt;
+          &lt;td&gt;11&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Metti la cera, togli la cera&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://openrefine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenRefine&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;09-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;ANALYZE: analizzare&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Analisi dei dati&lt;/code&gt;, &lt;code&gt;Visualizzazione dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;11-12-2024&lt;/td&gt;
+          &lt;td&gt;12&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;ANALYZE: analizzare&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Analisi dei dati&lt;/code&gt;, &lt;code&gt;Visualizzazione dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;11-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Tutto è rivelato&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voyant Tools&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;12-12-2024&lt;/td&gt;
+          &lt;td&gt;13&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Tutto è rivelato&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voyant Tools&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;12-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;SHARE: condividere e riutilizzare&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Teorica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Preservazione dei dati&lt;/code&gt;, &lt;code&gt;Citazione dei dati&lt;/code&gt;, &lt;code&gt;Pubblicazione dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;16-12-2024&lt;/td&gt;
+          &lt;td&gt;14&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;SHARE: condividere e riutilizzare&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Teorica&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Preservazione dei dati&lt;/code&gt;, &lt;code&gt;Citazione dei dati&lt;/code&gt;, &lt;code&gt;Pubblicazione dei dati&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;16-12-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;L&amp;rsquo;eredità di Alessandria&lt;/em&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Pratica&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;18-12-2024&lt;/td&gt;
+          &lt;td&gt;15&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;L&amp;rsquo;eredità di Alessandria&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;Pratica&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;18-12-2024&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

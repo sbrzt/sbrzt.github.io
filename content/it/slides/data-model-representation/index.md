@@ -21,12 +21,12 @@ slides:
 ### Outline
 
 1. Concetti chiave
-    * Dato
-    * Modello (di dati)
-    * FAIRness
+  * Dato
+  * Modello (di dati)
+  * FAIRness
 2. Casi di studio
-    * Aldrovandi (Spoke 4)
-    * SIRIUS (Spoke 6)
+  * Aldrovandi (Spoke 4)
+  * SIRIUS (Spoke 6)
 
 ---
 
@@ -97,7 +97,7 @@ Photo by <a href="https://unsplash.com/@spaceboy?utm_content=creditCopyText&utm_
       <figure>
       <img src="img/model.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. <a href="https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science ">https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science </a>.
+            Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. <a href="https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science ">https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science</a>.
         </figcaption>
       </figure>
     </div>
@@ -516,10 +516,10 @@ Photo by <a href="https://unsplash.com/@ilmissile?utm_content=creditCopyText&utm
     </div>
     <div style="flex: 1;">
       <p>
-        Un profilo applicativo totalmente documentato, estendibile, allineato a standard internazionali, e pubblicamente disponibile, per rappresentare oggetti culturali e il loro processo di digitalizzazione.
+        Un profilo applicativo totalmente documentato, estendibile, allineato a standard internazionali, e <a href="https://github.com/dharc-org/chad-ap/tree/main">pubblicamente disponibile</a>, per rappresentare oggetti culturali e il loro processo di digitalizzazione.
       </p>
       <p>
-        Opportunità: trattamento dei modelli 3D come veri e propri prodotti della ricerca.
+        Opportunità: trattamento dei modelli 3D come veri e propri dati della ricerca.
       </p>
     </div>
   </div>
@@ -625,7 +625,7 @@ Photo by <a href="https://unsplash.com/@joshuakettle?utm_content=creditCopyText&
     <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
       <p>
-      Durante un'attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l'1 aprile e l'1 maggio, Laura individua quanto segue: "Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l'intero valore del patrimonio per evento, con conseguente perdita parziale". Per trarre queste conclusioni, Laura usa come fonte il dataset "dati_alluvione_2011-2016.zip", e assegna una serie di punteggi che determinano il calcolo del rischio. 
+        Durante un'attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l'1 aprile e l'1 maggio, Laura individua quanto segue: "Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l'intero valore del patrimonio per evento, con conseguente perdita parziale". Per trarre queste conclusioni, Laura usa come fonte il dataset "dati_alluvione_2011-2016.zip", e assegna una serie di punteggi che determinano il calcolo del rischio. 
       </p>
     </div>
     <div style="flex: 1;">
@@ -638,7 +638,7 @@ Photo by <a href="https://unsplash.com/@joshuakettle?utm_content=creditCopyText&
     <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
       <p>
-      Durante un'attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l'1 aprile e l'1 maggio, Laura individua quanto segue: "Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l'intero valore del patrimonio per evento, con conseguente perdita parziale". Per trarre queste conclusioni, Laura usa come fonte il dataset "dati_alluvione_2011-2016.zip", e assegna una serie di punteggi che determinano il calcolo del rischio. 
+        Durante un'attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l'1 aprile e l'1 maggio, Laura individua quanto segue: "Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l'intero valore del patrimonio per evento, con conseguente perdita parziale". Per trarre queste conclusioni, Laura usa come fonte il dataset "dati_alluvione_2011-2016.zip", e assegna una serie di punteggi che determinano il calcolo del rischio. 
       </p>
     </div>
     <div style="flex: 1;">
@@ -651,12 +651,21 @@ Photo by <a href="https://unsplash.com/@joshuakettle?utm_content=creditCopyText&
 
 <section>
   <h3>Risultati</h3>
-  <p>
-    Un design pattern facilmente integrabile, estendibile, documentato su GitHub e archiviato ad ogni update su Zenodo, per rappresentare le attività coivolte nella valutazione dei rischi a cui sono soggetti i beni culturali.
-  </p>
-  <p>
-    Opportunità: pubblicazione di dati sparsi e ricchi di complessità e un loro riutilizzo per stimolare un impatto sulla comunità.
-  </p>
+  <div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <figure>
+        <img src="img/sirius-qr.png" height="auto" width="700"/>
+      </figure>
+    </div>
+    <div style="flex: 1;">
+      <p>
+        Un design pattern facilmente integrabile, estendibile, documentato su <a href="https://github.com/sirius-org/hero">GitHub</a> e archiviato ad ogni update su <a href="https://doi.org/10.5281/zenodo.13857430">Zenodo</a>, per rappresentare le attività coivolte nella valutazione dei rischi a cui sono soggetti i beni culturali.
+      </p>
+      <p>
+        Opportunità: pubblicazione di dati sparsi e ricchi di complessità e un loro riutilizzo per un impatto potenzialmente più significativo sulla comunità.
+      </p>
+    </div>
+  </div>
 </section>
 
 <section>
@@ -672,7 +681,7 @@ Photo by <a href="https://unsplash.com/@joshuakettle?utm_content=creditCopyText&
       </div>
       <div style="flex: 1;">
         <p>
-          Al momento stiamo sviluppando un'applicazione Web per la visualizzazione interattiva dei dati.
+          Al momento stiamo sviluppando un'applicazione Web per la visualizzazione interattiva dei dati e il monitoraggio di eventi di rischio.
         </p>
         <p>
           Un'altra attività riguarderà lo sviluppo di (almeno) un vocabolario controllato per definire una "terminologia del rischio" per i beni culturali.
@@ -692,10 +701,10 @@ Photo by <a href="https://unsplash.com/@joshuakettle?utm_content=creditCopyText&
 <section>
   <h3>Dati + modelli + FAIRness = buona rappresentazione</h3>
   <p>
-    Una rappresentazione FAIR dei dati attraverso modelli semantici adeguati è essenziale per la gestione del patrimonio culturale.
+    Una rappresentazione FAIR dei dati attraverso modelli semantici adeguati è essenziale per una gestione scientifica del patrimonio culturale.
   </p>
   <p>
-    Se ben concertato, questo approccio aumentia l'interoperabilità e la riusabilità dei dati.
+    Se ben concertato, questo approccio ha impatti significativi non solo sulla ricerca, ma anche sull'industria e sulla cittadinanza.
   </p>    
 </section>
 
