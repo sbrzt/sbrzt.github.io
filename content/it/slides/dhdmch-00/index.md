@@ -4,23 +4,22 @@ summary: Introduzione al corso di Digital Humanities e Data Management per i Ben
 authors: [Sebastian Barzaghi]
 tags: [Digital Humanities]
 categories: [Digital Humanities]
-date: '2022-12-31T00:00:00Z'
+date: '2023-11-07T00:00:00Z'
 slides:
   theme: white
   highlight_style: github-light
+
 ---
 
 # Introduzione
 
-#### Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
+## Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-Sebastian Barzaghi | 
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
 
 ---
 
-## Piacere!
+### Piacere!
 
 Ricercatore presso il Dipartimento di Beni Culturali dell'Università di Bologna.
 
@@ -28,147 +27,130 @@ Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digit
 
 Attualmente lavoro presso il laboratorio di ricerca [FrameLAB](https://framelab.unibo.it/) e collaboro con altre realtà (es. [DHARC](https://centri.unibo.it/dharc/en)).
 
-I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
+I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale
 
 ---
 
-## Cosa vi aspettate?
+### Cosa vi aspettate?
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
         <img src="qr-code.png" alt="QR code per accedere al modulo" style="max-width: 100%;">
     </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <p><a href="https://forms.gle/vDGQdFKu8JPKzMy26">https://forms.gle/vDGQdFKu8JPKzMy26</a></p>
+    <div style="flex: 1;">
+        <p><a href="https://forms.gle/RdBDcRJds7oeA6SU7">https://forms.gle/RdBDcRJds7oeA6SU7</a></p>
     </div>
 </div>
 
 ---
 
-## I vostri percorsi di studi
+### Qual è il tuo livello di familiarità con il concetto di "Digital Humanities"?
 
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858589267&amp;format=interactive"></iframe>
-
----
-
-## Cosa vi aspettate di imparare da questo corso?
-
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=2144929885&amp;format=interactive"></iframe>
-
----
-
-## Hai mai sentito parlare di "Open Science"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=190797982&amp;format=interactive"></iframe>
+      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=272791889&amp;format=interactive"></iframe>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
-      <p>La "Scienza Aperta" è una delle macro-tematiche che affronteremo per tutto il resto del corso.</p>
+    <div style="flex: 1;">
+      <p>Avendo a che fare con dati digitali e fonti umanistiche, le "Digital Humanities" sono il dominio entro il quale necessariamente ci muoviamo.</p>
+      <p>Definiamole il punto di incontro tra scienze informatiche e discipline umanistiche.</p>
     </div>
 </div>
 
 ---
 
-## Hai mai sentito parlare di "Open Science"?
+### Qual è il tuo livello di familiarità con il concetto di "Data Management"?
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=753366255&amp;format=interactive"></iframe>
+      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2092092195&amp;format=interactive"></iframe>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
+      <p>La gestione dei dati è il tema fondamentale che affronteremo e attorno al quale l'intero corso è organizzato.</p>
+      <p>Si tratta di un processo complesso che ci permette di rendere utili e utilizzabili ciò che chiamiamo "dati".</p>
+    </div>
+</div>
+
+---
+
+### Qual è il tuo livello di familiarità con il concetto di "Open Science"?
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=46492131&amp;format=interactive"></iframe>
+    </div>
+    <div style="flex: 1;">
+      <p>La "Scienza Aperta" è uno dei paradigmi che guideranno le attività che faremo per tutto il resto del corso.</p>
       <p>Per ora, limitiamoci a dire che si tratta di <a href="https://doi.org/10.5281/zenodo.2613332">"scienza fatta bene"</a>.</p>
     </div>
 </div>
 
 ---
 
-## Hai già sentito parlare di "Digital Humanities"?
+### Qual è il tuo livello di familiarità con il concetto di "Linked Open Data"?
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=627035098&amp;format=interactive"></iframe>
+      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=51082031&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-      <p>Le "Digital Humanities" costituiscono la cornice contenutistica e tecnologica delle lezioni che affronteremo.</p>
+      <p>
+        In stretta connessione con l'Open Science, i Linked Open Data rappresentano un altro paradigma che vede il dato come qualcosa di aperto e contestualizzato.
+      </p>
     </div>
 </div>
 
 ---
 
-## Hai già sentito parlare di "Digital Humanities"?
-<div style="display: flex; align-items: center;">
-    <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=480196988&amp;format=interactive"></iframe>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-      <p>Indica un punto di contatto tra le <strong>scienze informatiche</strong> e le <strong>discipline umanistiche e sociali</strong>.</p>
-    </div>
-</div>
+### Qual è il tuo percorso di studi (triennale)?
+
+<iframe width="279" height="173" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2053129753&amp;format=interactive"></iframe>
 
 ---
 
-## Hai già sentito parlare di "Data Management"?
-<div style="display: flex; align-items: center;">
-    <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=970674666&amp;format=interactive"></iframe>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-      <p>Il "Data Management" (o "gestione dei dati") è il processo che guiderà lo svolgimento e lo sviluppo del resto del corso.</p>
-    </div>
-</div>
+### Cosa ti ha spinto a iscriverti a questo corso?
+
+<iframe width="292" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2132516437&amp;format=interactive"></iframe>
 
 ---
 
-## Hai già sentito parlare di "Data Management"?
-<div style="display: flex; align-items: center;">
-    <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=692205796&amp;format=interactive"></iframe>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-      <p>Descrive un insieme di attività fondamentali per un corretto utilizzo dei dati.</p>
-    </div>
-</div>
+### Hai mai utilizzato strumenti digitali per analizzare o gestire dati rielativi ai beni culturali? Se sì, quali?
+
+<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=304991311&amp;format=interactive"></iframe>
 
 ---
 
-## Hai già sentito parlare di "Linked Open Data"?
-<div style="display: flex; align-items: center;">
-    <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=459400805&amp;format=interactive"></iframe>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <p>I "Linked Open Data" rappresentano una tematica particolare che affronteremo più avanti.</p>
-    </div>
-</div>
+### Quali competenze speri di acquisire attraverso questo corso?
+
+<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=1233206594&amp;format=interactive"></iframe>
 
 ---
 
-## Hai già sentito parlare di "Linked Open Data"?
-<div style="display: flex; align-items: center;">
-    <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1532986075&amp;format=interactive"></iframe>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <p>Si tratta di un paradigma fondamentale per assicurare la <strong>FAIRness</strong> dei dati (e non solo), e quindi la scientificità del nostro lavoro.</p>
-    </div>
-</div>
+### In che modo pensi che queste competenze possano essere utili nella tua futura carriera?
+
+<iframe width="292" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=1421132898&amp;format=interactive"></iframe>
 
 ---
 
-## Secondo te, cos'è un dato?
+### Hai delle aspettative specifiche riguardo al contenuto del corso?
 
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858491784&amp;format=interactive"></iframe>
+<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=614199924&amp;format=interactive"></iframe>
 
 ---
 
-## Informazioni preliminari
+### Se potessi approfondire un argomento specifico, quale sarebbe?
+
+<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=83530803&amp;format=interactive"></iframe>
+
+---
+
+### Informazioni preliminari
 
 **Obiettivi**: fornire competenze e strumenti pratici per l'ideazione, gestione e pubblicazione di risorse digitali riguardanti i beni culturali e basate su dati di ambito umanistico.
 
-**Temi**: Digital Humanities, Data management, Linked Open Data, Open Science, e molto altro.
+**Temi**: Digital Humanities, Data management, Linked Open Data, Open Science.
 
 **Risultati**: progetti _vostri_ che testimoniano le competenze acquisite.
 
 ---
 
-## Regole
+### Regole
 
 **Materiale integrativo, gratuito e accessibile**: i libri e gli articoli sono pensati per essere un accompagnamento alle lezioni e saranno resi disponibili sulla piattaforma istituzionale [Virtuale](https://virtuale.unibo.it/course/view.php?id=66104) e nella repository [GitHub](https://github.com/dhdmch/2024-2025).
 
@@ -178,17 +160,15 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 
 ---
 
-## Regole
+### Regole
 
-**Presenza fortemente consigliata**: per i non frequentanti ci sarà solo più materiale obbligatorio da studiare e probabilmente più difficoltà nello sviluppo del progetto.
-
-Frequentanti, non abbiate paura ad interagire e a fare domande.
+**Presenza non obbligatoria ma consigliata**: per i non frequentanti ci sarà solo più materiale obbligatorio da studiare. Frequentanti, non abbiate paura ad interagire e a fare domande.
 
 **Progetto finale**: vi verranno forniti dettagli più avanti, ma per il momento sappiate che la natura dell'esame _non_ sarà negoziabile.
 
 ---
 
-## Organizzazione del corso
+### Organizzazione del corso
 * **Quando**
   * [15 lezioni](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386/orariolezioni) (lunedì, mercoledì, giovedì)
   * 2 ore per lezione
@@ -205,7 +185,7 @@ Frequentanti, non abbiate paura ad interagire e a fare domande.
 
 ---
 
-## Organizzazione del corso
+### Organizzazione del corso
 | ID | Titolo | Tipo | Tematica | Data |
 |----|--------|------|----------|------|
 | 00 | _Introduzione_ | Teorica | `Corso`, `Esame` | 07-11-2024 |
@@ -232,23 +212,23 @@ Frequentanti, non abbiate paura ad interagire e a fare domande.
 
 ---
 
-## Esame
+### Esame
 Un progetto di _gestione dei dati_ correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).
 
-Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nel repository GitHub.
+Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.
 
-Gli studenti potranno lavorare al progetto individualmente o in gruppo (massimo 3 persone).
+Gli studenti potranno lavorare al progetto individualmente o in gruppo (da definire).
 
 ---
 
-## Preparazione all'esame
+### Preparazione all'esame
 Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode).
 
 Nelle sessioni pratiche, lavoreremo assieme su un _caso di studio_ di gestione dei dati in cui vi aiuterò attivamente, per farvi sperimentare con gli strumenti e i metodi presentati a lezione.
 
 ---
 
-## Valutazione
+### Valutazione
 Il contributo personale di ciascuna persona e la conoscenza degli argomenti del corso saranno valutati durante il colloquio orale:
 
 * <50% (valutazione insufficiente): preparazione non adeguata in nessun aspetto del progetto;
@@ -258,17 +238,19 @@ Il contributo personale di ciascuna persona e la conoscenza degli argomenti del 
 
 ---
 
-## Valutazione
+### Valutazione
 Ad un certo punto, anche voi dovrete valutare me!
+
+Il questionario di valutaizone è **davvero molto importante**, quindi insisterò molto a tempo debito sulla sua compilazione da parte vostra.
 
 Vi prego di essere quanto più correttti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no.
 
 ---
 
-## Raccomandazioni finali
+### Raccomandazioni finali
 Affrontare cose nuove è sempre difficile, quindi non preoccupatevi se il corso può sembrare complicato: lo è!
 
-Però, è pensato per essere accessibile a studenti non avvezzi a questo tipo di tematiche e ai non addetti ai lavori (per questo motivo, una vostra valutazione onesta è assolutamente fondamentale).
+Però, è pensato per essere accessibile a studenti non abituati a questo tipo di tematiche (per questo motivo, una vostra valutazione onesta è assolutamente fondamentale).
 
 Se fatte in buona fede, non esistono domande stupide.
 
@@ -278,8 +260,6 @@ Nel dubbio, chiedete sempre (dal vivo o per mail). A seconda della domanda, potr
 
 # Fine
 
-#### Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
+## Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-Sebastian Barzaghi | 
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)

@@ -1656,7 +1656,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Durante un&#39;attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l&#39;1 aprile e l&#39;1 maggio, Laura individua quanto segue: &#34;Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l&#39;intero valore del patrimonio per evento, con conseguente perdita parziale&#34;. Per trarre queste conclusioni, Laura usa come fonte il dataset &#34;dati_alluvione_2011-2016.zip&#34;, e assegna una serie di punteggi che determinano il calcolo del rischio. 
+        Durante un&#39;attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l&#39;1 aprile e l&#39;1 maggio, Laura individua quanto segue: &#34;Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l&#39;intero valore del patrimonio per evento, con conseguente perdita parziale&#34;. Per trarre queste conclusioni, Laura usa come fonte il dataset &#34;dati_alluvione_2011-2016.zip&#34;, e assegna una serie di punteggi che determinano il calcolo del rischio. 
       &lt;/p&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -1668,7 +1668,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Durante un&#39;attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l&#39;1 aprile e l&#39;1 maggio, Laura individua quanto segue: &#34;Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l&#39;intero valore del patrimonio per evento, con conseguente perdita parziale&#34;. Per trarre queste conclusioni, Laura usa come fonte il dataset &#34;dati_alluvione_2011-2016.zip&#34;, e assegna una serie di punteggi che determinano il calcolo del rischio. 
+        Durante un&#39;attività di analisi dei rischi che interessano il Battistero degli Ariani, condotta tra l&#39;1 aprile e l&#39;1 maggio, Laura individua quanto segue: &#34;Un evento di alluvione è previsto nel battistero circa una volta ogni 25 anni, colpendo molto probabilmente l&#39;intero valore del patrimonio per evento, con conseguente perdita parziale&#34;. Per trarre queste conclusioni, Laura usa come fonte il dataset &#34;dati_alluvione_2011-2016.zip&#34;, e assegna una serie di punteggi che determinano il calcolo del rischio. 
       &lt;/p&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -1709,7 +1709,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
       &lt;/div&gt;
       &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;p&gt;
-          Al momento stiamo sviluppando un&#39;applicazione Web per la visualizzazione interattiva dei dati.
+          Al momento stiamo sviluppando un&#39;applicazione Web per la visualizzazione interattiva dei dati e il monitoraggio di eventi di rischio.
         &lt;/p&gt;
         &lt;p&gt;
           Un&#39;altra attività riguarderà lo sviluppo di (almeno) un vocabolario controllato per definire una &#34;terminologia del rischio&#34; per i beni culturali.
@@ -1778,350 +1778,13 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     </item>
     
     <item>
-      <title>DHDMCH - Introduzione</title>
-      <link>http://localhost:1313/it/slides/dhdmch-00/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/slides/dhdmch-00/</guid>
-      <description>&lt;h1 id=&#34;introduzione&#34;&gt;Introduzione&lt;/h1&gt;
-&lt;h4 id=&#34;lezione-00-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 00 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
-&lt;p&gt;Sebastian Barzaghi |
-&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;piacere&#34;&gt;Piacere!&lt;/h2&gt;
-&lt;p&gt;Ricercatore presso il Dipartimento di Beni Culturali dell&amp;rsquo;Università di Bologna.&lt;/p&gt;
-&lt;p&gt;Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (&lt;a href=&#34;https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DHDK&lt;/a&gt;) presso l&amp;rsquo;Università di Bologna.&lt;/p&gt;
-&lt;p&gt;Attualmente lavoro presso il laboratorio di ricerca &lt;a href=&#34;https://framelab.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FrameLAB&lt;/a&gt; e collaboro con altre realtà (es. &lt;a href=&#34;https://centri.unibo.it/dharc/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DHARC&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;I miei interessi si concentrano sullo studio e l&amp;rsquo;implementazione di strumenti e metodologie basate sui &lt;strong&gt;Linked Open Data&lt;/strong&gt; e l&amp;rsquo;&lt;strong&gt;Open Science&lt;/strong&gt; per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;cosa-vi-aspettate&#34;&gt;Cosa vi aspettate?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;qr-code.png&#34; alt=&#34;QR code per accedere al modulo&#34; style=&#34;max-width: 100%;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;&lt;a href=&#34;https://forms.gle/vDGQdFKu8JPKzMy26&#34;&gt;https://forms.gle/vDGQdFKu8JPKzMy26&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;i-vostri-percorsi-di-studi&#34;&gt;I vostri percorsi di studi&lt;/h2&gt;
-&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858589267&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;cosa-vi-aspettate-di-imparare-da-questo-corso&#34;&gt;Cosa vi aspettate di imparare da questo corso?&lt;/h2&gt;
-&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=2144929885&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-mai-sentito-parlare-di-open-science&#34;&gt;Hai mai sentito parlare di &amp;ldquo;Open Science&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=190797982&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;La &#34;Scienza Aperta&#34; è una delle macro-tematiche che affronteremo per tutto il resto del corso.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-mai-sentito-parlare-di-open-science-1&#34;&gt;Hai mai sentito parlare di &amp;ldquo;Open Science&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=753366255&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;Per ora, limitiamoci a dire che si tratta di &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;&#34;scienza fatta bene&#34;&lt;/a&gt;.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-digital-humanities&#34;&gt;Hai già sentito parlare di &amp;ldquo;Digital Humanities&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=627035098&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;Le &#34;Digital Humanities&#34; costituiscono la cornice contenutistica e tecnologica delle lezioni che affronteremo.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-digital-humanities-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Digital Humanities&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=480196988&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;Indica un punto di contatto tra le &lt;strong&gt;scienze informatiche&lt;/strong&gt; e le &lt;strong&gt;discipline umanistiche e sociali&lt;/strong&gt;.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-data-management&#34;&gt;Hai già sentito parlare di &amp;ldquo;Data Management&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=970674666&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;Il &#34;Data Management&#34; (o &#34;gestione dei dati&#34;) è il processo che guiderà lo svolgimento e lo sviluppo del resto del corso.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-data-management-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Data Management&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=692205796&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;Descrive un insieme di attività fondamentali per un corretto utilizzo dei dati.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-linked-open-data&#34;&gt;Hai già sentito parlare di &amp;ldquo;Linked Open Data&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=459400805&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;I &#34;Linked Open Data&#34; rappresentano una tematica particolare che affronteremo più avanti.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;hai-già-sentito-parlare-di-linked-open-data-1&#34;&gt;Hai già sentito parlare di &amp;ldquo;Linked Open Data&amp;rdquo;?&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1532986075&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;Si tratta di un paradigma fondamentale per assicurare la &lt;strong&gt;FAIRness&lt;/strong&gt; dei dati (e non solo), e quindi la scientificità del nostro lavoro.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;secondo-te-cosè-un-dato&#34;&gt;Secondo te, cos&amp;rsquo;è un dato?&lt;/h2&gt;
-&lt;iframe width=&#34;600&#34; height=&#34;371&#34; seamless frameborder=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vSQzfN3H9txBTzvvyletE4QjZanCfFjnMCjKpeuERBL8yYWooBhjjIqb1rZVv2IgT2aW2TLdYA8M_tG/pubchart?oid=1858491784&amp;amp;format=interactive&#34;&gt;&lt;/iframe&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;informazioni-preliminari&#34;&gt;Informazioni preliminari&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Obiettivi&lt;/strong&gt;: fornire competenze e strumenti pratici per l&amp;rsquo;ideazione, gestione e pubblicazione di risorse digitali riguardanti i beni culturali e basate su dati di ambito umanistico.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Temi&lt;/strong&gt;: Digital Humanities, Data management, Linked Open Data, Open Science, e molto altro.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Risultati&lt;/strong&gt;: progetti &lt;em&gt;vostri&lt;/em&gt; che testimoniano le competenze acquisite.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;regole&#34;&gt;Regole&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Materiale integrativo, gratuito e accessibile&lt;/strong&gt;: i libri e gli articoli sono pensati per essere un accompagnamento alle lezioni e saranno resi disponibili sulla piattaforma istituzionale &lt;a href=&#34;https://virtuale.unibo.it/course/view.php?id=66104&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtuale&lt;/a&gt; e nella repository &lt;a href=&#34;https://github.com/dhdmch/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;footer&#34;&gt;
-  Spesso in una slide troverete un riquadro di questo tipo, contenente la fonte bibliografica (liberamente accessibile) da cui ho tratto il contenuto della slide. Consideratela parte facoltativa del materiale integrativo, da leggere secondo il vostro interesse.
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;regole-1&#34;&gt;Regole&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Presenza fortemente consigliata&lt;/strong&gt;: per i non frequentanti ci sarà solo più materiale obbligatorio da studiare e probabilmente più difficoltà nello sviluppo del progetto.&lt;/p&gt;
-&lt;p&gt;Frequentanti, non abbiate paura ad interagire e a fare domande.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Progetto finale&lt;/strong&gt;: vi verranno forniti dettagli più avanti, ma per il momento sappiate che la natura dell&amp;rsquo;esame &lt;em&gt;non&lt;/em&gt; sarà negoziabile.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;organizzazione-del-corso&#34;&gt;Organizzazione del corso&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386/orariolezioni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;15 lezioni&lt;/a&gt; (lunedì, mercoledì, giovedì)&lt;/li&gt;
-&lt;li&gt;2 ore per lezione&lt;/li&gt;
-&lt;li&gt;Circa 7 moduli&lt;/li&gt;
-&lt;li&gt;Sessione teorica e pratica per ogni modulo&lt;/li&gt;
-&lt;li&gt;1 pausa di 10 minuti (concordiamo su quando)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Lunedì: Aula 2&lt;/li&gt;
-&lt;li&gt;Mercoledì e giovedì: Laboratorio informatico&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Come&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dhdmch/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://virtuale.unibo.it/course/view.php?id=66104&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtuale&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhNZP7JyGstEvrgE_PGMgJ0BqGsfnUiMG7otV3TfPaIzkQ?e=Icg7zc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Registrazioni&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;organizzazione-del-corso-1&#34;&gt;Organizzazione del corso&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;ID&lt;/th&gt;
-          &lt;th&gt;Titolo&lt;/th&gt;
-          &lt;th&gt;Tipo&lt;/th&gt;
-          &lt;th&gt;Tematica&lt;/th&gt;
-          &lt;th&gt;Data&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;00&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Introduzione&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Corso&lt;/code&gt;, &lt;code&gt;Esame&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;07-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;01&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;La grande sfida&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Open Science&lt;/code&gt;, &lt;code&gt;Dati&lt;/code&gt;, &lt;code&gt;Digital Humanities&lt;/code&gt;, &lt;code&gt;Data Management&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;07-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;02&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Primi passi&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;18-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;03&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;PLAN: pianificare&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;, &lt;code&gt;Case study&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;20-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;04&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Diario di bordo&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;21-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;05&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;COLLECT: creare e raccogliere&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Raccolta e creazione dati&lt;/code&gt;, &lt;code&gt;Documentazione&lt;/code&gt;, &lt;code&gt;File system&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;25-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;06&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Il biblioggetto&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;27-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;ID&lt;/th&gt;
-          &lt;th&gt;Titolo&lt;/th&gt;
-          &lt;th&gt;Tipo&lt;/th&gt;
-          &lt;th&gt;Tematica&lt;/th&gt;
-          &lt;th&gt;Data&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;07&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;COLLECT: descrivere&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Modellazione dei dati&lt;/code&gt;, &lt;code&gt;Linked Open Data&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;28-11-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;08&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Strutture nascoste&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;02-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;09&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;L&amp;rsquo;oltretesto&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Resource_Description_Framework&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RDF&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;04-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;10&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;PROCESS: preparare ed elaborare&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Pulizia dei dati&lt;/code&gt;, &lt;code&gt;Qualità dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;05-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;11&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Metti la cera, togli la cera&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://openrefine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenRefine&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;09-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;12&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;ANALYZE: analizzare&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Analisi dei dati&lt;/code&gt;, &lt;code&gt;Visualizzazione dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;11-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;13&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Tutto è rivelato&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voyant Tools&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;12-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;14&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;SHARE: condividere e riutilizzare&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Preservazione dei dati&lt;/code&gt;, &lt;code&gt;Citazione dei dati&lt;/code&gt;, &lt;code&gt;Pubblicazione dei dati&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;16-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;15&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;L&amp;rsquo;eredità di Alessandria&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;Pratica&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;18-12-2024&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;esame&#34;&gt;Esame&lt;/h2&gt;
-&lt;p&gt;Un progetto di &lt;em&gt;gestione dei dati&lt;/em&gt; correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).&lt;/p&gt;
-&lt;p&gt;Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nel repository GitHub.&lt;/p&gt;
-&lt;p&gt;Gli studenti potranno lavorare al progetto individualmente o in gruppo (massimo 3 persone).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;preparazione-allesame&#34;&gt;Preparazione all&amp;rsquo;esame&lt;/h2&gt;
-&lt;p&gt;Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode).&lt;/p&gt;
-&lt;p&gt;Nelle sessioni pratiche, lavoreremo assieme su un &lt;em&gt;caso di studio&lt;/em&gt; di gestione dei dati in cui vi aiuterò attivamente, per farvi sperimentare con gli strumenti e i metodi presentati a lezione.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;valutazione&#34;&gt;Valutazione&lt;/h2&gt;
-&lt;p&gt;Il contributo personale di ciascuna persona e la conoscenza degli argomenti del corso saranno valutati durante il colloquio orale:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;50% (valutazione insufficiente): preparazione non adeguata in nessun aspetto del progetto;&lt;/li&gt;
-&lt;li&gt;51-70% (valutazione sufficiente): tra 18/30 e 23/30;&lt;/li&gt;
-&lt;li&gt;71-90% (valutazione positiva): tra 24/30 e 27/30;&lt;/li&gt;
-&lt;li&gt;91-100% (valutazione eccellente): tra 28/30 e 30/30.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;valutazione-1&#34;&gt;Valutazione&lt;/h2&gt;
-&lt;p&gt;Ad un certo punto, anche voi dovrete valutare me!&lt;/p&gt;
-&lt;p&gt;Vi prego di essere quanto più correttti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;raccomandazioni-finali&#34;&gt;Raccomandazioni finali&lt;/h2&gt;
-&lt;p&gt;Affrontare cose nuove è sempre difficile, quindi non preoccupatevi se il corso può sembrare complicato: lo è!&lt;/p&gt;
-&lt;p&gt;Però, è pensato per essere accessibile a studenti non avvezzi a questo tipo di tematiche e ai non addetti ai lavori (per questo motivo, una vostra valutazione onesta è assolutamente fondamentale).&lt;/p&gt;
-&lt;p&gt;Se fatte in buona fede, non esistono domande stupide.&lt;/p&gt;
-&lt;p&gt;Nel dubbio, chiedete sempre (dal vivo o per mail). A seconda della domanda, potrei aver bisogno di tempo per darvi una risposta sensata, quindi - nel caso - abbiate un po&amp;rsquo; di pazienza!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
-&lt;h4 id=&#34;lezione-00-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 00 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
-&lt;p&gt;Sebastian Barzaghi |
-&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>DHDMCH - La grande sfida</title>
       <link>http://localhost:1313/it/slides/dhdmch-01/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/dhdmch-01/</guid>
       <description>&lt;h1 id=&#34;la-grande-sfida&#34;&gt;La grande sfida&lt;/h1&gt;
-&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
-&lt;p&gt;Sebastian Barzaghi |
-&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2135,14 +1798,14 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 
 &lt;h2 id=&#34;partiamo-dalla-scienza&#34;&gt;Partiamo dalla scienza&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosa-intendiamo-con-_scienza_&#34;&gt;Cosa intendiamo con &lt;em&gt;scienza&lt;/em&gt;?&lt;/h2&gt;
+&lt;h3 id=&#34;cosa-intendiamo-con-_scienza_&#34;&gt;Cosa intendiamo con &lt;em&gt;scienza&lt;/em&gt;?&lt;/h3&gt;
 &lt;p&gt;Da &lt;em&gt;scientia&lt;/em&gt; (conoscenza): conoscenza acquisita attraverso lo studio o la pratica; padronanza di una disciplina o area particolare.&lt;/p&gt;
 &lt;p&gt;La scienza è il processo organizzato attraverso il quale l&amp;rsquo;umanità cerca di scoprire e comprendere i fenomeni naturali, sociali e culturali, convalidando le scoperte attraverso la condivisione dei dati e la revisione tra pari, al fine di utilizzare tale conoscenza a proprio vantaggio.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Möller, L. (2023). UNESCO Recommendation on Open Science. In 66. Helmholtz Open Science online seminar. &lt;a href=&#34;https://unesdoc.unesco.org/ark:/48223/pf0000379949&#34;&gt;https://unesdoc.unesco.org/ark:/48223/pf0000379949&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosè-la-scienza-aperta&#34;&gt;Cos&amp;rsquo;è la Scienza Aperta?&lt;/h2&gt;
+&lt;h3 id=&#34;cosè-la-scienza-aperta&#34;&gt;Cos&amp;rsquo;è la Scienza Aperta?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
@@ -2162,7 +1825,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   UNESCO (2021). UNESCO Recommendation on Open Science. &lt;a href=&#34;https://doi.org/10.54677/MNMH8546&#34;&gt;https://doi.org/10.54677/MNMH8546&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;perché-la-scienza-aperta&#34;&gt;Perché la Scienza Aperta?&lt;/h2&gt;
+&lt;h3 id=&#34;perché-la-scienza-aperta&#34;&gt;Perché la Scienza Aperta?&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Argomento scientifico&lt;/strong&gt;: maggiore riproducibilità dei risultati della ricerca; maggiore trasparenza dei metodi di ricerca e valutazione.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Argomento sociologico&lt;/strong&gt;: la conoscenza scientifica è un prodotto di collaborazione sociale e quindi appartiene alla comunità.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Argomento utilitaristico&lt;/strong&gt;: più citazioni; più attenzione mediatica; più possibilità di collaborazioni e opportunità di lavoro e finanziamento; più risparmio di tempo e denaro; requisiti dei finanziatori a livello nazionale e internazionale.&lt;/p&gt;
@@ -2170,7 +1833,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;ok-ma-concretamente-di-_cosa_-si-tratta&#34;&gt;OK, ma concretamente di &lt;em&gt;cosa&lt;/em&gt; si tratta?&lt;/h2&gt;
+&lt;h3 id=&#34;ok-ma-concretamente-di-_cosa_-si-tratta&#34;&gt;OK, ma concretamente di &lt;em&gt;cosa&lt;/em&gt; si tratta?&lt;/h3&gt;
 &lt;p&gt;In breve, è la creazione e condivisione di &lt;strong&gt;dati aperti&lt;/strong&gt;, cioé dati liberamente disponibili per l&amp;rsquo;accesso e il (ri)utilizzo.&lt;/p&gt;
 &lt;p&gt;Ideale: dati senza restrizioni da copyright, brevetti o altri meccanismi di controllo.&lt;/p&gt;
 &lt;p&gt;Realtà: &lt;a href=&#34;https://rea.ec.europa.eu/open-science_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;as open as possible, as closed as necessary&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -2190,7 +1853,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 
 &lt;h2 id=&#34;la-situazione-dei-dati&#34;&gt;La situazione dei dati&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosa-sono-i-dati&#34;&gt;Cosa sono i dati?&lt;/h2&gt;
+&lt;h3 id=&#34;cosa-sono-i-dati&#34;&gt;Cosa sono i dati?&lt;/h3&gt;
 &lt;p&gt;Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analisi, quanto come prodotti del processo stesso di ricerca.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I dati sono record fattuali raccolti, generati o riutilizzati nella pratica di ricerca, come base di analisi, ragionamenti, discussioni o calcoli.&lt;/p&gt;
@@ -2199,7 +1862,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   OECD (2007), OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-dati-sono-una-categoria-relazionale&#34;&gt;I dati sono una categoria relazionale&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-sono-una-categoria-relazionale&#34;&gt;I dati sono una categoria relazionale&lt;/h3&gt;
 &lt;p&gt;Ciò che è considerabile &amp;ldquo;dato&amp;rdquo; dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
 &lt;p&gt;Percepire, osservare, raccogliere dati sono tutti atti interpretativi, in un contesto che dà forma ai dati e ne definisce i limiti.&lt;/p&gt;
 &lt;p&gt;Possono essere digitali o analogici, qualitativi o quantitativi, creati da macchine o da esseri umani, estremamente strutturati o completamente non-strutturati.&lt;/p&gt;
@@ -2207,7 +1870,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of Chicago Press. &lt;a href=&#34;https://doi.org/10.7208/chicago/9780226416502.001.0001&#34;&gt;https://doi.org/10.7208/chicago/9780226416502.001.0001&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-dati-sono-raccolti-in-dataset&#34;&gt;I dati sono raccolti in dataset&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-sono-raccolti-in-dataset&#34;&gt;I dati sono raccolti in dataset&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Una raccolta di dati organizzati in modo ordinato e strutturati secondo criteri precisi.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2217,21 +1880,21 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Ciston, S., &amp; Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;non-è-facile-parlare-di-dati-nelle-discipline-umanistiche&#34;&gt;Non è facile parlare di dati nelle discipline umanistiche&lt;/h2&gt;
+&lt;h3 id=&#34;non-è-facile-parlare-di-dati-nelle-discipline-umanistiche&#34;&gt;Non è facile parlare di dati nelle discipline umanistiche&lt;/h3&gt;
 &lt;p&gt;Non c&amp;rsquo;è consenso su che cosa siano i &amp;ldquo;dati&amp;rdquo; nelle discipline umanistiche.&lt;/p&gt;
 &lt;p&gt;Il termine stesso &amp;ldquo;discipline umanistiche&amp;rdquo; è ampio e racchiude in sé domini di conoscenza estremamente diversi.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;anche-gli-umanisti-usano-e-producono-dati&#34;&gt;Anche gli umanisti usano e producono dati&lt;/h2&gt;
+&lt;h3 id=&#34;anche-gli-umanisti-usano-e-producono-dati&#34;&gt;Anche gli umanisti usano e producono dati&lt;/h3&gt;
 &lt;p&gt;Ogni tipo di ricerca produce o riusa dei dati, anche se magari il termine &amp;ldquo;dato&amp;rdquo; non viene utilizzato in certi contesti.&lt;/p&gt;
 &lt;p&gt;Esempio: un qualsiasi ricercatore utilizza delle fonti (primarie o secondarie) per rispondere alle proprie domande di ricerca, e così facendo produce &lt;em&gt;almeno&lt;/em&gt; una bibliografia.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;ma-quindi-_cosa_-sono-questi-dati&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h2&gt;
+&lt;h3 id=&#34;ma-quindi-_cosa_-sono-questi-dati&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;figure&gt;
@@ -2250,7 +1913,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;ma-quindi-_cosa_-sono-questi-dati-1&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h2&gt;
+&lt;h3 id=&#34;ma-quindi-_cosa_-sono-questi-dati-1&#34;&gt;Ma quindi, &lt;em&gt;cosa&lt;/em&gt; sono questi &amp;ldquo;dati&amp;rdquo;?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;figure&gt;
@@ -2268,7 +1931,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-umanistici-sono-sfidanti&#34;&gt;I dati umanistici sono sfidanti&lt;/h3&gt;
 &lt;p&gt;Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.&lt;/p&gt;
 &lt;p&gt;I sistemi semiotici delle discipline umanistiche tendono ad essere specifici e individualistici.&lt;/p&gt;
 &lt;p&gt;Le metodologie di ricerca tendono ad essere implicite, date per scontate.&lt;/p&gt;
@@ -2276,21 +1939,21 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti-1&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-umanistici-sono-sfidanti-1&#34;&gt;I dati umanistici sono sfidanti&lt;/h3&gt;
 &lt;p&gt;I processi della ricerca umanistica sono ancora dominati da paradigmi tradizionali (poche fonti concentrate, analisi manuali che vanno nel dettaglio, maggiore importanza all&amp;rsquo;&lt;em&gt;unico&lt;/em&gt; e all&amp;rsquo;&lt;em&gt;eccezione&lt;/em&gt;).&lt;/p&gt;
 &lt;p&gt;La ricerca umanistica dipende generalmente da una &lt;em&gt;stratificazione densa&lt;/em&gt; di interpretazioni e commenti.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-dati-umanistici-sono-sfidanti-2&#34;&gt;I dati umanistici sono sfidanti&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-umanistici-sono-sfidanti-2&#34;&gt;I dati umanistici sono sfidanti&lt;/h3&gt;
 &lt;p&gt;I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.&lt;/p&gt;
 &lt;p&gt;La ricerca umanistica è raramente documentata, standardizzata e strutturata nell&amp;rsquo;ottica dell&amp;rsquo;accesso e riutilizzo da parte di &lt;em&gt;altri&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;umanisti-lenti-o-ostili-verso-la-scienza-aperta&#34;&gt;Umanisti lenti o ostili verso la Scienza Aperta?&lt;/h2&gt;
+&lt;h3 id=&#34;umanisti-lenti-o-ostili-verso-la-scienza-aperta&#34;&gt;Umanisti lenti o ostili verso la Scienza Aperta?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Valori e metodi percepiti come contrastanti;&lt;/li&gt;
 &lt;li&gt;Paura di danneggiare la propria carriera;&lt;/li&gt;
@@ -2302,7 +1965,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;ma-esistono-anche-forti-incentivi&#34;&gt;Ma esistono anche forti incentivi!&lt;/h2&gt;
+&lt;h3 id=&#34;ma-esistono-anche-forti-incentivi&#34;&gt;Ma esistono anche forti incentivi!&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Nuove prospettive di ricerca;&lt;/li&gt;
 &lt;li&gt;Pubblicazione e diffusione della ricerca;&lt;/li&gt;
@@ -2313,7 +1976,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;scienza-aperta-per-umanisti-perché&#34;&gt;Scienza Aperta per umanisti: perché?&lt;/h2&gt;
+&lt;h3 id=&#34;scienza-aperta-per-umanisti-perché&#34;&gt;Scienza Aperta per umanisti: perché?&lt;/h3&gt;
 &lt;p&gt;Anche solo piccoli cambiamenti nel flusso di lavoro, come l&amp;rsquo;adozione di &lt;a href=&#34;https://orcid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ORCID&lt;/a&gt; e l&amp;rsquo;uso di strumenti come &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, possono fare una grande differenza.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Un migliore accesso ai materiali rari;&lt;/li&gt;
@@ -2324,7 +1987,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   Edmond, J., &amp; Tóth-Czifra, E. (2018). Open data for humanists, a pragmatic guide. &lt;a href=&#34;https://shs.hal.science/halshs-02115443&#34;&gt;https://shs.hal.science/halshs-02115443&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;il-ruolo-fondamentale-del-digitale&#34;&gt;Il ruolo fondamentale del digitale&lt;/h2&gt;
+&lt;h3 id=&#34;il-ruolo-fondamentale-del-digitale&#34;&gt;Il ruolo fondamentale del digitale&lt;/h3&gt;
 &lt;p&gt;Le tecnologie digitali forniscono l&amp;rsquo;importante opportunità all&amp;rsquo;Open Science di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica acceessibili e trasparenti.&lt;/p&gt;
 &lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali nelle discipline umanistiche è spesso chiamato &lt;strong&gt;Digital Humanities&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -2343,14 +2006,15 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 
 &lt;h2 id=&#34;un-nuovo-paradigma&#34;&gt;Un &amp;ldquo;nuovo&amp;rdquo; paradigma&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h2&gt;
+&lt;h3 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h3&gt;
 &lt;p&gt;Il termine &lt;em&gt;Digital Humanities&lt;/em&gt; (DH) descrive contemporaneamente una comunità, un insieme di metodi e di strumenti, un cambio di paradigma, un campo di ricerca.&lt;/p&gt;
 &lt;p&gt;Comprende una vasta gamma di attività, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.&lt;/p&gt;
+&lt;p&gt;Una lista aperta di attività è disponibile qui: &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vocabs.dariah.eu/tadirah/en/&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. &lt;a href=&#34;https://cmu-lib.github.io/dhlg/&#34;&gt;https://cmu-lib.github.io/dhlg/&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creiamo-dataset&#34;&gt;Creiamo dataset&lt;/h2&gt;
+&lt;h3 id=&#34;creiamo-dataset&#34;&gt;Creiamo dataset&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
@@ -2365,7 +2029,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h2&gt;
+&lt;h3 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;img src=&#34;model.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
@@ -2378,7 +2042,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h2&gt;
+&lt;h3 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;img src=&#34;edition.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
@@ -2393,11 +2057,11 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 &lt;hr&gt;
 &lt;h2 id=&#34;-e-facciamo-moltissime-altre-cose-che-prendono-forma-in-progetti&#34;&gt;&amp;hellip; E facciamo moltissime altre cose, che prendono forma in progetti.&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;i-_progetti_-sono-il-cuore-delle-dh&#34;&gt;I &lt;em&gt;progetti&lt;/em&gt; sono il cuore delle DH&lt;/h2&gt;
+&lt;h3 id=&#34;i-_progetti_-sono-il-cuore-delle-dh&#34;&gt;I &lt;em&gt;progetti&lt;/em&gt; sono il cuore delle DH&lt;/h3&gt;
 &lt;p&gt;La struttura di base di qualsiasi progetto di DH è una combinazione di &lt;strong&gt;risorse digitali&lt;/strong&gt;, memorizzate in una &lt;strong&gt;struttura&lt;/strong&gt; (es. un database, un file system, un modello di dati) e accessibili tramite un insieme di &lt;strong&gt;servizi&lt;/strong&gt; (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un&amp;rsquo;&lt;strong&gt;interfaccia&lt;/strong&gt; che supporta l&amp;rsquo;esperienza dell&amp;rsquo;utente.&lt;/p&gt;
 &lt;p&gt;I risultati di un progetto di Digital Humanities consistono spesso in &lt;strong&gt;siti Web&lt;/strong&gt;, &lt;strong&gt;applicazioni&lt;/strong&gt;, &lt;strong&gt;dati&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt;, &lt;strong&gt;metodologie&lt;/strong&gt;, &lt;strong&gt;documentazione&lt;/strong&gt; e altre risorse digitali accessibili ad altri studiosi e/o al pubblico generalista, per facilitare la condivisione e il riuso dei dati, la riproducibilità del processo di ricerca, e così via.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;si-riduce-tutto-alla-gestione-dei-dati&#34;&gt;Si riduce tutto alla gestione dei dati&lt;/h2&gt;
+&lt;h3 id=&#34;si-riduce-tutto-alla-gestione-dei-dati&#34;&gt;Si riduce tutto alla gestione dei dati&lt;/h3&gt;
 &lt;p&gt;Per sviluppare in maniera corretta un progetto e produrre risultati con un impatto concreto, le DH richiedono dataset ben strutturati, documentati, accessibili, sostenibili, utilizzabili.&lt;/p&gt;
 &lt;p&gt;Per farlo, è necessario seguire una serie di attività rigorose, orientate ad una consapevole gestione dei dati (&lt;strong&gt;Data Management&lt;/strong&gt;).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -2417,7 +2081,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 
 &lt;h2 id=&#34;unimpresa-necessaria&#34;&gt;Un&amp;rsquo;impresa necessaria&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cosè-la-gestione-dei-dati&#34;&gt;Cos&amp;rsquo;è la gestione dei dati?&lt;/h2&gt;
+&lt;h3 id=&#34;cosè-la-gestione-dei-dati&#34;&gt;Cos&amp;rsquo;è la gestione dei dati?&lt;/h3&gt;
 &lt;p&gt;La gestione e l&amp;rsquo;organizzazione critica dei dati durante l&amp;rsquo;intero ciclo di ricerca, con l&amp;rsquo;obiettivo di:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;rendere il processo efficiente;&lt;/li&gt;
@@ -2430,7 +2094,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
  &lt;a href=&#34;http://doi.org/10.5334/dsj-2020-030&#34;&gt;http://doi.org/10.5334/dsj-2020-030&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;in-cosa-consiste&#34;&gt;In cosa consiste?&lt;/h2&gt;
+&lt;h3 id=&#34;in-cosa-consiste&#34;&gt;In cosa consiste?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
@@ -2447,7 +2111,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;in-cosa-consiste-1&#34;&gt;In cosa consiste?&lt;/h2&gt;
+&lt;h3 id=&#34;in-cosa-consiste-1&#34;&gt;In cosa consiste?&lt;/h3&gt;
 &lt;figure&gt;
   &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
   &lt;figcaption&gt;
@@ -2455,7 +2119,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;pianificazione&#34;&gt;Pianificazione&lt;/h2&gt;
+&lt;h3 id=&#34;pianificazione&#34;&gt;Pianificazione&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;figure&gt;
@@ -2472,7 +2136,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h2&gt;
+&lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;figure&gt;
@@ -2489,7 +2153,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;preservazione-e-condivisione&#34;&gt;Preservazione e condivisione&lt;/h2&gt;
+&lt;h3 id=&#34;preservazione-e-condivisione&#34;&gt;Preservazione e condivisione&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;figure&gt;
@@ -2506,17 +2170,15 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;caso-di-studio-mythologiae&#34;&gt;Caso di studio: Mythologiae&lt;/h2&gt;
+&lt;h3 id=&#34;caso-di-studio-mythologiae&#34;&gt;Caso di studio: Mythologiae&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://mythologiae.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mythologiae.unibo.it/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Collezione digitale di 4000+ opere d&amp;rsquo;arte raffiguranti scene della mitologia classica.&lt;/p&gt;
 &lt;p&gt;Ogni oggetto della collezione è descritto da una serie di metadati.&lt;/p&gt;
 &lt;p&gt;Lavoreremo su alcune sezioni di questo dataset, sperimentando con strumenti e metodi in maniera pratica e &lt;em&gt;simulando ciò che poi dovrete portare all&amp;rsquo;esame&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
-&lt;h4 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h4&gt;
-&lt;p&gt;Sebastian Barzaghi |
-&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; |
-&lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lezione-01-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>
     

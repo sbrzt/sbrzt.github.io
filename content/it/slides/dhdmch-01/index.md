@@ -6,20 +6,16 @@ tags: [Digital Humanities]
 categories: [Digital Humanities]
 date: '2022-12-31T00:00:00Z'
 slides:
-  # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: white
-  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
-  #   Light style: github. Dark style: dracula (default).
   highlight_style: github-light
+
 ---
 
 # La grande sfida
 
-#### Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
+## Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-Sebastian Barzaghi | 
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
 
 ---
 
@@ -29,7 +25,7 @@ Sebastian Barzaghi |
 
 ---
 
-## Cosa intendiamo con _scienza_?
+### Cosa intendiamo con _scienza_?
 
 Da _scientia_ (conoscenza): conoscenza acquisita attraverso lo studio o la pratica; padronanza di una disciplina o area particolare.
 
@@ -41,7 +37,7 @@ La scienza è il processo organizzato attraverso il quale l'umanità cerca di sc
 
 ---
 
-## Cos'è la Scienza Aperta?
+### Cos'è la Scienza Aperta?
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
@@ -65,7 +61,7 @@ La scienza è il processo organizzato attraverso il quale l'umanità cerca di sc
 
 ---
 
-## Perché la Scienza Aperta?
+### Perché la Scienza Aperta?
 
 **Argomento scientifico**: maggiore riproducibilità dei risultati della ricerca; maggiore trasparenza dei metodi di ricerca e valutazione.
 
@@ -79,7 +75,7 @@ La scienza è il processo organizzato attraverso il quale l'umanità cerca di sc
 
 ---
 
-## OK, ma concretamente di _cosa_ si tratta?
+### OK, ma concretamente di _cosa_ si tratta?
 
 In breve, è la creazione e condivisione di **dati aperti**, cioé dati liberamente disponibili per l'accesso e il (ri)utilizzo.
 
@@ -99,7 +95,7 @@ Realtà: [_as open as possible, as closed as necessary_](https://rea.ec.europa.e
 
 ---
 
-## Cosa sono i dati?
+### Cosa sono i dati?
 
 Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analisi, quanto come prodotti del processo stesso di ricerca.
 
@@ -111,7 +107,7 @@ Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analis
 
 ---
 
-## I dati sono una categoria relazionale
+### I dati sono una categoria relazionale
 
 Ciò che è considerabile "dato" dipende da chi lo usa, come, e per quale scopo.
 
@@ -125,7 +121,7 @@ Possono essere digitali o analogici, qualitativi o quantitativi, creati da macch
 
 ---
 
-## I dati sono raccolti in dataset
+### I dati sono raccolti in dataset
 
 > Una raccolta di dati organizzati in modo ordinato e strutturati secondo criteri precisi.
 
@@ -139,7 +135,7 @@ La sua corretta gestione garantisce l'efficienza, l'affidabilità e l'utilità d
 
 ---
 
-## Non è facile parlare di dati nelle discipline umanistiche
+### Non è facile parlare di dati nelle discipline umanistiche
 
 Non c'è consenso su che cosa siano i "dati" nelle discipline umanistiche.
 
@@ -151,7 +147,7 @@ Il termine stesso "discipline umanistiche" è ampio e racchiude in sé domini di
 
 ---
 
-## Anche gli umanisti usano e producono dati
+### Anche gli umanisti usano e producono dati
 
 Ogni tipo di ricerca produce o riusa dei dati, anche se magari il termine "dato" non viene utilizzato in certi contesti.
 
@@ -163,7 +159,7 @@ Esempio: un qualsiasi ricercatore utilizza delle fonti (primarie o secondarie) p
 
 ---
 
-## Ma quindi, _cosa_ sono questi "dati"?
+### Ma quindi, _cosa_ sono questi "dati"?
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -185,7 +181,7 @@ Esempio: un qualsiasi ricercatore utilizza delle fonti (primarie o secondarie) p
 
 ---
 
-## Ma quindi, _cosa_ sono questi "dati"?
+### Ma quindi, _cosa_ sono questi "dati"?
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -206,7 +202,7 @@ Esempio: un qualsiasi ricercatore utilizza delle fonti (primarie o secondarie) p
 
 ---
 
-## I dati umanistici sono sfidanti
+### I dati umanistici sono sfidanti
 
 Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.
 
@@ -220,7 +216,7 @@ Le metodologie di ricerca tendono ad essere implicite, date per scontate.
 
 ---
 
-## I dati umanistici sono sfidanti
+### I dati umanistici sono sfidanti
 
 I processi della ricerca umanistica sono ancora dominati da paradigmi tradizionali (poche fonti concentrate, analisi manuali che vanno nel dettaglio, maggiore importanza all'_unico_ e all'_eccezione_).
 
@@ -232,7 +228,7 @@ La ricerca umanistica dipende generalmente da una _stratificazione densa_ di int
 
 ---
 
-## I dati umanistici sono sfidanti
+### I dati umanistici sono sfidanti
 
 I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.
 
@@ -244,7 +240,7 @@ La ricerca umanistica è raramente documentata, standardizzata e strutturata nel
 
 ---
 
-## Umanisti lenti o ostili verso la Scienza Aperta?
+### Umanisti lenti o ostili verso la Scienza Aperta?
 
 - Valori e metodi percepiti come contrastanti;
 - Paura di danneggiare la propria carriera;
@@ -258,7 +254,7 @@ La ricerca umanistica è raramente documentata, standardizzata e strutturata nel
 
 ---
 
-## Ma esistono anche forti incentivi!
+### Ma esistono anche forti incentivi!
 
 - Nuove prospettive di ricerca;
 - Pubblicazione e diffusione della ricerca;
@@ -271,7 +267,7 @@ La ricerca umanistica è raramente documentata, standardizzata e strutturata nel
 
 ---
 
-## Scienza Aperta per umanisti: perché?
+### Scienza Aperta per umanisti: perché?
 
 Anche solo piccoli cambiamenti nel flusso di lavoro, come l'adozione di [ORCID](https://orcid.org/) e l'uso di strumenti come [Zenodo](https://zenodo.org/), possono fare una grande differenza.
 
@@ -285,7 +281,7 @@ Anche solo piccoli cambiamenti nel flusso di lavoro, come l'adozione di [ORCID](
 
 ---
 
-## Il ruolo fondamentale del digitale
+### Il ruolo fondamentale del digitale
 
 Le tecnologie digitali forniscono l'importante opportunità all'Open Science di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica acceessibili e trasparenti.
 
@@ -303,11 +299,13 @@ Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologi
 
 ---
 
-## Cosa facciamo nelle DH?
+### Cosa facciamo nelle DH?
 
 Il termine _Digital Humanities_ (DH) descrive contemporaneamente una comunità, un insieme di metodi e di strumenti, un cambio di paradigma, un campo di ricerca.
 
 Comprende una vasta gamma di attività, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.
+
+Una lista aperta di attività è disponibile qui: https://vocabs.dariah.eu/tadirah/en/.
 
 <div class="footer">
   Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. <a href="https://cmu-lib.github.io/dhlg/">https://cmu-lib.github.io/dhlg/</a>.
@@ -315,7 +313,7 @@ Comprende una vasta gamma di attività, come la creazione di dataset e lo svilup
 
 ---
 
-## Creiamo dataset
+### Creiamo dataset
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
@@ -333,7 +331,7 @@ Comprende una vasta gamma di attività, come la creazione di dataset e lo svilup
 
 ---
 
-## Creiamo modelli
+### Creiamo modelli
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
@@ -349,7 +347,7 @@ Comprende una vasta gamma di attività, come la creazione di dataset e lo svilup
 
 ---
 
-## Creiamo strumenti
+### Creiamo strumenti
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
@@ -369,7 +367,7 @@ Comprende una vasta gamma di attività, come la creazione di dataset e lo svilup
 
 ---
 
-## I _progetti_ sono il cuore delle DH
+### I _progetti_ sono il cuore delle DH
 
 La struttura di base di qualsiasi progetto di DH è una combinazione di **risorse digitali**, memorizzate in una **struttura** (es. un database, un file system, un modello di dati) e accessibili tramite un insieme di **servizi** (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un'**interfaccia** che supporta l'esperienza dell'utente.
 
@@ -377,7 +375,7 @@ I risultati di un progetto di Digital Humanities consistono spesso in **siti Web
 
 ---
 
-## Si riduce tutto alla gestione dei dati
+### Si riduce tutto alla gestione dei dati
 
 Per sviluppare in maniera corretta un progetto e produrre risultati con un impatto concreto, le DH richiedono dataset ben strutturati, documentati, accessibili, sostenibili, utilizzabili.
 
@@ -396,7 +394,7 @@ Per farlo, è necessario seguire una serie di attività rigorose, orientate ad u
 
 ---
 
-## Cos'è la gestione dei dati?
+### Cos'è la gestione dei dati?
 
 La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerca, con l'obiettivo di:
 - rendere il processo efficiente;
@@ -411,7 +409,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## In cosa consiste?
+### In cosa consiste?
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
@@ -431,7 +429,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## In cosa consiste?
+### In cosa consiste?
 
 <figure>
   <img src="dmanagement-2.png" height="auto" width="700"/>
@@ -442,7 +440,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## Pianificazione
+### Pianificazione
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -462,7 +460,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## Produzione, raccolta e analisi
+### Produzione, raccolta e analisi
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -482,7 +480,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## Preservazione e condivisione
+### Preservazione e condivisione
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -502,7 +500,7 @@ La gestione e l'organizzazione critica dei dati durante l'intero ciclo di ricerc
 
 ---
 
-## Caso di studio: Mythologiae
+### Caso di studio: Mythologiae
 
 https://mythologiae.unibo.it/
 
@@ -516,8 +514,6 @@ Lavoreremo su alcune sezioni di questo dataset, sperimentando con strumenti e me
 
 # Fine
 
-#### Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
+## Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-Sebastian Barzaghi | 
-[sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | 
-[https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
