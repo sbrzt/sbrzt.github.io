@@ -30,20 +30,6 @@
                 href="http://localhost:1313/it/event/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/slides/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/slides/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/slides/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/categories/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -116,6 +102,20 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/slides/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/slides/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/slides/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/tags/</loc>
@@ -396,6 +396,20 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/project/hero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/slides/dhdmch-00/</loc>
+    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/slides/dhdmch-00/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/slides/dhdmch-00/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/computer-science-graphics/</loc>
