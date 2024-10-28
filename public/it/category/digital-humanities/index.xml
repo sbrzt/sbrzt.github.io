@@ -2109,7 +2109,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@joshuakettle?utm_content=creditCo
 Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Greg Becker&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/body-of-water-under-clear-blue-sky-sYzFIusQp3Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-dato-è-unevidenza-di-un-fatto&#34;&gt;Un dato è un&amp;rsquo;evidenza di un fatto&lt;/h3&gt;
+&lt;h3 id=&#34;un-dato-è-una-fonte-di-conoscenza&#34;&gt;Un dato è una fonte di conoscenza&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2124,57 +2124,44 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopy
       I dati sono record fattuali raccolti, generati o riutilizzati come base di analisi, ragionamenti, discussioni o calcoli.
     &lt;/p&gt;
     &lt;p&gt;
-      Fare ricerca implica lavorare con i dati, tanto come oggetti di studio ed analisi, quanto come prodotti del processo stesso di ricerca.
+      Vengono usati da studiosi e scienziati come sturmenti per comprendere il mondo e comunicare tra di loro.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  OECD (2007), OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+  OECD (2007). OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-dato-è-una-categoria-relazionale&#34;&gt;Un dato è una categoria relazionale&lt;/h3&gt;
+&lt;p&gt;I dati non hanno valore di verità di per sé, né possono essere visti come rappresentazioni dirette dei fenomeni studiati.&lt;/p&gt;
 &lt;p&gt;Ciò che è considerabile &amp;ldquo;dato&amp;rdquo; dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
-&lt;p&gt;Percepire, osservare, raccogliere dati sono tutti atti interpretativi, in un contesto che dà forma ai dati e ne definisce i limiti.&lt;/p&gt;
+&lt;p&gt;Un oggetto diventa un dato quando è visto come prova reale o potenziale per una o più asserzioni riguardanti un certo fenomeno.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of Chicago Press. &lt;a href=&#34;https://doi.org/10.7208/chicago/9780226416502.001.0001&#34;&gt;https://doi.org/10.7208/chicago/9780226416502.001.0001&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;più-dati-sono-raccolti-in-dataset&#34;&gt;Più dati sono raccolti in dataset&lt;/h3&gt;
-&lt;p&gt;Un dataset è una raccolta di dati organizzati in modo ordinato e strutturati secondo criteri precisi.&lt;/p&gt;
+&lt;p&gt;Un dataset è una raccolta di dati organizzati secondo criteri precisi.&lt;/p&gt;
 &lt;p&gt;La sua corretta gestione garantisce l&amp;rsquo;efficienza, l&amp;rsquo;affidabilità e l&amp;rsquo;utilità dei dati.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Ciston, S., &amp; Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;non-è-facile-parlare-di-dati-nelle-discipline-umanistiche&#34;&gt;Non è facile parlare di dati nelle discipline umanistiche&lt;/h3&gt;
-&lt;p&gt;Non c&amp;rsquo;è consenso su che cosa siano i &amp;ldquo;dati&amp;rdquo; nelle discipline umanistiche.&lt;/p&gt;
-&lt;p&gt;Il termine stesso &amp;ldquo;discipline umanistiche&amp;rdquo; è ampio e racchiude in sé domini di conoscenza estremamente diversi.&lt;/p&gt;
+&lt;p&gt;Non c&amp;rsquo;è consenso su che cosa siano i &lt;em&gt;dati&lt;/em&gt; nelle discipline umanistiche.&lt;/p&gt;
+&lt;p&gt;Il termine stesso &lt;em&gt;discipline umanistiche&lt;/em&gt; è ampio e racchiude in sé domini di conoscenza estremamente diversi.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;anche-gli-umanisti-usano-e-producono-dati&#34;&gt;Anche gli umanisti usano e producono dati&lt;/h3&gt;
-&lt;p&gt;Ogni tipo di ricerca produce o riusa dei dati, anche se il termine &amp;ldquo;dato&amp;rdquo; non viene utilizzato in certi contesti.&lt;/p&gt;
+&lt;p&gt;Ogni tipo di ricerca produce o riusa dei dati, anche se il termine &lt;em&gt;dato&lt;/em&gt; non viene utilizzato in certi contesti.&lt;/p&gt;
 &lt;p&gt;Esempio: un ricercatore utilizza delle fonti (primarie o secondarie) per rispondere alle proprie domande di ricerca, producendo &lt;em&gt;almeno&lt;/em&gt; una bibliografia.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;la-ricerca-umanistica-è-dominata-da-paradigmi-tradizionali-12&#34;&gt;La ricerca umanistica è dominata da paradigmi tradizionali (1/2)&lt;/h3&gt;
-&lt;p&gt;Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.&lt;/p&gt;
-&lt;p&gt;Le metodologie di ricerca tendono ad essere implicite, date per scontate.&lt;/p&gt;
-&lt;p&gt;La ricerca umanistica dipende generalmente da una &lt;em&gt;stratificazione densa&lt;/em&gt; di interpretazioni e commenti.&lt;/p&gt;
-&lt;div class=&#34;footer&#34;&gt;
-  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;la-ricerca-umanistica-è-dominata-da-paradigmi-tradizionali-22&#34;&gt;La ricerca umanistica è dominata da paradigmi tradizionali (2/2)&lt;/h3&gt;
-&lt;p&gt;I sistemi semiotici delle discipline umanistiche tendono ad essere specifici e individualistici.&lt;/p&gt;
-&lt;p&gt;I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.&lt;/p&gt;
-&lt;p&gt;I dati culturali sono complessi e raramente documentati in modo da facilitarne l&amp;rsquo;integrazione, la comprensione e il riutilizzo da parte di altri.&lt;/p&gt;
-&lt;div class=&#34;footer&#34;&gt;
-  Erzsébet Tóth-Czifra (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
-&lt;/div&gt;
+&lt;h3 id=&#34;se-tutti-producono-e-usano-dati-dobbiamo-discutere-come-i-dati-possano-essere-condivisi-e-riutilizzati&#34;&gt;Se tutti producono e usano dati, dobbiamo discutere come i dati possano essere condivisi e riutilizzati.&lt;/h3&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2195,7 +2182,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
-      &lt;img src=&#34;os.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/os.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Melanie Imming, Jon Tennant, &amp; Ivo Grigorov. (2018). Stickers Open Science just science done right (IT). Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;https://doi.org/10.5281/zenodo.2613332&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2212,60 +2199,66 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;argomento-scientifico&#34;&gt;Argomento Scientifico&lt;/h3&gt;
-&lt;p&gt;Maggiore riproducibilità dei risultati della ricerca e maggiore trasparenza dei metodi di ricerca e valutazione garantiscono maggiore scientificità.&lt;/p&gt;
+&lt;p&gt;La maggiore riproducibilità e trasparenza dei metodi e dei risultati della ricerca garantiscono maggiore scientificità.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;argomento-sociologico&#34;&gt;Argomento Sociologico&lt;/h3&gt;
-&lt;p&gt;La conoscenza scientifica è un prodotto di collaborazione sociale e quindi appartiene alla comunità.&lt;/p&gt;
+&lt;p&gt;La conoscenza scientifica è un prodotto di collaborazione sociale, e quindi appartiene alla comunità.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;argomento-utilitaristico&#34;&gt;Argomento Utilitaristico&lt;/h3&gt;
-&lt;p&gt;Massimizza la possibilità di ricevere un maggior numero di citazioni, una maggiore copertura mediatica, un numero più ampio di collaborazioni e opportunità di lavoro e finanziamento.&lt;/p&gt;
+&lt;p&gt;Una scienza più aperta massimizza la possibilità per il singolo ricercatore di ricevere un maggior numero di citazioni, una maggiore copertura mediatica, un numero più ampio di collaborazioni e opportunità di lavoro e finanziamento.&lt;/p&gt;
 &lt;p&gt;Inoltre, rientra sempre più spesso tra i requisiti dei finanziatori a livello nazionale e internazionale.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;la-scienza-aperta-si-costruisce-sui-dati-aperti&#34;&gt;La Scienza Aperta si costruisce sui dati aperti&lt;/h3&gt;
+&lt;h3 id=&#34;la-scienza-aperta-viene-costruita-sui-dati-aperti&#34;&gt;La Scienza Aperta viene costruita sui dati aperti&lt;/h3&gt;
 &lt;p&gt;In breve, si tratta di creare, usare e condividere &lt;strong&gt;dati aperti&lt;/strong&gt;, cioé dati liberamente disponibili per l&amp;rsquo;accesso e il (ri)utilizzo.&lt;/p&gt;
 &lt;p&gt;Idealmente, i dati non dovrebbero avere restrizioni da copyright, brevetti o altri meccanismi di controllo.&lt;/p&gt;
 &lt;p&gt;Nella realtà, bisogna puntare ad avere dati &lt;a href=&#34;https://rea.ec.europa.eu/open-science_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;aperti quanto più possibile, chiusi secondo necessità&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;umanisti-lenti-o-ostili-verso-la-scienza-aperta&#34;&gt;Umanisti lenti o ostili verso la Scienza Aperta?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Valori e metodi percepiti come contrastanti;&lt;/li&gt;
-&lt;li&gt;Paura di danneggiare la propria carriera;&lt;/li&gt;
-&lt;li&gt;Mancanza di finanziamenti;&lt;/li&gt;
-&lt;li&gt;Problemi con copyright e licenze;&lt;/li&gt;
-&lt;li&gt;Mancanza di documentazione e standardizzazione.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;e-per-quanto-riguarda-le-discipline-umanistiche&#34;&gt;E per quanto riguarda le discipline umanistiche?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-ricerca-umanistica-è-dominata-da-paradigmi-tradizionali-12&#34;&gt;La ricerca umanistica è dominata da paradigmi tradizionali (1/2)&lt;/h3&gt;
+&lt;p&gt;Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.&lt;/p&gt;
+&lt;p&gt;Le metodologie di ricerca tendono ad essere implicite, date per scontate.&lt;/p&gt;
+&lt;p&gt;La ricerca umanistica dipende generalmente da una &lt;em&gt;stratificazione densa&lt;/em&gt; di interpretazioni e commenti.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;ma-esistono-anche-forti-incentivi&#34;&gt;Ma esistono anche forti incentivi!&lt;/h3&gt;
+&lt;h3 id=&#34;la-ricerca-umanistica-è-dominata-da-paradigmi-tradizionali-22&#34;&gt;La ricerca umanistica è dominata da paradigmi tradizionali (2/2)&lt;/h3&gt;
+&lt;p&gt;I sistemi semiotici delle discipline umanistiche tendono ad essere specifici e individualistici.&lt;/p&gt;
+&lt;p&gt;I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.&lt;/p&gt;
+&lt;p&gt;I dati culturali sono complessi e raramente documentati in modo da facilitarne l&amp;rsquo;integrazione, la comprensione e il riutilizzo da parte di altri.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-forti-incentivi-per-la-scienza-aperta&#34;&gt;Esistono forti incentivi per la Scienza Aperta&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Nuove prospettive di ricerca;&lt;/li&gt;
 &lt;li&gt;Pubblicazione e diffusione della ricerca;&lt;/li&gt;
-&lt;li&gt;Aumento dell&amp;rsquo;impatto e della visibilità (e quindi citazioni);&lt;/li&gt;
-&lt;li&gt;Allineamento alle politiche dell&amp;rsquo;UE (e quindi finanziamenti).&lt;/li&gt;
+&lt;li&gt;Aumento dell&amp;rsquo;impatto e della visibilità (e quindi delle citazioni);&lt;/li&gt;
+&lt;li&gt;Allineamento alle richieste dell&amp;rsquo;UE (e quindi maggiore disponibilità di finanziamenti).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;scienza-aperta-per-umanisti-perché&#34;&gt;Scienza Aperta per umanisti: perché?&lt;/h3&gt;
 &lt;p&gt;Anche solo piccoli cambiamenti nel flusso di lavoro, come l&amp;rsquo;adozione di &lt;a href=&#34;https://orcid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ORCID&lt;/a&gt; e l&amp;rsquo;uso di strumenti come &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, possono fare una grande differenza.&lt;/p&gt;
 &lt;p&gt;Tra i vari vantaggi troviamo:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Un migliore accesso ai materiali rari;&lt;/li&gt;
+&lt;li&gt;Un migliore accesso ai dati e ai materiali;&lt;/li&gt;
 &lt;li&gt;Una maggiore rappresentazione di posizioni marginali;&lt;/li&gt;
 &lt;li&gt;Una maggiore credibilità della ricerca umanistica.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2274,26 +2267,29 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-ruolo-fondamentale-del-digitale&#34;&gt;Il ruolo fondamentale del digitale&lt;/h3&gt;
-&lt;p&gt;Le tecnologie digitali forniscono l&amp;rsquo;importante opportunità all&amp;rsquo;Open Science di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica accessibili e trasparenti.&lt;/p&gt;
+&lt;p&gt;Le tecnologie digitali forniscono l&amp;rsquo;importante opportunità alle discipline umanistiche di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica accessibili e trasparenti.&lt;/p&gt;
 &lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali nelle discipline umanistiche è spesso chiamato &lt;strong&gt;Digital Humanities&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Ulrike Wuttke. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
+  Wuttke, U. (2018). Introduction to Humanities Research Data Management. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;section-03.jpg&#34;
+      data-background-image=&#34;img/paradigm-shift.jpg&#34;
   
       
       class=&#34;section-slide&#34;
   &gt;
 
-&lt;h2 id=&#34;un-nuovo-paradigma&#34;&gt;Un &amp;ldquo;nuovo&amp;rdquo; paradigma&lt;/h2&gt;
+&lt;h2 id=&#34;cambio-di-paradigma&#34;&gt;Cambio di paradigma&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@geordannatheartist?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Geordanna Cordero&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/multicolored-abstract-painting-5NE6mX0WVfQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h3&gt;
-&lt;p&gt;Il termine &lt;em&gt;Digital Humanities&lt;/em&gt; (DH) descrive contemporaneamente una comunità, un insieme di metodi e di strumenti, un cambio di paradigma, un campo di ricerca.&lt;/p&gt;
+&lt;p&gt;Il termine &lt;strong&gt;Digital Humanities&lt;/strong&gt; (DH) descrive contemporaneamente una comunità, un insieme di metodi e di strumenti, un cambio di paradigma, un campo di ricerca.&lt;/p&gt;
 &lt;p&gt;Comprende una &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34;&gt;vasta gamma di attività&lt;/a&gt;, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. &lt;a href=&#34;https://cmu-lib.github.io/dhlg/&#34;&gt;https://cmu-lib.github.io/dhlg/&lt;/a&gt;.
@@ -2303,23 +2299,23 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
-      &lt;img src=&#34;catalogue.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;img src=&#34;img/catalogue.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
         &lt;figcaption&gt;
-            Valentina Pasqual, &amp; Francesca Tomasi. (2021). mythlod/1.0 (1.0) [Data set]. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.4639821&#34;&gt;https://doi.org/10.5281/zenodo.4639821&lt;/a&gt;.
+            Fonte: Valentina Pasqual, &amp; Francesca Tomasi. (2021). mythlod/1.0 (1.0) [Data set]. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.4639821&#34;&gt;https://doi.org/10.5281/zenodo.4639821&lt;/a&gt;.
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Collezioni di dati strutturati, resi disponibili ad un pubblico più ampio per ulteriori studi e analisi.&lt;/p&gt;
+        &lt;p&gt;Collezioni di dati strutturati, rese disponibili ad un pubblico più ampio per ulteriori studi e analisi.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;img src=&#34;model.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;img src=&#34;img/model.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
       &lt;figcaption&gt;
-          Barzaghi, S. and Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
+          Fonte: Barzaghi, S., &amp; Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
       &lt;/figcaption&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2330,9 +2326,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;h3 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
-      &lt;img src=&#34;edition.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;img src=&#34;img/edition.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
       &lt;figcaption&gt;
-          Moro, Aldo, Edizione Nazionale delle Opere di Aldo Moro, voll., Bologna, Università di Bologna, 2021. ISBN: 9788854970496; DOI: &lt;a href=&#34;https://doi.org/10.6092/unibo/aldomoro&#34;&gt;https://doi.org/10.6092/unibo/aldomoro&lt;/a&gt;.
+          Fonte: Moro, A. (2021). Edizione Nazionale delle Opere di Aldo Moro, voll., Bologna, Università di Bologna. ISBN: 9788854970496; DOI: &lt;a href=&#34;https://doi.org/10.6092/unibo/aldomoro&#34;&gt;https://doi.org/10.6092/unibo/aldomoro&lt;/a&gt;.
       &lt;/figcaption&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2340,15 +2336,21 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-e-facciamo-moltissime-altre-cose-che-prendono-forma-in-progetti&#34;&gt;&amp;hellip; E facciamo moltissime altre cose, che prendono forma in progetti.&lt;/h2&gt;
+&lt;h3 id=&#34;queste-attività-prendono-forma-nei-progetti&#34;&gt;Queste attività prendono forma nei progetti&lt;/h3&gt;
+&lt;p&gt;La struttura di base di qualsiasi progetto di DH è una combinazione di&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;risorse digitali&lt;/strong&gt;, memorizzate in una&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;struttura&lt;/strong&gt; (es. un database, un file system) e accessibili tramite un insieme di&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;servizi&lt;/strong&gt; (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un&#39;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;interfaccia&lt;/strong&gt; che supporta l&amp;rsquo;esperienza dell&amp;rsquo;utente.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;i-_progetti_-sono-il-cuore-delle-dh&#34;&gt;I &lt;em&gt;progetti&lt;/em&gt; sono il cuore delle DH&lt;/h3&gt;
-&lt;p&gt;La struttura di base di qualsiasi progetto di DH è una combinazione di &lt;strong&gt;risorse digitali&lt;/strong&gt;, memorizzate in una &lt;strong&gt;struttura&lt;/strong&gt; (es. un database, un file system, un modello di dati) e accessibili tramite un insieme di &lt;strong&gt;servizi&lt;/strong&gt; (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un&amp;rsquo;&lt;strong&gt;interfaccia&lt;/strong&gt; che supporta l&amp;rsquo;esperienza dell&amp;rsquo;utente.&lt;/p&gt;
-&lt;p&gt;I risultati di un progetto di Digital Humanities consistono spesso in &lt;strong&gt;siti Web&lt;/strong&gt;, &lt;strong&gt;applicazioni&lt;/strong&gt;, &lt;strong&gt;dati&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt;, &lt;strong&gt;metodologie&lt;/strong&gt;, &lt;strong&gt;documentazione&lt;/strong&gt; e altre risorse digitali accessibili ad altri studiosi e/o al pubblico generalista, per facilitare la condivisione e il riuso dei dati, la riproducibilità del processo di ricerca, e così via.&lt;/p&gt;
+&lt;h3 id=&#34;il-risultato-non-è-mai-uno&#34;&gt;Il risultato non è mai uno&lt;/h3&gt;
+&lt;p&gt;I risultati di un progetto di Digital Humanities consistono spesso in &lt;strong&gt;dati&lt;/strong&gt;, &lt;strong&gt;siti Web&lt;/strong&gt;, &lt;strong&gt;applicazioni&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt;, &lt;strong&gt;metodologie&lt;/strong&gt;, &lt;strong&gt;documentazione&lt;/strong&gt; e altre risorse che dovrebbero essere rese accessibili ad altri agenti (umani e software), per facilitare la loro condivisione e riuso, la riproducibilità del processo di ricerca, e così via.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;si-riduce-tutto-alla-gestione-dei-dati&#34;&gt;Si riduce tutto alla gestione dei dati&lt;/h3&gt;
-&lt;p&gt;Per sviluppare in maniera corretta un progetto e produrre risultati con un impatto concreto, le DH richiedono dataset ben strutturati, documentati, accessibili, sostenibili, utilizzabili.&lt;/p&gt;
-&lt;p&gt;Per farlo, è necessario seguire una serie di attività rigorose, orientate ad una consapevole gestione dei dati (&lt;strong&gt;Data Management&lt;/strong&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;dipende-tutto-dalla-gestione-dei-dati&#34;&gt;Dipende tutto dalla gestione dei dati&lt;/h3&gt;
+&lt;p&gt;Per sviluppare in maniera corretta un progetto e produrre un impatto concreto, le DH richiedono risultati ben strutturati, documentati, accessibili, sostenibili, utilizzabili.&lt;/p&gt;
+&lt;p&gt;Per farlo, è necessario seguire una serie di attività rigorose, orientate ad una consapevole &lt;strong&gt;gestione dei dati&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Strasser, C., Cook, R., Michener, W., &amp; Budden, A. (2012). Primer on Data Management: What you always wanted to know.
  &lt;a href=&#34;https://doi.org/10.5281/zenodo.1491250&#34;&gt;https://doi.org/10.5281/zenodo.1491250&lt;/a&gt;.
@@ -2358,101 +2360,126 @@ Photo by &lt;a href=&#34;https://unsplash.com/@ilmissile?utm_content=creditCopyT
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;section-04.jpg&#34;
+      data-background-image=&#34;img/galaxy.jpg&#34;
   
       
       class=&#34;section-slide&#34;
   &gt;
 
 &lt;h2 id=&#34;unimpresa-necessaria&#34;&gt;Un&amp;rsquo;impresa necessaria&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@billy_huy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Billy Huynh&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/blue-skies-filled-of-stars-W8KTS-mhFUE?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;cosè-la-gestione-dei-dati&#34;&gt;Cos&amp;rsquo;è la gestione dei dati?&lt;/h3&gt;
-&lt;p&gt;La gestione e l&amp;rsquo;organizzazione critica dei dati durante l&amp;rsquo;intero ciclo di ricerca, con l&amp;rsquo;obiettivo di:&lt;/p&gt;
+&lt;h3 id=&#34;una-lettera-damore-ai-propri-dati&#34;&gt;Una lettera d&amp;rsquo;amore ai propri dati&lt;/h3&gt;
+&lt;p&gt;La gestione dei dati (o Data Management, DM) è l&amp;rsquo;organizzazione critica dei dati durante l&amp;rsquo;intero ciclo di ricerca.&lt;/p&gt;
+&lt;p&gt;Tra gli obiettivi del DM, troviamo:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;rendere il processo efficiente;&lt;/li&gt;
-&lt;li&gt;rendere i dati stessi interpretabili, comprensibili e rintracciabili nel tempo;&lt;/li&gt;
-&lt;li&gt;favorire l&amp;rsquo;integrità della ricerca;&lt;/li&gt;
+&lt;li&gt;rendere il processo di ricerca efficiente;&lt;/li&gt;
+&lt;li&gt;rendere i dati interpretabili, comprensibili e rintracciabili nel tempo;&lt;/li&gt;
+&lt;li&gt;favorire l&amp;rsquo;integrità scientifica della ricerca;&lt;/li&gt;
 &lt;li&gt;stimolare la collaborazione tra ricercatori.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
-  Smits, D.A.B. and Teperek, M., 2020. Research Data Management for Master’s Students: From Awareness to Action. Data Science Journal, 19(1), p.30. 
+  Smits, D.A.B., Teperek, M. (2020). Research Data Management for Master’s Students: From Awareness to Action. Data Science Journal, 19(1), p. 30. 
  &lt;a href=&#34;http://doi.org/10.5334/dsj-2020-030&#34;&gt;http://doi.org/10.5334/dsj-2020-030&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;in-cosa-consiste&#34;&gt;In cosa consiste?&lt;/h3&gt;
+&lt;h3 id=&#34;il-dm-consiste-in-una-serie-di-attività-complesse&#34;&gt;Il DM consiste in una serie di attività complesse&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 2;&#34;&gt;
       &lt;figure&gt;
-        &lt;img src=&#34;dmanagement.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;img src=&#34;img/dmanagement.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
         &lt;figcaption&gt;
-          Gualandi, B. (2024, luglio 26). Data stewardship e open science nelle discipline umanistiche. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.12937887&#34;&gt;https://doi.org/10.5281/zenodo.12937887&lt;/a&gt;.
+          Fonte: Gualandi, B. (2024). Data stewardship e open science nelle discipline umanistiche. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.12937887&#34;&gt;https://doi.org/10.5281/zenodo.12937887&lt;/a&gt;.
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;p&gt;
-          La gestione dei dati accompagna tutte le fasi di produzione, raccolta e analisi dati e si conclude con la preservazione e la condivisione degli stessi.
+          La gestione dei dati consiste nella produzione, raccolta, analisi,  preservazione e condivisione dei dati.
         &lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;in-cosa-consiste-1&#34;&gt;In cosa consiste?&lt;/h3&gt;
+&lt;h3 id=&#34;vediamolo-più-da-vicino&#34;&gt;Vediamolo più da vicino&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
   &lt;figcaption&gt;
-    Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+    Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pianificazione&#34;&gt;Pianificazione&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;figure&gt;
-        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
-        &lt;figcaption&gt;
-          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;
-          Azioni principali: identificare i tipi di dati, identificare i metadati, pianificare la loro organizzazione in dataset, e redigere un Data Management Plan (DMP).
-        &lt;/p&gt;
-    &lt;/div&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/dmanagement-2.png&#34;
+      style=&#34;
+      width: 100px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 2% 15%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: identificare i tipi di dati, identificare i metadati, pianificare la loro organizzazione in dataset, e redigere un Data Management Plan (DMP).
+      &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;figure&gt;
-        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
-        &lt;figcaption&gt;
-          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-        &lt;p&gt;
-          Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
-        &lt;/p&gt;
-    &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/dmanagement-2.png&#34; 
+      style=&#34;
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+      &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;preservazione-e-condivisione&#34;&gt;Preservazione e condivisione&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;figure&gt;
-        &lt;img src=&#34;dmanagement-2.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
-        &lt;figcaption&gt;
-          Gualandi, Bianca, Caldoni, Giulia, &amp; Marino, Mario. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
-      &lt;p&gt;
-        Azioni principali: valutare quali dati depositare, scegliere la repository, depositare i dati, applicare una licenza ai dati.
-      &lt;/p&gt;
-    &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/dmanagement-2.png&#34;
+      style=&#34;
+      width: 100px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 98% 50%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Azioni principali: valutare quali dati depositare, scegliere la repository, depositare i dati, applicare una licenza ai dati.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;caso-di-studio-mythologiae&#34;&gt;Caso di studio: Mythologiae&lt;/h3&gt;
