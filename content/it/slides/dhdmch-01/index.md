@@ -32,7 +32,7 @@ Photo by <a href="https://unsplash.com/@gregbecker?utm_content=creditCopyText&ut
 ### Un dato è una fonte di conoscenza
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/data.png" height="auto" width="700"/>
         <figcaption>
@@ -70,11 +70,26 @@ Un oggetto diventa un dato quando è visto come prova reale o potenziale per una
 
 ---
 
-### Più dati sono raccolti in dataset
+### I dati sono raccolti in dataset
 
-Un dataset è una raccolta di dati organizzati secondo criteri precisi.
-
-La sua corretta gestione garantisce l'efficienza, l'affidabilità e l'utilità dei dati.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/dataset.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Gontier, C., Jordan, J., & Petrovici, M. A. (2022). DELAUNAY: a dataset of abstract art for psychophysical and machine learning research. arXiv preprint arXiv:2201.12123. <a href="https://doi.org/10.48550/arXiv.2201.12123">https://doi.org/10.48550/arXiv.2201.12123</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un dataset è una raccolta di dati organizzati secondo criteri precisi.
+    </p>
+    <p>
+      La sua corretta gestione garantisce l'efficienza, l'affidabilità e l'utilità dei dati.
+    </p>
+  </div>
+</div>
 
 <div class="footer">
   Ciston, S., & Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. <a href="https://knowingmachines.org/critical-field-guide">https://knowingmachines.org/critical-field-guide</a>.
@@ -106,7 +121,7 @@ Esempio: un ricercatore utilizza delle fonti (primarie o secondarie) per rispond
 
 ---
 
-### Se tutti producono e usano dati, dobbiamo discutere come i dati possano essere condivisi e riutilizzati.
+### Se tutti producono e usano dati, dobbiamo discutere su come i dati possano essere condivisi e riutilizzati.
 
 ---
 
@@ -222,26 +237,16 @@ I dati culturali sono complessi e raramente documentati in modo da facilitarne l
 
 ---
 
-### Esistono forti incentivi per la Scienza Aperta
-
-- Nuove prospettive di ricerca;
-- Pubblicazione e diffusione della ricerca;
-- Aumento dell'impatto e della visibilità (e quindi delle citazioni);
-- Allineamento alle richieste dell'UE (e quindi maggiore disponibilità di finanziamenti).
-
-<div class="footer">
-  Wuttke, U. (2018, novembre 19). Introduction to Humanities Research Data Management. Zenodo. <a href="https://doi.org/10.5281/zenodo.1491250">https://doi.org/10.5281/zenodo.1491250</a>.
-</div>
-
----
-
 ### Scienza Aperta per umanisti: perché?
 
 Anche solo piccoli cambiamenti nel flusso di lavoro, come l'adozione di [ORCID](https://orcid.org/) e l'uso di strumenti come [Zenodo](https://zenodo.org/), possono fare una grande differenza.
 
 Tra i vari vantaggi troviamo:
+- Nuove prospettive di ricerca;
 - Un migliore accesso ai dati e ai materiali;
+- Una maggiore diffusione (e potenzialmente impatto) dei risultati;
 - Una maggiore rappresentazione di posizioni marginali;
+- Allineamento alle richieste dell'UE (e quindi maggiore disponibilità di finanziamenti);
 - Una maggiore credibilità della ricerca umanistica.
 
 <div class="footer">
@@ -252,7 +257,7 @@ Tra i vari vantaggi troviamo:
 
 ### Il ruolo fondamentale del digitale
 
-Le tecnologie digitali forniscono l'importante opportunità alle discipline umanistiche di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica accessibili e trasparenti.
+Le tecnologie digitali forniscono l'importante opportunità alle discipline umanistiche di mettere in discussione paradigmi esistenti e sviluppare nuovi metodi di indagine e disseminazione scientifica che siano accessibili e trasparenti.
 
 Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali nelle discipline umanistiche è spesso chiamato **Digital Humanities**.
 
@@ -502,7 +507,17 @@ Tra gli obiettivi del DM, troviamo:
 
 ---
 
-### Caso di studio: Mythologiae
+{{< slide background-image="img/case-study.jpg" class="section-slide">}}
+
+## Il caso di studio
+
+<!--
+Hercules and the Lernaean Hydra, 1875-1876, by Gustave Moreau - Art Institute of Chicago
+-->
+
+---
+
+### Mythologiae
 
 https://mythologiae.unibo.it/
 

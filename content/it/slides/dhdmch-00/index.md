@@ -32,6 +32,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Cosa vi aspettate?
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
         <img src="qr-code.png" alt="QR code per accedere al modulo" style="max-width: 100%;">
@@ -47,7 +48,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=272791889&amp;format=interactive"></iframe>
+      <iframe width="600" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=272791889&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1;">
       <p>Avendo a che fare con dati digitali e fonti umanistiche, le "Digital Humanities" sono il dominio entro il quale necessariamente ci muoviamo.</p>
@@ -61,7 +62,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2092092195&amp;format=interactive"></iframe>
+      <iframe width="600" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2092092195&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1;">
       <p>La gestione dei dati è il tema fondamentale che affronteremo e attorno al quale l'intero corso è organizzato.</p>
@@ -72,9 +73,10 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Qual è il tuo livello di familiarità con il concetto di "Open Science"?
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=46492131&amp;format=interactive"></iframe>
+      <iframe width="600" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=46492131&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1;">
       <p>La "Scienza Aperta" è uno dei paradigmi che guideranno le attività che faremo per tutto il resto del corso.</p>
@@ -85,9 +87,10 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Qual è il tuo livello di familiarità con il concetto di "Linked Open Data"?
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 2;">
-      <iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=51082031&amp;format=interactive"></iframe>
+      <iframe width="600" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=51082031&amp;format=interactive"></iframe>
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <p>
@@ -95,48 +98,6 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
       </p>
     </div>
 </div>
-
----
-
-### Qual è il tuo percorso di studi (triennale)?
-
-<iframe width="279" height="173" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2053129753&amp;format=interactive"></iframe>
-
----
-
-### Cosa ti ha spinto a iscriverti a questo corso?
-
-<iframe width="292" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=2132516437&amp;format=interactive"></iframe>
-
----
-
-### Hai mai utilizzato strumenti digitali per analizzare o gestire dati rielativi ai beni culturali? Se sì, quali?
-
-<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=304991311&amp;format=interactive"></iframe>
-
----
-
-### Quali competenze speri di acquisire attraverso questo corso?
-
-<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=1233206594&amp;format=interactive"></iframe>
-
----
-
-### In che modo pensi che queste competenze possano essere utili nella tua futura carriera?
-
-<iframe width="292" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=1421132898&amp;format=interactive"></iframe>
-
----
-
-### Hai delle aspettative specifiche riguardo al contenuto del corso?
-
-<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=614199924&amp;format=interactive"></iframe>
-
----
-
-### Se potessi approfondire un argomento specifico, quale sarebbe?
-
-<iframe width="298" height="184" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxCM0HrFDBHrDocKRWTw5GMbrfzbcPVeYSMMlELexuLDS6_ewb9Iy5jog5D4mNC5pmIBxm3HF2SJZy/pubchart?oid=83530803&amp;format=interactive"></iframe>
 
 ---
 
@@ -169,6 +130,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Organizzazione del corso
+
 * **Quando**
   * [15 lezioni](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502386/orariolezioni) (lunedì, mercoledì, giovedì)
   * 2 ore per lezione
@@ -186,6 +148,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Organizzazione del corso
+
 | ID | Titolo | Tipo | Tematica | Data |
 |----|--------|------|----------|------|
 | 00 | _Introduzione_ | Teorica | `Corso`, `Esame` | 07-11-2024 |
@@ -213,6 +176,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 ---
 
 ### Esame
+
 Un progetto di _gestione dei dati_ correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).
 
 Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.
@@ -222,6 +186,7 @@ Gli studenti potranno lavorare al progetto individualmente o in gruppo (da defin
 ---
 
 ### Preparazione all'esame
+
 Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode).
 
 Nelle sessioni pratiche, lavoreremo assieme su un _caso di studio_ di gestione dei dati in cui vi aiuterò attivamente, per farvi sperimentare con gli strumenti e i metodi presentati a lezione.
@@ -229,6 +194,7 @@ Nelle sessioni pratiche, lavoreremo assieme su un _caso di studio_ di gestione d
 ---
 
 ### Valutazione
+
 Il contributo personale di ciascuna persona e la conoscenza degli argomenti del corso saranno valutati durante il colloquio orale:
 
 * <50% (valutazione insufficiente): preparazione non adeguata in nessun aspetto del progetto;
@@ -239,15 +205,17 @@ Il contributo personale di ciascuna persona e la conoscenza degli argomenti del 
 ---
 
 ### Valutazione
+
 Ad un certo punto, anche voi dovrete valutare me!
 
-Il questionario di valutaizone è **davvero molto importante**, quindi insisterò molto a tempo debito sulla sua compilazione da parte vostra.
+Il questionario di valutaizone è **davvero molto importante**, quindi - a tempo debito - insisterò molto sulla sua compilazione da parte vostra.
 
-Vi prego di essere quanto più correttti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no.
+Vi prego di essere quanto più corretti ed oggettivi possibile nella valutazione del corso, in modo da farmi capire cosa va bene e cosa no.
 
 ---
 
 ### Raccomandazioni finali
+
 Affrontare cose nuove è sempre difficile, quindi non preoccupatevi se il corso può sembrare complicato: lo è!
 
 Però, è pensato per essere accessibile a studenti non abituati a questo tipo di tematiche (per questo motivo, una vostra valutazione onesta è assolutamente fondamentale).

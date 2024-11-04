@@ -19,45 +19,42 @@ slides:
 
 ---
 
-## Introduzione
+## Versionamento
 
 ---
 
-### Cos'è il versionamento?
+### Il versionamento è la gestione delle modifiche nei file
 
-It is helpful to understand what version control is and why it might be useful for the work you are doing prior to getting stuck into the practicalities. At a basic level version control involves taking ‘snapshots’ of files at different stages. Many people will have introduced some sort of version control systems for files. Often this is done by saving different versions of the files. Something like this:
+La maggior parte delle persone utilizza una qualche forma di versionamento per gestire i propri file.
 
-mydocument.txt
-mydocumentversion2.txt
-mydocumentwithrevision.txt
-mydocumentfinal.txt
-
-The system used for naming files may be more or less systematic. Adding dates makes it slightly easier to follow when changes were made:
-
-mydocument2016-01-06.txt
-mydocument2016-01-08.txt
-
-Though this system might be slightly easier to follow, there are still problems with it. Primarily this system doesn’t record or describe the changes that took place between these two saves. It is possible that some of these changes were small typo fixes but the changes could also have been a major re-write or re-structuring of a document. If you have a change of heart about some of these changes you also need to work out which date the changes were made in order to go back to a previous version.
-
-Version control tries to address problems like these by implementing a systematic approach to recording and managing changes in files. At its simplest, version control involves taking ‘snapshots’ of your file at different stages. This snapshot records information about when the snapshot was made but also about what changes occurred between different snapshots.
-
-Why Version Control Text Documents?
-
-As research increasingly makes use of digital tools and storage it becomes important to consider how to best manage our research data. This becomes especially important when we want to collaborate with other people. Though version control was originally designed for dealing with code there are many benefits to using it to with text documents too. Though not all of these benefits will be covered in this lesson, version controlling your document allows you to:
-
-    Track developments and changes in your documents
-    Record the changes you made to your document in a way that you will be able to understand later
-    Experiment with different versions of a document while maintaining the original version
-    ‘Merge’ two versions of a document and manage conflicts between versions
-    Revert changes, moving ‘backwards’ through your history to previous versions of your document
-
-Version control is particularly useful for facilitating collaboration. One of the original motivations behind version control systems was to allow different people to work on large projects together, in the case of Git to manage the Linux kernel source code. 
+  > tesi_brutta.docx
+    tesi_brutta2.docx
+    tesi_vera.docx
+    tesi_vera_finale.docx
 
 ---
 
-### Cos'è Git?
+### Un buon sistema di versionamento è sistematico
 
-Sistema di controllo versione distribuito.
+Aggiungere le date rende leggermente più facile seguire quando sono state apportate le modifiche.
+
+  > tesi-20-03-2024.docx
+    tesi-06-05-2024.docx
+
+---
+
+### Un ottimo sistema di versionamento è descrittivo, permissivo, collaborativo
+
+Monitora sviluppi e modifiche nei tuoi documenti, registra le modifiche apportate al tuo documento in un modo che tu possa comprenderle in seguito, permette di annullare le modifiche e tornare a verisoni precedenti, e facilita la collaborazione tra diverse persone per lavorare sullo stesso documento.
+
+
+
+Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., ... & Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of Git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947.
+
+---
+
+### Git è un ottimo sistema di versionamento distribuito
+
 
 Concetti chiave: commit, branch, merge.
 
@@ -68,53 +65,41 @@ Ram, K. (2013). Git can facilitate greater reproducibility and increased transpa
 
 ---
 
-### Cos'è GitHub?
-
-Piattaforma di hosting per repository Git.
+### GitHub è una piattaforma per repository Git
 
 Funzionalità di collaborazione (pull request, issue tracking).
 
 Importanza nella comunità open-source e per i progetti aziendali.
 
-Although GitHub’s focus is primarily on source code, other projects, such as the Programming Historian, are increasingly making use of version control systems like GitHub to manage the work-flows of journal publishing, open textbooks and other humanities projects. Becoming familiar with GitHub will be useful not only for version controlling your own documents but will also make it easier to contribute and draw upon other projects which use GitHub. In this lesson the focus will be on gaining an understanding of the basic aims and principles of version control by uploading and version controlling a plain text document. This lesson will not cover everything but will provide a starting point to using version control.
-
+Sempre più importante anche per gestire i flussi di lavoro della pubblicazione di riviste, dei libri di testo aperti e di altri progetti umanistici.
 
 Blischak, J. D., Davenport, E. R., & Wilson, G. (2016). A quick introduction to version control with Git and GitHub. PLoS computational biology, 12(1), e1004668. https://doi.org/10.1371/journal.pcbi.1004668.
 
 ---
 
-### Cos'è GitHub Desktop?
+### GitHub Desktop è un'applicazione per facilitare l'uso di Git e GitHub
 
-Applicazione desktop che semplifica l'uso di Git e GitHub.
+Offre un'interfaccia grafica per usare Git.
 
-Interfaccia grafica intuitiva per gestire i repository.
-
-GitHub Desktop will allow us to easily start using version control. GitHub Desktop offers a Graphical User Interface (GUI) to use Git. A GUI allows users to interact with a program using a visual interface rather than relying on text commands. Though there are some potential advantages to using the command line version of Git in the long run, using a GUI can reduce the learning curve of using version control and Git. If you decide you are interested in using the command line you can find more resources at the end of the lesson.
 
 
 Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. The Programming Historian. https://doi.org/10.46430/phen0051.
 
 ---
 
-Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., ... & Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of Git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947.
-
----
-
 ### Installazione
 
-Since we are going to be using GitHub we will need to register for an account at GitHub if we don’t already have one. For students and researchers GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private.
+1. Registriamo un account su GitHub: https://github.com/signup;
 
-You can download GitHub Desktop “Classic” for OS X here. Once you have downloaded the file, unzip it and open the app, following the instructions for logging in to your GitHub account. Once you have installed GitHub Desktop and followed the setup instructions we can start using the software with a text document.
+2. Scarichiamo GitHub Desktop: https://desktop.github.com/download/;
 
-Guida passo passo per scaricare e installare GitHub Desktop.
-
-Verifica dell'installazione e prima apertura dell'app.
+3. Installiamo GitHub Desktop seguendo le istruzioni.
 
 ---
 
-### Navigazione nell'interfaccia
+### Una panoramica
 
-Panoramica dell'interfaccia: barra laterale, pannelli di modifica, area di commit.
+
 
 ---
 
