@@ -15,7 +15,7 @@ slides:
 
 ## Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
 
 ---
 
@@ -27,7 +27,7 @@ Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digit
 
 Attualmente lavoro presso il laboratorio di ricerca [FrameLAB](https://framelab.unibo.it/) e collaboro con altre realtà (es. [DHARC](https://centri.unibo.it/dharc/en)).
 
-I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale
+I miei interessi si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui **Linked Open Data** e l'**Open Science** per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
 
 ---
 
@@ -230,4 +230,4 @@ Nel dubbio, chiedete sempre (dal vivo o per mail). A seconda della domanda, potr
 
 ## Lezione 00 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)

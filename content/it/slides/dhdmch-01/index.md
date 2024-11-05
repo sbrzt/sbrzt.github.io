@@ -15,8 +15,7 @@ slides:
 
 ## Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
-
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
 ---
 
 {{< slide background-image="img/data-intro.jpg" class="section-slide">}}
@@ -45,7 +44,7 @@ Photo by <a href="https://unsplash.com/@gregbecker?utm_content=creditCopyText&ut
       I dati sono record fattuali raccolti, generati o riutilizzati come base di analisi, ragionamenti, discussioni o calcoli.
     </p>
     <p>
-      Vengono usati da studiosi e scienziati come sturmenti per comprendere il mondo e comunicare tra di loro.
+      Vengono usati da studiosi e scienziati come strumenti per comprendere il mondo e generare conoscenza.
     </p>
   </div>
 </div>
@@ -60,7 +59,7 @@ Photo by <a href="https://unsplash.com/@gregbecker?utm_content=creditCopyText&ut
 
 I dati non hanno valore di verità di per sé, né possono essere visti come rappresentazioni dirette dei fenomeni studiati. 
 
-Ciò che è considerabile "dato" dipende da chi lo usa, come, e per quale scopo.
+Ciò che è considerabile _dato_ dipende da chi lo usa, come, e per quale scopo.
 
 Un oggetto diventa un dato quando è visto come prova reale o potenziale per una o più asserzioni riguardanti un certo fenomeno.
 
@@ -121,7 +120,7 @@ Esempio: un ricercatore utilizza delle fonti (primarie o secondarie) per rispond
 
 ---
 
-### Se tutti producono e usano dati, dobbiamo discutere su come i dati possano essere condivisi e riutilizzati.
+### Se tutti producono e usano dati, dobbiamo discutere su come questi dati possono essere condivisi e riutilizzati.
 
 ---
 
@@ -193,7 +192,7 @@ Inoltre, rientra sempre più spesso tra i requisiti dei finanziatori a livello n
 
 ### La Scienza Aperta viene costruita sui dati aperti
 
-In breve, si tratta di creare, usare e condividere **dati aperti**, cioé dati liberamente disponibili per l'accesso e il (ri)utilizzo.
+Fare Scienza Aperta vuol dire creare, usare e condividere **dati aperti**, cioé dati liberamente disponibili per l'accesso e il (ri)utilizzo.
 
 Idealmente, i dati non dovrebbero avere restrizioni da copyright, brevetti o altri meccanismi di controllo.
 
@@ -209,25 +208,13 @@ Nella realtà, bisogna puntare ad avere dati [_aperti quanto più possibile, chi
 
 ---
 
-### La ricerca umanistica è dominata da paradigmi tradizionali (1/2)
+### La ricerca umanistica è dominata da paradigmi tradizionali
 
 Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.
 
-Le metodologie di ricerca tendono ad essere implicite, date per scontate.
+I sistemi semiotici delle discipline umanistiche tendono ad essere specifici, impliciti, individualistici, dati per scontato.
 
-La ricerca umanistica dipende generalmente da una _stratificazione densa_ di interpretazioni e commenti.
-
-<div class="footer">
-  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. <a href="https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt">https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt</a>.
-</div>
-
----
-
-### La ricerca umanistica è dominata da paradigmi tradizionali (2/2)
-
-I sistemi semiotici delle discipline umanistiche tendono ad essere specifici e individualistici.
-
-I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte al cambio di paradigma.
+I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte alle dinamiche della ricerca contemporanea.
 
 I dati culturali sono complessi e raramente documentati in modo da facilitarne l'integrazione, la comprensione e il riutilizzo da parte di altri.
 
@@ -533,4 +520,4 @@ Lavoreremo su alcune sezioni di questo dataset, sperimentando con strumenti e me
 
 ## Lezione 01 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
