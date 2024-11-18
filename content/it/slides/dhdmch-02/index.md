@@ -15,7 +15,7 @@ slides:
 
 ## Lezione 02 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
-###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527)
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
 
 ---
 
@@ -295,67 +295,103 @@ Registriamo un account su GitHub: https://github.com/signup.
 
 ---
 
-### 24. Potete creare nuovi file in almeno due modi
+### 24. Se invece vogliamo inviare modifiche dal nostro _fork_ alla repository di origine, dobbiamo mandare un _pull request_
+
+![](img/0235.png)
+
+---
+
+### 25. Prima apriamo il _pull request_
+
+![](img/0236.png)
+
+---
+
+### 26. Poi verifichiamo che non ci siano conflitti, e facciamo _merge_
+
+![](img/0237.png)
+
+---
+
+### 27. Confermiamo il _merge_ tramite un _commit_
+
+![](img/0238.png)
+
+---
+
+### 28. Il _merge_ è stato effettuato con successo
+
+![](img/0239.png)
+
+---
+
+### 29. Possiamo verificarlo anche nella repo di origine
+
+![](img/0240.png)
+
+---
+
+### 30. Potete creare nuovi file in almeno due modi
 
 ![](img/0223.png)
 
 ---
 
-### 25. Potete creare un nuovo file direttamente su GitHub
+### 31. Potete creare un nuovo file direttamente su GitHub
 
 ![](img/0224.png)
 
 ---
 
-### 26. Per confermare la creazione del file, è sufficente eseguire un _commit_
+### 32. Per confermare la creazione del file, è sufficente eseguire un _commit_
 
 ![](img/0225.png)
 
 ---
 
-### 27. Ora il file è stato creato ed è visualizzabile
+### 33. Ora il file è stato creato ed è visualizzabile
 
 ![](img/0226.png)
 
 ---
 
-### 28. In alternativa, potete anche caricare un file esistente sul vostro computer
+### 34. In alternativa, potete anche caricare un file esistente sul vostro computer
 
 ![](img/0231.png)
 
 ---
 
-### 29. Una volta caricato il file, eseguite il _commit_
+### 35. Una volta caricato il file, eseguite il _commit_
 
 ![](img/0232.png)
 
 ---
 
-### 30. Di nuovo, ora il file è stato caricato ed è visualizzabile
+### 36. Di nuovo, ora il file è stato caricato ed è visualizzabile
 
 ![](img/0233.png)
 
 ---
 
-### 31. Potete ovviamente eliminare i file
+### 37. Potete ovviamente eliminare i file
 
 ![](img/0227.png)
 
 ---
 
-### 32. Prima di eliminare i file, prima avrete un'anticipazione...
+### 38. Prima di eliminare i file, prima avrete un'anticipazione...
 
 ![](img/0228.png)
 
 ---
 
-### 33. ... E poi dovrete confermare l'operazione con un _commit_
+### 39. ... E poi dovrete confermare l'operazione con un _commit_
 
 ![](img/0229.png)
 
 ---
 
-### 34. Ora il file è stato correttamente eliminato
+### 40. Ora il file è stato correttamente eliminato
 
 ![](img/0230.png)
 
@@ -395,7 +431,9 @@ Questa sarà la repo di riferimento per le nostre lezioni pratiche.
 # Nome
 
 ## Descrizione
-Il cosa, perché e come del progetto. Qual'è la motivazione? Quale problema stiamo risolvendo? Cosa abbiamo imparato?
+Il cosa, perché e come del progetto. Qual'è 
+la motivazione? Quale problema stiamo risolvendo? 
+Cosa abbiamo imparato?
 
 ## Fonti
 Link alle fonti dei dati utilizzati
@@ -410,7 +448,9 @@ Contatti di tutte le persone coinvolte
 Etichetta e link alla licenza
 
 ## Changelog
-Sezione dove teniamo traccia di quello che abbiamo fatto e delle modifiche avvenute (prima la più recente)
+Sezione dove teniamo traccia di quello che 
+abbiamo fatto e delle modifiche avvenute 
+(prima la più recente)
 ```
 
 ---
@@ -419,7 +459,15 @@ Sezione dove teniamo traccia di quello che abbiamo fatto e delle modifiche avven
 
 ---
 
-### 5. Ora creiamo due cartelle: una chiamata `data`, l'altra `docs`
+### 5. Modifichiamo il file, inserendo informazioni vere (tra quelle che abbiamo a disposizione)
+
+---
+
+### 6. Facciamo un altro _commit_ per salvare le modifiche
+
+---
+
+### 7. Ora creiamo due cartelle: una chiamata `data`, l'altra `docs`
 
 Non è possibile creare cartelle direttamente su GitHub, quindi le creeremo in locale e le caricheremo.
 
@@ -427,11 +475,66 @@ GitHub non accetta cartelle vuote, quindi dobbiamo riempirle con qualcosa per po
 
 ---
 
-### 6. Per ora, `docs` e `data` conterranno altri README (vuoti)
+### 8. Per ora, `docs` e `data` conterranno altri README.txt (vuoti)
 
 ---
 
-### 7. Finalizziamo il caricamento di `docs` e `data` con un _commit_
+### 9. Finalizziamo il caricamento di `docs` e `data` con un _commit_
+
+---
+
+### 10. Ora tocca a voi
+
+- Dividetevi in due gruppi
+- Forkate la repository
+- Un gruppo compilerà il README di `docs`
+- L'altro gruppo si occuperà del README di `data`
+- Una volta modificati i rispettivi documenti, effettuate i _pull request_
+
+---
+
+### 11. README di `docs`
+
+```
+# Documentazione di progetto
+
+## Indice
+- Data Management Plan
+
+## Data Management Plan
+
+### Nome del file
+dmp.md
+
+### Descrizione
+Piano di gestione dei dati del progetto.
+
+### Data di creazione
+2024-11-18
+```
+
+---
+
+### 12. README di `data`
+
+```
+# Dataset utilizzati
+
+## Indice
+- Dataset Mythologiae
+
+## Dataset Mythologiae
+
+### Nome del file
+dataset_mythologiae.csv
+
+### Descrizione
+Dataset contenente i dati degli oggetti appartenenti alla collezione Mythologiae.
+
+### Formato
+CSV
+
+```
 
 ---
 
@@ -464,11 +567,17 @@ Decisamente il metodo migliore, soprattutto per gli sviluppatori.
 Richiede un certo tipo di sforzo, ma una volta compresi i concetti di Git e il funzionamento della linea di comando, diventa parte naturale del flusso di lavoro.
 
 ```
-
 git add .
 
 git commit -m "Testo del commit"
 
 git push origin main
+```
 
 ---
+
+# Fine
+
+## Lezione 02 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
+
+###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
