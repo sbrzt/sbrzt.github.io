@@ -138,8 +138,9 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
   * Sessione teorica e pratica per ogni modulo
   * 1 pausa di 10 minuti (concordiamo su quando)
 * **Dove**
-  * Lunedì: Aula 2
-  * Mercoledì e giovedì: Laboratorio informatico
+  * Lunedì | 11:00-13:00 | Laboratorio informatico
+  * Mercoledì | 14:00-16:00 | Laboratorio informatico
+  * Giovedì | 11:00-13:00 | Laboratorio informatico
 * **Come**
   * [GitHub](https://github.com/dhdmch/2024-2025)
   * [Virtuale](https://virtuale.unibo.it/course/view.php?id=66104)
@@ -154,10 +155,10 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 | 00 | _Introduzione_ | Teorica | `Corso`, `Esame` | 07-11-2024 |
 | 01 | _La grande sfida_ | Teorica | `Open Science`, `Dati`, `Digital Humanities`, `Data Management` | 07-11-2024 |
 | 02 | _Primi passi_ | Pratica | [GitHub](https://github.com/) | 18-11-2024 |
-| 03 | _PLAN: pianificare_ | Teorica | `Metadati`, `FAIR`, `Case study`, `Progetto d'esame` | 20-11-2024 |
+| 03 | _PLAN: pianificare_ | Teorica | `Data documentation`, `Metadati`, `DMP`, `Progetto d'esame` | 20-11-2024 |
 | 04 | _Diario di bordo_ | Pratica | [Markdown](https://www.markdownguide.org/) | 21-11-2024 |
-| 05 | _COLLECT: creare e raccogliere_ | Teorica | `Raccolta e creazione dati`, `Documentazione`, `File system` | 25-11-2024 |
-| 06 | _Il biblioggetto_ | Pratica | [Zotero](https://www.zotero.org/) | 27-11-2024 |
+| 05 | _COLLECT: creare e raccogliere_ | Teorica | `Data documentation`, `Metadati`, `FAIR` | 25-11-2024 |
+| 06 | _L'oggetto bibliografia_ | Pratica | [Zotero](https://www.zotero.org/) | 27-11-2024 |
 
 ---
 
