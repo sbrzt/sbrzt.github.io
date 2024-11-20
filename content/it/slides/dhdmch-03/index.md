@@ -1,8 +1,8 @@
 ---
-title: DHDMCH - PLAN: Pianificare
+title: DHDMCH - PLAN - Pianificare
 summary: Lezione 03 del corso di Digital Humanities e Data Management per i Beni Culturali
 authors: [Sebastian Barzaghi]
-tags: [Data documentation, Metadati, Data Management Plan, Progetto d'esame]
+tags: [Data documentation]
 categories: [Digital Humanities]
 date: '2023-11-20T00:00:00Z'
 slides:
@@ -10,16 +10,6 @@ slides:
   highlight_style: github-light
 
 ---
-
-<!--
-### DATA DOCUMENTATION???
-
-
-https://ubc-library-rc.github.io/rdm/ 05
-https://rdmkit.elixir-europe.org/index 05
-https://osf.io/wbr7t 05
-
--->
 
 # PLAN: Pianificare
 
@@ -29,12 +19,32 @@ https://osf.io/wbr7t 05
 
 ---
 
+### Il DM consiste in una serie di attività complesse
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+      <figure>
+        <img src="../dhdmch-01/img/dmanagement.png" height="auto" width="800"/>
+        <figcaption>
+          Fonte: Gualandi, B. (2024). Data stewardship e open science nelle discipline umanistiche. Zenodo. <a href="https://doi.org/10.5281/zenodo.12937887">https://doi.org/10.5281/zenodo.12937887</a>.
+        </figcaption>
+      </figure>
+    </div>
+    <div style="flex: 1;">
+        <p>
+          La gestione dei dati consiste nella produzione, raccolta, analisi,  preservazione e condivisione dei dati.
+        </p>
+    </div>
+</div>
+
+---
+
 ### Pianificazione
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
     <figure>
-      <img src="img/dmanagement-2.png"
+      <img src="../dhdmch-01/img/dmanagement-2.png"
       style="
       width: 100px; 
       height: 300px; 
@@ -56,9 +66,9 @@ https://osf.io/wbr7t 05
 
 ---
 
-**
+{{< slide background-image="../dhdmch-01/img/data-intro.jpg" class="section-slide">}}
 
-### Di nuovo, partiamo dai dati
+## Di nuovo, partiamo dai dati
 
 ---
 
@@ -67,7 +77,7 @@ https://osf.io/wbr7t 05
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
     <figure>
-      <img src="img/data.png" height="auto" width="700"/>
+      <img src="../dhdmch-01/img/data.png" height="auto" width="700"/>
         <figcaption>
             Fonte: Noppe, N., Vanvelk, J., & Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. <a href="https://doi.org/10.5281/zenodo.8010618">https://doi.org/10.5281/zenodo.8010618</a>.
         </figcaption>
@@ -89,52 +99,117 @@ https://osf.io/wbr7t 05
 
 ---
 
+### Non tutti i dati sono uguali
+
+---
+
 ### Dati strutturati
 
-**
-
-Dati organizzati in uno schema predefinito (es. tabella).
-
-Solitamente, sono facili da gestire e analizzare con l'uso di database relazionali e linguaggi di interrogazione specifici (es. SQL).
-
-Esempi: tabelle di database, fogli di calcolo, ecc.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/data-types.png"
+      style="
+      width: 265px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 100% 15%;
+      "
+      />
+        <figcaption>
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. <a href="http://dx.doi.org/10.4018/978-1-59904-192-6.ch001">http://dx.doi.org/10.4018/978-1-59904-192-6.ch001</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Dati organizzati in uno schema predefinito (es. tabella).
+    </p>
+    <p>
+      Solitamente, sono facili da gestire e analizzare con l'uso di database relazionali e linguaggi di interrogazione specifici (es. SQL).
+    </p>
+    <p>
+      Esempi: tabelle di database, fogli di calcolo, ecc.
+    </p>
+  </div>
+</div>
 
 <div class="footer">
-Rusu, O., Halcu, I., Grigoriu, O., Neculoiu, G., Sandulescu, V., Marinescu, M., & Marinescu, V. (2013, January). Converting unstructured and semi-structured data into knowledge. In 2013 11th roedunet international conference (pp. 1-4). IEEE. doi: <a href="https://doi.org/10.1109/RoEduNet.2013.6511736">https://doi.org/10.1109/RoEduNet.2013.6511736</a>. 
+Sint, R., Schaffert, S., Stroka, S., & Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. <a href="https://ceur-ws.org/Vol-464/paper-14.pdf">https://ceur-ws.org/Vol-464/paper-14.pdf</a>.
 </div>
 
 ---
 
 ### Dati semi-strutturati
 
-**
-
-Dati con una struttura parziale e flessibile.
-
-Sono più flessibili dei dati strutturati ma richiedono spesso una strutturazione minima che segua determinati schemi di codifica e vocabolari controllati.
-
-Esempi: documenti XML, documenti JSON, documenti HTML, dataset RDF, ecc.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/data-types.png"
+      style="
+      width: 265px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 45% 15%;
+      "
+      />
+        <figcaption>
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. <a href="http://dx.doi.org/10.4018/978-1-59904-192-6.ch001">http://dx.doi.org/10.4018/978-1-59904-192-6.ch001</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Dati con una struttura parziale e flessibile.
+    </p>
+    <p>
+      Sono più flessibili dei dati strutturati ma richiedono spesso una strutturazione minima che segua determinati schemi di codifica e vocabolari controllati.
+    </p>
+    <p>
+      Esempi: documenti XML, documenti JSON, documenti HTML, dataset RDF, ecc.
+    </p>
+  </div>
+</div>
 
 <div class="footer">
-Rusu, O., Halcu, I., Grigoriu, O., Neculoiu, G., Sandulescu, V., Marinescu, M., & Marinescu, V. (2013, January). Converting unstructured and semi-structured data into knowledge. In 2013 11th roedunet international conference (pp. 1-4). IEEE. doi: <a href="https://doi.org/10.1109/RoEduNet.2013.6511736">https://doi.org/10.1109/RoEduNet.2013.6511736</a>. 
+Sint, R., Schaffert, S., Stroka, S., & Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. <a href="https://ceur-ws.org/Vol-464/paper-14.pdf">https://ceur-ws.org/Vol-464/paper-14.pdf</a>.
 </div>
 
 ---
 
 ### Dati non-strutturati
 
-**
-
-Dati che mancano formalmente di una struttura organizzata.
-
-Sono spesso in forma libera, come testo naturale, audio o video.
-
-Una loro analisi richiede tecniche avanzate di processamento dei dati, come l’elaborazione del linguaggio naturale (NLP).
-
-Esempi: documenti di testo, registrazioni, immagini, ecc.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/data-types.png"
+      style="
+      width: 255px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 0% 15%;
+      "
+      />
+        <figcaption>
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. <a href="http://dx.doi.org/10.4018/978-1-59904-192-6.ch001">http://dx.doi.org/10.4018/978-1-59904-192-6.ch001</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Dati che mancano formalmente di una struttura organizzata.
+    </p>
+    <p>
+      Una loro analisi richiede l'utilizzo di tecniche avanzate di processamento dei dati, come l’elaborazione del linguaggio naturale (NLP).
+    </p>
+    <p>
+      Esempi: documenti di testo, registrazioni, immagini, ecc.
+    </p>
+  </div>
+</div>
 
 <div class="footer">
-Rusu, O., Halcu, I., Grigoriu, O., Neculoiu, G., Sandulescu, V., Marinescu, M., & Marinescu, V. (2013, January). Converting unstructured and semi-structured data into knowledge. In 2013 11th roedunet international conference (pp. 1-4). IEEE. doi: <a href="https://doi.org/10.1109/RoEduNet.2013.6511736">https://doi.org/10.1109/RoEduNet.2013.6511736</a>. 
+Sint, R., Schaffert, S., Stroka, S., & Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. <a href="https://ceur-ws.org/Vol-464/paper-14.pdf">https://ceur-ws.org/Vol-464/paper-14.pdf</a>.
 </div>
 
 ---
@@ -160,6 +235,8 @@ Alcuni esempi di risorse per trovare dati:
 - https://fairsharing.org/
 - https://oad.simmons.edu/oadwiki/Data_repositories
 
+Ma ovviamente dipende anche dal tipo di dati con cui avete bisogno di lavorare.
+
 <div class="footer">
 Arnold, B., Bowler, L., Gibson, S., Herterich, P., Higman, R., Krystalli, A., ... & Whitaker, K. (2019). The Turing Way: A Handbook for Reproducible Data Science. Zenodo. <a href="https://the-turing-way.netlify.app/">https://the-turing-way.netlify.app/</a>.
 </div>
@@ -174,6 +251,10 @@ Per esempio, una delle prime attività da fare quando si lavora con i dati è co
 
 Più in generale, è fondamentale controllare la documentazione che accompagna i dati, in modo da poterli capire - e, di conseguenza, utilizzare con criterio e responsabilità.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Se invece state creando i dati...
@@ -184,9 +265,13 @@ Li identificate, a seconda delle vostre necessità, e li documentate fin dall'in
 
 ---
 
-**
+{{< slide background-image="img/data-documentation.jpg" class="section-slide">}}
 
 ## A te, tra 2000 anni
+
+<!--
+Photo by <a href="https://unsplash.com/@sebastiantapiahuerta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Tapia Huerta</a> on <a href="https://unsplash.com/photos/maccu-pichu-peru-5qba-p9ahTE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
@@ -215,41 +300,44 @@ Esempi:
 
 ### La _data documentation_ è una panoramica chiara sui dati
 
-**
-
 Una descrizione critica di tutto quello che serve ad un'altra persona o ai voi stessi del futuro per trovare, comprendere, e contestualizzare i vostri dati in maniera indipendente.
 
 I dati senza documentazione sono uno spreco di soldi, tempo, risorse, inutili (o addirittura dannosi).
 
----
-
-### Un esempio: il README
-
-**
-
-Una forma di documentazione, non strutturata e leggibile dagli esseri umani, che descrive caratteristiche di alto livello del progetto o ricerca per i quali stiamo utilizzando e/o creando i dati.
-
----
-
-### Un altro esempio: i metadati
+Esempi: README, metadati, ecc.
 
 ---
 
 ### Cosa sono i metadati?
 
-![](img/photo.png "Fonte: https://dataedo.com/kb/data-glossary/what-is-metadata")
+<figure>
+  <img src="img/photo.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
 
 ---
 
 ### Cosa sono i metadati?
 
-![](img/book.png "Fonte: https://dataedo.com/kb/data-glossary/what-is-metadata")
+<figure>
+  <img src="img/book.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
 
 ---
 
 ### Cosa sono i metadati?
 
-![](img/spreadsheet.png "Fonte: https://dataedo.com/kb/data-glossary/what-is-metadata")
+<figure>
+  <img src="img/spreadsheet.png" height="auto" width="400"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
 
 ---
 
@@ -286,7 +374,7 @@ Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una 
 
 Spesso specifici per ambito disciplinare, consolidati a livello delle comunità di ricerca, e implementati da piattaforme online (es. cataloghi, registri, basi di dati, portali, ecc.) e da infrastrutture di archiviazione e accesso a lungo termine.
 
-Elenchi:
+Esempi:
 - https://fairsharing.org/
 - https://rd-alliance.github.io/metadata-directory/standards/
 - https://www.dcc.ac.uk/guidance/standards/metadata/list
@@ -315,10 +403,10 @@ Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore
 
 I metadati fatti bene hanno un impatto molto profondo su 
 
-- Reperibilità (Findability): i metadati rendono una risorsa più facilmente trovabile;
-- Accessibilità (Accessibility): i metadati forniscono indicazioni su come avere accesso alla risorsa descritta;
-- Interoperabilità (Interoperability): i metadati rendono una risorsa integrabile con altri dati, risorse, sistemi, applicazioni e flussi di lavoro;
-- Riusabilità (Reusability): i metadati forniscono indicazioni su aspetti fondamentali come la struttura e la semantica dei dati di una risorsa, la sua storia, e istruzioni su come utilizzarla.
+- Reperibilità (_**F**indability_): i metadati rendono una risorsa trovabile più facilmente;
+- Accessibilità (_**A**ccessibility_): i metadati forniscono indicazioni su come avere accesso alla risorsa descritta;
+- Interoperabilità (_**I**nteroperability_): i metadati rendono una risorsa integrabile con altri dati, risorse, sistemi, applicazioni e flussi di lavoro;
+- Riusabilità (_**R**eusability_): i metadati forniscono indicazioni su aspetti fondamentali della risorsa, come la struttura e la semantica, la sua storia, e le istruzioni su come utilizzarla.
 
 Ma lo vedremo meglio durante la prossima lezione teorica...
 
@@ -328,13 +416,19 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 
 ---
 
-### In previsione del viaggio: il DMP
+{{< slide background-image="img/dmp-intro.jpg" class="section-slide">}}
+
+## In previsione del viaggio
+
+<!--
+Photo by <a href="https://unsplash.com/@andreea_swank?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andreea Swank</a> on <a href="https://unsplash.com/photos/brown-and-black-galleon-ship-on-ocean-water-under-gray-sky-gFZ1OK7mbxc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
 ### Un Data Management Plan è lo strumento principale di documentazione dei dati
 
-Documento vivente che contiene informazioni su come gestire, organizzare, documentare tutti i dati che in qualche maniera fanno parte del progetto durante il suo ciclo di vita.
+Documento **vivente** che contiene informazioni su come gestire, organizzare, documentare tutti i dati che in qualche maniera fanno parte del progetto durante il suo ciclo di vita.
 
 Può intimidire e sembrare eccessivo, ma serve a pensare sistematicamente attraverso il processo di ricerca da una "prospettiva dei dati".
 
@@ -352,16 +446,29 @@ Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore
 - Specifica metodologie, strumenti e software utilizzati per raccogliere, creare o analizzare i dati;
 - Indica le strategie che utilizzerai per assicurare la qualità dei dati ed evitare possibili imprecisioni o incoerenze;
 - Riporta le strategie di conservazione dei dati, ad esempio in termini di condivisione con i collaboratori o di creazione di copie di backup;
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
+---
+
+### Un DMP è solitamente composto da _molti_ elementi
+
 - Descrive le strategie di archiviazione a lungo termine e di applicazione dei principi FAIR ai dati;
 - Descrivi i ruoli e le responsabilità all’interno del team di ricerca;
 - Documenta i costi, anche in termini di tempo, associati alla gestione dei dati;
 - Tratta gli aspetti di gestione dei dati legati alla privacy, ai diritti di proprietà intellettuale e all’etica.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Come stilare un DMP
 
-Trattandosi di un documento di testo, è possibile scriverlo a mano, utilizzare template esistenti da riempire, oppure utilizzare strumenti per una sua generazione semi-automatica.
+Trattandosi di un documento di testo, è possibile scriverlo a mano, utilizzare template esistenti da compilare, oppure utilizzare strumenti per una sua generazione semi-automatica.
 
 Esempi:
 - https://argos.openaire.eu/home 
@@ -370,17 +477,21 @@ Esempi:
 - https://dmponline.dcc.ac.uk/ 
 
 
-Noi lo faremo alla vecchia maniera, durante la prossima lezione, scrivendolo in Markdown.
+Noi lo faremo alla vecchia maniera, durante la prossima lezione, scrivendolo a mano in Markdown.
 
 ---
 
-### Progetto d'esame
+{{< slide background-image="img/project-intro.jpg" class="section-slide">}}
+
+## Progetto d'esame
+
+<!--
+Photo by <a href="https://unsplash.com/@gabiontheroad?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabriella Clare Marino</a> on <a href="https://unsplash.com/photos/a-view-of-a-city-at-sunset-from-a-hill-EfcjBYFwZcI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
 ### Le guide turistiche di Roma, dal Medioevo al XIX secolo
-
-**
 
 Nel corso dei secoli, le guide turistiche di Roma evolvono da strumenti medievali pieni di leggende a opere scientifiche e artistiche del Rinascimento, per poi trasformarsi in guide moderne, pratiche e orientate al turismo di massa nel XVIII e XIX secolo.
 
@@ -426,6 +537,19 @@ All'esame mi dovrete presentare il progetto tramite la pagina Web, che dovrà co
 
 ---
 
+### Il contenuto?
+
+A livello contenutistico, vi darò delle linee guida più precise su cosa potete fare.
+
+Ognuno di voi dovrà portare avanti una linea di progetto diversa dalle altre.
+
+Un paio di esempi al volo:
+- Marcatura in TEI delle entità presenti nel testo;
+- Raccolta, strutturazione dei dati in una tabella, e pulizia;
+- Modellazione semantica dei dati in un profilo applicativo, un vocabolario controllato, o una piccola ontologia.
+
+---
+
 ### Mi raccomando...
 
 Non dovete fare un lavoro perfetto. Un progetto digitale è sempre migliorabile, anche dopo un esame.
@@ -440,4 +564,3 @@ La cosa che più mi interessa è che abbiate consapevolezza delle tematiche trat
 
 ###### Sebastian Barzaghi | [sebastian.barzaghi2@unibo.it](mailto:sebastian.barzaghi2@unibo.it) | [https://orcid.org/0000-0002-0799-1527](https://orcid.org/0000-0002-0799-1527) | [https://www.unibo.it/sitoweb/sebastian.barzaghi2/](https://www.unibo.it/sitoweb/sebastian.barzaghi2/)
 
----

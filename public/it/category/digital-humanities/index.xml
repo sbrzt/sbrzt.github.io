@@ -1046,13 +1046,457 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>DHDMCH - PLAN - Pianificare</title>
+      <link>http://localhost:1313/it/slides/dhdmch-03/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-03/</guid>
+      <description>&lt;h1 id=&#34;plan-pianificare&#34;&gt;PLAN: Pianificare&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-dm-consiste-in-una-serie-di-attività-complesse&#34;&gt;Il DM consiste in una serie di attività complesse&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;../dhdmch-01/img/dmanagement.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Fonte: Gualandi, B. (2024). Data stewardship e open science nelle discipline umanistiche. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.12937887&#34;&gt;https://doi.org/10.5281/zenodo.12937887&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          La gestione dei dati consiste nella produzione, raccolta, analisi,  preservazione e condivisione dei dati.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pianificazione&#34;&gt;Pianificazione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34;
+      style=&#34;
+      width: 100px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 2% 15%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: identificare i tipi di dati, identificare i metadati, pianificare la loro organizzazione in dataset, e redigere un Data Management Plan (DMP).
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;../dhdmch-01/img/data-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;di-nuovo-partiamo-dai-dati&#34;&gt;Di nuovo, partiamo dai dati&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rinfreschiamoci-la-memoria&#34;&gt;Rinfreschiamoci la memoria&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/data.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Noppe, N., Vanvelk, J., &amp; Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I dati sono record fattuali raccolti, generati o riutilizzati come base di analisi, ragionamenti, discussioni o calcoli.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Vengono usati da studiosi e scienziati come strumenti per comprendere il mondo e generare conoscenza.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  OECD (2007). OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-tutti-i-dati-sono-uguali&#34;&gt;Non tutti i dati sono uguali&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dati-strutturati&#34;&gt;Dati strutturati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/data-types.png&#34;
+      style=&#34;
+      width: 265px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 100% 15%;
+      &#34;
+      /&gt;
+        &lt;figcaption&gt;
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. &lt;a href=&#34;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&#34;&gt;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Dati organizzati in uno schema predefinito (es. tabella).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Solitamente, sono facili da gestire e analizzare con l&#39;uso di database relazionali e linguaggi di interrogazione specifici (es. SQL).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esempi: tabelle di database, fogli di calcolo, ecc.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Sint, R., Schaffert, S., Stroka, S., &amp; Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. &lt;a href=&#34;https://ceur-ws.org/Vol-464/paper-14.pdf&#34;&gt;https://ceur-ws.org/Vol-464/paper-14.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dati-semi-strutturati&#34;&gt;Dati semi-strutturati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/data-types.png&#34;
+      style=&#34;
+      width: 265px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 45% 15%;
+      &#34;
+      /&gt;
+        &lt;figcaption&gt;
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. &lt;a href=&#34;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&#34;&gt;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Dati con una struttura parziale e flessibile.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Sono più flessibili dei dati strutturati ma richiedono spesso una strutturazione minima che segua determinati schemi di codifica e vocabolari controllati.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esempi: documenti XML, documenti JSON, documenti HTML, dataset RDF, ecc.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Sint, R., Schaffert, S., Stroka, S., &amp; Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. &lt;a href=&#34;https://ceur-ws.org/Vol-464/paper-14.pdf&#34;&gt;https://ceur-ws.org/Vol-464/paper-14.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dati-non-strutturati&#34;&gt;Dati non-strutturati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/data-types.png&#34;
+      style=&#34;
+      width: 255px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 0% 15%;
+      &#34;
+      /&gt;
+        &lt;figcaption&gt;
+            Fonte: Cardoso, J. (2007). Developing dynamic packaging applications using Semantic Web-based integration. In Semantic Web Technologies and E-Business: Toward the Integrated Virtual Organization and Business Process Automation (pp. 1-39). IGI Global. &lt;a href=&#34;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&#34;&gt;http://dx.doi.org/10.4018/978-1-59904-192-6.ch001&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Dati che mancano formalmente di una struttura organizzata.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Una loro analisi richiede l&#39;utilizzo di tecniche avanzate di processamento dei dati, come l’elaborazione del linguaggio naturale (NLP).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esempi: documenti di testo, registrazioni, immagini, ecc.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Sint, R., Schaffert, S., Stroka, S., &amp; Ferstl, R. (2009, June). Combining unstructured, fully structured and semi-structured information in semantic wikis. In CEUR workshop proceedings (Vol. 464, No. 12, pp. 73-87). Crete, Greece: Heraklion. &lt;a href=&#34;https://ceur-ws.org/Vol-464/paper-14.pdf&#34;&gt;https://ceur-ws.org/Vol-464/paper-14.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-identificare-i-dati&#34;&gt;Come identificare i dati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Di quali informazioni ho bisogno per realizzare il mio progetto?&lt;/li&gt;
+&lt;li&gt;Di quali informazioni ho bisogno per rispondere alle mie domande di ricerca?&lt;/li&gt;
+&lt;li&gt;Di quali informazioni hanno bisogno gli altri per comprendere e replicare quanto fatto da me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Arnold, B., Bowler, L., Gibson, S., Herterich, P., Higman, R., Krystalli, A., ... &amp; Whitaker, K. (2019). The Turing Way: A Handbook for Reproducible Data Science. Zenodo. &lt;a href=&#34;https://the-turing-way.netlify.app/&#34;&gt;https://the-turing-way.netlify.app/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-trovare-i-dati-esistenti&#34;&gt;Come trovare i dati (esistenti)&lt;/h3&gt;
+&lt;p&gt;Sul Web esistono tantissimi dataset disponibili in formato aperto, pubblicati e conservati all&amp;rsquo;interno di &lt;em&gt;repository&lt;/em&gt; dedicate.&lt;/p&gt;
+&lt;p&gt;Alcuni esempi di risorse per trovare dati:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.re3data.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.re3data.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fairsharing.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fairsharing.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oad.simmons.edu/oadwiki/Data_repositories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://oad.simmons.edu/oadwiki/Data_repositories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ma ovviamente dipende anche dal tipo di dati con cui avete bisogno di lavorare.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Arnold, B., Bowler, L., Gibson, S., Herterich, P., Higman, R., Krystalli, A., ... &amp; Whitaker, K. (2019). The Turing Way: A Handbook for Reproducible Data Science. Zenodo. &lt;a href=&#34;https://the-turing-way.netlify.app/&#34;&gt;https://the-turing-way.netlify.app/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;controllate-sempre-la-documentazione-dei-dati&#34;&gt;Controllate sempre la documentazione dei dati&lt;/h3&gt;
+&lt;p&gt;Per trovare, contestualizzare e utilizzare i dataset, è fondamentale controllare i &lt;strong&gt;metadati&lt;/strong&gt; che li descrivono.&lt;/p&gt;
+&lt;p&gt;Per esempio, una delle prime attività da fare quando si lavora con i dati è controllare la &lt;strong&gt;licenza&lt;/strong&gt; assegnata ad essi, per capire se e come possono essere utilizzati.&lt;/p&gt;
+&lt;p&gt;Più in generale, è fondamentale controllare la documentazione che accompagna i dati, in modo da poterli capire - e, di conseguenza, utilizzare con criterio e responsabilità.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;se-invece-state-creando-i-dati&#34;&gt;Se invece state creando i dati&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;&amp;hellip; Il discorso resta lo stesso!&lt;/p&gt;
+&lt;p&gt;Li identificate, a seconda delle vostre necessità, e li documentate fin dall&amp;rsquo;inizio, in maniera graduale e continua.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/data-documentation.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;a-te-tra-2000-anni&#34;&gt;A te, tra 2000 anni&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@sebastiantapiahuerta?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Sebastian Tapia Huerta&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/maccu-pichu-peru-5qba-p9ahTE?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-dato-è-anche-una-categoria-relazionale&#34;&gt;Un dato è anche una categoria relazionale&lt;/h3&gt;
+&lt;p&gt;Ciò che è considerabile &lt;em&gt;dato&lt;/em&gt; dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
+&lt;p&gt;Un oggetto diventa un dato quando è visto come prova reale o potenziale per una o più asserzioni riguardanti un certo fenomeno.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of Chicago Press. &lt;a href=&#34;https://doi.org/10.7208/chicago/9780226416502.001.0001&#34;&gt;https://doi.org/10.7208/chicago/9780226416502.001.0001&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-implicazioni-sono-di-vitale-importanza-oggi-più-che-mai&#34;&gt;Le implicazioni sono di vitale importanza, oggi più che mai&lt;/h3&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.5172/jfs.327.14.2-3.271&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5172/jfs.327.14.2-3.271&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ucsc.edu/2023/08/t2iat.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ucsc.edu/2023/08/t2iat.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.abc.net.au/news/2023-04-26/hidden-dangers-of-artificial-intelligence/102264038&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.abc.net.au/news/2023-04-26/hidden-dangers-of-artificial-intelligence/102264038&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.esquire.com/news-politics/politics/a33994802/pasco-county-sheriff-pre-crime-harassment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.esquire.com/news-politics/politics/a33994802/pasco-county-sheriff-pre-crime-harassment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-_data-documentation_-è-una-panoramica-chiara-sui-dati&#34;&gt;La &lt;em&gt;data documentation&lt;/em&gt; è una panoramica chiara sui dati&lt;/h3&gt;
+&lt;p&gt;Una descrizione critica di tutto quello che serve ad un&amp;rsquo;altra persona o ai voi stessi del futuro per trovare, comprendere, e contestualizzare i vostri dati in maniera indipendente.&lt;/p&gt;
+&lt;p&gt;I dati senza documentazione sono uno spreco di soldi, tempo, risorse, inutili (o addirittura dannosi).&lt;/p&gt;
+&lt;p&gt;Esempi: README, metadati, ecc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/photo.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati-1&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/book.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati-2&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/spreadsheet.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dati-per-descrivere-o-rappresentare-caratteristiche-di-altri-dati&#34;&gt;Dati per descrivere o rappresentare caratteristiche di altri dati&lt;/h3&gt;
+&lt;p&gt;Una forma di documentazione strutturata che descrive le caratteristiche di un oggetto, come autore, contenuto, qualità, formato, posizione, diritti di accesso, ecc.&lt;/p&gt;
+&lt;p&gt;Possono essere utilizzati per descrivere tanto gli oggetti fisici (es. frammenti di vaso, libri, campioni), quanto gli oggetti digitali (es. documenti, immagini, dataset, software).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-diverse-tipologie-di-metadati&#34;&gt;Esistono diverse tipologie di metadati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Descrittivi&lt;/strong&gt;: permettono la scoperta, identificazione e selezione dei dati. Includono elementi come &amp;ldquo;titolo&amp;rdquo;, &amp;ldquo;autore&amp;rdquo;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strutturali&lt;/strong&gt;: forniscono informazioni sull&amp;rsquo;organizzazione dei dati e su come questi siano in relazione l&amp;rsquo;uno con l&amp;rsquo;altro. Ad esempio, descrivono il layout di una
+tabella o le relazioni tra gli elementi che la compongono;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amministrativi&lt;/strong&gt;: facilitano la gestione dei dati. Includono elementi come &amp;ldquo;identificativo&amp;rdquo;, &amp;ldquo;licenza&amp;rdquo;, &lt;em&gt;provenance&lt;/em&gt;, ecc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-metadati-seguono-degli-schemi-standardizzati&#34;&gt;I metadati seguono degli schemi standardizzati&lt;/h3&gt;
+&lt;p&gt;Strutture concettuali che specificano quali metadati utilizzare e secondo quali regole.&lt;/p&gt;
+&lt;p&gt;Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una vera e propria lingua comune che favorisce l&amp;rsquo;ineroperabilità dei dati descritti.&lt;/p&gt;
+&lt;p&gt;Spesso specifici per ambito disciplinare, consolidati a livello delle comunità di ricerca, e implementati da piattaforme online (es. cataloghi, registri, basi di dati, portali, ecc.) e da infrastrutture di archiviazione e accesso a lungo termine.&lt;/p&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fairsharing.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fairsharing.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rd-alliance.github.io/metadata-directory/standards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rd-alliance.github.io/metadata-directory/standards/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dcc.ac.uk/guidance/standards/metadata/list&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.dcc.ac.uk/guidance/standards/metadata/list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-identificare-i-metadati&#34;&gt;Come identificare i metadati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Usa le risorse esistenti per individuare lo/gli schema/i di metadati più adatto a descrivere i tuoi dati, tenendo conto anche di altri fattori (es. archiviazione a lungo termine);&lt;/li&gt;
+&lt;li&gt;Identifica le informazioni richieste dallo/i schema/i e raccoglile durante il processo di gestione dei dati;&lt;/li&gt;
+&lt;li&gt;Usa - ovunque sia possibile - vocabolari controllati, schemi di codifica, e &lt;em&gt;authority file&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Quando depositi i dati, includi nei metadati informazioni fondamentali (es. persone coinvolte, identificativi, licenza);&lt;/li&gt;
+&lt;li&gt;Se alcune informazioni non possono essere strutturate nei metadati, devono essere fornite come documentazione aggiuntiva per facilitare la comprensione dei dati.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-metadati-sono-fondamentali-per-la-fairness&#34;&gt;I metadati sono fondamentali per la FAIRness&lt;/h3&gt;
+&lt;p&gt;I metadati fatti bene hanno un impatto molto profondo su&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reperibilità (&lt;em&gt;&lt;strong&gt;F&lt;/strong&gt;indability&lt;/em&gt;): i metadati rendono una risorsa trovabile più facilmente;&lt;/li&gt;
+&lt;li&gt;Accessibilità (&lt;em&gt;&lt;strong&gt;A&lt;/strong&gt;ccessibility&lt;/em&gt;): i metadati forniscono indicazioni su come avere accesso alla risorsa descritta;&lt;/li&gt;
+&lt;li&gt;Interoperabilità (&lt;em&gt;&lt;strong&gt;I&lt;/strong&gt;nteroperability&lt;/em&gt;): i metadati rendono una risorsa integrabile con altri dati, risorse, sistemi, applicazioni e flussi di lavoro;&lt;/li&gt;
+&lt;li&gt;Riusabilità (&lt;em&gt;&lt;strong&gt;R&lt;/strong&gt;eusability&lt;/em&gt;): i metadati forniscono indicazioni su aspetti fondamentali della risorsa, come la struttura e la semantica, la sua storia, e le istruzioni su come utilizzarla.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ma lo vedremo meglio durante la prossima lezione teorica&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/dmp-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;in-previsione-del-viaggio&#34;&gt;In previsione del viaggio&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@andreea_swank?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Andreea Swank&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/brown-and-black-galleon-ship-on-ocean-water-under-gray-sky-gFZ1OK7mbxc?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-data-management-plan-è-lo-strumento-principale-di-documentazione-dei-dati&#34;&gt;Un Data Management Plan è lo strumento principale di documentazione dei dati&lt;/h3&gt;
+&lt;p&gt;Documento &lt;strong&gt;vivente&lt;/strong&gt; che contiene informazioni su come gestire, organizzare, documentare tutti i dati che in qualche maniera fanno parte del progetto durante il suo ciclo di vita.&lt;/p&gt;
+&lt;p&gt;Può intimidire e sembrare eccessivo, ma serve a pensare sistematicamente attraverso il processo di ricerca da una &amp;ldquo;prospettiva dei dati&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Esempio: Gualandi, B., &amp;amp; Peroni, S. (2024). Data Management Plan: second version (1.0). Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.10727879&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.10727879&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-_molti_-elementi&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fornisce una panoramica dettagliata dei dati di ricerca, sia nuovi che riutilizzati;&lt;/li&gt;
+&lt;li&gt;Specifica metodologie, strumenti e software utilizzati per raccogliere, creare o analizzare i dati;&lt;/li&gt;
+&lt;li&gt;Indica le strategie che utilizzerai per assicurare la qualità dei dati ed evitare possibili imprecisioni o incoerenze;&lt;/li&gt;
+&lt;li&gt;Riporta le strategie di conservazione dei dati, ad esempio in termini di condivisione con i collaboratori o di creazione di copie di backup;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-_molti_-elementi-1&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Descrive le strategie di archiviazione a lungo termine e di applicazione dei principi FAIR ai dati;&lt;/li&gt;
+&lt;li&gt;Descrivi i ruoli e le responsabilità all’interno del team di ricerca;&lt;/li&gt;
+&lt;li&gt;Documenta i costi, anche in termini di tempo, associati alla gestione dei dati;&lt;/li&gt;
+&lt;li&gt;Tratta gli aspetti di gestione dei dati legati alla privacy, ai diritti di proprietà intellettuale e all’etica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-stilare-un-dmp&#34;&gt;Come stilare un DMP&lt;/h3&gt;
+&lt;p&gt;Trattandosi di un documento di testo, è possibile scriverlo a mano, utilizzare template esistenti da compilare, oppure utilizzare strumenti per una sua generazione semi-automatica.&lt;/p&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://argos.openaire.eu/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://argos.openaire.eu/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ds-wizard.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ds-wizard.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dmptool.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dmptool.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dmponline.dcc.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dmponline.dcc.ac.uk/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Noi lo faremo alla vecchia maniera, durante la prossima lezione, scrivendolo a mano in Markdown.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;progetto-desame&#34;&gt;Progetto d&amp;rsquo;esame&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-guide-turistiche-di-roma-dal-medioevo-al-xix-secolo&#34;&gt;Le guide turistiche di Roma, dal Medioevo al XIX secolo&lt;/h3&gt;
+&lt;p&gt;Nel corso dei secoli, le guide turistiche di Roma evolvono da strumenti medievali pieni di leggende a opere scientifiche e artistiche del Rinascimento, per poi trasformarsi in guide moderne, pratiche e orientate al turismo di massa nel XVIII e XIX secolo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-guide-turistiche-di-roma-dal-medioevo-al-xix-secolo-1&#34;&gt;Le guide turistiche di Roma, dal Medioevo al XIX secolo&lt;/h3&gt;
+&lt;p&gt;Sin dall&amp;rsquo;antichità, Roma è stata una meta di viaggi, inizialmente per motivi politici e culturali, e poi come importante centro di pellegrinaggio cristiano a partire dal IV secolo, grazie alla presenza dei sepolcri dei martiri. Le prime guide turistiche erano influenzate da leggende e etimologie medievali.&lt;/p&gt;
+&lt;p&gt;Nel Rinascimento, si sviluppa un approccio più erudito e scientifico, con un maggiore studio delle rovine romane e la ricostruzione della città antica basata su fonti classiche e iscrizioni.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-guide-turistiche-di-roma-dal-medioevo-al-xix-secolo-2&#34;&gt;Le guide turistiche di Roma, dal Medioevo al XIX secolo&lt;/h3&gt;
+&lt;p&gt;Più avanti, le guide si dividono in due tipologie: quelle per viaggiatori eruditi, ricche di dettagli storici e artistici, e quelle per il pubblico più ampio, con informazioni più pratiche.&lt;/p&gt;
+&lt;p&gt;Le guide diventano poi strumenti pratici per i turisti, con itinerari dettagliati e descrizioni più maneggevoli e illustrate.&lt;/p&gt;
+&lt;p&gt;Infine, verso il XIX secolo, le guide diventano caratterizzate da itinerari precisi, informazioni pratiche e dettagli su tariffe, alloggi ed eventi locali.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempi-di-elementi-di-interesse-per-un-esperto-di-dominio&#34;&gt;Esempi di elementi di interesse per un esperto di dominio&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Luoghi di interesse citati;&lt;/li&gt;
+&lt;li&gt;Opere d&amp;rsquo;arte citate;&lt;/li&gt;
+&lt;li&gt;Autori delle opere citate;&lt;/li&gt;
+&lt;li&gt;Biblioteche e manoscritti/opere a stampa citate;&lt;/li&gt;
+&lt;li&gt;Persone correlate a vario titolo ai luoghi (mecenati, bibliotecari, conservatori, ecc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Un&amp;rsquo;analisi di questi elementi può aiutare a capire come si evolve la citazione nel corso del tempo, quali elementi tendono ad essere associati agli altri, quali tendono ad emergere più spesso dal discorso degli autori, ecc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;progetto-desame-1&#34;&gt;Progetto d&amp;rsquo;esame&lt;/h3&gt;
+&lt;p&gt;Ognuno di voi dovrà portare un progetto di gestione dei dati riguardante questo dominio di conoscenza, sulla base dei documenti disponibili (che vi fornirò a tempo debito).&lt;/p&gt;
+&lt;p&gt;Il progetto avrà la forma di una repository Git, pubblicata su GitHub, con documentazione scritta in Markdown (inclusi i vari README, un DMP, e una piccola pagina Web che servirà da principale vetrina di comunicazione), e contenente anche i dati che utilizzerete e che produrrete. I dati, inoltre, dovranno essere pubblicati anche su Zenodo.&lt;/p&gt;
+&lt;p&gt;All&amp;rsquo;esame mi dovrete presentare il progetto tramite la pagina Web, che dovrà contenere in sostanza una descrizione succinta di cosa avete fatto e come.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-contenuto&#34;&gt;Il contenuto?&lt;/h3&gt;
+&lt;p&gt;A livello contenutistico, vi darò delle linee guida più precise su cosa potete fare.&lt;/p&gt;
+&lt;p&gt;Ognuno di voi dovrà portare avanti una linea di progetto diversa dalle altre.&lt;/p&gt;
+&lt;p&gt;Un paio di esempi al volo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Marcatura in TEI delle entità presenti nel testo (e magari un&amp;rsquo;analisi anche quantitativa delle occorrenze?);&lt;/li&gt;
+&lt;li&gt;Raccolta, strutturazione dei dati in una tabella, e pulizia;&lt;/li&gt;
+&lt;li&gt;Modellazione semantica dei dati in un profilo applicativo, un vocabolario controllato, o una piccola ontologia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;mi-raccomando&#34;&gt;Mi raccomando&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Non dovete fare un lavoro perfetto. Un progetto digitale è sempre migliorabile, anche dopo un esame.&lt;/p&gt;
+&lt;p&gt;La cosa che più mi interessa è che abbiate consapevolezza delle tematiche trattate, della metodologia, e degli strumenti utilizzati, e che sappiate trasmettermi questa consapevolezza durante l&amp;rsquo;esposizione.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - Primi passi</title>
       <link>http://localhost:1313/it/slides/dhdmch-02/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/dhdmch-02/</guid>
       <description>&lt;h1 id=&#34;primi-passi&#34;&gt;Primi passi&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-02-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 02 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
-&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/h6&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;versionamento&#34;&gt;Versionamento&lt;/h2&gt;
 &lt;hr&gt;
@@ -1810,7 +2254,187 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;24-potete-creare-nuovi-file-in-almeno-due-modi&#34;&gt;24. Potete creare nuovi file in almeno due modi&lt;/h3&gt;
+&lt;h3 id=&#34;24-se-invece-vogliamo-inviare-modifiche-dal-nostro-_fork_-alla-repository-di-origine-dobbiamo-mandare-un-_pull-request_&#34;&gt;24. Se invece vogliamo inviare modifiche dal nostro &lt;em&gt;fork&lt;/em&gt; alla repository di origine, dobbiamo mandare un &lt;em&gt;pull request&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp 400w,
+               /it/slides/dhdmch-02/img/0235_hu12068622548557271725.webp 760w,
+               /it/slides/dhdmch-02/img/0235_hu3996459036790980997.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;25-prima-apriamo-il-_pull-request_&#34;&gt;25. Prima apriamo il &lt;em&gt;pull request&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp 400w,
+               /it/slides/dhdmch-02/img/0236_hu6482062782361292217.webp 760w,
+               /it/slides/dhdmch-02/img/0236_hu9124961503794694590.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;26-poi-verifichiamo-che-non-ci-siano-conflitti-e-facciamo-_merge_&#34;&gt;26. Poi verifichiamo che non ci siano conflitti, e facciamo &lt;em&gt;merge&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp 400w,
+               /it/slides/dhdmch-02/img/0237_hu11219664966579550247.webp 760w,
+               /it/slides/dhdmch-02/img/0237_hu11601159818575706197.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;27-confermiamo-il-_merge_-tramite-un-_commit_&#34;&gt;27. Confermiamo il &lt;em&gt;merge&lt;/em&gt; tramite un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp 400w,
+               /it/slides/dhdmch-02/img/0238_hu7300193164722962581.webp 760w,
+               /it/slides/dhdmch-02/img/0238_hu12292049150924318488.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;28-il-_merge_-è-stato-effettuato-con-successo&#34;&gt;28. Il &lt;em&gt;merge&lt;/em&gt; è stato effettuato con successo&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp 400w,
+               /it/slides/dhdmch-02/img/0239_hu17206343429452009424.webp 760w,
+               /it/slides/dhdmch-02/img/0239_hu562862717664442030.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;29-possiamo-verificarlo-anche-nella-repo-di-origine&#34;&gt;29. Possiamo verificarlo anche nella repo di origine&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp 400w,
+               /it/slides/dhdmch-02/img/0240_hu14975135134252092802.webp 760w,
+               /it/slides/dhdmch-02/img/0240_hu3562733759342420585.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;30-potete-creare-nuovi-file-in-almeno-due-modi&#34;&gt;30. Potete creare nuovi file in almeno due modi&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1840,7 +2464,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;25-potete-creare-un-nuovo-file-direttamente-su-github&#34;&gt;25. Potete creare un nuovo file direttamente su GitHub&lt;/h3&gt;
+&lt;h3 id=&#34;31-potete-creare-un-nuovo-file-direttamente-su-github&#34;&gt;31. Potete creare un nuovo file direttamente su GitHub&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1870,7 +2494,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;26-per-confermare-la-creazione-del-file-è-sufficente-eseguire-un-_commit_&#34;&gt;26. Per confermare la creazione del file, è sufficente eseguire un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;32-per-confermare-la-creazione-del-file-è-sufficente-eseguire-un-_commit_&#34;&gt;32. Per confermare la creazione del file, è sufficente eseguire un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1900,7 +2524,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;27-ora-il-file-è-stato-creato-ed-è-visualizzabile&#34;&gt;27. Ora il file è stato creato ed è visualizzabile&lt;/h3&gt;
+&lt;h3 id=&#34;33-ora-il-file-è-stato-creato-ed-è-visualizzabile&#34;&gt;33. Ora il file è stato creato ed è visualizzabile&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1930,7 +2554,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;28-in-alternativa-potete-anche-caricare-un-file-esistente-sul-vostro-computer&#34;&gt;28. In alternativa, potete anche caricare un file esistente sul vostro computer&lt;/h3&gt;
+&lt;h3 id=&#34;34-in-alternativa-potete-anche-caricare-un-file-esistente-sul-vostro-computer&#34;&gt;34. In alternativa, potete anche caricare un file esistente sul vostro computer&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1960,7 +2584,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;29-una-volta-caricato-il-file-eseguite-il-_commit_&#34;&gt;29. Una volta caricato il file, eseguite il &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;35-una-volta-caricato-il-file-eseguite-il-_commit_&#34;&gt;35. Una volta caricato il file, eseguite il &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1990,7 +2614,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;30-di-nuovo-ora-il-file-è-stato-caricato-ed-è-visualizzabile&#34;&gt;30. Di nuovo, ora il file è stato caricato ed è visualizzabile&lt;/h3&gt;
+&lt;h3 id=&#34;36-di-nuovo-ora-il-file-è-stato-caricato-ed-è-visualizzabile&#34;&gt;36. Di nuovo, ora il file è stato caricato ed è visualizzabile&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2020,7 +2644,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;31-potete-ovviamente-eliminare-i-file&#34;&gt;31. Potete ovviamente eliminare i file&lt;/h3&gt;
+&lt;h3 id=&#34;37-potete-ovviamente-eliminare-i-file&#34;&gt;37. Potete ovviamente eliminare i file&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2050,7 +2674,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;32-prima-di-eliminare-i-file-prima-avrete-unanticipazione&#34;&gt;32. Prima di eliminare i file, prima avrete un&amp;rsquo;anticipazione&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;38-prima-di-eliminare-i-file-prima-avrete-unanticipazione&#34;&gt;38. Prima di eliminare i file, prima avrete un&amp;rsquo;anticipazione&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2080,7 +2704,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;33--e-poi-dovrete-confermare-loperazione-con-un-_commit_&#34;&gt;33. &amp;hellip; E poi dovrete confermare l&amp;rsquo;operazione con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;39--e-poi-dovrete-confermare-loperazione-con-un-_commit_&#34;&gt;39. &amp;hellip; E poi dovrete confermare l&amp;rsquo;operazione con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2110,7 +2734,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;34-ora-il-file-è-stato-correttamente-eliminato&#34;&gt;34. Ora il file è stato correttamente eliminato&lt;/h3&gt;
+&lt;h3 id=&#34;40-ora-il-file-è-stato-correttamente-eliminato&#34;&gt;40. Ora il file è stato correttamente eliminato&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2158,7 +2782,9 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Nome
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Descrizione
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Il cosa, perché e come del progetto. Qual&amp;#39;è la motivazione? Quale problema stiamo risolvendo? Cosa abbiamo imparato?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Il cosa, perché e come del progetto. Qual&amp;#39;è 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;la motivazione? Quale problema stiamo risolvendo? 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Cosa abbiamo imparato?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Fonti
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Link alle fonti dei dati utilizzati
@@ -2173,18 +2799,67 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Etichetta e link alla licenza
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Changelog
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sezione dove teniamo traccia di quello che abbiamo fatto e delle modifiche avvenute (prima la più recente)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sezione dove teniamo traccia di quello che 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;abbiamo fatto e delle modifiche avvenute 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(prima la più recente)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;4-facciamo-un-_commit_-per-salvare-il-file&#34;&gt;4. Facciamo un &lt;em&gt;commit&lt;/em&gt; per salvare il file&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;5-ora-creiamo-due-cartelle-una-chiamata-data-laltra-docs&#34;&gt;5. Ora creiamo due cartelle: una chiamata &lt;code&gt;data&lt;/code&gt;, l&amp;rsquo;altra &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;5-modifichiamo-il-file-inserendo-informazioni-vere-tra-quelle-che-abbiamo-a-disposizione&#34;&gt;5. Modifichiamo il file, inserendo informazioni vere (tra quelle che abbiamo a disposizione)&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-facciamo-un-altro-_commit_-per-salvare-le-modifiche&#34;&gt;6. Facciamo un altro &lt;em&gt;commit&lt;/em&gt; per salvare le modifiche&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;7-ora-creiamo-due-cartelle-una-chiamata-data-laltra-docs&#34;&gt;7. Ora creiamo due cartelle: una chiamata &lt;code&gt;data&lt;/code&gt;, l&amp;rsquo;altra &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Non è possibile creare cartelle direttamente su GitHub, quindi le creeremo in locale e le caricheremo.&lt;/p&gt;
 &lt;p&gt;GitHub non accetta cartelle vuote, quindi dobbiamo riempirle con qualcosa per poterle caricare con successo.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;6-per-ora-docs-e-data-conterranno-altri-readme-vuoti&#34;&gt;6. Per ora, &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; conterranno altri README (vuoti)&lt;/h3&gt;
+&lt;h3 id=&#34;8-per-ora-docs-e-data-conterranno-altri-readmetxt-vuoti&#34;&gt;8. Per ora, &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; conterranno altri README.txt (vuoti)&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;7-finalizziamo-il-caricamento-di-docs-e-data-con-un-_commit_&#34;&gt;7. Finalizziamo il caricamento di &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;9-finalizziamo-il-caricamento-di-docs-e-data-con-un-_commit_&#34;&gt;9. Finalizziamo il caricamento di &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;10-ora-tocca-a-voi&#34;&gt;10. Ora tocca a voi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dividetevi in due gruppi&lt;/li&gt;
+&lt;li&gt;Forkate la repository&lt;/li&gt;
+&lt;li&gt;Un gruppo compilerà il README di &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;altro gruppo si occuperà del README di &lt;code&gt;data&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Una volta modificati i rispettivi documenti, effettuate i &lt;em&gt;pull request&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;11-readme-di-docs&#34;&gt;11. README di &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Documentazione di progetto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Indice
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Data Management Plan
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Data Management Plan
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Nome del file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dmp.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Descrizione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Piano di gestione dei dati del progetto.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Data di creazione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2024-11-18
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;12-readme-di-data&#34;&gt;12. README di &lt;code&gt;data&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Dataset utilizzati
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Indice
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Dataset Mythologiae
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Dataset Mythologiae
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Nome del file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dataset_mythologiae.csv
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Descrizione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dataset contenente i dati degli oggetti appartenenti alla collezione Mythologiae.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Formato
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CSV
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;oltre-la-semplice-interfaccia&#34;&gt;Oltre la semplice interfaccia&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-github-desktop&#34;&gt;1. GitHub Desktop&lt;/h3&gt;
@@ -2206,15 +2881,16 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
 &lt;h3 id=&#34;git-su-linea-di-comando&#34;&gt;Git su linea di comando&lt;/h3&gt;
 &lt;p&gt;Decisamente il metodo migliore, soprattutto per gli sviluppatori.&lt;/p&gt;
 &lt;p&gt;Richiede un certo tipo di sforzo, ma una volta compresi i concetti di Git e il funzionamento della linea di comando, diventa parte naturale del flusso di lavoro.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Testo del commit&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-02-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 02 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
     </item>
     
     <item>

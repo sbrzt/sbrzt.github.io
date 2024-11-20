@@ -1052,7 +1052,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       <guid>http://localhost:1313/it/slides/dhdmch-02/</guid>
       <description>&lt;h1 id=&#34;primi-passi&#34;&gt;Primi passi&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-02-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 02 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
-&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt;&lt;/h6&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;versionamento&#34;&gt;Versionamento&lt;/h2&gt;
 &lt;hr&gt;
@@ -1810,7 +1810,187 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;24-potete-creare-nuovi-file-in-almeno-due-modi&#34;&gt;24. Potete creare nuovi file in almeno due modi&lt;/h3&gt;
+&lt;h3 id=&#34;24-se-invece-vogliamo-inviare-modifiche-dal-nostro-_fork_-alla-repository-di-origine-dobbiamo-mandare-un-_pull-request_&#34;&gt;24. Se invece vogliamo inviare modifiche dal nostro &lt;em&gt;fork&lt;/em&gt; alla repository di origine, dobbiamo mandare un &lt;em&gt;pull request&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp 400w,
+               /it/slides/dhdmch-02/img/0235_hu12068622548557271725.webp 760w,
+               /it/slides/dhdmch-02/img/0235_hu3996459036790980997.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;25-prima-apriamo-il-_pull-request_&#34;&gt;25. Prima apriamo il &lt;em&gt;pull request&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp 400w,
+               /it/slides/dhdmch-02/img/0236_hu6482062782361292217.webp 760w,
+               /it/slides/dhdmch-02/img/0236_hu9124961503794694590.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;26-poi-verifichiamo-che-non-ci-siano-conflitti-e-facciamo-_merge_&#34;&gt;26. Poi verifichiamo che non ci siano conflitti, e facciamo &lt;em&gt;merge&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp 400w,
+               /it/slides/dhdmch-02/img/0237_hu11219664966579550247.webp 760w,
+               /it/slides/dhdmch-02/img/0237_hu11601159818575706197.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;27-confermiamo-il-_merge_-tramite-un-_commit_&#34;&gt;27. Confermiamo il &lt;em&gt;merge&lt;/em&gt; tramite un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp 400w,
+               /it/slides/dhdmch-02/img/0238_hu7300193164722962581.webp 760w,
+               /it/slides/dhdmch-02/img/0238_hu12292049150924318488.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;28-il-_merge_-è-stato-effettuato-con-successo&#34;&gt;28. Il &lt;em&gt;merge&lt;/em&gt; è stato effettuato con successo&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp 400w,
+               /it/slides/dhdmch-02/img/0239_hu17206343429452009424.webp 760w,
+               /it/slides/dhdmch-02/img/0239_hu562862717664442030.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;29-possiamo-verificarlo-anche-nella-repo-di-origine&#34;&gt;29. Possiamo verificarlo anche nella repo di origine&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp 400w,
+               /it/slides/dhdmch-02/img/0240_hu14975135134252092802.webp 760w,
+               /it/slides/dhdmch-02/img/0240_hu3562733759342420585.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;30-potete-creare-nuovi-file-in-almeno-due-modi&#34;&gt;30. Potete creare nuovi file in almeno due modi&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1840,7 +2020,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;25-potete-creare-un-nuovo-file-direttamente-su-github&#34;&gt;25. Potete creare un nuovo file direttamente su GitHub&lt;/h3&gt;
+&lt;h3 id=&#34;31-potete-creare-un-nuovo-file-direttamente-su-github&#34;&gt;31. Potete creare un nuovo file direttamente su GitHub&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1870,7 +2050,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;26-per-confermare-la-creazione-del-file-è-sufficente-eseguire-un-_commit_&#34;&gt;26. Per confermare la creazione del file, è sufficente eseguire un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;32-per-confermare-la-creazione-del-file-è-sufficente-eseguire-un-_commit_&#34;&gt;32. Per confermare la creazione del file, è sufficente eseguire un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1900,7 +2080,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;27-ora-il-file-è-stato-creato-ed-è-visualizzabile&#34;&gt;27. Ora il file è stato creato ed è visualizzabile&lt;/h3&gt;
+&lt;h3 id=&#34;33-ora-il-file-è-stato-creato-ed-è-visualizzabile&#34;&gt;33. Ora il file è stato creato ed è visualizzabile&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1930,7 +2110,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;28-in-alternativa-potete-anche-caricare-un-file-esistente-sul-vostro-computer&#34;&gt;28. In alternativa, potete anche caricare un file esistente sul vostro computer&lt;/h3&gt;
+&lt;h3 id=&#34;34-in-alternativa-potete-anche-caricare-un-file-esistente-sul-vostro-computer&#34;&gt;34. In alternativa, potete anche caricare un file esistente sul vostro computer&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1960,7 +2140,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;29-una-volta-caricato-il-file-eseguite-il-_commit_&#34;&gt;29. Una volta caricato il file, eseguite il &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;35-una-volta-caricato-il-file-eseguite-il-_commit_&#34;&gt;35. Una volta caricato il file, eseguite il &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1990,7 +2170,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;30-di-nuovo-ora-il-file-è-stato-caricato-ed-è-visualizzabile&#34;&gt;30. Di nuovo, ora il file è stato caricato ed è visualizzabile&lt;/h3&gt;
+&lt;h3 id=&#34;36-di-nuovo-ora-il-file-è-stato-caricato-ed-è-visualizzabile&#34;&gt;36. Di nuovo, ora il file è stato caricato ed è visualizzabile&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2020,7 +2200,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;31-potete-ovviamente-eliminare-i-file&#34;&gt;31. Potete ovviamente eliminare i file&lt;/h3&gt;
+&lt;h3 id=&#34;37-potete-ovviamente-eliminare-i-file&#34;&gt;37. Potete ovviamente eliminare i file&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2050,7 +2230,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;32-prima-di-eliminare-i-file-prima-avrete-unanticipazione&#34;&gt;32. Prima di eliminare i file, prima avrete un&amp;rsquo;anticipazione&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;38-prima-di-eliminare-i-file-prima-avrete-unanticipazione&#34;&gt;38. Prima di eliminare i file, prima avrete un&amp;rsquo;anticipazione&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2080,7 +2260,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;33--e-poi-dovrete-confermare-loperazione-con-un-_commit_&#34;&gt;33. &amp;hellip; E poi dovrete confermare l&amp;rsquo;operazione con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;39--e-poi-dovrete-confermare-loperazione-con-un-_commit_&#34;&gt;39. &amp;hellip; E poi dovrete confermare l&amp;rsquo;operazione con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2110,7 +2290,7 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;34-ora-il-file-è-stato-correttamente-eliminato&#34;&gt;34. Ora il file è stato correttamente eliminato&lt;/h3&gt;
+&lt;h3 id=&#34;40-ora-il-file-è-stato-correttamente-eliminato&#34;&gt;40. Ora il file è stato correttamente eliminato&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -2158,7 +2338,9 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Nome
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Descrizione
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Il cosa, perché e come del progetto. Qual&amp;#39;è la motivazione? Quale problema stiamo risolvendo? Cosa abbiamo imparato?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Il cosa, perché e come del progetto. Qual&amp;#39;è 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;la motivazione? Quale problema stiamo risolvendo? 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Cosa abbiamo imparato?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Fonti
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Link alle fonti dei dati utilizzati
@@ -2173,18 +2355,67 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Etichetta e link alla licenza
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Changelog
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sezione dove teniamo traccia di quello che abbiamo fatto e delle modifiche avvenute (prima la più recente)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Sezione dove teniamo traccia di quello che 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;abbiamo fatto e delle modifiche avvenute 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(prima la più recente)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;4-facciamo-un-_commit_-per-salvare-il-file&#34;&gt;4. Facciamo un &lt;em&gt;commit&lt;/em&gt; per salvare il file&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;5-ora-creiamo-due-cartelle-una-chiamata-data-laltra-docs&#34;&gt;5. Ora creiamo due cartelle: una chiamata &lt;code&gt;data&lt;/code&gt;, l&amp;rsquo;altra &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;5-modifichiamo-il-file-inserendo-informazioni-vere-tra-quelle-che-abbiamo-a-disposizione&#34;&gt;5. Modifichiamo il file, inserendo informazioni vere (tra quelle che abbiamo a disposizione)&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-facciamo-un-altro-_commit_-per-salvare-le-modifiche&#34;&gt;6. Facciamo un altro &lt;em&gt;commit&lt;/em&gt; per salvare le modifiche&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;7-ora-creiamo-due-cartelle-una-chiamata-data-laltra-docs&#34;&gt;7. Ora creiamo due cartelle: una chiamata &lt;code&gt;data&lt;/code&gt;, l&amp;rsquo;altra &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Non è possibile creare cartelle direttamente su GitHub, quindi le creeremo in locale e le caricheremo.&lt;/p&gt;
 &lt;p&gt;GitHub non accetta cartelle vuote, quindi dobbiamo riempirle con qualcosa per poterle caricare con successo.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;6-per-ora-docs-e-data-conterranno-altri-readme-vuoti&#34;&gt;6. Per ora, &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; conterranno altri README (vuoti)&lt;/h3&gt;
+&lt;h3 id=&#34;8-per-ora-docs-e-data-conterranno-altri-readmetxt-vuoti&#34;&gt;8. Per ora, &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; conterranno altri README.txt (vuoti)&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;7-finalizziamo-il-caricamento-di-docs-e-data-con-un-_commit_&#34;&gt;7. Finalizziamo il caricamento di &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;9-finalizziamo-il-caricamento-di-docs-e-data-con-un-_commit_&#34;&gt;9. Finalizziamo il caricamento di &lt;code&gt;docs&lt;/code&gt; e &lt;code&gt;data&lt;/code&gt; con un &lt;em&gt;commit&lt;/em&gt;&lt;/h3&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;10-ora-tocca-a-voi&#34;&gt;10. Ora tocca a voi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dividetevi in due gruppi&lt;/li&gt;
+&lt;li&gt;Forkate la repository&lt;/li&gt;
+&lt;li&gt;Un gruppo compilerà il README di &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;altro gruppo si occuperà del README di &lt;code&gt;data&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Una volta modificati i rispettivi documenti, effettuate i &lt;em&gt;pull request&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;11-readme-di-docs&#34;&gt;11. README di &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Documentazione di progetto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Indice
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Data Management Plan
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Data Management Plan
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Nome del file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dmp.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Descrizione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Piano di gestione dei dati del progetto.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Data di creazione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2024-11-18
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;12-readme-di-data&#34;&gt;12. README di &lt;code&gt;data&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Dataset utilizzati
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Indice
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Dataset Mythologiae
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Dataset Mythologiae
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Nome del file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dataset_mythologiae.csv
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Descrizione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dataset contenente i dati degli oggetti appartenenti alla collezione Mythologiae.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Formato
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CSV
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;oltre-la-semplice-interfaccia&#34;&gt;Oltre la semplice interfaccia&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-github-desktop&#34;&gt;1. GitHub Desktop&lt;/h3&gt;
@@ -2206,15 +2437,16 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
 &lt;h3 id=&#34;git-su-linea-di-comando&#34;&gt;Git su linea di comando&lt;/h3&gt;
 &lt;p&gt;Decisamente il metodo migliore, soprattutto per gli sviluppatori.&lt;/p&gt;
 &lt;p&gt;Richiede un certo tipo di sforzo, ma una volta compresi i concetti di Git e il funzionamento della linea di comando, diventa parte naturale del flusso di lavoro.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Testo del commit&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-02-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 02 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
     </item>
     
     <item>
