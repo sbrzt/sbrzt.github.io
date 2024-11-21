@@ -1040,6 +1040,272 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>DHDMCH - Diario di bordo</title>
+      <link>http://localhost:1313/it/slides/dhdmch-04/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-04/</guid>
+      <description>&lt;h1 id=&#34;diario-di-bordo&#34;&gt;Diario di bordo&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-04-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 04 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-linguaggio-di-markup-leggero&#34;&gt;Un linguaggio di markup leggero&lt;/h3&gt;
+&lt;p&gt;Markdown consente di scrivere testi formattati utilizzando una sintassi semplice e facilmente leggibile.&lt;/p&gt;
+&lt;p&gt;Viene utilizzato in vari contesti, come la scrittura di documentazione tecnica, blog, README files su piattaforme come GitHub, e anche per creare contenuti in sistemi di gestione dei contenuti (CMS) o piattaforme di blogging come Jekyll e Hugo.&lt;/p&gt;
+&lt;p&gt;Markdown serve per semplificare la scrittura di documenti formattati, permettendo agli utenti di concentrarsi sul contenuto senza doversi preoccupare della complessità del codice. La sua sintassi intuitiva lo rende ideale per scrivere in modo rapido e strutturato, ed è facilmente convertibile in HTML o altri formati, rendendolo perfetto per la pubblicazione su web o la condivisione di documenti tecnici in modo efficiente.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Gruber, J. (2012). Markdown: Syntax. URL &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;http://daringfireball.net/projects/markdown/syntax&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;la-sintassi&#34;&gt;La sintassi&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;corsivo&#34;&gt;Corsivo&lt;/h3&gt;
+&lt;p&gt;Per rendere una frase in corsivo in Markdown, puoi racchiudere le parole con un trattino basso &lt;code&gt;_&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Una parola _in corsivo_.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Una parola in &lt;em&gt;corsivo&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grassetto&#34;&gt;Grassetto&lt;/h3&gt;
+&lt;p&gt;Allo stesso modo, per rendere una frase in grassetto in Markdown, puoi racchiudere le parole con due asterischi &lt;code&gt;**&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Una parola **in grassetto**.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Una parola in &lt;strong&gt;grassetto&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grassetto--corsivo&#34;&gt;Grassetto + corsivo&lt;/h3&gt;
+&lt;p&gt;Naturalmente, puoi usare &lt;em&gt;sia il corsivo che il &lt;strong&gt;grassetto&lt;/strong&gt;&lt;/em&gt; nella stessa riga. Puoi anche applicarli &lt;strong&gt;su più parole&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In generale, non importa in quale ordine metti gli asterischi o i trattini bassi.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;intestazioni&#34;&gt;Intestazioni&lt;/h3&gt;
+&lt;p&gt;In Markdown, le intestazioni sono precedute da uno o più cancelletti &lt;code&gt;#&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Esistono sei livelli di intestazioni in Markdown:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# Intestazione 1&lt;/code&gt;
+&lt;code&gt;## Intestazione 2&lt;/code&gt;
+&lt;code&gt;### Intestazione 3&lt;/code&gt;
+&lt;code&gt;#### Intestazione 4&lt;/code&gt;
+&lt;code&gt;##### Intestazione 5&lt;/code&gt;
+&lt;code&gt;###### Intestazione 6&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;
+&lt;p&gt;Esistono due tipi di link in Markdown (link inline e reference link), ma entrambi vengono visualizzati nello stesso modo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link-inline&#34;&gt;Link inline&lt;/h3&gt;
+&lt;p&gt;Per creare un link inline, racchiudi il testo del link tra parentesi quadre &lt;code&gt;[ ]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Poi racchiudi l&amp;rsquo;URL tra parentesi tonde &lt;code&gt;( )&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Link al mio [sito](https://sbrzt.netlify.app).&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Link al mio &lt;a href=&#34;https://sbrzt.netlify.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sito&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link-veloci&#34;&gt;Link veloci&lt;/h3&gt;
+&lt;p&gt;Per trasformare rapidamente un URL o un indirizzo email in un link, racchiudilo tra caporali &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;sebastian.barzaghi2@unibo.it&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reference-link&#34;&gt;Reference link&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;altro tipo di link si chiama reference link, poiché fa riferimento a un altro punto nel documento.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ecco [un link a qualcos&amp;#39;altro][altro luogo].
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ecco [un altro link][altro-link].
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    E ora torniamo a [primo link][altro luogo].
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    [altro luogo]: www.github.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    [altro-link]: www.google.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ecco &lt;a href=&#34;www.github.com&#34;&gt;un link a qualcos&amp;rsquo;altro&lt;/a&gt;.&lt;br&gt;
+Ecco &lt;a href=&#34;www.google.com&#34;&gt;un altro link&lt;/a&gt;.&lt;br&gt;
+E ora torniamo a &lt;a href=&#34;www.github.com&#34;&gt;primo link&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;immagini&#34;&gt;Immagini&lt;/h3&gt;
+&lt;p&gt;Se sai come creare link in Markdown, puoi creare anche immagini. La sintassi è quasi la stessa.&lt;/p&gt;
+&lt;p&gt;Per creare un&amp;rsquo;immagine, inserisci un punto esclamativo &lt;code&gt;!&lt;/code&gt;, racchiudi il testo alternativo tra parentesi quadre &lt;code&gt;[ ]&lt;/code&gt;, e poi racchiudi il link dell&amp;rsquo;immagine tra parentesi tonde &lt;code&gt;( )&lt;/code&gt; (Il testo alternativo è una frase o una frase che descrive l&amp;rsquo;immagine per le persone con disabilità visive).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;![Benjamin Bannekat](http://octodex.github.com/images/founding-father.jpg)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://octodex.github.com/images/founding-father.jpg&#34; alt=&#34;Benjamin Bannekat&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;citazioni&#34;&gt;Citazioni&lt;/h3&gt;
+&lt;p&gt;Per creare una citazione, tutto quello che devi fare è precedere la linea con il simbolo &amp;ldquo;maggiore di&amp;rdquo; &lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;gt; Questo è un paragrafo.&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Questo è un paragrafo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;citazioni-su-più-righe&#34;&gt;Citazioni su più righe&lt;/h3&gt;
+&lt;p&gt;Puoi anche inserire un simbolo maggiore su ogni riga della citazione. Questo è particolarmente utile se la citazione si estende su più paragrafi.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; Inizio del paragrafo...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; ... e la fine.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;liste&#34;&gt;Liste&lt;/h3&gt;
+&lt;p&gt;Esistono due tipi di liste: ordinate e non ordinate.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;liste-non-ordinate&#34;&gt;Liste non ordinate&lt;/h3&gt;
+&lt;p&gt;Per creare una lista non ordinata, precedi ogni elemento della lista con un asterisco &lt;code&gt;*&lt;/code&gt;, seguito da uno spazio. Ogni elemento della lista deve essere su una propria linea.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* Primo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* Secondo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* Terzo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Primo elemento&lt;/li&gt;
+&lt;li&gt;Secondo elemento&lt;/li&gt;
+&lt;li&gt;Terzo elemento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;liste-ordinate&#34;&gt;Liste ordinate&lt;/h3&gt;
+&lt;p&gt;Una lista ordinata è preceduta da numeri, anziché asterischi.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1. Primo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2. Secondo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3. Terzo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;Primo elemento&lt;/li&gt;
+&lt;li&gt;Secondo elemento&lt;/li&gt;
+&lt;li&gt;Terzo elemento&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;indentazione&#34;&gt;Indentazione&lt;/h3&gt;
+&lt;p&gt;A volte, potresti aver bisogno di annidare una lista all&amp;rsquo;interno di un&amp;rsquo;altra.&lt;/p&gt;
+&lt;p&gt;La sintassi è uguale, con l&amp;rsquo;aggiunta di uno spazio prima dell&amp;rsquo;asterisco o numero dell&amp;rsquo;elemento indentato.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* Primo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; * Secondo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; * Terzo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Primo elemento&lt;/li&gt;
+&lt;li&gt;Secondo elemento&lt;/li&gt;
+&lt;li&gt;Terzo elemento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;paragrafi&#34;&gt;Paragrafi&lt;/h3&gt;
+&lt;p&gt;I paragrafi sono delimitati dal newline (a capo + invio).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Primo paragrafo.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Secondo paragrafo.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Primo paragrafo.&lt;/p&gt;
+&lt;p&gt;Secondo paragrafo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;paragrafi-1&#34;&gt;Paragrafi&lt;/h3&gt;
+&lt;p&gt;Altrimenti, è possibile mantenere le righe vicine, ma separate da due spazi &lt;code&gt;  &lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Primo paragrafo.  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Secondo paragrafo.  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Primo paragrafo.&lt;br&gt;
+Secondo paragrafo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;codice&#34;&gt;Codice&lt;/h3&gt;
+&lt;p&gt;Per indicare un pezzo di testo come parte di un codice, racchiudilo tra backtick ```.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mysql&#34; data-lang=&#34;mysql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Questo&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;è&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;un&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pezzo&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;di&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;codice&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;QUesto è un pezzo di &lt;code&gt;codice&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;blocco-di-codice&#34;&gt;Blocco di codice&lt;/h3&gt;
+&lt;p&gt;Per creare blocchi di codice, indenta ogni linea del blocco di almeno quattro spazi o un tab.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Questo è un blocco di codice
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    che continua per molteplici
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    righe.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;separatori&#34;&gt;Separatori&lt;/h3&gt;
+&lt;p&gt;Per creare un separatore orizzontale (una linea, in pratica), usa tre o più asterischi &lt;code&gt;***&lt;/code&gt;, trattini &lt;code&gt;---&lt;/code&gt; o trattini bassi &lt;code&gt;___&lt;/code&gt;, da soli.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tabelle&#34;&gt;Tabelle&lt;/h3&gt;
+&lt;p&gt;Per aggiungere una tabella, usa tre o più trattini (&amp;mdash;) per creare l&amp;rsquo;intestazione di ogni colonna, e usa il simbolo pipe &lt;code&gt;|&lt;/code&gt; per separare ogni colonna e definire l&amp;rsquo;inizio e la fine di ogni riga.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Intestazione 1            | Intestazione 2  |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ------------------------- | --------------- |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Intestazione              | Titolo          |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Paragrafo                 | Testo           |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Intestazione 1&lt;/th&gt;
+          &lt;th&gt;Intestazione 2&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Intestazione&lt;/td&gt;
+          &lt;td&gt;Titolo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Paragrafo&lt;/td&gt;
+          &lt;td&gt;Testo&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;esercizio-pratico&#34;&gt;Esercizio pratico&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;obiettivo-1-sistemiamo-i-nostri-readmetxt-facendoli-diventare-readmemd&#34;&gt;Obiettivo 1: sistemiamo i nostri README.txt, facendoli diventare README.md&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tornate sui cloni della repository su cui avete lavorato l&amp;rsquo;altra volta;&lt;/li&gt;
+&lt;li&gt;Fate synch;&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;docs&lt;/code&gt; e in &lt;code&gt;data&lt;/code&gt;, create un nuovo file README.md e copia-incollate i contenuti dai README.txt creati da voi;&lt;/li&gt;
+&lt;li&gt;Formattate il contenuti in Markdown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;obiettivo-2-stiliamo-un-dmp-per-il-nostro-progetto-su-mythologiae&#34;&gt;Obiettivo 2: stiliamo un DMP per il nostro progetto su Mythologiae&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Mythologiae - Data Management Plan
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Versione | Data       | Note                    |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| -------- | ---------- | ----------------------- |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| v0.1.0   | 21-11-2024 | Creazione del documento |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Autori
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Sebastian Barzaghi -- ORCID -- AFFILIAZIONE -- RUOLO
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Sommario esecutivo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Introduzione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Descrizione dei dati
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali dati (ad esempio il tipo, i formati e i volumi) verranno raccolti o prodotti?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come verranno raccolti o prodotti i nuovi dati e/o come verranno riutilizzati i dati esistenti?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Documentazione e qualità dei dati
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metadati e documentazione (ad esempio la metodologia di raccolta dei dati e il modo di organizzare i dati) accompagneranno i dati?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali misure di controllo della qualità dei dati saranno utilizzate?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Backup e archiviazione
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno archiviati e salvati i dati e i metadati durante la ricerca?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà gestita la sicurezza dei dati e la protezione dei dati sensibili durante la ricerca?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Requisiti legali ed etici
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno gestite altre questioni legali, come i diritti di proprietà intellettuale e la proprietà? Quale legislazione si applica?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali questioni etiche e codici di condotta ci sono e come saranno presi in considerazione?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Condivisione dei dati e conservazione a lungo termine
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come e quando i dati saranno condivisi? Ci sono possibili restrizioni alla condivisione dei dati o motivi di embargo?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno selezionati i dati per la conservazione e dove saranno conservati a lungo termine (ad esempio un repository di dati o un archivio)?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metodi o strumenti software sono necessari per accedere e utilizzare i dati?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà garantita l&amp;#39;applicazione di un identificatore unico e persistente (come un Digital Object Identifier (DOI)) a ciascun set di dati?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-04-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 04 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - PLAN - Pianificare</title>
       <link>http://localhost:1313/it/slides/dhdmch-03/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
@@ -1433,7 +1699,20 @@ Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Set
 &lt;/ul&gt;
 &lt;p&gt;Noi lo faremo alla vecchia maniera, durante la prossima lezione, scrivendolo a mano in Markdown.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;progetto-desame&#34;&gt;Progetto d&amp;rsquo;esame&lt;/h3&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/project-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;progetto-desame&#34;&gt;Progetto d&amp;rsquo;esame&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Gabriella Clare Marino&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-view-of-a-city-at-sunset-from-a-hill-EfcjBYFwZcI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-guide-turistiche-di-roma-dal-medioevo-al-xix-secolo&#34;&gt;Le guide turistiche di Roma, dal Medioevo al XIX secolo&lt;/h3&gt;
 &lt;p&gt;Nel corso dei secoli, le guide turistiche di Roma evolvono da strumenti medievali pieni di leggende a opere scientifiche e artistiche del Rinascimento, per poi trasformarsi in guide moderne, pratiche e orientate al turismo di massa nel XVIII e XIX secolo.&lt;/p&gt;
@@ -1467,7 +1746,7 @@ Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Set
 &lt;p&gt;Ognuno di voi dovrà portare avanti una linea di progetto diversa dalle altre.&lt;/p&gt;
 &lt;p&gt;Un paio di esempi al volo:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Marcatura in TEI delle entità presenti nel testo (e magari un&amp;rsquo;analisi anche quantitativa delle occorrenze?);&lt;/li&gt;
+&lt;li&gt;Marcatura in TEI delle entità presenti nel testo;&lt;/li&gt;
 &lt;li&gt;Raccolta, strutturazione dei dati in una tabella, e pulizia;&lt;/li&gt;
 &lt;li&gt;Modellazione semantica dei dati in un profilo applicativo, un vocabolario controllato, o una piccola ontologia.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1479,7 +1758,6 @@ Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Set
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-03-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
-&lt;hr&gt;
 </description>
     </item>
     
@@ -2268,10 +2546,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp 400w,
+               /it/slides/dhdmch-02/img/0235_hu10798714842601394458.webp 400w,
                /it/slides/dhdmch-02/img/0235_hu12068622548557271725.webp 760w,
                /it/slides/dhdmch-02/img/0235_hu3996459036790980997.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu17341901586923455884.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu10798714842601394458.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2298,10 +2576,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp 400w,
+               /it/slides/dhdmch-02/img/0236_hu1001416378329377385.webp 400w,
                /it/slides/dhdmch-02/img/0236_hu6482062782361292217.webp 760w,
                /it/slides/dhdmch-02/img/0236_hu9124961503794694590.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu15977593850985822018.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu1001416378329377385.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2328,10 +2606,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp 400w,
+               /it/slides/dhdmch-02/img/0237_hu7165673099521225062.webp 400w,
                /it/slides/dhdmch-02/img/0237_hu11219664966579550247.webp 760w,
                /it/slides/dhdmch-02/img/0237_hu11601159818575706197.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu13967766027009727294.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu7165673099521225062.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2358,10 +2636,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp 400w,
+               /it/slides/dhdmch-02/img/0238_hu12666977274456718294.webp 400w,
                /it/slides/dhdmch-02/img/0238_hu7300193164722962581.webp 760w,
                /it/slides/dhdmch-02/img/0238_hu12292049150924318488.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu15639897742647325495.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu12666977274456718294.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2388,10 +2666,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp 400w,
+               /it/slides/dhdmch-02/img/0239_hu15121561683514762249.webp 400w,
                /it/slides/dhdmch-02/img/0239_hu17206343429452009424.webp 760w,
                /it/slides/dhdmch-02/img/0239_hu562862717664442030.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu7612182733545954374.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu15121561683514762249.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2418,10 +2696,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp 400w,
+               /it/slides/dhdmch-02/img/0240_hu7602659538752319390.webp 400w,
                /it/slides/dhdmch-02/img/0240_hu14975135134252092802.webp 760w,
                /it/slides/dhdmch-02/img/0240_hu3562733759342420585.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu11210130149586241880.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu7602659538752319390.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2985,8 +3263,9 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;Lunedì: Aula 2&lt;/li&gt;
-&lt;li&gt;Mercoledì e giovedì: Laboratorio informatico&lt;/li&gt;
+&lt;li&gt;Lunedì | 11:00-13:00 | Laboratorio informatico&lt;/li&gt;
+&lt;li&gt;Mercoledì | 14:00-16:00 | Laboratorio informatico&lt;/li&gt;
+&lt;li&gt;Giovedì | 11:00-13:00 | Laboratorio informatico&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Come&lt;/strong&gt;
@@ -3035,7 +3314,7 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
           &lt;td&gt;03&lt;/td&gt;
           &lt;td&gt;&lt;em&gt;PLAN: pianificare&lt;/em&gt;&lt;/td&gt;
           &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;, &lt;code&gt;Case study&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Data documentation&lt;/code&gt;, &lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;DMP&lt;/code&gt;, &lt;code&gt;Progetto d&#39;esame&lt;/code&gt;&lt;/td&gt;
           &lt;td&gt;20-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -3049,12 +3328,12 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
           &lt;td&gt;05&lt;/td&gt;
           &lt;td&gt;&lt;em&gt;COLLECT: creare e raccogliere&lt;/em&gt;&lt;/td&gt;
           &lt;td&gt;Teorica&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Raccolta e creazione dati&lt;/code&gt;, &lt;code&gt;Documentazione&lt;/code&gt;, &lt;code&gt;File system&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Data documentation&lt;/code&gt;, &lt;code&gt;Metadati&lt;/code&gt;, &lt;code&gt;FAIR&lt;/code&gt;&lt;/td&gt;
           &lt;td&gt;25-11-2024&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;06&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Il biblioggetto&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;L&amp;rsquo;oggetto bibliografia&lt;/em&gt;&lt;/td&gt;
           &lt;td&gt;Pratica&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;27-11-2024&lt;/td&gt;

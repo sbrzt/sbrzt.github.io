@@ -398,6 +398,10 @@
                 href="http://localhost:1313/it/project/hero/"
                 />
   </url><url>
+    <loc>http://localhost:1313/it/slides/dhdmch-04/</loc>
+    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/it/slides/dhdmch-03/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
