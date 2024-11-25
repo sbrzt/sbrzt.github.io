@@ -76,11 +76,11 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 
 ---
 
-### I principi enfatizzano la _machine-actionability_
+### I principi enfatizzano l'importanza della _machine-actionability_
 
 La capacità dei sistemi computazionali di trovare, accedere, interagire e riutilizzare i dati con un intervento umano minimo o nullo.
 
-Il motivo principale è il fatto che gli esseri umani si affidano sempre più al supporto computazionale per gestire i dati a causa dell'aumento del volume, della complessità e della velocità di creazione dei dati.
+È importante perché gli esseri umani si affidano sempre più a strumenti computazionali per gestire i dati a causa dell'aumento del loro volume, complessità e velocità di creazione.
 
 <div class="footer">
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
@@ -102,15 +102,15 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 ---
 
-### Findability
+### Altre note sulla Findability
 
-Gli identificatori persistenti (PID) sono importanti perché identificano in modo univoco i dati e ne facilitano la citazione. 
+Gli identificatori persistenti (PID) sono importanti perché identificano in modo univoco e persistente i dati e ne facilitano la citazione. 
 
 Un esempio di PID è un Digital Object Identifier (DOI). Quando depositi i dati in un archivio, assicurati di selezionare un archivio che assegni un identificatore persistente (ad esempio Zenodo).
 
-I metadati che descrivono i dati supportano la reperibilità, la citazione e il riutilizzo. Metadati ricchi forniscono un contesto importante per l'interpretazione dei tuoi dati e rendono più facile per le macchine eseguire analisi automatizzate. 
+I metadati che descrivono i dati ne supportano la reperibilità, la citazione e il riutilizzo, poiché forniscono un contesto importante per la loro interpretazione e rendono più facile per le macchine eseguire analisi automatizzate. 
 
-Segui schemi di metadati standard, generali come Dublin Core o specifici per disciplina.
+Segui schemi di metadati standard, generali come Dublin Core, o specifici per disciplina.
 
 <div class="footer">
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. <a href="https://doi.org/10.5281/zenodo.6783564">https://doi.org/10.5281/zenodo.6783564</a>.
@@ -122,9 +122,9 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 Se il primo passo per (ri)utilizzare i dati è trovarli, il secondo è sapere come e a quali condizioni possono essere accessibili.
 
-I dati sono accessibili quando possono essere sempre recuperati sia dalle macchine che dagli esseri umani:
+I dati sono accessibili quando possono essere sempre recuperati online sia dalle macchine che dagli esseri umani:
 - Dietro appropriata autorizzazione (se necessaria);
-- Tramite un protocollo ben definito;
+- Tramite un protocollo (un insieme di procedure e convenzioni che regolano la trasmissione dei dati, stabilendo il formato, il processo di comunicazione e le regole di accesso) ben definito (es. HTTPS, RESTful API, ecc.).
 
 Se i dati non sono aperti, lo devono essere almeno i metadati che li descrivono.
 
@@ -134,9 +134,9 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 ---
 
-### Accessibility
+### Altre note sull'Accessibility
 
-Non tutti i dati devono essere resi aperti per essere FAIR! Se l'accesso è consentito, i dati devono essere recuperabili senza la necessità di protocolli specializzati. 
+Non tutti i dati devono essere resi aperti per essere FAIR! Se l'accesso è consentito, i dati devono essere recuperabili senza la necessità di protocolli specializzati.
 
 Inoltre, anche se il contenuto completo non è reso completamente disponibile, i dati devono essere il più possibile reperibili, in un luogo sicuro a lungo termine. 
 
@@ -159,7 +159,8 @@ I dati di solito devono essere integrati con altri dati e devono essere interope
 I dati possono essere interoperabili solo se:
 - I (meta)dati sono azionabili dalle macchine;
 - I formati dei (meta)dati utilizzano vocabolari condivisi e/o ontologie;
-- I (meta)dati devono quindi essere sintatticamente analizzabili e semanticamente comprensibili dalle macchine.
+
+I (meta)dati devono quindi essere sintatticamente analizzabili e semanticamente comprensibili dalle macchine.
 
 <div class="footer">
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. <a href="https://doi.org/10.5281/zenodo.6783564">https://doi.org/10.5281/zenodo.6783564</a>.
@@ -169,7 +170,7 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 ### Reusability
 
-Ottimizzare il riutilizzo dei dati è l'obiettivo finale, e per raggiungerlo, i metadati e i dati dovrebbero essere ben descritti in modo che possano essere utilizzati, replicati e combinati in contesti differenti.
+Ottimizzare il riutilizzo dei dati è l'obiettivo finale, e - per raggiungerlo - i metadati e i dati dovrebbero essere ben descritti in modo che possano essere utilizzati, replicati e combinati in contesti differenti.
 
 Affinché i dati siano riutilizzabili, devono:
 - Essere conformi ai principi di trovabilità, accessibilità e interoperabilità;
@@ -274,7 +275,7 @@ Stabilisci il sistema di nomenclatura dei file:
 
 Documenta i dettagli nei vari README e/o nel DMP.
 
-> [ProjectName]_[DocumentType]_[Date]_[Version].[Extension]
+> [ProjectName]\_[DocumentType]\_[Date]\_[Version].[Extension]
 >
 > ClimateStudy_Report_20240522_v1.0.docx
 
@@ -334,6 +335,8 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 Contiene definizioni dei simboli, abbreviazioni, variabili, intestazioni delle colonne, unità di misura, e formati dei dati, e documenta altri aspetti metodologici, come il trattamento dei dati mancanti.
 
+Esempio: <https://www.nycja.org/assets/Example-Court-Notification-Codebook.pdf>
+
 <div class="footer">
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. <a href="https://doi.org/10.5281/zenodo.6783564">https://doi.org/10.5281/zenodo.6783564</a>.
 </div>
@@ -342,9 +345,9 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 ### Documentazione dei dati: Metadati
 
-Leggendo i principi FAIR, si capisce che tutto si basa sulla disponibilità di metadati leggibili dalle macchine.
+Leggendo i principi FAIR, si capisce quanto sia fondamentale la disponibilità di metadati leggibili dalle macchine.
 
-Sono le informazioni contestuali che descrivono i dati, di solito più strutturate in quanto conformi a standard stabiliti e leggibili dalle macchine.
+Sono le informazioni contestuali che descrivono i dati, di solito più strutturate del resto della documentazione, in quanto conformi a standard stabiliti e strutturati.
 
 <div class="footer">
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. <a href="https://doi.org/10.5281/zenodo.6783564">https://doi.org/10.5281/zenodo.6783564</a>.

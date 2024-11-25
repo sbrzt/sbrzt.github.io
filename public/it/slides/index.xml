@@ -1052,7 +1052,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/dmanagement-2.png&#34; 
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34; 
       style=&#34;
       width: 250px; 
       height: 300px; 
@@ -1072,11 +1072,33 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/intro-fair.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
 &lt;h2 id=&#34;all-is-fair-in-love-and-war&#34;&gt;All is FAIR in Love and War&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@regele?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;HUDSON | @regele&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-bird-flying-in-the-sky-TtSr9mdoBxQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;principi-a-supporto-della-riproducibilità&#34;&gt;Principi a supporto della riproducibilità&lt;/h3&gt;
-&lt;p&gt;IMG fonte The Turing Way Community, &amp;amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Nel 2016 sono stati pubblicati i &lt;em&gt;Principi Guida FAIR per la gestione e la stewardship dei dati scientifici&lt;/em&gt; per fornire linee guida volte a migliorare una serie di caratteristiche fondamentali per la gestione scientifica delle risorse digitali.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;img src=&#34;img/fair.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonti: The Turing Way Community, &amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Nel 2016 sono stati pubblicati i Principi FAIR per la gestione e la stewardship dei dati scientifici, volti a migliorare una serie di caratteristiche fondamentali per la gestione scientifica delle risorse digitali.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
 &lt;/div&gt; 
@@ -1090,18 +1112,42 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 &lt;hr&gt;
 &lt;h3 id=&#34;findability&#34;&gt;Findability&lt;/h3&gt;
 &lt;p&gt;Il primo passo per (ri)utilizzare i dati è trovarli!&lt;/p&gt;
-&lt;p&gt;Per essere reperibile, ogni risorsa dovrebbe essere univocamente e persistentemente identificabile.&lt;/p&gt;
-&lt;p&gt;Una risorsa dovrebbe contenere almeno i metadati che possano permettere di distinguerla da altre risorse.&lt;/p&gt;
+&lt;p&gt;Per essere reperibile, i dati dovrebbero essere identificati in maniera univoca e persistente.&lt;/p&gt;
+&lt;p&gt;I dati sono reperibili tramite i metadati e identificabili e localizzabili tramite un meccanismo di identificazione standard.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;findability-1&#34;&gt;Findability&lt;/h3&gt;
+&lt;p&gt;Gli identificatori persistenti (PID) sono importanti perché identificano in modo univoco i dati e ne facilitano la citazione.&lt;/p&gt;
+&lt;p&gt;Un esempio di PID è un Digital Object Identifier (DOI). Quando depositi i dati in un archivio, assicurati di selezionare un archivio che assegni un identificatore persistente (ad esempio Zenodo).&lt;/p&gt;
+&lt;p&gt;I metadati che descrivono i dati supportano la reperibilità, la citazione e il riutilizzo. Metadati ricchi forniscono un contesto importante per l&amp;rsquo;interpretazione dei tuoi dati e rendono più facile per le macchine eseguire analisi automatizzate.&lt;/p&gt;
+&lt;p&gt;Segui schemi di metadati standard, generali come Dublin Core o specifici per disciplina.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h3&gt;
-&lt;p&gt;Il primo passo per (ri)utilizzare i dati è trovarli, il secondo è sapere come e a quali condizioni possono essere accessibili.&lt;/p&gt;
-&lt;p&gt;I dati sono accessibili quando possono essere sempre ottenuti sia dalle macchine che dagli esseri umani:&lt;/p&gt;
+&lt;p&gt;Se il primo passo per (ri)utilizzare i dati è trovarli, il secondo è sapere come e a quali condizioni possono essere accessibili.&lt;/p&gt;
+&lt;p&gt;I dati sono accessibili quando possono essere sempre recuperati sia dalle macchine che dagli esseri umani:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dietro appropriata autorizzazione;&lt;/li&gt;
-&lt;li&gt;Tramite un protocollo ben definito.&lt;/li&gt;
+&lt;li&gt;Dietro appropriata autorizzazione (se necessaria);&lt;/li&gt;
+&lt;li&gt;Tramite un protocollo ben definito;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se i dati non sono aperti, lo devono essere almeno i metadati che li descrivono.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;accessibility-1&#34;&gt;Accessibility&lt;/h3&gt;
+&lt;p&gt;Non tutti i dati devono essere resi aperti per essere FAIR! Se l&amp;rsquo;accesso è consentito, i dati devono essere recuperabili senza la necessità di protocolli specializzati.&lt;/p&gt;
+&lt;p&gt;Inoltre, anche se il contenuto completo non è reso completamente disponibile, i dati devono essere il più possibile reperibili, in un luogo sicuro a lungo termine.&lt;/p&gt;
+&lt;p&gt;Dovresti cercare un archivio (generico o specializzato) che faccia quanto segue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conserva i dati in modo sicuro;&lt;/li&gt;
+&lt;li&gt;Assicura che i dati siano reperibili;&lt;/li&gt;
+&lt;li&gt;Descrive i dati in modo appropriato (metadati);&lt;/li&gt;
+&lt;li&gt;Aggiunge informazioni sulla licenza.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
@@ -1113,7 +1159,7 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;ul&gt;
 &lt;li&gt;I (meta)dati sono azionabili dalle macchine;&lt;/li&gt;
 &lt;li&gt;I formati dei (meta)dati utilizzano vocabolari condivisi e/o ontologie;&lt;/li&gt;
-&lt;li&gt;I (meta)dati all&amp;rsquo;interno dell&amp;rsquo;oggetto dati devono quindi essere sia sintatticamente parsabili che semanticamente accessibili dalle macchine.&lt;/li&gt;
+&lt;li&gt;I (meta)dati devono quindi essere sintatticamente analizzabili e semanticamente comprensibili dalle macchine.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
@@ -1124,8 +1170,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;p&gt;Affinché i dati siano riutilizzabili, devono:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Essere conformi ai principi di trovabilità, accessibilità e interoperabilità;&lt;/li&gt;
-&lt;li&gt;Essere sufficientemente descritti e ricchi da poter essere (semi-)automaticamente collegati o integrati con fonti di dati rilevanti;&lt;/li&gt;
-&lt;li&gt;Fare riferimento alle loro fonti con metadati di provenienza abbastanza ricchi da permettere una corretta citazione.&lt;/li&gt;
+&lt;li&gt;Essere sufficientemente descritti da poter essere (semi-)automaticamente collegati o integrati con fonti di dati rilevanti;&lt;/li&gt;
+&lt;li&gt;Essere sufficientemente documentati da poter essere compresi;&lt;/li&gt;
+&lt;li&gt;Avere licenze il meno restrittive possibile;&lt;/li&gt;
+&lt;li&gt;Fare riferimento alle loro fonti con metadati di provenienza abbastanza ricchi da permetterne una corretta citazione.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
@@ -1134,8 +1182,8 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;h3 id=&#34;la-documentazione-dei-dati-è-essenziale-per-rendere-i-tuoi-dati-fair&#34;&gt;La documentazione dei dati è essenziale per rendere i tuoi dati FAIR&lt;/h3&gt;
 &lt;p&gt;La documentazione dei dati dovrebbe fornire informazioni chiare su:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dove e come trovare i dati (directory, cartella, archiviazione,&amp;hellip;) (&lt;code&gt;metadati&lt;/code&gt;, &lt;code&gt;identificatori&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;Come accedere ai dati (registrazione, autenticazione, &amp;hellip;) (&lt;code&gt;repository&lt;/code&gt;, &lt;code&gt;condizioni d&#39;accesso&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Dove e come trovare i dati (directory, cartella, archiviazione, ecc.) (&lt;code&gt;metadati&lt;/code&gt;, &lt;code&gt;identificatori&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Come accedere ai dati (registrazione, autenticazione, ecc.) (&lt;code&gt;repository&lt;/code&gt;, &lt;code&gt;condizioni d&#39;accesso&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;Modelli e software per gestire i dati (&lt;code&gt;formati&lt;/code&gt;, &lt;code&gt;ontologie&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;Chi può riutilizzare i dati e come (&lt;code&gt;licenze&lt;/code&gt;, &lt;code&gt;documentazione&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
@@ -1143,12 +1191,25 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
 &lt;/div&gt; 
 &lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/intro-data-collection.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
 &lt;h2 id=&#34;a-caccia-di-dati&#34;&gt;A caccia di dati&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@adamnir?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Adam Nir&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-bird-is-perched-on-a-tree-branch-QQka89whA-M?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;la-fase-di-raccolta&#34;&gt;La fase di raccolta&lt;/h3&gt;
-&lt;p&gt;Il processo in cui vengono raccolte informazioni su variabili specifiche di interesse utilizzando strumenti o altri metodi.&lt;/p&gt;
-&lt;p&gt;Oltre a essere la fonte di informazioni su cui costruire i risultati, la fase di raccolta pone le basi per la qualità sia dei dati che della loro documentazione.&lt;/p&gt;
-&lt;p&gt;È importante che le decisioni prese riguardo alle misure di qualità vengano attuate e che le procedure di raccolta siano opportunamente registrate.&lt;/p&gt;
+&lt;p&gt;Il processo in cui vengono raccolti o creati i dati.&lt;/p&gt;
+&lt;p&gt;Pone anche le basi per la qualità sia dei dati che della loro documentazione.&lt;/p&gt;
+&lt;p&gt;È importante registrare le decisioni prese riguardo:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Quali dati raccoglierai o creerai?&lt;/li&gt;
 &lt;li&gt;Che tipo, formato e volume di dati?&lt;/li&gt;
@@ -1163,20 +1224,20 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;hr&gt;
 &lt;h3 id=&#34;creare-documentazione-di-progetto-readme-e-dmp&#34;&gt;Creare documentazione di progetto: README e DMP&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Non strutturati e leggibili dall&amp;rsquo;uomo;&lt;/li&gt;
+&lt;li&gt;Non strutturati, leggibili dagli esseri umani;&lt;/li&gt;
 &lt;li&gt;Salvati in formato aperto: testo semplice (&lt;code&gt;.txt&lt;/code&gt;) o Markdown (&lt;code&gt;.md&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;Software: editor di testo, Microsoft Word;&lt;/li&gt;
-&lt;li&gt;README: uno per cartella;&lt;br&gt;
-DMP: uno per progetto;&lt;/li&gt;
-&lt;li&gt;README: il suo contenuto dipende dalla cartella in cui si trova;&lt;br&gt;
-DMP: struttura abbastanza standard, contenuti dipendono dal progetto.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;README&lt;/strong&gt;: uno per cartella;&lt;br&gt;
+&lt;strong&gt;DMP&lt;/strong&gt;: uno per progetto;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;README&lt;/strong&gt;: il suo contenuto dipende dalla cartella in cui si trova;&lt;br&gt;
+&lt;strong&gt;DMP&lt;/strong&gt;: struttura abbastanza standard; i contenuti dipendono dal progetto.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;organizzare-le-risorse-di-progetto&#34;&gt;Organizzare le risorse di progetto&lt;/h3&gt;
-&lt;p&gt;Stabilire la struttura delle cartelle:&lt;/p&gt;
+&lt;p&gt;Stabilisci la struttura delle cartelle:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Raggruppa i file con proprietà comuni in cartelle;&lt;/li&gt;
 &lt;li&gt;Usa nomi di cartelle significativi e chiari;&lt;/li&gt;
@@ -1186,12 +1247,13 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;li&gt;Conserva i dati grezzi separatamente da quelli elaborati.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
-&lt;div class=footer&#34;&gt;
+&lt;p&gt;Esempi: &lt;a href=&#34;https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/File-naming-and-folder-structure&lt;/a&gt;, &lt;a href=&#34;https://libguides.graduateinstitute.ch/rdm/folders&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://libguides.graduateinstitute.ch/rdm/folders&lt;/a&gt;, &lt;a href=&#34;https://datamanagement.hms.harvard.edu/plan-design/directory-structure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datamanagement.hms.harvard.edu/plan-design/directory-structure&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
 Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;organizzare-le-risorse-di-progetto-1&#34;&gt;Organizzare le risorse di progetto&lt;/h3&gt;
-&lt;p&gt;Stabilire il sistema di nomenclatura dei file:&lt;/p&gt;
+&lt;p&gt;Stabilisci il sistema di nomenclatura dei file:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mantieni nomi brevi ma significativi (se usi abbreviazioni, tienine traccia);&lt;/li&gt;
 &lt;li&gt;Includi date in un formato standard (es. &lt;code&gt;YYYY-MM-DD&lt;/code&gt;);&lt;/li&gt;
@@ -1199,24 +1261,43 @@ Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibili
 &lt;li&gt;Includi informazioni rilevanti nei nomi dei file, come l’identificativo e il numero di versione.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
-&lt;div class=footer&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[ProjectName]&lt;em&gt;[DocumentType]&lt;/em&gt;[Date]_[Version].[Extension]&lt;/p&gt;
+&lt;p&gt;ClimateStudy_Report_20240522_v1.0.docx&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;segui-la-regola-del-3-2-1&#34;&gt;Segui la regola del 3-2-1&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;img src=&#34;img/three-two-one.png&#34; height=&#34;250&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+        Fonte: Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Conserva almeno tre (3) copie dei tuoi dati, archiviando le copie di backup su due (2) supporti di archiviazione differenti (es. computer, chiavetta, ecc.), con una (1) di esse situata su un servizio esterno (es. OneDrive, GitHub, ecc.).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
 Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;altre-informazioni-da-registrare-durante-la-raccolta-dei-dati&#34;&gt;Altre informazioni da registrare durante la raccolta dei dati&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Metodi utilizzati per la raccolta dei dati (inclusi riferimenti, documentazione, link);&lt;/li&gt;
-&lt;li&gt;Data di raccolta (o intervallo);&lt;/li&gt;
-&lt;li&gt;Posizione geografica della raccolta (se appropriato);&lt;/li&gt;
-&lt;li&gt;Condizioni sperimentali e ambientali della raccolta (se appropriate);&lt;/li&gt;
-&lt;li&gt;Standard e calibrazione per la raccolta dei dati (se applicabile);&lt;/li&gt;
+&lt;li&gt;Metodi utilizzati per la raccolta;&lt;/li&gt;
+&lt;li&gt;Data di raccolta;&lt;/li&gt;
+&lt;li&gt;Posizione geografica (se appropriato);&lt;/li&gt;
+&lt;li&gt;Condizioni sperimentali e ambientali (se appropriate);&lt;/li&gt;
+&lt;li&gt;Standard e calibrazione (se applicabile);&lt;/li&gt;
 &lt;li&gt;Incertezze, precisione e accuratezza delle misurazioni (se appropriate);&lt;/li&gt;
 &lt;li&gt;Problemi noti (campionamento, valori nulli, ecc.);&lt;/li&gt;
-&lt;li&gt;Provenienza dei campioni, dei ricercatori e degli strumenti;&lt;/li&gt;
+&lt;li&gt;Dati di &lt;em&gt;provenance&lt;/em&gt; (es. fonti);&lt;/li&gt;
 &lt;li&gt;Questioni di protezione e sicurezza dei dati (se applicabile);&lt;/li&gt;
 &lt;li&gt;Schemi di metadati e vocabolari controllati appropriati;&lt;/li&gt;
-&lt;li&gt;Strategie di conservazione dei dati;&lt;/li&gt;
-&lt;li&gt;Repository adeguato per memorizzare i dati.&lt;/li&gt;
+&lt;li&gt;Strategie di archiviazione a lungo termine.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
@@ -1225,9 +1306,9 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;h3 id=&#34;documentazione-dei-dati-codebook&#34;&gt;Documentazione dei dati: Codebook&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Solitamente una tabella;&lt;/li&gt;
-&lt;li&gt;Leggibile dall&amp;rsquo;uomo e/o dalla macchina;&lt;/li&gt;
+&lt;li&gt;Leggibile dagli esseri umani e/o dalle macchine;&lt;/li&gt;
 &lt;li&gt;Salvato in formato aperto: valori separati da virgola (&lt;code&gt;.csv&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;Software: editor di testo, programmi di fogli di calcolo, Excel;&lt;/li&gt;
+&lt;li&gt;Software: editor di testo, programmi di fogli di calcolo, OpenRefine, Excel;&lt;/li&gt;
 &lt;li&gt;Uno per dataset.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Contiene definizioni dei simboli, abbreviazioni, variabili, intestazioni delle colonne, unità di misura, e formati dei dati, e documenta altri aspetti metodologici, come il trattamento dei dati mancanti.&lt;/p&gt;
@@ -1235,83 +1316,667 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;documentaizone-dei-dati-metadati&#34;&gt;Documentaizone dei dati: Metadati&lt;/h3&gt;
-&lt;p&gt;Leggendo i principi FAIR, non si può fare a meno di notare che tutto si basa sulla disponibilità di metadati leggibili dalle macchine.&lt;/p&gt;
-&lt;p&gt;Sono legati alle informazioni contestuali più ampie che descrivono i tuoi dati, ma di solito sono più strutturati in quanto conformi a standard stabiliti e leggibili dalle macchine.&lt;/p&gt;
+&lt;h3 id=&#34;documentazione-dei-dati-metadati&#34;&gt;Documentazione dei dati: Metadati&lt;/h3&gt;
+&lt;p&gt;Leggendo i principi FAIR, si capisce che tutto si basa sulla disponibilità di metadati leggibili dalle macchine.&lt;/p&gt;
+&lt;p&gt;Sono le informazioni contestuali che descrivono i dati, di solito più strutturate in quanto conformi a standard stabiliti e leggibili dalle macchine.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;schemi-di-metadati&#34;&gt;Schemi di metadati&lt;/h3&gt;
-&lt;p&gt;Una struttura concettuale che specifica quali metadati utilizzare e secondo quali regole.&lt;/p&gt;
-&lt;p&gt;Gli schemi di metadati forniscono campi o elementi specifici da utilizzare per descrivere i dati per uno specifico uso.&lt;/p&gt;
+&lt;h3 id=&#34;gli-schemi-di-metadati-forniscono-specifiche&#34;&gt;Gli schemi di metadati forniscono specifiche&lt;/h3&gt;
+&lt;p&gt;Strutture concettuali che specificano quali metadati (chiamati &lt;em&gt;elementi&lt;/em&gt;) utilizzare e secondo quali regole.&lt;/p&gt;
+&lt;p&gt;In particolare, specificano:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Insieme di elementi;&lt;/li&gt;
-&lt;li&gt;Definizione di elementi;&lt;/li&gt;
-&lt;li&gt;Relazioni tra elementi;&lt;/li&gt;
-&lt;li&gt;Regole di utilizzo degli elementi.&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;insieme di elementi;&lt;/li&gt;
+&lt;li&gt;La definizione di elementi;&lt;/li&gt;
+&lt;li&gt;Le relazioni tra elementi;&lt;/li&gt;
+&lt;li&gt;Le regole di utilizzo degli elementi.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;bisogna-trovare-gli-schemi-giusti-per-la-propria-disciplina&#34;&gt;Bisogna trovare gli schemi giusti per la propria disciplina&lt;/h3&gt;
-&lt;p&gt;È buona pratica utilizzare schemi di metadati standard internazionali per organizzare e memorizzare i tuoi (meta)dati in modo strutturato.&lt;/p&gt;
+&lt;h3 id=&#34;bisogna-usare-gli-schemi-giusti&#34;&gt;Bisogna usare gli schemi giusti&lt;/h3&gt;
+&lt;p&gt;È buona pratica utilizzare schemi di metadati standard internazionali per organizzare e descrivere i dati in modo strutturato.&lt;/p&gt;
 &lt;p&gt;Liste utili:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;FAIRsharing&lt;/li&gt;
-&lt;li&gt;Directory su DCC&lt;/li&gt;
-&lt;li&gt;Directory su RDA&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fairsharing.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIRsharing&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dcc.ac.uk/guidance/standards/metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Directory su DCC&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rd-alliance.github.io/metadata-directory/standards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Directory su RDA&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-dublin-core&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
-&lt;p&gt;Dublin Core è composto da 15 elementi di metadati “core”. È uno degli schemi di metadati più semplici e più utilizzati, pensato per descrivere risorse Web ma applicabile anche a risorse fisiche.&lt;/p&gt;
-&lt;p&gt;Nel standard Dublin Core sono incluse definizioni di ciascun elemento di metadati che stabiliscono quali tipi di informazioni devono essere registrati e dove e come.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dublin Core è composto da 15 elementi “core”. È uno degli schemi di metadati più semplici e più utilizzati, pensato per descrivere risorse Web ma applicabile anche a risorse fisiche.&lt;/p&gt;
+&lt;p&gt;Nel standard sono incluse definizioni di ciascun elemento, che stabiliscono quali tipi di informazioni devono essere registrati, dove e come.&lt;/p&gt;
+&lt;p&gt;Documentazione ufficiale: &lt;a href=&#34;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-dublin-core-1&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
-&lt;p&gt;IMG fonte: &lt;a href=&#34;https://libguides.ucd.ie/data/metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://libguides.ucd.ie/data/metadata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fonte-httpslibguidesucdiedatametadata&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Un esempio di utilizzo di Dublin Core per la metadatazione di una registrazione audio di un&amp;rsquo;intervista.&#34; srcset=&#34;
+               /it/slides/dhdmch-05/img/dc-example_hu302024898354176731.webp 400w,
+               /it/slides/dhdmch-05/img/dc-example_hu4947373633304788738.webp 760w,
+               /it/slides/dhdmch-05/img/dc-example_hu8137017941484898736.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-05/img/dc-example_hu302024898354176731.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fonte: &lt;a href=&#34;https://libguides.ucd.ie/data/metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://libguides.ucd.ie/data/metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-metadati-si-appoggiano-anche-sugli-_schemi-di-codifica_&#34;&gt;I metadati si appoggiano anche sugli &lt;em&gt;schemi di codifica&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Insiemi di regole che specificano sintassi o lessico che possono essere utilizzati dai metadati di uno schema di metadati.&lt;/p&gt;
-&lt;p&gt;Usati principalmente per garantire coerenza nell&amp;rsquo;inserimento dei dati.&lt;/p&gt;
+&lt;p&gt;Gli schemi di codifica sono insiemi di regole che specificano la sintassi e il lessico utilizzati nei metadati, garantendo coerenza e interoperabilità nell&amp;rsquo;inserimento e nell&amp;rsquo;interpretazione dei dati.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Schema di codifica sintattica&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. &lt;a href=&#34;&#34;&gt;ISO 8601&lt;/a&gt; per le date);&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Authority file&lt;/strong&gt;: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. &lt;a href=&#34;&#34;&gt;VIAF&lt;/a&gt;);&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vocabolario controllato&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. &lt;a href=&#34;&#34;&gt;AAT&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Schema di codifica sintattica&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. &lt;a href=&#34;https://www.iso.org/iso-8601-date-and-time-format.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO 8601&lt;/a&gt; per le date, come &lt;code&gt;2024-11-24&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authority file&lt;/strong&gt;: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt; per i nomi di persona e delle organizzazioni);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vocabolario controllato&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. &lt;a href=&#34;https://www.getty.edu/research/tools/vocabularies/aat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Art &amp;amp; Architecture Thesaurus&lt;/a&gt; per termini appartenenti ai domini dell&amp;rsquo;arte e dell&amp;rsquo;architettura).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;schemi-di-codifica-sintattica&#34;&gt;Schemi di codifica sintattica&lt;/h3&gt;
+&lt;p&gt;Stabiliscono come formattare i dati in un modo standardizzato e coerente, in modo da favorire la ocerenza dei dati, garantire la loro interoperabilità, e facilitarne il trattamento automatico.&lt;/p&gt;
+&lt;p&gt;Esempio: &lt;a href=&#34;https://www.iso.org/iso-8601-date-and-time-format.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO 8601&lt;/a&gt; per una rappresentazione standardizzata di date, orari e combinazioni di data e ora.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;2024-11-24&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;14:30:00&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2024-11-24T14:30:00&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;authority-file&#34;&gt;Authority file&lt;/h3&gt;
+&lt;p&gt;Elenchi strutturati di termini o entità che vengono utilizzati come riferimenti autoritativi per garantire l&amp;rsquo;accuratezza e la coerenza nelle informazioni.&lt;/p&gt;
+&lt;p&gt;Vengono utilizzati per evitare ambiguità e variazioni nei dati, specialmente quando ci sono diverse rappresentazioni per lo stesso concetto.&lt;/p&gt;
+&lt;p&gt;Esempio: &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt; per controllare la rappresentazione dei nomi di persona, organizzazione, luogo, o opera.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Leopardi, Giacomo, 1798-1837&lt;/code&gt; (&lt;a href=&#34;http://viaf.org/viaf/12311353%29;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://viaf.org/viaf/12311353);&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Buonarroti, Michelangelo, 1475-1564&lt;/code&gt; (&lt;a href=&#34;http://viaf.org/viaf/24585191%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://viaf.org/viaf/24585191)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;vocabolari-controllati&#34;&gt;Vocabolari controllati&lt;/h3&gt;
 &lt;p&gt;Lista strutturata e normativa di termini, organizzati in un esplicito sistema di relazioni.&lt;/p&gt;
-&lt;p&gt;Metodo per la descrizionecoerente dei dati e per controllare i possibili valori applicabili ad un elemento.&lt;/p&gt;
-&lt;p&gt;Lista di vocabolari: &lt;a href=&#34;https://bartoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bartoc.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metodo per la descrizione coerente dei dati e per controllare i possibili valori applicabili ad un elemento.&lt;/p&gt;
+&lt;p&gt;Lista esemplare di vocabolari controllati: &lt;a href=&#34;https://bartoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bartoc.org/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;metadati-e-documentazione-migliorano-la-fairness-dei-tuoi-dati&#34;&gt;Metadati e documentazione migliorano la FAIRness dei tuoi dati&lt;/h3&gt;
-&lt;p&gt;La qualità delle informazioni descrittive (metadati e documentazione) riguardo ai dati ha un impatto profondo sulla loro riusabilità, quindi più documentazione e metadati puoi fornire, meglio è.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;metadati-e-schemi-si-basano-sempre-di-più-su-ontologie&#34;&gt;Metadati e schemi si basano sempre di più su ontologie&lt;/h3&gt;
-&lt;p&gt;Affinché i metodi e gli strumenti computazionali funzionino, è necessario che ci siano accordi, contratti sociali e protocolli che consentano l&amp;rsquo;interoperabilità.&lt;/p&gt;
-&lt;p&gt;Per questo, dobbiamo esaminare alcuni dettagli tecnici e, poiché trattiamo di principi FAIR, inevitabilmente dobbiamo affrontare le nozioni di Linked (Open) Data e Resource Description Framework (RDF).&lt;/p&gt;
-&lt;p&gt;Questo significa essenzialmente che non possiamo parlare di metadati azionabili dalle macchine senza parlare di semantica.&lt;/p&gt;
+&lt;p&gt;Affinché i metodi e gli strumenti computazionali funzionino e i dati possano avere un utilizzo più generalizzato, è necessario che ci siano accordi, contratti sociali e protocolli condivisi che ne consentano l&amp;rsquo;interoperabilità (e quindi il riuso).&lt;/p&gt;
+&lt;p&gt;Poiché trattiamo di principi FAIR, inevitabilmente dobbiamo affrontare le nozioni di Linked (Open) Data e Resource Description Framework (RDF).&lt;/p&gt;
+&lt;p&gt;Questo significa essenzialmente che non possiamo parlare di metadati azionabili dalle macchine senza parlare di modelli semantici e ontologie (ma sarà per la prossima volta).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-05-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 05 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - L&#39;oggetto bibliografia</title>
+      <link>http://localhost:1313/it/slides/dhdmch-06/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-06/</guid>
+      <description>&lt;h1 id=&#34;loggetto-bibliografia&#34;&gt;L&amp;rsquo;oggetto bibliografia&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-06-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 06 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;zotero&#34;&gt;Zotero&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcune-attività-fondamentali-di-ricerca&#34;&gt;Alcune attività fondamentali di ricerca&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Raccogliere letteratura scientifica;&lt;/li&gt;
+&lt;li&gt;Costruire bibliografie;&lt;/li&gt;
+&lt;li&gt;Citare risorse bibliografiche.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-flusso-di-lavoro-classico&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0601_hu16761674044615409837.webp 400w,
+               /it/slides/dhdmch-06/img/0601_hu15251737906266957073.webp 760w,
+               /it/slides/dhdmch-06/img/0601_hu10478043182061563285.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0601_hu16761674044615409837.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;520&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-flusso-di-lavoro-classico-1&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0602_hu7366092104136678406.webp 400w,
+               /it/slides/dhdmch-06/img/0602_hu4066804931206622021.webp 760w,
+               /it/slides/dhdmch-06/img/0602_hu17252291362784570954.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0602_hu7366092104136678406.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;566&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-flusso-di-lavoro-classico-2&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0603_hu1141334375953094853.webp 400w,
+               /it/slides/dhdmch-06/img/0603_hu16892244390408734361.webp 760w,
+               /it/slides/dhdmch-06/img/0603_hu9399692037565593976.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0603_hu1141334375953094853.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;615&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-con-i-soliti-problemi&#34;&gt;&amp;hellip; Con i soliti problemi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un sacco di PDF con nomi di file incomprensibili;&lt;/li&gt;
+&lt;li&gt;Nessun collegamento tra metadati, file, note;&lt;/li&gt;
+&lt;li&gt;Quando si cita, la migliore opzione è copiare e incollare;&lt;/li&gt;
+&lt;li&gt;Difficile condividere articoli con metadati;&lt;/li&gt;
+&lt;li&gt;Riformattazione a mano delle citazioni;&lt;/li&gt;
+&lt;li&gt;Collaborazione difficile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usiamo-zotero&#34;&gt;Usiamo Zotero&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zotero.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zotero è un servizio e un software gratuito e open-source per la gestione dei riferimenti bibliografici e dei metadati.&lt;/p&gt;
+&lt;p&gt;Consente di raccogliere, organizzare, citare e condividere fonti bibliografiche in modo semplice e veloce.&lt;/p&gt;
+&lt;p&gt;In particolare, serve per:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Raccolta dei dati&lt;/strong&gt;: consente di raccogliere automaticamente metadati da articoli, libri, siti web e altre risorse online;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizzazione&lt;/strong&gt;: permette di organizzare i riferimenti in collezioni, aggiungere tag, note e allegare file PDF;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citazioni e riferimenti&lt;/strong&gt;: genera citazioni in vari stili (APA, MLA, Chicago, ecc.) e crea bibliografie in modo automatico;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Condivisione&lt;/strong&gt;: facilita la collaborazione, permettendo di condividere raccolte di riferimenti con altri ricercatori.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-home-page-di-zoteroorg&#34;&gt;1. Home page di Zotero.org&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0604_hu6076482283394954706.webp 400w,
+               /it/slides/dhdmch-06/img/0604_hu9597301069029693669.webp 760w,
+               /it/slides/dhdmch-06/img/0604_hu17321842742770123905.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0604_hu6076482283394954706.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;412&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-login&#34;&gt;2. Login&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0605_hu7108605799578159073.webp 400w,
+               /it/slides/dhdmch-06/img/0605_hu6275227569877497962.webp 760w,
+               /it/slides/dhdmch-06/img/0605_hu5005737590297212150.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0605_hu7108605799578159073.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;327&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-registrazione&#34;&gt;3. Registrazione&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0606_hu11065093897313840745.webp 400w,
+               /it/slides/dhdmch-06/img/0606_hu3885197780870448736.webp 760w,
+               /it/slides/dhdmch-06/img/0606_hu6426536152750925567.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0606_hu11065093897313840745.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;734&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-interfaccia-principale&#34;&gt;4. Interfaccia principale&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0607_hu3055115858943101050.webp 400w,
+               /it/slides/dhdmch-06/img/0607_hu948518341840259728.webp 760w,
+               /it/slides/dhdmch-06/img/0607_hu9165862217375464255.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0607_hu3055115858943101050.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-aggiunta-di-un-nuovo-item-alla-collezione&#34;&gt;5. Aggiunta di un nuovo item alla collezione&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0608_hu4919036429700402715.webp 400w,
+               /it/slides/dhdmch-06/img/0608_hu6327483433666945385.webp 760w,
+               /it/slides/dhdmch-06/img/0608_hu3695543278512870264.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0608_hu4919036429700402715.webp&#34;
+               width=&#34;352&#34;
+               height=&#34;257&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-colonna-dei-metadati-bibliografici&#34;&gt;6. Colonna dei metadati bibliografici&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0609_hu5750846175964822366.webp 400w,
+               /it/slides/dhdmch-06/img/0609_hu1030964601241576854.webp 760w,
+               /it/slides/dhdmch-06/img/0609_hu17948190825527523879.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0609_hu5750846175964822366.webp&#34;
+               width=&#34;357&#34;
+               height=&#34;715&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;7-selezione-di-item-e-export&#34;&gt;7. Selezione di item e export&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0610_hu12916979398352813338.webp 400w,
+               /it/slides/dhdmch-06/img/0610_hu14741479749449565516.webp 760w,
+               /it/slides/dhdmch-06/img/0610_hu1321336167204757215.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0610_hu12916979398352813338.webp&#34;
+               width=&#34;628&#34;
+               height=&#34;581&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;8-produzione-di-citazioni-inline&#34;&gt;8. Produzione di citazioni inline&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0611_hu8816646125171137996.webp 400w,
+               /it/slides/dhdmch-06/img/0611_hu6057979043840016189.webp 760w,
+               /it/slides/dhdmch-06/img/0611_hu18446620283090028543.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0611_hu8816646125171137996.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;9-produzionme-di-riferimenti-bibliografici&#34;&gt;9. Produzionme di riferimenti bibliografici&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0612_hu10545551506025046244.webp 400w,
+               /it/slides/dhdmch-06/img/0612_hu16339431060531167661.webp 760w,
+               /it/slides/dhdmch-06/img/0612_hu5062709240611631496.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0612_hu10545551506025046244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scopriamo-qualche-dato-di-mythologiae&#34;&gt;Scopriamo qualche dato di Mythologiae&lt;/h3&gt;
+&lt;p&gt;Il dataset di Mythologiae è costituito da ~4389 righe e 31 colonne:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ogni riga corrisponde ad un&amp;rsquo;opera d&amp;rsquo;arte;&lt;/li&gt;
+&lt;li&gt;Ogni colonna orrisponde ad un metadato riferito all&amp;rsquo;opera d&amp;rsquo;arte (es. autore, tema mitologico, data di creazione, ecc.);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tra le colonne, c&amp;rsquo;è anche &lt;code&gt;cho_sources_classic&lt;/code&gt;, che indica le fonti classiche associate al tema mitologico individuato nell&amp;rsquo;opera.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;oggi-lavoriamo-solo-su-un-piccolo-sottoinsieme-di-dati-le-citazioni-canoniche&#34;&gt;Oggi lavoriamo solo su un piccolo sottoinsieme di dati: le citazioni canoniche&lt;/h3&gt;
+&lt;p&gt;Le citazioni canoniche sono un sistema di riferimento utilizzato principalmente nella letteratura classica, per citare testi antichi in modo breve e standardizzato. Esse indicano il titolo dell’opera, seguita dal libro e dalla sezione specifica.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Opera: nome del testo (ad esempio, Apollodoro, Odissea, Erodoto);&lt;/li&gt;
+&lt;li&gt;Libro: il numero del libro o della parte dell&amp;rsquo;opera;&lt;/li&gt;
+&lt;li&gt;Sezione: il numero della sezione, capitolo o verso specifico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Apollod. 3.5.8&lt;/code&gt;, che equivale a &amp;ldquo;Apollodoro, &lt;em&gt;Biblioteca&lt;/em&gt;, libro 3, capitolo 5, sezione 8&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hom. Od. 11.273&lt;/code&gt;, che equivale a &amp;ldquo;Omero, &lt;em&gt;Odissea&lt;/em&gt;, libro 11, verso 273&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hdt. 2.175&lt;/code&gt;, che equivale a &amp;ldquo;Erodoto, &lt;em&gt;Storie&lt;/em&gt;, libro 2, paragrafo 175&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-farete&#34;&gt;Cosa farete&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Esaminerete il dataset disponibile qui: &amp;hellip;
+&lt;ul&gt;
+&lt;li&gt;Due colonne: una contenente una serie di citazioni canoniche, l&amp;rsquo;altra i rispettivi link a Perseus;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cercherete su Perseus i dati contestuali della citazione (ove possibile), come l&amp;rsquo;editore, il luogo di pubblicazione, ecc.;&lt;/li&gt;
+&lt;li&gt;Nella collezione &lt;code&gt;DHDMCH_2024-2025&lt;/code&gt; condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus;
+&lt;ul&gt;
+&lt;li&gt;La tipologia dell&amp;rsquo;opera sarà &lt;code&gt;Book&lt;/code&gt; oppure &lt;code&gt;Book section&lt;/code&gt;, a seconda che venga citato l&amp;rsquo;intero libro oppure solo una parte;&lt;/li&gt;
+&lt;li&gt;Nel campo &lt;code&gt;Extra&lt;/code&gt; inserirete l&amp;rsquo;informazione specifica sulla parte dell&amp;rsquo;opera che viene citata:
+&lt;ul&gt;
+&lt;li&gt;Esempio: per &lt;code&gt;Apollod. 3.5.8&lt;/code&gt; inserirete nel campo Extra &amp;ldquo;Libro 3, capitolo 5, sezione 8&amp;rdquo; (capirete cosa scrivere dal contesto).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;altri-lati-di-zotero-che-vi-consiglio-di-esplorare&#34;&gt;Altri lati di Zotero (che vi consiglio di esplorare)&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;zoterobib&#34;&gt;Zoterobib&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0613_hu3804099204724052987.webp 400w,
+               /it/slides/dhdmch-06/img/0613_hu13836988148785247752.webp 760w,
+               /it/slides/dhdmch-06/img/0613_hu12994444061259962917.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0613_hu3804099204724052987.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;712&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;zoterobib-1&#34;&gt;Zoterobib&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0614_hu16010408818694685653.webp 400w,
+               /it/slides/dhdmch-06/img/0614_hu8063298452652814.webp 760w,
+               /it/slides/dhdmch-06/img/0614_hu9374070061271571502.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0614_hu16010408818694685653.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;732&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;zotero-software-e-zotero-connector-plugin-per-browser&#34;&gt;Zotero (software) e Zotero Connector (plugin per browser)&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /it/slides/dhdmch-06/img/0615_hu16278057354749552664.webp 400w,
+               /it/slides/dhdmch-06/img/0615_hu15223114417983799704.webp 760w,
+               /it/slides/dhdmch-06/img/0615_hu7922390442640776131.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0615_hu16278057354749552664.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;409&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-06-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 06 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>
