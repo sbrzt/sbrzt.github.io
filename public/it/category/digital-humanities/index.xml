@@ -1046,6 +1046,283 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>DHDMCH - COLLECT - Creare e Raccogliere</title>
+      <link>http://localhost:1313/it/slides/dhdmch-05/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-05/</guid>
+      <description>&lt;h1 id=&#34;collect-creare-e-raccogliere&#34;&gt;COLLECT: Creare e Raccogliere&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-05-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 05 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/dmanagement-2.png&#34; 
+      style=&#34;
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: &lt;strong&gt;raccogliere o creare i dati&lt;/strong&gt;, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;all-is-fair-in-love-and-war&#34;&gt;All is FAIR in Love and War&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;principi-a-supporto-della-riproducibilità&#34;&gt;Principi a supporto della riproducibilità&lt;/h3&gt;
+&lt;p&gt;IMG fonte The Turing Way Community, &amp;amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nel 2016 sono stati pubblicati i &lt;em&gt;Principi Guida FAIR per la gestione e la stewardship dei dati scientifici&lt;/em&gt; per fornire linee guida volte a migliorare una serie di caratteristiche fondamentali per la gestione scientifica delle risorse digitali.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h3 id=&#34;i-principi-enfatizzano-la-_machine-actionability_&#34;&gt;I principi enfatizzano la &lt;em&gt;machine-actionability&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;La capacità dei sistemi computazionali di trovare, accedere, interagire e riutilizzare i dati con un intervento umano minimo o nullo.&lt;/p&gt;
+&lt;p&gt;Il motivo principale è il fatto che gli esseri umani si affidano sempre più al supporto computazionale per gestire i dati a causa dell&amp;rsquo;aumento del volume, della complessità e della velocità di creazione dei dati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h3 id=&#34;findability&#34;&gt;Findability&lt;/h3&gt;
+&lt;p&gt;Il primo passo per (ri)utilizzare i dati è trovarli!&lt;/p&gt;
+&lt;p&gt;Per essere reperibile, ogni risorsa dovrebbe essere univocamente e persistentemente identificabile.&lt;/p&gt;
+&lt;p&gt;Una risorsa dovrebbe contenere almeno i metadati che possano permettere di distinguerla da altre risorse.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h3&gt;
+&lt;p&gt;Il primo passo per (ri)utilizzare i dati è trovarli, il secondo è sapere come e a quali condizioni possono essere accessibili.&lt;/p&gt;
+&lt;p&gt;I dati sono accessibili quando possono essere sempre ottenuti sia dalle macchine che dagli esseri umani:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dietro appropriata autorizzazione;&lt;/li&gt;
+&lt;li&gt;Tramite un protocollo ben definito.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;interoperability&#34;&gt;Interoperability&lt;/h3&gt;
+&lt;p&gt;I dati di solito devono essere integrati con altri dati e devono essere interoperabili con applicazioni o flussi di lavoro per favorirne l&amp;rsquo;analisi, l&amp;rsquo;archiviazione e l&amp;rsquo;elaborazione.&lt;/p&gt;
+&lt;p&gt;I dati possono essere interoperabili solo se:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I (meta)dati sono azionabili dalle macchine;&lt;/li&gt;
+&lt;li&gt;I formati dei (meta)dati utilizzano vocabolari condivisi e/o ontologie;&lt;/li&gt;
+&lt;li&gt;I (meta)dati all&amp;rsquo;interno dell&amp;rsquo;oggetto dati devono quindi essere sia sintatticamente parsabili che semanticamente accessibili dalle macchine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reusability&#34;&gt;Reusability&lt;/h3&gt;
+&lt;p&gt;Ottimizzare il riutilizzo dei dati è l&amp;rsquo;obiettivo finale, e per raggiungerlo, i metadati e i dati dovrebbero essere ben descritti in modo che possano essere utilizzati, replicati e combinati in contesti differenti.&lt;/p&gt;
+&lt;p&gt;Affinché i dati siano riutilizzabili, devono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Essere conformi ai principi di trovabilità, accessibilità e interoperabilità;&lt;/li&gt;
+&lt;li&gt;Essere sufficientemente descritti e ricchi da poter essere (semi-)automaticamente collegati o integrati con fonti di dati rilevanti;&lt;/li&gt;
+&lt;li&gt;Fare riferimento alle loro fonti con metadati di provenienza abbastanza ricchi da permettere una corretta citazione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-documentazione-dei-dati-è-essenziale-per-rendere-i-tuoi-dati-fair&#34;&gt;La documentazione dei dati è essenziale per rendere i tuoi dati FAIR&lt;/h3&gt;
+&lt;p&gt;La documentazione dei dati dovrebbe fornire informazioni chiare su:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dove e come trovare i dati (directory, cartella, archiviazione,&amp;hellip;) (&lt;code&gt;metadati&lt;/code&gt;, &lt;code&gt;identificatori&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Come accedere ai dati (registrazione, autenticazione, &amp;hellip;) (&lt;code&gt;repository&lt;/code&gt;, &lt;code&gt;condizioni d&#39;accesso&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Modelli e software per gestire i dati (&lt;code&gt;formati&lt;/code&gt;, &lt;code&gt;ontologie&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Chi può riutilizzare i dati e come (&lt;code&gt;licenze&lt;/code&gt;, &lt;code&gt;documentazione&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;a-caccia-di-dati&#34;&gt;A caccia di dati&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-fase-di-raccolta&#34;&gt;La fase di raccolta&lt;/h3&gt;
+&lt;p&gt;Il processo in cui vengono raccolte informazioni su variabili specifiche di interesse utilizzando strumenti o altri metodi.&lt;/p&gt;
+&lt;p&gt;Oltre a essere la fonte di informazioni su cui costruire i risultati, la fase di raccolta pone le basi per la qualità sia dei dati che della loro documentazione.&lt;/p&gt;
+&lt;p&gt;È importante che le decisioni prese riguardo alle misure di qualità vengano attuate e che le procedure di raccolta siano opportunamente registrate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quali dati raccoglierai o creerai?&lt;/li&gt;
+&lt;li&gt;Che tipo, formato e volume di dati?&lt;/li&gt;
+&lt;li&gt;Ci sono dati esistenti?&lt;/li&gt;
+&lt;li&gt;Come saranno raccolti o creati i dati?&lt;/li&gt;
+&lt;li&gt;Quali standard e metodologie utilizzerai?&lt;/li&gt;
+&lt;li&gt;Come strutturerai e nominerai le tue cartelle e file?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;creare-documentazione-di-progetto-readme-e-dmp&#34;&gt;Creare documentazione di progetto: README e DMP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Non strutturati e leggibili dall&amp;rsquo;uomo;&lt;/li&gt;
+&lt;li&gt;Salvati in formato aperto: testo semplice (&lt;code&gt;.txt&lt;/code&gt;) o Markdown (&lt;code&gt;.md&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Software: editor di testo, Microsoft Word;&lt;/li&gt;
+&lt;li&gt;README: uno per cartella;&lt;br&gt;
+DMP: uno per progetto;&lt;/li&gt;
+&lt;li&gt;README: il suo contenuto dipende dalla cartella in cui si trova;&lt;br&gt;
+DMP: struttura abbastanza standard, contenuti dipendono dal progetto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;organizzare-le-risorse-di-progetto&#34;&gt;Organizzare le risorse di progetto&lt;/h3&gt;
+&lt;p&gt;Stabilire la struttura delle cartelle:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Raggruppa i file con proprietà comuni in cartelle;&lt;/li&gt;
+&lt;li&gt;Usa nomi di cartelle significativi e chiari;&lt;/li&gt;
+&lt;li&gt;Mantieni un numero gestibile di sottocartelle;&lt;/li&gt;
+&lt;li&gt;Struttura le cartelle in modo gerarchico;&lt;/li&gt;
+&lt;li&gt;Separa il lavoro corrente da quello completato;&lt;/li&gt;
+&lt;li&gt;Conserva i dati grezzi separatamente da quelli elaborati.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
+&lt;div class=footer&#34;&gt;
+Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;organizzare-le-risorse-di-progetto-1&#34;&gt;Organizzare le risorse di progetto&lt;/h3&gt;
+&lt;p&gt;Stabilire il sistema di nomenclatura dei file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mantieni nomi brevi ma significativi (se usi abbreviazioni, tienine traccia);&lt;/li&gt;
+&lt;li&gt;Includi date in un formato standard (es. &lt;code&gt;YYYY-MM-DD&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Evita spazi, punti e caratteri speciali (es. &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;\&lt;/code&gt;, &lt;code&gt;:&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;?&lt;/code&gt;, &lt;code&gt;&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;lt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Includi informazioni rilevanti nei nomi dei file, come l’identificativo e il numero di versione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
+&lt;div class=footer&#34;&gt;
+Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-informazioni-da-registrare-durante-la-raccolta-dei-dati&#34;&gt;Altre informazioni da registrare durante la raccolta dei dati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Metodi utilizzati per la raccolta dei dati (inclusi riferimenti, documentazione, link);&lt;/li&gt;
+&lt;li&gt;Data di raccolta (o intervallo);&lt;/li&gt;
+&lt;li&gt;Posizione geografica della raccolta (se appropriato);&lt;/li&gt;
+&lt;li&gt;Condizioni sperimentali e ambientali della raccolta (se appropriate);&lt;/li&gt;
+&lt;li&gt;Standard e calibrazione per la raccolta dei dati (se applicabile);&lt;/li&gt;
+&lt;li&gt;Incertezze, precisione e accuratezza delle misurazioni (se appropriate);&lt;/li&gt;
+&lt;li&gt;Problemi noti (campionamento, valori nulli, ecc.);&lt;/li&gt;
+&lt;li&gt;Provenienza dei campioni, dei ricercatori e degli strumenti;&lt;/li&gt;
+&lt;li&gt;Questioni di protezione e sicurezza dei dati (se applicabile);&lt;/li&gt;
+&lt;li&gt;Schemi di metadati e vocabolari controllati appropriati;&lt;/li&gt;
+&lt;li&gt;Strategie di conservazione dei dati;&lt;/li&gt;
+&lt;li&gt;Repository adeguato per memorizzare i dati.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;documentazione-dei-dati-codebook&#34;&gt;Documentazione dei dati: Codebook&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Solitamente una tabella;&lt;/li&gt;
+&lt;li&gt;Leggibile dall&amp;rsquo;uomo e/o dalla macchina;&lt;/li&gt;
+&lt;li&gt;Salvato in formato aperto: valori separati da virgola (&lt;code&gt;.csv&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;Software: editor di testo, programmi di fogli di calcolo, Excel;&lt;/li&gt;
+&lt;li&gt;Uno per dataset.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contiene definizioni dei simboli, abbreviazioni, variabili, intestazioni delle colonne, unità di misura, e formati dei dati, e documenta altri aspetti metodologici, come il trattamento dei dati mancanti.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;documentaizone-dei-dati-metadati&#34;&gt;Documentaizone dei dati: Metadati&lt;/h3&gt;
+&lt;p&gt;Leggendo i principi FAIR, non si può fare a meno di notare che tutto si basa sulla disponibilità di metadati leggibili dalle macchine.&lt;/p&gt;
+&lt;p&gt;Sono legati alle informazioni contestuali più ampie che descrivono i tuoi dati, ma di solito sono più strutturati in quanto conformi a standard stabiliti e leggibili dalle macchine.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;schemi-di-metadati&#34;&gt;Schemi di metadati&lt;/h3&gt;
+&lt;p&gt;Una struttura concettuale che specifica quali metadati utilizzare e secondo quali regole.&lt;/p&gt;
+&lt;p&gt;Gli schemi di metadati forniscono campi o elementi specifici da utilizzare per descrivere i dati per uno specifico uso.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Insieme di elementi;&lt;/li&gt;
+&lt;li&gt;Definizione di elementi;&lt;/li&gt;
+&lt;li&gt;Relazioni tra elementi;&lt;/li&gt;
+&lt;li&gt;Regole di utilizzo degli elementi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;bisogna-trovare-gli-schemi-giusti-per-la-propria-disciplina&#34;&gt;Bisogna trovare gli schemi giusti per la propria disciplina&lt;/h3&gt;
+&lt;p&gt;È buona pratica utilizzare schemi di metadati standard internazionali per organizzare e memorizzare i tuoi (meta)dati in modo strutturato.&lt;/p&gt;
+&lt;p&gt;Liste utili:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FAIRsharing&lt;/li&gt;
+&lt;li&gt;Directory su DCC&lt;/li&gt;
+&lt;li&gt;Directory su RDA&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-dublin-core&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
+&lt;p&gt;Dublin Core è composto da 15 elementi di metadati “core”. È uno degli schemi di metadati più semplici e più utilizzati, pensato per descrivere risorse Web ma applicabile anche a risorse fisiche.&lt;/p&gt;
+&lt;p&gt;Nel standard Dublin Core sono incluse definizioni di ciascun elemento di metadati che stabiliscono quali tipi di informazioni devono essere registrati e dove e come.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-dublin-core-1&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
+&lt;p&gt;IMG fonte: &lt;a href=&#34;https://libguides.ucd.ie/data/metadata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://libguides.ucd.ie/data/metadata&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-metadati-si-appoggiano-anche-sugli-_schemi-di-codifica_&#34;&gt;I metadati si appoggiano anche sugli &lt;em&gt;schemi di codifica&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Insiemi di regole che specificano sintassi o lessico che possono essere utilizzati dai metadati di uno schema di metadati.&lt;/p&gt;
+&lt;p&gt;Usati principalmente per garantire coerenza nell&amp;rsquo;inserimento dei dati.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Schema di codifica sintattica&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. &lt;a href=&#34;&#34;&gt;ISO 8601&lt;/a&gt; per le date);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authority file&lt;/strong&gt;: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. &lt;a href=&#34;&#34;&gt;VIAF&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vocabolario controllato&lt;/strong&gt;: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. &lt;a href=&#34;&#34;&gt;AAT&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vocabolari-controllati&#34;&gt;Vocabolari controllati&lt;/h3&gt;
+&lt;p&gt;Lista strutturata e normativa di termini, organizzati in un esplicito sistema di relazioni.&lt;/p&gt;
+&lt;p&gt;Metodo per la descrizionecoerente dei dati e per controllare i possibili valori applicabili ad un elemento.&lt;/p&gt;
+&lt;p&gt;Lista di vocabolari: &lt;a href=&#34;https://bartoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bartoc.org/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;metadati-e-documentazione-migliorano-la-fairness-dei-tuoi-dati&#34;&gt;Metadati e documentazione migliorano la FAIRness dei tuoi dati&lt;/h3&gt;
+&lt;p&gt;La qualità delle informazioni descrittive (metadati e documentazione) riguardo ai dati ha un impatto profondo sulla loro riusabilità, quindi più documentazione e metadati puoi fornire, meglio è.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;metadati-e-schemi-si-basano-sempre-di-più-su-ontologie&#34;&gt;Metadati e schemi si basano sempre di più su ontologie&lt;/h3&gt;
+&lt;p&gt;Affinché i metodi e gli strumenti computazionali funzionino, è necessario che ci siano accordi, contratti sociali e protocolli che consentano l&amp;rsquo;interoperabilità.&lt;/p&gt;
+&lt;p&gt;Per questo, dobbiamo esaminare alcuni dettagli tecnici e, poiché trattiamo di principi FAIR, inevitabilmente dobbiamo affrontare le nozioni di Linked (Open) Data e Resource Description Framework (RDF).&lt;/p&gt;
+&lt;p&gt;Questo significa essenzialmente che non possiamo parlare di metadati azionabili dalle macchine senza parlare di semantica.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-05-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 05 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - Diario di bordo</title>
       <link>http://localhost:1313/it/slides/dhdmch-04/</link>
       <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
@@ -1063,6 +1340,10 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;div class=&#34;footer&#34;&gt;
 Gruber, J. (2012). Markdown: Syntax. URL &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;http://daringfireball.net/projects/markdown/syntax&lt;/a&gt;.
 &lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;per-visualizzare-il-risultato&#34;&gt;Per visualizzare il risultato&lt;/h3&gt;
+&lt;p&gt;Generalmente, visualizzare immediatamente la resa di un testo in Markdown non è difficile, ma nel nostro caso non è immediato&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Intanto usiamo questo: &lt;a href=&#34;https://markdownlivepreview.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://markdownlivepreview.com/&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;la-sintassi&#34;&gt;La sintassi&lt;/h2&gt;
 &lt;hr&gt;
@@ -1083,12 +1364,12 @@ Gruber, J. (2012). Markdown: Syntax. URL &lt;a href=&#34;http://daringfireball.n
 &lt;h3 id=&#34;intestazioni&#34;&gt;Intestazioni&lt;/h3&gt;
 &lt;p&gt;In Markdown, le intestazioni sono precedute da uno o più cancelletti &lt;code&gt;#&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Esistono sei livelli di intestazioni in Markdown:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;# Intestazione 1&lt;/code&gt;
-&lt;code&gt;## Intestazione 2&lt;/code&gt;
-&lt;code&gt;### Intestazione 3&lt;/code&gt;
-&lt;code&gt;#### Intestazione 4&lt;/code&gt;
-&lt;code&gt;##### Intestazione 5&lt;/code&gt;
-&lt;code&gt;###### Intestazione 6&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# Intestazione 1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;## Intestazione 2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;### Intestazione 3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#### Intestazione 4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;##### Intestazione 5&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;###### Intestazione 6&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;
 &lt;p&gt;Esistono due tipi di link in Markdown (link inline e reference link), ma entrambi vengono visualizzati nello stesso modo.&lt;/p&gt;
@@ -1115,6 +1396,14 @@ Gruber, J. (2012). Markdown: Syntax. URL &lt;a href=&#34;http://daringfireball.n
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ecco &lt;a href=&#34;www.github.com&#34;&gt;un link a qualcos&amp;rsquo;altro&lt;/a&gt;.&lt;br&gt;
 Ecco &lt;a href=&#34;www.google.com&#34;&gt;un altro link&lt;/a&gt;.&lt;br&gt;
 E ora torniamo a &lt;a href=&#34;www.github.com&#34;&gt;primo link&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link-interni&#34;&gt;Link interni&lt;/h3&gt;
+&lt;p&gt;Per linkare ad un altro elemento (di solito un&amp;rsquo;intestazione) all&amp;rsquo;interno dello stesso documento, è sufficiente riprendere il testo dell&amp;rsquo;intestazione in minuscolo, sostituire gli eventuali spazi con il trattino &lt;code&gt;-&lt;/code&gt;, e precederlo con il cancelletto &lt;code&gt;#&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;###### Intestazione sei
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[Link all&amp;#39;intestazione sei](#intestazione-sei)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h6 id=&#34;intestazione-sei&#34;&gt;Intestazione sei&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;#intestazione-sei&#34;&gt;Link all&amp;rsquo;intestazione sei&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;immagini&#34;&gt;Immagini&lt;/h3&gt;
 &lt;p&gt;Se sai come creare link in Markdown, puoi creare anche immagini. La sintassi è quasi la stessa.&lt;/p&gt;
@@ -1144,17 +1433,11 @@ E ora torniamo a &lt;a href=&#34;www.github.com&#34;&gt;primo link&lt;/a&gt;.&lt
 &lt;hr&gt;
 &lt;h3 id=&#34;citazioni&#34;&gt;Citazioni&lt;/h3&gt;
 &lt;p&gt;Per creare una citazione, tutto quello che devi fare è precedere la linea con il simbolo &amp;ldquo;maggiore di&amp;rdquo; &lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&amp;gt; Questo è un paragrafo.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;gt; Questa è una citazione.&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Questo è un paragrafo.&lt;/p&gt;
+&lt;p&gt;Questa è una citazione.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;citazioni-su-più-righe&#34;&gt;Citazioni su più righe&lt;/h3&gt;
-&lt;p&gt;Puoi anche inserire un simbolo maggiore su ogni riga della citazione. Questo è particolarmente utile se la citazione si estende su più paragrafi.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; Inizio del paragrafo...
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; ... e la fine.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;liste&#34;&gt;Liste&lt;/h3&gt;
 &lt;p&gt;Esistono due tipi di liste: ordinate e non ordinate.&lt;/p&gt;
 &lt;hr&gt;
@@ -1182,14 +1465,18 @@ E ora torniamo a &lt;a href=&#34;www.github.com&#34;&gt;primo link&lt;/a&gt;.&lt
 &lt;hr&gt;
 &lt;h3 id=&#34;indentazione&#34;&gt;Indentazione&lt;/h3&gt;
 &lt;p&gt;A volte, potresti aver bisogno di annidare una lista all&amp;rsquo;interno di un&amp;rsquo;altra.&lt;/p&gt;
-&lt;p&gt;La sintassi è uguale, con l&amp;rsquo;aggiunta di uno spazio prima dell&amp;rsquo;asterisco o numero dell&amp;rsquo;elemento indentato.&lt;/p&gt;
+&lt;p&gt;La sintassi è uguale, con l&amp;rsquo;aggiunta di quattro spazi (o un tab) prima dell&amp;rsquo;asterisco o numero dell&amp;rsquo;elemento indentato.&lt;/p&gt;
+&lt;p&gt;In alcune variazioni di Markdown, è sufficiente uno spazio.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* Primo elemento
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; * Secondo elemento
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; * Terzo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  * Secondo elemento
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  * Terzo elemento
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Primo elemento&lt;/li&gt;
+&lt;li&gt;Primo elemento
+&lt;ul&gt;
 &lt;li&gt;Secondo elemento&lt;/li&gt;
 &lt;li&gt;Terzo elemento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;paragrafi&#34;&gt;Paragrafi&lt;/h3&gt;
@@ -1250,10 +1537,24 @@ Secondo paragrafo.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;obiettivo-1-sistemiamo-i-nostri-readmetxt-facendoli-diventare-readmemd&#34;&gt;Obiettivo 1: sistemiamo i nostri README.txt, facendoli diventare README.md&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Tornate sui cloni della repository su cui avete lavorato l&amp;rsquo;altra volta;&lt;/li&gt;
-&lt;li&gt;Fate synch;&lt;/li&gt;
-&lt;li&gt;In &lt;code&gt;docs&lt;/code&gt; e in &lt;code&gt;data&lt;/code&gt;, create un nuovo file README.md e copia-incollate i contenuti dai README.txt creati da voi;&lt;/li&gt;
-&lt;li&gt;Formattate il contenuti in Markdown.&lt;/li&gt;
+&lt;li&gt;Tornate sul clone della repo su cui avete lavorato l&amp;rsquo;altra volta;&lt;/li&gt;
+&lt;li&gt;Sincronizzate il vostro fork con la repo originale (sulla repo clonata: &lt;code&gt;Synch fork&lt;/code&gt; &amp;gt; &lt;code&gt;Update branch&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;data&lt;/code&gt;, create un nuovo file &lt;code&gt;README.md&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;README.md&lt;/code&gt;, copia-incollate i contenuti dai &lt;code&gt;README.txt&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Formattate il contenuti in Markdown, come mostrato nella prossima slide;&lt;/li&gt;
+&lt;li&gt;Eliminate il &lt;code&gt;README.txt&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Fate un &lt;code&gt;pull request&lt;/code&gt;, come l&amp;rsquo;altra volta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-formattare-il-testo-del-readme-in-data&#34;&gt;Come formattare il testo del README in &lt;code&gt;data&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I testi in maiuscolo sono intestazioni (da organizzare in livelli);&lt;/li&gt;
+&lt;li&gt;Le voci nell&amp;rsquo;indice devono essere elementi di una lista ordinata;&lt;/li&gt;
+&lt;li&gt;Le voci nell&amp;rsquo;indice devono essere link interni che si riferiscono alle rispettive intestazioni;&lt;/li&gt;
+&lt;li&gt;Il nome del file deve essere in codice;&lt;/li&gt;
+&lt;li&gt;Le voci in Struttura devono essere elementi di liste non ordinate;&lt;/li&gt;
+&lt;li&gt;Le voci in Struttura devono essere in grassetto;&lt;/li&gt;
+&lt;li&gt;Link e mail&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;obiettivo-2-stiliamo-un-dmp-per-il-nostro-progetto-su-mythologiae&#34;&gt;Obiettivo 2: stiliamo un DMP per il nostro progetto su Mythologiae&lt;/h3&gt;
@@ -1303,7 +1604,7 @@ Secondo paragrafo.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metodi o strumenti software sono necessari per accedere e utilizzare i dati?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà garantita l&amp;#39;applicazione di un identificatore unico e persistente (come un Digital Object Identifier (DOI)) a ciascun set di dati?
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;salviamo-la-nostra-bozza-di-dmp-in-docs&#34;&gt;Salviamo la nostra bozza di DMP in &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-04-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 04 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
