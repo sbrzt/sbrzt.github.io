@@ -184,28 +184,22 @@ Individuiamo <span class="class">classi</span>, <span class="entity">entità</sp
 
 ### Esempio di modello di dati: Text Encoding Initiative
 
-Per agevolare la portabilità dei prodotti digitali e per
-consentire dunque la condivisione dei formati di
-scambio è stato realizzato un progetto denominato
-TEI (Text Encoding Initiative).
+TEI è un modello di dati, espresso tramite markup, per descrivere oggetti e fenomeni testuali, soprattutto in ambito umanistico.
 
-TEI è un modello di dati per la codifica testuale per descrivere oggetti e fenomeni testuali.
+Obiettivo: contemplare tutta la serie dei fenomeni di interesse umanistico e trovare, per ciascuno di essi, un vocabolario unico al fine di arrivare ad una formalizzazione utile a normalizzare i criteri, le modalità e il lessico del markup, di fronte alla polisemia del linguaggio naturale.
 
-che vuole contemplare tutta la serie dei
-fenomeni di interesse ‘umanistico’ e trovare, per
-ciascuno di essi, un vocabolario unico al fine di
-arrivare ad una formalizzazione utile a normalizzare i
-criteri, le modalità e il lessico del markup, di fronte
-alla polisemia del linguaggio naturale
+Documentazione ufficiale: <http://www.tei-c.org/Guidelines>.
 
-Documentazione ufficiale: <http://www.tei-c.org/Guidelines>
+<div class="footer">
+Tomasi, F. La codifica XML/TEI. <a href="http://web.dfc.unibo.it/buzzetti/corsoSFI/25febbraio/tomasi.pdf">http://web.dfc.unibo.it/buzzetti/corsoSFI/25febbraio/tomasi.pdf</a>.
+</div>
 
 ---
 
 ### Struttura di un documento TEI
 
-Un testo codificato in TEI è costituito da tre parti minime:
-- un elemento `TEI` che contiene tutti gli altri;
+Un testo codificato in TEI è costituito da _almeno_ tre elementi:
+- un elemento `TEI`, contenente tutti gli altri;
 - un elemento `teiHeader`, contenente i metadati;
 - un elemento `text`, contenente il corpo (`body`) del testo.
 
@@ -232,7 +226,6 @@ Un testo codificato in TEI è costituito da tre parti minime:
     </body>
   </text>
 </TEI>
-
 ```
 
 ---
@@ -249,7 +242,7 @@ Lo stesso discorso vale per le macchine?
 
 HTML impone _come_ rappresentare (non _cosa_).
 
-Alcuni tag sono semantici (es. `<title>`) ma il loro contenuto non è strutturato né standardizzato.
+Alcuni tag sono semanticamente significativi (es. `<title>`) ma il loro contenuto non è strutturato né standardizzato.
 
 <div class="footer">
 Verborgh, Ruben. The Semantic Web & Linked Open Data. In Web Fundamentals. <a href="https://rubenverborgh.github.io/WebFundamentals/semantic-web/">https://rubenverborgh.github.io/WebFundamentals/semantic-web/</a>.
@@ -300,9 +293,9 @@ Verborgh, Ruben. The Semantic Web & Linked Open Data. In Web Fundamentals. <a hr
 
 Dati (semi-)strutturati in grafi, interpretabili dalle macchine (e pubblicati in formato aperto).
 
-Se abbiamo più dataset con licenza aperta, e descritti dagli stessi standard di metadati, possiamo effettuare più facilmente interrogazioni e analisi incrociate, integrazioni, ecc. 
+Se abbiamo più dataset con licenza aperta, e descritti dagli stessi standard di metadati (cioé modellati nella stessa maniera), possiamo effettuare più facilmente interrogazioni e analisi incrociate, integrazioni du larga scala, ecc. 
 
-In altre parole: interoperabilità!
+In altre parole: **interoperabilità** e **riusabilità**!
 
 <div class="footer">
 Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programming Historian 6 (2017), <a href="https://doi.org/10.46430/phen0068">https://doi.org/10.46430/phen0068</a>. 
@@ -310,18 +303,41 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 
 ---
 
-### Esempio
+###  Un paio di principi fondamentali
 
-La persona William Gibson è identificata da un URI come http://viaf.org/viaf/109517110.
-Questo permette di disambiguare le risorse in modo che tutti possano fare riferimento alla stessa entità in modo uniforme.
+* Utilizzare un formato standard riconosciuto: i dati devono essere strutturati con standard riconosciuti per permettere l'elaborazione coerente da parte delle macchine;
+* Riferimento univoco alle entità: quando ci sono dati su una persona, luogo o cosa, assicurarsi di usarli in modo uniforme in tutti i dataset;
+* Pubblicare i dati apertamente: i dati devono essere accessibili gratuitamente, con licenze aperte, e in formati che non richiedano software proprietario.
 
-Riferimento agli authority files come VIAF (per gli autori) o Wikidata (per le opere).
+---
+
+### Usare URI per dare nomi alle cose
+
+Un URI è un identificatore unico per una risorsa.
+
+Diversamente da un URL, non è necessario che un URI punti _fisicamente_ a una risorsa, ma deve essere comunque unico.
+
+Esempi di URI che disambiguano entità:
+  - <https://www.wikidata.org/wiki/Q188987> (William Gibson);
+  - <https://www.wikidata.org/entity/Q662029> (Neuromante).
+
+---
+
+### Esempio: Wikidata
+
+Link: <https://www.wikidata.org>.
+
+La risorsa "William Gibson" può essere identificata in maniera univoca dall'URI <https://www.wikidata.org/wiki/Q188987>. Questo permette di disambiguarla, in modo che tutti possano fare riferimento alla stessa persona in modo uniforme.
+
+L'URI porta ad una pagina Web contenente una serie di informazioni che contestualizzano la risorsa.
+
+Inoltre, ad essa è associato un inseme di dati e di collegamenti ad altre risorse.
 
 ---
 
 ### 5 ★ Open Data
 
-Link: https://5stardata.info/en/
+Link: <https://5stardata.info/en/>.
 
 Schema di pubblicazione dei dati in formato LOD:
 1. I dati sono disponibili sul Web con una licenza aperta (es. Creative Commons);
@@ -329,35 +345,6 @@ Schema di pubblicazione dei dati in formato LOD:
 3. 2 + i dati sono in un formato non proprietario (es. CSV, XML, ecc.);
 4. 3 + i dati sono identificati in maniera persistente ed univoca sul Web tramite URI;
 5. 4 + i dati sono collegati ad altri dati e risorse esterni per fornire ulteriore contesto.
-
----
-
-###  Quattro principi di pubblicazione LOD
-
-* **Usare URI come nomi per le cose**;
-* Usare HTTP per permettere alle macchine di cercare questi nomi;
-* Fornire informazioni utili al momento della ricerca;
-* **Includere link ad altre cose**.
-
----
-
-### Usare URI per dare nomi alle cose
-
-Un URI è un identificatore unico per una risorsa. 
-
-Non è necessario che un URI punti fisicamente a una risorsa, ma deve essere unico.
-
-Esempi di URI che disambiguano entità:
-  - http://viaf.org/viaf/109517110 (William Gibson);
-  - https://www.wikidata.org/entity/Q662029 (Neuromante).
-
----
-
-### Includere link ad altre risorse 
-
-Tra le informazioni utili associate ai dati, ci dovrebbero essere link ad altri dati o risorse.
-
-I link danno significato ai dati: permettono l’esplorazione del contesto e l'integrazione con altre fonti di conoscenza.
 
 ---
 
@@ -378,10 +365,13 @@ I link danno significato ai dati: permettono l’esplorazione del contesto e l'i
       </p>
       <p>
         <ul>
-          <li>Soggetto: un'entità;</li>
-          <li>Predicato: una caratteristica del soggetto;</li>
-          <li>Oggetto: un'entità o un valore.</li>
+          <li>Soggetto: un'entità (sempre identificata da un URI);</li>
+          <li>Predicato: una caratteristica del soggetto (sempre identificata da un URI);</li>
+          <li>Oggetto: un'entità (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.).</li>
         </ul>
+      </p>
+      <p>
+        Le triple si collegano tra loro, formando un grafo di dati.
       </p>
   </div>
 </div>
@@ -392,36 +382,66 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 
 ---
 
+### Esempio
+
+![](img/triple-example.png "Un esempio di modellazione dei dati tramite RDF. Sono state utilizzate due triple per esprimere alcune proprietà dell'opera di Aldo Moro intitolata "Saluto" (in questo caso, l'autore e il titolo). Fonte: https://aldomorodigitale.unibo.it/about/docs/models#rdf-section.")
+
+---
+
 ### Resource Description Framework
 
-Modello di dati standard che descrive i dati tramite triple SPO.
+Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l'utilizzo di triple soggetto-predicato-oggetto.
 
 Dice cosa fare, ma non:
 - Come scrivere triple!
-  - Per questo ci sono le serializzazioni (sintassi concrete di RDF);
+  - Per questo ci sono le **serializzazioni** (sintassi concrete di RDF);
 - Come esprimere entità e proprietà!
-  - Per questo esistono gli artefatti semantici (come vocabolari controllati, ontologie, ecc.).
+  - Per questo esistono gli **artefatti semantici** (come vocabolari controllati, ontologie, ecc.).
+
+<div class="footer">
+Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programming Historian 6 (2017), <a href="https://doi.org/10.46430/phen0068">https://doi.org/10.46430/phen0068</a>. 
+</div>
 
 ---
 
-### Tesauro
+### Esempio di serializzazione RDF: Turtle
 
-Vocabolario controllato nel quale sono presenti anche relazioni di varia natura, es. gerarchiche, associative (sinonimia, iperonimia, iponimia, olonimia, meronimia), ecc.
+```
+ex: <https://w3id.org/moro/enoam/data/> .
+dct: <http://purl.org/dc/terms/> .
 
----
 
-### Ontologia
-
-Modello di dati che descrive una particolare area di conoscenza definendo una terminologia comune per:
-entità 
-proprietà (relazioni e attributi)
-vincoli logici e regole di inferenza
+ex:opera-110001 dct:creator ex:aldo-moro ;
+                dct:title "Saluto" .
+```
 
 ---
 
-### l'importanza dei lod e dei modelli semantici
+### Esempio di artefatto semantico: Tassonomia, tesauro, ecc.
 
-...
+Vocabolari controllati nei quali sono presenti anche relazioni di varia natura, es. gerarchiche, associative (sinonimia, iperonimia, iponimia, olonimia, meronimia), ecc.
+
+Esempio di tassonomia: <https://vocabs.dariah.eu/tadirah/en/>.
+
+Esempio di tesauro: <https://www.getty.edu/research/tools/vocabularies/aat/>.
+
+<div class="footer">
+Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2: 97-128. Also available in ISKO Encyclopedia of Knowledge Organization, eds. Birger Hjørland and Claudio Gnoli, <a href="https://www.isko.org/cyclo/classification">https://www.isko.org/cyclo/classification</a>.
+</div>
+
+---
+
+### Esempio di artefatto semantico: Ontologia
+
+Modello di dati che descrive un particolare dominio di conoscenza, definendo una terminologia comune per entità, proprietà (relazioni e attributi), e vincoli logici e regole di inferenza.
+
+Esempi: <https://w3id.org/dharc/ontology/chad-ap>, <https://w3id.org/spar/cito>, <http://www.cidoc-crm.org/cidoc-crm>...
+
+Catalogo: <https://lov.linkeddata.es/dataset/lov/>.
+
+<div class="footer">
+Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2: 97-128. Also available in ISKO Encyclopedia of Knowledge Organization, eds. Birger Hjørland and Claudio Gnoli, <a href="https://www.isko.org/cyclo/classification">https://www.isko.org/cyclo/classification</a>.
+</div>
 
 ---
 

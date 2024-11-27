@@ -52,17 +52,17 @@ slides:
 ### ... Con i soliti problemi
 
 - Un sacco di PDF con nomi di file incomprensibili;
-- Nessun collegamento tra metadati, file, note;
-- Quando si cita, la migliore opzione è copiare e incollare;
-- Difficile condividere articoli con metadati;
-- Riformattazione a mano delle citazioni;
-- Collaborazione difficile.
+- Nessun collegamento tra metadati dei documenti, documenti, e appunti;
+- Copiare e incollare come metodo di inserimento delle citazioni;
+- Riformattazione manuale delle citazioni;
+- Condivisione degli articoli con metadati molto difficile;
+- Collaborazione sulla stessa bibliografia molto difficile.
 
 ---
 
 ### Usiamo Zotero
 
-Link: <https://www.zotero.org/>
+Link: <https://www.zotero.org/>.
 
 Zotero è un servizio e un software gratuito e open-source per la gestione dei riferimenti bibliografici e dei metadati. 
 
@@ -138,7 +138,7 @@ In particolare, serve per:
 
 Il dataset di Mythologiae è costituito da ~4389 righe e 31 colonne: 
 * Ogni riga corrisponde ad un'opera d'arte;
-* Ogni colonna orrisponde ad un metadato riferito all'opera d'arte (es. autore, tema mitologico, data di creazione, ecc.);
+* Ogni colonna corrisponde ad un metadato riferito all'opera d'arte (es. autore, tema mitologico, data di creazione, ecc.);
 
 Tra le colonne, c'è anche `cho_sources_classic`, che indica le fonti classiche associate al tema mitologico individuato nell'opera.
 
@@ -146,11 +146,7 @@ Tra le colonne, c'è anche `cho_sources_classic`, che indica le fonti classiche 
 
 ### Oggi lavoriamo solo su un piccolo sottoinsieme di dati: le citazioni canoniche
 
-Le citazioni canoniche sono un sistema di riferimento utilizzato principalmente nella letteratura classica, per citare testi antichi in modo breve e standardizzato. Esse indicano il titolo dell’opera, seguita dal libro e dalla sezione specifica.
-
-- Opera: nome del testo (ad esempio, Apollodoro, Odissea, Erodoto);
-- Libro: il numero del libro o della parte dell'opera;
-- Sezione: il numero della sezione, capitolo o verso specifico.
+Le citazioni canoniche sono un sistema di riferimento utilizzato principalmente nella letteratura classica, per citare testi antichi in modo breve e standardizzato. Esse indicano il titolo dell’opera, seguita dal eventuali componenti interne dell'opera (es. libro, sezione, capitolo, verso, ecc.).
 
 Esempi:
 - `Apollod. 3.5.8`, che equivale a "Apollodoro, _Biblioteca_, libro 3, capitolo 5, sezione 8";
@@ -161,18 +157,18 @@ Esempi:
 
 ### Cosa farete
 
-- Esaminerete il dataset disponibile qui: <https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing>
+- Esaminerete il sotto-dataset disponibile qui: <https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing> (oppure sulla repo: `tutorial/data/README.md` > Bibliografia > Fonti > Selezione di citazioni canoniche);
     - Una sola colonna, contenente una serie di citazioni canoniche;
-- Cercherete su Perseus i dati contestuali della citazione (ove possibile), come l'editore, il luogo di pubblicazione, ecc.;
-- Vi consiglio di fare ricerche su Google usando _anche_ la stringa di testo che trovate su Perseus;
-- Nella collezione `DHDMCH_2024-2025` condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus.
+- Cercherete su [Perseus](http://www.perseus.tufts.edu/hopper/) i dati contestuali della citazione (ove possibile), come l'editore, il luogo di pubblicazione, ecc.;
+- Vi consiglio di fare ricerche su Google usando _anche_ la stringa di testo che trovate su Perseus, in fondo alla pagina della rispettiva opera che trovate;
+- Nella collezione `DHDMCH_2024-2025` condivisa su Zenodo, inserirete i dati bibliografici che avrete trovato.
 
 ---
 
 - La tipologia dell'opera sarà `Book section`;
-- Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell'opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale).
+- Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell'opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale);
 - Le informazioni le scoprite curiosando sul Web; cercatele bene, ma se non le trovate, non inserite nulla!
-- Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? quali fonti state usando? quale software? in quale modalità? quali informazioni state raccogliendo?
+- Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? Quali fonti (siti, dataset, ecc.) state usando? Quale software? In quale modalità? Quali informazioni state raccogliendo? Queste sono tutte informazioni che finiscono nella documentazione!
 
 ---
 
