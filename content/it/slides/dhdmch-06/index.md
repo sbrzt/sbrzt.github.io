@@ -161,13 +161,57 @@ Esempi:
 
 ### Cosa farete
 
-- Esaminerete il dataset disponibile qui: ...
-    - Due colonne: una contenente una serie di citazioni canoniche, l'altra i rispettivi link a Perseus;
+- Esaminerete il dataset disponibile qui: <https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing>
+    - Una sola colonna, contenente una serie di citazioni canoniche;
 - Cercherete su Perseus i dati contestuali della citazione (ove possibile), come l'editore, il luogo di pubblicazione, ecc.;
-- Nella collezione `DHDMCH_2024-2025` condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus;
-    - La tipologia dell'opera sarà `Book` oppure `Book section`, a seconda che venga citato l'intero libro oppure solo una parte;
-    - Nel campo `Extra` inserirete l'informazione specifica sulla parte dell'opera che viene citata:
-        - Esempio: per `Apollod. 3.5.8` inserirete nel campo Extra "Libro 3, capitolo 5, sezione 8" (capirete cosa scrivere dal contesto).
+- Vi consiglio di fare ricerche su Google usando _anche_ la stringa di testo che trovate su Perseus;
+- Nella collezione `DHDMCH_2024-2025` condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus.
+
+---
+
+- La tipologia dell'opera sarà `Book section`;
+- Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell'opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale).
+- Le informazioni le scoprite curiosando sul Web; cercatele bene, ma se non le trovate, non inserite nulla!
+- Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? quali fonti state usando? quale software? in quale modalità? quali informazioni state raccogliendo?
+
+---
+
+Esempio:
+- es. `Hom. Od. 1` è un `Book section` con
+  - `Title`: Book 1
+  - `Author` (> Switch to Single Field): Homer
+  - `Translator`: Murray, Augustus Taber
+  - `Book Title`: The Odyssey
+  - `Place`: London
+  - `Publisher`: William Heinemann, Ltd.
+  - `Date`: 1919
+  - `Extra`: Hom. Od. 1
+
+---
+
+Esempio:
+- `Hom. Od. 22.75-199` è un `Book section` con
+  - `Title`: Book 22, lines 75-199
+  - `Author` (> Switch to Single Field): Homer
+  - `Translator`: Murray, Augustus Taber
+  - `Book Title`: The Odyssey
+  - `Place`: London
+  - `Publisher`: William Heinemann, Ltd.
+  - `Date`: 1919
+  - `Extra`: Hom. Od. 22.75-199
+
+---
+
+Altro esempio:
+- `Apollod. 3.5.8` è un `Book section` con
+  - `Title`: Book 3, chapter 5, section 8
+  - `Author`: Apollodorus
+  - `Translator`: Frazer, James George
+  - `Book Title`: The Library
+  - `Place`: London
+  - `Publisher`: William Heinemann, Ltd.
+  - `Date`: 1921
+  - `Extra`: Apollod. 3.5.8
 
 ---
 

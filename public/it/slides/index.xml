@@ -1103,9 +1103,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@regele?utm_content=creditCopyText
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
 &lt;/div&gt; 
 &lt;hr&gt;
-&lt;h3 id=&#34;i-principi-enfatizzano-la-_machine-actionability_&#34;&gt;I principi enfatizzano la &lt;em&gt;machine-actionability&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;i-principi-enfatizzano-limportanza-della-_machine-actionability_&#34;&gt;I principi enfatizzano l&amp;rsquo;importanza della &lt;em&gt;machine-actionability&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;La capacità dei sistemi computazionali di trovare, accedere, interagire e riutilizzare i dati con un intervento umano minimo o nullo.&lt;/p&gt;
-&lt;p&gt;Il motivo principale è il fatto che gli esseri umani si affidano sempre più al supporto computazionale per gestire i dati a causa dell&amp;rsquo;aumento del volume, della complessità e della velocità di creazione dei dati.&lt;/p&gt;
+&lt;p&gt;È importante perché gli esseri umani si affidano sempre più a strumenti computazionali per gestire i dati a causa dell&amp;rsquo;aumento del loro volume, complessità e velocità di creazione.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). &lt;a href=&#34;https://doi.org/10.1038/sdata.2016.18&#34;&gt;https://doi.org/10.1038/sdata.2016.18&lt;/a&gt;.
 &lt;/div&gt; 
@@ -1118,28 +1118,28 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;findability-1&#34;&gt;Findability&lt;/h3&gt;
-&lt;p&gt;Gli identificatori persistenti (PID) sono importanti perché identificano in modo univoco i dati e ne facilitano la citazione.&lt;/p&gt;
+&lt;h3 id=&#34;altre-note-sulla-findability&#34;&gt;Altre note sulla Findability&lt;/h3&gt;
+&lt;p&gt;Gli identificatori persistenti (PID) sono importanti perché identificano in modo univoco e persistente i dati e ne facilitano la citazione.&lt;/p&gt;
 &lt;p&gt;Un esempio di PID è un Digital Object Identifier (DOI). Quando depositi i dati in un archivio, assicurati di selezionare un archivio che assegni un identificatore persistente (ad esempio Zenodo).&lt;/p&gt;
-&lt;p&gt;I metadati che descrivono i dati supportano la reperibilità, la citazione e il riutilizzo. Metadati ricchi forniscono un contesto importante per l&amp;rsquo;interpretazione dei tuoi dati e rendono più facile per le macchine eseguire analisi automatizzate.&lt;/p&gt;
-&lt;p&gt;Segui schemi di metadati standard, generali come Dublin Core o specifici per disciplina.&lt;/p&gt;
+&lt;p&gt;I metadati che descrivono i dati ne supportano la reperibilità, la citazione e il riutilizzo, poiché forniscono un contesto importante per la loro interpretazione e rendono più facile per le macchine eseguire analisi automatizzate.&lt;/p&gt;
+&lt;p&gt;Segui schemi di metadati standard, generali come Dublin Core, o specifici per disciplina.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h3&gt;
 &lt;p&gt;Se il primo passo per (ri)utilizzare i dati è trovarli, il secondo è sapere come e a quali condizioni possono essere accessibili.&lt;/p&gt;
-&lt;p&gt;I dati sono accessibili quando possono essere sempre recuperati sia dalle macchine che dagli esseri umani:&lt;/p&gt;
+&lt;p&gt;I dati sono accessibili quando possono essere sempre recuperati online sia dalle macchine che dagli esseri umani:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dietro appropriata autorizzazione (se necessaria);&lt;/li&gt;
-&lt;li&gt;Tramite un protocollo ben definito;&lt;/li&gt;
+&lt;li&gt;Tramite un protocollo (un insieme di procedure e convenzioni che regolano la trasmissione dei dati, stabilendo il formato, il processo di comunicazione e le regole di accesso) ben definito (es. HTTPS, RESTful API, ecc.).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Se i dati non sono aperti, lo devono essere almeno i metadati che li descrivono.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;accessibility-1&#34;&gt;Accessibility&lt;/h3&gt;
+&lt;h3 id=&#34;altre-note-sullaccessibility&#34;&gt;Altre note sull&amp;rsquo;Accessibility&lt;/h3&gt;
 &lt;p&gt;Non tutti i dati devono essere resi aperti per essere FAIR! Se l&amp;rsquo;accesso è consentito, i dati devono essere recuperabili senza la necessità di protocolli specializzati.&lt;/p&gt;
 &lt;p&gt;Inoltre, anche se il contenuto completo non è reso completamente disponibile, i dati devono essere il più possibile reperibili, in un luogo sicuro a lungo termine.&lt;/p&gt;
 &lt;p&gt;Dovresti cercare un archivio (generico o specializzato) che faccia quanto segue:&lt;/p&gt;
@@ -1159,14 +1159,14 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;ul&gt;
 &lt;li&gt;I (meta)dati sono azionabili dalle macchine;&lt;/li&gt;
 &lt;li&gt;I formati dei (meta)dati utilizzano vocabolari condivisi e/o ontologie;&lt;/li&gt;
-&lt;li&gt;I (meta)dati devono quindi essere sintatticamente analizzabili e semanticamente comprensibili dalle macchine.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;I (meta)dati devono quindi essere sintatticamente analizzabili e semanticamente comprensibili dalle macchine.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;reusability&#34;&gt;Reusability&lt;/h3&gt;
-&lt;p&gt;Ottimizzare il riutilizzo dei dati è l&amp;rsquo;obiettivo finale, e per raggiungerlo, i metadati e i dati dovrebbero essere ben descritti in modo che possano essere utilizzati, replicati e combinati in contesti differenti.&lt;/p&gt;
+&lt;p&gt;Ottimizzare il riutilizzo dei dati è l&amp;rsquo;obiettivo finale, e - per raggiungerlo - i metadati e i dati dovrebbero essere ben descritti in modo che possano essere utilizzati, replicati e combinati in contesti differenti.&lt;/p&gt;
 &lt;p&gt;Affinché i dati siano riutilizzabili, devono:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Essere conformi ai principi di trovabilità, accessibilità e interoperabilità;&lt;/li&gt;
@@ -1262,7 +1262,7 @@ Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibili
 &lt;/ul&gt;
 &lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[ProjectName]&lt;em&gt;[DocumentType]&lt;/em&gt;[Date]_[Version].[Extension]&lt;/p&gt;
+&lt;p&gt;[ProjectName]_[DocumentType]_[Date]_[Version].[Extension]&lt;/p&gt;
 &lt;p&gt;ClimateStudy_Report_20240522_v1.0.docx&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1312,13 +1312,14 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;li&gt;Uno per dataset.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Contiene definizioni dei simboli, abbreviazioni, variabili, intestazioni delle colonne, unità di misura, e formati dei dati, e documenta altri aspetti metodologici, come il trattamento dei dati mancanti.&lt;/p&gt;
+&lt;p&gt;Esempio: &lt;a href=&#34;https://www.nycja.org/assets/Example-Court-Notification-Codebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nycja.org/assets/Example-Court-Notification-Codebook.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;documentazione-dei-dati-metadati&#34;&gt;Documentazione dei dati: Metadati&lt;/h3&gt;
-&lt;p&gt;Leggendo i principi FAIR, si capisce che tutto si basa sulla disponibilità di metadati leggibili dalle macchine.&lt;/p&gt;
-&lt;p&gt;Sono le informazioni contestuali che descrivono i dati, di solito più strutturate in quanto conformi a standard stabiliti e leggibili dalle macchine.&lt;/p&gt;
+&lt;p&gt;Leggendo i principi FAIR, si capisce quanto sia fondamentale la disponibilità di metadati leggibili dalle macchine.&lt;/p&gt;
+&lt;p&gt;Sono le informazioni contestuali che descrivono i dati, di solito più strutturate del resto della documentazione, in quanto conformi a standard stabiliti e strutturati.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; Portell-Silva, L. (2022). D2.1 FAIR Cookbook. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6783564&#34;&gt;https://doi.org/10.5281/zenodo.6783564&lt;/a&gt;.
 &lt;/div&gt;
@@ -1440,6 +1441,209 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
     </item>
     
     <item>
+      <title>DHDMCH - COLLECT - Descrivere</title>
+      <link>http://localhost:1313/it/slides/dhdmch-07/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-07/</guid>
+      <description>&lt;h1 id=&#34;collect-descrivere&#34;&gt;COLLECT: Descrivere&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-07-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 07 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34; 
+      style=&#34;
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/model-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;non-possediamo-nientaltro-che-metafore&#34;&gt;Non possediamo nient&amp;rsquo;altro che metafore&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-modello&#34;&gt;Cos&amp;rsquo;è un modello?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/model.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Una rappresentazione semplificata (astrazione) di qualcosa (sistema, oggetto, fenomeno, ecc.).
+      &lt;/p&gt;
+      &lt;p&gt;
+        Cattura le caratteristiche fondamentali di quella cosa, permettendo di descrivere, comprendere, analizzare, predire o interagire con quella cosa.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Es. una mappa, un&#39;equazione, uno schema di metadati...
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science&#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-la-modellazione-dei-dati&#34;&gt;Cos&amp;rsquo;è la modellazione dei dati?&lt;/h3&gt;
+&lt;p&gt;L’insieme di attività di rappresentazione formale di un segmento di realtà in modo tale da renderlo computabile.&lt;/p&gt;
+&lt;p&gt;Es. creazione di database, schemi XML, ontologie, ecc.&lt;/p&gt;
+&lt;p&gt;Flanders, J., &amp;amp; Jannidis, F. (2015). Knowledge organization and data modeling in the humanities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-_classification-task_&#34;&gt;Un &lt;em&gt;classification task&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Definizione di classi&lt;/p&gt;
+&lt;p&gt;Classe: categoria di oggetti con proprietà e comportamenti simili&lt;/p&gt;
+&lt;p&gt;Entità: istanze delle classi
+Attributi: proprietà delle classi (e quindi anche delle entità)
+Relazioni: rapporti logici tra classi (e quindi anche tra entità)&lt;/p&gt;
+&lt;p&gt;Flanders, J., &amp;amp; Jannidis, F. (2015). Knowledge organization and data modeling in the humanities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio&#34;&gt;Esempio&lt;/h3&gt;
+&lt;p&gt;Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk&lt;/p&gt;
+&lt;p&gt;Individuiamo classi, entità, attributi e relazioni&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-1&#34;&gt;Esempio&lt;/h3&gt;
+&lt;p&gt;Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk&lt;/p&gt;
+&lt;p&gt;Individuiamo classi, entità, attributi e relazioni&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;strutture-nel-testo&#34;&gt;Strutture nel testo&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-tei&#34;&gt;ESEMPIO: TEI&lt;/h3&gt;
+&lt;p&gt;Introduzione alla Text Encoding Initiative (TEI) come standard per l&amp;rsquo;encoding dei testi.
+Spiegazione di come TEI venga utilizzato per creare rappresentazioni strutturate dei testi, utili per il trattamento computazionale dei dati.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-codifica-dei-testi-nel-contesto-digitale&#34;&gt;La codifica dei testi nel contesto digitale&lt;/h3&gt;
+&lt;p&gt;Panoramica su come la codifica del testo permette di attribuire significati e strutture a parti del testo (es. paragrafi, titoli, personaggi, luoghi, ecc.).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;struttura-di-un-documento-tei&#34;&gt;Struttura di un documento TEI&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;limportanza-di-tei&#34;&gt;L&amp;rsquo;importanza di TEI&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spazi-semantici&#34;&gt;Spazi semantici&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-contenuti-sul-web-sono-solo-per-noi&#34;&gt;I contenuti sul Web sono (solo) per noi&lt;/h3&gt;
+&lt;p&gt;Contenuti leggibili e comprensibili dagli esseri umani&lt;/p&gt;
+&lt;p&gt;Ma le macchine?&lt;/p&gt;
+&lt;p&gt;HTML → come rappresentare (non cosa)&lt;/p&gt;
+&lt;p&gt;Alcuni tag sono semantici (es. &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;) ma il loro contenuto non è strutturato né standardizzato&lt;/p&gt;
+&lt;p&gt;Verborgh,Ruben. The Semantic Web &amp;amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-web-è-universale-ma-incompleto&#34;&gt;Il Web è universale ma incompleto&lt;/h3&gt;
+&lt;p&gt;Qualunque pagina può collegarsi ad altre&lt;/p&gt;
+&lt;p&gt;Nessuna informazione su:
+cosa rappresenta il collegamento?
+che tipo di nesso esiste tra la risorsa A e la risorsa B?&lt;/p&gt;
+&lt;p&gt;Chiunque può pubblicare su qualsiasi argomento&lt;/p&gt;
+&lt;p&gt;decentralizzazione
+inconsistenza dei dati
+incompletezza dei dati&lt;/p&gt;
+&lt;p&gt;Verborgh,Ruben. The Semantic Web &amp;amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-semantic-web-è-un-livello-aggiuntivo-del-web&#34;&gt;Il Semantic Web è un livello aggiuntivo del Web&lt;/h3&gt;
+&lt;p&gt;Il Semantic Web è un&amp;rsquo;estensione del Web tradizionale. Propone di aggiungere informazioni semantiche per rendere i dati descritti, strutturati, interconnessi e automatizzabili.&lt;/p&gt;
+&lt;p&gt;Tim Berners-Lee, nel 2001, ha proposto l&amp;rsquo;idea di estendere il Web affinché le macchine possano ragionare sui dati e fare inferenze automaticamente.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-base-sono-i-linked-open-data&#34;&gt;La base sono i Linked (Open) Data&lt;/h3&gt;
+&lt;p&gt;Dati (semi-)strutturati in grafi, interpretabili dalle macchine (pubblicati in formato aperto)&lt;/p&gt;
+&lt;p&gt;Molteplici dataset con licenza aperta
+Stessi formati standard di riferimento ai e modellazione dei dati
+→ interrogazioni incrociate su dataset interoperabili&lt;/p&gt;
+&lt;p&gt;Jonathan Blaney, &amp;ldquo;Introduction to the Principles of Linked Open Data,&amp;rdquo; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-2&#34;&gt;esempio&lt;/h3&gt;
+&lt;p&gt;La persona William Gibson è identificata da un URI come &lt;a href=&#34;http://viaf.org/viaf/109517110&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://viaf.org/viaf/109517110&lt;/a&gt;.
+Questo permette di disambiguare le risorse in modo che tutti possano fare riferimento alla stessa entità in modo uniforme.&lt;/p&gt;
+&lt;p&gt;Riferimento agli authority files come VIAF (per gli autori) o Wikidata (per le opere).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-sistema-delle-5-stelle&#34;&gt;il sistema delle 5 stelle&lt;/h3&gt;
+&lt;p&gt;5-star rating system:
+disponibile sul Web con una licenza aperta (es. Creative Commons)
+1 + formato strutturato e leggibile dalle macchine (es. Excel)
+2 + formato non proprietario (es. CSV)
+3 + usa standard aperti per identificare (es. RDF)
+4 + link a dati esterni per fornire ulteriore contesto&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quattro-principi-di-pubblicazione-lod&#34;&gt;Quattro principi di pubblicazione LOD&lt;/h3&gt;
+&lt;p&gt;usare URI come nomi per le cose
+usare HTTP per permettere ai computer di cercare questi nomi
+fornire informazioni utili al momento della ricerca
+includere link ad altre cose&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usare-uri-per-dare-nomi-alle-cose&#34;&gt;Usare URI per dare nomi alle cose&lt;/h3&gt;
+&lt;p&gt;Un URI è un identificatore unico per una risorsa. Non è necessario che un URI punti fisicamente a una risorsa, ma è univoco.&lt;/p&gt;
+&lt;p&gt;Esempi di URI che disambiguano entità:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://viaf.org/viaf/109517110 (William Gibson)
+https://www.wikidata.org/entity/Q662029 (Neuromante)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;includere-link-ad-altre-risorse&#34;&gt;Includere link ad altre risorse&lt;/h3&gt;
+&lt;p&gt;Tra le informazioni utili ci dovrebbero essere link ad altri dati&lt;/p&gt;
+&lt;p&gt;I link danno significato ai dati&lt;/p&gt;
+&lt;p&gt;I link permettono l’esplorazione del contesto e l’integrazione&lt;/p&gt;
+&lt;p&gt;I link creano un Web di dati&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lunità-minima-nei-lod-la-tripla-rdf&#34;&gt;L’unità minima nei LOD: la tripla RDF&lt;/h3&gt;
+&lt;p&gt;Costrutto astratto minimo di modellazione dei LOD&lt;/p&gt;
+&lt;p&gt;Soggetto → il dominio del predicato&lt;/p&gt;
+&lt;p&gt;Predicato → una caratteristica del soggetto&lt;/p&gt;
+&lt;p&gt;Oggetto → il codominio del predicato&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rdf&#34;&gt;RDF&lt;/h3&gt;
+&lt;p&gt;Modello di dati standard che descrive i dati tramite triple SPO&lt;/p&gt;
+&lt;p&gt;Dice cosa fare, ma non:
+come scrivere triple → per questo ci sono le serializzazioni (sintassi concrete di RDF)
+come esprimere entità e proprietà → per questo ci sono vocabolari, ontologie, ecc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tesauro&#34;&gt;Tesauro&lt;/h3&gt;
+&lt;p&gt;Vocabolario controllato nel quale sono presenti anche relazioni di varia natura, es. gerarchiche, associative (sinonimia, iperonimia, iponimia, olonimia, meronimia), ecc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ontologia&#34;&gt;Ontologia&lt;/h3&gt;
+&lt;p&gt;Modello di dati che descrive una particolare area di conoscenza definendo una terminologia comune per:
+entità
+proprietà (relazioni e attributi)
+vincoli logici e regole di inferenza&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;limportanza-dei-lod-e-dei-modelli-semantici&#34;&gt;l&amp;rsquo;importanza dei lod e dei modelli semantici&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-07-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 07 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - L&#39;oggetto bibliografia</title>
       <link>http://localhost:1313/it/slides/dhdmch-06/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
@@ -1477,10 +1681,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0601_hu16761674044615409837.webp 400w,
+               /it/slides/dhdmch-06/img/0601_hu9636187785763155797.webp 400w,
                /it/slides/dhdmch-06/img/0601_hu15251737906266957073.webp 760w,
                /it/slides/dhdmch-06/img/0601_hu10478043182061563285.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0601_hu16761674044615409837.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0601_hu9636187785763155797.webp&#34;
                width=&#34;760&#34;
                height=&#34;520&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1507,10 +1711,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0602_hu7366092104136678406.webp 400w,
+               /it/slides/dhdmch-06/img/0602_hu3977929110899218368.webp 400w,
                /it/slides/dhdmch-06/img/0602_hu4066804931206622021.webp 760w,
                /it/slides/dhdmch-06/img/0602_hu17252291362784570954.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0602_hu7366092104136678406.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0602_hu3977929110899218368.webp&#34;
                width=&#34;760&#34;
                height=&#34;566&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1537,10 +1741,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0603_hu1141334375953094853.webp 400w,
+               /it/slides/dhdmch-06/img/0603_hu12477220500626201057.webp 400w,
                /it/slides/dhdmch-06/img/0603_hu16892244390408734361.webp 760w,
                /it/slides/dhdmch-06/img/0603_hu9399692037565593976.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0603_hu1141334375953094853.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0603_hu12477220500626201057.webp&#34;
                width=&#34;760&#34;
                height=&#34;615&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1589,10 +1793,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0604_hu6076482283394954706.webp 400w,
+               /it/slides/dhdmch-06/img/0604_hu17197215731470283073.webp 400w,
                /it/slides/dhdmch-06/img/0604_hu9597301069029693669.webp 760w,
                /it/slides/dhdmch-06/img/0604_hu17321842742770123905.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0604_hu6076482283394954706.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0604_hu17197215731470283073.webp&#34;
                width=&#34;760&#34;
                height=&#34;412&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1619,10 +1823,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0605_hu7108605799578159073.webp 400w,
+               /it/slides/dhdmch-06/img/0605_hu5327123180667322384.webp 400w,
                /it/slides/dhdmch-06/img/0605_hu6275227569877497962.webp 760w,
                /it/slides/dhdmch-06/img/0605_hu5005737590297212150.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0605_hu7108605799578159073.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0605_hu5327123180667322384.webp&#34;
                width=&#34;760&#34;
                height=&#34;327&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1649,10 +1853,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0606_hu11065093897313840745.webp 400w,
+               /it/slides/dhdmch-06/img/0606_hu12658213320572395904.webp 400w,
                /it/slides/dhdmch-06/img/0606_hu3885197780870448736.webp 760w,
                /it/slides/dhdmch-06/img/0606_hu6426536152750925567.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0606_hu11065093897313840745.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0606_hu12658213320572395904.webp&#34;
                width=&#34;760&#34;
                height=&#34;734&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1679,10 +1883,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0607_hu3055115858943101050.webp 400w,
+               /it/slides/dhdmch-06/img/0607_hu12758280977025911315.webp 400w,
                /it/slides/dhdmch-06/img/0607_hu948518341840259728.webp 760w,
                /it/slides/dhdmch-06/img/0607_hu9165862217375464255.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0607_hu3055115858943101050.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0607_hu12758280977025911315.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1709,10 +1913,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0608_hu4919036429700402715.webp 400w,
+               /it/slides/dhdmch-06/img/0608_hu17741547005207099922.webp 400w,
                /it/slides/dhdmch-06/img/0608_hu6327483433666945385.webp 760w,
                /it/slides/dhdmch-06/img/0608_hu3695543278512870264.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0608_hu4919036429700402715.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0608_hu17741547005207099922.webp&#34;
                width=&#34;352&#34;
                height=&#34;257&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1739,10 +1943,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0609_hu5750846175964822366.webp 400w,
+               /it/slides/dhdmch-06/img/0609_hu3077571612287494880.webp 400w,
                /it/slides/dhdmch-06/img/0609_hu1030964601241576854.webp 760w,
                /it/slides/dhdmch-06/img/0609_hu17948190825527523879.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0609_hu5750846175964822366.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0609_hu3077571612287494880.webp&#34;
                width=&#34;357&#34;
                height=&#34;715&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1769,10 +1973,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0610_hu12916979398352813338.webp 400w,
+               /it/slides/dhdmch-06/img/0610_hu156932284702693472.webp 400w,
                /it/slides/dhdmch-06/img/0610_hu14741479749449565516.webp 760w,
                /it/slides/dhdmch-06/img/0610_hu1321336167204757215.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0610_hu12916979398352813338.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0610_hu156932284702693472.webp&#34;
                width=&#34;628&#34;
                height=&#34;581&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1799,10 +2003,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0611_hu8816646125171137996.webp 400w,
+               /it/slides/dhdmch-06/img/0611_hu6896288646788503308.webp 400w,
                /it/slides/dhdmch-06/img/0611_hu6057979043840016189.webp 760w,
                /it/slides/dhdmch-06/img/0611_hu18446620283090028543.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0611_hu8816646125171137996.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0611_hu6896288646788503308.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1829,10 +2033,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0612_hu10545551506025046244.webp 400w,
+               /it/slides/dhdmch-06/img/0612_hu13522498973918706169.webp 400w,
                /it/slides/dhdmch-06/img/0612_hu16339431060531167661.webp 760w,
                /it/slides/dhdmch-06/img/0612_hu5062709240611631496.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0612_hu10545551506025046244.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0612_hu13522498973918706169.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1865,20 +2069,67 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-farete&#34;&gt;Cosa farete&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Esaminerete il dataset disponibile qui: &amp;hellip;
+&lt;li&gt;Esaminerete il dataset disponibile qui: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Due colonne: una contenente una serie di citazioni canoniche, l&amp;rsquo;altra i rispettivi link a Perseus;&lt;/li&gt;
+&lt;li&gt;Una sola colonna, contenente una serie di citazioni canoniche;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Cercherete su Perseus i dati contestuali della citazione (ove possibile), come l&amp;rsquo;editore, il luogo di pubblicazione, ecc.;&lt;/li&gt;
-&lt;li&gt;Nella collezione &lt;code&gt;DHDMCH_2024-2025&lt;/code&gt; condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus;
+&lt;li&gt;Vi consiglio di fare ricerche su Google usando &lt;em&gt;anche&lt;/em&gt; la stringa di testo che trovate su Perseus;&lt;/li&gt;
+&lt;li&gt;Nella collezione &lt;code&gt;DHDMCH_2024-2025&lt;/code&gt; condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;La tipologia dell&amp;rsquo;opera sarà &lt;code&gt;Book&lt;/code&gt; oppure &lt;code&gt;Book section&lt;/code&gt;, a seconda che venga citato l&amp;rsquo;intero libro oppure solo una parte;&lt;/li&gt;
-&lt;li&gt;Nel campo &lt;code&gt;Extra&lt;/code&gt; inserirete l&amp;rsquo;informazione specifica sulla parte dell&amp;rsquo;opera che viene citata:
+&lt;li&gt;La tipologia dell&amp;rsquo;opera sarà &lt;code&gt;Book section&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell&amp;rsquo;opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale).&lt;/li&gt;
+&lt;li&gt;Le informazioni le scoprite curiosando sul Web; cercatele bene, ma se non le trovate, non inserite nulla!&lt;/li&gt;
+&lt;li&gt;Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? quali fonti state usando? quale software? in quale modalità? quali informazioni state raccogliendo?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Esempio: per &lt;code&gt;Apollod. 3.5.8&lt;/code&gt; inserirete nel campo Extra &amp;ldquo;Libro 3, capitolo 5, sezione 8&amp;rdquo; (capirete cosa scrivere dal contesto).&lt;/li&gt;
+&lt;li&gt;es. &lt;code&gt;Hom. Od. 1&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 1&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Author&lt;/code&gt; (&amp;gt; Switch to Single Field): Homer&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Translator&lt;/code&gt;: Murray, Augustus Taber&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Book Title&lt;/code&gt;: The Odyssey&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Place&lt;/code&gt;: London&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Publisher&lt;/code&gt;: William Heinemann, Ltd.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1919&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Hom. Od. 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Hom. Od. 22.75-199&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 22, lines 75-199&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Author&lt;/code&gt; (&amp;gt; Switch to Single Field): Homer&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Translator&lt;/code&gt;: Murray, Augustus Taber&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Book Title&lt;/code&gt;: The Odyssey&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Place&lt;/code&gt;: London&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Publisher&lt;/code&gt;: William Heinemann, Ltd.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1919&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Hom. Od. 22.75-199&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Altro esempio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Apollod. 3.5.8&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 3, chapter 5, section 8&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Author&lt;/code&gt;: Apollodorus&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Translator&lt;/code&gt;: Frazer, James George&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Book Title&lt;/code&gt;: The Library&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Place&lt;/code&gt;: London&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Publisher&lt;/code&gt;: William Heinemann, Ltd.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1921&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Apollod. 3.5.8&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1905,10 +2156,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0613_hu3804099204724052987.webp 400w,
+               /it/slides/dhdmch-06/img/0613_hu8928287847043544383.webp 400w,
                /it/slides/dhdmch-06/img/0613_hu13836988148785247752.webp 760w,
                /it/slides/dhdmch-06/img/0613_hu12994444061259962917.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0613_hu3804099204724052987.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0613_hu8928287847043544383.webp&#34;
                width=&#34;760&#34;
                height=&#34;712&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1935,10 +2186,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0614_hu16010408818694685653.webp 400w,
+               /it/slides/dhdmch-06/img/0614_hu388735774742963374.webp 400w,
                /it/slides/dhdmch-06/img/0614_hu8063298452652814.webp 760w,
                /it/slides/dhdmch-06/img/0614_hu9374070061271571502.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0614_hu16010408818694685653.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0614_hu388735774742963374.webp&#34;
                width=&#34;760&#34;
                height=&#34;732&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1965,10 +2216,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0615_hu16278057354749552664.webp 400w,
+               /it/slides/dhdmch-06/img/0615_hu7516388424543808022.webp 400w,
                /it/slides/dhdmch-06/img/0615_hu15223114417983799704.webp 760w,
                /it/slides/dhdmch-06/img/0615_hu7922390442640776131.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0615_hu16278057354749552664.webp&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0615_hu7516388424543808022.webp&#34;
                width=&#34;760&#34;
                height=&#34;409&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
