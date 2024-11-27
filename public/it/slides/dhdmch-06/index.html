@@ -225,11 +225,11 @@
 <h3 id="-con-i-soliti-problemi">&hellip; Con i soliti problemi</h3>
 <ul>
 <li>Un sacco di PDF con nomi di file incomprensibili;</li>
-<li>Nessun collegamento tra metadati, file, note;</li>
-<li>Quando si cita, la migliore opzione è copiare e incollare;</li>
-<li>Difficile condividere articoli con metadati;</li>
-<li>Riformattazione a mano delle citazioni;</li>
-<li>Collaborazione difficile.</li>
+<li>Nessun collegamento tra metadati dei documenti, documenti, e appunti;</li>
+<li>Copiare e incollare come metodo di inserimento delle citazioni;</li>
+<li>Riformattazione manuale delle citazioni;</li>
+<li>Condivisione degli articoli con metadati molto difficile;</li>
+<li>Collaborazione sulla stessa bibliografia molto difficile.</li>
 </ul>
 
     </section>
@@ -242,7 +242,7 @@
     
       
 <h3 id="usiamo-zotero">Usiamo Zotero</h3>
-<p>Link: <a href="https://www.zotero.org/" target="_blank" rel="noopener">https://www.zotero.org/</a></p>
+<p>Link: <a href="https://www.zotero.org/" target="_blank" rel="noopener">https://www.zotero.org/</a>.</p>
 <p>Zotero è un servizio e un software gratuito e open-source per la gestione dei riferimenti bibliografici e dei metadati.</p>
 <p>Consente di raccogliere, organizzare, citare e condividere fonti bibliografiche in modo semplice e veloce.</p>
 <p>In particolare, serve per:</p>
@@ -628,7 +628,7 @@
 <p>Il dataset di Mythologiae è costituito da ~4389 righe e 31 colonne:</p>
 <ul>
 <li>Ogni riga corrisponde ad un&rsquo;opera d&rsquo;arte;</li>
-<li>Ogni colonna orrisponde ad un metadato riferito all&rsquo;opera d&rsquo;arte (es. autore, tema mitologico, data di creazione, ecc.);</li>
+<li>Ogni colonna corrisponde ad un metadato riferito all&rsquo;opera d&rsquo;arte (es. autore, tema mitologico, data di creazione, ecc.);</li>
 </ul>
 <p>Tra le colonne, c&rsquo;è anche <code>cho_sources_classic</code>, che indica le fonti classiche associate al tema mitologico individuato nell&rsquo;opera.</p>
 
@@ -642,12 +642,7 @@
     
       
 <h3 id="oggi-lavoriamo-solo-su-un-piccolo-sottoinsieme-di-dati-le-citazioni-canoniche">Oggi lavoriamo solo su un piccolo sottoinsieme di dati: le citazioni canoniche</h3>
-<p>Le citazioni canoniche sono un sistema di riferimento utilizzato principalmente nella letteratura classica, per citare testi antichi in modo breve e standardizzato. Esse indicano il titolo dell’opera, seguita dal libro e dalla sezione specifica.</p>
-<ul>
-<li>Opera: nome del testo (ad esempio, Apollodoro, Odissea, Erodoto);</li>
-<li>Libro: il numero del libro o della parte dell&rsquo;opera;</li>
-<li>Sezione: il numero della sezione, capitolo o verso specifico.</li>
-</ul>
+<p>Le citazioni canoniche sono un sistema di riferimento utilizzato principalmente nella letteratura classica, per citare testi antichi in modo breve e standardizzato. Esse indicano il titolo dell’opera, seguita dal eventuali componenti interne dell&rsquo;opera (es. libro, sezione, capitolo, verso, ecc.).</p>
 <p>Esempi:</p>
 <ul>
 <li><code>Apollod. 3.5.8</code>, che equivale a &ldquo;Apollodoro, <em>Biblioteca</em>, libro 3, capitolo 5, sezione 8&rdquo;;</li>
@@ -666,14 +661,14 @@
       
 <h3 id="cosa-farete">Cosa farete</h3>
 <ul>
-<li>Esaminerete il dataset disponibile qui: <a href="https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing</a>
+<li>Esaminerete il sotto-dataset disponibile qui: <a href="https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1GBWW2AMO8HjXhyNB59CuC_aAx3X2aFl1uES5eHGLqos/edit?usp=sharing</a> (oppure sulla repo: <code>tutorial/data/README.md</code> &gt; Bibliografia &gt; Fonti &gt; Selezione di citazioni canoniche);
 <ul>
 <li>Una sola colonna, contenente una serie di citazioni canoniche;</li>
 </ul>
 </li>
-<li>Cercherete su Perseus i dati contestuali della citazione (ove possibile), come l&rsquo;editore, il luogo di pubblicazione, ecc.;</li>
-<li>Vi consiglio di fare ricerche su Google usando <em>anche</em> la stringa di testo che trovate su Perseus;</li>
-<li>Nella collezione <code>DHDMCH_2024-2025</code> condivisa su Zenodo, inserirete i dati bibliografici estratti dalla citazione e da Perseus.</li>
+<li>Cercherete su <a href="http://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener">Perseus</a> i dati contestuali della citazione (ove possibile), come l&rsquo;editore, il luogo di pubblicazione, ecc.;</li>
+<li>Vi consiglio di fare ricerche su Google usando <em>anche</em> la stringa di testo che trovate su Perseus, in fondo alla pagina della rispettiva opera che trovate;</li>
+<li>Nella collezione <code>DHDMCH_2024-2025</code> condivisa su Zenodo, inserirete i dati bibliografici che avrete trovato.</li>
 </ul>
 
     </section>
@@ -687,9 +682,9 @@
       
 <ul>
 <li>La tipologia dell&rsquo;opera sarà <code>Book section</code>;</li>
-<li>Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell&rsquo;opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale).</li>
+<li>Per ora limitiamoci a inserire informazioni legate a tipo, titolo, autore, traduttore, titolo dell&rsquo;opera, luogo di pubblicazione, publisher, data di pubblicazione, e info extra (che conterrà la citazione canonica originale);</li>
 <li>Le informazioni le scoprite curiosando sul Web; cercatele bene, ma se non le trovate, non inserite nulla!</li>
-<li>Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? quali fonti state usando? quale software? in quale modalità? quali informazioni state raccogliendo?</li>
+<li>Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? Quali fonti (siti, dataset, ecc.) state usando? Quale software? In quale modalità? Quali informazioni state raccogliendo? Queste sono tutte informazioni che finiscono nella documentazione!</li>
 </ul>
 
     </section>
