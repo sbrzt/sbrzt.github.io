@@ -233,7 +233,7 @@ Kučerová, H. (2018). The concept of model and conceptual model in information 
         L’insieme di attività di rappresentazione formale di un segmento di realtà in modo tale da renderlo computabile.
       </p>
       <p>
-        I modelli di dati forniscono un'organizzazione precisa che permette ai dati di essere strutturati.
+        I modelli di dati forniscono una struttura precisa che permette ai dati di essere trattati, coompresi, e gestiti.
       </p>
       <p>
         Es. creazione di database, definizione di schemi XML, sviluppo di ontologie, ecc. 
@@ -255,7 +255,7 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
       
 <h3 id="estrarre-elementi-dai-dati-osservati-a-partire-da-uninterpretazione">Estrarre elementi dai dati osservati a partire da un&rsquo;interpretazione</h3>
 <p>Tra i vari fattori che determinano lo sviluppo di un modello di dati, c&rsquo;è anche il <em>linguaggio</em>.</p>
-<p>In breve, un modello di dati traspone pattern presenti nel linguaggio naturale in una forma che possa essere processata e compresa dalle macchine.</p>
+<p>In breve, un modello di dati traspone <em>pattern</em> presenti nel linguaggio naturale in una forma che possa essere processata e compresa dalle macchine.</p>
 <p>Questo comporta l&rsquo;individuazione di:</p>
 <ul>
 <li><strong>Classi</strong>: categorie di oggetti con proprietà e comportamenti simili (es. &ldquo;Persona&rdquo;);</li>
@@ -278,7 +278,7 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
       
 <h3 id="un-esempio-grossolano-giusto-per-capire">Un esempio grossolano, giusto per capire</h3>
 <blockquote>
-<p>Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk</p>
+<p>Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk.</p>
 </blockquote>
 <p>Individuiamo <span class="class">classi</span>, <span class="entity">entità</span>, <span class="attribute">attributi</span> e <span class="relation">relazioni</span>.</p>
 
@@ -311,8 +311,8 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
 <li><span class="entity">Neuromante</span> è un <span class="class">libro</span>;</li>
 <li><span class="entity">William Gibson</span> è una <span class="class">persona</span>;</li>
 <li><span class="entity">cyberpunk</span> è un <span class="class">genere</span>;</li>
-<li><span class="entity">Neuromante</span> <span class="relation">scritto da</span> <span class="entity">William Gibson</span>;</li>
-<li><span class="entity">Neuromante</span> <span class="attribute">pubblicato nel</span> &ldquo;1984&rdquo;;</li>
+<li><span class="entity">Neuromante</span> <span class="relation">ha creatore</span> <span class="entity">William Gibson</span>;</li>
+<li><span class="entity">Neuromante</span> <span class="attribute">ha data di pubblicazione</span> &ldquo;1984&rdquo;;</li>
 <li><span class="entity">Neuromante</span> <span class="attribute">ha numero di pagine</span> &ldquo;271&rdquo;;</li>
 <li><span class="entity">Neuromante</span> <span class="relation">ha genere</span> <span class="entity">cyberpunk</span>.</li>
 </ul>
@@ -363,7 +363,7 @@ Photo by <a href="https://unsplash.com/@leiadakrozjhen?utm_content=creditCopyTex
         Annotazione (o codifica) del testo per definire esplicitamente i ruoli strutturali e semantici degli elementi di cui è costituito.
       </p>
       <p>
-        Un modo per rendere esplicito ciò che è implicito o congetturale.
+        Un modo per rendere esplicito ciò che nel testo è implicito o congetturale.
       </p>
       <p>
         Reso tramite un linguaggio di marcatura, un insieme di convenzioni usate per annotare un testo.
@@ -392,13 +392,13 @@ Photo by <a href="https://unsplash.com/@leiadakrozjhen?utm_content=creditCopyTex
   </div>
   <div style="flex: 1;">
       <p>
-        L'eXtensive Markup Language è un metalinguaggio: un linguaggio usato per descrivere altri linguaggi (di marcatura).
+        L'eXtensive Markup Language (XML) è un metalinguaggio: un linguaggio usato per descrivere altri linguaggi (di marcatura).
       </p>
       <p>
         Permette di specificare come la marcatura viene distinta dal testo, quale marcatura è permessa e quale è obbligatoria.
       </p>
       <p>
-        Basato su elementi e attributi.
+        Basato su elementi e attributi (e altre cose, che però non vedremo).
       </p>
   </div>
 </div>
@@ -496,8 +496,8 @@ Photo by <a href="https://unsplash.com/@leiadakrozjhen?utm_content=creditCopyTex
       
 <h3 id="perché-marcare-un-testo">Perché marcare un testo?</h3>
 <p>Quando interagiamo con un testo, percepiamo sia le informazioni linguistiche (contenuto) sia le meta-informazioni che otteniamo tramite la contestualizzazione e l&rsquo;interpretazione (es. il <em>corsivo</em> può essere utilizzato per dare enfasi, cambiando completamente il significato della frase).</p>
-<p>I computer però non colgono queste strutture nascoste: hanno bisogno di un meccanismo (il markup, appunto) che gli renda esplicito questo tipo di informazioni per poterlo processare.</p>
-<p>Il markup è adatto perché separa in maniera esplicita il contenuto dal significato.</p>
+<p>I computer però non colgono queste strutture nascoste: hanno bisogno di un meccanismo (il markup, appunto) che faccia emergere questo tipo di informazioni, così da poterle processare.</p>
+<p>Il markup è adatto a fare questo perché separa in maniera esplicita il contenuto dal significato.</p>
 <div class="footer">
 Dee, S. (2014). Learning the TEI in a Digital Environment. Journal of the Text Encoding Initiative, (7). <a href="https://doi.org/10.4000/jtei.968">https://doi.org/10.4000/jtei.968</a>.
 </div>
@@ -514,7 +514,7 @@ Dee, S. (2014). Learning the TEI in a Digital Environment. Journal of the Text E
 <h3 id="esempio-di-modello-di-dati-text-encoding-initiative">Esempio di modello di dati: Text Encoding Initiative</h3>
 <p>TEI è uno schema di codifica e un modello di dati standard, formulato come un&rsquo;applicazione di XML, per descrivere oggetti e fenomeni testuali in ambito umanistico.</p>
 <p>Obiettivo: contemplare tutta la serie dei fenomeni di interesse umanistico e trovare, per ciascuno di essi, un vocabolario unico al fine di arrivare ad una formalizzazione utile a normalizzare i criteri, le modalità e il lessico del markup, di fronte alla polisemia del linguaggio naturale.</p>
-<p>Documentazione ufficiale: <a href="http://www.tei-c.org/Guidelines" target="_blank" rel="noopener">http://www.tei-c.org/Guidelines</a>.</p>
+<p>Documentazione ufficiale: <a href="http://www.tei-c.org/guidelines" target="_blank" rel="noopener">http://www.tei-c.org/guidelines</a>.</p>
 <div class="footer">
 Tomasi, F. La codifica XML/TEI. <a href="http://web.dfc.unibo.it/buzzetti/corsoSFI/25febbraio/tomasi.pdf">http://web.dfc.unibo.it/buzzetti/corsoSFI/25febbraio/tomasi.pdf</a>.
 </div>
@@ -532,7 +532,7 @@ Tomasi, F. La codifica XML/TEI. <a href="http://web.dfc.unibo.it/buzzetti/corsoS
 <p>Un testo codificato in TEI è costituito da <em>almeno</em> tre elementi:</p>
 <ul>
 <li>un elemento <code>TEI</code>, contenente tutti gli altri;</li>
-<li>un elemento <code>teiHeader</code>, contenente i metadati;</li>
+<li>un elemento <code>teiHeader</code>, contenente i metadati del documento;</li>
 <li>un elemento <code>text</code>, contenente il corpo (<code>body</code>) del testo.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
@@ -645,7 +645,7 @@ Photo by <a href="https://unsplash.com/@birminghammuseumstrust?utm_content=credi
       Include la definizione di un modello semantico e la sua applicazione per collegare i dati tra loro.
     </p>
     <p>
-      Per fare questo, si utilizzano tecnologie legate al paradigma dei Linked Open Data.
+      Per fare questo, si utilizzano tecnologie legate al paradigma dei Linked Open Data (LOD).
     </p>
   </div>
 </div>
@@ -677,7 +677,7 @@ Photo by <a href="https://unsplash.com/@birminghammuseumstrust?utm_content=credi
       Dati semi-strutturati, pubblicati in formato aperto e descritti tramite modelli semantici.
     </p>
     <p>
-      Sono rappresentati tramite triple soggetto-predicato-oggetto su cui si basa RDF (Resource Description Framework). 
+      Sono rappresentati tramite triple soggetto-predicato-oggetto su cui si basa il Resource Description Framework (RDF). 
     </p>
   </div>
 </div>
@@ -694,8 +694,22 @@ Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Progr
     <section>
     
       
-<h3 id="resource-description-framework">Resource Description Framework</h3>
-<p>Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&rsquo;utilizzo di <strong>triple soggetto-predicato-oggetto</strong>.</p>
+<h3 id="esempio-di-modello-di-dati-resource-description-framework">Esempio di modello di dati: Resource Description Framework</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/rdf.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). <a href="https://theses.hal.science/tel-02524361v1">https://theses.hal.science/tel-02524361v1</a>. 
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l'utilizzo di triple soggetto-predicato-oggetto.
+    </p>
+  </div>
+</div>
 <div class="footer">
 Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programming Historian 6 (2017), <a href="https://doi.org/10.46430/phen0068">https://doi.org/10.46430/phen0068</a>. 
 </div>
@@ -749,36 +763,12 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     
       
 <h3 id="esempio-di-triple-rdf">Esempio di triple RDF</h3>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-fonte-bernard-c-2019-immersing-evolving-geographic-divisions-in-the-semantic-web-doctoral-dissertation-université-grenoble-alpes-httpstheseshalsciencetel-02524361v1">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). https://theses.hal.science/tel-02524361v1." srcset="
-               /it/slides/dhdmch-07/img/rdf_hu4098620178417722658.webp 400w,
-               /it/slides/dhdmch-07/img/rdf_hu2206664975395612840.webp 760w,
-               /it/slides/dhdmch-07/img/rdf_hu56691861999156779.webp 1200w"
-               src="/it/slides/dhdmch-07/img/rdf_hu4098620178417722658.webp"
-               width="760"
-               height="481"
-               loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). <a href="https://theses.hal.science/tel-02524361v1" target="_blank" rel="noopener">https://theses.hal.science/tel-02524361v1</a>.
-    </figcaption></figure>
-</p>
+<figure>
+  <img src="img/triple.png" height="auto" width="700"/>
+  <figcaption>
+      Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). <a href="https://theses.hal.science/tel-02524361v1">https://theses.hal.science/tel-02524361v1</a>.
+  </figcaption>
+</figure>
 
     </section>
     
@@ -851,22 +841,22 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 </li>
 <li>
 <ol start="2">
-<li>1 + i dati sono in un formato strutturato e leggibile dalle macchine (es. Excel);</li>
+<li>I dati sono in un formato strutturato e leggibile dalle macchine (es. Excel);</li>
 </ol>
 </li>
 <li>
 <ol start="3">
-<li>2 + i dati sono in un formato non proprietario (es. CSV, XML, ecc.);</li>
+<li>I dati sono in un formato non proprietario (es. CSV, XML, RDF, ecc.);</li>
 </ol>
 </li>
 <li>
 <ol start="4">
-<li>3 + i dati sono identificati in maniera persistente ed univoca sul Web tramite URI;</li>
+<li>I dati sono identificati in maniera persistente ed univoca sul Web tramite URI;</li>
 </ol>
 </li>
 <li>
 <ol start="5">
-<li>4 + i dati sono collegati ad altri dati e risorse esterne per fornire ulteriore contesto.</li>
+<li>I dati sono collegati ad altri dati e risorse esterne per fornire ulteriore contesto.</li>
 </ol>
 </li>
 </ul>
@@ -902,8 +892,8 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <h3 id="un-piccolo-limite-di-rdf-in-quanto-modello-di-dati">Un piccolo limite di RDF in quanto modello di dati</h3>
 <p>Dice <em>cosa</em> fare, ma non dice:</p>
 <ul>
-<li>Come scrivere triple: per questo ci sono le <strong>serializzazioni</strong> (es. RDF/XML, Turtle, ecc.) che specificano la <strong>sintassi</strong> da usare;</li>
-<li>Come esprimere entità e proprietà: per questo esistono i <strong>modelli semantici</strong> (es. vocabolari controllati, ontologie, ecc.) che specificano il <strong>lessico</strong> da usare.</li>
+<li><em>Come scrivere triple</em>: per questo ci sono le <strong>serializzazioni</strong> (es. RDF/XML, Turtle, ecc.) che specificano la <strong>sintassi</strong> da usare;</li>
+<li><em>Come esprimere entità e proprietà</em>: per questo esistono i <strong>modelli semantici</strong> (es. vocabolari controllati, ontologie, ecc.) che specificano il <strong>lessico</strong> da usare.</li>
 </ul>
 
     </section>
@@ -919,6 +909,7 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <p>Vocabolari controllati nei quali sono presenti anche relazioni di varia natura, es. gerarchiche, associative (sinonimia, iperonimia, iponimia, olonimia, meronimia), ecc.</p>
 <p>Esempio di tassonomia: <a href="https://vocabs.dariah.eu/tadirah/en/" target="_blank" rel="noopener">https://vocabs.dariah.eu/tadirah/en/</a>.</p>
 <p>Esempio di tesauro: <a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank" rel="noopener">https://www.getty.edu/research/tools/vocabularies/aat/</a>.</p>
+<p>Catalogo di vocabolari controllati: <a href="https://bartoc.org/" target="_blank" rel="noopener">https://bartoc.org/</a>.</p>
 <div class="footer">
 Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2: 97-128. Also available in ISKO Encyclopedia of Knowledge Organization, eds. Birger Hjørland and Claudio Gnoli, <a href="https://www.isko.org/cyclo/classification">https://www.isko.org/cyclo/classification</a>.
 </div>
@@ -935,7 +926,7 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 <h3 id="esempio-di-modello-semantico-ontologia">Esempio di modello semantico: Ontologia</h3>
 <p>Modello di dati che descrive un particolare dominio di conoscenza, definendo una terminologia comune per entità, proprietà (relazioni e attributi), e vincoli logici e regole di inferenza.</p>
 <p>Esempi: <a href="https://w3id.org/dharc/ontology/chad-ap" target="_blank" rel="noopener">https://w3id.org/dharc/ontology/chad-ap</a>, <a href="https://w3id.org/spar/cito" target="_blank" rel="noopener">https://w3id.org/spar/cito</a>, <a href="http://www.cidoc-crm.org/cidoc-crm" target="_blank" rel="noopener">http://www.cidoc-crm.org/cidoc-crm</a>&hellip;</p>
-<p>Catalogo: <a href="https://lov.linkeddata.es/dataset/lov/" target="_blank" rel="noopener">https://lov.linkeddata.es/dataset/lov/</a>.</p>
+<p>Catalogo di ontologie: <a href="https://lov.linkeddata.es/dataset/lov/" target="_blank" rel="noopener">https://lov.linkeddata.es/dataset/lov/</a>.</p>
 <div class="footer">
 Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2: 97-128. Also available in ISKO Encyclopedia of Knowledge Organization, eds. Birger Hjørland and Claudio Gnoli, <a href="https://www.isko.org/cyclo/classification">https://www.isko.org/cyclo/classification</a>.
 </div>

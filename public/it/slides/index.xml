@@ -1473,6 +1473,38 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;un-dato-è-una-fonte-di-conoscenza&#34;&gt;Un dato è una fonte di conoscenza&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/data.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Noppe, N., Vanvelk, J., &amp; Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I dati sono record fattuali raccolti, generati o riutilizzati come base di analisi, ragionamenti, discussioni o calcoli.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Vengono usati da studiosi e scienziati come strumenti per comprendere il mondo e generare conoscenza.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  OECD (2007). OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-ricerca-umanistica-è-dominata-da-paradigmi-tradizionali&#34;&gt;La ricerca umanistica è dominata da paradigmi tradizionali&lt;/h3&gt;
+&lt;p&gt;Molti ricercatori usano come dati di ricerca fonti primarie, che spesso sono fisiche e raramente digitalizzate.&lt;/p&gt;
+&lt;p&gt;I sistemi semiotici delle discipline umanistiche tendono ad essere specifici, impliciti, individualistici, dati per scontato.&lt;/p&gt;
+&lt;p&gt;I dati sono difficilmente accessibili a causa di copyright stringenti e licenze inadatte alle dinamiche della ricerca contemporanea.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I dati culturali sono complessi e raramente documentati in modo da facilitarne l&amp;rsquo;integrazione, la comprensione e il riutilizzo da parte di altri&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1483,7 +1515,7 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
       class=&#34;section-slide&#34;
   &gt;
 
-&lt;h2 id=&#34;non-possediamo-nientaltro-che-metafore&#34;&gt;Non possediamo nient&amp;rsquo;altro che metafore&lt;/h2&gt;
+&lt;h2 id=&#34;semplifichiamo&#34;&gt;Semplifichiamo&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
@@ -1506,7 +1538,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyTe
         Ne cattura le caratteristiche fondamentali, permettendo di descrivere, comprendere, analizzare, predire o interagire con quella cosa.
       &lt;/p&gt;
       &lt;p&gt;
-        Es. una mappa, un&#39;equazione, uno schema di metadati...
+        Es. una mappa, un&#39;equazione, &lt;strong&gt;uno schema di metadati&lt;/strong&gt;...
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1529,6 +1561,9 @@ Kučerová, H. (2018). The concept of model and conceptual model in information 
         L’insieme di attività di rappresentazione formale di un segmento di realtà in modo tale da renderlo computabile.
       &lt;/p&gt;
       &lt;p&gt;
+        I modelli di dati forniscono un&#39;organizzazione precisa che permette ai dati di essere strutturati.
+      &lt;/p&gt;
+      &lt;p&gt;
         Es. creazione di database, definizione di schemi XML, sviluppo di ontologie, ecc. 
       &lt;/p&gt;
   &lt;/div&gt;
@@ -1538,28 +1573,41 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;estrarre-elementi-dai-dati-osservati-a-partire-da-uninterpretazione&#34;&gt;Estrarre elementi dai dati osservati a partire da un&amp;rsquo;interpretazione&lt;/h3&gt;
-&lt;p&gt;Scelta di:&lt;/p&gt;
+&lt;p&gt;Tra i vari fattori che determinano lo sviluppo di un modello di dati, c&amp;rsquo;è anche il &lt;em&gt;linguaggio&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In breve, un modello di dati traspone pattern presenti nel linguaggio naturale in una forma che possa essere processata e compresa dalle macchine.&lt;/p&gt;
+&lt;p&gt;Questo comporta l&amp;rsquo;individuazione di:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Classi&lt;/strong&gt;: categorie di oggetti con proprietà e comportamenti simili&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entità&lt;/strong&gt;: individui appartenenti alle classi&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Attributi&lt;/strong&gt;: proprietà delle classi (e quindi anche delle entità)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Relazioni&lt;/strong&gt;: rapporti logici tra classi (e quindi anche tra entità)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classi&lt;/strong&gt;: categorie di oggetti con proprietà e comportamenti simili (es. &amp;ldquo;Persona&amp;rdquo;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entità&lt;/strong&gt;: individui appartenenti alle classi (es. &amp;ldquo;Tizio&amp;rdquo;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attributi&lt;/strong&gt;: proprietà delle classi (e quindi anche delle entità) (es. età, altezza, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relazioni&lt;/strong&gt;: rapporti logici e semantici tra classi (e quindi anche tra entità) (es. &amp;ldquo;conosce&amp;rdquo;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models and knowledge organization in the cultural heritage domain. Historical Social Research/Historische Sozialforschung. Supplement, (31), 170-179. &lt;a href=&#34;https://www.jstor.org/stable/26533637&#34;&gt;https://www.jstor.org/stable/26533637&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio&#34;&gt;Esempio&lt;/h3&gt;
+&lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-1&#34;&gt;Esempio&lt;/h3&gt;
+&lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire-1&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire-2&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; è una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &amp;ldquo;1984&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha numero di pagine&lt;/span&gt; &amp;ldquo;271&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -1571,12 +1619,12 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
       class=&#34;section-slide&#34;
   &gt;
 
-&lt;h2 id=&#34;strutture-nel-testo&#34;&gt;Strutture nel testo&lt;/h2&gt;
+&lt;h2 id=&#34;strutture-nascoste&#34;&gt;Strutture nascoste&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@leiadakrozjhen?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Leiada Krozjhen&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-book-open-with-text-7UxQUl3mdnw?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;quanto-abbiamo-appena-fatto-è-una-sorta-di-marcatura&#34;&gt;Quanto abbiamo appena fatto è una sorta di marcatura&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;quanto-abbiamo-appena-fatto-lo-possiamo-vedere-anche-come-una-sorta-di-marcatura&#34;&gt;Quanto abbiamo appena fatto lo possiamo vedere anche come una sorta di marcatura&amp;hellip;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -1588,15 +1636,41 @@ Photo by &lt;a href=&#34;https://unsplash.com/@leiadakrozjhen?utm_content=credit
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Annotazione del testo per definire esplicitamente i ruoli strutturali e semantici degli elementi di cui è costituito.
+        Annotazione (o codifica) del testo per definire esplicitamente i ruoli strutturali e semantici degli elementi di cui è costituito.
       &lt;/p&gt;
       &lt;p&gt;
-        Esempio: eXtensible Markup Language (XML) per la marcatura di documenti, HyperText Markup Language (HTML) per la presentazione di pagine Web, ecc.
+        Un modo per rendere esplicito ciò che è implicito o congetturale.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Reso tramite un linguaggio di marcatura, un insieme di convenzioni usate per annotare un testo.
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;nella-marcatura-un-_elemento_-classe-è-un-termine-che-esprime-la-semantica-del-testo-a-cui-si-riferisce&#34;&gt;Nella marcatura, un &lt;em&gt;elemento&lt;/em&gt; (~classe) è un termine che esprime la semantica del testo a cui si riferisce&lt;/h3&gt;
+&lt;h3 id=&#34;i-linguaggi-di-marcatura-sono-definiti-tramite-xml&#34;&gt;I linguaggi di marcatura sono definiti tramite XML&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/xml.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Buzzoni, M. (2020). Towards the Construction of a Stemma. Handbook of Stemmatology: History, Methodology, Digital Approaches, 139-207. &lt;a href=&#34;https://doi.org/10.1515/9783110684384-004&#34;&gt;https://doi.org/10.1515/9783110684384-004&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        L&#39;eXtensive Markup Language è un metalinguaggio: un linguaggio usato per descrivere altri linguaggi (di marcatura).
+      &lt;/p&gt;
+      &lt;p&gt;
+        Permette di specificare come la marcatura viene distinta dal testo, quale marcatura è permessa e quale è obbligatoria.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Basato su elementi e attributi.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nella-marcatura-un-_elemento_-è-un-termine-che-esprime-la-semantica-del-testo-a-cui-si-riferisce&#34;&gt;Nella marcatura, un &lt;em&gt;elemento&lt;/em&gt; è un termine che esprime la semantica del testo a cui si riferisce&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -1660,8 +1734,16 @@ Photo by &lt;a href=&#34;https://unsplash.com/@leiadakrozjhen?utm_content=credit
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;perché-marcare-un-testo&#34;&gt;Perché marcare un testo?&lt;/h3&gt;
+&lt;p&gt;Quando interagiamo con un testo, percepiamo sia le informazioni linguistiche (contenuto) sia le meta-informazioni che otteniamo tramite la contestualizzazione e l&amp;rsquo;interpretazione (es. il &lt;em&gt;corsivo&lt;/em&gt; può essere utilizzato per dare enfasi, cambiando completamente il significato della frase).&lt;/p&gt;
+&lt;p&gt;I computer però non colgono queste strutture nascoste: hanno bisogno di un meccanismo (il markup, appunto) che gli renda esplicito questo tipo di informazioni per poterlo processare.&lt;/p&gt;
+&lt;p&gt;Il markup è adatto perché separa in maniera esplicita il contenuto dal significato.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Dee, S. (2014). Learning the TEI in a Digital Environment. Journal of the Text Encoding Initiative, (7). &lt;a href=&#34;https://doi.org/10.4000/jtei.968&#34;&gt;https://doi.org/10.4000/jtei.968&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;esempio-di-modello-di-dati-text-encoding-initiative&#34;&gt;Esempio di modello di dati: Text Encoding Initiative&lt;/h3&gt;
-&lt;p&gt;TEI è un modello di dati, espresso tramite markup, per descrivere oggetti e fenomeni testuali, soprattutto in ambito umanistico.&lt;/p&gt;
+&lt;p&gt;TEI è uno schema di codifica e un modello di dati standard, formulato come un&amp;rsquo;applicazione di XML, per descrivere oggetti e fenomeni testuali in ambito umanistico.&lt;/p&gt;
 &lt;p&gt;Obiettivo: contemplare tutta la serie dei fenomeni di interesse umanistico e trovare, per ciascuno di essi, un vocabolario unico al fine di arrivare ad una formalizzazione utile a normalizzare i criteri, le modalità e il lessico del markup, di fronte alla polisemia del linguaggio naturale.&lt;/p&gt;
 &lt;p&gt;Documentazione ufficiale: &lt;a href=&#34;http://www.tei-c.org/Guidelines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.tei-c.org/Guidelines&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1679,20 +1761,29 @@ Tomasi, F. La codifica XML/TEI. &lt;a href=&#34;http://web.dfc.unibo.it/buzzetti
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;lt;teiHeader&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;fileDesc&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;titleStmt&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;title&amp;gt;Neuromancer: A machine-readable transcription&amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          TITOLO
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/title&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;/titleStmt&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;publicationStmt&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;p&amp;gt;Not for distribution.&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          INFORMAZIONI SULLA PUBBLICAZIONE
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/p&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;/publicationStmt&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;sourceDesc&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;p&amp;gt;Transcribed from the novel *Neuromancer* by William Gibson, published in 1984.&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          INFORMAZIONI SULLA FONTE ORIGINALE
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/p&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;/sourceDesc&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/fileDesc&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;lt;/teiHeader&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;lt;text&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;body&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        The sky above the port was the color of television, tuned to a dead channel.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p n=&amp;#34;1&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        PARAGRAFO 1...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p n=&amp;#34;2&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        PARAGRAFO 2...
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;/p&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/body&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;lt;/text&amp;gt;
@@ -1710,116 +1801,80 @@ Tomasi, F. La codifica XML/TEI. &lt;a href=&#34;http://web.dfc.unibo.it/buzzetti
 
 &lt;h2 id=&#34;spazi-semantici&#34;&gt;Spazi semantici&lt;/h2&gt;
 &lt;!--
-Photo by &lt;a href=&#34;https://unsplash.com/@joshua_hoehne?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Joshua Hoehne&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/text-YPgTovTiUv4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+Photo by &lt;a href=&#34;https://unsplash.com/@birminghammuseumstrust?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Birmingham Museums Trust&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/blue-and-white-floral-textile-G0PuUqpMfaY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;i-contenuti-sul-web-sono-solo-per-noi&#34;&gt;I contenuti sul Web sono (solo) per noi&lt;/h3&gt;
-&lt;p&gt;In generale, il Web ospita contenuti leggibili e comprensibili dagli esseri umani.&lt;/p&gt;
-&lt;p&gt;Lo stesso discorso vale per le macchine?&lt;/p&gt;
-&lt;p&gt;HTML impone &lt;em&gt;come&lt;/em&gt; rappresentare (non &lt;em&gt;cosa&lt;/em&gt;).&lt;/p&gt;
-&lt;p&gt;Alcuni tag sono semanticamente significativi (es. &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;) ma il loro contenuto non è strutturato né standardizzato.&lt;/p&gt;
+&lt;h3 id=&#34;la-scienza-fatta-bene&#34;&gt;La scienza fatta bene&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/os.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Melanie Imming, Jon Tennant, &amp; Ivo Grigorov. (2018). Stickers Open Science just science done right (IT). Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.2613332&#34;&gt;https://doi.org/10.5281/zenodo.2613332&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+          La Scienza Aperta è un insieme di movimenti e pratiche che mirano a rendere la conoscenza scientifica più trasparente, accessibile e riutilizzabile per tutti.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-Verborgh, Ruben. The Semantic Web &amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;.
+  UNESCO (2021). UNESCO Recommendation on Open Science. &lt;a href=&#34;https://doi.org/10.54677/MNMH8546&#34;&gt;https://doi.org/10.54677/MNMH8546&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;il-web-è-universale-ma-incompleto&#34;&gt;Il Web è universale ma incompleto&lt;/h3&gt;
-&lt;p&gt;Sul Web, una qualsiasi pagina A può essere collegata ad una qualsiasi pagina B.&lt;/p&gt;
-&lt;p&gt;Ma non viene espressa nessuna informazione sul tipo di collegamento esistente tra la pagina A e la pagina B.&lt;/p&gt;
-&lt;p&gt;Sul Web, chiunque può pubblicare qualsiasi cosa su qualsiasi argomento.&lt;/p&gt;
-&lt;p&gt;Conseguenze:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Decentralizzazione;&lt;/li&gt;
-&lt;li&gt;Inconsistenza dei dati;&lt;/li&gt;
-&lt;li&gt;Incompletezza dei dati.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;footer&#34;&gt;
-Verborgh, Ruben. The Semantic Web &amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;.
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;il-semantic-web-è-un-livello-aggiuntivo-del-web&#34;&gt;Il Semantic Web è un livello aggiuntivo del Web&lt;/h3&gt;
+&lt;h3 id=&#34;la-fairificazione&#34;&gt;La FAIRificazione&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
-    &lt;img src=&#34;img/semantic-web.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/fairification.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
       &lt;figcaption&gt;
-          Fonte: Verborgh, Ruben. The Semantic Web &amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;.
+          Fonte: &lt;a href=&#34;https://www.go-fair.org/fair-principles/fairification-process/&#34;&gt;https://www.go-fair.org/fair-principles/fairification-process/&lt;/a&gt;.
       &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;p&gt;
-        Il Semantic Web è un&#39;estensione del Web tradizionale, che propone di aggiungere informazioni semantiche per rendere i dati sul Web descritti, strutturati, interconnessi e automatizzabili.
-      &lt;/p&gt;
+    &lt;p&gt;
+      Processo di trasformazione di dati non-FAIR in una loro versione FAIR.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Include la definizione di un modello semantico e la sua applicazione per collegare i dati tra loro.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Per fare questo, si utilizzano tecnologie legate al paradigma dei Linked Open Data.
+    &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-Verborgh, Ruben. The Semantic Web &amp; Linked Open Data. In Web Fundamentals. &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/semantic-web/&lt;/a&gt;.
+  Jacobsen, A., Kaliyaperumal, R., da Silva Santos, L. O. B., Mons, B., Schultes, E., Roos, M., &amp; Thompson, M. (2020). A generic workflow for the data FAIRification process. Data Intelligence, 2(1-2), 56-65. &lt;a href=&#34;https://doi.org/10.1162/dint_a_00028&#34;&gt;https://doi.org/10.1162/dint_a_00028&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;alla-base-ci-sono-i-linked-open-data&#34;&gt;Alla base ci sono i Linked (Open) Data&lt;/h3&gt;
-&lt;p&gt;Dati (semi-)strutturati in grafi, interpretabili dalle macchine (e pubblicati in formato aperto).&lt;/p&gt;
-&lt;p&gt;Se abbiamo più dataset con licenza aperta, e descritti dagli stessi standard di metadati (cioé modellati nella stessa maniera), possiamo effettuare più facilmente interrogazioni e analisi incrociate, integrazioni du larga scala, ecc.&lt;/p&gt;
-&lt;p&gt;In altre parole: &lt;strong&gt;interoperabilità&lt;/strong&gt; e &lt;strong&gt;riusabilità&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;dati-aperti-e-contestualizzati&#34;&gt;Dati aperti e contestualizzati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/rdf.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). &lt;a href=&#34;https://theses.hal.science/tel-02524361v1&#34;&gt;https://theses.hal.science/tel-02524361v1&lt;/a&gt;. 
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Dati semi-strutturati, pubblicati in formato aperto e descritti tramite modelli semantici.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Sono rappresentati tramite triple soggetto-predicato-oggetto su cui si basa RDF (Resource Description Framework). 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
-Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
+Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-paio-di-principi-fondamentali&#34;&gt;Un paio di principi fondamentali&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Utilizzare un formato standard riconosciuto&lt;/strong&gt;: i dati devono essere strutturati con standard riconosciuti per permettere l&amp;rsquo;elaborazione coerente da parte delle macchine.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Riferimento univoco alle entità&lt;/strong&gt;: quando ci sono dati su una persona, luogo o cosa, assicurarsi di usarli in modo uniforme in tutti i dataset.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pubblicare i dati apertamente&lt;/strong&gt;: i dati devono essere accessibili gratuitamente, con licenze aperte, e in formati che non richiedano software proprietario.&lt;/p&gt;
-&lt;div class=&#34;footer&#34;&gt;
-Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;usare-uri-per-dare-nomi-alle-cose&#34;&gt;Usare URI per dare nomi alle cose&lt;/h3&gt;
-&lt;p&gt;Un URI è un identificatore unico per una risorsa.&lt;/p&gt;
-&lt;p&gt;Diversamente da un URL, non è necessario che un URI punti &lt;em&gt;fisicamente&lt;/em&gt; a una risorsa, ma deve essere comunque unico.&lt;/p&gt;
-&lt;p&gt;Esempi di URI che disambiguano entità:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wikidata.org/wiki/Q188987&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q188987&lt;/a&gt; (William Gibson);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wikidata.org/entity/Q662029&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/entity/Q662029&lt;/a&gt; (Neuromante).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;footer&#34;&gt;
-Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempio-wikidata&#34;&gt;Esempio: Wikidata&lt;/h3&gt;
-&lt;p&gt;Link: &lt;a href=&#34;https://www.wikidata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Esempio: la risorsa &amp;ldquo;William Gibson&amp;rdquo; può essere identificata in maniera univoca dall&amp;rsquo;URI &lt;a href=&#34;https://www.wikidata.org/wiki/Q188987&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q188987&lt;/a&gt;. Questo permette di disambiguarla, in modo che tutti possano fare riferimento alla stessa persona in modo uniforme.&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;URI porta ad una pagina Web contenente una serie di informazioni che contestualizzano la risorsa.&lt;/p&gt;
-&lt;p&gt;Inoltre, ad essa è associato un inseme di dati e di collegamenti ad altre risorse.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;5--open-data&#34;&gt;5 ★ Open Data&lt;/h3&gt;
-&lt;p&gt;Link: &lt;a href=&#34;https://5stardata.info/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://5stardata.info/en/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Schema di pubblicazione dei dati in formato LOD:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;I dati sono disponibili sul Web con una licenza aperta (es. Creative Commons);&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;1 + i dati sono in un formato strutturato e leggibile dalle macchine (es. Excel);&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;2 + i dati sono in un formato non proprietario (es. CSV, XML, ecc.);&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;3 + i dati sono identificati in maniera persistente ed univoca sul Web tramite URI;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;4 + i dati sono collegati ad altri dati e risorse esterni per fornire ulteriore contesto.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;resource-description-framework&#34;&gt;Resource Description Framework&lt;/h3&gt;
+&lt;p&gt;Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&amp;rsquo;utilizzo di &lt;strong&gt;triple soggetto-predicato-oggetto&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
@@ -1854,42 +1909,111 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-2&#34;&gt;Esempio&lt;/h3&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;img/triple-example.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
-  &lt;figcaption&gt;
-      Un esempio di modellazione dei dati tramite RDF. Sono state utilizzate due triple per esprimere alcune proprietà dell&#39;opera di Aldo Moro intitolata &#34;Saluto&#34; (in questo caso, l&#39;autore e il titolo). Fonte: &lt;a href=&#34;https://aldomorodigitale.unibo.it/about/docs/models#rdf-section&#34;&gt;https://aldomorodigitale.unibo.it/about/docs/models#rdf-section&lt;/a&gt;.
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;h3 id=&#34;esempio-di-triple-rdf&#34;&gt;Esempio di triple RDF&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fonte-bernard-c-2019-immersing-evolving-geographic-divisions-in-the-semantic-web-doctoral-dissertation-université-grenoble-alpes-httpstheseshalsciencetel-02524361v1&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). https://theses.hal.science/tel-02524361v1.&#34; srcset=&#34;
+               /it/slides/dhdmch-07/img/rdf_hu4098620178417722658.webp 400w,
+               /it/slides/dhdmch-07/img/rdf_hu2206664975395612840.webp 760w,
+               /it/slides/dhdmch-07/img/rdf_hu56691861999156779.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-07/img/rdf_hu4098620178417722658.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). &lt;a href=&#34;https://theses.hal.science/tel-02524361v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://theses.hal.science/tel-02524361v1&lt;/a&gt;.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;resource-description-framework&#34;&gt;Resource Description Framework&lt;/h3&gt;
-&lt;p&gt;Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&amp;rsquo;utilizzo di triple soggetto-predicato-oggetto.&lt;/p&gt;
-&lt;p&gt;Dice cosa fare, ma non:&lt;/p&gt;
+&lt;h3 id=&#34;gli-obiettivi-interoperabilità-e-riusabilità-dei-dati&#34;&gt;Gli obiettivi: interoperabilità e riusabilità dei dati&lt;/h3&gt;
+&lt;p&gt;Se abbiamo più dataset con licenza aperta, e descritti dagli stessi standard di metadati (cioé modellati nella stessa maniera), possiamo collegarli, effettuare più facilmente interrogazioni e analisi incrociate, integrazioni su larga scala, ecc.&lt;/p&gt;
+&lt;p&gt;In altre parole: &lt;strong&gt;interoperabilità&lt;/strong&gt; e &lt;strong&gt;riusabilità&lt;/strong&gt;!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-paio-di-principi-fondamentali&#34;&gt;Un paio di principi fondamentali&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Utilizzare formati standard riconosciuti&lt;/strong&gt;: i dati devono essere strutturati con standard riconosciuti per permettere l&amp;rsquo;elaborazione coerente da parte delle macchine (RDF, appunto, e modelli semantici, come ontologie e vocabolari controllati).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Riferimento univoco alle entità&lt;/strong&gt;: i dati devono essere identificati univocamente e in maniera persistente, in modo da poterli disambiguare tra tutti i dataset (tramite URI).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pubblicare i dati apertamente&lt;/strong&gt;: i dati devono essere accessibili con licenze aperte, e in formati che non richiedano software proprietario.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usare-uri-per-dare-nomi-alle-cose&#34;&gt;Usare URI per dare nomi alle cose&lt;/h3&gt;
+&lt;p&gt;Un URI è un identificatore unico per una risorsa.&lt;/p&gt;
+&lt;p&gt;Diversamente da un URL, non è necessario che un URI punti &lt;em&gt;fisicamente&lt;/em&gt; a una risorsa, ma deve essere comunque unico.&lt;/p&gt;
+&lt;p&gt;Esempi di URI che disambiguano entità:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Come scrivere triple!
-&lt;ul&gt;
-&lt;li&gt;Per questo ci sono le &lt;strong&gt;serializzazioni&lt;/strong&gt; (sintassi concrete di RDF);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wikidata.org/wiki/Q188987&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q188987&lt;/a&gt; (William Gibson);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wikidata.org/entity/Q662029&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/entity/Q662029&lt;/a&gt; (Neuromante).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5--open-data&#34;&gt;5 ★ Open Data&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://5stardata.info/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://5stardata.info/en/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Schema di pubblicazione dei dati in formato LOD:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;I dati sono disponibili sul Web con una licenza aperta (es. Creative Commons);&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;Come esprimere entità e proprietà!
-&lt;ul&gt;
-&lt;li&gt;Per questo esistono gli &lt;strong&gt;artefatti semantici&lt;/strong&gt; (come vocabolari controllati, ontologie, ecc.).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;1 + i dati sono in un formato strutturato e leggibile dalle macchine (es. Excel);&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;2 + i dati sono in un formato non proprietario (es. CSV, XML, ecc.);&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;3 + i dati sono identificati in maniera persistente ed univoca sul Web tramite URI;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;4 + i dati sono collegati ad altri dati e risorse esterne per fornire ulteriore contesto.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-serializzazione-rdf-turtle&#34;&gt;Esempio di serializzazione RDF: Turtle&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex: &amp;lt;https://w3id.org/moro/enoam/data/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dct: &amp;lt;http://purl.org/dc/terms/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:opera-110001 dct:creator ex:aldo-moro ;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                dct:title &amp;#34;Saluto&amp;#34; .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-artefatto-semantico-tassonomia-tesauro-ecc&#34;&gt;Esempio di artefatto semantico: Tassonomia, tesauro, ecc.&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-wikidata&#34;&gt;Esempio: Wikidata&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://www.wikidata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I dati sono resi disponibili sotto la licenza Creative Commons CC0.&lt;/p&gt;
+&lt;p&gt;I dati sono modellati secondo un modello proprio di Wikidata, ma sono serviti anche in RDF.&lt;/p&gt;
+&lt;p&gt;I dati sono identificati da URI.&lt;/p&gt;
+&lt;p&gt;I dati sono collegati tra di loro e con altri dati, dataset, database, pagine Web.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-piccolo-limite-di-rdf-in-quanto-modello-di-dati&#34;&gt;Un piccolo limite di RDF in quanto modello di dati&lt;/h3&gt;
+&lt;p&gt;Dice &lt;em&gt;cosa&lt;/em&gt; fare, ma non dice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come scrivere triple: per questo ci sono le &lt;strong&gt;serializzazioni&lt;/strong&gt; (es. RDF/XML, Turtle, ecc.) che specificano la &lt;strong&gt;sintassi&lt;/strong&gt; da usare;&lt;/li&gt;
+&lt;li&gt;Come esprimere entità e proprietà: per questo esistono i &lt;strong&gt;modelli semantici&lt;/strong&gt; (es. vocabolari controllati, ontologie, ecc.) che specificano il &lt;strong&gt;lessico&lt;/strong&gt; da usare.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-di-modello-semantico-tassonomia-tesauro-ecc&#34;&gt;Esempio di modello semantico: Tassonomia, tesauro, ecc.&lt;/h3&gt;
 &lt;p&gt;Vocabolari controllati nei quali sono presenti anche relazioni di varia natura, es. gerarchiche, associative (sinonimia, iperonimia, iponimia, olonimia, meronimia), ecc.&lt;/p&gt;
 &lt;p&gt;Esempio di tassonomia: &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vocabs.dariah.eu/tadirah/en/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Esempio di tesauro: &lt;a href=&#34;https://www.getty.edu/research/tools/vocabularies/aat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/research/tools/vocabularies/aat/&lt;/a&gt;.&lt;/p&gt;
@@ -1897,7 +2021,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2: 97-128. Also available in ISKO Encyclopedia of Knowledge Organization, eds. Birger Hjørland and Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/classification&#34;&gt;https://www.isko.org/cyclo/classification&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-artefatto-semantico-ontologia&#34;&gt;Esempio di artefatto semantico: Ontologia&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-modello-semantico-ontologia&#34;&gt;Esempio di modello semantico: Ontologia&lt;/h3&gt;
 &lt;p&gt;Modello di dati che descrive un particolare dominio di conoscenza, definendo una terminologia comune per entità, proprietà (relazioni e attributi), e vincoli logici e regole di inferenza.&lt;/p&gt;
 &lt;p&gt;Esempi: &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;, &lt;a href=&#34;https://w3id.org/spar/cito&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://w3id.org/spar/cito&lt;/a&gt;, &lt;a href=&#34;http://www.cidoc-crm.org/cidoc-crm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.cidoc-crm.org/cidoc-crm&lt;/a&gt;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Catalogo: &lt;a href=&#34;https://lov.linkeddata.es/dataset/lov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lov.linkeddata.es/dataset/lov/&lt;/a&gt;.&lt;/p&gt;
