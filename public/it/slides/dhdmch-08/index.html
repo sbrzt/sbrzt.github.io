@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5609693425197255918.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/dhdmch-08/">
+
+  <title>DHDMCH - Strutture nascoste | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="strutture-nascoste">Strutture nascoste</h1>
+<h2 id="lezione-08-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025">Lezione 08 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>Come usarlo</li>
+<li>Esercizio in presenza</li>
+<li>Esercizio a distanza</li>
+</ul>
+<p><a href="https://jsonformatter.org/xml-editor" target="_blank" rel="noopener">https://jsonformatter.org/xml-editor</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-linguaggi-di-marcatura-sono-definiti-tramite-xml">I linguaggi di marcatura sono definiti tramite XML</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+    <img src="../dhdmch-07/img/xml.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: Buzzoni, M. (2020). Towards the Construction of a Stemma. Handbook of Stemmatology: History, Methodology, Digital Approaches, 139-207. <a href="https://doi.org/10.1515/9783110684384-004">https://doi.org/10.1515/9783110684384-004</a>.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        L'eXtensive Markup Language (XML) è un metalinguaggio: un linguaggio usato per descrivere altri linguaggi (di marcatura).
+      </p>
+      <p>
+        Permette di specificare come la marcatura viene distinta dal testo, quale marcatura è permessa e quale è obbligatoria.
+      </p>
+      <p>
+        Basato su elementi e attributi.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="nella-marcatura-un-_elemento_-è-un-termine-che-esprime-la-semantica-del-testo-a-cui-si-riferisce">Nella marcatura, un <em>elemento</em> è un termine che esprime la semantica del testo a cui si riferisce</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="../dhdmch-07/img/markup-elements.png" alt="Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Fonte: <a href="https://basic-inf.github.io/2022-2023/chapters/08.pdf" target="_blank" rel="noopener">https://basic-inf.github.io/2022-2023/chapters/08.pdf</a>.
+    </figcaption></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="nella-marcatura-un-_attributo_-è-uninformazione-aggiuntiva-assegnata-ad-un-elemento">Nella marcatura, un <em>attributo</em> è un&rsquo;informazione aggiuntiva assegnata ad un elemento</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="../dhdmch-07/img/markup-attribute.png" alt="Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Fonte: <a href="https://basic-inf.github.io/2022-2023/chapters/08.pdf" target="_blank" rel="noopener">https://basic-inf.github.io/2022-2023/chapters/08.pdf</a>.
+    </figcaption></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-tag-si-devono-annidare-correttamente">I tag si devono annidare correttamente</h3>
+<p>Devi <em>sempre</em> chiudere l&rsquo;utlimo tag che hai aperto prima di chiuderne un altro precedente.</p>
+<p>Per esempio, questo è un errore:</p>
+<p><code>&lt;sentence&gt;Questo è &lt;emphasis&gt;un errore!&lt;/sentence&gt;&lt;/emphasis&gt;</code></p>
+<p>Questo, invece, è corretto:</p>
+<p><code>&lt;sentence&gt;Questo non è &lt;emphasis&gt;un errore!&lt;/emphasis&gt;&lt;/sentence&gt;</code></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-elementi-sono-vuoti-cioé-non-hanno-contenuto-testuale">Alcuni elementi sono vuoti, cioé non hanno contenuto testuale</h3>
+<p>Possono essere scritti normalmente:</p>
+<p><code>&lt;milestone type=&quot;pagebreak&quot;&gt;&lt;/milestone&gt;</code></p>
+<p>Oppure con solo il tag di apertura e il secondo caporale <code>&gt;</code> preceduto da <code>/</code>:</p>
+<p><code>&lt;milestone type=&quot;pagebreak&quot;/&gt;</code></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-prima-linea-di-un-file-xml-è-la-dichiarazione">La prima linea di un file XML è la dichiarazione</h3>
+<p>Esempio:<br>
+<code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</code></p>
+<p>Dichiara i dettagli del file (in questo caso, è un documento XML, versione 1.0, e codificato secondo UTF-8).</p>
+<p>Ci possono essere altre informazioni, come la lingua, lo stile, ecc.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esempi-di-scenari-di-utilizzo-di-xml">Esempi di scenari di utilizzo di XML</h3>
+<ul>
+<li>Stai studiando l&rsquo;uso delle parole di un autore e vuoi escludere qualsiasi testo in cui l&rsquo;autore citi una fonte esterna;</li>
+<li>Hai una raccolta di documenti e vuoi creare un elenco di tutti i nomi di persone o di luoghi menzionati;</li>
+<li>Stai trascrivendo un manoscritto che coinvolge diverse mani e vuoi identificare quali tratti di testo sono stati scritti da ciascuna persona;</li>
+<li>Stai trascrivendo un documento e hai identificato un errore di battitura che potrebbe confondere un non esperto o ostacolare la ricerca del testo, quindi vuoi fornire una correzione senza sostituire l&rsquo;errore originale.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="tei">TEI</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="tei-lite">TEI Lite</h3>
+<p>Un modello basato su XML per marcare testi umanistici.</p>
+<p>Standard internazionale che dà ampie libertà di codificare le caratteristiche del testo secondo diverse soluzioni. Definisce circa 580 elementi e 265 attributi per rappresentare un insieme molto ampio di fenomeni testuali e meta-informazioni ad essi associate.</p>
+<p>Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato <a href="https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html" target="_blank" rel="noopener"> TEI Lite</a>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="elementi-e-attributi-sono-organizzati-in-21-moduli">Elementi e attributi sono organizzati in 21 moduli</h3>
+<p>Tra i fondamentali, troviamo:</p>
+<ul>
+<li><code>tei</code>: definisce le basi infrastrutturali su cui si appoggiano elementi ed attributi degli altri moduli;</li>
+<li><code>header</code>: definisce gli elementi che compongono la sezione dell&rsquo;intestazione (es. metadati bibliografici, relazioni con i materiali di orgine, revisioni, ecc.);</li>
+<li><code>core</code>: definisce elementi ed attributi che possono far parte di qualsiasi documento (es. paragrafi, citazioni, liste, entità, note, elementi grafici, ecc.);</li>
+<li><code>textstructure</code>: definisce elementi ed attributi che descrivono la struttura dei testi (es. pagine, corpo del testo, intestazioni, postfazioni, ecc.).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="aderire-allo-standard">Aderire allo standard</h3>
+<p>Per usare efficacemente TEI, dovete assicurarvi che:</p>
+<ul>
+<li>nella dichiarazione venga esplicitato il namespace di TEI (<a href="http://www.tei-c.org/ns/1.0%29;" target="_blank" rel="noopener">http://www.tei-c.org/ns/1.0);</a></li>
+<li>vengano rispettati i requisiti del modello di dati TEI, sulla base dei modelli (e quindi degli elementi e attributi) selezionati per il progetto in questione.</li>
+</ul>
+<p>Servizio per la creazione di schemi TEI documentati: <a href="https://roma.tei-c.org/" target="_blank" rel="noopener">https://roma.tei-c.org/</a>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-documento-tei-di-base">Un documento TEI di base</h3>
+<ul>
+<li>Un elemento <code>TEI</code>, in cui viene sempre dichiarato un attributo <code>@xmlns</code> con il valore <code>http://www.tei-c.org/ns/1.0</code>;</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-documento-tei-di-base-1">Un documento TEI di base</h3>
+<ul>
+<li>Un elemento <code>TEI</code>, contenente:
+<ul>
+<li>un elemento <code>teiHeader</code>, per i metadati</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-documento-tei-di-base-2">Un documento TEI di base</h3>
+<ul>
+<li>Un elemento <code>TEI</code>, contenente:
+<ul>
+<li>un elemento <code>teiHeader</code>, per i metadati</li>
+<li>un elemento <code>text</code>, per il contenuto effettivo del documento</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-tei-header">Il TEI Header</h3>
+<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            ...
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-tei-header-1">Il TEI Header</h3>
+<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
+<p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
+<ul>
+<li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            &lt;titleStmt&gt;
+</span></span><span class="line"><span class="cl">                &lt;title&gt;
+</span></span><span class="line"><span class="cl">                    ...
+</span></span><span class="line"><span class="cl">                &lt;/title&gt;
+</span></span><span class="line"><span class="cl">            &lt;/titleStmt&gt;
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-tei-header-2">Il TEI Header</h3>
+<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
+<p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
+<ul>
+<li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
+<li><code>publicationStmt</code>, contenente informazioni sulla pubblicazione;</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            &lt;titleStmt&gt;
+</span></span><span class="line"><span class="cl">                &lt;title&gt;
+</span></span><span class="line"><span class="cl">                    ...
+</span></span><span class="line"><span class="cl">                &lt;/title&gt;
+</span></span><span class="line"><span class="cl">            &lt;/titleStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;publicationStmt&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/publicationStmt&gt;
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-tei-header-3">Il TEI Header</h3>
+<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
+<p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
+<ul>
+<li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
+<li><code>publicationStmt</code>, contenente informazioni sulla pubblicazione;</li>
+<li><code>sourceDesc</code>, contenente informazioni sulla fonte materiale del testo.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            &lt;titleStmt&gt;
+</span></span><span class="line"><span class="cl">                &lt;title&gt;
+</span></span><span class="line"><span class="cl">                    ...
+</span></span><span class="line"><span class="cl">                &lt;/title&gt;
+</span></span><span class="line"><span class="cl">            &lt;/titleStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;publicationStmt&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/publicationStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;sourceDesc&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/sourceDesc&gt;
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-testo">Il testo</h3>
+<p>Il testo <code>text</code> contiene <em>almeno</em> un corpo (<code>body</code>).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            &lt;titleStmt&gt;
+</span></span><span class="line"><span class="cl">                &lt;title&gt;
+</span></span><span class="line"><span class="cl">                    ...
+</span></span><span class="line"><span class="cl">                &lt;/title&gt;
+</span></span><span class="line"><span class="cl">            &lt;/titleStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;publicationStmt&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/publicationStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;sourceDesc&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/sourceDesc&gt;
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        &lt;body&gt;
+</span></span><span class="line"><span class="cl">            ...
+</span></span><span class="line"><span class="cl">        &lt;/body&gt;
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-testo-1">Il testo</h3>
+<p>Il testo <code>text</code> contiene <em>almeno</em> un corpo (<code>body</code>).</p>
+<p><code>body</code> contiene strutture testuali, come paragrafi (<code>p</code>) e altri costrutti, compreso uno generico <code>div</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;teiHeader&gt;
+</span></span><span class="line"><span class="cl">        &lt;fileDesc&gt;
+</span></span><span class="line"><span class="cl">            &lt;titleStmt&gt;
+</span></span><span class="line"><span class="cl">                &lt;title&gt;
+</span></span><span class="line"><span class="cl">                    ...
+</span></span><span class="line"><span class="cl">                &lt;/title&gt;
+</span></span><span class="line"><span class="cl">            &lt;/titleStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;publicationStmt&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/publicationStmt&gt;
+</span></span><span class="line"><span class="cl">            &lt;sourceDesc&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/sourceDesc&gt;
+</span></span><span class="line"><span class="cl">        &lt;/fileDesc&gt;
+</span></span><span class="line"><span class="cl">    &lt;/teiHeader&gt;
+</span></span><span class="line"><span class="cl">    &lt;text&gt;
+</span></span><span class="line"><span class="cl">        &lt;body&gt;
+</span></span><span class="line"><span class="cl">            &lt;p&gt;
+</span></span><span class="line"><span class="cl">                ...
+</span></span><span class="line"><span class="cl">            &lt;/p&gt;
+</span></span><span class="line"><span class="cl">        &lt;/body&gt;
+</span></span><span class="line"><span class="cl">    &lt;/text&gt;
+</span></span><span class="line"><span class="cl"> ...
+</span></span><span class="line"><span class="cl">&lt;/TEI&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="fenomeni-testuali">Fenomeni testuali</h3>
+<ul>
+<li><strong>Strutturali</strong> (es. capitoli, sezioni, paragrafi, ecc.): <code>div</code>, <code>p</code>, <code>list</code>, <code>item</code>;</li>
+<li><strong>Rappresentazionali</strong> (es. font, colori, sottolineature, cancellature, ecc.): <code>hi</code>;</li>
+<li><strong>Semantici</strong> (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): <code>emph</code>, <code>foreign</code>, <code>quote</code>, <code>term</code>, <code>gloss</code>, <code>title</code>, <code>name</code>, <code>num</code>, <code>measure</code>, <code>date</code>, <code>address</code>, <code>abbr</code>;</li>
+<li><strong>Analitici</strong> (es. interpretazioni aggiunte da chi sta lavorando): <code>note</code>, <code>sic</code>, <code>corr</code>, <code>choice</code>, <code>orig</code>, <code>reg</code>, <code>gap</code>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-esempi-riferimenti">Alcuni esempi: riferimenti</h3>
+<p>Elemento <code>ref</code> con i possibili attributi:</p>
+<ul>
+<li><code>type</code>: tipo del riferimento;</li>
+<li><code>target</code>: oggetto del riferimento, nella forma di un link o di un URI.</li>
+</ul>
+<p>Si può utilizzare anche <code>name</code> per i nomi propri, o <code>rs</code> per i nomi comuni, oppure altri elementi più specifici (es. <code>persName</code>, <code>orgName</code>, ecc.).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;ref type=&#34;person&#34; target=&#34;https://www.wikidata.org/wiki/Q5582&#34;&gt;Van Gogh&lt;/ref&gt;, uno dei più grandi pittori di tutti i tempi.
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-esempi-date">Alcuni esempi: date</h3>
+<ul>
+<li>elemento <code>date</code> con questi possibili attributi:
+<ul>
+<li><code>@calendar</code>: sistema di calendario (es. &ldquo;gregorian&rdquo;);</li>
+<li><code>@when</code>: valore della data in formato standard (es. &ldquo;2009​-12​-31&rdquo;);</li>
+<li><code>@from</code> e <code>@to</code>: inizio e fine definiti della data;</li>
+<li><code>@notBefore</code> e <code>@notAfter</code>: inizio e fine non definiti della data.</li>
+</ul>
+</li>
+</ul>
+<p><code>&lt;date when=&quot;2009​-12​-31&quot; calendar=&quot;Gregorian&quot;&gt;31 Dec 2009&lt;/date&gt;</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;date from=&#34;1866&#34; to=&#34;1868&#34;&gt;due anni&lt;/date&gt; a Tilburg e un altro &lt;date notBefore=&#34;1875-04​-01&#34; notAfter=&#34;1876-12-31&#34;&gt;breve periodo&lt;/date&gt; a Parigi.
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-esempi-numeri-e-misure">Alcuni esempi: numeri e misure</h3>
+<ul>
+<li>Elemento <code>num</code> con questi possibili attributi:
+<ul>
+<li><code>@type</code>: tipo di valore numerico (es. &ldquo;cardinal&rdquo;, &ldquo;percentage&rdquo;, &ldquo;ordinal&rdquo;, ecc.);</li>
+<li><code>@value</code>: valore numerico in formato standard.</li>
+</ul>
+</li>
+<li>Elemento <code>measure</code> con questi possibili attributi:
+<ul>
+<li><code>@type</code>: tipo di misura (es. &ldquo;volume&rdquo;, &ldquo;width&rdquo;, &ldquo;length&rdquo;, ecc.);</li>
+<li><code>@quantity</code>: quantità espressa dalla misura in formato standard;</li>
+<li><code>@unit</code>: unità di misura (es. &ldquo;litre&rdquo;, &ldquo;kilogram&rdquo;, ecc.).</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;num type=&#34;cardinal&#34; value=&#34;2&#34;&gt;due&lt;/num&gt; anni a Tilburg. 
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-attributi-globali-utilizzabili-da-tutti-gli-elementi">Alcuni attributi globali (utilizzabili da tutti gli elementi)</h3>
+<ul>
+<li><code>@xml:id</code>: identificatore univoco dell&rsquo;elemento;<br>
+Esempio: ``</li>
+<li><code>@n</code>: identificatore non univoco dell&rsquo;elemento;</li>
+<li><code>@xml:lang</code>: lingua del contenuto dell&rsquo;elemento;</li>
+<li><code>@cert</code>: certezza del codificatore sull&rsquo;interpretazione rappresentata dall&rsquo;elemento;</li>
+<li><code>@resp</code>: persona o organizzazione considerata responsabile della marcatura</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="abbiamo-solo-grattato-la-superficie">Abbiamo solo grattato la superficie&hellip;</h3>
+<p>Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà vale per tutto quello che stiamo facendo):</p>
+<ul>
+<li>leggere la documentazione quando ne abbiamo necessità;</li>
+<li>provare e riprovare!</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="risorse-utili">Risorse utili</h3>
+<ul>
+<li><a href="https://teibyexample.org/exist/tutorials/" target="_blank" rel="noopener">https://teibyexample.org/exist/tutorials/</a></li>
+<li><a href="http://www.ultraslavonic.info/intro-to-xml/" target="_blank" rel="noopener">http://www.ultraslavonic.info/intro-to-xml/</a></li>
+<li><a href="https://jsonformatter.org/xml-editor" target="_blank" rel="noopener">https://jsonformatter.org/xml-editor</a></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="attività-pratica">Attività pratica</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="nel-dataset-di-mythologiae-abbiamo-anche-delle-descrizioni-testuali-ricche-di-informazioni">Nel dataset di Mythologiae, abbiamo anche delle descrizioni testuali ricche di informazioni</h3>
+<p>Tra queste colonne, c&rsquo;è <code>cho_note</code>, che contiene informazioni descrittive e contestuali di ogni opera.</p>
+<p>Esempio:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ovviamente-proveremo-a-marcarne-qualcuno-in-tei">Ovviamente, proveremo a marcarne qualcuno in TEI!</h3>
+<ul>
+<li>Il sotto-dataset di note: <a href="https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing</a> (su GitHub: <code>tutorial</code> &gt; <code>data</code> &gt; <code>README.md</code> &gt; Descrizioni delle opere &gt; Fonti &gt; Selezione di descrizioni)
+<ul>
+<li>due colonne: la prima contenente l&rsquo;identificativo numerico dell&rsquo;opera nel dataset, e l&rsquo;altra contenente le note per quell&rsquo;opera.</li>
+</ul>
+</li>
+<li>Possiamo usare svariati strumenti per scrivere il nostro codice, tra cui:
+<ul>
+<li><a href="https://vscode.dev/" target="_blank" rel="noopener">https://vscode.dev/</a>;</li>
+<li><a href="https://jsonformatter.org/xml-editor" target="_blank" rel="noopener">https://jsonformatter.org/xml-editor</a>.</li>
+</ul>
+</li>
+<li>Andate su <code>tutorial</code> &gt; <code>docs</code> &gt; <code>templates</code> &gt; <code>tei-description-template.xml</code>, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;</li>
+<li>Selezionate una descrizione nel dataset e copia-incollatela nel <code>body</code> del template;</li>
+<li>Marcate la descrizione secondo le linee guida, presenti nella slide successiva;</li>
+<li>Salvate una copia del documento sul computer, poi caricatela nella cartella <code>tei</code> in <code>data</code>, e fate un pull request.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="linee-guida-sulla-marcatura">Linee guida sulla marcatura</h3>
+<p>Vogliamo marcare:</p>
+<ul>
+<li>i <strong>riferimenti alle entità</strong>: <code>ref</code> con
+<ul>
+<li><code>@type</code> con i possibili valori <code>&quot;person&quot;</code>, <code>&quot;character&quot;</code>, <code>&quot;place&quot;</code>, <code>&quot;event&quot;</code>, <code>&quot;work&quot;</code>, <code>&quot;organization&quot;</code>, <code>&quot;collection&quot;</code>;</li>
+<li><code>@target</code> con valore l&rsquo;URI alla rispettiva voce su Wikidata, se esiste.</li>
+</ul>
+</li>
+<li>le <strong>date</strong>: <code>date</code> con
+<ul>
+<li><code>@when</code>;</li>
+<li><code>@from</code> e <code>@to</code>, oppure <code>@notBefore</code> e <code>@notAfter</code>.</li>
+</ul>
+</li>
+<li>le <strong>misure</strong>: <code>measure</code> con
+<ul>
+<li><code>@type</code></li>
+<li><code>@quantity</code></li>
+<li><code>@unit</code></li>
+</ul>
+</li>
+</ul>
+<p>Se volete provare a marcare anche altro, fate pure!</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-08-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1">Lezione 08 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

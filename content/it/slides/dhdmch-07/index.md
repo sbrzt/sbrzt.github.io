@@ -502,7 +502,7 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 ### Esempio di triple RDF
 
 <figure>
-  <img src="img/triple.png" height="auto" width="700"/>
+  <img src="img/rdf.png" height="auto" width="700"/>
   <figcaption>
       Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). <a href="https://theses.hal.science/tel-02524361v1">https://theses.hal.science/tel-02524361v1</a>.
   </figcaption>
