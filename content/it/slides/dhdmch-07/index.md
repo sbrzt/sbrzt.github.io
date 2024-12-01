@@ -145,7 +145,7 @@ Kučerová, H. (2018). The concept of model and conceptual model in information 
         L’insieme di attività di rappresentazione formale di un segmento di realtà in modo tale da renderlo computabile.
       </p>
       <p>
-        I modelli di dati forniscono una struttura precisa che permette ai dati di essere trattati, coompresi, e gestiti.
+        I modelli di dati forniscono una struttura precisa che permette ai dati di essere trattati, compresi, e gestiti.
       </p>
       <p>
         Es. creazione di database, definizione di schemi XML, sviluppo di ontologie, ecc. 

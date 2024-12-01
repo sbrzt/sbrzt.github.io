@@ -1645,7 +1645,7 @@ Kučerová, H. (2018). The concept of model and conceptual model in information 
         L’insieme di attività di rappresentazione formale di un segmento di realtà in modo tale da renderlo computabile.
       &lt;/p&gt;
       &lt;p&gt;
-        I modelli di dati forniscono una struttura precisa che permette ai dati di essere trattati, coompresi, e gestiti.
+        I modelli di dati forniscono una struttura precisa che permette ai dati di essere trattati, compresi, e gestiti.
       &lt;/p&gt;
       &lt;p&gt;
         Es. creazione di database, definizione di schemi XML, sviluppo di ontologie, ecc. 
@@ -2009,7 +2009,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-di-triple-rdf&#34;&gt;Esempio di triple RDF&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/triple.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/rdf.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
   &lt;figcaption&gt;
       Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). &lt;a href=&#34;https://theses.hal.science/tel-02524361v1&#34;&gt;https://theses.hal.science/tel-02524361v1&lt;/a&gt;.
   &lt;/figcaption&gt;
@@ -2695,6 +2695,251 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
     </item>
     
     <item>
+      <title>DHDMCH - L&#39;oltretesto</title>
+      <link>http://localhost:1313/it/slides/dhdmch-09/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-09/</guid>
+      <description>&lt;h1 id=&#34;loltretesto&#34;&gt;L&amp;rsquo;oltretesto&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-09-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 09 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rdf&#34;&gt;RDF&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;resource-description-framework&#34;&gt;Resource Description Framework&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/rdf.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). &lt;a href=&#34;https://theses.hal.science/tel-02524361v1&#34;&gt;https://theses.hal.science/tel-02524361v1&lt;/a&gt;. 
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&#39;utilizzo di triple soggetto-predicato-oggetto.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lunità-minima-nei-lod-la-tripla-rdf&#34;&gt;L’unità minima nei LOD: la tripla RDF&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/triple.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Costrutto astratto minimo di modellazione dei LOD.
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Soggetto: un&#39;entità (sempre identificata da un URI);&lt;/li&gt;
+          &lt;li&gt;Predicato: una caratteristica del soggetto (sempre identificata da un URI);&lt;/li&gt;
+          &lt;li&gt;Oggetto: un&#39;entità (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.).&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        Le triple si collegano tra loro, formando un grafo di dati.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-con-neuromante&#34;&gt;ESEMPIO CON NEUROMANTE&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rdf-come-grafo&#34;&gt;RDF COME GRAFO&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-piccolo-limite-di-rdf-in-quanto-modello-di-dati&#34;&gt;Un piccolo limite di RDF in quanto modello di dati&lt;/h3&gt;
+&lt;p&gt;Dice &lt;em&gt;cosa&lt;/em&gt; fare, ma non dice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Come scrivere triple&lt;/em&gt;: per questo ci sono le &lt;strong&gt;serializzazioni&lt;/strong&gt; (es. RDF/XML, Turtle, ecc.) che specificano la &lt;strong&gt;sintassi&lt;/strong&gt; da usare;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Come esprimere entità e proprietà&lt;/em&gt;: per questo esistono i &lt;strong&gt;modelli semantici&lt;/strong&gt; (es. vocabolari controllati, ontologie, ecc.) che specificano il &lt;strong&gt;lessico&lt;/strong&gt; da usare.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-esempio-di-serializzazione-rdf-turtle&#34;&gt;Un esempio di serializzazione RDF: Turtle&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante a dhdmch:Book ;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:publicationDate &amp;#34;1984&amp;#34; ;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:genre dhdmch:cyberpunk ;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:creator ex:william-gibson ;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:pages &amp;#34;271&amp;#34; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson a dhdmch:Person .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;turtle-prefissi&#34;&gt;Turtle: prefissi&lt;/h3&gt;
+&lt;p&gt;Per ogni modello, dicitura &lt;code&gt;@prefix&lt;/code&gt; + prefisso (a vostra scelta, esistono convenzioni tacite) + URI del modello tra caporali + punto&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;turtle-prefissi-1&#34;&gt;Turtle: prefissi&lt;/h3&gt;
+&lt;p&gt;I prefissi ci evitano di dover ripetere l&amp;rsquo;URI completo ogni volta (ricordate: per riferirci a risorse e proprietà &lt;em&gt;dobbiamo&lt;/em&gt; usare gli URI).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Volendo &amp;ldquo;Neuromante&amp;rdquo;, &amp;ldquo;è un&amp;rdquo; e &amp;ldquo;Libro&amp;rdquo; possiamo scriverli anche così:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;http://example.org/data/neuromante http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://example.org/libro&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;turtle-triple&#34;&gt;Turtle: triple&lt;/h3&gt;
+&lt;p&gt;Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&amp;rsquo;altro e separati da uno spazio.&lt;/p&gt;
+&lt;p&gt;Una tripla finisce sempre con un punto.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:publicationDate &amp;#34;1984&amp;#34; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:genre dhdmch:cyberpunk ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:creator ex:william-gibson ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:pages &amp;#34;271&amp;#34; .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;turtle-triple-1&#34;&gt;Turtle: triple&lt;/h3&gt;
+&lt;p&gt;Se abbiamo più triple con lo stesso soggetto, possiamo utilizzare una sintassi più elegante, con una prima tripla che esprime il soggetto e tutte le altre indentate sotto la prima che sottointendono il soggetto.&lt;/p&gt;
+&lt;p&gt;Ogni tripla che non è l&amp;rsquo;ultima finisce con il punto e virgola.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:publicationDate &amp;#34;1984&amp;#34; ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:genre dhdmch:cyberpunk ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:creator ex:william-gibson ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:pages &amp;#34;271&amp;#34; .  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;però-non-cè-interoperabilità&#34;&gt;Però non c&amp;rsquo;è interoperabilità&lt;/h3&gt;
+&lt;p&gt;Il nostro &lt;code&gt;dhdmch&lt;/code&gt; è in sostanza la reinvenzione della ruota: esistono già molteplici modelli in grado di descrivere libri (e il dominio bibliografico in senso lato).&lt;/p&gt;
+&lt;p&gt;Inoltre, ci servono il modello anche per rappresentare &amp;ldquo;Persona&amp;rdquo; e il vocabolario controllato da cui attingere il valore &amp;ldquo;cyberpunk&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;A patto di rispettare le costrizioni logiche dei vari modelli, li possiamo combinare per fare una descrizione interoperabile dei dati.&lt;/p&gt;
+&lt;p&gt;Alcuni modelli:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;FaBiO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Dublin Core Terms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;PRISM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;FOAF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Wikidata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-triple-riscritte-con-modelli-esistenti&#34;&gt;Le triple, riscritte con modelli esistenti&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:Book&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;fabio:Book&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;dhdmch:publicationDate&lt;/li&gt;
+&lt;li&gt;dhdmch:genre&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:cyberpunk&lt;/code&gt; diventa &lt;code&gt;https://www.wikidata.org/wiki/Q174526&lt;/code&gt; (abbreviato in &lt;code&gt;wd:Q174526&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:creator&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;dct:creator&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;dhdmch:pages&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:Person&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;foaf:Person&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Libro → &lt;a href=&#34;http://purl.org/spar/fabio/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/Book&lt;/a&gt;
+Genere → &lt;a href=&#34;http://www.w3.org/2004/02/skos/core#Concept&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/2004/02/skos/core#Concept&lt;/a&gt;
+Persona → &lt;a href=&#34;http://xmlns.com/foaf/0.1/Person&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/Person&lt;/a&gt;
+è un/una → &lt;a href=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&lt;/a&gt;
+pubblicato nel → &lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/publicationDate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/publicationDate&lt;/a&gt;
+ha genere → &lt;a href=&#34;http://purl.org/dc/terms/type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/type&lt;/a&gt;
+scritto da → &lt;a href=&#34;http://purl.org/dc/terms/creator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/creator&lt;/a&gt;
+ha pagine → &lt;a href=&#34;http://purl.org/spar/fabio/hasPageCount&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/hasPageCount&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-triple-riscritte-con-modelli-esistenti-1&#34;&gt;Le triple, riscritte con modelli esistenti&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix fabio: &amp;lt;&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dct: &amp;lt;&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix foaf: &amp;lt;&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix XXX: &amp;lt;&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type fabio:Book ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:publicationDate &amp;#34;1984&amp;#34; ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:genre wd:Q174526 ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dct:creator ex:william-gibson ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:pages &amp;#34;271&amp;#34; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson a foaf:Person .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;altre-indicazioni-su-modellazione&#34;&gt;ALTRE INDICAZIONI SU MODELLAZIONE&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Ipotizziamo che non abbiamo interesse a modellare le persone come entità, ma ci basta sapere i nomi delle persone coinvolte nel ciclo di vita del libro&lt;/p&gt;
+&lt;p&gt;IMG&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello-1&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Non abbiamo più la classe Persona
+“scritto da” diventa un attributo di Libro
+Modello più semplice, ma perdiamo espressività ed elasticità&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello-2&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Ipotizziamo che abbiamo interesse a modellare il tempo come periodo caratterizzato da un inizio e una fine&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello-3&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Abbiamo una nuova entità “1984” appartenente alla nuova classe “Intervallo di tempo” con due attributi “data di inizio” e “data di fine”
+“pubblicato nel” diventa una relazione
+Modello più complesso ed espressivo&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello-4&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Ipotizziamo che abbiamo interesse a modellare le pagine singole&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-esiste-un-unico-modello-5&#34;&gt;non esiste un unico modello&lt;/h3&gt;
+&lt;p&gt;Abbiamo 271 nuove entità appartenente alla nuova classe “Pagina”
+“ha pagine” diventa una relazione
+Modello più espressivo, interessato all&amp;rsquo;aspetto strutturale&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ereditarietà&#34;&gt;Ereditarietà&lt;/h3&gt;
+&lt;p&gt;Esiste anche una graphic novel di Neuromante&lt;/p&gt;
+&lt;p&gt;Siamo interessati a modellare anche questa entità e le sue caratteristiche&lt;/p&gt;
+&lt;p&gt;Quale classe le assegnamo?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Potremmo trattarla come istanza della classe “Libro”, dato che ci interessano le stesse caratteristiche&lt;/p&gt;
+&lt;p&gt;Ma ci interessa modellare anche una caratteristica particolare della graphic novel: chi l’ha illustrata (Bruce Jensen, una nuova entità appartenente a “Persona”)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Creiamo una classe “Graphic novel”, le assegnamo la nuova entità “Neuromante: la Graphic Novel, Vol. 1”, stabiliamo una relazione “illustrato da” tra la graphic novel e la nuova entità “Bruce Jensen”&lt;/p&gt;
+&lt;p&gt;Ma ricordiamoci che ci interessano anche altre caratteristiche, tipiche di un Libro: chi l’ha scritta? quante pagine ha? di quale genere fa parte?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Una sottoclasse eredita tutte le proprietà della propria superclasse e (solitamente) ha proprietà aggiuntive che ne giustificano l’esistenza&lt;/p&gt;
+&lt;p&gt;“Graphic novel” eredita TUTTE le proprietà di “Libro” (in questo caso stiamo utilizzando solo “ha pagine”), e in aggiunta ha anche “illustrato da”&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;proprietà-o-classe-tipizzazione&#34;&gt;Proprietà o classe: tipizzazione&lt;/h3&gt;
+&lt;p&gt;I concetti di Libro e Graphic novel sono Classi&lt;/p&gt;
+&lt;p&gt;Molteplici classi particolari (maggiore espressività, molto difficile da mantenere)&lt;/p&gt;
+&lt;p&gt;I concetti di Libro e Graphic novel sono Tipi: ci servono per classificare oggetti bibliografici&lt;/p&gt;
+&lt;p&gt;Stessa differenziazione, ma con meno classi e nessuna informazione particolare (minore espressività, molto più facile da gestire)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;proprietà-o-classi-eventi&#34;&gt;Proprietà o classi: eventi&lt;/h3&gt;
+&lt;p&gt;Il concetto di creazione di un Libro è reso da una relazione “scritto da” tra Libro e Agente&lt;/p&gt;
+&lt;p&gt;Impossibile capire chi ha pubblicato quando&lt;/p&gt;
+&lt;p&gt;Il concetto di creazione di un Libro è una classe “Creazione” che rappresenta l’evento in cui un’istanza di libro è stata creata da un’istanza di Agente&lt;/p&gt;
+&lt;p&gt;Il concetto di “Pubblicazione” (inteso come attività o evento) permette di disambiguare (rendendo il modello più complesso e più corretto)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;contesto&#34;&gt;CONTESTO&lt;/h3&gt;
+&lt;p&gt;dcho_id	dcho_title	dcho_publication_date	dcho_permalink	dcho_image_related	dcho_image_title	dcho_image_description	dcho_image_alt_text	dcho_image_url&lt;/p&gt;
+&lt;p&gt;cho_title	cho_author	cho_description	cho_period	cho_century	cho_date	cho_type	cho_location	cho_note	cho_related	cho_sources_classic	cho_sources_other	cho_sources_classic_link&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;attivita&#34;&gt;ATTIVITA&lt;/h3&gt;
+&lt;p&gt;fate un piccolo modello di una parte (CAPIRE QUALE)
+prima grafico (MAGARI QUESTO GLIELO FORNISCO IO)?
+poi scritto in turtle
+usando una riga di dati
+e riusando queste ontologie&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;salvate il file in ttl
+salvate il tutto in &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;rdf&lt;/code&gt;
+salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&gt;assets&lt;/code&gt; &amp;gt; &lt;code&gt;img&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-09-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 09 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - Strutture nascoste</title>
       <link>http://localhost:1313/it/slides/dhdmch-08/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
@@ -2703,18 +2948,11 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;h2 id=&#34;lezione-08-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 08 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Come usarlo&lt;/li&gt;
-&lt;li&gt;Esercizio in presenza&lt;/li&gt;
-&lt;li&gt;Esercizio a distanza&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;i-linguaggi-di-marcatura-sono-definiti-tramite-xml&#34;&gt;I linguaggi di marcatura sono definiti tramite XML&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
-    &lt;img src=&#34;img/xml.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;img src=&#34;../dhdmch-07/img/xml.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
       &lt;figcaption&gt;
           Fonte: Buzzoni, M. (2020). Towards the Construction of a Stemma. Handbook of Stemmatology: History, Methodology, Digital Approaches, 139-207. &lt;a href=&#34;https://doi.org/10.1515/9783110684384-004&#34;&gt;https://doi.org/10.1515/9783110684384-004&lt;/a&gt;.
       &lt;/figcaption&gt;
@@ -2752,7 +2990,7 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 
 &lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;img/markup-elements.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../dhdmch-07/img/markup-elements.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -2777,269 +3015,376 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 
 &lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;img/markup-attribute.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../dhdmch-07/img/markup-attribute.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;heading&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;Tags must nest properly–that is, you must always close the last tag you opened before closing a previous one. If you don&amp;rsquo;t nest properly, you get what&amp;rsquo;s often called overlap. For example, this is wrong:&lt;/p&gt;
-&lt;p&gt;&lt;sentence&gt;Overlap is &lt;emphasis&gt;not allowed!&lt;/sentence&gt;&lt;/emphasis&gt;&lt;/p&gt;
-&lt;p&gt;The problem here is that the emphasis tag needs to be closed before the sentence tag. Here&amp;rsquo;s the correct way to do it:&lt;/p&gt;
-&lt;p&gt;&lt;sentence&gt;Overlap is &lt;emphasis&gt;not allowed!&lt;/emphasis&gt;&lt;/sentence&gt;&lt;/p&gt;
+&lt;h3 id=&#34;i-tag-si-devono-annidare-correttamente&#34;&gt;I tag si devono annidare correttamente&lt;/h3&gt;
+&lt;p&gt;Devi &lt;em&gt;sempre&lt;/em&gt; chiudere l&amp;rsquo;utlimo tag che hai aperto prima di chiuderne un altro precedente.&lt;/p&gt;
+&lt;p&gt;Per esempio, questo è un errore:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;sentence&amp;gt;Questo è &amp;lt;emphasis&amp;gt;un errore!&amp;lt;/sentence&amp;gt;&amp;lt;/emphasis&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Questo, invece, è corretto:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;sentence&amp;gt;Questo non è &amp;lt;emphasis&amp;gt;un errore!&amp;lt;/emphasis&amp;gt;&amp;lt;/sentence&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;heading-1&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;Some elements are empty—they have no content. They can be written in either of the following ways:&lt;/p&gt;
-&lt;p&gt;&lt;milestone type=&#34;pagebreak&#34;&gt;&lt;/milestone&gt;&lt;/p&gt;
-&lt;milestone type=&#34;pagebreak&#34;/&gt;
+&lt;h3 id=&#34;alcuni-elementi-sono-vuoti-cioé-non-hanno-contenuto-testuale&#34;&gt;Alcuni elementi sono vuoti, cioé non hanno contenuto testuale&lt;/h3&gt;
+&lt;p&gt;Possono essere scritti normalmente:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;milestone type=&amp;quot;pagebreak&amp;quot;&amp;gt;&amp;lt;/milestone&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Oppure con solo il tag di apertura e il secondo caporale &lt;code&gt;&amp;gt;&lt;/code&gt; preceduto da &lt;code&gt;/&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;milestone type=&amp;quot;pagebreak&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;The first line of every XML file is called the declaration. For this document, it looks like:&lt;/p&gt;
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;
-&lt;p&gt;It allows a processor to understand details about what kind of file this is. There may be additional lines at the beginning of your XML that give more information about it (for example, a link to a separate file, called a stylesheet, that controls how the document looks when displayed online).&lt;/p&gt;
+&lt;h3 id=&#34;la-prima-linea-di-un-file-xml-è-la-dichiarazione&#34;&gt;La prima linea di un file XML è la dichiarazione&lt;/h3&gt;
+&lt;p&gt;Esempio:&lt;br&gt;
+&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; ?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Dichiara i dettagli del file (in questo caso, è un documento XML, versione 1.0, e codificato secondo UTF-8).&lt;/p&gt;
+&lt;p&gt;Ci possono essere altre informazioni, come la lingua, lo stile, ecc.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio&#34;&gt;esempio&lt;/h3&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;struttura-ad-albero&#34;&gt;struttura ad albero&lt;/h3&gt;
-&lt;p&gt;xml-tree &lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempi-di-utilizzo&#34;&gt;Esempi di utilizzo&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;you are studying an author&#39;s word usage and want to exclude any text where the author quoted from another source?
-you have a collection of documents and want to create a list of all personal names or place names mentioned?
-you are transcribing a manuscript involving various hands and want to identify which spans of text were written by whom?
-you are transcribing a document and have identified a typo that might confuse a non-expert or impede their search of the text, so you want to supply a correction without replacing the original error?
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;p&gt;XML works very well for marking up regularly structured texts for which you wish to maintain a consistent structure, such as whitepapers, scholarly journal articles, sonnets, and tax forms. It works less well for representing creative works that violate conventions, such as postmodern novels and certain non-verse poetry. Representing primary source documents can also be quite difficult. However, there isn&amp;rsquo;t really a better way to represent these difficult cases and still process them with a computer than by using XML, and for the kinds of documents that humanists are concerned with, the de facto standard markup language, recommended by the Modern Language Association and the National Endowment for the Humanities in the US, is the Text Encoding Initiative (TEI) Guidelines.&lt;/p&gt;
+&lt;h3 id=&#34;esempi-di-scenari-di-utilizzo-di-xml&#34;&gt;Esempi di scenari di utilizzo di XML&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Stai studiando l&amp;rsquo;uso delle parole di un autore e vuoi escludere qualsiasi testo in cui l&amp;rsquo;autore citi una fonte esterna;&lt;/li&gt;
+&lt;li&gt;Hai una raccolta di documenti e vuoi creare un elenco di tutti i nomi di persone o di luoghi menzionati;&lt;/li&gt;
+&lt;li&gt;Stai trascrivendo un manoscritto che coinvolge diverse mani e vuoi identificare quali tratti di testo sono stati scritti da ciascuna persona;&lt;/li&gt;
+&lt;li&gt;Stai trascrivendo un documento e hai identificato un errore di battitura che potrebbe confondere un non esperto o ostacolare la ricerca del testo, quindi vuoi fornire una correzione senza sostituire l&amp;rsquo;errore originale.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tei&#34;&gt;TEI&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;tei-lite&#34;&gt;TEI Lite&lt;/h3&gt;
-&lt;p&gt;The conclusions and the work of the TEI community are formulated as guidelines, rules, and recommendations rather than standards, because it is acknowledged that each scholar must have the freedom of expressing their own theory of text by encoding the features they think important in the text. A wide array of possible solutions to encoding matters is demonstrated in the TEI Guidelines which therefore should be considered a reference manual rather than a tutorial. Mastering the complete TEI encoding scheme implies a steep learning curve, but few projects require a complete knowledge of the TEI. Therefore, a manageable subset of the full TEI encoding scheme was published as TEI Lite&lt;/p&gt;
+&lt;p&gt;Un modello basato su XML per marcare testi umanistici.&lt;/p&gt;
+&lt;p&gt;Standard internazionale che dà ampie libertà di codificare le caratteristiche del testo secondo diverse soluzioni. Definisce circa 580 elementi e 265 attributi per rappresentare un insieme molto ampio di fenomeni testuali e meta-informazioni ad essi associate.&lt;/p&gt;
+&lt;p&gt;Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato &lt;a href=&#34;https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; TEI Lite&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;heading-2&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;A significant part of the rules in the TEI Guidelines apply to the expression of descriptive and structural meta-information about the text. Yet, the TEI defines concepts to represent a much wider array of textual phenomena, amounting to a total of 580 elements and 265 attributes. These are organised into 21 modules, grouping related elements and attributes:&lt;/p&gt;
-&lt;p&gt;The TEI Infrastructure (tei)
-Definition of common datatypes and modular class structures used to define the elements and attributes in the other modules.
-The TEI Header (header)
-Definition of the elements that make up the header section of TEI documents. Its major parts provide elements to encode detailed metadata about bibliographic aspects of electronic texts, their relationship with the source materials from which they may have been derived, non-bibliographic details, and a complete revision history.
-Elements Available in All TEI Documents (core)
-Definition of elements and attributes that may occur in any TEI text, of whatever genre. These elements cover textual phenomena like paragraphs, highlighting and quotation, editorial changes (marking of errors, regularisations, additions), data-like structures (names, addresses, dates, numbers, abbreviations), cross-reference mechanisms, lists, notes, graphical elements, bibliographic references, and passages of verse or drama.
-Default Text Structure (textstructure)
-Definition of elements and attributes that describe the structure of TEI texts, like front matter and title pages, text body, and back matter. These may contain further divisions, possibly introduced by headings, salutations, opening formulae, and/or concluded by closing formulae, closing salutations, trailing material and postscripts.&lt;/p&gt;
+&lt;h3 id=&#34;elementi-e-attributi-sono-organizzati-in-21-moduli&#34;&gt;Elementi e attributi sono organizzati in 21 moduli&lt;/h3&gt;
+&lt;p&gt;Tra i fondamentali, troviamo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tei&lt;/code&gt;: definisce le basi infrastrutturali su cui si appoggiano elementi ed attributi degli altri moduli;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;header&lt;/code&gt;: definisce gli elementi che compongono la sezione dell&amp;rsquo;intestazione (es. metadati bibliografici, relazioni con i materiali di orgine, revisioni, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;core&lt;/code&gt;: definisce elementi ed attributi che possono far parte di qualsiasi documento (es. paragrafi, citazioni, liste, entità, note, elementi grafici, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;textstructure&lt;/code&gt;: definisce elementi ed attributi che descrivono la struttura dei testi (es. pagine, corpo del testo, intestazioni, postfazioni, ecc.).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;heading-3&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;In order to use TEI for the encoding of texts, users must make sure that their texts belong to the TEI namespace (&lt;a href=&#34;http://www.tei-c.org/ns/1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.tei-c.org/ns/1.0&lt;/a&gt;) and adhere to the requirements of the text model proposed by the TEI.&lt;/p&gt;
+&lt;h3 id=&#34;aderire-allo-standard&#34;&gt;Aderire allo standard&lt;/h3&gt;
+&lt;p&gt;Per usare efficacemente TEI, dovete assicurarvi che:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;nella dichiarazione venga esplicitato il namespace di TEI (&lt;a href=&#34;http://www.tei-c.org/ns/1.0%29;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.tei-c.org/ns/1.0);&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;vengano rispettati i requisiti del modello di dati TEI, sulla base dei modelli (e quindi degli elementi e attributi) selezionati per il progetto in questione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Servizio per la creazione di schemi TEI documentati: &lt;a href=&#34;https://roma.tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://roma.tei-c.org/&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;heading-4&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;In order to facilitate this conformance, it is possible (and strongly suggested) to associate TEI texts with formal representations of this text model. These formal “structural grammars” of a TEI compatible model of the text can be expressed in a number of ways, commonly referred to as a TEI schema. Technically, a TEI schema can be expressed in a variety of formal languages such as Document Type Definition (DTD), W3C XML Schema, or the RELAX NG schema language. It is important to notice that no such thing as “the TEI schema” exists. Rather, users are expected to select their desired TEI elements and attributes from the TEI modules, possibly with alterations or extensions where required. In this way, TEI offers a stable base with unambiguous means for the representation of basic textual phenomena, while providing standardised mechanisms for user customisation for uncovered features.&lt;/p&gt;
-&lt;p&gt;In order to accommodate the process of creating customised TEI schemas and prose documentation, the TEI has developed a dedicated piece of software called “Roma,” available at &lt;a href=&#34;https://roma.tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://roma.tei-c.org/&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;heading-5&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The TEI makes use of XML as its governing metalanguage. This means that all TEI metadata are expressed as XML elements and thus comply with the World Wide Web Consortium XML Recommendation. Information (plain text) is contained in XML elements, delimited by start tags (e.g., &lt;TEI&gt;) and end tags (e.g., &lt;/TEI&gt;). Additional information to these XML elements can be given in attributes, consisting of a name (e.g., xml:id) and a value (e.g., &amp;ldquo;text1&amp;rdquo;).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;heading-6&#34;&gt;&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;A full TEI document consists of one single &lt;TEI&gt; element, which consists of two major components:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;teiHeader&amp;gt;: an element containing all the metadata describing the document.
-&amp;lt;text&amp;gt;: an element containg the actual document
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This common structure is mandatory for all “standard” TEI documents.&lt;/p&gt;
-&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
-&lt;teiHeader&gt;
-&lt;!---...--&gt;
-&lt;/teiHeader&gt;
-&lt;text&gt;
-&lt;!--...--&gt;
-&lt;/text&gt;
-&lt;/TEI&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;tei-header&#34;&gt;TEI Header&lt;/h3&gt;
-&lt;p&gt;The TEI header (&lt;teiHeader&gt;) is mandatory and contains descriptive meta-information about the document. The &lt;teiHeader&gt; minimally contains a description of the electronic file inside a (&lt;fileDesc&gt;). The latter element consists of three mandatory components:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;the title statement (&amp;lt;titleStmt&amp;gt;), providing information about the title (&amp;lt;title&amp;gt;), author (&amp;lt;author&amp;gt;), and others responsible for the electronic text
-the publication statement (&amp;lt;publicationStmt&amp;gt;), providing publication details about the electronic text in a structured way or as prose inside a paragraph (&amp;lt;p&amp;gt;)
-a description of the source (&amp;lt;sourceDesc&amp;gt;), documenting bibliographic details about the electronic text’s material source (if any) in a structured way or in a prose paragraph (&amp;lt;p&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;teiHeader xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
-&lt;fileDesc&gt;
-&lt;titleStmt&gt;
-&lt;title&gt;The Strange Adventures of Dr. Burt Diddledygook: a machine​-readable transcription&lt;/title&gt;
-&lt;respStmt&gt;
-&lt;resp&gt;editor&lt;/resp&gt;
-&lt;name xml:id=&#34;EV&#34;&gt;Edward Vanhoutte&lt;/name&gt;
-&lt;/respStmt&gt;
-&lt;/titleStmt&gt;
-&lt;publicationStmt&gt;
-&lt;p&gt;Not for distribution.&lt;/p&gt;
-&lt;/publicationStmt&gt;
-&lt;sourceDesc&gt;
-&lt;p&gt;Transcribed from the diaries of the late Dr. Roy Offire.&lt;/p&gt;
-&lt;/sourceDesc&gt;
-&lt;/fileDesc&gt;
-&lt;/teiHeader&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;text&#34;&gt;Text&lt;/h3&gt;
-&lt;p&gt;The actual text (&lt;text&gt;) contains a single text of any kind. This commonly contains the actual text and other encodings. A text &lt;text&gt; minimally contains a text body (&lt;body&gt;). The body contains lower-level text structures like paragraphs (&lt;p&gt;), or different structures for text genres other than prose: lines (&lt;l&gt;) for poetry, speeches (&lt;sp&gt;) for drama.
-&lt;text xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;&lt;/p&gt;
-&lt;body&gt;
-&lt;p&gt;For the first time in twenty​-five years, Dr Burt Diddledygook decided not to turn up to the annual meeting of the Royal Academy of Whoopledywhaa (R​AW). It was a sunny day in late September 1960 bang on noontime and Dr Burt was looking forward to a stroll in the park instead. He hoped his fellow members of the​RAW weren​&#39;t even going to notice his absence.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/text&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempio-minimo-completo&#34;&gt;esempio minimo completo&lt;/h3&gt;
-&lt;p&gt;The following example shows the empty framework of a basic TEI document structure:
-&lt;TEI xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;
-&lt;teiHeader&gt;
-&lt;fileDesc&gt;
-&lt;titleStmt&gt;&lt;/p&gt;
-&lt;title&gt;
-&lt;!--Title--&gt;
-&lt;/title&gt;
-&lt;/titleStmt&gt;
-&lt;publicationStmt&gt;
-&lt;p&gt;
-&lt;!--Publication Information--&gt;
-&lt;/p&gt;
-&lt;/publicationStmt&gt;
-&lt;sourceDesc&gt;
-&lt;p&gt;
-&lt;!--Information about the source--&gt;
-&lt;/p&gt;
-&lt;/sourceDesc&gt;
-&lt;/fileDesc&gt;
-&lt;/teiHeader&gt;
-&lt;text&gt;
-&lt;body&gt;
-&lt;!--Some structural division, paragraph, line group, speech, ...--&gt;
-&lt;/body&gt;
-&lt;/text&gt;
-&lt;/TEI&gt;
-&lt;hr&gt;
+&lt;h3 id=&#34;un-documento-tei-di-base&#34;&gt;Un documento TEI di base&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un elemento &lt;code&gt;TEI&lt;/code&gt;, in cui viene sempre dichiarato un attributo &lt;code&gt;@xmlns&lt;/code&gt; con il valore &lt;code&gt;http://www.tei-c.org/ns/1.0&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;un-documento-tei-di-base-1&#34;&gt;Un documento TEI di base&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un elemento &lt;code&gt;TEI&lt;/code&gt;, contenente:
+&lt;ul&gt;
+&lt;li&gt;un elemento &lt;code&gt;teiHeader&lt;/code&gt;, per i metadati&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;un-documento-tei-di-base-2&#34;&gt;Un documento TEI di base&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un elemento &lt;code&gt;TEI&lt;/code&gt;, contenente:
+&lt;ul&gt;
+&lt;li&gt;un elemento &lt;code&gt;teiHeader&lt;/code&gt;, per i metadati&lt;/li&gt;
+&lt;li&gt;un elemento &lt;code&gt;text&lt;/code&gt;, per il contenuto effettivo del documento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-tei-header&#34;&gt;Il TEI Header&lt;/h3&gt;
+&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-tei-header-1&#34;&gt;Il TEI Header&lt;/h3&gt;
+&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-tei-header-2&#34;&gt;Il TEI Header&lt;/h3&gt;
+&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;publicationStmt&lt;/code&gt;, contenente informazioni sulla pubblicazione;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-tei-header-3&#34;&gt;Il TEI Header&lt;/h3&gt;
+&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;publicationStmt&lt;/code&gt;, contenente informazioni sulla pubblicazione;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sourceDesc&lt;/code&gt;, contenente informazioni sulla fonte materiale del testo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-testo&#34;&gt;Il testo&lt;/h3&gt;
+&lt;p&gt;Il testo &lt;code&gt;text&lt;/code&gt; contiene &lt;em&gt;almeno&lt;/em&gt; un corpo (&lt;code&gt;body&lt;/code&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-testo-1&#34;&gt;Il testo&lt;/h3&gt;
+&lt;p&gt;Il testo &lt;code&gt;text&lt;/code&gt; contiene &lt;em&gt;almeno&lt;/em&gt; un corpo (&lt;code&gt;body&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;body&lt;/code&gt; contiene strutture testuali, come paragrafi (&lt;code&gt;p&lt;/code&gt;) e altri costrutti, compreso uno generico &lt;code&gt;div&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;TEI xmlns=&amp;#34;http://www.tei-c.org/ns/1.0&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/titleStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/publicationStmt&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/sourceDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/fileDesc&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/teiHeader&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;lt;/body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;/text&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;fenomeni-testuali&#34;&gt;Fenomeni testuali&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;strutturali (es. libri organizzati in capitoli, sezioni e paragrafi): div, p, list, item&lt;/li&gt;
-&lt;li&gt;renditional (es. font, colori, sottolineature, cancellature, ecc.): &lt;hi rend=&#34;italic&#34;&gt;&lt;/li&gt;
-&lt;li&gt;semantici (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): emph, foreign, quote, term, gloss, title, name, num, measure, date, address, abbr&lt;/li&gt;
-&lt;li&gt;analitici (es. interpretazioni aggiunte da chi sta lavorando): note, sic, corr, choice, orig, reg, gap,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strutturali&lt;/strong&gt; (es. capitoli, sezioni, paragrafi, ecc.): &lt;code&gt;div&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;item&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rappresentazionali&lt;/strong&gt; (es. font, colori, sottolineature, cancellature, ecc.): &lt;code&gt;hi&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantici&lt;/strong&gt; (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): &lt;code&gt;emph&lt;/code&gt;, &lt;code&gt;foreign&lt;/code&gt;, &lt;code&gt;quote&lt;/code&gt;, &lt;code&gt;term&lt;/code&gt;, &lt;code&gt;gloss&lt;/code&gt;, &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;num&lt;/code&gt;, &lt;code&gt;measure&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;address&lt;/code&gt;, &lt;code&gt;abbr&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analitici&lt;/strong&gt; (es. interpretazioni aggiunte da chi sta lavorando): &lt;code&gt;note&lt;/code&gt;, &lt;code&gt;sic&lt;/code&gt;, &lt;code&gt;corr&lt;/code&gt;, &lt;code&gt;choice&lt;/code&gt;, &lt;code&gt;orig&lt;/code&gt;, &lt;code&gt;reg&lt;/code&gt;, &lt;code&gt;gap&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-referring-strings&#34;&gt;esempio: referring strings&lt;/h3&gt;
-&lt;p&gt;Proper nouns name people, places, and objects and are easily traceable in a text, since they commonly appear with the first letter in upper case. This may be encoded with &lt;name&gt; carrying a @type attribute specifying the kind of object referred to.&lt;/p&gt;
-&lt;p&gt;However, people, places, and objects may also be referred to with common nouns, for which the element &lt;rs&gt; (referring string) may be used. This element may also carry a @type attribute specifying the kind of object referred to.&lt;/p&gt;
-&lt;p xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;&#39;Plenty of options&#39;, he thought, sat on a bench and opened the book he had taken from the Whoopledywhaaian National Library. It was titled &#39;While thou art here&#39;, by Sir &lt;name type=&#34;person&#34;&gt;Edmund Peckwood.&lt;/name&gt;
- While reading the first sentence, his placid expression turned to a certain je ne sais quoi: &#39;For the first time in twenty​-five years, Dr &lt;name type=&#34;person&#34;&gt;Burt Diddledygook&lt;/name&gt;
- decided not to turn up to the annual meeting of the &lt;name type=&#34;organisation&#34;&gt;Royal Academy of Whoopledywhaa&lt;/name&gt;
-.&#39;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempio-date&#34;&gt;esempio: date&lt;/h3&gt;
-&lt;p&gt;Any expression defining a date or time may be encoded with the corresponding elements &lt;date&gt; and &lt;time&gt;. The system or calendar to which the date belongs may be documented using a @calendar attribute. The @when attribute supplies the value of a date or time in a standard form, which is useful for text processing.&lt;/p&gt;
-&lt;p&gt;&lt;date when=&#34;2009​-12​-31&#34; calendar=&#34;Gregorian&#34;&gt;31 Dec 2009&lt;/date&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;date&gt; element can also be used to mark a span of time, using the @from and @to attributes, or a range of time, using the @notBefore and @notAfter attributes:&lt;/p&gt;
-&lt;p xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;For the first time in &lt;date from=&#34;1935&#34; to=&#34;1960&#34;&gt;twenty​-five years&lt;/date&gt;
-, Dr Burt Diddledygook decided not to turn up to the annual meeting of the Royal Academy of Whoopledywhaa (R​AW). It was a sunny day in &lt;date notBefore=&#34;1960​-09​-15&#34; notAfter=&#34;1960​-09​-30&#34;&gt;late September 1960&lt;/date&gt;
- bang on &lt;time when=&#34;12​:00​:00&#34;&gt;noontime&lt;/time&gt;
- and Dr Burt was looking forward to a stroll in the park instead. He hoped his fellow members of the R​AW weren​&#39;t even going to notice his absence.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempio-numeri-e-misure&#34;&gt;esempio: numeri e misure&lt;/h3&gt;
-&lt;p&gt;Numbers and measures may be encoded using &lt;num&gt; and &lt;measure&gt; respectively.&lt;/p&gt;
-&lt;p&gt;&lt;num&gt; may contain numbers, written in any form. The attribute @type can be used to indicate the type of numeric value, and @value to supply the value of the number in standard form.&lt;/p&gt;
-&lt;p xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;&gt;For the first time in &lt;num type=&#34;cardinal&#34; value=&#34;25&#34;&gt;twenty​-five&lt;/num&gt;
- years, Dr Burt Diddledygook decided not to turn up to the annual meeting of the Royal Academy of Whoopledywhaa.&lt;/p&gt;
-&lt;p&gt;&lt;measure&gt; element with the attributes @type, @quantity, @unit&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;attributi-globali&#34;&gt;attributi globali&lt;/h3&gt;
-&lt;p&gt;TEI elements can carry one or more attributes which provide additional information, and function as their qualifiers and quantifiers. The full list of all attributes defined in TEI is available as Appendix D Attributes of the TEI Guidelines. A couple of these attributes can occur on all TEI elements: those are defined as “global attributes,”&lt;/p&gt;
+&lt;h3 id=&#34;alcuni-esempi-riferimenti&#34;&gt;Alcuni esempi: riferimenti&lt;/h3&gt;
+&lt;p&gt;Elemento &lt;code&gt;ref&lt;/code&gt; con i possibili attributi:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;@xml:id &amp;ndash;&amp;gt; identificatore univoco per l&amp;rsquo;elemento&lt;/li&gt;
-&lt;li&gt;@n &amp;ndash;&amp;gt; identificatore non univoco&lt;/li&gt;
-&lt;li&gt;@xml:lang &amp;ndash;&amp;gt; lingua del contenuto&lt;/li&gt;
-&lt;li&gt;@rend &amp;ndash;&amp;gt; presentazione fisica del contenuto&lt;/li&gt;
-&lt;li&gt;@cert &amp;ndash;&amp;gt; certezza del codificatore sull&amp;rsquo;interpretazione rappresentata dalla marcatura&lt;/li&gt;
-&lt;li&gt;@resp &amp;ndash;&amp;gt; persona o organizzazione considerata responsabile della marcatura&lt;/li&gt;
-&lt;li&gt;@source &amp;ndash;&amp;gt; fonte di un elemento e del suo contenuto&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;type&lt;/code&gt;: tipo del riferimento;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;target&lt;/code&gt;: oggetto del riferimento, nella forma di un link o di un URI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si può utilizzare anche &lt;code&gt;name&lt;/code&gt; per i nomi propri, o &lt;code&gt;rs&lt;/code&gt; per i nomi comuni, oppure altri elementi più specifici (es. &lt;code&gt;persName&lt;/code&gt;, &lt;code&gt;orgName&lt;/code&gt;, ecc.).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;ref type=&amp;#34;person&amp;#34; target=&amp;#34;https://www.wikidata.org/wiki/Q5582&amp;#34;&amp;gt;Van Gogh&amp;lt;/ref&amp;gt;, uno dei più grandi pittori di tutti i tempi.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-esempi-date&#34;&gt;Alcuni esempi: date&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;elemento &lt;code&gt;date&lt;/code&gt; con questi possibili attributi:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@calendar&lt;/code&gt;: sistema di calendario (es. &amp;ldquo;gregorian&amp;rdquo;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@when&lt;/code&gt;: valore della data in formato standard (es. &amp;ldquo;2009​-12​-31&amp;rdquo;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@from&lt;/code&gt; e &lt;code&gt;@to&lt;/code&gt;: inizio e fine definiti della data;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@notBefore&lt;/code&gt; e &lt;code&gt;@notAfter&lt;/code&gt;: inizio e fine non definiti della data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;date when=&amp;quot;2009​-12​-31&amp;quot; calendar=&amp;quot;Gregorian&amp;quot;&amp;gt;31 Dec 2009&amp;lt;/date&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;date from=&amp;#34;1866&amp;#34; to=&amp;#34;1868&amp;#34;&amp;gt;due anni&amp;lt;/date&amp;gt; a Tilburg e un altro &amp;lt;date notBefore=&amp;#34;1875-04​-01&amp;#34; notAfter=&amp;#34;1876-12-31&amp;#34;&amp;gt;breve periodo&amp;lt;/date&amp;gt; a Parigi.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-esempi-numeri-e-misure&#34;&gt;Alcuni esempi: numeri e misure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Elemento &lt;code&gt;num&lt;/code&gt; con questi possibili attributi:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@type&lt;/code&gt;: tipo di valore numerico (es. &amp;ldquo;cardinal&amp;rdquo;, &amp;ldquo;percentage&amp;rdquo;, &amp;ldquo;ordinal&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@value&lt;/code&gt;: valore numerico in formato standard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Elemento &lt;code&gt;measure&lt;/code&gt; con questi possibili attributi:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@type&lt;/code&gt;: tipo di misura (es. &amp;ldquo;volume&amp;rdquo;, &amp;ldquo;width&amp;rdquo;, &amp;ldquo;length&amp;rdquo;, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@quantity&lt;/code&gt;: quantità espressa dalla misura in formato standard;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@unit&lt;/code&gt;: unità di misura (es. &amp;ldquo;litre&amp;rdquo;, &amp;ldquo;kilogram&amp;rdquo;, ecc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;num type=&amp;#34;cardinal&amp;#34; value=&amp;#34;2&amp;#34;&amp;gt;due&amp;lt;/num&amp;gt; anni a Tilburg. 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-attributi-globali-utilizzabili-da-tutti-gli-elementi&#34;&gt;Alcuni attributi globali (utilizzabili da tutti gli elementi)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@xml:id&lt;/code&gt;: identificatore univoco dell&amp;rsquo;elemento;&lt;br&gt;
+Esempio: ``&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@n&lt;/code&gt;: identificatore non univoco dell&amp;rsquo;elemento;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@xml:lang&lt;/code&gt;: lingua del contenuto dell&amp;rsquo;elemento;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@cert&lt;/code&gt;: certezza del codificatore sull&amp;rsquo;interpretazione rappresentata dall&amp;rsquo;elemento;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@resp&lt;/code&gt;: persona o organizzazione considerata responsabile della marcatura&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;teiheader-le-sezioni&#34;&gt;teiHeader: le sezioni&lt;/h3&gt;
-&lt;p&gt;The TEI header can consist of four major parts:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;fileDesc&amp;gt; (file description): bibliographic description of the electronic text
-&amp;lt;encodingDesc&amp;gt; (encoding description): description of the relation of the electronic text to its source
-&amp;lt;profileDesc&amp;gt; (profile description): description of the context in which the electronic text was created, and classification information
-&amp;lt;revisionDesc&amp;gt; (revision description): description of the revision history of the electronic text
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;file-description&#34;&gt;file description&lt;/h3&gt;
-&lt;p&gt;The file description, in the &lt;fileDesc&gt; element, must occur as the first element in the TEI header. It contains a bibliographic description of the electronic text, and may consist of following subsections:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;titleStmt&amp;gt; (title statement): groups information about the title of the electronic text and those responsible for its intellectual content
-&amp;lt;editionStmt&amp;gt; (edition statement): groups information relating to the edition of the electronic text
-&amp;lt;extent&amp;gt;: describes the approximate size of the electronic text
-&amp;lt;publicationStmt&amp;gt; (publication statement): groups information concerning the publication or distribution of the electronic text
-&amp;lt;seriesStmt&amp;gt; (series statement): groups information about the series in which an electronic text is published
-&amp;lt;notesStmt&amp;gt; (notes statement): collects together any notes providing information about the electronic text additional to that recorded in other parts of the bibliographic description
-&amp;lt;sourceDesc&amp;gt; (source description): describes the source from which an electronic text was derived or generated
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Of these subsections, only the title statement (&lt;titleStmt&gt;), publication statement (&lt;publicationStmt&gt;), and source description (&lt;sourceDesc&gt;) are mandatory.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;title-statement&#34;&gt;title statement&lt;/h3&gt;
-&lt;p&gt;The title statement minimally lists the title of the electronic text in a &lt;title&gt; element. Next to the title, it provides room to list detailed information about the persons or institutions responsible for different aspects of the realisation of the electronic text.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;: contains the title for the electronic text
-&amp;lt;author&amp;gt;: contains the name of an/the author(s) of the electronic text
-&amp;lt;respStmt&amp;gt;
-&amp;lt;name&amp;gt;
-&amp;lt;resp&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;publication-statement&#34;&gt;publication statement&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt; | &amp;lt;publisher&amp;gt; | &amp;lt;distributor&amp;gt; | &amp;lt;authority&amp;gt;: description of publication details; either by means of loose prose paragraphs (&amp;lt;p&amp;gt;), or an identification of the publisher (&amp;lt;publisher&amp;gt;), the distributor (&amp;lt;distributor&amp;gt;), or other authority (&amp;lt;authority&amp;gt;) for making the electronic text available
-&amp;lt;pubPlace&amp;gt;: the place of publication for the electronic text
-&amp;lt;address&amp;gt;: the address of the publishing body of the electronic text
-&amp;lt;idno&amp;gt;: a standardised bibliographic identification code for the electronic text
-&amp;lt;availability&amp;gt;: a statement about the availability and terms of use of the electronic text
-&amp;lt;license&amp;gt;
-&amp;lt;date&amp;gt;: the publication date of the electronic text
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;source-description&#34;&gt;source description&lt;/h3&gt;
-&lt;p&gt; | &lt;bibl&gt; | &lt;biblStruct&gt; | &lt;biblFull&gt; | &lt;listBibl&gt;: the bibliographic description of the source text; either as a loose prose description in a paragraph (&lt;p&gt;), a formal bibliographic description (either loose (&lt;bibl&gt;), structured (&lt;biblStruct&gt;), or exhaustive (&lt;biblFull&gt;)), or a list of bibliographic references (&lt;listBibl&gt;)
-&lt;hr&gt;
-&lt;h3 id=&#34;encoding-description&#34;&gt;encoding description&lt;/h3&gt;
-&lt;p&gt;The encoding description, in the &lt;encodingDesc&gt; element, is the second major section of the TEI header. It documents the relationship between the electronic text and its source text, either as loose prose in one or more paragraphs, or in minimally one of more specific elements. Some of these specific elements provide details on the editorial principles for the transcription, and/or the project in which the electronic text originated:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;editorialDecl&amp;gt; (editorial practice declaration): description of aspects of the editorial practice that informed the creation of the electronic text
-&amp;lt;projectDesc&amp;gt; (project description): description of the aims and circumstances of project that informed the creation of the electronic text
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;profile-description&#34;&gt;profile description&lt;/h3&gt;
-&lt;p&gt;The profile description, in the &lt;profileDesc&gt; element, is the third major section of the TEI header. It can be used to document all kinds of non-bibliographic information about an electronic text, either as loose prose in one or more paragraphs, or in minimally one of more specific elements. The most important subsections are:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;creation&amp;gt;: information about the creation of a text
-&amp;lt;langUsage&amp;gt; (language usage): information about the languages used in the text
-&amp;lt;textClass&amp;gt; (text classification): classification of the contents of the text, according to a classification scheme
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;revision-description&#34;&gt;revision description&lt;/h3&gt;
-&lt;p&gt;The fourth and final part of the TEI header is reserved for a detailed record of the revisions that have been made to the electronic text, in &lt;revisionDesc&gt;. Each revision is described in a dedicated &lt;change&gt; element. Additionally, it makes sense to formally identify the exact date of the change in a @when attribute, and the person responsible for the change in a @who attribute.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;prosa&#34;&gt;prosa&lt;/h3&gt;
-&lt;p&gt;p&lt;/p&gt;
-&lt;p&gt;div&lt;/p&gt;
-&lt;p&gt;bibl&lt;/p&gt;
-&lt;p&gt;ref&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;abbiamo-solo-grattato-la-superficie&#34;&gt;Abbiamo solo grattato la superficie&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà vale per tutto quello che stiamo facendo):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;leggere la documentazione quando ne abbiamo necessità;&lt;/li&gt;
+&lt;li&gt;provare e riprovare!&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;risorse-utili&#34;&gt;Risorse utili&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://teibyexample.org/exist/tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://teibyexample.org/exist/tutorials/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://teibyexample.org/exist/tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://teibyexample.org/exist/tutorials/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;nel-dataset-di-mythologiae-abbiamo-anche-delle-descrizioni-testuali-ricche-di-informazioni&#34;&gt;Nel dataset di Mythologiae, abbiamo anche delle descrizioni testuali ricche di informazioni&lt;/h3&gt;
 &lt;p&gt;Tra queste colonne, c&amp;rsquo;è &lt;code&gt;cho_note&lt;/code&gt;, che contiene informazioni descrittive e contestuali di ogni opera.&lt;/p&gt;
 &lt;p&gt;Esempio:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Il leggendario principe greco Edipo affronta la malvagia Sfinge, un mostro con il corpo di leone e la testa di donna, che tormenta gli abitanti e i viaggiatori di Tebe con un indovinello: quale creatura cammina su quattro gambe al mattino, due gambe a mezzogiorno e tre gambe alla sera? La soluzione, trovata da Edipo, è l&amp;#39;essere umano, che striscia come un bambino, cammina in posizione eretta nella maturità e usa un bastone in età avanzata.   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nell&amp;#39;opera di Moreau Edipo fissa la Sfinge dritto negli occhi con l’ostinazione disperata dell’eroe romantico e l’ignara temerarietà dell’eroe greco. I poveri resti di coloro che non hanno superato la prova della Sfinge rappresentano un particolare macabro della precarietà dell&amp;#39;esistenza umana. Moreau interpreta sulla tela l&amp;#39;atto di sospensione in cui Edipo medita la risposta alla domanda dell&amp;#39;essere mostruoso.  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;La corona sulla testa della Sfinge è stata interpretata come la vittoria della Natura sull&amp;#39;uomo, che però, forte del suo ingegno sta per ottenere la rivincita tanto inseguita. La Sfinge rappresenta la Natura, ma anche l&amp;#39;universo femminile ricco di fascino e tranelli; così l&amp;#39;enigma non sarebbe più un indovinello ma il fascino che lega il maschile e il femminile, caratterizzato da un&amp;#39;eterna dialettica di contrasti e congiungimenti. Al pittore infatti non interessa lo svolgimento del mito, bensì l&amp;#39;atmosfera incantata e nascosta dello stesso.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;ovviamente-proveremo-a-marcarne-qualcuno-in-tei&#34;&gt;Ovviamente, proveremo a marcarne qualcuno in TEI!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Il sotto-dataset di note: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&lt;/a&gt; (su GitHub: &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;README.md&lt;/code&gt; &amp;gt; Descrizioni delle opere &amp;gt; Fonti &amp;gt; Selezione di descrizioni)
+&lt;ul&gt;
+&lt;li&gt;due colonne: la prima contenente l&amp;rsquo;identificativo numerico dell&amp;rsquo;opera nel dataset, e l&amp;rsquo;altra contenente le note per quell&amp;rsquo;opera.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Possiamo usare svariati strumenti per scrivere il nostro codice, tra cui:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vscode.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vscode.dev/&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Andate su &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&gt;templates&lt;/code&gt; &amp;gt; &lt;code&gt;tei-description-template.xml&lt;/code&gt;, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;&lt;/li&gt;
+&lt;li&gt;Selezionate una descrizione nel dataset e copia-incollatela nel &lt;code&gt;body&lt;/code&gt; del template;&lt;/li&gt;
+&lt;li&gt;Marcate la descrizione secondo le linee guida, presenti nella slide successiva;&lt;/li&gt;
+&lt;li&gt;Salvate una copia del documento sul computer, poi caricatela nella cartella &lt;code&gt;tei&lt;/code&gt; in &lt;code&gt;data&lt;/code&gt;, e fate un pull request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;linee-guida-sulla-marcatura&#34;&gt;Linee guida sulla marcatura&lt;/h3&gt;
+&lt;p&gt;Vogliamo marcare:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i &lt;strong&gt;riferimenti alle entità&lt;/strong&gt;: &lt;code&gt;ref&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@type&lt;/code&gt; con i possibili valori &lt;code&gt;&amp;quot;person&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;character&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;place&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;event&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;work&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;organization&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;collection&amp;quot;&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@target&lt;/code&gt; con valore l&amp;rsquo;URI alla rispettiva voce su Wikidata, se esiste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;le &lt;strong&gt;date&lt;/strong&gt;: &lt;code&gt;date&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@when&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@from&lt;/code&gt; e &lt;code&gt;@to&lt;/code&gt;, oppure &lt;code&gt;@notBefore&lt;/code&gt; e &lt;code&gt;@notAfter&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;le &lt;strong&gt;misure&lt;/strong&gt;: &lt;code&gt;measure&lt;/code&gt; con
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@type&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@quantity&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@unit&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se volete provare a marcare anche altro, fate pure!&lt;/p&gt;
+&lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-08-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 08 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
@@ -3051,14 +3396,27 @@ a description of the source (&amp;lt;sourceDesc&amp;gt;), documenting bibliograp
       <link>http://localhost:1313/it/slides/pcto/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/pcto/</guid>
-      <description>&lt;h1 id=&#34;i-17-obiettivi-il-patrimonio-culturale-e-i-dati&#34;&gt;I 17 obiettivi, il patrimonio culturale e i dati&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;dati-culturali-e-sostenibilità&#34;&gt;Dati culturali e sostenibilità&lt;/h1&gt;
+&lt;h2 id=&#34;modellare-le-connessioni-tra-beni-culturali-e-gli-obiettivi-dellagenda-2030&#34;&gt;Modellare le connessioni tra beni culturali e gli obiettivi dell&amp;rsquo;Agenda 2030&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;piacere&#34;&gt;Piacere!&lt;/h3&gt;
+&lt;p&gt;Assegnista di ricerca presso il Dipartimento di Beni Culturali dell&amp;rsquo;Università di Bologna.&lt;/p&gt;
+&lt;p&gt;I miei interessi si concentrano sullo studio e l&amp;rsquo;implementazione di strumenti e metodologie computazionali per una corretta gestione dei dati nei settori delle discipline umanistiche e del patrimonio culturale.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-contesto-in-brevissimo-sdg&#34;&gt;Il contesto in brevissimo: SDG&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/objectives.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://worldsustainabilitycollective.com/the-17-un-sdgs/&#34;&gt;https://worldsustainabilitycollective.com/the-17-un-sdgs/&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/data-intro.jpg&#34;
+      data-background-image=&#34;../dhdmch-01/img/data-intro.jpg&#34;
   
       
       class=&#34;section-slide&#34;
@@ -3077,18 +3435,81 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopy
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;i-dati-sono-descritti-e-rappresentati-da-modelli&#34;&gt;I dati sono descritti e rappresentati da modelli&lt;/h3&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;../dhdmch-07/img/model-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;semplifichiamo&#34;&gt;Semplifichiamo&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-dilemma-del-porcospino&#34;&gt;Il dilemma del porcospino&lt;/h3&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;img/model.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;img src=&#34;img/hedgehog.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
     &lt;figcaption&gt;
-        Fonte: Kučerová, H. (2018). The concept of model and conceptual model in information science. &lt;a href=&#34;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science &#34;&gt;https://knihovnarevue-en.nkp.cz/archives/2018-2/reviewed-articles/the-concept-of-model-and-conceptual-model-in-information-science&lt;/a&gt;.
+        Fonte: &lt;a href=&#34;https://pin.it/5X5gEQI&#34;&gt;https://pin.it/5X5gEQI&lt;/a&gt;.
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;pratica&#34;&gt;Pratica&lt;/h2&gt;
+&lt;h3 id=&#34;i-dati-sono-descritti-e-rappresentati-da-modelli&#34;&gt;I dati sono descritti e rappresentati da modelli&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;../dhdmch-07/img/data-modeling.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Barzaghi, S., Heibi, I., Moretti, A., &amp; Peroni, S. (2024). Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes. arXiv preprint arXiv:2404.12069. &lt;a href=&#34;https://doi.org/10.48550/arXiv.2404.12069&#34;&gt;https://doi.org/10.48550/arXiv.2404.12069&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;facciamo-un-po-di-pratica&#34;&gt;Facciamo un po&amp;rsquo; di pratica&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;obiettivo&#34;&gt;Obiettivo&lt;/h3&gt;
-&lt;p&gt;Costruire un modello concettuale che colleghi il patrimonio culturale agli SDGs.&lt;/p&gt;
+&lt;p&gt;Modellare come le caratteristiche di un bene culturale possono avere un impatto sugli SDG.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;task-1&#34;&gt;Task 1&lt;/h3&gt;
+&lt;p&gt;Scegliete un bene culturale e descrivetelo in 3 o 4 frasi. Partite da un esempio concreto, e generalizzate.&lt;/p&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Il&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Museo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Arte della città di Ravenna è situato nel centro della città, in un edificio storico che ospita una vasta collezione di opere che vanno dal periodo tardo-antico al contemporaneo. La sua funzione principale è quella di conservare, valorizzare e promuovere il patrimonio artistico locale e nazionale&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Quindi, un museo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ha una posizione geografica;&lt;/li&gt;
+&lt;li&gt;ha una funzione;&lt;/li&gt;
+&lt;li&gt;contiene delle collezioni;&lt;/li&gt;
+&lt;li&gt;ogni collezione contiene delle opere;&lt;/li&gt;
+&lt;li&gt;ogni opera appartiene ad un periodo storico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Qui state modellando un bene culturale come un insieme di dati (caratteristiche).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;task-2&#34;&gt;Task 2&lt;/h3&gt;
+&lt;p&gt;Discutete sulla descrizione ed identificate 2 o 3 caratteristiche fondamentali per quel tipo di bene culturale (aiutandovi anche con le carte).&lt;/p&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Un museo 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- ha una posizione geografica;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- ha una funzione.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;task-3&#34;&gt;Task 3&lt;/h3&gt;
+&lt;p&gt;Identificate come queste caratteristiche possono interagire con o avere un impatto su determinati obiettivi (aiutandovi anche con le carte).&lt;/p&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- La posizione geografica di un museo può influire sull&amp;#39;Obiettivo 11 (Città e comunità sostenibili). Se il museo si trova in una zona facilmente accessibile tramite trasporti pubblici o ciclabili, può ridurre l&amp;#39;impatto ambientale legato al traffico e alla congestione. Inoltre, un museo situato in un&amp;#39;area urbana può contribuire alla rigenerazione di quartieri, stimolando il turismo e le attività economiche locali.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- La funzione educativa del museo ha un impatto diretto sull&amp;#39;Obiettivo 4 (Istruzione di qualità). I musei offrono opportunità di apprendimento e promozione della conoscenza della storia, dell&amp;#39;arte e della cultura. Attraverso mostre, laboratori e programmi educativi, i musei contribuiscono a migliorare l&amp;#39;accesso all&amp;#39;educazione.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;task-4&#34;&gt;Task 4&lt;/h3&gt;
+&lt;p&gt;Infine, rappresentate i vostri ragionamenti su un foglio usando un diagramma o mappa concettuale, collegando beni culturali, caratteristiche, e obiettivi di sostenibilità.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/pcto-model-example.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Fonte: Barzaghi, S., Heibi, I., Moretti, A., &amp; Peroni, S. (2024). Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes. arXiv preprint arXiv:2404.12069. &lt;a href=&#34;https://doi.org/10.48550/arXiv.2404.12069&#34;&gt;https://doi.org/10.48550/arXiv.2404.12069&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;conclusione&#34;&gt;Conclusione&lt;/h3&gt;
+&lt;p&gt;La modellazione dei dati ci aiuta anche a riflettere e a comprendere meglio il dominio che stiamo studiando.&lt;/p&gt;
+&lt;p&gt;Nel nostro caso, abbiamo visto come un bene culturale possa contribuire a raggiungere diversi obiettivi di sviluppo sostenibile.&lt;/p&gt;
 &lt;hr&gt;
 </description>
     </item>
