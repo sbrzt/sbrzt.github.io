@@ -19,10 +19,14 @@ slides:
 
 ---
 
+## XML
+
+---
+
 ### I linguaggi di marcatura sono definiti tramite XML
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 2;">
+  <div style="flex: 1;">
     <figure>
     <img src="../dhdmch-07/img/xml.png" height="auto" width="700"/>
       <figcaption>
@@ -86,7 +90,7 @@ Oppure con solo il tag di apertura e il secondo caporale `>` preceduto da `/`:
 ### La prima linea di un file XML è la dichiarazione
 
 Esempio:  
-`<?xml version="1.0" encoding="UTF-8" ?>`
+`<?xml version="1.0" encoding="UTF-8"?>`
 
 Dichiara i dettagli del file (in questo caso, è un documento XML, versione 1.0, e codificato secondo UTF-8). 
 
@@ -113,13 +117,13 @@ Un modello basato su XML per marcare testi umanistici.
 
 Standard internazionale che dà ampie libertà di codificare le caratteristiche del testo secondo diverse soluzioni. Definisce circa 580 elementi e 265 attributi per rappresentare un insieme molto ampio di fenomeni testuali e meta-informazioni ad essi associate.
 
-Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato [ TEI Lite](https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html).
+Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato [TEI Lite](https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html).
 
 ---
 
 ### Elementi e attributi sono organizzati in 21 moduli
 
-Tra i fondamentali, troviamo:
+Tra i moduli più utilizzati, troviamo:
 - `tei`: definisce le basi infrastrutturali su cui si appoggiano elementi ed attributi degli altri moduli;
 - `header`: definisce gli elementi che compongono la sezione dell'intestazione (es. metadati bibliografici, relazioni con i materiali di orgine, revisioni, ecc.);
 - `core`: definisce elementi ed attributi che possono far parte di qualsiasi documento (es. paragrafi, citazioni, liste, entità, note, elementi grafici, ecc.);
@@ -130,7 +134,7 @@ Tra i fondamentali, troviamo:
 ### Aderire allo standard
 
 Per usare efficacemente TEI, dovete assicurarvi che:
-- nella dichiarazione venga esplicitato il namespace di TEI (http://www.tei-c.org/ns/1.0);
+- nella dichiarazione venga esplicitato questo link: <http://www.tei-c.org/ns/1.0>;
 - vengano rispettati i requisiti del modello di dati TEI, sulla base dei modelli (e quindi degli elementi e attributi) selezionati per il progetto in questione.
 
 Servizio per la creazione di schemi TEI documentati: <https://roma.tei-c.org/>.
@@ -207,8 +211,6 @@ Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fil
 
 ### Il TEI Header
 
-Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fileDesc`.
-
 `fileDesc` deve contenere _almeno_ questi elementi:
 - `titleStmt`, contenente informazioni su titolo (`title`) e responsabilità;
 
@@ -233,8 +235,6 @@ Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fil
 ---
 
 ### Il TEI Header
-
-Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fileDesc`.
 
 `fileDesc` deve contenere _almeno_ questi elementi:
 - `titleStmt`, contenente informazioni su titolo (`title`) e responsabilità;
@@ -264,8 +264,6 @@ Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fil
 ---
 
 ### Il TEI Header
-
-Contiene _almeno_ una descrizione del documento digitale, dentro l'elemento `fileDesc`.
 
 `fileDesc` deve contenere _almeno_ questi elementi:
 - `titleStmt`, contenente informazioni su titolo (`title`) e responsabilità;
@@ -366,12 +364,12 @@ Il testo `text` contiene _almeno_ un corpo (`body`).
 
 ---
 
-### Fenomeni testuali
+### TEI viene usato per rappresentare _fenomeni testuali_
 
-- **Strutturali** (es. capitoli, sezioni, paragrafi, ecc.): `div`, `p`, `list`, `item`;
-- **Rappresentazionali** (es. font, colori, sottolineature, cancellature, ecc.): `hi`;
-- **Semantici** (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): `emph`, `foreign`, `quote`, `term`, `gloss`, `title`, `name`, `num`, `measure`, `date`, `address`, `abbr`;
-- **Analitici** (es. interpretazioni aggiunte da chi sta lavorando): `note`, `sic`, `corr`, `choice`, `orig`, `reg`, `gap`.
+- **Strutturali** (es. capitoli, sezioni, paragrafi, ecc.): es. `div`, `p`, `list`, `item`, ecc.;
+- **Rappresentazionali** (es. font, colori, sottolineature, cancellature, ecc.): es. `hi`;
+- **Semantici** (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): es. `emph`, `foreign`, `quote`, `term`, `gloss`, `title`, `name`, `num`, `measure`, `date`, `address`, `abbr`, ecc.;
+- **Analitici** (es. interpretazioni aggiunte da chi sta lavorando): es. `note`, `sic`, `corr`, `choice`, `orig`, `reg`, `gap`, ecc.
 
 ---
 
@@ -383,9 +381,8 @@ Elemento `ref` con i possibili attributi:
 
 Si può utilizzare anche `name` per i nomi propri, o `rs` per i nomi comuni, oppure altri elementi più specifici (es. `persName`, `orgName`, ecc.).
 
-```
-<ref type="person" target="https://www.wikidata.org/wiki/Q5582">Van Gogh</ref>, uno dei più grandi pittori di tutti i tempi.
-```
+Esempio:  
+_\<ref type="person" target="https://www.wikidata.org/wiki/Q5582"\>Van Gogh\</ref\>, uno dei più grandi pittori di tutti i tempi._
 
 ---
 
@@ -397,11 +394,9 @@ Si può utilizzare anche `name` per i nomi propri, o `rs` per i nomi comuni, opp
     - `@from` e `@to`: inizio e fine definiti della data;
     - `@notBefore` e `@notAfter`: inizio e fine non definiti della data.
 
-`<date when="2009​-12​-31" calendar="Gregorian">31 Dec 2009</date>`
-
-```
-Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per <date from="1866" to="1868">due anni</date> a Tilburg e un altro <date notBefore="1875-04​-01" notAfter="1876-12-31">breve periodo</date> a Parigi.
-```
+Esempi:  
+- _\<date when="2009​-12​-31" calendar="Gregorian"\>31 Dec 2009\</date\>_;
+- _Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per \<date from="1866" to="1868"\>due anni\</date\> a Tilburg e un altro \<date notBefore="1875-04​-01" notAfter="1876-12-31"\>breve periodo\</date\>` a Parigi_.
 
 ---
 
@@ -415,32 +410,30 @@ Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per <date from="
     - `@quantity`: quantità espressa dalla misura in formato standard;
     - `@unit`: unità di misura (es. "litre", "kilogram", ecc.).
 
-```
-Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per <num type="cardinal" value="2">due</num> anni a Tilburg. 
-```
+Esempio:  
+_Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per \<num type="cardinal" value="2"\>due\</num\>` anni a Tilburg_. 
 
 ---
 
 ### Alcuni attributi globali (utilizzabili da tutti gli elementi)
 
-- `@xml:id`: identificatore univoco dell'elemento;  
-    Esempio: ``
-- `@n`: identificatore non univoco dell'elemento;
-- `@xml:lang`: lingua del contenuto dell'elemento;
-- `@cert`: certezza del codificatore sull'interpretazione rappresentata dall'elemento;
-- `@resp`: persona o organizzazione considerata responsabile della marcatura
+- `@xml:id`: identificatore univoco dell'elemento (es. _\<ref xml:id="ref-1" type="person" target="https://www.wikidata.org/wiki/Q5582"\>Van Gogh\</ref\>_);
+- `@n`: identificatore non univoco dell'elemento (es. _\<ref xml:id="ref-1" n="1" type="person" target="https://www.wikidata.org/wiki/Q5582"\>Van Gogh\</ref\>_);
+- `@xml:lang`: lingua del contenuto dell'elemento (es. _\<date xml:lang="it" from="1866" to="1868"\>due anni\</date\>_);
+- `@cert`: certezza del codificatore sull'interpretazione rappresentata dall'elemento (es. _\<date xml:lang="it" cert="high" from="1866" to="1868"\>due anni\</date\>)_;
+- `@resp`: persona o organizzazione considerata responsabile della marcatura (es. _\<date xml:lang="it" from="1866" to="1868" resp="#SB"\>due anni\</date\>_)
 
 ---
 
 ### Abbiamo solo grattato la superficie...
 
 Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà vale per tutto quello che stiamo facendo):
-- leggere la documentazione quando ne abbiamo necessità;
-- provare e riprovare!
+- **leggere la documentazione** quando ne abbiamo necessità;
+- **provare e riprovare** e [fare esercizi](https://teibyexample.org/exist/exercises/).
 
 ---
 
-### Risorse utili
+### Alcune risorse utili
 
 - <https://teibyexample.org/exist/tutorials/>
 - <http://www.ultraslavonic.info/intro-to-xml/>
@@ -452,14 +445,12 @@ Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà va
 
 ---
 
-### Nel dataset di Mythologiae, abbiamo anche delle descrizioni testuali ricche di informazioni
+### Nel dataset di Mythologiae, abbiamo delle descrizioni testuali ricche di informazioni
 
 Tra queste colonne, c'è `cho_note`, che contiene informazioni descrittive e contestuali di ogni opera.
 
 Esempio:  
-```
-Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.
-```
+_Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde._
 
 --- 
 
@@ -467,12 +458,12 @@ Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 
 
 - Il sotto-dataset di note: <https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing> (su GitHub: `tutorial` > `data` > `README.md` > Descrizioni delle opere > Fonti > Selezione di descrizioni)
     - due colonne: la prima contenente l'identificativo numerico dell'opera nel dataset, e l'altra contenente le note per quell'opera.
-- Possiamo usare svariati strumenti per scrivere il nostro codice, tra cui:
+- Possiamo usare svariati strumenti per scrivere e testare il nostro codice, tra cui:
     - <https://vscode.dev/>;
     - <https://jsonformatter.org/xml-editor>.
 - Andate su `tutorial` > `docs` > `templates` > `tei-description-template.xml`, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;
 - Selezionate una descrizione nel dataset e copia-incollatela nel `body` del template;
-- Marcate la descrizione secondo le linee guida, presenti nella slide successiva;
+- Marcate la descrizione secondo le linee guida, presenti nella prossima slide;
 - Salvate una copia del documento sul computer, poi caricatela nella cartella `tei` in `data`, e fate un pull request.
 
 ---
@@ -481,7 +472,7 @@ Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 
 
 Vogliamo marcare:
 - i **riferimenti alle entità**: `ref` con
-    - `@type` con i possibili valori `"person"`, `"character"`, `"place"`, `"event"`, `"work"`, `"organization"`, `"collection"`;
+    - `@type` con i possibili valori _"person"_, _"character"_, _"place"_, _"event"_, _"work"_, _"organization"_, _"collection"_;
     - `@target` con valore l'URI alla rispettiva voce su Wikidata, se esiste.
 - le **date**: `date` con
     - `@when`;

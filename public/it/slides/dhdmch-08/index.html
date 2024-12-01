@@ -78,9 +78,20 @@
     <section>
     
       
+<h2 id="xml">XML</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <h3 id="i-linguaggi-di-marcatura-sono-definiti-tramite-xml">I linguaggi di marcatura sono definiti tramite XML</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 2;">
+  <div style="flex: 1;">
     <figure>
     <img src="../dhdmch-07/img/xml.png" height="auto" width="700"/>
       <figcaption>
@@ -211,7 +222,7 @@
       
 <h3 id="la-prima-linea-di-un-file-xml-è-la-dichiarazione">La prima linea di un file XML è la dichiarazione</h3>
 <p>Esempio:<br>
-<code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</code></p>
+<code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code></p>
 <p>Dichiara i dettagli del file (in questo caso, è un documento XML, versione 1.0, e codificato secondo UTF-8).</p>
 <p>Ci possono essere altre informazioni, come la lingua, lo stile, ecc.</p>
 
@@ -255,7 +266,7 @@
 <h3 id="tei-lite">TEI Lite</h3>
 <p>Un modello basato su XML per marcare testi umanistici.</p>
 <p>Standard internazionale che dà ampie libertà di codificare le caratteristiche del testo secondo diverse soluzioni. Definisce circa 580 elementi e 265 attributi per rappresentare un insieme molto ampio di fenomeni testuali e meta-informazioni ad essi associate.</p>
-<p>Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato <a href="https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html" target="_blank" rel="noopener"> TEI Lite</a>.</p>
+<p>Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato <a href="https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html" target="_blank" rel="noopener">TEI Lite</a>.</p>
 
     </section>
     
@@ -267,7 +278,7 @@
     
       
 <h3 id="elementi-e-attributi-sono-organizzati-in-21-moduli">Elementi e attributi sono organizzati in 21 moduli</h3>
-<p>Tra i fondamentali, troviamo:</p>
+<p>Tra i moduli più utilizzati, troviamo:</p>
 <ul>
 <li><code>tei</code>: definisce le basi infrastrutturali su cui si appoggiano elementi ed attributi degli altri moduli;</li>
 <li><code>header</code>: definisce gli elementi che compongono la sezione dell&rsquo;intestazione (es. metadati bibliografici, relazioni con i materiali di orgine, revisioni, ecc.);</li>
@@ -287,7 +298,7 @@
 <h3 id="aderire-allo-standard">Aderire allo standard</h3>
 <p>Per usare efficacemente TEI, dovete assicurarvi che:</p>
 <ul>
-<li>nella dichiarazione venga esplicitato il namespace di TEI (<a href="http://www.tei-c.org/ns/1.0%29;" target="_blank" rel="noopener">http://www.tei-c.org/ns/1.0);</a></li>
+<li>nella dichiarazione venga esplicitato questo link: <a href="http://www.tei-c.org/ns/1.0" target="_blank" rel="noopener">http://www.tei-c.org/ns/1.0</a>;</li>
 <li>vengano rispettati i requisiti del modello di dati TEI, sulla base dei modelli (e quindi degli elementi e attributi) selezionati per il progetto in questione.</li>
 </ul>
 <p>Servizio per la creazione di schemi TEI documentati: <a href="https://roma.tei-c.org/" target="_blank" rel="noopener">https://roma.tei-c.org/</a>.</p>
@@ -394,7 +405,6 @@
     
       
 <h3 id="il-tei-header-1">Il TEI Header</h3>
-<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
 <p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
 <ul>
 <li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
@@ -425,7 +435,6 @@
     
       
 <h3 id="il-tei-header-2">Il TEI Header</h3>
-<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
 <p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
 <ul>
 <li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
@@ -460,7 +469,6 @@
     
       
 <h3 id="il-tei-header-3">Il TEI Header</h3>
-<p>Contiene <em>almeno</em> una descrizione del documento digitale, dentro l&rsquo;elemento <code>fileDesc</code>.</p>
 <p><code>fileDesc</code> deve contenere <em>almeno</em> questi elementi:</p>
 <ul>
 <li><code>titleStmt</code>, contenente informazioni su titolo (<code>title</code>) e responsabilità;</li>
@@ -571,12 +579,12 @@
     <section>
     
       
-<h3 id="fenomeni-testuali">Fenomeni testuali</h3>
+<h3 id="tei-viene-usato-per-rappresentare-_fenomeni-testuali_">TEI viene usato per rappresentare <em>fenomeni testuali</em></h3>
 <ul>
-<li><strong>Strutturali</strong> (es. capitoli, sezioni, paragrafi, ecc.): <code>div</code>, <code>p</code>, <code>list</code>, <code>item</code>;</li>
-<li><strong>Rappresentazionali</strong> (es. font, colori, sottolineature, cancellature, ecc.): <code>hi</code>;</li>
-<li><strong>Semantici</strong> (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): <code>emph</code>, <code>foreign</code>, <code>quote</code>, <code>term</code>, <code>gloss</code>, <code>title</code>, <code>name</code>, <code>num</code>, <code>measure</code>, <code>date</code>, <code>address</code>, <code>abbr</code>;</li>
-<li><strong>Analitici</strong> (es. interpretazioni aggiunte da chi sta lavorando): <code>note</code>, <code>sic</code>, <code>corr</code>, <code>choice</code>, <code>orig</code>, <code>reg</code>, <code>gap</code>.</li>
+<li><strong>Strutturali</strong> (es. capitoli, sezioni, paragrafi, ecc.): es. <code>div</code>, <code>p</code>, <code>list</code>, <code>item</code>, ecc.;</li>
+<li><strong>Rappresentazionali</strong> (es. font, colori, sottolineature, cancellature, ecc.): es. <code>hi</code>;</li>
+<li><strong>Semantici</strong> (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): es. <code>emph</code>, <code>foreign</code>, <code>quote</code>, <code>term</code>, <code>gloss</code>, <code>title</code>, <code>name</code>, <code>num</code>, <code>measure</code>, <code>date</code>, <code>address</code>, <code>abbr</code>, ecc.;</li>
+<li><strong>Analitici</strong> (es. interpretazioni aggiunte da chi sta lavorando): es. <code>note</code>, <code>sic</code>, <code>corr</code>, <code>choice</code>, <code>orig</code>, <code>reg</code>, <code>gap</code>, ecc.</li>
 </ul>
 
     </section>
@@ -595,8 +603,9 @@
 <li><code>target</code>: oggetto del riferimento, nella forma di un link o di un URI.</li>
 </ul>
 <p>Si può utilizzare anche <code>name</code> per i nomi propri, o <code>rs</code> per i nomi comuni, oppure altri elementi più specifici (es. <code>persName</code>, <code>orgName</code>, ecc.).</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;ref type=&#34;person&#34; target=&#34;https://www.wikidata.org/wiki/Q5582&#34;&gt;Van Gogh&lt;/ref&gt;, uno dei più grandi pittori di tutti i tempi.
-</span></span></code></pre></div>
+<p>Esempio:<br>
+<em>&lt;ref type=&ldquo;person&rdquo; target=&ldquo;<a href="https://www.wikidata.org/wiki/Q5582%22" target="_blank" rel="noopener">https://www.wikidata.org/wiki/Q5582"</a>&gt;Van Gogh&lt;/ref&gt;, uno dei più grandi pittori di tutti i tempi.</em></p>
+
     </section>
     
 
@@ -617,9 +626,12 @@
 </ul>
 </li>
 </ul>
-<p><code>&lt;date when=&quot;2009​-12​-31&quot; calendar=&quot;Gregorian&quot;&gt;31 Dec 2009&lt;/date&gt;</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;date from=&#34;1866&#34; to=&#34;1868&#34;&gt;due anni&lt;/date&gt; a Tilburg e un altro &lt;date notBefore=&#34;1875-04​-01&#34; notAfter=&#34;1876-12-31&#34;&gt;breve periodo&lt;/date&gt; a Parigi.
-</span></span></code></pre></div>
+<p>Esempi:</p>
+<ul>
+<li><em>&lt;date when=&ldquo;2009​-12​-31&rdquo; calendar=&ldquo;Gregorian&rdquo;&gt;31 Dec 2009&lt;/date&gt;</em>;</li>
+<li><em>Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;date from=&ldquo;1866&rdquo; to=&ldquo;1868&rdquo;&gt;due anni&lt;/date&gt; a Tilburg e un altro &lt;date notBefore=&ldquo;1875-04​-01&rdquo; notAfter=&ldquo;1876-12-31&rdquo;&gt;breve periodo&lt;/date&gt;` a Parigi</em>.</li>
+</ul>
+
     </section>
     
 
@@ -645,8 +657,9 @@
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;num type=&#34;cardinal&#34; value=&#34;2&#34;&gt;due&lt;/num&gt; anni a Tilburg. 
-</span></span></code></pre></div>
+<p>Esempio:<br>
+<em>Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &lt;num type=&ldquo;cardinal&rdquo; value=&ldquo;2&rdquo;&gt;due&lt;/num&gt;` anni a Tilburg</em>.</p>
+
     </section>
     
 
@@ -658,12 +671,11 @@
       
 <h3 id="alcuni-attributi-globali-utilizzabili-da-tutti-gli-elementi">Alcuni attributi globali (utilizzabili da tutti gli elementi)</h3>
 <ul>
-<li><code>@xml:id</code>: identificatore univoco dell&rsquo;elemento;<br>
-Esempio: ``</li>
-<li><code>@n</code>: identificatore non univoco dell&rsquo;elemento;</li>
-<li><code>@xml:lang</code>: lingua del contenuto dell&rsquo;elemento;</li>
-<li><code>@cert</code>: certezza del codificatore sull&rsquo;interpretazione rappresentata dall&rsquo;elemento;</li>
-<li><code>@resp</code>: persona o organizzazione considerata responsabile della marcatura</li>
+<li><code>@xml:id</code>: identificatore univoco dell&rsquo;elemento (es. <em>&lt;ref xml:id=&ldquo;ref-1&rdquo; type=&ldquo;person&rdquo; target=&ldquo;<a href="https://www.wikidata.org/wiki/Q5582%22" target="_blank" rel="noopener">https://www.wikidata.org/wiki/Q5582"</a>&gt;Van Gogh&lt;/ref&gt;</em>);</li>
+<li><code>@n</code>: identificatore non univoco dell&rsquo;elemento (es. <em>&lt;ref xml:id=&ldquo;ref-1&rdquo; n=&ldquo;1&rdquo; type=&ldquo;person&rdquo; target=&ldquo;<a href="https://www.wikidata.org/wiki/Q5582%22" target="_blank" rel="noopener">https://www.wikidata.org/wiki/Q5582"</a>&gt;Van Gogh&lt;/ref&gt;</em>);</li>
+<li><code>@xml:lang</code>: lingua del contenuto dell&rsquo;elemento (es. <em>&lt;date xml:lang=&ldquo;it&rdquo; from=&ldquo;1866&rdquo; to=&ldquo;1868&rdquo;&gt;due anni&lt;/date&gt;</em>);</li>
+<li><code>@cert</code>: certezza del codificatore sull&rsquo;interpretazione rappresentata dall&rsquo;elemento (es. <em>&lt;date xml:lang=&ldquo;it&rdquo; cert=&ldquo;high&rdquo; from=&ldquo;1866&rdquo; to=&ldquo;1868&rdquo;&gt;due anni&lt;/date&gt;)</em>;</li>
+<li><code>@resp</code>: persona o organizzazione considerata responsabile della marcatura (es. <em>&lt;date xml:lang=&ldquo;it&rdquo; from=&ldquo;1866&rdquo; to=&ldquo;1868&rdquo; resp=&quot;#SB&rdquo;&gt;due anni&lt;/date&gt;</em>)</li>
 </ul>
 
     </section>
@@ -678,8 +690,8 @@ Esempio: ``</li>
 <h3 id="abbiamo-solo-grattato-la-superficie">Abbiamo solo grattato la superficie&hellip;</h3>
 <p>Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà vale per tutto quello che stiamo facendo):</p>
 <ul>
-<li>leggere la documentazione quando ne abbiamo necessità;</li>
-<li>provare e riprovare!</li>
+<li><strong>leggere la documentazione</strong> quando ne abbiamo necessità;</li>
+<li><strong>provare e riprovare</strong> e <a href="https://teibyexample.org/exist/exercises/" target="_blank" rel="noopener">fare esercizi</a>.</li>
 </ul>
 
     </section>
@@ -691,7 +703,7 @@ Esempio: ``</li>
     <section>
     
       
-<h3 id="risorse-utili">Risorse utili</h3>
+<h3 id="alcune-risorse-utili">Alcune risorse utili</h3>
 <ul>
 <li><a href="https://teibyexample.org/exist/tutorials/" target="_blank" rel="noopener">https://teibyexample.org/exist/tutorials/</a></li>
 <li><a href="http://www.ultraslavonic.info/intro-to-xml/" target="_blank" rel="noopener">http://www.ultraslavonic.info/intro-to-xml/</a></li>
@@ -718,11 +730,11 @@ Esempio: ``</li>
     <section>
     
       
-<h3 id="nel-dataset-di-mythologiae-abbiamo-anche-delle-descrizioni-testuali-ricche-di-informazioni">Nel dataset di Mythologiae, abbiamo anche delle descrizioni testuali ricche di informazioni</h3>
+<h3 id="nel-dataset-di-mythologiae-abbiamo-delle-descrizioni-testuali-ricche-di-informazioni">Nel dataset di Mythologiae, abbiamo delle descrizioni testuali ricche di informazioni</h3>
 <p>Tra queste colonne, c&rsquo;è <code>cho_note</code>, che contiene informazioni descrittive e contestuali di ogni opera.</p>
-<p>Esempio:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.
-</span></span></code></pre></div>
+<p>Esempio:<br>
+<em>Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.</em></p>
+
     </section>
     
 
@@ -739,7 +751,7 @@ Esempio: ``</li>
 <li>due colonne: la prima contenente l&rsquo;identificativo numerico dell&rsquo;opera nel dataset, e l&rsquo;altra contenente le note per quell&rsquo;opera.</li>
 </ul>
 </li>
-<li>Possiamo usare svariati strumenti per scrivere il nostro codice, tra cui:
+<li>Possiamo usare svariati strumenti per scrivere e testare il nostro codice, tra cui:
 <ul>
 <li><a href="https://vscode.dev/" target="_blank" rel="noopener">https://vscode.dev/</a>;</li>
 <li><a href="https://jsonformatter.org/xml-editor" target="_blank" rel="noopener">https://jsonformatter.org/xml-editor</a>.</li>
@@ -747,7 +759,7 @@ Esempio: ``</li>
 </li>
 <li>Andate su <code>tutorial</code> &gt; <code>docs</code> &gt; <code>templates</code> &gt; <code>tei-description-template.xml</code>, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;</li>
 <li>Selezionate una descrizione nel dataset e copia-incollatela nel <code>body</code> del template;</li>
-<li>Marcate la descrizione secondo le linee guida, presenti nella slide successiva;</li>
+<li>Marcate la descrizione secondo le linee guida, presenti nella prossima slide;</li>
 <li>Salvate una copia del documento sul computer, poi caricatela nella cartella <code>tei</code> in <code>data</code>, e fate un pull request.</li>
 </ul>
 
@@ -765,7 +777,7 @@ Esempio: ``</li>
 <ul>
 <li>i <strong>riferimenti alle entità</strong>: <code>ref</code> con
 <ul>
-<li><code>@type</code> con i possibili valori <code>&quot;person&quot;</code>, <code>&quot;character&quot;</code>, <code>&quot;place&quot;</code>, <code>&quot;event&quot;</code>, <code>&quot;work&quot;</code>, <code>&quot;organization&quot;</code>, <code>&quot;collection&quot;</code>;</li>
+<li><code>@type</code> con i possibili valori <em>&ldquo;person&rdquo;</em>, <em>&ldquo;character&rdquo;</em>, <em>&ldquo;place&rdquo;</em>, <em>&ldquo;event&rdquo;</em>, <em>&ldquo;work&rdquo;</em>, <em>&ldquo;organization&rdquo;</em>, <em>&ldquo;collection&rdquo;</em>;</li>
 <li><code>@target</code> con valore l&rsquo;URI alla rispettiva voce su Wikidata, se esiste.</li>
 </ul>
 </li>
