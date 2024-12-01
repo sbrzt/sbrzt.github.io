@@ -171,8 +171,6 @@ Per creare un'immagine, inserisci un punto esclamativo `!`, racchiudi il testo a
 
 `![Benjamin Bannekat](http://octodex.github.com/images/founding-father.jpg)`
 
-![Benjamin Bannekat](http://octodex.github.com/images/founding-father.jpg)
-
 ---
 
 ### Citazioni

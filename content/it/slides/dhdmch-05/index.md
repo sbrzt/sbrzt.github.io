@@ -457,7 +457,7 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., & Porte
 
 ---
 
-### Metadati e schemi si basano sempre di più su ontologie
+### Metadati e schemi sono legati ai Linked (Open) Data (e quindi a RDF, ontologie, ecc.)
 
 Affinché i metodi e gli strumenti computazionali funzionino e i dati possano avere un utilizzo più generalizzato, è necessario che ci siano accordi, contratti sociali e protocolli condivisi che ne consentano l'interoperabilità (e quindi il riuso).
 
