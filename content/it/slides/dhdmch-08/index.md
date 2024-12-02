@@ -456,15 +456,14 @@ _Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del
 
 ### Ovviamente, proveremo a marcarne qualcuno in TEI!
 
-- Il sotto-dataset di note: <https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing> (su GitHub: `tutorial` > `data` > `README.md` > Descrizioni delle opere > Fonti > Selezione di descrizioni)
+- Il sotto-dataset di note: <https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing> (<https://github.com/dhdmch/tutorial/tree/main/data/tei> > Fonti > Selezione di descrizioni)
     - due colonne: la prima contenente l'identificativo numerico dell'opera nel dataset, e l'altra contenente le note per quell'opera.
 - Possiamo usare svariati strumenti per scrivere e testare il nostro codice, tra cui:
     - <https://vscode.dev/>;
-    - <https://jsonformatter.org/xml-editor>.
-- Andate su `tutorial` > `docs` > `templates` > `tei-description-template.xml`, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;
+- Andate su <https://github.com/dhdmch/tutorial/blob/main/docs/templates/tei-description-template.xml>, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;
 - Selezionate una descrizione nel dataset e copia-incollatela nel `body` del template;
 - Marcate la descrizione secondo le linee guida, presenti nella prossima slide;
-- Salvate una copia del documento sul computer, poi caricatela nella cartella `tei` in `data`, e fate un pull request.
+- Salvate una copia del documento sul computer (`[ID].xml`, dove `ID` è il numero di identificazione dell'opera nel sotto-dataset), poi caricatela nella cartella `tei` in `data`, sincronizzate la copia alla repo originale, e fate un pull request.
 
 ---
 
@@ -481,6 +480,8 @@ Vogliamo marcare:
     - `@type`
     - `@quantity`
     - `@unit`
+
+Ricordatevi di modificare anche le parti di testo presenti nel `teiHeader` scritte in maiuscolo e racchiuse in parentesi quadre.
 
 Se volete provare a marcare anche altro, fate pure!
 
