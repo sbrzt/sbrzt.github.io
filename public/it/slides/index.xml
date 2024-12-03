@@ -2776,7 +2776,7 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/rdf.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;../dhdmch-07/img/rdf.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
       &lt;figcaption&gt;
           Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). &lt;a href=&#34;https://theses.hal.science/tel-02524361v1&#34;&gt;https://theses.hal.science/tel-02524361v1&lt;/a&gt;. 
       &lt;/figcaption&gt;
@@ -2796,7 +2796,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-    &lt;img src=&#34;img/triple.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;img src=&#34;../dhdmch-07/img/triple.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
       &lt;figcaption&gt;
           Fonte: Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;.
       &lt;/figcaption&gt;
@@ -2804,13 +2804,13 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Costrutto astratto minimo di modellazione dei LOD.
+        Costrutto astratto minimo di modellazione dei LOD. Rappresenta un&#39;asserzione informativa riguardante una risorsa, e si articola in:
       &lt;/p&gt;
       &lt;p&gt;
         &lt;ul&gt;
-          &lt;li&gt;Soggetto: un&#39;entità (sempre identificata da un URI);&lt;/li&gt;
+          &lt;li&gt;Soggetto: una risorsa (sempre identificata da un URI) di cui l&#39;asserzione tratta;&lt;/li&gt;
           &lt;li&gt;Predicato: una caratteristica del soggetto (sempre identificata da un URI);&lt;/li&gt;
-          &lt;li&gt;Oggetto: un&#39;entità (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.).&lt;/li&gt;
+          &lt;li&gt;Oggetto: una risorsa (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.) espressi dal predicato.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/p&gt;
       &lt;p&gt;
@@ -2822,9 +2822,94 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; Programming Historian 6 (2017), &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-con-neuromante&#34;&gt;ESEMPIO CON NEUROMANTE&lt;/h3&gt;
+&lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;rdf-come-grafo&#34;&gt;RDF COME GRAFO&lt;/h3&gt;
+&lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante-1&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; è una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &amp;ldquo;1984&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; &amp;ldquo;271&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-dati-in-rdf-formano-un-grafo&#34;&gt;I dati in RDF formano un grafo&lt;/h3&gt;
+&lt;p&gt;Le triple RDF sono rappresentabili in &lt;strong&gt;nodi&lt;/strong&gt; e &lt;strong&gt;archi&lt;/strong&gt; di un grafo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un nodo per il soggetto;&lt;/li&gt;
+&lt;li&gt;un arco per il predicato, diretto dal soggetto all&amp;rsquo;oggetto;&lt;/li&gt;
+&lt;li&gt;un nodo per l&amp;rsquo;oggetto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Un nodo può essere identificato da un URI o può essere un valore letterale.&lt;/p&gt;
+&lt;p&gt;Un arco è identificato da un URI.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-dati-in-rdf-formano-un-grafo-1&#34;&gt;I dati in RDF formano un grafo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/modeling-01.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: propria.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; è una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &#34;1984&#34;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; &#34;271&#34;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;astrazione-dai-dati-particolari-al-modello-generale&#34;&gt;Astrazione: dai dati particolari al modello generale&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/modeling-02.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: propria.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;Persona&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;Genere&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &#34;data&#34;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; &#34;numero&#34;;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-dimentichiamoci-gli-uri&#34;&gt;Non dimentichiamoci gli URI!&lt;/h3&gt;
+&lt;p&gt;Ricordiamoci che in RDF le risorse e le proprietà devono essere identificate univocamente tramite URI.&lt;/p&gt;
+&lt;p&gt;Inventiamoci un URI come base per il nostro modello (&lt;code&gt;http://example.org/dhdmch&lt;/code&gt;) e identifichiamo classi e proprietà:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;class&#34;&gt;Persona&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/Person&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Person&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;class&#34;&gt;Genere&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/Genre&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Genre&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/hasCreator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/hasCreator&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/hasGenre&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/hasGenre&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/hasPublicationDate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/hasPublicationDate&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/hasNumberOfPages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/hasNumberOfPages&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grafo-con-uri&#34;&gt;GRAFO CON URI&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;anche-uri-dei-dati&#34;&gt;ANCHE URI DEI DATI&lt;/h3&gt;
+&lt;h3 id=&#34;questione-uriref&#34;&gt;QUESTIONE URIREF&lt;/h3&gt;
+&lt;h3 id=&#34;questione-namespaces&#34;&gt;QUESTIONE NAMESPACES&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-piccolo-limite-di-rdf-in-quanto-modello-di-dati&#34;&gt;Un piccolo limite di RDF in quanto modello di dati&lt;/h3&gt;
 &lt;p&gt;Dice &lt;em&gt;cosa&lt;/em&gt; fare, ma non dice:&lt;/p&gt;
@@ -2833,172 +2918,139 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;li&gt;&lt;em&gt;Come esprimere entità e proprietà&lt;/em&gt;: per questo esistono i &lt;strong&gt;modelli semantici&lt;/strong&gt; (es. vocabolari controllati, ontologie, ecc.) che specificano il &lt;strong&gt;lessico&lt;/strong&gt; da usare.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-esempio-di-serializzazione-rdf-turtle&#34;&gt;Un esempio di serializzazione RDF: Turtle&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante a dhdmch:Book ;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:publicationDate &amp;#34;1984&amp;#34; ;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:genre dhdmch:cyberpunk ;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:creator ex:william-gibson ;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:pages &amp;#34;271&amp;#34; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson a dhdmch:Person .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;turtle-prefissi&#34;&gt;Turtle: prefissi&lt;/h3&gt;
-&lt;p&gt;Per ogni modello, dicitura &lt;code&gt;@prefix&lt;/code&gt; + prefisso (a vostra scelta, esistono convenzioni tacite) + URI del modello tra caporali + punto&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;h2 id=&#34;turtle&#34;&gt;Turtle&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;turtle-è-una-maniera-accessibile-e-leggibile-per-scrivere-triple-in-rdf&#34;&gt;Turtle è una maniera accessibile e leggibile per scrivere triple in RDF&lt;/h3&gt;
+&lt;p&gt;Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&amp;rsquo;altro e separati da uno spazio.&lt;/p&gt;
+&lt;p&gt;Una tripla finisce sempre con un punto.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;[SOGGETTO]&lt;/code&gt; &lt;code&gt;[PREDICATO]&lt;/code&gt; &lt;code&gt;[OGGETTO]&lt;/code&gt; .&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;anche-altre-serializzazioni-fanno-cose-simili&#34;&gt;Anche altre serializzazioni fanno cose simili&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Esempio:
+&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; diventa&lt;br&gt;
+&lt;a href=&#34;http://example.org/data/neuromancer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromancer&lt;/a&gt; &lt;a href=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&lt;/a&gt; &lt;a href=&#34;http://example.org/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/Book&lt;/a&gt;`&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ma-turtle-è-più-leggibile-grazie-ai-_prefissi_&#34;&gt;Ma Turtle è più leggibile, grazie ai &lt;em&gt;prefissi&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Turtle permette di usare &lt;strong&gt;prefissi&lt;/strong&gt; per accorciare gli URI e rendere le triple più leggibili.&lt;/p&gt;
+&lt;p&gt;Per ogni modello, si inserisce la dicitura &lt;code&gt;@prefix&lt;/code&gt;, spazio, prefisso (a vostra scelta, esistono convenzioni tacite), due punti, spazio, URI del modello tra caporali, spazio, punto, a capo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;turtle-prefissi-1&#34;&gt;Turtle: prefissi&lt;/h3&gt;
-&lt;p&gt;I prefissi ci evitano di dover ripetere l&amp;rsquo;URI completo ogni volta (ricordate: per riferirci a risorse e proprietà &lt;em&gt;dobbiamo&lt;/em&gt; usare gli URI).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;h3 id=&#34;turtle-prefissi&#34;&gt;Turtle: prefissi&lt;/h3&gt;
+&lt;p&gt;I prefissi ci permettono di evitare di dover ripetere l&amp;rsquo;URI completo ogni volta.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Volendo &amp;ldquo;Neuromante&amp;rdquo;, &amp;ldquo;è un&amp;rdquo; e &amp;ldquo;Libro&amp;rdquo; possiamo scriverli anche così:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;http://example.org/data/neuromante http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://example.org/libro&lt;/code&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;turtle-triple&#34;&gt;Turtle: triple&lt;/h3&gt;
-&lt;p&gt;Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&amp;rsquo;altro e separati da uno spazio.&lt;/p&gt;
-&lt;p&gt;Una tripla finisce sempre con un punto.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .  
+&lt;p&gt;Per il resto, non è altro che una sequenza di triple.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:publicationDate &amp;#34;1984&amp;#34; .  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:genre dhdmch:cyberpunk ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:creator ex:william-gibson ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:pages &amp;#34;271&amp;#34; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:genre dhdmch:cyberpunk .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:creator ex:william-gibson .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:pages &amp;#34;271&amp;#34; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson rdf:type dhdmch:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;turtle-triple-1&#34;&gt;Turtle: triple&lt;/h3&gt;
 &lt;p&gt;Se abbiamo più triple con lo stesso soggetto, possiamo utilizzare una sintassi più elegante, con una prima tripla che esprime il soggetto e tutte le altre indentate sotto la prima che sottointendono il soggetto.&lt;/p&gt;
 &lt;p&gt;Ogni tripla che non è l&amp;rsquo;ultima finisce con il punto e virgola.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:publicationDate &amp;#34;1984&amp;#34; ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:genre dhdmch:cyberpunk ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:creator ex:william-gibson ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dhdmch:pages &amp;#34;271&amp;#34; .  
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:publicationDate &amp;#34;1984&amp;#34; ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:genre dhdmch:cyberpunk ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:creator ex:william-gibson ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:pages &amp;#34;271&amp;#34; . 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson rdf:type dhdmch:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;però-non-cè-interoperabilità&#34;&gt;Però non c&amp;rsquo;è interoperabilità&lt;/h3&gt;
+&lt;p&gt;In un certo senso, abbiamo già riutilizzato un modello per esprimere la proprietà &lt;code&gt;è un&lt;/code&gt; (ovvero &lt;code&gt;rdf:type&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;Il nostro &lt;code&gt;dhdmch&lt;/code&gt; è in sostanza la reinvenzione della ruota: esistono già molteplici modelli in grado di descrivere libri (e il dominio bibliografico in senso lato).&lt;/p&gt;
-&lt;p&gt;Inoltre, ci servono il modello anche per rappresentare &amp;ldquo;Persona&amp;rdquo; e il vocabolario controllato da cui attingere il valore &amp;ldquo;cyberpunk&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Inoltre, possiamo anche riclicare anche la classe &lt;code&gt;Persona&lt;/code&gt; e il valore controllato di &lt;code&gt;cyberpunk&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;A patto di rispettare le costrizioni logiche dei vari modelli, li possiamo combinare per fare una descrizione interoperabile dei dati.&lt;/p&gt;
 &lt;p&gt;Alcuni modelli:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;FaBiO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Dublin Core Terms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;PRISM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;FOAF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Wikidata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FaBiO&lt;/strong&gt; (&lt;a href=&#34;http://purl.org/spar/fabio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dublin Core Terms&lt;/strong&gt; (&lt;a href=&#34;http://purl.org/dc/terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PRISM&lt;/strong&gt; (&lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FOAF&lt;/strong&gt; (&lt;a href=&#34;http://xmlns.com/foaf/0.1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wikidata&lt;/strong&gt; (&lt;a href=&#34;http://www.wikidata.org/wiki/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.wikidata.org/wiki/&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-triple-riscritte-con-modelli-esistenti&#34;&gt;Le triple, riscritte con modelli esistenti&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;dhdmch:Book&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;fabio:Book&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;dhdmch:publicationDate&lt;/li&gt;
-&lt;li&gt;dhdmch:genre&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dhdmch:cyberpunk&lt;/code&gt; diventa &lt;code&gt;https://www.wikidata.org/wiki/Q174526&lt;/code&gt; (abbreviato in &lt;code&gt;wd:Q174526&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dhdmch:creator&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;dct:creator&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;dhdmch:pages&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dhdmch:Person&lt;/code&gt; diventa &amp;hellip; (abbreviato in &lt;code&gt;foaf:Person&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:Book&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/spar/fabio/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/Book&lt;/a&gt; (abbreviato in &lt;code&gt;fabio:Book&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:publicationDate&lt;/code&gt; diventa &lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/publicationDate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/publicationDate&lt;/a&gt; (abbreviato in &lt;code&gt;prism:publicationDate&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:genre&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/dc/terms/type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/type&lt;/a&gt; (abbreviato in &lt;code&gt;dct:type&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:cyberpunk&lt;/code&gt; diventa &lt;a href=&#34;https://www.wikidata.org/wiki/Q174526&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q174526&lt;/a&gt; (abbreviato in &lt;code&gt;wd:Q174526&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:creator&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/dc/terms/creator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/creator&lt;/a&gt; (abbreviato in &lt;code&gt;dct:creator&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:pages&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/spar/fabio/hasPageCount&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/hasPageCount&lt;/a&gt; (abbreviato in &lt;code&gt;fabio:hasPageCount&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:Person&lt;/code&gt; diventa &lt;a href=&#34;http://xmlns.com/foaf/0.1/Person&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/Person&lt;/a&gt; (abbreviato in &lt;code&gt;foaf:Person&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Libro → &lt;a href=&#34;http://purl.org/spar/fabio/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/Book&lt;/a&gt;
-Genere → &lt;a href=&#34;http://www.w3.org/2004/02/skos/core#Concept&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/2004/02/skos/core#Concept&lt;/a&gt;
-Persona → &lt;a href=&#34;http://xmlns.com/foaf/0.1/Person&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/Person&lt;/a&gt;
-è un/una → &lt;a href=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&lt;/a&gt;
-pubblicato nel → &lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/publicationDate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/publicationDate&lt;/a&gt;
-ha genere → &lt;a href=&#34;http://purl.org/dc/terms/type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/type&lt;/a&gt;
-scritto da → &lt;a href=&#34;http://purl.org/dc/terms/creator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/creator&lt;/a&gt;
-ha pagine → &lt;a href=&#34;http://purl.org/spar/fabio/hasPageCount&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/hasPageCount&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-triple-riscritte-con-modelli-esistenti-1&#34;&gt;Le triple, riscritte con modelli esistenti&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix fabio: &amp;lt;&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dct: &amp;lt;&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix foaf: &amp;lt;&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix XXX: &amp;lt;&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix fabio: &amp;lt;http://purl.org/spar/fabio/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dct: &amp;lt;http://purl.org/dc/terms/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix foaf: &amp;lt;http://xmlns.com/foaf/0.1/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix prism: &amp;lt;http://prismstandard.org/namespaces/basic/2.0/&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix wd: &amp;lt;https://www.wikidata.org/wiki/&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type fabio:Book ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:publicationDate &amp;#34;1984&amp;#34; ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:genre wd:Q174526 ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    dct:creator ex:william-gibson ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    XXX:pages &amp;#34;271&amp;#34; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromancer rdf:type fabio:Book ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  prism:publicationDate &amp;#34;1984&amp;#34; ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dct:genre wd:Q174526 ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dct:creator ex:william-gibson ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  fabio:hasPageCount &amp;#34;271&amp;#34; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson a foaf:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;altre-indicazioni-su-modellazione&#34;&gt;ALTRE INDICAZIONI SU MODELLAZIONE&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Ipotizziamo che non abbiamo interesse a modellare le persone come entità, ma ci basta sapere i nomi delle persone coinvolte nel ciclo di vita del libro&lt;/p&gt;
-&lt;p&gt;IMG&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello-1&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Non abbiamo più la classe Persona
-“scritto da” diventa un attributo di Libro
-Modello più semplice, ma perdiamo espressività ed elasticità&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello-2&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Ipotizziamo che abbiamo interesse a modellare il tempo come periodo caratterizzato da un inizio e una fine&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello-3&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Abbiamo una nuova entità “1984” appartenente alla nuova classe “Intervallo di tempo” con due attributi “data di inizio” e “data di fine”
-“pubblicato nel” diventa una relazione
-Modello più complesso ed espressivo&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello-4&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Ipotizziamo che abbiamo interesse a modellare le pagine singole&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;non-esiste-un-unico-modello-5&#34;&gt;non esiste un unico modello&lt;/h3&gt;
-&lt;p&gt;Abbiamo 271 nuove entità appartenente alla nuova classe “Pagina”
-“ha pagine” diventa una relazione
-Modello più espressivo, interessato all&amp;rsquo;aspetto strutturale&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;ereditarietà&#34;&gt;Ereditarietà&lt;/h3&gt;
-&lt;p&gt;Esiste anche una graphic novel di Neuromante&lt;/p&gt;
-&lt;p&gt;Siamo interessati a modellare anche questa entità e le sue caratteristiche&lt;/p&gt;
-&lt;p&gt;Quale classe le assegnamo?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Potremmo trattarla come istanza della classe “Libro”, dato che ci interessano le stesse caratteristiche&lt;/p&gt;
-&lt;p&gt;Ma ci interessa modellare anche una caratteristica particolare della graphic novel: chi l’ha illustrata (Bruce Jensen, una nuova entità appartenente a “Persona”)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Creiamo una classe “Graphic novel”, le assegnamo la nuova entità “Neuromante: la Graphic Novel, Vol. 1”, stabiliamo una relazione “illustrato da” tra la graphic novel e la nuova entità “Bruce Jensen”&lt;/p&gt;
-&lt;p&gt;Ma ricordiamoci che ci interessano anche altre caratteristiche, tipiche di un Libro: chi l’ha scritta? quante pagine ha? di quale genere fa parte?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Una sottoclasse eredita tutte le proprietà della propria superclasse e (solitamente) ha proprietà aggiuntive che ne giustificano l’esistenza&lt;/p&gt;
-&lt;p&gt;“Graphic novel” eredita TUTTE le proprietà di “Libro” (in questo caso stiamo utilizzando solo “ha pagine”), e in aggiunta ha anche “illustrato da”&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;proprietà-o-classe-tipizzazione&#34;&gt;Proprietà o classe: tipizzazione&lt;/h3&gt;
-&lt;p&gt;I concetti di Libro e Graphic novel sono Classi&lt;/p&gt;
-&lt;p&gt;Molteplici classi particolari (maggiore espressività, molto difficile da mantenere)&lt;/p&gt;
-&lt;p&gt;I concetti di Libro e Graphic novel sono Tipi: ci servono per classificare oggetti bibliografici&lt;/p&gt;
-&lt;p&gt;Stessa differenziazione, ma con meno classi e nessuna informazione particolare (minore espressività, molto più facile da gestire)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;proprietà-o-classi-eventi&#34;&gt;Proprietà o classi: eventi&lt;/h3&gt;
-&lt;p&gt;Il concetto di creazione di un Libro è reso da una relazione “scritto da” tra Libro e Agente&lt;/p&gt;
-&lt;p&gt;Impossibile capire chi ha pubblicato quando&lt;/p&gt;
-&lt;p&gt;Il concetto di creazione di un Libro è una classe “Creazione” che rappresenta l’evento in cui un’istanza di libro è stata creata da un’istanza di Agente&lt;/p&gt;
-&lt;p&gt;Il concetto di “Pubblicazione” (inteso come attività o evento) permette di disambiguare (rendendo il modello più complesso e più corretto)&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;contesto&#34;&gt;CONTESTO&lt;/h3&gt;
-&lt;p&gt;dcho_id	dcho_title	dcho_publication_date	dcho_permalink	dcho_image_related	dcho_image_title	dcho_image_description	dcho_image_alt_text	dcho_image_url&lt;/p&gt;
-&lt;p&gt;cho_title	cho_author	cho_description	cho_period	cho_century	cho_date	cho_type	cho_location	cho_note	cho_related	cho_sources_classic	cho_sources_other	cho_sources_classic_link&lt;/p&gt;
+&lt;h3 id=&#34;il-dataset-mythologiae-è-strutturato-in-31-colonne&#34;&gt;Il dataset Mythologiae è strutturato in 31 colonne&lt;/h3&gt;
+&lt;p&gt;Alcune di questi metadati (es. &lt;code&gt;dcho_id&lt;/code&gt;, &lt;code&gt;dcho_title&lt;/code&gt;, &lt;code&gt;dcho_publication_date&lt;/code&gt;) si riferiscono all&amp;rsquo; &lt;strong&gt;oggetto digitale&lt;/strong&gt; (ovvero la rappresentazione dell&amp;rsquo;oggetto fisico, creata sul sito).&lt;/p&gt;
+&lt;p&gt;Altri (es. &lt;code&gt;cho_title&lt;/code&gt;, &lt;code&gt;cho_author&lt;/code&gt;, &lt;code&gt;cho_description&lt;/code&gt;) si riferiscono all&amp;rsquo;&lt;strong&gt;oggetto fisico&lt;/strong&gt;, l&amp;rsquo;opera reale che viene descritta.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;attivita&#34;&gt;ATTIVITA&lt;/h3&gt;
-&lt;p&gt;fate un piccolo modello di una parte (CAPIRE QUALE)
-prima grafico (MAGARI QUESTO GLIELO FORNISCO IO)?
-poi scritto in turtle
-usando una riga di dati
-e riusando queste ontologie&lt;/p&gt;
+&lt;h3 id=&#34;modelliamo-questi-metadati-usando-rdf&#34;&gt;Modelliamo questi metadati usando RDF&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Link al sotto-dataset: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1hD9WdmjwvvfVXOK9iIrBJ9uHix-zcpF-72KCzIkUIDY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1hD9WdmjwvvfVXOK9iIrBJ9uHix-zcpF-72KCzIkUIDY/edit?usp=sharing&lt;/a&gt; (su GitHub: &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;rdf&lt;/code&gt; &amp;gt; &lt;code&gt;README.md&lt;/code&gt; &amp;gt; Fonti &amp;gt; Selezione dei dati);
+&lt;ul&gt;
+&lt;li&gt;7 colonne: vedete il README per una breve descrizione di ogni colonna;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scegliamo una riga di dati;&lt;/li&gt;
+&lt;li&gt;Partendo da questi dati, facciamo un piccolo modello in RDF che descrive un&amp;rsquo;opera, scritto in Turtle;&lt;/li&gt;
+&lt;li&gt;Usate la bozza del modello come guida: &lt;a href=&#34;https://github.com/dhdmch/tutorial/blob/main/docs/img/draft-model.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dhdmch/tutorial/blob/main/docs/img/draft-model.png&lt;/a&gt; (su GitHub: &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;doc&lt;/code&gt; &amp;gt; &lt;code&gt;img&lt;/code&gt; &amp;gt; &lt;code&gt;draft-model.png&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;salvate il file in ttl
-salvate il tutto in &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;rdf&lt;/code&gt;
-salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&gt;assets&lt;/code&gt; &amp;gt; &lt;code&gt;img&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;modelliamo-questi-metadati-usando-rdf-1&#34;&gt;Modelliamo questi metadati usando RDF&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Riutilizziamo questi modelli:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dublin Core Terms&lt;/strong&gt; (&lt;a href=&#34;http://purl.org/dc/terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/&lt;/a&gt;) (prefisso &lt;code&gt;dct&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Schema.org&lt;/strong&gt; (&lt;a href=&#34;http://schema.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://schema.org/&lt;/a&gt;) (prefisso &lt;code&gt;schema&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Friend Of A Friend&lt;/strong&gt; (&lt;a href=&#34;http://xmlns.com/foaf/0.1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/&lt;/a&gt;) (prefisso &lt;code&gt;foaf&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Art &amp;amp; Architecture Thesaurus&lt;/strong&gt; (&lt;a href=&#34;http://vocab.getty.edu/page/aat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://vocab.getty.edu/page/aat/&lt;/a&gt;) (prefisso &lt;code&gt;aat&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Utilizziamo sempre &lt;a href=&#34;http://vscode.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://vscode.dev/&lt;/a&gt; come strumento di scrittura;&lt;/li&gt;
+&lt;li&gt;Una volta finito, salvate il file in locale, rinominatelo &lt;code&gt;[ID].ttl&lt;/code&gt;, dove &lt;code&gt;[ID]&lt;/code&gt; è l&amp;rsquo;identificativo dell&amp;rsquo;opera;&lt;/li&gt;
+&lt;li&gt;Caricate il file sul vostro clone della repo &lt;code&gt;tutorial&lt;/code&gt;, nella cartella &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;rdf&lt;/code&gt;, e fate un pull request.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-09-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 09 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
@@ -3015,9 +3067,11 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;h2 id=&#34;lezione-08-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 08 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;xml&#34;&gt;XML&lt;/h2&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;i-linguaggi-di-marcatura-sono-definiti-tramite-xml&#34;&gt;I linguaggi di marcatura sono definiti tramite XML&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 2;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
     &lt;img src=&#34;../dhdmch-07/img/xml.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
       &lt;figcaption&gt;
@@ -3103,7 +3157,7 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;hr&gt;
 &lt;h3 id=&#34;la-prima-linea-di-un-file-xml-è-la-dichiarazione&#34;&gt;La prima linea di un file XML è la dichiarazione&lt;/h3&gt;
 &lt;p&gt;Esempio:&lt;br&gt;
-&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; ?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Dichiara i dettagli del file (in questo caso, è un documento XML, versione 1.0, e codificato secondo UTF-8).&lt;/p&gt;
 &lt;p&gt;Ci possono essere altre informazioni, come la lingua, lo stile, ecc.&lt;/p&gt;
 &lt;hr&gt;
@@ -3120,10 +3174,10 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;h3 id=&#34;tei-lite&#34;&gt;TEI Lite&lt;/h3&gt;
 &lt;p&gt;Un modello basato su XML per marcare testi umanistici.&lt;/p&gt;
 &lt;p&gt;Standard internazionale che dà ampie libertà di codificare le caratteristiche del testo secondo diverse soluzioni. Definisce circa 580 elementi e 265 attributi per rappresentare un insieme molto ampio di fenomeni testuali e meta-informazioni ad essi associate.&lt;/p&gt;
-&lt;p&gt;Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato &lt;a href=&#34;https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; TEI Lite&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pochissimi progetti richiedono una conoscenza completa di TEI. Per questo, è stato publbicato anche un sottoinsieme gestibile con gli elementi fondamentali, chiamato &lt;a href=&#34;https://tei-c.org/Vault/P5/1.0.1/doc/tei-p4-lite/teiu5_it.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI Lite&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;elementi-e-attributi-sono-organizzati-in-21-moduli&#34;&gt;Elementi e attributi sono organizzati in 21 moduli&lt;/h3&gt;
-&lt;p&gt;Tra i fondamentali, troviamo:&lt;/p&gt;
+&lt;p&gt;Tra i moduli più utilizzati, troviamo:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;tei&lt;/code&gt;: definisce le basi infrastrutturali su cui si appoggiano elementi ed attributi degli altri moduli;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;header&lt;/code&gt;: definisce gli elementi che compongono la sezione dell&amp;rsquo;intestazione (es. metadati bibliografici, relazioni con i materiali di orgine, revisioni, ecc.);&lt;/li&gt;
@@ -3134,7 +3188,7 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;h3 id=&#34;aderire-allo-standard&#34;&gt;Aderire allo standard&lt;/h3&gt;
 &lt;p&gt;Per usare efficacemente TEI, dovete assicurarvi che:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;nella dichiarazione venga esplicitato il namespace di TEI (&lt;a href=&#34;http://www.tei-c.org/ns/1.0%29;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.tei-c.org/ns/1.0);&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;nella dichiarazione venga esplicitato questo link: &lt;a href=&#34;http://www.tei-c.org/ns/1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.tei-c.org/ns/1.0&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;vengano rispettati i requisiti del modello di dati TEI, sulla base dei modelli (e quindi degli elementi e attributi) selezionati per il progetto in questione.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Servizio per la creazione di schemi TEI documentati: &lt;a href=&#34;https://roma.tei-c.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://roma.tei-c.org/&lt;/a&gt;.&lt;/p&gt;
@@ -3196,7 +3250,6 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;il-tei-header-1&#34;&gt;Il TEI Header&lt;/h3&gt;
-&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
@@ -3218,7 +3271,6 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;il-tei-header-2&#34;&gt;Il TEI Header&lt;/h3&gt;
-&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
@@ -3244,7 +3296,6 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;il-tei-header-3&#34;&gt;Il TEI Header&lt;/h3&gt;
-&lt;p&gt;Contiene &lt;em&gt;almeno&lt;/em&gt; una descrizione del documento digitale, dentro l&amp;rsquo;elemento &lt;code&gt;fileDesc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;fileDesc&lt;/code&gt; deve contenere &lt;em&gt;almeno&lt;/em&gt; questi elementi:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;titleStmt&lt;/code&gt;, contenente informazioni su titolo (&lt;code&gt;title&lt;/code&gt;) e responsabilità;&lt;/li&gt;
@@ -3328,12 +3379,12 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ...
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/TEI&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;fenomeni-testuali&#34;&gt;Fenomeni testuali&lt;/h3&gt;
+&lt;h3 id=&#34;tei-viene-usato-per-rappresentare-_fenomeni-testuali_&#34;&gt;TEI viene usato per rappresentare &lt;em&gt;fenomeni testuali&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Strutturali&lt;/strong&gt; (es. capitoli, sezioni, paragrafi, ecc.): &lt;code&gt;div&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;item&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Rappresentazionali&lt;/strong&gt; (es. font, colori, sottolineature, cancellature, ecc.): &lt;code&gt;hi&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Semantici&lt;/strong&gt; (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): &lt;code&gt;emph&lt;/code&gt;, &lt;code&gt;foreign&lt;/code&gt;, &lt;code&gt;quote&lt;/code&gt;, &lt;code&gt;term&lt;/code&gt;, &lt;code&gt;gloss&lt;/code&gt;, &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;num&lt;/code&gt;, &lt;code&gt;measure&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;address&lt;/code&gt;, &lt;code&gt;abbr&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analitici&lt;/strong&gt; (es. interpretazioni aggiunte da chi sta lavorando): &lt;code&gt;note&lt;/code&gt;, &lt;code&gt;sic&lt;/code&gt;, &lt;code&gt;corr&lt;/code&gt;, &lt;code&gt;choice&lt;/code&gt;, &lt;code&gt;orig&lt;/code&gt;, &lt;code&gt;reg&lt;/code&gt;, &lt;code&gt;gap&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strutturali&lt;/strong&gt; (es. capitoli, sezioni, paragrafi, ecc.): es. &lt;code&gt;div&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;item&lt;/code&gt;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rappresentazionali&lt;/strong&gt; (es. font, colori, sottolineature, cancellature, ecc.): es. &lt;code&gt;hi&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantici&lt;/strong&gt; (es. persone, opere, organizzazioni, eventi, luoghi, ecc.): es. &lt;code&gt;emph&lt;/code&gt;, &lt;code&gt;foreign&lt;/code&gt;, &lt;code&gt;quote&lt;/code&gt;, &lt;code&gt;term&lt;/code&gt;, &lt;code&gt;gloss&lt;/code&gt;, &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;num&lt;/code&gt;, &lt;code&gt;measure&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;address&lt;/code&gt;, &lt;code&gt;abbr&lt;/code&gt;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analitici&lt;/strong&gt; (es. interpretazioni aggiunte da chi sta lavorando): es. &lt;code&gt;note&lt;/code&gt;, &lt;code&gt;sic&lt;/code&gt;, &lt;code&gt;corr&lt;/code&gt;, &lt;code&gt;choice&lt;/code&gt;, &lt;code&gt;orig&lt;/code&gt;, &lt;code&gt;reg&lt;/code&gt;, &lt;code&gt;gap&lt;/code&gt;, ecc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;alcuni-esempi-riferimenti&#34;&gt;Alcuni esempi: riferimenti&lt;/h3&gt;
@@ -3343,8 +3394,9 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;li&gt;&lt;code&gt;target&lt;/code&gt;: oggetto del riferimento, nella forma di un link o di un URI.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Si può utilizzare anche &lt;code&gt;name&lt;/code&gt; per i nomi propri, o &lt;code&gt;rs&lt;/code&gt; per i nomi comuni, oppure altri elementi più specifici (es. &lt;code&gt;persName&lt;/code&gt;, &lt;code&gt;orgName&lt;/code&gt;, ecc.).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;ref type=&amp;#34;person&amp;#34; target=&amp;#34;https://www.wikidata.org/wiki/Q5582&amp;#34;&amp;gt;Van Gogh&amp;lt;/ref&amp;gt;, uno dei più grandi pittori di tutti i tempi.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Esempio:&lt;br&gt;
+&lt;em&gt;&amp;lt;ref type=&amp;ldquo;person&amp;rdquo; target=&amp;ldquo;&lt;a href=&#34;https://www.wikidata.org/wiki/Q5582%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q5582&#34;&lt;/a&gt;&amp;gt;Van Gogh&amp;lt;/ref&amp;gt;, uno dei più grandi pittori di tutti i tempi.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;alcuni-esempi-date&#34;&gt;Alcuni esempi: date&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;elemento &lt;code&gt;date&lt;/code&gt; con questi possibili attributi:
@@ -3356,9 +3408,12 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;date when=&amp;quot;2009​-12​-31&amp;quot; calendar=&amp;quot;Gregorian&amp;quot;&amp;gt;31 Dec 2009&amp;lt;/date&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;date from=&amp;#34;1866&amp;#34; to=&amp;#34;1868&amp;#34;&amp;gt;due anni&amp;lt;/date&amp;gt; a Tilburg e un altro &amp;lt;date notBefore=&amp;#34;1875-04​-01&amp;#34; notAfter=&amp;#34;1876-12-31&amp;#34;&amp;gt;breve periodo&amp;lt;/date&amp;gt; a Parigi.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;lt;date when=&amp;ldquo;2009​-12​-31&amp;rdquo; calendar=&amp;ldquo;Gregorian&amp;rdquo;&amp;gt;31 Dec 2009&amp;lt;/date&amp;gt;&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;date from=&amp;ldquo;1866&amp;rdquo; to=&amp;ldquo;1868&amp;rdquo;&amp;gt;due anni&amp;lt;/date&amp;gt; a Tilburg e un altro &amp;lt;date notBefore=&amp;ldquo;1875-04​-01&amp;rdquo; notAfter=&amp;ldquo;1876-12-31&amp;rdquo;&amp;gt;breve periodo&amp;lt;/date&amp;gt;` a Parigi&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;alcuni-esempi-numeri-e-misure&#34;&gt;Alcuni esempi: numeri e misure&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Elemento &lt;code&gt;num&lt;/code&gt; con questi possibili attributi:
@@ -3375,26 +3430,26 @@ salvate l&amp;rsquo;immagine in &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;num type=&amp;#34;cardinal&amp;#34; value=&amp;#34;2&amp;#34;&amp;gt;due&amp;lt;/num&amp;gt; anni a Tilburg. 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Esempio:&lt;br&gt;
+&lt;em&gt;Van Gogh, uno dei più grandi pittori di tutti i tempi, lavorò per &amp;lt;num type=&amp;ldquo;cardinal&amp;rdquo; value=&amp;ldquo;2&amp;rdquo;&amp;gt;due&amp;lt;/num&amp;gt;` anni a Tilburg&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;alcuni-attributi-globali-utilizzabili-da-tutti-gli-elementi&#34;&gt;Alcuni attributi globali (utilizzabili da tutti gli elementi)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;@xml:id&lt;/code&gt;: identificatore univoco dell&amp;rsquo;elemento;&lt;br&gt;
-Esempio: ``&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@n&lt;/code&gt;: identificatore non univoco dell&amp;rsquo;elemento;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@xml:lang&lt;/code&gt;: lingua del contenuto dell&amp;rsquo;elemento;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@cert&lt;/code&gt;: certezza del codificatore sull&amp;rsquo;interpretazione rappresentata dall&amp;rsquo;elemento;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@resp&lt;/code&gt;: persona o organizzazione considerata responsabile della marcatura&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@xml:id&lt;/code&gt;: identificatore univoco dell&amp;rsquo;elemento (es. &lt;em&gt;&amp;lt;ref xml:id=&amp;ldquo;ref-1&amp;rdquo; type=&amp;ldquo;person&amp;rdquo; target=&amp;ldquo;&lt;a href=&#34;https://www.wikidata.org/wiki/Q5582%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q5582&#34;&lt;/a&gt;&amp;gt;Van Gogh&amp;lt;/ref&amp;gt;&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@n&lt;/code&gt;: identificatore non univoco dell&amp;rsquo;elemento (es. &lt;em&gt;&amp;lt;ref xml:id=&amp;ldquo;ref-1&amp;rdquo; n=&amp;ldquo;1&amp;rdquo; type=&amp;ldquo;person&amp;rdquo; target=&amp;ldquo;&lt;a href=&#34;https://www.wikidata.org/wiki/Q5582%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q5582&#34;&lt;/a&gt;&amp;gt;Van Gogh&amp;lt;/ref&amp;gt;&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@xml:lang&lt;/code&gt;: lingua del contenuto dell&amp;rsquo;elemento (es. &lt;em&gt;&amp;lt;date xml:lang=&amp;ldquo;it&amp;rdquo; from=&amp;ldquo;1866&amp;rdquo; to=&amp;ldquo;1868&amp;rdquo;&amp;gt;due anni&amp;lt;/date&amp;gt;&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@cert&lt;/code&gt;: certezza del codificatore sull&amp;rsquo;interpretazione rappresentata dall&amp;rsquo;elemento (es. &lt;em&gt;&amp;lt;date xml:lang=&amp;ldquo;it&amp;rdquo; cert=&amp;ldquo;high&amp;rdquo; from=&amp;ldquo;1866&amp;rdquo; to=&amp;ldquo;1868&amp;rdquo;&amp;gt;due anni&amp;lt;/date&amp;gt;)&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@resp&lt;/code&gt;: persona o organizzazione considerata responsabile della marcatura (es. &lt;em&gt;&amp;lt;date xml:lang=&amp;ldquo;it&amp;rdquo; from=&amp;ldquo;1866&amp;rdquo; to=&amp;ldquo;1868&amp;rdquo; resp=&amp;quot;#SB&amp;rdquo;&amp;gt;due anni&amp;lt;/date&amp;gt;&lt;/em&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;abbiamo-solo-grattato-la-superficie&#34;&gt;Abbiamo solo grattato la superficie&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà vale per tutto quello che stiamo facendo):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;leggere la documentazione quando ne abbiamo necessità;&lt;/li&gt;
-&lt;li&gt;provare e riprovare!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;leggere la documentazione&lt;/strong&gt; quando ne abbiamo necessità;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;provare e riprovare&lt;/strong&gt; e &lt;a href=&#34;https://teibyexample.org/exist/exercises/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fare esercizi&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;risorse-utili&#34;&gt;Risorse utili&lt;/h3&gt;
+&lt;h3 id=&#34;alcune-risorse-utili&#34;&gt;Alcune risorse utili&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://teibyexample.org/exist/tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://teibyexample.org/exist/tutorials/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;&lt;/li&gt;
@@ -3403,28 +3458,27 @@ Esempio: ``&lt;/li&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;nel-dataset-di-mythologiae-abbiamo-anche-delle-descrizioni-testuali-ricche-di-informazioni&#34;&gt;Nel dataset di Mythologiae, abbiamo anche delle descrizioni testuali ricche di informazioni&lt;/h3&gt;
+&lt;h3 id=&#34;nel-dataset-di-mythologiae-abbiamo-delle-descrizioni-testuali-ricche-di-informazioni&#34;&gt;Nel dataset di Mythologiae, abbiamo delle descrizioni testuali ricche di informazioni&lt;/h3&gt;
 &lt;p&gt;Tra queste colonne, c&amp;rsquo;è &lt;code&gt;cho_note&lt;/code&gt;, che contiene informazioni descrittive e contestuali di ogni opera.&lt;/p&gt;
-&lt;p&gt;Esempio:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Esempio:&lt;br&gt;
+&lt;em&gt;Olio su tela. Moreau lasciò il segno con questo dipinto al Salon di Parigi del 1864. Nonostante la crescente importanza delle raffigurazioni della vita quotidiana, ha ritratto storie tratte dalla Bibbia, dalla mitologia e dalla sua immaginazione. Il suo immaginario ultraterreno ha ispirato molti artisti e scrittori più giovani, tra cui Odilon Redon e Oscar Wilde.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;ovviamente-proveremo-a-marcarne-qualcuno-in-tei&#34;&gt;Ovviamente, proveremo a marcarne qualcuno in TEI!&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Il sotto-dataset di note: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&lt;/a&gt; (su GitHub: &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;README.md&lt;/code&gt; &amp;gt; Descrizioni delle opere &amp;gt; Fonti &amp;gt; Selezione di descrizioni)
+&lt;li&gt;Il sotto-dataset di note: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1Zz0Rh3f2bMq7T-5xldyS-Zfxw870l0R_-WpjrBC_BzI/edit?usp=sharing&lt;/a&gt; (&lt;a href=&#34;https://github.com/dhdmch/tutorial/tree/main/data/tei&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dhdmch/tutorial/tree/main/data/tei&lt;/a&gt; &amp;gt; Fonti &amp;gt; Selezione di descrizioni)
 &lt;ul&gt;
 &lt;li&gt;due colonne: la prima contenente l&amp;rsquo;identificativo numerico dell&amp;rsquo;opera nel dataset, e l&amp;rsquo;altra contenente le note per quell&amp;rsquo;opera.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Possiamo usare svariati strumenti per scrivere il nostro codice, tra cui:
+&lt;li&gt;Possiamo usare svariati strumenti per scrivere e testare il nostro codice, tra cui:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://vscode.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vscode.dev/&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Andate su &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;docs&lt;/code&gt; &amp;gt; &lt;code&gt;templates&lt;/code&gt; &amp;gt; &lt;code&gt;tei-description-template.xml&lt;/code&gt;, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;&lt;/li&gt;
+&lt;li&gt;Andate su &lt;a href=&#34;https://github.com/dhdmch/tutorial/blob/main/docs/templates/tei-description-template.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dhdmch/tutorial/blob/main/docs/templates/tei-description-template.xml&lt;/a&gt;, copiate il testo contenuto al suo interno, e incollatelo nello spazio di editing dello strumento utilizzato;&lt;/li&gt;
 &lt;li&gt;Selezionate una descrizione nel dataset e copia-incollatela nel &lt;code&gt;body&lt;/code&gt; del template;&lt;/li&gt;
-&lt;li&gt;Marcate la descrizione secondo le linee guida, presenti nella slide successiva;&lt;/li&gt;
-&lt;li&gt;Salvate una copia del documento sul computer, poi caricatela nella cartella &lt;code&gt;tei&lt;/code&gt; in &lt;code&gt;data&lt;/code&gt;, e fate un pull request.&lt;/li&gt;
+&lt;li&gt;Marcate la descrizione secondo le linee guida, presenti nella prossima slide;&lt;/li&gt;
+&lt;li&gt;Salvate una copia del documento sul computer (&lt;code&gt;[ID].xml&lt;/code&gt;, dove &lt;code&gt;ID&lt;/code&gt; è il numero di identificazione dell&amp;rsquo;opera nel sotto-dataset), poi caricatela nella cartella &lt;code&gt;tei&lt;/code&gt; in &lt;code&gt;data&lt;/code&gt;, sincronizzate la copia alla repo originale, e fate un pull request.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;linee-guida-sulla-marcatura&#34;&gt;Linee guida sulla marcatura&lt;/h3&gt;
@@ -3432,7 +3486,7 @@ Esempio: ``&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;i &lt;strong&gt;riferimenti alle entità&lt;/strong&gt;: &lt;code&gt;ref&lt;/code&gt; con
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;@type&lt;/code&gt; con i possibili valori &lt;code&gt;&amp;quot;person&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;character&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;place&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;event&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;work&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;organization&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;collection&amp;quot;&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@type&lt;/code&gt; con i possibili valori &lt;em&gt;&amp;ldquo;person&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;character&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;place&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;event&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;work&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;organization&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;collection&amp;rdquo;&lt;/em&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;@target&lt;/code&gt; con valore l&amp;rsquo;URI alla rispettiva voce su Wikidata, se esiste.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -3450,6 +3504,7 @@ Esempio: ``&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Ricordatevi di modificare anche le parti di testo presenti nel &lt;code&gt;teiHeader&lt;/code&gt; scritte in maiuscolo e racchiuse in parentesi quadre.&lt;/p&gt;
 &lt;p&gt;Se volete provare a marcare anche altro, fate pure!&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;

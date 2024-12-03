@@ -93,7 +93,7 @@
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
     <figure>
-      <img src="img/rdf.png" height="auto" width="700"/>
+      <img src="../dhdmch-07/img/rdf.png" height="auto" width="700"/>
       <figcaption>
           Fonte: Bernard, C. (2019). Immersing evolving geographic divisions in the semantic Web (Doctoral dissertation, Université Grenoble Alpes). <a href="https://theses.hal.science/tel-02524361v1">https://theses.hal.science/tel-02524361v1</a>. 
       </figcaption>
@@ -122,7 +122,7 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-    <img src="img/triple.png" height="auto" width="700"/>
+    <img src="../dhdmch-07/img/triple.png" height="auto" width="700"/>
       <figcaption>
           Fonte: Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programming Historian 6 (2017), <a href="https://doi.org/10.46430/phen0068">https://doi.org/10.46430/phen0068</a>.
       </figcaption>
@@ -130,17 +130,14 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
   </div>
   <div style="flex: 1;">
       <p>
-        Costrutto astratto minimo di modellazione dei LOD.
+        Un'asserzione informativa riguardante una risorsa che si articola in:
       </p>
       <p>
         <ul>
-          <li>Soggetto: un'entità (sempre identificata da un URI);</li>
-          <li>Predicato: una caratteristica del soggetto (sempre identificata da un URI);</li>
-          <li>Oggetto: un'entità (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.).</li>
+          <li>Soggetto: una risorsa trattata nell'asserzione;</li>
+          <li>Predicato: una caratteristica del soggetto;</li>
+          <li>Oggetto: una risorsa o un valore espresso dal predicato.</li>
         </ul>
-      </p>
-      <p>
-        Le triple si collegano tra loro, formando un grafo di dati.
       </p>
   </div>
 </div>
@@ -157,7 +154,11 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="esempio-con-neuromante">ESEMPIO CON NEUROMANTE</h3>
+<h3 id="riprendiamo-il-nostro-esempio-con-neuromante">Riprendiamo il nostro esempio con Neuromante</h3>
+<blockquote>
+<p><span class="entity">Neuromante</span>, <span class="relation">scritto da</span> <span class="entity">William Gibson</span> (una <span class="class">persona</span>) e <span class="attribute">pubblicato nel 1984</span>, <span class="relation">è un</span> <span class="class">libro</span> <span class="attribute">di 271 pagine</span> e <span class="relation">di genere</span> <span class="entity">cyberpunk</span> (un <span class="class">genere</span>).</p>
+</blockquote>
+<p>Individuiamo <span class="class">classi</span>, <span class="entity">entità</span>, <span class="attribute">attributi</span> e <span class="relation">relazioni</span>.</p>
 
     </section>
     
@@ -168,7 +169,279 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="rdf-come-grafo">RDF COME GRAFO</h3>
+<h3 id="riprendiamo-il-nostro-esempio-con-neuromante-1">Riprendiamo il nostro esempio con Neuromante</h3>
+<ul>
+<li><span class="entity">Neuromante</span> <span class="relation">è un</span> <span class="class">libro</span>;</li>
+<li><span class="entity">William Gibson</span> <span class="relation">è una</span> <span class="class">persona</span>;</li>
+<li><span class="entity">cyberpunk</span> <span class="relation">è un</span> <span class="class">genere</span>;</li>
+<li><span class="entity">Neuromante</span> <span class="relation">scritto da</span> <span class="entity">William Gibson</span>;</li>
+<li><span class="entity">Neuromante</span> <span class="attribute">pubblicato nel</span> &ldquo;1984&rdquo;;</li>
+<li><span class="entity">Neuromante</span> <span class="attribute">ha pagine</span> &ldquo;271&rdquo;;</li>
+<li><span class="entity">Neuromante</span> <span class="relation">ha genere</span> <span class="entity">cyberpunk</span>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-dati-in-rdf-formano-un-grafo">I dati in RDF formano un grafo</h3>
+<p>Le triple RDF sono rappresentabili in <strong>nodi</strong> e <strong>archi</strong> di un grafo:</p>
+<ul>
+<li>un nodo per il soggetto;</li>
+<li>un arco per il predicato, diretto dal soggetto all&rsquo;oggetto;</li>
+<li>un nodo per l&rsquo;oggetto.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-dati-in-rdf-formano-un-grafo-1">I dati in RDF formano un grafo</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+    <img src="img/modeling-01.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: propria.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <ul>
+        <li><span class="entity">Neuromante</span> <span class="relation">è un</span> <span class="class">libro</span>;</li>
+        <li><span class="entity">William Gibson</span> <span class="relation">è una</span> <span class="class">persona</span></li>
+        <li><span class="entity">cyberpunk</span> <span class="relation">è un</span> <span class="class">genere</span>;</li>
+        <li><span class="entity">Neuromante</span> <span class="relation">scritto da</span> <span class="entity">William Gibson</span>;</li>
+        <li><span class="entity">Neuromante</span> <span class="attribute">pubblicato nel</span> "1984";</li>
+        <li><span class="entity">Neuromante</span> <span class="attribute">ha pagine</span> "271";</li>
+        <li><span class="entity">Neuromante</span> <span class="relation">ha genere</span> <span class="entity">cyberpunk</span>.</li>
+      </ul>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="astrazione-dai-dati-particolari-al-modello-generale">Astrazione: dai dati particolari al modello generale</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+    <img src="img/modeling-02.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: propria.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <ul>
+        <li><span class="class">Libro</span> <span class="relation">scritto da</span> <span class="class">Persona</span>;</li>
+        <li><span class="class">Libro</span> <span class="relation">ha genere</span> <span class="class">Genere</span>;</li>
+        <li><span class="class">Libro</span> <span class="attribute">pubblicato nel</span> "data";</li>
+        <li><span class="class">Libro</span> <span class="attribute">ha pagine</span> "numero";</li>
+      </ul>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-dimentichiamoci-gli-uri">Non dimentichiamoci gli URI!</h3>
+<p>Ricordiamoci che in RDF le risorse e le proprietà devono essere identificate univocamente tramite URI.</p>
+<p>Inventiamoci un URI come base per il nostro modello (<code>http://example.org/dhdmch</code>) e identifichiamo classi e proprietà:</p>
+<ul>
+<li><span class="class">Libro</span> diventa <a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a>;</li>
+<li><span class="class">Persona</span> diventa <a href="http://example.org/dhdmch/Person" target="_blank" rel="noopener">http://example.org/dhdmch/Person</a>;</li>
+<li><span class="class">Genere</span> diventa <a href="http://example.org/dhdmch/Genre" target="_blank" rel="noopener">http://example.org/dhdmch/Genre</a>;</li>
+<li><span class="relation">scritto da</span> diventa <a href="http://example.org/dhdmch/hasCreator" target="_blank" rel="noopener">http://example.org/dhdmch/hasCreator</a>;</li>
+<li><span class="relation">ha genere</span> diventa <a href="http://example.org/dhdmch/hasGenre" target="_blank" rel="noopener">http://example.org/dhdmch/hasGenre</a>;</li>
+<li><span class="attribute">pubblicato nel</span> diventa <a href="http://example.org/dhdmch/hasPublicationDate" target="_blank" rel="noopener">http://example.org/dhdmch/hasPublicationDate</a>;</li>
+<li><span class="attribute">ha pagine</span> diventa <a href="http://example.org/dhdmch/hasNumberOfPages" target="_blank" rel="noopener">http://example.org/dhdmch/hasNumberOfPages</a>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="grafo-del-modello-con-uri">Grafo del modello con URI</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+    <img src="img/modeling-05.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: propria.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <ul>
+        <li><span class="class">Libro</span> diventa <strong>http://example.org/dhdmch/Book</strong>;</li>
+        <li><span class="class">Persona</span> diventa <strong>http://example.org/dhdmch/Person</strong>;</li>
+        <li><span class="class">Genere</span> diventa <strong>http://example.org/dhdmch/Genre</strong>;</li>
+        <li><span class="relation">scritto da</span> diventa <strong>http://example.org/dhdmch/hasCreator</strong>;</li>
+        <li><span class="relation">ha genere</span> diventa <strong>http://example.org/dhdmch/hasGenre</strong>;</li>
+        <li><span class="attribute">pubblicato nel</span> diventa <strong>http://example.org/dhdmch/hasPublicationDate</strong>;</li>
+        <li><span class="attribute">ha pagine</span> diventa <strong>http://example.org/dhdmch/hasNumberOfPages</strong>.</li>
+      </ul>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="anche-i-dati-hanno-bisogno-di-uri">Anche i dati hanno bisogno di URI</h3>
+<p>I dati (le istanze, ovvero le entità, come Neuromante e William Gibson), se vogliamo che siano LOD e se scegliamo RDF come strumento di modellazione, devono avere i propri URI.</p>
+<p>Inventiamoci un URI per i nostri dati: <code>http://example.org/data</code>.</p>
+<p>Non useremo questo URI per <span class="entity">cyberpunk</span>, che invece manterrà l&rsquo;URI del modello.</p>
+<ul>
+<li><span class="entity">Neuromante</span> diventa <a href="http://example.org/data/neuromancer" target="_blank" rel="noopener">http://example.org/data/neuromancer</a>;</li>
+<li><span class="entity">William Gibson</span> diventa <a href="http://example.org/data/william-gibson" target="_blank" rel="noopener">http://example.org/data/william-gibson</a>;</li>
+<li><span class="entity">cyberpunk</span> diventa <a href="http://example.org/dhdmch/cyberpunk" target="_blank" rel="noopener">http://example.org/dhdmch/cyberpunk</a>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="grafo-dei-dati-con-uri">Grafo dei dati con URI</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+    <img src="img/modeling-06.png" height="auto" width="700"/>
+      <figcaption>
+          Fonte: propria.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <ul>
+        <li><span class="entity">Neuromante</span> diventa <strong>http://example.org/data/neuromancer</strong>;</li>
+        <li><span class="entity">William Gibson</span> diventa <strong>http://example.org/data/william-gibson</strong>;</li>
+        <li><span class="entity">cyberpunk</span> diventa <strong>http://example.org/dhdmch/cyberpunk</strong>.</li>
+      </ul>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-precisazione-i-_literal_">Una precisazione: i <em>literal</em></h3>
+<p>Ciò che può essere l&rsquo;oggetto di una tripla RDF e che abbiamo chiamato &ldquo;valore&rdquo; (testuale, numerico, temporale, ecc.).</p>
+<p>Due tipi:</p>
+<ul>
+<li><strong>Non tipizzati</strong>: il loro <em>datatype</em> non è specificato (es. <code>&quot;271&quot;</code>), e al massimo possono avere un <strong>tag linguistico</strong> reso combinando la stringa con <code>@</code> e il valore di una lingua espressa seguendo lo standard ISO 639-1 (es. <code>&quot;Stringa in italiano&quot;@it</code>);</li>
+<li><strong>Tipizzati</strong>: il loro <em>datatype</em> è specificato combinando la stringa con due <code>^</code> e l&rsquo;URI che identifica quel <em>datatype</em> (es. <code>&quot;271&quot;^^http://www.w3.org/2001/XMLSchema#integer</code>).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-precisazione-i-_namespace_">Una precisazione: i <em>namespace</em></h3>
+<p>Cosa notate?</p>
+<blockquote>
+<p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em></p>
+</blockquote>
+<blockquote>
+<p><em><a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a></em></p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="uno-è-luri-del-modello-laltro-è-di-una-classe-appartenente-a-quel-modello">Uno è l&rsquo;URI del modello, l&rsquo;altro è di una classe appartenente a quel modello</h3>
+<blockquote>
+<p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em> (URI del modello)</p>
+</blockquote>
+<blockquote>
+<p><em><a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a></em> (URI della classe Book del modello)</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="luri-del-modello-fa-da-base-per-luri-dei-suoi-elementi-classi-proprietà-entità-fa-cioè-da-_namespace_">L&rsquo;URI del modello fa da &ldquo;base&rdquo; per l&rsquo;URI dei suoi elementi (classi, proprietà, entità): fa cioè da <em>namespace</em></h3>
+<blockquote>
+<p><strong><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em></strong> (URI del modello)</p>
+</blockquote>
+<blockquote>
+<p><strong><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em></strong><em>/Book</em> (URI della classe Book del modello)</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="lultima-parte-delluri-dellelemento-si-riferisce-allelemento">L&rsquo;ultima parte dell&rsquo;URI dell&rsquo;elemento si riferisce all&rsquo;elemento</h3>
+<p>Inizia con un separatore (di solito un <code>/</code> o un <code>#</code>).</p>
+<blockquote>
+<p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em><strong><em>/Book</em></strong> (URI della classe Book del modello)</p>
+</blockquote>
 
     </section>
     
@@ -195,19 +468,8 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="un-esempio-di-serializzazione-rdf-turtle">Un esempio di serializzazione RDF: Turtle</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/&gt; .
-</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .
-</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ex:neuromante a dhdmch:Book ;
-</span></span><span class="line"><span class="cl">    dhdmch:publicationDate &#34;1984&#34; ;
-</span></span><span class="line"><span class="cl">    dhdmch:genre dhdmch:cyberpunk ;
-</span></span><span class="line"><span class="cl">    dhdmch:creator ex:william-gibson ;
-</span></span><span class="line"><span class="cl">    dhdmch:pages &#34;271&#34; .
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ex:william-gibson a dhdmch:Person .
-</span></span></code></pre></div>
+<h2 id="turtle">Turtle</h2>
+
     </section>
     
 
@@ -217,11 +479,44 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="turtle-prefissi">Turtle: prefissi</h3>
-<p>Per ogni modello, dicitura <code>@prefix</code> + prefisso (a vostra scelta, esistono convenzioni tacite) + URI del modello tra caporali + punto</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/&gt; .
-</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .
-</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+<h3 id="turtle-è-una-maniera-accessibile-e-leggibile-per-scrivere-triple-in-rdf">Turtle è una maniera accessibile e leggibile per scrivere triple in RDF</h3>
+<p>Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&rsquo;altro e separati da uno spazio.</p>
+<p>Una tripla finisce sempre con un punto.</p>
+<blockquote>
+<p><code>[SOGGETTO]</code> <code>[PREDICATO]</code> <code>[OGGETTO]</code> .</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="anche-altre-serializzazioni-fanno-cose-simili">Anche altre serializzazioni fanno cose simili&hellip;</h3>
+<p>Esempio:
+<span class="entity">Neuromante</span> è un <span class="class">libro</span> diventa</p>
+<blockquote>
+<p><a href="http://example.org/data/neuromancer" target="_blank" rel="noopener">http://example.org/data/neuromancer</a> <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_blank" rel="noopener">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a> <a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a></p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ma-turtle-è-più-leggibile-grazie-ai-_prefissi_">Ma Turtle è più leggibile, grazie ai <em>prefissi</em></h3>
+<p>Turtle permette di usare <strong>prefissi</strong> per accorciare gli URI degli elementi (sostituendo la base offerta dai rispettivi modelli) e rendere le triple più leggibili.</p>
+<p><code>@prefix prefisso: &lt;uri/del/modello/con/separatore/&gt; .</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/dhdmch/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .  
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">...
 </span></span></code></pre></div>
@@ -234,16 +529,15 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="turtle-prefissi-1">Turtle: prefissi</h3>
-<p>I prefissi ci evitano di dover ripetere l&rsquo;URI completo ogni volta (ricordate: per riferirci a risorse e proprietà <em>dobbiamo</em> usare gli URI).</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/&gt; .
-</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .
-</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+<h3 id="turtle-prefissi">Turtle: prefissi</h3>
+<p>I prefissi ci permettono di evitare di dover ripetere l&rsquo;URI completo ogni volta.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/dhdmch/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .  
+</span></span><span class="line"><span class="cl">@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">ex:neuromante rdf:type dhdmch:Book .
-</span></span></code></pre></div><p>Volendo &ldquo;Neuromante&rdquo;, &ldquo;è un&rdquo; e &ldquo;Libro&rdquo; possiamo scriverli anche così:</p>
-<p><code>http://example.org/data/neuromante http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://example.org/libro</code></p>
-
+</span></span></code></pre></div>
     </section>
     
 
@@ -254,13 +548,19 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     
       
 <h3 id="turtle-triple">Turtle: triple</h3>
-<p>Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&rsquo;altro e separati da uno spazio.</p>
-<p>Una tripla finisce sempre con un punto.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ex:neuromante rdf:type dhdmch:Book .  
-</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:publicationDate &#34;1984&#34; .  
-</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:genre dhdmch:cyberpunk ;  
-</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:creator ex:william-gibson ;  
-</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:pages &#34;271&#34; .
+<p>Per il resto, non è altro che una sequenza di triple.</p>
+<p>Se ci dovessero essere URI completi, vanno racchiusi tra caporali.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/dhdmch/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .  
+</span></span><span class="line"><span class="cl">@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ex:neuromante rdf:type dhdmch:Book .  
+</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:publicationDate &#34;1984&#34;^^xsd:gYear .  
+</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:genre dhdmch:cyberpunk .  
+</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:creator ex:william-gibson .  
+</span></span><span class="line"><span class="cl">ex:neuromante dhdmch:pages &#34;271&#34;^^xsd:integer .  
+</span></span><span class="line"><span class="cl">ex:william-gibson rdf:type dhdmch:Person .
 </span></span></code></pre></div>
     </section>
     
@@ -274,11 +574,18 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <h3 id="turtle-triple-1">Turtle: triple</h3>
 <p>Se abbiamo più triple con lo stesso soggetto, possiamo utilizzare una sintassi più elegante, con una prima tripla che esprime il soggetto e tutte le altre indentate sotto la prima che sottointendono il soggetto.</p>
 <p>Ogni tripla che non è l&rsquo;ultima finisce con il punto e virgola.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ex:neuromante rdf:type dhdmch:Book ;  
-</span></span><span class="line"><span class="cl">    dhdmch:publicationDate &#34;1984&#34; ;  
-</span></span><span class="line"><span class="cl">    dhdmch:genre dhdmch:cyberpunk ;  
-</span></span><span class="line"><span class="cl">    dhdmch:creator ex:william-gibson ;  
-</span></span><span class="line"><span class="cl">    dhdmch:pages &#34;271&#34; .  
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix dhdmch: &lt;http://example.org/dhdmch/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .  
+</span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .  
+</span></span><span class="line"><span class="cl">@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ex:neuromante rdf:type dhdmch:Book ;  
+</span></span><span class="line"><span class="cl">  dhdmch:publicationDate &#34;1984&#34;^^xsd:gYear ;  
+</span></span><span class="line"><span class="cl">  dhdmch:genre dhdmch:cyberpunk ;  
+</span></span><span class="line"><span class="cl">  dhdmch:creator ex:william-gibson ;  
+</span></span><span class="line"><span class="cl">  dhdmch:pages &#34;271&#34;^^xsd:integer . 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ex:william-gibson rdf:type dhdmch:Person .
 </span></span></code></pre></div>
     </section>
     
@@ -289,17 +596,40 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="però-non-cè-interoperabilità">Però non c&rsquo;è interoperabilità</h3>
+<h2 id="tutto-bello-ma-linteroperabilità">Tutto bello&hellip; ma l&rsquo;interoperabilità?</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-ultimo-passaggio">Un ultimo passaggio</h3>
+<p>In un certo senso, abbiamo già riutilizzato dei modelli esistenti (es. per <code>xsd:gYear</code> o <code>rdf:type</code>).</p>
 <p>Il nostro <code>dhdmch</code> è in sostanza la reinvenzione della ruota: esistono già molteplici modelli in grado di descrivere libri (e il dominio bibliografico in senso lato).</p>
-<p>Inoltre, ci servono il modello anche per rappresentare &ldquo;Persona&rdquo; e il vocabolario controllato da cui attingere il valore &ldquo;cyberpunk&rdquo;.</p>
-<p>A patto di rispettare le costrizioni logiche dei vari modelli, li possiamo combinare per fare una descrizione interoperabile dei dati.</p>
+<p>Anche la classe <code>Persona</code> e il valore controllato di <code>cyberpunk</code>, probabilmente, esistono già.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="riusiamo-modelli-esistenti-quando-possibile">Riusiamo modelli esistenti, quando possibile</h3>
+<p>A patto di rispettare le costrizioni logiche dei  modelli esistenti che intendiamo riutilizzare, li possiamo combinare per fare una descrizione interoperabile dei dati diminuendo drasticamente lo sforzo di creazione e favorendo l&rsquo;interoperabilità dei dati.</p>
 <p>Alcuni modelli:</p>
 <ul>
-<li><a href="">FaBiO</a></li>
-<li><a href="">Dublin Core Terms</a></li>
-<li><a href="">PRISM</a></li>
-<li><a href="">FOAF</a></li>
-<li><a href="">Wikidata</a></li>
+<li><strong>FaBiO</strong> (<a href="http://purl.org/spar/fabio" target="_blank" rel="noopener">http://purl.org/spar/fabio</a>);</li>
+<li><strong>Dublin Core Terms</strong> (<a href="http://purl.org/dc/terms/" target="_blank" rel="noopener">http://purl.org/dc/terms/</a>);</li>
+<li><strong>PRISM</strong> (<a href="http://prismstandard.org/namespaces/basic/2.0/" target="_blank" rel="noopener">http://prismstandard.org/namespaces/basic/2.0/</a>);</li>
+<li><strong>FOAF</strong> (<a href="http://xmlns.com/foaf/0.1/" target="_blank" rel="noopener">http://xmlns.com/foaf/0.1/</a>);</li>
+<li><strong>LC Subject Headings</strong> (<a href="http://id.loc.gov/authorities/subjects" target="_blank" rel="noopener">http://id.loc.gov/authorities/subjects</a>).</li>
 </ul>
 
     </section>
@@ -313,22 +643,14 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
       
 <h3 id="le-triple-riscritte-con-modelli-esistenti">Le triple, riscritte con modelli esistenti</h3>
 <ul>
-<li><code>dhdmch:Book</code> diventa &hellip; (abbreviato in <code>fabio:Book</code>);</li>
-<li>dhdmch:publicationDate</li>
-<li>dhdmch:genre</li>
-<li><code>dhdmch:cyberpunk</code> diventa <code>https://www.wikidata.org/wiki/Q174526</code> (abbreviato in <code>wd:Q174526</code>);</li>
-<li><code>dhdmch:creator</code> diventa &hellip; (abbreviato in <code>dct:creator</code>);</li>
-<li>dhdmch:pages</li>
-<li><code>dhdmch:Person</code> diventa &hellip; (abbreviato in <code>foaf:Person</code>).</li>
+<li><code>dhdmch:Book</code> diventa <a href="http://purl.org/spar/fabio/Book" target="_blank" rel="noopener">http://purl.org/spar/fabio/Book</a> (abbreviato in <code>fabio:Book</code>);</li>
+<li><code>dhdmch:publicationDate</code> diventa <a href="http://prismstandard.org/namespaces/basic/2.0/publicationDate" target="_blank" rel="noopener">http://prismstandard.org/namespaces/basic/2.0/publicationDate</a> (abbreviato in <code>prism:publicationDate</code>);</li>
+<li><code>dhdmch:genre</code> diventa <a href="http://purl.org/dc/terms/type" target="_blank" rel="noopener">http://purl.org/dc/terms/type</a> (abbreviato in <code>dct:type</code>);</li>
+<li><code>dhdmch:cyberpunk</code> diventa <a href="http://id.loc.gov/authorities/subjects/sh2012000080" target="_blank" rel="noopener">http://id.loc.gov/authorities/subjects/sh2012000080</a> (abbreviato in <code>lcsh:sh2012000080</code>);</li>
+<li><code>dhdmch:creator</code> diventa <a href="http://purl.org/dc/terms/creator" target="_blank" rel="noopener">http://purl.org/dc/terms/creator</a> (abbreviato in <code>dct:creator</code>);</li>
+<li><code>dhdmch:pages</code> diventa <a href="http://purl.org/spar/fabio/hasPageCount" target="_blank" rel="noopener">http://purl.org/spar/fabio/hasPageCount</a> (abbreviato in <code>fabio:hasPageCount</code>);</li>
+<li><code>dhdmch:Person</code> diventa <a href="http://xmlns.com/foaf/0.1/Person" target="_blank" rel="noopener">http://xmlns.com/foaf/0.1/Person</a> (abbreviato in <code>foaf:Person</code>).</li>
 </ul>
-<p>Libro → <a href="http://purl.org/spar/fabio/Book" target="_blank" rel="noopener">http://purl.org/spar/fabio/Book</a>
-Genere → <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" rel="noopener">http://www.w3.org/2004/02/skos/core#Concept</a>
-Persona → <a href="http://xmlns.com/foaf/0.1/Person" target="_blank" rel="noopener">http://xmlns.com/foaf/0.1/Person</a>
-è un/una → <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_blank" rel="noopener">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a>
-pubblicato nel → <a href="http://prismstandard.org/namespaces/basic/2.0/publicationDate" target="_blank" rel="noopener">http://prismstandard.org/namespaces/basic/2.0/publicationDate</a>
-ha genere → <a href="http://purl.org/dc/terms/type" target="_blank" rel="noopener">http://purl.org/dc/terms/type</a>
-scritto da → <a href="http://purl.org/dc/terms/creator" target="_blank" rel="noopener">http://purl.org/dc/terms/creator</a>
-ha pagine → <a href="http://purl.org/spar/fabio/hasPageCount" target="_blank" rel="noopener">http://purl.org/spar/fabio/hasPageCount</a></p>
 
     </section>
     
@@ -341,17 +663,18 @@ ha pagine → <a href="http://purl.org/spar/fabio/hasPageCount" target="_blank" 
       
 <h3 id="le-triple-riscritte-con-modelli-esistenti-1">Le triple, riscritte con modelli esistenti</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@prefix ex: &lt;http://example.org/data/&gt; .
-</span></span><span class="line"><span class="cl">@prefix fabio: &lt;&gt; .
-</span></span><span class="line"><span class="cl">@prefix dct: &lt;&gt; .
-</span></span><span class="line"><span class="cl">@prefix foaf: &lt;&gt; .
-</span></span><span class="line"><span class="cl">@prefix XXX: &lt;&gt; .
+</span></span><span class="line"><span class="cl">@prefix fabio: &lt;http://purl.org/spar/fabio/&gt; .
+</span></span><span class="line"><span class="cl">@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
+</span></span><span class="line"><span class="cl">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+</span></span><span class="line"><span class="cl">@prefix prism: &lt;http://prismstandard.org/namespaces/basic/2.0/&gt; .
 </span></span><span class="line"><span class="cl">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+</span></span><span class="line"><span class="cl">@prefix lcsh: &lt;http://id.loc.gov/authorities/subjects/&gt; .
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ex:neuromante rdf:type fabio:Book ;  
-</span></span><span class="line"><span class="cl">    XXX:publicationDate &#34;1984&#34; ;  
-</span></span><span class="line"><span class="cl">    XXX:genre wd:Q174526 ;  
-</span></span><span class="line"><span class="cl">    dct:creator ex:william-gibson ;  
-</span></span><span class="line"><span class="cl">    XXX:pages &#34;271&#34; .
+</span></span><span class="line"><span class="cl">ex:neuromancer rdf:type fabio:Book ;  
+</span></span><span class="line"><span class="cl">  prism:publicationDate &#34;1984&#34; ;  
+</span></span><span class="line"><span class="cl">  dct:genre lcsh:sh2012000080 ;  
+</span></span><span class="line"><span class="cl">  dct:creator ex:william-gibson ;  
+</span></span><span class="line"><span class="cl">  fabio:hasPageCount &#34;271&#34; .
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">ex:william-gibson a foaf:Person .
 </span></span></code></pre></div>
@@ -364,166 +687,13 @@ ha pagine → <a href="http://purl.org/spar/fabio/hasPageCount" target="_blank" 
     <section>
     
       
-<h2 id="altre-indicazioni-su-modellazione">ALTRE INDICAZIONI SU MODELLAZIONE</h2>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello">non esiste un unico modello</h3>
-<p>Ipotizziamo che non abbiamo interesse a modellare le persone come entità, ma ci basta sapere i nomi delle persone coinvolte nel ciclo di vita del libro</p>
-<p>IMG</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello-1">non esiste un unico modello</h3>
-<p>Non abbiamo più la classe Persona
-“scritto da” diventa un attributo di Libro
-Modello più semplice, ma perdiamo espressività ed elasticità</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello-2">non esiste un unico modello</h3>
-<p>Ipotizziamo che abbiamo interesse a modellare il tempo come periodo caratterizzato da un inizio e una fine</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello-3">non esiste un unico modello</h3>
-<p>Abbiamo una nuova entità “1984” appartenente alla nuova classe “Intervallo di tempo” con due attributi “data di inizio” e “data di fine”
-“pubblicato nel” diventa una relazione
-Modello più complesso ed espressivo</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello-4">non esiste un unico modello</h3>
-<p>Ipotizziamo che abbiamo interesse a modellare le pagine singole</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="non-esiste-un-unico-modello-5">non esiste un unico modello</h3>
-<p>Abbiamo 271 nuove entità appartenente alla nuova classe “Pagina”
-“ha pagine” diventa una relazione
-Modello più espressivo, interessato all&rsquo;aspetto strutturale</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="ereditarietà">Ereditarietà</h3>
-<p>Esiste anche una graphic novel di Neuromante</p>
-<p>Siamo interessati a modellare anche questa entità e le sue caratteristiche</p>
-<p>Quale classe le assegnamo?</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>Potremmo trattarla come istanza della classe “Libro”, dato che ci interessano le stesse caratteristiche</p>
-<p>Ma ci interessa modellare anche una caratteristica particolare della graphic novel: chi l’ha illustrata (Bruce Jensen, una nuova entità appartenente a “Persona”)</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>Creiamo una classe “Graphic novel”, le assegnamo la nuova entità “Neuromante: la Graphic Novel, Vol. 1”, stabiliamo una relazione “illustrato da” tra la graphic novel e la nuova entità “Bruce Jensen”</p>
-<p>Ma ricordiamoci che ci interessano anche altre caratteristiche, tipiche di un Libro: chi l’ha scritta? quante pagine ha? di quale genere fa parte?</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>Una sottoclasse eredita tutte le proprietà della propria superclasse e (solitamente) ha proprietà aggiuntive che ne giustificano l’esistenza</p>
-<p>“Graphic novel” eredita TUTTE le proprietà di “Libro” (in questo caso stiamo utilizzando solo “ha pagine”), e in aggiunta ha anche “illustrato da”</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="proprietà-o-classe-tipizzazione">Proprietà o classe: tipizzazione</h3>
-<p>I concetti di Libro e Graphic novel sono Classi</p>
-<p>Molteplici classi particolari (maggiore espressività, molto difficile da mantenere)</p>
-<p>I concetti di Libro e Graphic novel sono Tipi: ci servono per classificare oggetti bibliografici</p>
-<p>Stessa differenziazione, ma con meno classi e nessuna informazione particolare (minore espressività, molto più facile da gestire)</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="proprietà-o-classi-eventi">Proprietà o classi: eventi</h3>
-<p>Il concetto di creazione di un Libro è reso da una relazione “scritto da” tra Libro e Agente</p>
-<p>Impossibile capire chi ha pubblicato quando</p>
-<p>Il concetto di creazione di un Libro è una classe “Creazione” che rappresenta l’evento in cui un’istanza di libro è stata creata da un’istanza di Agente</p>
-<p>Il concetto di “Pubblicazione” (inteso come attività o evento) permette di disambiguare (rendendo il modello più complesso e più corretto)</p>
+<h3 id="il-grafo-riscritto-con-modelli-esistenti">Il grafo, riscritto con modelli esistenti</h3>
+<figure>
+  <img src="img/modeling-07.png" height="auto" width="700"/>
+  <figcaption>
+      Fonte: propria.
+  </figcaption>
+</figure>
 
     </section>
     
@@ -545,9 +715,9 @@ Modello più espressivo, interessato all&rsquo;aspetto strutturale</p>
     <section>
     
       
-<h3 id="contesto">CONTESTO</h3>
-<p>dcho_id	dcho_title	dcho_publication_date	dcho_permalink	dcho_image_related	dcho_image_title	dcho_image_description	dcho_image_alt_text	dcho_image_url</p>
-<p>cho_title	cho_author	cho_description	cho_period	cho_century	cho_date	cho_type	cho_location	cho_note	cho_related	cho_sources_classic	cho_sources_other	cho_sources_classic_link</p>
+<h3 id="il-dataset-mythologiae-è-strutturato-in-31-colonne">Il dataset Mythologiae è strutturato in 31 colonne</h3>
+<p>Alcune di questi metadati (es. <code>dcho_id</code>, <code>dcho_title</code>, <code>dcho_publication_date</code>) si riferiscono all&rsquo; <strong>oggetto digitale</strong> (ovvero la rappresentazione dell&rsquo;oggetto fisico, creata sul sito).</p>
+<p>Altri (es. <code>cho_title</code>, <code>cho_author</code>, <code>cho_description</code>) si riferiscono all&rsquo;<strong>oggetto fisico</strong>, l&rsquo;opera reale che viene descritta.</p>
 
     </section>
     
@@ -558,12 +728,17 @@ Modello più espressivo, interessato all&rsquo;aspetto strutturale</p>
     <section>
     
       
-<h3 id="attivita">ATTIVITA</h3>
-<p>fate un piccolo modello di una parte (CAPIRE QUALE)
-prima grafico (MAGARI QUESTO GLIELO FORNISCO IO)?
-poi scritto in turtle
-usando una riga di dati
-e riusando queste ontologie</p>
+<h3 id="modelliamo-questi-metadati-usando-rdf">Modelliamo questi metadati usando RDF</h3>
+<ul>
+<li>Link al sotto-dataset: <a href="https://docs.google.com/spreadsheets/d/1hD9WdmjwvvfVXOK9iIrBJ9uHix-zcpF-72KCzIkUIDY/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1hD9WdmjwvvfVXOK9iIrBJ9uHix-zcpF-72KCzIkUIDY/edit?usp=sharing</a> (su GitHub: <code>tutorial</code> &gt; <code>data</code> &gt; <code>rdf</code> &gt; <code>README.md</code> &gt; Fonti &gt; Selezione dei dati);
+<ul>
+<li>7 colonne: vedete il README per una breve descrizione di ogni colonna;</li>
+</ul>
+</li>
+<li>Scegliamo una riga di dati;</li>
+<li>Partendo da questi dati, facciamo un piccolo modello in RDF che descrive un&rsquo;opera, scritto in Turtle;</li>
+<li>Usate la bozza del modello come guida: <a href="https://github.com/dhdmch/tutorial/blob/main/docs/img/draft-model.png" target="_blank" rel="noopener">https://github.com/dhdmch/tutorial/blob/main/docs/img/draft-model.png</a> (su GitHub: <code>tutorial</code> &gt; <code>doc</code> &gt; <code>img</code> &gt; <code>draft-model.png</code>).</li>
+</ul>
 
     </section>
     
@@ -574,9 +749,20 @@ e riusando queste ontologie</p>
     <section>
     
       
-<p>salvate il file in ttl
-salvate il tutto in <code>data</code> &gt; <code>rdf</code>
-salvate l&rsquo;immagine in <code>docs</code> &gt; <code>assets</code> &gt; <code>img</code></p>
+<h3 id="modelliamo-questi-metadati-usando-rdf-1">Modelliamo questi metadati usando RDF</h3>
+<ul>
+<li>Riutilizziamo questi modelli:
+<ul>
+<li><strong>Dublin Core Terms</strong> (<a href="http://purl.org/dc/terms/" target="_blank" rel="noopener">http://purl.org/dc/terms/</a>) (prefisso <code>dct</code>);</li>
+<li><strong>Schema.org</strong> (<a href="http://schema.org/" target="_blank" rel="noopener">http://schema.org/</a>) (prefisso <code>schema</code>);</li>
+<li><strong>Friend Of A Friend</strong> (<a href="http://xmlns.com/foaf/0.1/" target="_blank" rel="noopener">http://xmlns.com/foaf/0.1/</a>) (prefisso <code>foaf</code>);</li>
+<li><strong>Art &amp; Architecture Thesaurus</strong> (<a href="http://vocab.getty.edu/page/aat/" target="_blank" rel="noopener">http://vocab.getty.edu/page/aat/</a>) (prefisso <code>aat</code>).</li>
+</ul>
+</li>
+<li>Utilizziamo sempre <a href="http://vscode.dev/" target="_blank" rel="noopener">http://vscode.dev/</a> come strumento di scrittura;</li>
+<li>Una volta finito, salvate il file in locale, rinominatelo <code>[ID].ttl</code>, dove <code>[ID]</code> è l&rsquo;identificativo dell&rsquo;opera;</li>
+<li>Caricate il file sul vostro clone della repo <code>tutorial</code>, nella cartella <code>data</code> &gt; <code>rdf</code>, e fate un pull request.</li>
+</ul>
 
     </section>
     
