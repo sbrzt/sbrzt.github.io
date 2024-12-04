@@ -238,9 +238,23 @@ Non useremo questo URI per <span class="entity">cyberpunk</span>, che invece man
 
 Ciò che può essere l'oggetto di una tripla RDF e che abbiamo chiamato "valore" (testuale, numerico, temporale, ecc.).
 
+In altre parole, i valori degli <span class="attribute">attributi</span>.
+
 Due tipi:
-- **Non tipizzati**: il loro _datatype_ non è specificato (es. `"271"`), e al massimo possono avere un **tag linguistico** reso combinando la stringa con `@` e il valore di una lingua espressa seguendo lo standard ISO 639-1 (es. `"Stringa in italiano"@it`);
+- **Non tipizzati**: il loro _datatype_ non è specificato (es. `"271"`), e al massimo possono avere un **tag linguistico** reso combinando la stringa con `@` e il valore di una lingua espressa seguendo lo standard [ISO 639-1](https://it.wikipedia.org/wiki/ISO_639-1) (es. `"Stringa in italiano"@it`);
 - **Tipizzati**: il loro _datatype_ è specificato combinando la stringa con due `^` e l'URI che identifica quel _datatype_ (es. `"271"^^http://www.w3.org/2001/XMLSchema#integer`).
+
+---
+
+### Una precisazione: come scrivere classi, proprietà ed entità nell'URI
+
+RDF non dà regole vere e proprie su come scrivere, ma esistono convenzioni.
+
+Esempio:
+- Le <span class="class">classi</span> iniziano sempre con la lettera maiuscola (es. <span class="class">Book</span>);
+- Le proprietà (<span class="relation">relazioni</span> e <span class="attribute">attributi</span>) iniziano sempre con la lettera minuscola (es. <span class="attribute">date</span>);
+- Se classi o proprietà sono composti da più parole, in genere sono espresse in `CamelCase` (es. <span class="class">DigitizationProcess</span>, <span class="relation">hasCreator</span>);
+- Le <span class="entity">entità</span> iniziano sempre con la lettera minuscola e, se sono composte da più parole, in genere sono tenute assieme dai trattini (es. <span class="entity">optical-scanner</span>).
 
 ---
 
@@ -254,15 +268,15 @@ Cosa notate?
 
 ---
 
-### Uno è l'URI del modello, l'altro è di una classe appartenente a quel modello
+### Uno è l'URI "del modello", l'altro è di una classe appartenente a quel modello
 
-> _http://example.org/dhdmch_ (URI del modello)
+> _http://example.org/dhdmch_ (URI "del modello")
 
 > _http://example.org/dhdmch/Book_ (URI della classe Book del modello)
 
 ---
 
-### L'URI del modello fa da "base" per l'URI dei suoi elementi (classi, proprietà, entità): fa cioè da _namespace_
+### La parte di URI in comune fa da "base" per gli URI degli elementi (classi, proprietà, entità): fa cioè da _namespace_
 
 > **_http://example.org/dhdmch_** (URI del modello)
 
@@ -275,6 +289,13 @@ Cosa notate?
 Inizia con un separatore (di solito un `/` o un `#`).
 
 > _http://example.org/dhdmch_**_/Book_** (URI della classe Book del modello)
+
+---
+
+### Il discorso vale anche per i dati
+
+> _http://example.org/data_
+> _http://example.org/data/neuromante_
 
 ---
 
@@ -305,7 +326,7 @@ Una tripla finisce sempre con un punto.
 Esempio:
 <span class="entity">Neuromante</span> è un <span class="class">libro</span> diventa  
 
-> <http://example.org/data/neuromancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/dhdmch/Book>
+> \<http://example.org/data/neuromancer\> \<http://www.w3.org/1999/02/22-rdf-syntax-ns#type\> \<http://example.org/dhdmch/Book\>
 
 ---
 
