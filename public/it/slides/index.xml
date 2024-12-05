@@ -1072,10 +1072,42 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;per-essere-utili-i-dati-devono-essere-organizzati&#34;&gt;Per essere utili, i dati devono essere organizzati&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;capiamo-i-dati-che-abbiamo&#34;&gt;Capiamo i dati che abbiamo&lt;/h3&gt;
+&lt;p&gt;Trovare o creare dei dati è una cosa, ma &lt;em&gt;capirli&lt;/em&gt; è un&amp;rsquo;altra.&lt;/p&gt;
+&lt;p&gt;Attraverso l&amp;rsquo;elaborazione di questi dati possiamo cercare di fornirgli un contesto e determinarne il significato.&lt;/p&gt;
+&lt;p&gt;Però, anche la più semplice interrogazione richiede che abbiamo una certa comprensione di ciò che c&amp;rsquo;è in quel dataset, capire se si tratta di &amp;ldquo;dati buoni&amp;rdquo;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  University of York (2024). Data: A Practical Guide. &lt;a href=&#34;https //subjectguides.york.ac.uk/data&#34;&gt;https //subjectguides.york.ac.uk/data&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;capiamo-i-dati-che-abbiamo-1&#34;&gt;Capiamo i dati che abbiamo&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;L&amp;rsquo;appuntamento con il Dott. Watt è martedì alle 14:30 presso il centro medico di Heslington Lane.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Questo testo contiene i seguenti campi di dati:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Con chi è l&amp;rsquo;appuntamento;&lt;/li&gt;
+&lt;li&gt;Il giorno (data) dell&amp;rsquo;appuntamento;&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;orario dell&amp;rsquo;appuntamento;&lt;/li&gt;
+&lt;li&gt;La posizione dell&amp;rsquo;appuntamento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se volessimo registrare gli appuntamenti in un sistema informatico, dovremmo utilizzare &lt;em&gt;campi separati&lt;/em&gt; per questi dati — ad esempio, colonne separate in una tabella; elementi e attributi in TEI; classi, proprietà ed entità in RDF; ecc.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  University of York (2024). Data: A Practical Guide. &lt;a href=&#34;https //subjectguides.york.ac.uk/data&#34;&gt;https //subjectguides.york.ac.uk/data&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;capiamo-se-i-dati-che-abbiamo-sono-di-qualità&#34;&gt;Capiamo se i dati che abbiamo sono di qualità&lt;/h3&gt;
+&lt;p&gt;I sistemi informatici e i software sbagliano a leggere i nostri dati, se questi campi non sono separati bene (cioé come ne abbiamo veramente bisogno), oppure se i &lt;em&gt;datatype&lt;/em&gt; (stringa, numero, data, booleano, ecc.) sono errati (es. una data che viene riconosciuta come una stringa, oppure una stringa riconosciuta come un numero).&lt;/p&gt;
+&lt;p&gt;Perché un software possa analizzare correttamente i dati, questi devono essere formattati in modo che il programma possa interpretarli (essere cioé &lt;strong&gt;di qualità&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Se i dati non sono di qualità, non sarà possibile eseguire operazioni come ordinare, sommare, calcolare medie, eseguire operazioni di NLP, ecc.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  University of York (2024). Data: A Practical Guide. &lt;a href=&#34;https //subjectguides.york.ac.uk/data&#34;&gt;https //subjectguides.york.ac.uk/data&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;per-essere-utilizzabili-i-dati-devono-essere-di-qualità&#34;&gt;Per essere utilizzabili, i dati devono essere di qualità&lt;/h3&gt;
 &lt;p&gt;&amp;hellip; per essere compresi da te in futuro.&lt;/p&gt;
 &lt;p&gt;&amp;hellip; per essere leggibili dalle macchine (&lt;em&gt;Interoperable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;&amp;hellip; per essere compresi dagli altri (&lt;em&gt;Reusable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;hellip; per essere compresi dagli altri (esseri umani e macchine) (&lt;em&gt;Reusable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
 &lt;/div&gt;
@@ -1095,16 +1127,26 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 Photo by &lt;a href=&#34;https://unsplash.com/@irfansimsar?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;İrfan Simsar&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-flock-of-birds-flying-over-a-building-Jfc5cBlRv3U?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;tutti-i-dati-sono-disordinati&#34;&gt;Tutti i dati sono disordinati&lt;/h3&gt;
-&lt;p&gt;Non dare mai la qualità dei tuoi dati per scontato.&lt;/p&gt;
-&lt;p&gt;L&#39;80% dell&amp;rsquo;analisi dei dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.&lt;/p&gt;
-&lt;p&gt;La pulizia e la preparazione dei dati devono essere iterative.&lt;/p&gt;
-&lt;p&gt;La pulizia e la preparazione dei dati sono necessarie per lavorare con i &lt;em&gt;dataset&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;i-dati-sono-spesso-disordinati&#34;&gt;I dati sono spesso disordinati&lt;/h3&gt;
+&lt;p&gt;Colonne o altri campi potrebbero contenere una miscela di testo e dati numerici, alcune righe potrebbero avere dati mancanti, oppure l&amp;rsquo;unione di due dataset separati è ostacolata dai nomi dei campi che non corrispondono esattamente.&lt;/p&gt;
+&lt;p&gt;Dobbiamo avere i dati in un formato utile per le nostre necessità: se stiamo analizzando o visualizzando dati, quali informazioni (e tipi di dati) richiede quell&amp;rsquo;analisi o visualizzazione?&lt;/p&gt;
+&lt;p&gt;L&#39;80% del lavoro sui dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.&lt;/p&gt;
+&lt;p&gt;La pulizia e la preparazione dei dati sono operazioni continue ed iterative.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
-UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+  University of York (2024). Data: A Practical Guide. &lt;a href=&#34;https //subjectguides.york.ac.uk/data&#34;&gt;https //subjectguides.york.ac.uk/data&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-dataset-è-una-raccolta-di-dati&#34;&gt;Un dataset è una raccolta di dati&lt;/h3&gt;
+&lt;h3 id=&#34;il-successo-dellelaborazione-dei-dati-dipende-dalla-qualità-dei-dati-di-partenza&#34;&gt;Il successo dell&amp;rsquo;elaborazione dei dati dipende dalla qualità dei dati di partenza&lt;/h3&gt;
+&lt;p&gt;Si tratta di garantire che i tuoi dati siano validati e trattabili come vorremmo.&lt;/p&gt;
+&lt;p&gt;Se abbiamo un campo contenente date &amp;ldquo;vaghe&amp;rdquo; — date contenenti annotazioni di testo (ad esempio &lt;code&gt;c.1810&lt;/code&gt; o &lt;code&gt;1990-1997&lt;/code&gt;), potremmo volere invece delle date leggibili dalla macchina (ad esempio &lt;code&gt;1810&lt;/code&gt;, &lt;code&gt;1990&lt;/code&gt;, ecc.).&lt;/p&gt;
+&lt;p&gt;Questo potrebbe significare perdere alcune informazioni e sfumature dai dati, e dovremo tenerne conto nell&amp;rsquo;analisi; ma almeno avremo dati &lt;em&gt;parsabili&lt;/em&gt; dalla macchina che potremo analizzare in modo efficace.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  University of York (2024). Data: A Practical Guide. &lt;a href=&#34;https //subjectguides.york.ac.uk/data&#34;&gt;https //subjectguides.york.ac.uk/data&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-più-semplice-le-tabelle&#34;&gt;Esempio più semplice: le tabelle&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;in-un-mondo-perfetto&#34;&gt;In un mondo perfetto&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;Ogni &lt;strong&gt;valore&lt;/strong&gt; appartiene a una &lt;strong&gt;variabile&lt;/strong&gt; e a un&amp;rsquo;&lt;strong&gt;osservazione&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ogni &lt;strong&gt;variabile&lt;/strong&gt; forma una &lt;strong&gt;colonna&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ogni &lt;strong&gt;osservazione&lt;/strong&gt; forma una &lt;strong&gt;riga&lt;/strong&gt;.&lt;/p&gt;
@@ -1112,41 +1154,35 @@ UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&
   S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h3&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Una colonna per ogni variabile.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;h3 id=&#34;una-colonna-per-ogni-variabile&#34;&gt;Una colonna per ogni variabile&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; height=&#34;auto&#34; width=&#34;350&#34;&gt;
+    &lt;figcaption&gt;
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for data science. O&#39;Reilly Media, Inc. &lt;a href=&#34;https://r4ds.had.co.nz/tidy-data.html&#34;&gt;https://r4ds.had.co.nz/tidy-data.html&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;footer&#34;&gt;
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-23&#34;&gt;Usa formati standard per le tabelle (2/3)&lt;/h3&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Una riga per ogni osservazione.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;h3 id=&#34;una-riga-per-ogni-osservazione&#34;&gt;Una riga per ogni osservazione&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; height=&#34;auto&#34; width=&#34;350&#34;&gt;
+    &lt;figcaption&gt;
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for data science. O&#39;Reilly Media, Inc. &lt;a href=&#34;https://r4ds.had.co.nz/tidy-data.html&#34;&gt;https://r4ds.had.co.nz/tidy-data.html&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;footer&#34;&gt;
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-33&#34;&gt;Usa formati standard per le tabelle (3/3)&lt;/h3&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
-    &lt;/div&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Una cella per ogni valore.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;h3 id=&#34;una-cella-per-ogni-valore&#34;&gt;Una cella per ogni valore&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; height=&#34;auto&#34; width=&#34;350&#34;&gt;
+    &lt;figcaption&gt;
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for data science. O&#39;Reilly Media, Inc. &lt;a href=&#34;https://r4ds.had.co.nz/tidy-data.html&#34;&gt;https://r4ds.had.co.nz/tidy-data.html&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;footer&#34;&gt;
   UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
 &lt;/div&gt;
@@ -1172,7 +1208,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@rojekilian?utm_content=creditCopy
 &lt;li&gt;Preparare i dati;&lt;/li&gt;
 &lt;li&gt;Eliminare inutili ridondanze;&lt;/li&gt;
 &lt;li&gt;Separare o combinare i valori;&lt;/li&gt;
-&lt;li&gt;Gestire errori e incoerenze (esempio: duplicati, valori nulli, errori di ortografia o formattazione incoerenti, ecc.);&lt;/li&gt;
+&lt;li&gt;Gestire errori e incoerenze (es. duplicati, valori nulli, errori di ortografia o formattazione incoerenti, ecc.);&lt;/li&gt;
 &lt;li&gt;Standardizzare quando possibile.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1205,10 +1241,15 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Inserimento di più di un tipo di informazione in una cella (esempi: commenti, unità di misura, metadati, ecc.).&lt;/p&gt;
+        &lt;p&gt;Inserimento di più di un tipo di informazione in una cella (es. commenti, unità di misura, metadati, ecc.).&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1218,7 +1259,12 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;p&gt;Aggiungi le informazioni aggiuntive al titolo della colonna o in una colonna separata.&lt;/p&gt;
@@ -1232,10 +1278,15 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-12&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Esempi: evidenziare celle, righe o colonne che dovrebbero essere escluse da un&#39;analisi; lasciare righe vuote per indicare separazioni nei dati, ecc.&lt;/p&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+        &lt;p&gt;Es. evidenziare celle, righe o colonne che dovrebbero essere escluse da un&#39;analisi; lasciare righe vuote per indicare separazioni nei dati, ecc.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1245,9 +1296,14 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-22&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
         &lt;p&gt;Aggiungi le unità al titolo della colonna o in una colonna separata.&lt;/p&gt;
         &lt;p&gt;Aggiungi le informazioni in una colonna separata.&lt;/p&gt;
         &lt;p&gt;Aggiungi i metadati in un documento separato.&lt;/p&gt;
@@ -1259,11 +1315,16 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;hr&gt;
 &lt;h3 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Esempio: più di una tabella o scheda all&#39;interno di un singolo foglio di calcolo.&lt;/p&gt;
+        &lt;p&gt;Es. più di una tabella o scheda all&#39;interno di un singolo foglio di calcolo.&lt;/p&gt;
         &lt;p&gt;Se possibile, combina tutto in una tabella unica o mantieni ogni tabella in un file separato.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1273,12 +1334,17 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;hr&gt;
 &lt;h3 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-    &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;img src=&#34;img/special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+        &lt;figure&gt;
+            &lt;img src=&#34;img/special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; height=&#34;auto&#34; width=&#34;700&#34;&gt;
+            &lt;figcaption&gt;
+                Fonte: &lt;a href=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34;&gt;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&lt;/a&gt;.
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
-        &lt;p&gt;Se possibile, evita &lt;a href=&#34;https://www.edatlas.it/scarica/1836/Capitolo5/ContenutiDigitali/2EntitaCarattere.pdf&#34;&gt;caratteri speciali&lt;/a&gt; nei titoli delle colonne e nel testo: &lt;code&gt;/&lt;/code&gt; &lt;code&gt;\&lt;/code&gt; &lt;code&gt;:&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;.&lt;/code&gt; &lt;code&gt;?&lt;/code&gt; &lt;code&gt;‘&lt;/code&gt; &lt;code&gt;&lt;&lt;/code&gt; &lt;code&gt;&gt;&lt;/code&gt; &lt;code&gt;[&lt;/code&gt; &lt;code&gt;]&lt;/code&gt; &lt;code&gt;(&lt;/code&gt; &lt;code&gt;)&lt;/code&gt; &lt;code&gt;&amp;&lt;/code&gt; &lt;code&gt;$&lt;/code&gt; &lt;code&gt;æ&lt;/code&gt; &lt;code&gt;Æ&lt;/code&gt; ...&lt;/p&gt;
-        &lt;p&gt;Evita sempre di utilizzare spazi nei titoli delle colonne: invece, utilizza underscore (&lt;code&gt;_&lt;/code&gt;) o CamelCase (esempio: &lt;code&gt;TitoloPrincipale&lt;/code&gt;).&lt;/p&gt;
+        &lt;p&gt;Se possibile, evita &lt;a href=&#34;https://www.edatlas.it/scarica/1836/Capitolo5/ContenutiDigitali/2EntitaCarattere.pdf&#34;&gt;caratteri speciali&lt;/a&gt; almeno nelle intestazioni delle colonne: &lt;code&gt;/&lt;/code&gt; &lt;code&gt;\&lt;/code&gt; &lt;code&gt;:&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;.&lt;/code&gt; &lt;code&gt;?&lt;/code&gt; &lt;code&gt;‘&lt;/code&gt; &lt;code&gt;&lt;&lt;/code&gt; &lt;code&gt;&gt;&lt;/code&gt; &lt;code&gt;[&lt;/code&gt; &lt;code&gt;]&lt;/code&gt; &lt;code&gt;(&lt;/code&gt; &lt;code&gt;)&lt;/code&gt; &lt;code&gt;&amp;&lt;/code&gt; &lt;code&gt;$&lt;/code&gt; &lt;code&gt;æ&lt;/code&gt; &lt;code&gt;Æ&lt;/code&gt; ...&lt;/p&gt;
+        &lt;p&gt;Evita sempre di utilizzare spazi nei titoli delle colonne: invece, utilizza underscore (&lt;code&gt;_&lt;/code&gt;) o CamelCase (es. &lt;code&gt;TitoloPrincipale&lt;/code&gt;).&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1289,16 +1355,16 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;ul&gt;
 &lt;li&gt;Esempio 1: date visualizzate in molti formati diversi (&amp;ldquo;12 luglio 2024&amp;rdquo;, &amp;ldquo;12/07/2024&amp;rdquo;, &amp;ldquo;12-07-2024&amp;rdquo;, ecc.);
 &lt;ul&gt;
-&lt;li&gt;Utilizza &lt;strong&gt;standard internazionali&lt;/strong&gt; (esempi: &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;, &lt;a href=&#34;https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO-8601&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;standard internazionali&lt;/strong&gt; (es. &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;, &lt;a href=&#34;https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO-8601&lt;/a&gt;);&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Esempio 2: nomi visualizzati in molte varianti diverse (&amp;ldquo;Alessandro Manzoni&amp;rdquo;, &amp;ldquo;A. Manzoni&amp;rdquo;, &amp;ldquo;Manzoni&amp;rdquo;, &amp;ldquo;Manzoni, Alessandro&amp;rdquo;, ecc.);
 &lt;ul&gt;
-&lt;li&gt;Utilizza &lt;strong&gt;record di autorità&lt;/strong&gt; (esempi: &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt;, possibilmente inserendo sia il nome leggibile per gli esseri umani sia l&amp;rsquo;URI al record, se esistente);&lt;/li&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;record di autorità&lt;/strong&gt; (es. &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt;, possibilmente inserendo sia il nome leggibile per gli esseri umani sia l&amp;rsquo;URI al record, se esistente);&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Sii coerente anche nella &lt;strong&gt;capitalizzazione&lt;/strong&gt; delle parole, nella scelta dei &lt;strong&gt;delimitatori&lt;/strong&gt; e nelle convenzioni di &lt;strong&gt;denominazione&lt;/strong&gt; per le variabili;&lt;/li&gt;
-&lt;li&gt;Evita di utilizzare il delimitatore usato dal dataset (esempi: &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, ecc.) nei dati stessi;&lt;/li&gt;
+&lt;li&gt;Evita di utilizzare il delimitatore usato dal dataset (es. &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, ecc.) nei dati stessi;&lt;/li&gt;
 &lt;li&gt;Fai attenzione agli &lt;strong&gt;spazi&lt;/strong&gt;!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1306,7 +1372,7 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h3&gt;
-&lt;p&gt;Nell&amp;rsquo;eliminazione includi:&lt;/p&gt;
+&lt;p&gt;In un&amp;rsquo;eventuale eliminazione dei dati includi:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Duplicati;&lt;/li&gt;
 &lt;li&gt;Osservazioni irrilevanti;&lt;/li&gt;
@@ -1314,7 +1380,7 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;li&gt;Dati non validi;&lt;/li&gt;
 &lt;li&gt;Dati in conflitto.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Sono tutte &lt;strong&gt;interpretazioni&lt;/strong&gt;: considera sempre se un&amp;rsquo;osservazione o una colonna debbano essere eliminate o meno!&lt;/p&gt;
+&lt;p&gt;Sono tutte &lt;strong&gt;interpretazioni&lt;/strong&gt;: considera sempre &lt;em&gt;molto attentamente&lt;/em&gt; se un&amp;rsquo;osservazione o una variabile debbano essere eliminate o meno!&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;
@@ -1337,7 +1403,7 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;li&gt;Errori grammaticali;&lt;/li&gt;
 &lt;li&gt;Uso incoerente di maiuscole e minuscole;&lt;/li&gt;
 &lt;li&gt;Titoli incoerenti per le colonne;&lt;/li&gt;
-&lt;li&gt;Unità di misura incoerenti, tipi di dati incoerenti (esempio: numero, stringa), schemi di denominazione, ecc.;&lt;/li&gt;
+&lt;li&gt;Unità di misura incoerenti, tipi di dati incoerenti (es. numero, stringa), schemi di denominazione, ecc.;&lt;/li&gt;
 &lt;li&gt;Valori fuori intervallo.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1345,9 +1411,9 @@ White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Su
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;quando-hai-finito-esporta-e-condividi&#34;&gt;Quando hai finito, esporta e condividi&lt;/h3&gt;
-&lt;p&gt;Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (esempio: &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Utilizza formati aperti per rendere i dati interoperabili (esempio: &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), quando possibile.&lt;/p&gt;
-&lt;p&gt;Considera di condividere i tuoi dati su &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; e/o di pubblicarli su un repository (esempio: &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, ecc.) per renderli visibili, accessibili, e versionati.&lt;/p&gt;
+&lt;p&gt;Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (es. &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Utilizza formati aperti per rendere i dati interoperabili (es. &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), quando possibile.&lt;/p&gt;
+&lt;p&gt;Considera di condividere i tuoi dati su &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; e/o di pubblicarli su un repository (es. &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, ecc.) per renderli visibili, accessibili, e versionati.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
 &lt;/div&gt;

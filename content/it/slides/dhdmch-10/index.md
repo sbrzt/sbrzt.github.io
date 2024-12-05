@@ -167,7 +167,7 @@ Ogni **osservazione** forma una **riga**.
 ### Una colonna per ogni variabile
 
 <figure>
-    <img src="img/tidy-1.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <img src="img/tidy-1.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="350">
     <figcaption>
         Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
     </figcaption>
@@ -182,7 +182,7 @@ Ogni **osservazione** forma una **riga**.
 ### Una riga per ogni osservazione
 
 <figure>
-    <img src="img/tidy-2.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <img src="img/tidy-2.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="350">
     <figcaption>
         Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
     </figcaption>
@@ -197,7 +197,7 @@ Ogni **osservazione** forma una **riga**.
 ### Una cella per ogni valore
 
 <figure>
-    <img src="img/tidy-3.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <img src="img/tidy-3.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="350">
     <figcaption>
         Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
     </figcaption>
