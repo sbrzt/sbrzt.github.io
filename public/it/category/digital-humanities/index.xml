@@ -1046,6 +1046,325 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>DHDMCH - PROCESS - Preparare ed Elaborare</title>
+      <link>http://localhost:1313/it/slides/dhdmch-10/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-10/</guid>
+      <description>&lt;h1 id=&#34;process-preparare-ed-elaborare&#34;&gt;PROCESS: preparare ed elaborare&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-10-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 10 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34; 
+      style=&#34;
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: raccogliere o creare i dati, &lt;strong&gt;elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità)&lt;/strong&gt;, analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;per-essere-utili-i-dati-devono-essere-organizzati&#34;&gt;Per essere utili, i dati devono essere organizzati&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;&amp;hellip; per essere compresi da te in futuro.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; per essere leggibili dalle macchine (&lt;em&gt;Interoperable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;hellip; per essere compresi dagli altri (&lt;em&gt;Reusable&lt;/em&gt; secondo &lt;a href=&#34;https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/chaos.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;il-caos-regna&#34;&gt;Il caos regna&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@irfansimsar?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;İrfan Simsar&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-flock-of-birds-flying-over-a-building-Jfc5cBlRv3U?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tutti-i-dati-sono-disordinati&#34;&gt;Tutti i dati sono disordinati&lt;/h3&gt;
+&lt;p&gt;Non dare mai la qualità dei tuoi dati per scontato.&lt;/p&gt;
+&lt;p&gt;L&#39;80% dell&amp;rsquo;analisi dei dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.&lt;/p&gt;
+&lt;p&gt;La pulizia e la preparazione dei dati devono essere iterative.&lt;/p&gt;
+&lt;p&gt;La pulizia e la preparazione dei dati sono necessarie per lavorare con i &lt;em&gt;dataset&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-dataset-è-una-raccolta-di-dati&#34;&gt;Un dataset è una raccolta di dati&lt;/h3&gt;
+&lt;p&gt;Ogni &lt;strong&gt;valore&lt;/strong&gt; appartiene a una &lt;strong&gt;variabile&lt;/strong&gt; e a un&amp;rsquo;&lt;strong&gt;osservazione&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ogni &lt;strong&gt;variabile&lt;/strong&gt; forma una &lt;strong&gt;colonna&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ogni &lt;strong&gt;osservazione&lt;/strong&gt; forma una &lt;strong&gt;riga&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-13&#34;&gt;Usa formati standard per le tabelle (1/3)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/tidy-1.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Una colonna per ogni variabile.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-23&#34;&gt;Usa formati standard per le tabelle (2/3)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/tidy-2.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Una riga per ogni osservazione.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usa-formati-standard-per-le-tabelle-33&#34;&gt;Usa formati standard per le tabelle (3/3)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/tidy-3.png&#34; alt=&#34;https://r4ds.had.co.nz/tidy-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Una cella per ogni valore.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/error.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;errori-comuni&#34;&gt;Errori comuni&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@rojekilian?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Sarah Kilian&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/brown-ice-cream-cone-52jRtc2S_VE?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-pulizia-dei-dati-è-difficile-ma-ne-vale-la-pena&#34;&gt;La pulizia dei dati è difficile (ma ne vale la pena)!&lt;/h3&gt;
+&lt;p&gt;Può essere riassunta in una serie di attività:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparare i dati;&lt;/li&gt;
+&lt;li&gt;Eliminare inutili ridondanze;&lt;/li&gt;
+&lt;li&gt;Separare o combinare i valori;&lt;/li&gt;
+&lt;li&gt;Gestire errori e incoerenze (esempio: duplicati, valori nulli, errori di ortografia o formattazione incoerenti, ecc.);&lt;/li&gt;
+&lt;li&gt;Standardizzare quando possibile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-modificare-mai-i-dati-originali&#34;&gt;Non modificare mai i dati originali&lt;/h3&gt;
+&lt;p&gt;Fai sempre una copia prima di apportare modifiche.&lt;/p&gt;
+&lt;p&gt;Esegui il backup dei file.&lt;/p&gt;
+&lt;p&gt;Tieni traccia di tutti i passaggi.&lt;/p&gt;
+&lt;p&gt;Salva i tuoi file in codifiche permissive e largamente utilizzate, come &lt;a href=&#34;https://www.ionos.it/digitalguide/siti-web/creare-siti/utf-8-codifica-della-comunicazione-digitale-globale/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UTF-8&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Seth van Hooland, Ruben Verborgh, and Max De Wilde, &#34;Cleaning Data with OpenRefine,&#34; Programming Historian 2 (2013), &lt;a href=&#34;https://doi.org/10.46430/phen0023&#34;&gt;https://doi.org/10.46430/phen0023&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;descrivi-sempre-i-dati&#34;&gt;Descrivi sempre i dati&lt;/h3&gt;
+&lt;p&gt;Documenta tutto il necessario per capire cosa c&amp;rsquo;è nel dataset e come utilizzarlo.&lt;/p&gt;
+&lt;p&gt;Considera di indicare:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Il &amp;ldquo;chi&amp;rdquo;, &amp;ldquo;cosa&amp;rdquo;, &amp;ldquo;quando&amp;rdquo;, &amp;ldquo;dove&amp;rdquo; e &amp;ldquo;come&amp;rdquo; dei dati;&lt;/li&gt;
+&lt;li&gt;Modalità di reperimento e accesso ai dati;&lt;/li&gt;
+&lt;li&gt;Suggerimenti sull&amp;rsquo;idoneità dei dati per rispondere a domande specifiche;&lt;/li&gt;
+&lt;li&gt;Avvertenze sui problemi o le incoerenze note nei dati;&lt;/li&gt;
+&lt;li&gt;Informazioni per verificare che i dati siano importati correttamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (1/2)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/multiple-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Inserimento di più di un tipo di informazione in una cella (esempi: commenti, unità di misura, metadati, ecc.).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22&#34;&gt;Evita di aggregare commenti e altre informazioni con i dati (2/2)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/single-info.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Aggiungi le informazioni aggiuntive al titolo della colonna o in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi i metadati in un documento separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-12&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (1/2)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Esempi: evidenziare celle, righe o colonne che dovrebbero essere escluse da un&#39;analisi; lasciare righe vuote per indicare separazioni nei dati, ecc.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-utilizzare-la-formattazione-per-trasmettere-informazioni-22&#34;&gt;Non utilizzare la formattazione per trasmettere informazioni (2/2)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/good-formatting.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Aggiungi le unità al titolo della colonna o in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi le informazioni in una colonna separata.&lt;/p&gt;
+        &lt;p&gt;Aggiungi i metadati in un documento separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-utilizzare-più-tabelle-o-più-schede&#34;&gt;Non utilizzare più tabelle o più schede&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/multiple-tables.jpg&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Esempio: più di una tabella o scheda all&#39;interno di un singolo foglio di calcolo.&lt;/p&gt;
+        &lt;p&gt;Se possibile, combina tutto in una tabella unica o mantieni ogni tabella in un file separato.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-utilizzare-caratteri-speciali&#34;&gt;Non utilizzare caratteri speciali&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;img src=&#34;img/special-characters.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Se possibile, evita &lt;a href=&#34;https://www.edatlas.it/scarica/1836/Capitolo5/ContenutiDigitali/2EntitaCarattere.pdf&#34;&gt;caratteri speciali&lt;/a&gt; nei titoli delle colonne e nel testo: &lt;code&gt;/&lt;/code&gt; &lt;code&gt;\&lt;/code&gt; &lt;code&gt;:&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;.&lt;/code&gt; &lt;code&gt;?&lt;/code&gt; &lt;code&gt;‘&lt;/code&gt; &lt;code&gt;&lt;&lt;/code&gt; &lt;code&gt;&gt;&lt;/code&gt; &lt;code&gt;[&lt;/code&gt; &lt;code&gt;]&lt;/code&gt; &lt;code&gt;(&lt;/code&gt; &lt;code&gt;)&lt;/code&gt; &lt;code&gt;&amp;&lt;/code&gt; &lt;code&gt;$&lt;/code&gt; &lt;code&gt;æ&lt;/code&gt; &lt;code&gt;Æ&lt;/code&gt; ...&lt;/p&gt;
+        &lt;p&gt;Evita sempre di utilizzare spazi nei titoli delle colonne: invece, utilizza underscore (&lt;code&gt;_&lt;/code&gt;) o CamelCase (esempio: &lt;code&gt;TitoloPrincipale&lt;/code&gt;).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;sii-coerente&#34;&gt;Sii coerente&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Esempio 1: date visualizzate in molti formati diversi (&amp;ldquo;12 luglio 2024&amp;rdquo;, &amp;ldquo;12/07/2024&amp;rdquo;, &amp;ldquo;12-07-2024&amp;rdquo;, ecc.);
+&lt;ul&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;standard internazionali&lt;/strong&gt; (esempi: &lt;a href=&#34;https://www.loc.gov/standards/datetime/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDTF&lt;/a&gt;, &lt;a href=&#34;https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO-8601&lt;/a&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Esempio 2: nomi visualizzati in molte varianti diverse (&amp;ldquo;Alessandro Manzoni&amp;rdquo;, &amp;ldquo;A. Manzoni&amp;rdquo;, &amp;ldquo;Manzoni&amp;rdquo;, &amp;ldquo;Manzoni, Alessandro&amp;rdquo;, ecc.);
+&lt;ul&gt;
+&lt;li&gt;Utilizza &lt;strong&gt;record di autorità&lt;/strong&gt; (esempi: &lt;a href=&#34;https://viaf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VIAF&lt;/a&gt;, possibilmente inserendo sia il nome leggibile per gli esseri umani sia l&amp;rsquo;URI al record, se esistente);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sii coerente anche nella &lt;strong&gt;capitalizzazione&lt;/strong&gt; delle parole, nella scelta dei &lt;strong&gt;delimitatori&lt;/strong&gt; e nelle convenzioni di &lt;strong&gt;denominazione&lt;/strong&gt; per le variabili;&lt;/li&gt;
+&lt;li&gt;Evita di utilizzare il delimitatore usato dal dataset (esempi: &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, ecc.) nei dati stessi;&lt;/li&gt;
+&lt;li&gt;Fai attenzione agli &lt;strong&gt;spazi&lt;/strong&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8375643&#34;&gt;https://doi.org/10.5281/zenodo.8375643&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;elimina-la-ridondanza-con-cautela&#34;&gt;Elimina la ridondanza (con cautela!)&lt;/h3&gt;
+&lt;p&gt;Nell&amp;rsquo;eliminazione includi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicati;&lt;/li&gt;
+&lt;li&gt;Osservazioni irrilevanti;&lt;/li&gt;
+&lt;li&gt;Dati incompleti;&lt;/li&gt;
+&lt;li&gt;Dati non validi;&lt;/li&gt;
+&lt;li&gt;Dati in conflitto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sono tutte &lt;strong&gt;interpretazioni&lt;/strong&gt;: considera sempre se un&amp;rsquo;osservazione o una colonna debbano essere eliminate o meno!&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tratta-sempre-i-valori-_null_&#34;&gt;Tratta sempre i valori &lt;em&gt;NULL&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Usa un metodo coerente che sia compatibile e che non causi errori (come lasciare la cella vuota).&lt;/p&gt;
+&lt;p&gt;Considera che:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Può essere difficile sapere se un valore è mancante o è stato trascurato durante l&amp;rsquo;inserimento dei dati;&lt;/li&gt;
+&lt;li&gt;Gli spazi vuoti possono essere confusi quando spazi (&lt;code&gt;  &lt;/code&gt;) o tabs (&lt;code&gt;/&lt;/code&gt;) sono usati come delimitatori;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NA&lt;/code&gt; e &lt;code&gt;NULL&lt;/code&gt; sono valori nulli ragionevoli.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esegui-sempre-un-controllo-di-qualità&#34;&gt;Esegui sempre un controllo di qualità&lt;/h3&gt;
+&lt;p&gt;Verifica:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Errori grammaticali;&lt;/li&gt;
+&lt;li&gt;Uso incoerente di maiuscole e minuscole;&lt;/li&gt;
+&lt;li&gt;Titoli incoerenti per le colonne;&lt;/li&gt;
+&lt;li&gt;Unità di misura incoerenti, tipi di dati incoerenti (esempio: numero, stringa), schemi di denominazione, ecc.;&lt;/li&gt;
+&lt;li&gt;Valori fuori intervallo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quando-hai-finito-esporta-e-condividi&#34;&gt;Quando hai finito, esporta e condividi&lt;/h3&gt;
+&lt;p&gt;Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (esempio: &lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Zero (CC0)&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Utilizza formati aperti per rendere i dati interoperabili (esempio: &lt;a href=&#34;https://en.wikipedia.org/wiki/Comma-separated_values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSV&lt;/a&gt;), quando possibile.&lt;/p&gt;
+&lt;p&gt;Considera di condividere i tuoi dati su &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; e/o di pubblicarli su un repository (esempio: &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;, &lt;a href=&#34;https://figshare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt;, ecc.) per renderli visibili, accessibili, e versionati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., &amp; Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. &lt;a href=&#34;https://doi.org/10.7287/peerj.preprints.7v2&#34;&gt;https://doi.org/10.7287/peerj.preprints.7v2&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-10-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 10 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Dati culturali e sostenibilità</title>
       <link>http://localhost:1313/it/slides/pcto/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
@@ -2810,17 +3129,14 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-        Costrutto astratto minimo di modellazione dei LOD. Rappresenta un&#39;asserzione informativa riguardante una risorsa, e si articola in:
+        Un&#39;asserzione informativa riguardante una risorsa che si articola in:
       &lt;/p&gt;
       &lt;p&gt;
         &lt;ul&gt;
-          &lt;li&gt;Soggetto: una risorsa (sempre identificata da un URI) di cui l&#39;asserzione tratta;&lt;/li&gt;
-          &lt;li&gt;Predicato: una caratteristica del soggetto (sempre identificata da un URI);&lt;/li&gt;
-          &lt;li&gt;Oggetto: una risorsa (identificata da un URI) o un valore (letterale, numerico, temporale, ecc.) espressi dal predicato.&lt;/li&gt;
+          &lt;li&gt;Soggetto: una risorsa trattata nell&#39;asserzione;&lt;/li&gt;
+          &lt;li&gt;Predicato: una caratteristica del soggetto;&lt;/li&gt;
+          &lt;li&gt;Oggetto: una risorsa o un valore espresso dal predicato.&lt;/li&gt;
         &lt;/ul&gt;
-      &lt;/p&gt;
-      &lt;p&gt;
-        Le triple si collegano tra loro, formando un grafo di dati.
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2830,15 +3146,15 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;hr&gt;
 &lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante-1&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; è una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è una&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &amp;ldquo;1984&amp;rdquo;;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; &amp;ldquo;271&amp;rdquo;;&lt;/li&gt;
@@ -2852,8 +3168,6 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;li&gt;un arco per il predicato, diretto dal soggetto all&amp;rsquo;oggetto;&lt;/li&gt;
 &lt;li&gt;un nodo per l&amp;rsquo;oggetto.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Un nodo può essere identificato da un URI o può essere un valore letterale.&lt;/p&gt;
-&lt;p&gt;Un arco è identificato da un URI.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-dati-in-rdf-formano-un-grafo-1&#34;&gt;I dati in RDF formano un grafo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -2867,9 +3181,9 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
-        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; è una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è una&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;;&lt;/li&gt;
         &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt;;&lt;/li&gt;
         &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; &#34;1984&#34;;&lt;/li&gt;
         &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; &#34;271&#34;;&lt;/li&gt;
@@ -2911,11 +3225,113 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;li&gt;&lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/hasNumberOfPages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/hasNumberOfPages&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;grafo-con-uri&#34;&gt;GRAFO CON URI&lt;/h3&gt;
+&lt;h3 id=&#34;grafo-del-modello-con-uri&#34;&gt;Grafo del modello con URI&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/modeling-05.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: propria.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Libro&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/Book&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Persona&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/Person&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;class&#34;&gt;Genere&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/Genre&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/hasCreator&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;relation&#34;&gt;ha genere&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/hasGenre&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;attribute&#34;&gt;pubblicato nel&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/hasPublicationDate&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;attribute&#34;&gt;ha pagine&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/hasNumberOfPages&lt;/strong&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;anche-uri-dei-dati&#34;&gt;ANCHE URI DEI DATI&lt;/h3&gt;
-&lt;h3 id=&#34;questione-uriref&#34;&gt;QUESTIONE URIREF&lt;/h3&gt;
-&lt;h3 id=&#34;questione-namespaces&#34;&gt;QUESTIONE NAMESPACES&lt;/h3&gt;
+&lt;h3 id=&#34;anche-i-dati-hanno-bisogno-di-uri&#34;&gt;Anche i dati hanno bisogno di URI&lt;/h3&gt;
+&lt;p&gt;I dati (le istanze, ovvero le entità, come Neuromante e William Gibson), se vogliamo che siano LOD e se scegliamo RDF come strumento di modellazione, devono avere i propri URI.&lt;/p&gt;
+&lt;p&gt;Inventiamoci un URI per i nostri dati: &lt;code&gt;http://example.org/data&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Non useremo questo URI per &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt;, che invece manterrà l&amp;rsquo;URI del modello.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/data/neuromancer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromancer&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/data/william-gibson&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/william-gibson&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; diventa &lt;a href=&#34;http://example.org/dhdmch/cyberpunk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/cyberpunk&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grafo-dei-dati-con-uri&#34;&gt;Grafo dei dati con URI&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;img/modeling-06.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: propria.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; diventa &lt;strong&gt;http://example.org/data/neuromancer&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; diventa &lt;strong&gt;http://example.org/data/william-gibson&lt;/strong&gt;;&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; diventa &lt;strong&gt;http://example.org/dhdmch/cyberpunk&lt;/strong&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-precisazione-i-_literal_&#34;&gt;Una precisazione: i &lt;em&gt;literal&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Ciò che può essere l&amp;rsquo;oggetto di una tripla RDF e che abbiamo chiamato &amp;ldquo;valore&amp;rdquo; (testuale, numerico, temporale, ecc.).&lt;/p&gt;
+&lt;p&gt;In altre parole, i valori degli &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Due tipi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Non tipizzati&lt;/strong&gt;: il loro &lt;em&gt;datatype&lt;/em&gt; non è specificato (es. &lt;code&gt;&amp;quot;271&amp;quot;&lt;/code&gt;), e al massimo possono avere un &lt;strong&gt;tag linguistico&lt;/strong&gt; reso combinando la stringa con &lt;code&gt;@&lt;/code&gt; e il valore di una lingua espressa seguendo lo standard &lt;a href=&#34;https://it.wikipedia.org/wiki/ISO_639-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISO 639-1&lt;/a&gt; (es. &lt;code&gt;&amp;quot;Stringa in italiano&amp;quot;@it&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipizzati&lt;/strong&gt;: il loro &lt;em&gt;datatype&lt;/em&gt; è specificato combinando la stringa con due &lt;code&gt;^&lt;/code&gt; e l&amp;rsquo;URI che identifica quel &lt;em&gt;datatype&lt;/em&gt; (es. &lt;code&gt;&amp;quot;271&amp;quot;^^http://www.w3.org/2001/XMLSchema#integer&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-precisazione-come-scrivere-classi-proprietà-ed-entità-nelluri&#34;&gt;Una precisazione: come scrivere classi, proprietà ed entità nell&amp;rsquo;URI&lt;/h3&gt;
+&lt;p&gt;RDF non dà regole vere e proprie su come scrivere, ma esistono convenzioni.&lt;/p&gt;
+&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt; iniziano sempre con la lettera maiuscola (es. &lt;span class=&#34;class&#34;&gt;Book&lt;/span&gt;);&lt;/li&gt;
+&lt;li&gt;Le proprietà (&lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt; e &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt;) iniziano sempre con la lettera minuscola (es. &lt;span class=&#34;attribute&#34;&gt;date&lt;/span&gt;);&lt;/li&gt;
+&lt;li&gt;Se classi o proprietà sono composti da più parole, in genere sono espresse in &lt;code&gt;CamelCase&lt;/code&gt; (es. &lt;span class=&#34;class&#34;&gt;DigitizationProcess&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;hasCreator&lt;/span&gt;);&lt;/li&gt;
+&lt;li&gt;Le &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt; iniziano sempre con la lettera minuscola e, se sono composte da più parole, in genere sono tenute assieme dai trattini (es. &lt;span class=&#34;entity&#34;&gt;optical-scanner&lt;/span&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-precisazione-i-_namespace_&#34;&gt;Una precisazione: i &lt;em&gt;namespace&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Cosa notate?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;uno-è-luri-del-modello-laltro-è-di-una-classe-appartenente-a-quel-modello&#34;&gt;Uno è l&amp;rsquo;URI &amp;ldquo;del modello&amp;rdquo;, l&amp;rsquo;altro è di una classe appartenente a quel modello&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt; (URI &amp;ldquo;del modello&amp;rdquo;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-parte-di-uri-in-comune-fa-da-base-per-gli-uri-degli-elementi-classi-proprietà-entità-fa-cioè-da-_namespace_&#34;&gt;La parte di URI in comune fa da &amp;ldquo;base&amp;rdquo; per gli URI degli elementi (classi, proprietà, entità): fa cioè da &lt;em&gt;namespace&lt;/em&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; (URI del modello)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;/Book&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lultima-parte-delluri-dellelemento-si-riferisce-allelemento&#34;&gt;L&amp;rsquo;ultima parte dell&amp;rsquo;URI dell&amp;rsquo;elemento si riferisce all&amp;rsquo;elemento&lt;/h3&gt;
+&lt;p&gt;Inizia con un separatore (di solito un &lt;code&gt;/&lt;/code&gt; o un &lt;code&gt;#&lt;/code&gt;).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;/Book&lt;/em&gt;&lt;/strong&gt; (URI della classe Book del modello)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-discorso-vale-anche-per-i-dati&#34;&gt;Il discorso vale anche per i dati&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data&lt;/a&gt;&lt;/em&gt;
+&lt;em&gt;&lt;a href=&#34;http://example.org/data/neuromante&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromante&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-piccolo-limite-di-rdf-in-quanto-modello-di-dati&#34;&gt;Un piccolo limite di RDF in quanto modello di dati&lt;/h3&gt;
 &lt;p&gt;Dice &lt;em&gt;cosa&lt;/em&gt; fare, ma non dice:&lt;/p&gt;
@@ -2935,13 +3351,15 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;hr&gt;
 &lt;h3 id=&#34;anche-altre-serializzazioni-fanno-cose-simili&#34;&gt;Anche altre serializzazioni fanno cose simili&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;Esempio:
-&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; diventa&lt;br&gt;
-&lt;a href=&#34;http://example.org/data/neuromancer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromancer&lt;/a&gt; &lt;a href=&#34;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&lt;/a&gt; &lt;a href=&#34;http://example.org/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/Book&lt;/a&gt;`&lt;/p&gt;
+&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; diventa&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;http://example.org/data/neuromancer&amp;gt; &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://example.org/dhdmch/Book\ &amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ma-turtle-è-più-leggibile-grazie-ai-_prefissi_&#34;&gt;Ma Turtle è più leggibile, grazie ai &lt;em&gt;prefissi&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Turtle permette di usare &lt;strong&gt;prefissi&lt;/strong&gt; per accorciare gli URI e rendere le triple più leggibili.&lt;/p&gt;
-&lt;p&gt;Per ogni modello, si inserisce la dicitura &lt;code&gt;@prefix&lt;/code&gt;, spazio, prefisso (a vostra scelta, esistono convenzioni tacite), due punti, spazio, URI del modello tra caporali, spazio, punto, a capo.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;p&gt;Turtle permette di usare &lt;strong&gt;prefissi&lt;/strong&gt; per accorciare gli URI degli elementi (sostituendo la base offerta dai rispettivi modelli) e rendere le triple più leggibili.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;@prefix prefisso: &amp;lt;uri/del/modello/con/separatore/&amp;gt; .&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/dhdmch/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -2949,52 +3367,60 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;turtle-prefissi&#34;&gt;Turtle: prefissi&lt;/h3&gt;
 &lt;p&gt;I prefissi ci permettono di evitare di dover ripetere l&amp;rsquo;URI completo ogni volta.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/dhdmch/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix xsd: &amp;lt;http://www.w3.org/2001/XMLSchema#&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;turtle-triple&#34;&gt;Turtle: triple&lt;/h3&gt;
 &lt;p&gt;Per il resto, non è altro che una sequenza di triple.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;p&gt;Se ci dovessero essere URI completi, vanno racchiusi tra caporali.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/dhdmch/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix xsd: &amp;lt;http://www.w3.org/2001/XMLSchema#&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book .  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:publicationDate &amp;#34;1984&amp;#34; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:publicationDate &amp;#34;1984&amp;#34;^^xsd:gYear .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:genre dhdmch:cyberpunk .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:creator ex:william-gibson .  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:pages &amp;#34;271&amp;#34; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante dhdmch:pages &amp;#34;271&amp;#34;^^xsd:integer .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson rdf:type dhdmch:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;turtle-triple-1&#34;&gt;Turtle: triple&lt;/h3&gt;
 &lt;p&gt;Se abbiamo più triple con lo stesso soggetto, possiamo utilizzare una sintassi più elegante, con una prima tripla che esprime il soggetto e tutte le altre indentate sotto la prima che sottointendono il soggetto.&lt;/p&gt;
 &lt;p&gt;Ogni tripla che non è l&amp;rsquo;ultima finisce con il punto e virgola.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/&amp;gt; .  
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix dhdmch: &amp;lt;http://example.org/dhdmch/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix ex: &amp;lt;http://example.org/data/&amp;gt; .  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix xsd: &amp;lt;http://www.w3.org/2001/XMLSchema#&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromante rdf:type dhdmch:Book ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:publicationDate &amp;#34;1984&amp;#34; ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:publicationDate &amp;#34;1984&amp;#34;^^xsd:gYear ;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:genre dhdmch:cyberpunk ;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:creator ex:william-gibson ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:pages &amp;#34;271&amp;#34; . 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dhdmch:pages &amp;#34;271&amp;#34;^^xsd:integer . 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson rdf:type dhdmch:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;però-non-cè-interoperabilità&#34;&gt;Però non c&amp;rsquo;è interoperabilità&lt;/h3&gt;
-&lt;p&gt;In un certo senso, abbiamo già riutilizzato un modello per esprimere la proprietà &lt;code&gt;è un&lt;/code&gt; (ovvero &lt;code&gt;rdf:type&lt;/code&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;tutto-bello-ma-linteroperabilità&#34;&gt;Tutto bello&amp;hellip; ma l&amp;rsquo;interoperabilità?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-ultimo-passaggio&#34;&gt;Un ultimo passaggio&lt;/h3&gt;
+&lt;p&gt;In un certo senso, abbiamo già riutilizzato dei modelli esistenti (es. per &lt;code&gt;xsd:gYear&lt;/code&gt; o &lt;code&gt;rdf:type&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;Il nostro &lt;code&gt;dhdmch&lt;/code&gt; è in sostanza la reinvenzione della ruota: esistono già molteplici modelli in grado di descrivere libri (e il dominio bibliografico in senso lato).&lt;/p&gt;
-&lt;p&gt;Inoltre, possiamo anche riclicare anche la classe &lt;code&gt;Persona&lt;/code&gt; e il valore controllato di &lt;code&gt;cyberpunk&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;A patto di rispettare le costrizioni logiche dei vari modelli, li possiamo combinare per fare una descrizione interoperabile dei dati.&lt;/p&gt;
+&lt;p&gt;Anche la classe &lt;code&gt;Persona&lt;/code&gt; e il valore controllato di &lt;code&gt;cyberpunk&lt;/code&gt;, probabilmente, esistono già.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;riusiamo-modelli-esistenti-quando-possibile&#34;&gt;Riusiamo modelli esistenti, quando possibile&lt;/h3&gt;
+&lt;p&gt;A patto di rispettare le costrizioni logiche dei  modelli esistenti che intendiamo riutilizzare, li possiamo combinare per fare una descrizione interoperabile dei dati diminuendo drasticamente lo sforzo di creazione e favorendo l&amp;rsquo;interoperabilità dei dati.&lt;/p&gt;
 &lt;p&gt;Alcuni modelli:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;FaBiO&lt;/strong&gt; (&lt;a href=&#34;http://purl.org/spar/fabio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio&lt;/a&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dublin Core Terms&lt;/strong&gt; (&lt;a href=&#34;http://purl.org/dc/terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/&lt;/a&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;PRISM&lt;/strong&gt; (&lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/&lt;/a&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;FOAF&lt;/strong&gt; (&lt;a href=&#34;http://xmlns.com/foaf/0.1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/&lt;/a&gt;);&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wikidata&lt;/strong&gt; (&lt;a href=&#34;http://www.wikidata.org/wiki/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.wikidata.org/wiki/&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LC Subject Headings&lt;/strong&gt; (&lt;a href=&#34;http://id.loc.gov/authorities/subjects&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://id.loc.gov/authorities/subjects&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-triple-riscritte-con-modelli-esistenti&#34;&gt;Le triple, riscritte con modelli esistenti&lt;/h3&gt;
@@ -3002,7 +3428,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;li&gt;&lt;code&gt;dhdmch:Book&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/spar/fabio/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/Book&lt;/a&gt; (abbreviato in &lt;code&gt;fabio:Book&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dhdmch:publicationDate&lt;/code&gt; diventa &lt;a href=&#34;http://prismstandard.org/namespaces/basic/2.0/publicationDate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://prismstandard.org/namespaces/basic/2.0/publicationDate&lt;/a&gt; (abbreviato in &lt;code&gt;prism:publicationDate&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dhdmch:genre&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/dc/terms/type&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/type&lt;/a&gt; (abbreviato in &lt;code&gt;dct:type&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dhdmch:cyberpunk&lt;/code&gt; diventa &lt;a href=&#34;https://www.wikidata.org/wiki/Q174526&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wikidata.org/wiki/Q174526&lt;/a&gt; (abbreviato in &lt;code&gt;wd:Q174526&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dhdmch:cyberpunk&lt;/code&gt; diventa &lt;a href=&#34;http://id.loc.gov/authorities/subjects/sh2012000080&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://id.loc.gov/authorities/subjects/sh2012000080&lt;/a&gt; (abbreviato in &lt;code&gt;lcsh:sh2012000080&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dhdmch:creator&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/dc/terms/creator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/dc/terms/creator&lt;/a&gt; (abbreviato in &lt;code&gt;dct:creator&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dhdmch:pages&lt;/code&gt; diventa &lt;a href=&#34;http://purl.org/spar/fabio/hasPageCount&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://purl.org/spar/fabio/hasPageCount&lt;/a&gt; (abbreviato in &lt;code&gt;fabio:hasPageCount&lt;/code&gt;);&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dhdmch:Person&lt;/code&gt; diventa &lt;a href=&#34;http://xmlns.com/foaf/0.1/Person&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://xmlns.com/foaf/0.1/Person&lt;/a&gt; (abbreviato in &lt;code&gt;foaf:Person&lt;/code&gt;).&lt;/li&gt;
@@ -3015,16 +3441,24 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix foaf: &amp;lt;http://xmlns.com/foaf/0.1/&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix prism: &amp;lt;http://prismstandard.org/namespaces/basic/2.0/&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix rdf: &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;gt; .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix wd: &amp;lt;https://www.wikidata.org/wiki/&amp;gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@prefix lcsh: &amp;lt;http://id.loc.gov/authorities/subjects/&amp;gt; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:neuromancer rdf:type fabio:Book ;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  prism:publicationDate &amp;#34;1984&amp;#34; ;  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dct:genre wd:Q174526 ;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dct:genre lcsh:sh2012000080 ;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  dct:creator ex:william-gibson ;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  fabio:hasPageCount &amp;#34;271&amp;#34; .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ex:william-gibson a foaf:Person .
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;il-grafo-riscritto-con-modelli-esistenti&#34;&gt;Il grafo, riscritto con modelli esistenti&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/modeling-07.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;figcaption&gt;
+      Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-dataset-mythologiae-è-strutturato-in-31-colonne&#34;&gt;Il dataset Mythologiae è strutturato in 31 colonne&lt;/h3&gt;

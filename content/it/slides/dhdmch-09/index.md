@@ -326,7 +326,7 @@ Una tripla finisce sempre con un punto.
 Esempio:
 <span class="entity">Neuromante</span> è un <span class="class">libro</span> diventa  
 
-> \<http://example.org/data/neuromancer\> \<http://www.w3.org/1999/02/22-rdf-syntax-ns#type\> \<http://example.org/dhdmch/Book\>
+> \<http://example.org/data/neuromancer\> \<http://www.w3.org/1999/02/22-rdf-syntax-ns#type\> \<http://example.org/dhdmch/Book\ >
 
 ---
 

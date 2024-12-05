@@ -370,10 +370,30 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
       
 <h3 id="una-precisazione-i-_literal_">Una precisazione: i <em>literal</em></h3>
 <p>Ciò che può essere l&rsquo;oggetto di una tripla RDF e che abbiamo chiamato &ldquo;valore&rdquo; (testuale, numerico, temporale, ecc.).</p>
+<p>In altre parole, i valori degli <span class="attribute">attributi</span>.</p>
 <p>Due tipi:</p>
 <ul>
-<li><strong>Non tipizzati</strong>: il loro <em>datatype</em> non è specificato (es. <code>&quot;271&quot;</code>), e al massimo possono avere un <strong>tag linguistico</strong> reso combinando la stringa con <code>@</code> e il valore di una lingua espressa seguendo lo standard ISO 639-1 (es. <code>&quot;Stringa in italiano&quot;@it</code>);</li>
+<li><strong>Non tipizzati</strong>: il loro <em>datatype</em> non è specificato (es. <code>&quot;271&quot;</code>), e al massimo possono avere un <strong>tag linguistico</strong> reso combinando la stringa con <code>@</code> e il valore di una lingua espressa seguendo lo standard <a href="https://it.wikipedia.org/wiki/ISO_639-1" target="_blank" rel="noopener">ISO 639-1</a> (es. <code>&quot;Stringa in italiano&quot;@it</code>);</li>
 <li><strong>Tipizzati</strong>: il loro <em>datatype</em> è specificato combinando la stringa con due <code>^</code> e l&rsquo;URI che identifica quel <em>datatype</em> (es. <code>&quot;271&quot;^^http://www.w3.org/2001/XMLSchema#integer</code>).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-precisazione-come-scrivere-classi-proprietà-ed-entità-nelluri">Una precisazione: come scrivere classi, proprietà ed entità nell&rsquo;URI</h3>
+<p>RDF non dà regole vere e proprie su come scrivere, ma esistono convenzioni.</p>
+<p>Esempio:</p>
+<ul>
+<li>Le <span class="class">classi</span> iniziano sempre con la lettera maiuscola (es. <span class="class">Book</span>);</li>
+<li>Le proprietà (<span class="relation">relazioni</span> e <span class="attribute">attributi</span>) iniziano sempre con la lettera minuscola (es. <span class="attribute">date</span>);</li>
+<li>Se classi o proprietà sono composti da più parole, in genere sono espresse in <code>CamelCase</code> (es. <span class="class">DigitizationProcess</span>, <span class="relation">hasCreator</span>);</li>
+<li>Le <span class="entity">entità</span> iniziano sempre con la lettera minuscola e, se sono composte da più parole, in genere sono tenute assieme dai trattini (es. <span class="entity">optical-scanner</span>).</li>
 </ul>
 
     </section>
@@ -403,9 +423,9 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="uno-è-luri-del-modello-laltro-è-di-una-classe-appartenente-a-quel-modello">Uno è l&rsquo;URI del modello, l&rsquo;altro è di una classe appartenente a quel modello</h3>
+<h3 id="uno-è-luri-del-modello-laltro-è-di-una-classe-appartenente-a-quel-modello">Uno è l&rsquo;URI &ldquo;del modello&rdquo;, l&rsquo;altro è di una classe appartenente a quel modello</h3>
 <blockquote>
-<p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em> (URI del modello)</p>
+<p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em> (URI &ldquo;del modello&rdquo;)</p>
 </blockquote>
 <blockquote>
 <p><em><a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a></em> (URI della classe Book del modello)</p>
@@ -420,7 +440,7 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
     <section>
     
       
-<h3 id="luri-del-modello-fa-da-base-per-luri-dei-suoi-elementi-classi-proprietà-entità-fa-cioè-da-_namespace_">L&rsquo;URI del modello fa da &ldquo;base&rdquo; per l&rsquo;URI dei suoi elementi (classi, proprietà, entità): fa cioè da <em>namespace</em></h3>
+<h3 id="la-parte-di-uri-in-comune-fa-da-base-per-gli-uri-degli-elementi-classi-proprietà-entità-fa-cioè-da-_namespace_">La parte di URI in comune fa da &ldquo;base&rdquo; per gli URI degli elementi (classi, proprietà, entità): fa cioè da <em>namespace</em></h3>
 <blockquote>
 <p><strong><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em></strong> (URI del modello)</p>
 </blockquote>
@@ -441,6 +461,21 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <p>Inizia con un separatore (di solito un <code>/</code> o un <code>#</code>).</p>
 <blockquote>
 <p><em><a href="http://example.org/dhdmch" target="_blank" rel="noopener">http://example.org/dhdmch</a></em><strong><em>/Book</em></strong> (URI della classe Book del modello)</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-discorso-vale-anche-per-i-dati">Il discorso vale anche per i dati</h3>
+<blockquote>
+<p><em><a href="http://example.org/data" target="_blank" rel="noopener">http://example.org/data</a></em>
+<em><a href="http://example.org/data/neuromante" target="_blank" rel="noopener">http://example.org/data/neuromante</a></em></p>
 </blockquote>
 
     </section>
@@ -499,7 +534,7 @@ Jonathan Blaney, "Introduction to the Principles of Linked Open Data," Programmi
 <p>Esempio:
 <span class="entity">Neuromante</span> è un <span class="class">libro</span> diventa</p>
 <blockquote>
-<p><a href="http://example.org/data/neuromancer" target="_blank" rel="noopener">http://example.org/data/neuromancer</a> <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_blank" rel="noopener">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a> <a href="http://example.org/dhdmch/Book" target="_blank" rel="noopener">http://example.org/dhdmch/Book</a></p>
+<p>&lt;http://example.org/data/neuromancer&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://example.org/dhdmch/Book\ &gt;</p>
 </blockquote>
 
     </section>

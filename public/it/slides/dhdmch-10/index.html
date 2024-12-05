@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5609693425197255918.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/dhdmch-10/">
+
+  <title>DHDMCH - PROCESS - Preparare ed Elaborare | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="process-preparare-ed-elaborare">PROCESS: preparare ed elaborare</h1>
+<h2 id="lezione-10-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025">Lezione 10 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="produzione-raccolta-e-analisi">Produzione, raccolta e analisi</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="../dhdmch-01/img/dmanagement-2.png" 
+      style="
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      "
+      />
+      <figcaption>
+        Fonte: Gualandi, B., Caldoni, G., & Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. <a href="https://doi.org/10.5281/zenodo.7249051">https://doi.org/10.5281/zenodo.7249051</a>.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Azioni principali: raccogliere o creare i dati, <strong>elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità)</strong>, analizzare i dati per generare risultati utili, produrre la documentazione dei dati e delle metodologie utilizzate.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="capiamo-i-dati-che-abbiamo">Capiamo i dati che abbiamo</h3>
+<p>Trovare o creare dei dati è una cosa, ma <em>capirli</em> è un&rsquo;altra.</p>
+<p>Attraverso l&rsquo;elaborazione di questi dati possiamo cercare di fornirgli un contesto e determinarne il significato.</p>
+<p>Però, anche la più semplice interrogazione richiede che abbiamo una certa comprensione di ciò che c&rsquo;è in quel dataset, capire se si tratta di &ldquo;dati buoni&rdquo;.</p>
+<div class="footer">
+  University of York (2024). Data: A Practical Guide. <a href="https //subjectguides.york.ac.uk/data">https //subjectguides.york.ac.uk/data</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="capiamo-i-dati-che-abbiamo-1">Capiamo i dati che abbiamo</h3>
+<blockquote>
+<p>&ldquo;L&rsquo;appuntamento con il Dott. Watt è martedì alle 14:30 presso il centro medico di Heslington Lane.&rdquo;</p>
+</blockquote>
+<p>Questo testo contiene i seguenti campi di dati:</p>
+<ul>
+<li>Con chi è l&rsquo;appuntamento;</li>
+<li>Il giorno (data) dell&rsquo;appuntamento;</li>
+<li>L&rsquo;orario dell&rsquo;appuntamento;</li>
+<li>La posizione dell&rsquo;appuntamento.</li>
+</ul>
+<p>Se volessimo registrare gli appuntamenti in un sistema informatico, dovremmo utilizzare <em>campi separati</em> per questi dati — ad esempio, colonne separate in una tabella; elementi e attributi in TEI; classi, proprietà ed entità in RDF; ecc.</p>
+<div class="footer">
+  University of York (2024). Data: A Practical Guide. <a href="https //subjectguides.york.ac.uk/data">https //subjectguides.york.ac.uk/data</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="capiamo-se-i-dati-che-abbiamo-sono-di-qualità">Capiamo se i dati che abbiamo sono di qualità</h3>
+<p>I sistemi informatici e i software sbagliano a leggere i nostri dati, se questi campi non sono separati bene (cioé come ne abbiamo veramente bisogno), oppure se i <em>datatype</em> (stringa, numero, data, booleano, ecc.) sono errati (es. una data che viene riconosciuta come una stringa, oppure una stringa riconosciuta come un numero).</p>
+<p>Perché un software possa analizzare correttamente i dati, questi devono essere formattati in modo che il programma possa interpretarli (essere cioé <strong>di qualità</strong>).</p>
+<p>Se i dati non sono di qualità, non sarà possibile eseguire operazioni come ordinare, sommare, calcolare medie, eseguire operazioni di NLP, ecc.</p>
+<div class="footer">
+  University of York (2024). Data: A Practical Guide. <a href="https //subjectguides.york.ac.uk/data">https //subjectguides.york.ac.uk/data</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="per-essere-utilizzabili-i-dati-devono-essere-di-qualità">Per essere utilizzabili, i dati devono essere di qualità</h3>
+<p>&hellip; per essere compresi da te in futuro.</p>
+<p>&hellip; per essere leggibili dalle macchine (<em>Interoperable</em> secondo <a href="https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti" target="_blank" rel="noopener">FAIR</a>).</p>
+<p>&hellip; per essere compresi dagli altri (esseri umani e macchine) (<em>Reusable</em> secondo <a href="https://sba.unibo.it/it/almadl/open-access-e-open-science/dati-della-ricerca-aperti" target="_blank" rel="noopener">FAIR</a>).</p>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/chaos.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<h2 id="il-caos-regna">Il caos regna</h2>
+<!--
+Photo by <a href="https://unsplash.com/@irfansimsar?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">İrfan Simsar</a> on <a href="https://unsplash.com/photos/a-flock-of-birds-flying-over-a-building-Jfc5cBlRv3U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-dati-sono-spesso-disordinati">I dati sono spesso disordinati</h3>
+<p>Colonne o altri campi potrebbero contenere una miscela di testo e dati numerici, alcune righe potrebbero avere dati mancanti, oppure l&rsquo;unione di due dataset separati è ostacolata dai nomi dei campi che non corrispondono esattamente.</p>
+<p>Dobbiamo avere i dati in un formato utile per le nostre necessità: se stiamo analizzando o visualizzando dati, quali informazioni (e tipi di dati) richiede quell&rsquo;analisi o visualizzazione?</p>
+<p>L'80% del lavoro sui dati è dedicato al processo di pulizia dei dati e alla loro preparazione per ulteriori manipolazioni e analisi.</p>
+<p>La pulizia e la preparazione dei dati sono operazioni continue ed iterative.</p>
+<div class="footer">
+  University of York (2024). Data: A Practical Guide. <a href="https //subjectguides.york.ac.uk/data">https //subjectguides.york.ac.uk/data</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-successo-dellelaborazione-dei-dati-dipende-dalla-qualità-dei-dati-di-partenza">Il successo dell&rsquo;elaborazione dei dati dipende dalla qualità dei dati di partenza</h3>
+<p>Si tratta di garantire che i tuoi dati siano validati e trattabili come vorremmo.</p>
+<p>Se abbiamo un campo contenente date &ldquo;vaghe&rdquo; — date contenenti annotazioni di testo (ad esempio <code>c.1810</code> o <code>1990-1997</code>), potremmo volere invece delle date leggibili dalla macchina (ad esempio <code>1810</code>, <code>1990</code>, ecc.).</p>
+<p>Questo potrebbe significare perdere alcune informazioni e sfumature dai dati, e dovremo tenerne conto nell&rsquo;analisi; ma almeno avremo dati <em>parsabili</em> dalla macchina che potremo analizzare in modo efficace.</p>
+<div class="footer">
+  University of York (2024). Data: A Practical Guide. <a href="https //subjectguides.york.ac.uk/data">https //subjectguides.york.ac.uk/data</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esempio-più-semplice-le-tabelle">Esempio più semplice: le tabelle</h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="in-un-mondo-perfetto">In un mondo perfetto&hellip;</h3>
+<p>Ogni <strong>valore</strong> appartiene a una <strong>variabile</strong> e a un&rsquo;<strong>osservazione</strong>.</p>
+<p>Ogni <strong>variabile</strong> forma una <strong>colonna</strong>.</p>
+<p>Ogni <strong>osservazione</strong> forma una <strong>riga</strong>.</p>
+<div class="footer">
+  S. Ciston, “A CRITICAL FIELD GUIDE FOR WORKING WITH MACHINE LEARNING DATASETS”, K. Crawford and M. Ananny, Eds., Knowing Machines project, Feb. 2023. <a href="https://knowingmachines.org/critical-field-guide">https://knowingmachines.org/critical-field-guide</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-colonna-per-ogni-variabile">Una colonna per ogni variabile</h3>
+<figure>
+    <img src="img/tidy-1.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <figcaption>
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
+    </figcaption>
+</figure>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-riga-per-ogni-osservazione">Una riga per ogni osservazione</h3>
+<figure>
+    <img src="img/tidy-2.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <figcaption>
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
+    </figcaption>
+</figure>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-cella-per-ogni-valore">Una cella per ogni valore</h3>
+<figure>
+    <img src="img/tidy-3.png" alt="https://r4ds.had.co.nz/tidy-data.html" height="auto" width="500">
+    <figcaption>
+        Fonte: Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. O'Reilly Media, Inc. <a href="https://r4ds.had.co.nz/tidy-data.html">https://r4ds.had.co.nz/tidy-data.html</a>.
+    </figcaption>
+</figure>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/error.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<h2 id="errori-comuni">Errori comuni</h2>
+<!--
+Photo by <a href="https://unsplash.com/@rojekilian?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sarah Kilian</a> on <a href="https://unsplash.com/photos/brown-ice-cream-cone-52jRtc2S_VE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-pulizia-dei-dati-è-difficile-ma-ne-vale-la-pena">La pulizia dei dati è difficile (ma ne vale la pena)!</h3>
+<p>Può essere riassunta in una serie di attività:</p>
+<ul>
+<li>Preparare i dati;</li>
+<li>Eliminare inutili ridondanze;</li>
+<li>Separare o combinare i valori;</li>
+<li>Gestire errori e incoerenze (es. duplicati, valori nulli, errori di ortografia o formattazione incoerenti, ecc.);</li>
+<li>Standardizzare quando possibile.</li>
+</ul>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-modificare-mai-i-dati-originali">Non modificare mai i dati originali</h3>
+<p>Fai sempre una copia prima di apportare modifiche.</p>
+<p>Esegui il backup dei file.</p>
+<p>Tieni traccia di tutti i passaggi.</p>
+<p>Salva i tuoi file in codifiche permissive e largamente utilizzate, come <a href="https://www.ionos.it/digitalguide/siti-web/creare-siti/utf-8-codifica-della-comunicazione-digitale-globale/" target="_blank" rel="noopener">UTF-8</a>.</p>
+<div class="footer">
+Seth van Hooland, Ruben Verborgh, and Max De Wilde, "Cleaning Data with OpenRefine," Programming Historian 2 (2013), <a href="https://doi.org/10.46430/phen0023">https://doi.org/10.46430/phen0023</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="descrivi-sempre-i-dati">Descrivi sempre i dati</h3>
+<p>Documenta tutto il necessario per capire cosa c&rsquo;è nel dataset e come utilizzarlo.</p>
+<p>Considera di indicare:</p>
+<ul>
+<li>Il &ldquo;chi&rdquo;, &ldquo;cosa&rdquo;, &ldquo;quando&rdquo;, &ldquo;dove&rdquo; e &ldquo;come&rdquo; dei dati;</li>
+<li>Modalità di reperimento e accesso ai dati;</li>
+<li>Suggerimenti sull&rsquo;idoneità dei dati per rispondere a domande specifiche;</li>
+<li>Avvertenze sui problemi o le incoerenze note nei dati;</li>
+<li>Informazioni per verificare che i dati siano importati correttamente.</li>
+</ul>
+<div class="footer">
+White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-12">Evita di aggregare commenti e altre informazioni con i dati (1/2)</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <figure>
+            <img src="img/multiple-info.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html">https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 1;">
+        <p>Inserimento di più di un tipo di informazione in una cella (es. commenti, unità di misura, metadati, ecc.).</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="evita-di-aggregare-commenti-e-altre-informazioni-con-i-dati-22">Evita di aggregare commenti e altre informazioni con i dati (2/2)</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <figure>
+            <img src="img/single-info.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html">https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 1;">
+        <p>Aggiungi le informazioni aggiuntive al titolo della colonna o in una colonna separata.</p>
+        <p>Aggiungi i metadati in un documento separato.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-utilizzare-la-formattazione-per-trasmettere-informazioni-12">Non utilizzare la formattazione per trasmettere informazioni (1/2)</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <figure>
+            <img src="img/formatting.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html">https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 2;">
+        <p>Es. evidenziare celle, righe o colonne che dovrebbero essere escluse da un'analisi; lasciare righe vuote per indicare separazioni nei dati, ecc.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-utilizzare-la-formattazione-per-trasmettere-informazioni-22">Non utilizzare la formattazione per trasmettere informazioni (2/2)</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <figure>
+            <img src="img/good-formatting.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html">https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 2;">
+        <p>Aggiungi le unità al titolo della colonna o in una colonna separata.</p>
+        <p>Aggiungi le informazioni in una colonna separata.</p>
+        <p>Aggiungi i metadati in un documento separato.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-utilizzare-più-tabelle-o-più-schede">Non utilizzare più tabelle o più schede</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+        <figure>
+            <img src="img/multiple-tables.jpg" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html">https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 1;">
+        <p>Es. più di una tabella o scheda all'interno di un singolo foglio di calcolo.</p>
+        <p>Se possibile, combina tutto in una tabella unica o mantieni ogni tabella in un file separato.</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="non-utilizzare-caratteri-speciali">Non utilizzare caratteri speciali</h3>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 2;">
+        <figure>
+            <img src="img/special-characters.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" height="auto" width="700">
+            <figcaption>
+                Fonte: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html">https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html</a>.
+            </figcaption>
+        </figure>
+    </div>
+    <div style="flex: 1;">
+        <p>Se possibile, evita <a href="https://www.edatlas.it/scarica/1836/Capitolo5/ContenutiDigitali/2EntitaCarattere.pdf">caratteri speciali</a> almeno nelle intestazioni delle colonne: <code>/</code> <code>\</code> <code>:</code> <code>*</code> <code>.</code> <code>?</code> <code>‘</code> <code><</code> <code>></code> <code>[</code> <code>]</code> <code>(</code> <code>)</code> <code>&</code> <code>$</code> <code>æ</code> <code>Æ</code> ...</p>
+        <p>Evita sempre di utilizzare spazi nei titoli delle colonne: invece, utilizza underscore (<code>_</code>) o CamelCase (es. <code>TitoloPrincipale</code>).</p>
+    </div>
+</div>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="sii-coerente">Sii coerente</h3>
+<ul>
+<li>Esempio 1: date visualizzate in molti formati diversi (&ldquo;12 luglio 2024&rdquo;, &ldquo;12/07/2024&rdquo;, &ldquo;12-07-2024&rdquo;, ecc.);
+<ul>
+<li>Utilizza <strong>standard internazionali</strong> (es. <a href="https://www.loc.gov/standards/datetime/" target="_blank" rel="noopener">EDTF</a>, <a href="https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/" target="_blank" rel="noopener">ISO-8601</a>);</li>
+</ul>
+</li>
+<li>Esempio 2: nomi visualizzati in molte varianti diverse (&ldquo;Alessandro Manzoni&rdquo;, &ldquo;A. Manzoni&rdquo;, &ldquo;Manzoni&rdquo;, &ldquo;Manzoni, Alessandro&rdquo;, ecc.);
+<ul>
+<li>Utilizza <strong>record di autorità</strong> (es. <a href="https://viaf.org/" target="_blank" rel="noopener">VIAF</a>, possibilmente inserendo sia il nome leggibile per gli esseri umani sia l&rsquo;URI al record, se esistente);</li>
+</ul>
+</li>
+<li>Sii coerente anche nella <strong>capitalizzazione</strong> delle parole, nella scelta dei <strong>delimitatori</strong> e nelle convenzioni di <strong>denominazione</strong> per le variabili;</li>
+<li>Evita di utilizzare il delimitatore usato dal dataset (es. <code>,</code>, <code>;</code>, <code>/</code>, ecc.) nei dati stessi;</li>
+<li>Fai attenzione agli <strong>spazi</strong>!</li>
+</ul>
+<div class="footer">
+  UiT The Arctic University of Norway. (2023). Data Cleaning. Zenodo. <a href="https://doi.org/10.5281/zenodo.8375643">https://doi.org/10.5281/zenodo.8375643</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="elimina-la-ridondanza-con-cautela">Elimina la ridondanza (con cautela!)</h3>
+<p>In un&rsquo;eventuale eliminazione dei dati includi:</p>
+<ul>
+<li>Duplicati;</li>
+<li>Osservazioni irrilevanti;</li>
+<li>Dati incompleti;</li>
+<li>Dati non validi;</li>
+<li>Dati in conflitto.</li>
+</ul>
+<p>Sono tutte <strong>interpretazioni</strong>: considera sempre <em>molto attentamente</em> se un&rsquo;osservazione o una variabile debbano essere eliminate o meno!</p>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="tratta-sempre-i-valori-_null_">Tratta sempre i valori <em>NULL</em></h3>
+<p>Usa un metodo coerente che sia compatibile e che non causi errori (come lasciare la cella vuota).</p>
+<p>Considera che:</p>
+<ul>
+<li>Può essere difficile sapere se un valore è mancante o è stato trascurato durante l&rsquo;inserimento dei dati;</li>
+<li>Gli spazi vuoti possono essere confusi quando spazi (<code>  </code>) o tabs (<code>/</code>) sono usati come delimitatori;</li>
+<li><code>NA</code> e <code>NULL</code> sono valori nulli ragionevoli.</li>
+</ul>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esegui-sempre-un-controllo-di-qualità">Esegui sempre un controllo di qualità</h3>
+<p>Verifica:</p>
+<ul>
+<li>Errori grammaticali;</li>
+<li>Uso incoerente di maiuscole e minuscole;</li>
+<li>Titoli incoerenti per le colonne;</li>
+<li>Unità di misura incoerenti, tipi di dati incoerenti (es. numero, stringa), schemi di denominazione, ecc.;</li>
+<li>Valori fuori intervallo.</li>
+</ul>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="quando-hai-finito-esporta-e-condividi">Quando hai finito, esporta e condividi</h3>
+<p>Utilizza una licenza aperta per far sapere agli altri esattamente cosa possono e non possono fare con i dati (es. <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">Creative Commons Zero (CC0)</a>).</p>
+<p>Utilizza formati aperti per rendere i dati interoperabili (es. <a href="https://en.wikipedia.org/wiki/Comma-separated_values" target="_blank" rel="noopener">CSV</a>), quando possibile.</p>
+<p>Considera di condividere i tuoi dati su <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> e/o di pubblicarli su un repository (es. <a href="https://zenodo.org/" target="_blank" rel="noopener">Zenodo</a>, <a href="https://figshare.com/" target="_blank" rel="noopener">Figshare</a>, ecc.) per renderli visibili, accessibili, e versionati.</p>
+<div class="footer">
+  White, E. P., Baldridge, E., Brym, Z. T., Locey, K. J., McGlinn, D. J., & Supp, S. R. (2013). Nine simple ways to make it easier to (re)use your data (e7v2). PeerJ Inc. <a href="https://doi.org/10.7287/peerj.preprints.7v2">https://doi.org/10.7287/peerj.preprints.7v2</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-10-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1">Lezione 10 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>
