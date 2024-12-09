@@ -1,17 +1,17 @@
 ---
-title: DHDMCH - Metti la cera, togli la cera
+title: DHDMCH - Dai la cera, togli la cera
 summary: Introduzione al corso di Digital Humanities e Data Management per i Beni Culturali
 authors: [Sebastian Barzaghi]
 tags: [Digital Humanities]
 categories: [Digital Humanities]
-date: '2023-12-05T00:00:00Z'
+date: '2023-12-09T00:00:00Z'
 slides:
   theme: white
   highlight_style: github-light
 
 ---
 
-# Metti la cera, togli la cera
+# Dai la cera, togli la cera 
 
 ## Lezione 11 del corso di _Digital Humanities e Data Management per i Beni Culturali_ (2024/2025)
 
@@ -41,12 +41,12 @@ OpenRefine permette di:
 
 ### Alcuni scenari di utilizzo
 
-* Vuoi sapere quante volte un particolare valore appare in una colonna nei tuoi dati;
+* Vuoi sapere quante volte un certo valore appare in una colonna in un dataset;
 * Vuoi sapere come i valori sono distribuiti in tutto il dataset;
-* Vuoi normalizzare date formattate in modi diversi ad un unico formato comune;
+* Vuoi allineare date formattate in modi diversi ad un unico formato comune;
 * Vuoi normalizzare nomi o termini che, pur riferendosi alle stesse entità, differiscono tra loro;
 * Vuoi separare frammenti di dati combinati insieme in dati individuali;
-* Vuoi allineare i dati a una fonte esterna.
+* Vuoi riconciliare i dati ad una fonte esterna.
 
 <div class="footer">
   Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... & Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. <a href="http://dx.doi.org/10.18352/lq.10176">http://dx.doi.org/10.18352/lq.10176</a>.
@@ -73,8 +73,8 @@ OpenRefine permette di:
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Scarica il dataset Mythologiae (link in chat);</li>
-        <li>In <em>Create Project</em> > <em>This computer</em>, clicca su <em>Choose files</em> e carica <code>mythologiae-dataset.csv</code>;</li>
+        <li>Scarica il dataset su cui lavorare: <a href="<https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing>">https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing</a>;</li>
+        <li>In <em>Create Project</em> > <em>This computer</em>, clicca su <em>Choose files</em> e carica il dataset appena scaricato;</li>
         <li>Clicca su <em>Next</em>.</li>
       </ul>
     </div>
@@ -257,7 +257,7 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Tipicamente, crei una facet su una particolare colonna;</li>
+        <li>Tipicamente, si crea una facet su una particolare colonna;</li>
         <li>Fai clic sul <em>triangolo</em> davanti al nome della colonna (esempio: <code>dcho_theme</code>);</li>
         <li>Seleziona <em>Facet</em>;</li>
         <li>Seleziona una facet a tua scelta (esempio: <em>Text facet</em>).</li>
@@ -645,7 +645,7 @@ Le colonne sono:
 
 * Salvare il dataset ripulito in formato `.csv`;
 * Salvare i passaggi in un file `.json` separato;
-* Caricare entrambi in una cartella `2024-12-09_mythologiae_keyword_author_v1.0.0` da mettere in `tutorial` > `data` > `csv`.
+* Caricare entrambi in una cartella `mythologiae_keyword_author_v0.1.0` da mettere in `tutorial` > `data` > `csv`.
 
 ---
 
