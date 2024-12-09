@@ -73,7 +73,7 @@ OpenRefine permette di:
     </div>
     <div style="flex: 1; padding-left: 20px;">
       <ul>
-        <li>Scarica il dataset su cui lavorare: <a href="<https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing>">https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing</a>;</li>
+        <li>Scarica il dataset su cui lavorare: <a href="https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing</a>;</li>
         <li>In <em>Create Project</em> > <em>This computer</em>, clicca su <em>Choose files</em> e carica il dataset appena scaricato;</li>
         <li>Clicca su <em>Next</em>.</li>
       </ul>
