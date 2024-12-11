@@ -293,7 +293,10 @@ Proprietà di una visualizzazione dei dati che aiutano la creazione di elementi 
   </div>
   <div style="flex: 1;">
       <p>
-        Il formato e la simmetria della visualizzazione cambiano in base al volume dei dati e al numero di attributi da mostrare. Più visualizzazioni in contemporanea aiutano il confronto, ma nascondono la visione d'insieme!
+        Il formato e la simmetria della visualizzazione cambiano in base al volume dei dati e al numero di attributi da mostrare. 
+      </p>
+      <p>
+        Più visualizzazioni in contemporanea aiutano il confronto, ma nascondono la visione d'insieme.
       </p>
   </div>
 </div>
@@ -310,7 +313,7 @@ Proprietà di una visualizzazione dei dati che aiutano la creazione di elementi 
   </div>
   <div style="flex: 1;">
       <p>
-        La forma degli elementi aiuta a distinguerli.
+        La forma degli elementi aiuta a distinguere le informazioni espresse.
       </p>
   </div>
 </div>
@@ -327,7 +330,13 @@ Proprietà di una visualizzazione dei dati che aiutano la creazione di elementi 
   </div>
   <div style="flex: 1;">
       <p>
-        Le differenze di colore vengono percepite quasi immediatamente. Il colore è utile per distinguere gli elementi o i pattern diversi, ma dipende dalla grandezza del dataset. La luminosità evidenzia i pattern rilevanti.
+        Le differenze di colore vengono percepite quasi immediatamente. 
+      </p>
+      <p>
+        Il colore è utile per distinguere gli elementi o i pattern diversi, ma dipende dalla grandezza del dataset. 
+      </p>
+      <p>
+        La luminosità evidenzia i pattern rilevanti.
       </p>
   </div>
 </div>
@@ -387,12 +396,11 @@ Link: <https://voyant-tools.org/>.
 
 ### Cosa potete caricare
 
-Formati accettati: TXT, HTML, XML, TEI, PDF, RTF, MS Word,
-JSON, CSV.
+Formati accettati: TXT, HTML, XML, TEI, PDF, RTF, MS Word, JSON, CSV.
 
-Per gestire i PDF, VT contiene ed utilizza un meccanismo di OCR, ma il risultato può variare molto a seconda della qualità del documento.
+Per gestire i PDF, VT contiene ed utilizza un meccanismo di riconoscimento automatico del testo (OCR), ma il risultato può variare molto a seconda della qualità del documento.
 
-Il modo in cui vengono caricati i file influenza il tipo di analisi successiva (es. testo unico vs. divisione in capitoli).
+Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi successiva (es. testo unico vs. divisione in capitoli).
 
 ---
 
@@ -414,26 +422,26 @@ Il modo in cui vengono caricati i file influenza il tipo di analisi successiva (
 
 ### Funzioni principali
 
-- READER: lettore del testo, permette il close reading;
-- CIRRUS: visualizzatore frequenza dei termini;
-- BUBBLES: visualizzatore frequenza dei termini;
-- TERMS: analisi della frequenza dei termini;
-- TRENDS: andamento delle frequenza dei termini;
-- BUBBLELINES: frequenza e distribuzione dei termini;
-- MICROSEARCH: frequenza e distribuzione dei termini;
-- CONTEXT: contesti di occorrenza dei termini;
+- **READER**: lettore del testo, permette il close reading;
+- **CIRRUS**: visualizzatore frequenza dei termini;
+- **BUBBLES**: visualizzatore frequenza dei termini;
+- **TERMS**: analisi della frequenza dei termini;
+- **TRENDS**: andamento delle frequenza dei termini;
+- **BUBBLELINES**: frequenza e distribuzione dei termini;
+- **MICROSEARCH**: frequenza e distribuzione dei termini;
+- **CONTEXT**: contesti di occorrenza dei termini;
 
 ---
 
 ### Funzioni principali
 
-- PHRASES: sequenze di parole che co-occorrono;
-- COLLOCATES: termini che appaiono vicino ad altri termini;
-- CORRELATIONS: termini la cui frequenza varia in sintonia;
-- MANDALA: relazioni tra termini e documenti;
-- SUMMARY: informazioni sul corpus;
-- DOCUMENTS: informazioni sui singoli documenti;
-- TOPICS: topic modeling.
+- **PHRASES**: sequenze di parole che co-occorrono;
+- **COLLOCATES**: termini che appaiono vicino ad altri termini;
+- **CORRELATIONS**: termini la cui frequenza varia in sintonia;
+- **MANDALA**: relazioni tra termini e documenti;
+- **SUMMARY**: informazioni sul corpus;
+- **DOCUMENTS**: informazioni sui singoli documenti;
+- **TOPICS**: topic modeling.
 
 Documentazione: <https://voyant-tools.org/docs/#!/guide/tools>.
 
