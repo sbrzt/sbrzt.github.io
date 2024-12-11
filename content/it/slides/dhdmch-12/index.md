@@ -85,44 +85,42 @@ Graham, E. (2017). Introduction: Data visualisation and the humanities. English 
 ### Altre tipologie di dati
 
 1. Dati
-    - Testuali: stringhe di testo (es. descrizioni di opere d'arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l'analisi di frequenze o sentimenti;
-    - Numerici: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;
-    - Spaziali: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d'arte) che possono essere utilizzate per analizzare distribuzioni geografiche;
-    - Temporali: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.
+    - **Testuali**: stringhe di testo (es. descrizioni di opere d'arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l'analisi di frequenze o sentimenti;
+    - **Numerici**: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;
+    - **Spaziali**: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d'arte) che possono essere utilizzate per analizzare distribuzioni geografiche;
+    - **Temporali**: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.
 
 ---
 
 ### Altre tipologie di dati
 
 2. Dati
-    - Strutturati: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);
-    - Semi-strutturati: organizzati in strutture più flessibili (es. XML, RDF);
-    - Non strutturati: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).
+    - **Strutturati**: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);
+    - **Semi-strutturati**: organizzati in strutture più flessibili (es. XML, RDF);
+    - **Non strutturati**: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).
 
 ---
 
 ### Altre tipologie di dati
 
 3. Dati
-    - Qualitativi: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;
-    - Quantitativi: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.
+    - **Qualitativi**: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;
+    - **Quantitativi**: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.
 
 ---
 
 ### Altre tipologie di dati
 
 4. Dati 
-    - Numerici: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;
-    - Categorici: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d'arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;
-    - Ordinali: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).
+    - **Numerici**: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;
+    - **Categorici**: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d'arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;
+    - **Ordinali**: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).
 
 ---
 
 ### Il punto di inizio è l'EDA
 
-Exploratory Data Analysis: approccio all'analisi dei dati che si concentra sull'esplorazione e sulla comprensione dei dati attraverso tecniche statistiche e visuali. 
-
-L'EDA è un passo preliminare nel processo di analisi dei dati e si svolge prima di applicare modelli statistici complessi o algoritmi di machine learning. 
+**Exploratory Data Analysis**: Passo iniziale nel processo di analisi dei dati, che si concentra sull'esplorazione e sulla comprensione dei dati attraverso un'elaborazione e visualizzazione veloce dei dati. 
 
 Lo scopo principale dell'EDA è fornire un'evidenza delle particolarità di un fenomeno descritto nei dati, partendo da una qualche domanda di ricerca.
 
@@ -132,11 +130,11 @@ Behrens, J. T. (1997). Principles and procedures of exploratory data analysis. P
 
 ---
 
-### Tipi di analisi
+### Alcuni tipi di analisi
 
 - **Statistica**: fondamentale per comprendere la struttura e le caratteristiche di un dataset a livello micro (es. singola opera), meso (es. un gruppo di opere) e macro (es. evoluzione delle tendenze artistiche nel corso dei secoli);
-- **Temporale**: esplora come le variabili cambiano nel tempo (es. numero di visitatori di un museo);
-- **Geospaziale**: si occupa della distribuzione spaziale e geografica dei dati (es. mappatura della posizione di beni culturali);
+- **Temporale**: esplora come le variabili cambiano nel tempo (es. numero di visitatori di un museo nell'arco di cinque anni);
+- **Geospaziale**: si occupa della distribuzione spaziale e geografica dei dati (es. mappatura della posizione di beni culturali sul terriorio);
 - **Tematica**: si concentra sull'esame delle variabili categoriche, cioè su quelle che appartengono a gruppi distinti senza un ordine intrinseco (es. analisi di categorie, classificazione dei beni in base al periodo storico o alla regione geografica di origine);
 - **Network**: riguarda lo studio delle relazioni tra entità presenti nei dati (es. analizzare la rete di influenze tra artisti e movimenti culturali).
 
@@ -160,12 +158,17 @@ Particolarmente utile per elaborare grandi volumi di dati basati su testo.
 
 Integra approcci qualitativi e quantitativi.
 
+<div class="footer">
+Ittoo, A., & van den Bosch, A. (2016). Text analytics in industry: Challenges, desiderata and trends. Computers in Industry, 78, 96-107. <a href="https://doi.org/10.1016/j.compind.2015.12.001">https://doi.org/10.1016/j.compind.2015.12.001</a>.
+</div>
+
+
 ---
 
 ### Alcune operazioni molto comuni
 
-- Frequenza delle parole;
-- Frequenza di N-gram (sequenze di parole che co-occorrono insieme in maniera significativa);
+- Calcolo della frequenza delle parole;
+- Calcolo della frequenza di N-gram (sequenze di parole che co-occorrono insieme in maniera significativa);
 - Analisi delle concordanze (liste di occorrenza di una o più parole assieme alle parole vicine);
 - Classificazione dei documenti;
 - Riconoscimento automatico delle entità;
@@ -177,7 +180,7 @@ Integra approcci qualitativi e quantitativi.
 ### Un esempio di approccio: Bag of Words
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/bag-of-words.png" height="auto" width="700"/>
       <figcaption>
@@ -187,7 +190,7 @@ Integra approcci qualitativi e quantitativi.
   </div>
   <div style="flex: 1;">
       <p>
-        Secondo l'approccio BoW, quasi tutta la struttura innata viene rimossa dal testo, inclusi punteggiatura, spazi bianchi e paragrafi, l'ordine in cui le parole appaiono, ecc., ritrovandoci così con un ammasso non strutturato di parole.
+        Secondo l'approccio BoW, quasi tutta la struttura "innata" viene rimossa dal testo (inclusi punteggiatura, spazi bianchi e paragrafi, l'ordine in cui le parole appaiono, ecc.), ritrovandoci così con un ammasso disordinato di parole.
       </p>
   </div>
 </div>
@@ -200,12 +203,12 @@ Zhang, Y., Jin, R., & Zhou, Z. H. (2010). Understanding bag-of-words model: a st
 
 ### Il preprocessing
 
-Per poter avere questo "sacchetto di parole" e poterci operare sopra con le docute analisi, è necessario preparare i dati per la loro elaborazione effettiva.
+Per poter avere questo "sacchetto di parole" e poterci operare sopra con le dovute analisi, è necessario preparare i dati per la loro elaborazione effettiva.
 
 Tipiche attività di preprocessing includono:
-- Tokenizzazione: suddivisione di uno o più testi in pezzi più piccoli (_token_) che diventano l'unità di analisi;
-- Rimozione di _stopword_ (lista di parole estremamente comuni che tendono a non essere informative);
-- Stemming/Lemmatizzazione: rimozione di certe terminazioni delle parole per facilitare l'aggregazione di alcune parole simili (ma non uguali per come sono scritte).
+- **Tokenizzazione**: suddivisione di uno o più testi in pezzi più piccoli (_token_) che diventano l'unità di analisi (es. "Questa è una frase." => `Questa`, `è`, `una`, `frase`);
+- **Rimozione di _stopword_** (lista di parole estremamente comuni che tendono a non essere informative) (es. pronomi, articoli, ecc.);
+- **Stemming**/**Lemmatizzazione**: rimozione di certe terminazioni delle parole per facilitare l'aggregazione di alcune parole simili (ma non uguali, per come sono scritte) (es. "calciatori" => "calciatore").
 
 <div class="footer">
 Zhang, Y., Jin, R., & Zhou, Z. H. (2010). Understanding bag-of-words model: a statistical framework. International journal of machine learning and cybernetics, 1, 43-52. <a href="https://doi.org/10.1007/s13042-010-0001-0">https://doi.org/10.1007/s13042-010-0001-0</a>.
