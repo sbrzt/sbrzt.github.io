@@ -96,6 +96,12 @@ Gruppi di parole semanticamente connesse (es. personaggi, luoghi, emozioni) da u
 
 ### Esplorate!
 
+Cambiate:
+- Opzioni di upload: nella schermata principale, andate su _Options_ > _Tables_ e cambiate il valore di _Documents_ in `from cells in each row`;
+- Visualizzazioni e le impostazioni per ogni visualizzazione;
+
+Come cambiano i dati? E le visualizzazioni?
+
 ---
 
 ### Esportate le visualizzazioni
@@ -103,6 +109,10 @@ Gruppi di parole semanticamente connesse (es. personaggi, luoghi, emozioni) da u
 - Cliccate sull'icona per l'esportazione (la prima in alto a destra nel riquadro della skin);
 - Cliccate su _Export Visualization_ e poi _Export a PNG image of this visualization_;
 - Sincronizzate, caricate le immagini nel vostro clone della repo, dentro `tutorial` > `doc` > `img` > `viz`, e fate il pull request.
+
+---
+
+## ... E già che ci siamo, ri-allineamo il DMP rispetto a tutto quello che abbiamo fatto fino ad ora!
 
 ---
 
