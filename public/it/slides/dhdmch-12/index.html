@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5609693425197255918.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/dhdmch-12/">
+
+  <title>DHDMCH - ANALYZE - Analizzare | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="analyze-analizzare">ANALYZE: Analizzare</h1>
+<h2 id="lezione-12-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025">Lezione 12 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="produzione-raccolta-e-analisi">Produzione, raccolta e analisi</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="../dhdmch-01/img/dmanagement-2.png" 
+      style="
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      "
+      />
+      <figcaption>
+        Fonte: Gualandi, B., Caldoni, G., & Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. <a href="https://doi.org/10.5281/zenodo.7249051">https://doi.org/10.5281/zenodo.7249051</a>.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), <strong>analizzare i dati per generare risultati utili</strong>, produrre la documentazione dei dati e delle metodologie utilizzate.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="per-capire-bisogna-analizzare">Per capire bisogna analizzare</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="parte-tutto-dalla-_data-literacy_">Parte tutto dalla <em>data literacy</em></h3>
+<p>La capacità di leggere, creare, usare, comunicare e criticare i dati.</p>
+<p>Dipende dalla qualità, accessibilità, usabilità e comprensibilità dei dati, sulla base del loro contenuto e contesto.</p>
+<p>Per esempio, nell&rsquo;ambito umanistico, consiste nel riconoscimento delle potenzialità della ricerca che si sta portando avanti, essere cosciente dei metodi di ricerca che si sta utilizzando, e comprendere il contesto e la provenienza dei dati.</p>
+<div class="footer">
+Koltay, T. (2017). Data literacy for researchers and data librarians. Journal of Librarianship and Information Science, 49(1), 3-14. <a href="https://doi.org/10.1177/0961000615616450">https://doi.org/10.1177/0961000615616450</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-_data-analysis_-è-lo-strumento">La <em>data analysis</em> è lo strumento</h3>
+<p>Processo di esplorazione ed elaborazione dei dati per identificare pattern e tendenze nei dati.</p>
+<p>Obiettivo: trasformare i dati grezzi in informazioni utili.</p>
+<p>Processo:
+- Raccolta dei dati
+- Pulizia dei dati
+- <strong>Esplorazione ed elaborazione dei dati</strong>
+- <strong>Interpretazione e comunicazione dei risultati</strong></p>
+<div class="footer">
+Graham, E. (2017). Introduction: Data visualisation and the humanities. English Studies, 98(5), 449-458. <a href="https://doi.org/10.1080/0013838X.2017.1332021">https://doi.org/10.1080/0013838X.2017.1332021</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="altre-tipologie-di-dati">Altre tipologie di dati</h3>
+<ol>
+<li>Dati
+<ul>
+<li><strong>Testuali</strong>: stringhe di testo (es. descrizioni di opere d&rsquo;arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l&rsquo;analisi di frequenze o sentimenti;</li>
+<li><strong>Numerici</strong>: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;</li>
+<li><strong>Spaziali</strong>: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d&rsquo;arte) che possono essere utilizzate per analizzare distribuzioni geografiche;</li>
+<li><strong>Temporali</strong>: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.</li>
+</ul>
+</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="altre-tipologie-di-dati-1">Altre tipologie di dati</h3>
+<ol start="2">
+<li>Dati
+<ul>
+<li><strong>Strutturati</strong>: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);</li>
+<li><strong>Semi-strutturati</strong>: organizzati in strutture più flessibili (es. XML, RDF);</li>
+<li><strong>Non strutturati</strong>: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).</li>
+</ul>
+</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="altre-tipologie-di-dati-2">Altre tipologie di dati</h3>
+<ol start="3">
+<li>Dati
+<ul>
+<li><strong>Qualitativi</strong>: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;</li>
+<li><strong>Quantitativi</strong>: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.</li>
+</ul>
+</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="altre-tipologie-di-dati-3">Altre tipologie di dati</h3>
+<ol start="4">
+<li>Dati
+<ul>
+<li><strong>Numerici</strong>: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;</li>
+<li><strong>Categorici</strong>: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d&rsquo;arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;</li>
+<li><strong>Ordinali</strong>: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).</li>
+</ul>
+</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-punto-di-inizio-è-leda">Il punto di inizio è l&rsquo;EDA</h3>
+<p><strong>Exploratory Data Analysis</strong>: Passo iniziale nel processo di analisi dei dati, che si concentra sull&rsquo;esplorazione e sulla comprensione dei dati attraverso un&rsquo;elaborazione e visualizzazione veloce dei dati.</p>
+<p>Lo scopo principale dell&rsquo;EDA è fornire un&rsquo;evidenza delle particolarità di un fenomeno descritto nei dati, partendo da una qualche domanda di ricerca.</p>
+<div class="footer">
+Behrens, J. T. (1997). Principles and procedures of exploratory data analysis. Psychological Methods, 2(2), 131–160. <a href="https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131">https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcuni-tipi-di-analisi">Alcuni tipi di analisi</h3>
+<ul>
+<li><strong>Statistica</strong>: fondamentale per comprendere la struttura e le caratteristiche di un dataset a livello micro (es. singola opera), meso (es. un gruppo di opere) e macro (es. evoluzione delle tendenze artistiche nel corso dei secoli);</li>
+<li><strong>Temporale</strong>: esplora come le variabili cambiano nel tempo (es. numero di visitatori di un museo nell&rsquo;arco di cinque anni);</li>
+<li><strong>Geospaziale</strong>: si occupa della distribuzione spaziale e geografica dei dati (es. mappatura della posizione di beni culturali sul terriorio);</li>
+<li><strong>Tematica</strong>: si concentra sull&rsquo;esame delle variabili categoriche, cioè su quelle che appartengono a gruppi distinti senza un ordine intrinseco (es. analisi di categorie, classificazione dei beni in base al periodo storico o alla regione geografica di origine);</li>
+<li><strong>Network</strong>: riguarda lo studio delle relazioni tra entità presenti nei dati (es. analizzare la rete di influenze tra artisti e movimenti culturali).</li>
+</ul>
+<div class="footer">
+Behrens, J. T. (1997). Principles and procedures of exploratory data analysis. Psychological Methods, 2(2), 131–160. <a href="https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131">https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="un-esempio-_text-analysis_">Un esempio: <em>Text analysis</em></h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="lanalisi-del-testo-è-un-processo-per-derivare-informazioni-dai-testi">L&rsquo;analisi del testo è un processo per derivare informazioni dai testi</h3>
+<p>Consiste nel &ldquo;fare a pezzi&rdquo; il testo in modo da avere dati facilmente gestibili e utilizzabili.</p>
+<p>In generale, implica l&rsquo;identificazione di pattern all&rsquo;interno di uno o più testi (es. frequenza delle parole, legami associativi tra parole, assenza o presenza di parolem ecc.).</p>
+<p>Particolarmente utile per elaborare grandi volumi di dati basati su testo.</p>
+<p>Integra approcci qualitativi e quantitativi.</p>
+<div class="footer">
+Ittoo, A., & van den Bosch, A. (2016). Text analytics in industry: Challenges, desiderata and trends. Computers in Industry, 78, 96-107. <a href="https://doi.org/10.1016/j.compind.2015.12.001">https://doi.org/10.1016/j.compind.2015.12.001</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="alcune-operazioni-molto-comuni">Alcune operazioni molto comuni</h3>
+<ul>
+<li>Calcolo della frequenza delle parole;</li>
+<li>Calcolo della frequenza di N-gram (sequenze di parole che co-occorrono insieme in maniera significativa);</li>
+<li>Analisi delle concordanze (liste di occorrenza di una o più parole assieme alle parole vicine);</li>
+<li>Classificazione dei documenti;</li>
+<li>Riconoscimento automatico delle entità;</li>
+<li><em>Sentiment analysis</em>;</li>
+<li>&hellip;</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-esempio-di-approccio-bag-of-words">Un esempio di approccio: Bag of Words</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/bag-of-words.png" height="auto" width="700"/>
+      <figcaption>
+        Fonte: <a href="https://www.programmersought.com/article/4304366575/">https://www.programmersought.com/article/4304366575/</a>.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Secondo l'approccio BoW, quasi tutta la struttura "innata" viene rimossa dal testo (inclusi punteggiatura, spazi bianchi e paragrafi, l'ordine in cui le parole appaiono, ecc.), ritrovandoci così con un ammasso disordinato di parole.
+      </p>
+  </div>
+</div>
+<div class="footer">
+Zhang, Y., Jin, R., & Zhou, Z. H. (2010). Understanding bag-of-words model: a statistical framework. International journal of machine learning and cybernetics, 1, 43-52. <a href="https://doi.org/10.1007/s13042-010-0001-0">https://doi.org/10.1007/s13042-010-0001-0</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-preprocessing">Il preprocessing</h3>
+<p>Per poter avere questo &ldquo;sacchetto di parole&rdquo; e poterci operare sopra con le dovute analisi, è necessario preparare i dati per la loro elaborazione effettiva.</p>
+<p>Tipiche attività di preprocessing includono:</p>
+<ul>
+<li><strong>Tokenizzazione</strong>: suddivisione di uno o più testi in pezzi più piccoli (<em>token</em>) che diventano l&rsquo;unità di analisi (es. &ldquo;Questa è una frase.&rdquo; =&gt; <code>Questa</code>, <code>è</code>, <code>una</code>, <code>frase</code>);</li>
+<li><strong>Rimozione di <em>stopword</em></strong> (lista di parole estremamente comuni che tendono a non essere informative) (es. pronomi, articoli, ecc.);</li>
+<li><strong>Stemming</strong>/<strong>Lemmatizzazione</strong>: rimozione di certe terminazioni delle parole per facilitare l&rsquo;aggregazione di alcune parole simili (ma non uguali, per come sono scritte) (es. &ldquo;calciatori&rdquo; =&gt; &ldquo;calciatore&rdquo;).</li>
+</ul>
+<div class="footer">
+Zhang, Y., Jin, R., & Zhou, Z. H. (2010). Understanding bag-of-words model: a statistical framework. International journal of machine learning and cybernetics, 1, 43-52. <a href="https://doi.org/10.1007/s13042-010-0001-0">https://doi.org/10.1007/s13042-010-0001-0</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="anche-locchio-vuole-la-sua-parte">Anche l&rsquo;occhio vuole la sua parte</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cosè-la-_data-visualization_">Cos&rsquo;è la <em>data visualization</em>?</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/dataviz-intro.png" height="auto" width="700"/>
+      <figcaption>
+        Visualizzazione originale di John Snow che mostra i casi di colera durante l'epidemia di Londra del 1854. Fonte: <a href="https://medium.com/@juniageisler/lesson-on-infographics-from-john-snow-no-not-that-jon-snow-4ae6672bb64">https://medium.com/@juniageisler/lesson-on-infographics-from-john-snow-no-not-that-jon-snow-4ae6672bb64</a>.
+      </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Processo di rappresentazione visiva dei dati per facilitarne la comprensione e la comunicazione.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-visualizzazione-dei-dati-esiste-da-tanto-tempo">La visualizzazione dei dati esiste da tanto tempo</h3>
+<p>Alla fine del XVIII secolo, <a href="https://en.wikipedia.org/wiki/William_Playfair" target="_blank" rel="noopener">William Playfair</a> inventò la rappresentazione grafica nell&rsquo;ambito della statistica.</p>
+<p>La visualizzazione dei dati può essere uno strumento fondamentale in tutte le fasi della ricerca: esplorazione, comprensione, presentazione.</p>
+<p>Progettò (probabilmente per la prima volta):</p>
+<ul>
+<li>grafici a linee e grafici ad area (dati temporali);</li>
+<li>grafici a barre (confronto quantitativo o categoriale);</li>
+<li>grafici a torta (proporzioni all&rsquo;interno di un insieme di dati).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-breve-lista-di-proprietà-grafiche">Una breve lista di proprietà grafiche</h3>
+<p>Proprietà di una visualizzazione dei dati che aiutano la creazione di elementi grafici funzionali alla descrizione e comprensione dei dati.</p>
+<ul>
+<li>Assi;</li>
+<li>Layout;</li>
+<li>Colore;</li>
+<li>Forma;</li>
+<li>Dimensione;</li>
+<li>Tipografia.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="assi">Assi</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/axes.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Una guida visiva per il posizionamento degli elementi che compongono la visualizzazione.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="layout">Layout</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/layout.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Il formato e la simmetria della visualizzazione cambiano in base al volume dei dati e al numero di attributi da mostrare. 
+      </p>
+      <p>
+        Più visualizzazioni in contemporanea aiutano il confronto, ma nascondono la visione d'insieme.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="forma">Forma</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/shape.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        La forma degli elementi aiuta a distinguere le informazioni espresse.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="colore">Colore</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/color.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Le differenze di colore vengono percepite quasi immediatamente. 
+      </p>
+      <p>
+        Il colore è utile per distinguere gli elementi o i pattern diversi, ma dipende dalla grandezza del dataset. 
+      </p>
+      <p>
+        La luminosità evidenzia i pattern rilevanti.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="dimensione">Dimensione</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/size.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        La dimensione degli elementi può essere usata per evidenziarne la varietà in base ad una qualche altra caratteristica.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="tipografia">Tipografia</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/typography.png" height="auto" width="700"/>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+      <p>
+        Il testo e le sue caratteristiche (es. font, grandezza, colore) possono rappresentare un aspetto primario, come vera e propria visualizzazione, oppure secondario, come descrizione di una visualizzazione.
+      </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="voyant-tools">Voyant Tools</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-ambiente-web-di-analisi-del-testo">Un ambiente Web di analisi del testo</h3>
+<p>Link: <a href="https://voyant-tools.org/" target="_blank" rel="noopener">https://voyant-tools.org/</a>.</p>
+<ul>
+<li>Accetta vari formati (TXT, PDF, HTML, XML&hellip;);</li>
+<li>Può essere integrato su altri siti;</li>
+<li>Ambiente interattivo;</li>
+<li>Permette una lettura scalabile;</li>
+<li>Indipendente dalla lingua;</li>
+<li>Numerose opzioni di visualizzazione dei dati.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cosa-potete-caricare">Cosa potete caricare</h3>
+<p>Formati accettati: TXT, HTML, XML, TEI, PDF, RTF, MS Word, JSON, CSV.</p>
+<p>Per gestire i PDF, VT contiene ed utilizza un meccanismo di riconoscimento automatico del testo (OCR), ma il risultato può variare molto a seconda della qualità del documento.</p>
+<p>Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi successiva (es. testo unico vs. divisione in capitoli).</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="struttura-generale">Struttura generale</h3>
+<figure>
+    <img src="img/voyant-tools.png" height="auto" width="700"/>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-blocchi-skin">I blocchi (skin)</h3>
+<figure>
+    <img src="img/skin.png" height="auto" width="700"/>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="funzioni-principali">Funzioni principali</h3>
+<ul>
+<li><strong>READER</strong>: lettore del testo, permette il close reading;</li>
+<li><strong>CIRRUS</strong>: visualizzatore frequenza dei termini;</li>
+<li><strong>BUBBLES</strong>: visualizzatore frequenza dei termini;</li>
+<li><strong>TERMS</strong>: analisi della frequenza dei termini;</li>
+<li><strong>TRENDS</strong>: andamento delle frequenza dei termini;</li>
+<li><strong>BUBBLELINES</strong>: frequenza e distribuzione dei termini;</li>
+<li><strong>MICROSEARCH</strong>: frequenza e distribuzione dei termini;</li>
+<li><strong>CONTEXT</strong>: contesti di occorrenza dei termini;</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="funzioni-principali-1">Funzioni principali</h3>
+<ul>
+<li><strong>PHRASES</strong>: sequenze di parole che co-occorrono;</li>
+<li><strong>COLLOCATES</strong>: termini che appaiono vicino ad altri termini;</li>
+<li><strong>CORRELATIONS</strong>: termini la cui frequenza varia in sintonia;</li>
+<li><strong>MANDALA</strong>: relazioni tra termini e documenti;</li>
+<li><strong>SUMMARY</strong>: informazioni sul corpus;</li>
+<li><strong>DOCUMENTS</strong>: informazioni sui singoli documenti;</li>
+<li><strong>TOPICS</strong>: topic modeling.</li>
+</ul>
+<p>Documentazione: <a href="https://voyant-tools.org/docs/#!/guide/tools" target="_blank" rel="noopener">https://voyant-tools.org/docs/#!/guide/tools</a>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="come-e-cosa-esportare">Come e cosa esportare</h3>
+<p>L’esportazione si può applicare all&rsquo;intero progetto o a una singola skin.</p>
+<p>Puoi esportare una URL, uno strumento incorporabile (interattivo) o un riferimento bibliografico.</p>
+<p>Puoi anche esportare un file .png statico nel caso delle visualizzazioni.</p>
+<p>Puoi esportare i dati dagli skin sotto forma di tabella in vari formati.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-12-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1">Lezione 12 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

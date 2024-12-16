@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5609693425197255918.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/dhdmch-13/">
+
+  <title>DHDMCH - Tutto è rivelato | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="tutto-è-rivelato">Tutto è rivelato</h1>
+<h2 id="lezione-13-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025">Lezione 13 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="voyant-tools-attività-pratica">Voyant Tools: attività pratica</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="carichiamo-un-file-tratto-da-mythologiae">Carichiamo un file tratto da Mythologiae</h3>
+<p>Link al sotto-dataset: <a href="https://docs.google.com/spreadsheets/d/1v-H6uYEuJUE_1Jh7SOq4Dyhh6So1tdQU9kN7PuAFFGk/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1v-H6uYEuJUE_1Jh7SOq4Dyhh6So1tdQU9kN7PuAFFGk/edit?usp=sharing</a>.</p>
+<ul>
+<li>Su GitHub: <code>tutorial</code> &gt; <code>data</code> &gt; <code>csv</code> &gt; <code>README.md</code> &gt; 4. Dataset Note e Descrizioni &gt; Fonti &gt; Selezione di colonne.</li>
+</ul>
+<p>Link a Voyant Tools: <a href="https://voyant-tools.org/" target="_blank" rel="noopener">https://voyant-tools.org/</a>.</p>
+<p>Scaricate il sotto-dataset in CSV, ed effettuate l&rsquo;upload di questo su Voyant Tools.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="1-parole-chiave-e-frequenze">1. Parole chiave e frequenze</h3>
+<p>Scopriamo quali sono le 10 parole più frequenti utilizzate.</p>
+<ul>
+<li>Di quali dati si tratta?</li>
+<li>Quale/i visualizzazione/i usereste?</li>
+<li>Cosa notate (qualsiasi cosa, anche &ldquo;ovvio&rdquo; o &ldquo;banale&rdquo;)?</li>
+<li>Ci sono parole che potrebbero essere escluse (cioé aggiunte alla lista di stopwords)? Come cambia l&rsquo;analisi?</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="aggiungere-le-_stopword_">Aggiungere le <em>stopword</em></h3>
+<p>Su alcune skin (es. <code>Cirrus</code>), è possibile cliccare sulle opzioni (la terza icona nell&rsquo;angolo in alto a destra della skin).</p>
+<p>Tra le opzioni, abbiamo le <em>stopword</em>. Di default, l&rsquo;opzione attiva è l&rsquo;auto-detect (cioé le stopword sono individuate in automatico, sulla base della lingua del testo).</p>
+<p>Per modificare manualmente l&rsquo;elenco di stopword, è sufficiente cliccare su <code>Edit List</code> e aggiungere o togliere parole (ad ogni parola deve corrispondere una riga!).</p>
+<p>Una volta salvate e confermate le modifiche, cosa succede?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="2-relazioni-tra-parole">2. Relazioni tra parole</h3>
+<p>Scopriamo come le parole sono collegate tra loro in base alla loro co-occorrenza, utilizzando anche le funzioni di ricerca testuale.</p>
+<ul>
+<li>Di quali dati si tratta?</li>
+<li>Quale/i visualizzazione/i usereste?</li>
+<li>Cosa notate (qualsiasi cosa, anche &ldquo;ovvio&rdquo; o &ldquo;banale&rdquo;)?</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="effettuare-le-ricerche">Effettuare le ricerche</h3>
+<ul>
+<li><code>pestilenza</code>: trova il termine esatto;</li>
+<li><code>pestilen*</code>: trova termini che iniziano con &ldquo;pestilen&rdquo;;</li>
+<li><code>&quot;marito e moglie&quot;</code>: cerca l&rsquo;intera espressione;</li>
+<li><code>&quot;opera misericordia&quot;~5</code>: &ldquo;opera&rdquo; e &ldquo;misericordia&rdquo; co-occorrono
+entro 5 termini;</li>
+<li><code>@Personaggi</code>: ricerca raggruppata di tutti i termini inclusi in una
+categoria;</li>
+<li><code>^@Personaggi</code>: ricerca dei singoli termini inclusi in una categoria.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="aggiungere-categorie">Aggiungere categorie</h3>
+<p>Gruppi di parole semanticamente connesse (es. personaggi, luoghi, emozioni) da usare per ricerche mirate.</p>
+<ul>
+<li>Cliccate su opzioni;</li>
+<li>Vicino alla voce <em>Categories</em>, cliccate su <em>Edit</em>;</li>
+<li>Potete rimuovere le categorie esistenti;</li>
+<li>Cliccate su <em>Add Category</em>;</li>
+<li>Scrivete un nome per la categoria, e.g. <em>Personaggi</em> e cliccate su <em>Add</em>;</li>
+<li>Trascinate i nomi dei personaggi dalla lista <em>Terms</em> alla lista <em>Personaggi</em>;</li>
+<li>Salvare cliccando su <em>Save</em>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esplorate">Esplorate!</h3>
+<p>Cambiate:</p>
+<ul>
+<li>Opzioni di upload: nella schermata principale, andate su <em>Options</em> &gt; <em>Tables</em> e cambiate il valore di <em>Documents</em> in <code>from cells in each row</code>;</li>
+<li>Visualizzazioni e le impostazioni per ogni visualizzazione;</li>
+</ul>
+<p>Come cambiano i dati? E le visualizzazioni?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esportate-le-visualizzazioni">Esportate le visualizzazioni</h3>
+<ul>
+<li>Cliccate sull&rsquo;icona per l&rsquo;esportazione (la prima in alto a destra nel riquadro della skin);</li>
+<li>Cliccate su <em>Export Visualization</em> e poi <em>Export a PNG image of this visualization</em>;</li>
+<li>Sincronizzate, caricate le immagini nel vostro clone della repo, dentro <code>tutorial</code> &gt; <code>doc</code> &gt; <code>img</code> &gt; <code>viz</code>, e fate il pull request.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="-e-già-che-ci-siamo-ri-allineamo-il-dmp-rispetto-a-tutto-quello-che-abbiamo-fatto-fino-ad-ora">&hellip; E già che ci siamo, ri-allineamo il DMP rispetto a tutto quello che abbiamo fatto fino ad ora!</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-13-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1">Lezione 13 del corso di <em>Digital Humanities e Data Management per i Beni Culturali</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

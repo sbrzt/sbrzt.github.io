@@ -1116,11 +1116,380 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
-      <title>DHDMCH - Metti la cera, togli la cera</title>
+      <title>DHDMCH - ANALYZE - Analizzare</title>
+      <link>http://localhost:1313/it/slides/dhdmch-12/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-12/</guid>
+      <description>&lt;h1 id=&#34;analyze-analizzare&#34;&gt;ANALYZE: Analizzare&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-12-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 12 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;produzione-raccolta-e-analisi&#34;&gt;Produzione, raccolta e analisi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34; 
+      style=&#34;
+      width: 250px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 50% 80%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Azioni principali: raccogliere o creare i dati, elaborare i dati per renderli utilizzabili (pulizia, combinazione, trasformazione, controllo qualità), &lt;strong&gt;analizzare i dati per generare risultati utili&lt;/strong&gt;, produrre la documentazione dei dati e delle metodologie utilizzate.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;per-capire-bisogna-analizzare&#34;&gt;Per capire bisogna analizzare&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;parte-tutto-dalla-_data-literacy_&#34;&gt;Parte tutto dalla &lt;em&gt;data literacy&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;La capacità di leggere, creare, usare, comunicare e criticare i dati.&lt;/p&gt;
+&lt;p&gt;Dipende dalla qualità, accessibilità, usabilità e comprensibilità dei dati, sulla base del loro contenuto e contesto.&lt;/p&gt;
+&lt;p&gt;Per esempio, nell&amp;rsquo;ambito umanistico, consiste nel riconoscimento delle potenzialità della ricerca che si sta portando avanti, essere cosciente dei metodi di ricerca che si sta utilizzando, e comprendere il contesto e la provenienza dei dati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Koltay, T. (2017). Data literacy for researchers and data librarians. Journal of Librarianship and Information Science, 49(1), 3-14. &lt;a href=&#34;https://doi.org/10.1177/0961000615616450&#34;&gt;https://doi.org/10.1177/0961000615616450&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-_data-analysis_-è-lo-strumento&#34;&gt;La &lt;em&gt;data analysis&lt;/em&gt; è lo strumento&lt;/h3&gt;
+&lt;p&gt;Processo di esplorazione ed elaborazione dei dati per identificare pattern e tendenze nei dati.&lt;/p&gt;
+&lt;p&gt;Obiettivo: trasformare i dati grezzi in informazioni utili.&lt;/p&gt;
+&lt;p&gt;Processo:
+- Raccolta dei dati
+- Pulizia dei dati
+- &lt;strong&gt;Esplorazione ed elaborazione dei dati&lt;/strong&gt;
+- &lt;strong&gt;Interpretazione e comunicazione dei risultati&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Graham, E. (2017). Introduction: Data visualisation and the humanities. English Studies, 98(5), 449-458. &lt;a href=&#34;https://doi.org/10.1080/0013838X.2017.1332021&#34;&gt;https://doi.org/10.1080/0013838X.2017.1332021&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-tipologie-di-dati&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Dati
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Testuali&lt;/strong&gt;: stringhe di testo (es. descrizioni di opere d&amp;rsquo;arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l&amp;rsquo;analisi di frequenze o sentimenti;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Numerici&lt;/strong&gt;: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spaziali&lt;/strong&gt;: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d&amp;rsquo;arte) che possono essere utilizzate per analizzare distribuzioni geografiche;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temporali&lt;/strong&gt;: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-tipologie-di-dati-1&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Dati
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strutturati&lt;/strong&gt;: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semi-strutturati&lt;/strong&gt;: organizzati in strutture più flessibili (es. XML, RDF);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non strutturati&lt;/strong&gt;: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-tipologie-di-dati-2&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Dati
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qualitativi&lt;/strong&gt;: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quantitativi&lt;/strong&gt;: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altre-tipologie-di-dati-3&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Dati
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Numerici&lt;/strong&gt;: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Categorici&lt;/strong&gt;: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d&amp;rsquo;arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ordinali&lt;/strong&gt;: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-punto-di-inizio-è-leda&#34;&gt;Il punto di inizio è l&amp;rsquo;EDA&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Exploratory Data Analysis&lt;/strong&gt;: Passo iniziale nel processo di analisi dei dati, che si concentra sull&amp;rsquo;esplorazione e sulla comprensione dei dati attraverso un&amp;rsquo;elaborazione e visualizzazione veloce dei dati.&lt;/p&gt;
+&lt;p&gt;Lo scopo principale dell&amp;rsquo;EDA è fornire un&amp;rsquo;evidenza delle particolarità di un fenomeno descritto nei dati, partendo da una qualche domanda di ricerca.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Behrens, J. T. (1997). Principles and procedures of exploratory data analysis. Psychological Methods, 2(2), 131–160. &lt;a href=&#34;https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131&#34;&gt;https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-tipi-di-analisi&#34;&gt;Alcuni tipi di analisi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Statistica&lt;/strong&gt;: fondamentale per comprendere la struttura e le caratteristiche di un dataset a livello micro (es. singola opera), meso (es. un gruppo di opere) e macro (es. evoluzione delle tendenze artistiche nel corso dei secoli);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temporale&lt;/strong&gt;: esplora come le variabili cambiano nel tempo (es. numero di visitatori di un museo nell&amp;rsquo;arco di cinque anni);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geospaziale&lt;/strong&gt;: si occupa della distribuzione spaziale e geografica dei dati (es. mappatura della posizione di beni culturali sul terriorio);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tematica&lt;/strong&gt;: si concentra sull&amp;rsquo;esame delle variabili categoriche, cioè su quelle che appartengono a gruppi distinti senza un ordine intrinseco (es. analisi di categorie, classificazione dei beni in base al periodo storico o alla regione geografica di origine);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network&lt;/strong&gt;: riguarda lo studio delle relazioni tra entità presenti nei dati (es. analizzare la rete di influenze tra artisti e movimenti culturali).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Behrens, J. T. (1997). Principles and procedures of exploratory data analysis. Psychological Methods, 2(2), 131–160. &lt;a href=&#34;https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131&#34;&gt;https://psycnet.apa.org/doi/10.1037/1082-989X.2.2.131&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;un-esempio-_text-analysis_&#34;&gt;Un esempio: &lt;em&gt;Text analysis&lt;/em&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lanalisi-del-testo-è-un-processo-per-derivare-informazioni-dai-testi&#34;&gt;L&amp;rsquo;analisi del testo è un processo per derivare informazioni dai testi&lt;/h3&gt;
+&lt;p&gt;Consiste nel &amp;ldquo;fare a pezzi&amp;rdquo; il testo in modo da avere dati facilmente gestibili e utilizzabili.&lt;/p&gt;
+&lt;p&gt;In generale, implica l&amp;rsquo;identificazione di pattern all&amp;rsquo;interno di uno o più testi (es. frequenza delle parole, legami associativi tra parole, assenza o presenza di parolem ecc.).&lt;/p&gt;
+&lt;p&gt;Particolarmente utile per elaborare grandi volumi di dati basati su testo.&lt;/p&gt;
+&lt;p&gt;Integra approcci qualitativi e quantitativi.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ittoo, A., &amp; van den Bosch, A. (2016). Text analytics in industry: Challenges, desiderata and trends. Computers in Industry, 78, 96-107. &lt;a href=&#34;https://doi.org/10.1016/j.compind.2015.12.001&#34;&gt;https://doi.org/10.1016/j.compind.2015.12.001&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcune-operazioni-molto-comuni&#34;&gt;Alcune operazioni molto comuni&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Calcolo della frequenza delle parole;&lt;/li&gt;
+&lt;li&gt;Calcolo della frequenza di N-gram (sequenze di parole che co-occorrono insieme in maniera significativa);&lt;/li&gt;
+&lt;li&gt;Analisi delle concordanze (liste di occorrenza di una o più parole assieme alle parole vicine);&lt;/li&gt;
+&lt;li&gt;Classificazione dei documenti;&lt;/li&gt;
+&lt;li&gt;Riconoscimento automatico delle entità;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sentiment analysis&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-esempio-di-approccio-bag-of-words&#34;&gt;Un esempio di approccio: Bag of Words&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/bag-of-words.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://www.programmersought.com/article/4304366575/&#34;&gt;https://www.programmersought.com/article/4304366575/&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Secondo l&#39;approccio BoW, quasi tutta la struttura &#34;innata&#34; viene rimossa dal testo (inclusi punteggiatura, spazi bianchi e paragrafi, l&#39;ordine in cui le parole appaiono, ecc.), ritrovandoci così con un ammasso disordinato di parole.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: a statistical framework. International journal of machine learning and cybernetics, 1, 43-52. &lt;a href=&#34;https://doi.org/10.1007/s13042-010-0001-0&#34;&gt;https://doi.org/10.1007/s13042-010-0001-0&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-preprocessing&#34;&gt;Il preprocessing&lt;/h3&gt;
+&lt;p&gt;Per poter avere questo &amp;ldquo;sacchetto di parole&amp;rdquo; e poterci operare sopra con le dovute analisi, è necessario preparare i dati per la loro elaborazione effettiva.&lt;/p&gt;
+&lt;p&gt;Tipiche attività di preprocessing includono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tokenizzazione&lt;/strong&gt;: suddivisione di uno o più testi in pezzi più piccoli (&lt;em&gt;token&lt;/em&gt;) che diventano l&amp;rsquo;unità di analisi (es. &amp;ldquo;Questa è una frase.&amp;rdquo; =&amp;gt; &lt;code&gt;Questa&lt;/code&gt;, &lt;code&gt;è&lt;/code&gt;, &lt;code&gt;una&lt;/code&gt;, &lt;code&gt;frase&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rimozione di &lt;em&gt;stopword&lt;/em&gt;&lt;/strong&gt; (lista di parole estremamente comuni che tendono a non essere informative) (es. pronomi, articoli, ecc.);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stemming&lt;/strong&gt;/&lt;strong&gt;Lemmatizzazione&lt;/strong&gt;: rimozione di certe terminazioni delle parole per facilitare l&amp;rsquo;aggregazione di alcune parole simili (ma non uguali, per come sono scritte) (es. &amp;ldquo;calciatori&amp;rdquo; =&amp;gt; &amp;ldquo;calciatore&amp;rdquo;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: a statistical framework. International journal of machine learning and cybernetics, 1, 43-52. &lt;a href=&#34;https://doi.org/10.1007/s13042-010-0001-0&#34;&gt;https://doi.org/10.1007/s13042-010-0001-0&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;anche-locchio-vuole-la-sua-parte&#34;&gt;Anche l&amp;rsquo;occhio vuole la sua parte&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-la-_data-visualization_&#34;&gt;Cos&amp;rsquo;è la &lt;em&gt;data visualization&lt;/em&gt;?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/dataviz-intro.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;figcaption&gt;
+        Visualizzazione originale di John Snow che mostra i casi di colera durante l&#39;epidemia di Londra del 1854. Fonte: &lt;a href=&#34;https://medium.com/@juniageisler/lesson-on-infographics-from-john-snow-no-not-that-jon-snow-4ae6672bb64&#34;&gt;https://medium.com/@juniageisler/lesson-on-infographics-from-john-snow-no-not-that-jon-snow-4ae6672bb64&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Processo di rappresentazione visiva dei dati per facilitarne la comprensione e la comunicazione.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-visualizzazione-dei-dati-esiste-da-tanto-tempo&#34;&gt;La visualizzazione dei dati esiste da tanto tempo&lt;/h3&gt;
+&lt;p&gt;Alla fine del XVIII secolo, &lt;a href=&#34;https://en.wikipedia.org/wiki/William_Playfair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William Playfair&lt;/a&gt; inventò la rappresentazione grafica nell&amp;rsquo;ambito della statistica.&lt;/p&gt;
+&lt;p&gt;La visualizzazione dei dati può essere uno strumento fondamentale in tutte le fasi della ricerca: esplorazione, comprensione, presentazione.&lt;/p&gt;
+&lt;p&gt;Progettò (probabilmente per la prima volta):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;grafici a linee e grafici ad area (dati temporali);&lt;/li&gt;
+&lt;li&gt;grafici a barre (confronto quantitativo o categoriale);&lt;/li&gt;
+&lt;li&gt;grafici a torta (proporzioni all&amp;rsquo;interno di un insieme di dati).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-breve-lista-di-proprietà-grafiche&#34;&gt;Una breve lista di proprietà grafiche&lt;/h3&gt;
+&lt;p&gt;Proprietà di una visualizzazione dei dati che aiutano la creazione di elementi grafici funzionali alla descrizione e comprensione dei dati.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assi;&lt;/li&gt;
+&lt;li&gt;Layout;&lt;/li&gt;
+&lt;li&gt;Colore;&lt;/li&gt;
+&lt;li&gt;Forma;&lt;/li&gt;
+&lt;li&gt;Dimensione;&lt;/li&gt;
+&lt;li&gt;Tipografia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;assi&#34;&gt;Assi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/axes.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Una guida visiva per il posizionamento degli elementi che compongono la visualizzazione.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;layout&#34;&gt;Layout&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/layout.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Il formato e la simmetria della visualizzazione cambiano in base al volume dei dati e al numero di attributi da mostrare. 
+      &lt;/p&gt;
+      &lt;p&gt;
+        Più visualizzazioni in contemporanea aiutano il confronto, ma nascondono la visione d&#39;insieme.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;forma&#34;&gt;Forma&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/shape.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        La forma degli elementi aiuta a distinguere le informazioni espresse.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;colore&#34;&gt;Colore&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/color.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Le differenze di colore vengono percepite quasi immediatamente. 
+      &lt;/p&gt;
+      &lt;p&gt;
+        Il colore è utile per distinguere gli elementi o i pattern diversi, ma dipende dalla grandezza del dataset. 
+      &lt;/p&gt;
+      &lt;p&gt;
+        La luminosità evidenzia i pattern rilevanti.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dimensione&#34;&gt;Dimensione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/size.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        La dimensione degli elementi può essere usata per evidenziarne la varietà in base ad una qualche altra caratteristica.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tipografia&#34;&gt;Tipografia&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/typography.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;p&gt;
+        Il testo e le sue caratteristiche (es. font, grandezza, colore) possono rappresentare un aspetto primario, come vera e propria visualizzazione, oppure secondario, come descrizione di una visualizzazione.
+      &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;voyant-tools&#34;&gt;Voyant Tools&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-ambiente-web-di-analisi-del-testo&#34;&gt;Un ambiente Web di analisi del testo&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://voyant-tools.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accetta vari formati (TXT, PDF, HTML, XML&amp;hellip;);&lt;/li&gt;
+&lt;li&gt;Può essere integrato su altri siti;&lt;/li&gt;
+&lt;li&gt;Ambiente interattivo;&lt;/li&gt;
+&lt;li&gt;Permette una lettura scalabile;&lt;/li&gt;
+&lt;li&gt;Indipendente dalla lingua;&lt;/li&gt;
+&lt;li&gt;Numerose opzioni di visualizzazione dei dati.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-potete-caricare&#34;&gt;Cosa potete caricare&lt;/h3&gt;
+&lt;p&gt;Formati accettati: TXT, HTML, XML, TEI, PDF, RTF, MS Word, JSON, CSV.&lt;/p&gt;
+&lt;p&gt;Per gestire i PDF, VT contiene ed utilizza un meccanismo di riconoscimento automatico del testo (OCR), ma il risultato può variare molto a seconda della qualità del documento.&lt;/p&gt;
+&lt;p&gt;Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi successiva (es. testo unico vs. divisione in capitoli).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;struttura-generale&#34;&gt;Struttura generale&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/voyant-tools.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-blocchi-skin&#34;&gt;I blocchi (skin)&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/skin.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;funzioni-principali&#34;&gt;Funzioni principali&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;READER&lt;/strong&gt;: lettore del testo, permette il close reading;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CIRRUS&lt;/strong&gt;: visualizzatore frequenza dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BUBBLES&lt;/strong&gt;: visualizzatore frequenza dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TERMS&lt;/strong&gt;: analisi della frequenza dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TRENDS&lt;/strong&gt;: andamento delle frequenza dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BUBBLELINES&lt;/strong&gt;: frequenza e distribuzione dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MICROSEARCH&lt;/strong&gt;: frequenza e distribuzione dei termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CONTEXT&lt;/strong&gt;: contesti di occorrenza dei termini;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;funzioni-principali-1&#34;&gt;Funzioni principali&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PHRASES&lt;/strong&gt;: sequenze di parole che co-occorrono;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;COLLOCATES&lt;/strong&gt;: termini che appaiono vicino ad altri termini;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CORRELATIONS&lt;/strong&gt;: termini la cui frequenza varia in sintonia;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MANDALA&lt;/strong&gt;: relazioni tra termini e documenti;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SUMMARY&lt;/strong&gt;: informazioni sul corpus;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DOCUMENTS&lt;/strong&gt;: informazioni sui singoli documenti;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TOPICS&lt;/strong&gt;: topic modeling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documentazione: &lt;a href=&#34;https://voyant-tools.org/docs/#!/guide/tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://voyant-tools.org/docs/#!/guide/tools&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-e-cosa-esportare&#34;&gt;Come e cosa esportare&lt;/h3&gt;
+&lt;p&gt;L’esportazione si può applicare all&amp;rsquo;intero progetto o a una singola skin.&lt;/p&gt;
+&lt;p&gt;Puoi esportare una URL, uno strumento incorporabile (interattivo) o un riferimento bibliografico.&lt;/p&gt;
+&lt;p&gt;Puoi anche esportare un file .png statico nel caso delle visualizzazioni.&lt;/p&gt;
+&lt;p&gt;Puoi esportare i dati dagli skin sotto forma di tabella in vari formati.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-12-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 12 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - Dai la cera, togli la cera</title>
       <link>http://localhost:1313/it/slides/dhdmch-11/</link>
-      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/dhdmch-11/</guid>
-      <description>&lt;h1 id=&#34;metti-la-cera-togli-la-cera&#34;&gt;Metti la cera, togli la cera&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;dai-la-cera-togli-la-cera&#34;&gt;Dai la cera, togli la cera&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-11-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 11 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
@@ -1142,12 +1511,12 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;hr&gt;
 &lt;h3 id=&#34;alcuni-scenari-di-utilizzo&#34;&gt;Alcuni scenari di utilizzo&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Vuoi sapere quante volte un particolare valore appare in una colonna nei tuoi dati;&lt;/li&gt;
+&lt;li&gt;Vuoi sapere quante volte un certo valore appare in una colonna in un dataset;&lt;/li&gt;
 &lt;li&gt;Vuoi sapere come i valori sono distribuiti in tutto il dataset;&lt;/li&gt;
-&lt;li&gt;Vuoi normalizzare date formattate in modi diversi ad un unico formato comune;&lt;/li&gt;
+&lt;li&gt;Vuoi allineare date formattate in modi diversi ad un unico formato comune;&lt;/li&gt;
 &lt;li&gt;Vuoi normalizzare nomi o termini che, pur riferendosi alle stesse entità, differiscono tra loro;&lt;/li&gt;
 &lt;li&gt;Vuoi separare frammenti di dati combinati insieme in dati individuali;&lt;/li&gt;
-&lt;li&gt;Vuoi allineare i dati a una fonte esterna.&lt;/li&gt;
+&lt;li&gt;Vuoi riconciliare i dati ad una fonte esterna.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Baker, J., Moore, C., Priego, E., Alegre, R., Cope, J., Price, L., ... &amp; Wilson, G. (2016). Library Carpentry: software skills training for library professionals. Liber Quarterly: The Journal of European Research Libraries, 26(3), 141-162. &lt;a href=&#34;http://dx.doi.org/10.18352/lq.10176&#34;&gt;http://dx.doi.org/10.18352/lq.10176&lt;/a&gt;.
@@ -1173,8 +1542,8 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;Scarica il dataset Mythologiae (link in chat);&lt;/li&gt;
-        &lt;li&gt;In &lt;em&gt;Create Project&lt;/em&gt; &gt; &lt;em&gt;This computer&lt;/em&gt;, clicca su &lt;em&gt;Choose files&lt;/em&gt; e carica &lt;code&gt;mythologiae-dataset.csv&lt;/code&gt;;&lt;/li&gt;
+        &lt;li&gt;Scarica il dataset su cui lavorare: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing&#34;&gt;https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing&lt;/a&gt;;&lt;/li&gt;
+        &lt;li&gt;In &lt;em&gt;Create Project&lt;/em&gt; &gt; &lt;em&gt;This computer&lt;/em&gt;, clicca su &lt;em&gt;Choose files&lt;/em&gt; e carica il dataset appena scaricato;&lt;/li&gt;
         &lt;li&gt;Clicca su &lt;em&gt;Next&lt;/em&gt;.&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -1322,7 +1691,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
-        &lt;li&gt;Tipicamente, crei una facet su una particolare colonna;&lt;/li&gt;
+        &lt;li&gt;Tipicamente, si crea una facet su una particolare colonna;&lt;/li&gt;
         &lt;li&gt;Fai clic sul &lt;em&gt;triangolo&lt;/em&gt; davanti al nome della colonna (esempio: &lt;code&gt;dcho_theme&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Seleziona &lt;em&gt;Facet&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;Seleziona una facet a tua scelta (esempio: &lt;em&gt;Text facet&lt;/em&gt;).&lt;/li&gt;
@@ -1644,11 +2013,360 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;ul&gt;
 &lt;li&gt;Salvare il dataset ripulito in formato &lt;code&gt;.csv&lt;/code&gt;;&lt;/li&gt;
 &lt;li&gt;Salvare i passaggi in un file &lt;code&gt;.json&lt;/code&gt; separato;&lt;/li&gt;
-&lt;li&gt;Caricare entrambi in una cartella &lt;code&gt;2024-12-09_mythologiae_keyword_author_v1.0.0&lt;/code&gt; da mettere in &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;csv&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Caricare entrambi in una cartella &lt;code&gt;mythologiae_keyword_author_v0.1.0&lt;/code&gt; da mettere in &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;csv&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-11-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 11 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - SHARE - Condividere e riutilizzare</title>
+      <link>http://localhost:1313/it/slides/dhdmch-14/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-14/</guid>
+      <description>&lt;h1 id=&#34;share-condividere-e-riutilizzare&#34;&gt;SHARE: Condividere e riutilizzare&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-14-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 14 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;preservazione-e-condivisione&#34;&gt;Preservazione e condivisione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;../dhdmch-01/img/dmanagement-2.png&#34;
+      style=&#34;
+      width: 100px; 
+      height: 300px; 
+      object-fit: cover;
+      object-position: 98% 50%;
+      &#34;
+      /&gt;
+      &lt;figcaption&gt;
+        Fonte: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.7249051&#34;&gt;https://doi.org/10.5281/zenodo.7249051&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Azioni principali: valutare quali dati depositare, scegliere la repository, depositare i dati, applicare una licenza ai dati.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/repository-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;ogni-cosa-al-suo-posto&#34;&gt;Ogni cosa al suo posto&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@viswanathd_11?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Viswanath D&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/red-blue-and-black-wooden-board-0dS9MGGKAxg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;selezioniamo-i-dati-che-vogliamo-depositare&#34;&gt;Selezioniamo i dati che vogliamo depositare&lt;/h3&gt;
+&lt;p&gt;Non tutti i dati devono essere condivisi (per vari motivi, es. etici, commerciali, legali, tecnici).&lt;/p&gt;
+&lt;p&gt;Quali dati sono necessari per la validazione e riproducibilità del nostro progetto?&lt;/p&gt;
+&lt;p&gt;Dobbiamo per forza conservare anche i dati intermedi, se sono facilmente ottenibili?&lt;/p&gt;
+&lt;p&gt;Ovviamente, non dobbiamo depositare i dati già disponibili (cioé pubblicati da altri).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-repository-è-un-luogo-in-cui-gli-oggetti-digitali-di-ricerca-sono-archiviati-per-la-loro-preservazione-e-condivisione-a-lungo-termine&#34;&gt;Una repository è un luogo in cui gli oggetti digitali di ricerca sono archiviati per la loro preservazione e condivisione a lungo termine&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/repositories.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Fonte: The Turing Way Community, &amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+            Progettate per essere affidabili e stabili, tramite l&#39;utilizzo di identificatori persistenti (PID), meccanismi di assegnazione di metadati (secondo standard internazionali) e di licenze ai dataset, e la presenza di policy di preservazione stringenti (es. formati permessi).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-scegliamo&#34;&gt;Come scegliamo?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilizzo di registri come re3data e FAIRsharing per cercare uno o più repository che si adattino alle nostre necessità e alle tipologie di dato che vogliamo depositare;
+&lt;ul&gt;
+&lt;li&gt;Esistono repository disciplinari che ci permettono di descrivere i dati usando schemi di metadati specifici alla nostra disciplina e li rende più visibili alla nostra comunità?&lt;/li&gt;
+&lt;li&gt;Esistono repository istituzionali a cui possiamo fare affidamento per particolari servizi di supporto, validazione e curatela? (es. AMS Acta e AMS Historica)&lt;/li&gt;
+&lt;li&gt;Esistono anche repository generalisti (es. Zenodo, figshare) per dati di ricerca eterogenei;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Altri fattori: grandezza dei file, requisiti istituzionali, restrizioni di accesso&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usare-una-repository-è-un-elemento-fondamentale-di-fairness&#34;&gt;Usare una repository è un elemento fondamentale di FAIRness&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ogni dataset depositato è accompagnato da metadati, tra cui un identificativo persistente (PID) e una licenza (trovabilità, accessibilità, e riusabilità);&lt;/li&gt;
+&lt;li&gt;I dataset devono essere in formati standard e aperti e sono descritti, dove possibile, da vocabolari, ontologie e tassonomie (interoperabilità).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scegliere-il-livello-di-accesso-è-un-punto-essenziale&#34;&gt;Scegliere il livello di accesso è un punto essenziale&lt;/h3&gt;
+&lt;p&gt;Scegliere un repository che consenta di depositare i dati secondo pratiche di Scienza Aperta, ma anche di avere maggiori restrizioni dove necessario.&lt;/p&gt;
+&lt;p&gt;Il livello di accesso può essere descritto come:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aperto&lt;/strong&gt;, ovvero il dataset è apertamente accessibile a chiunque lo voglia consultare, scaricare e riutilizzare;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ristretto&lt;/strong&gt;, ovvero chi vuole consultare o scaricare il dataset depositato deve richiedere un’autorizzazione. Questa richiesta può essere fatta direttamente al ricercatore che ha depositato il dataset oppure, nel caso di alcuni specifici repository, ad un comitato di accesso deputato a valutare la legittimità della richiesta;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embargo&lt;/strong&gt;, un tipo di restrizione dell’accesso temporanea. Permette di depositare i dataset mantenendoli privati per un tempo limitato, scaduto il quale l’embargo scade e il dataset diventa aperto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/sharing-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;sharing-is-caring&#34;&gt;Sharing is caring&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@seljansalim?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Seljan Salimova&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/two-people-reaching-out-their-hands-to-touch-each-other-X2ZjmgOrH-I?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ci-sono-molte-ragioni-per-condividere-pubblicamente-i-dati-della-propria-ricerca&#34;&gt;Ci sono molte ragioni per condividere pubblicamente i dati della propria ricerca&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rendere più riproducibile il nostro lavoro;&lt;/li&gt;
+&lt;li&gt;Prevenire sforzi inutili di &amp;ldquo;re-invenzione della ruota&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;Facilitare la collaborazione;&lt;/li&gt;
+&lt;li&gt;Aumentare l&amp;rsquo;impatto della nostra ricerca;&lt;/li&gt;
+&lt;li&gt;Aumentare la qualità della nostra ricerca;&lt;/li&gt;
+&lt;li&gt;Riconoscere i risultati della nostra ricerca come bene pubblico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usiamo-orcid-per-identificarci&#34;&gt;Usiamo ORCID per identificarci&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/orcid.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Fonte: The Turing Way Community, &amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+            PID per l&#39;individuo che lavora nella ricerca.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Fornisce un&#39;identità unica a cui associare il nostro lavoro, indipendentemente dal nostro nome completo.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Inoltre, è molto utile per accedere o registrarsi a servizi che lo utilizzano come sistema di autenticazione o applicativo di supporto per ulteriori funzionalità (es. Zenodo).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usiamo-doi-per-identificare-i-nostri-dataset&#34;&gt;Usiamo DOI per identificare i nostri dataset&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;img/doi.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+        &lt;figcaption&gt;
+          Fonte: The Turing Way Community, &amp; Scriberia. (2024). Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.13882307&#34;&gt;https://doi.org/10.5281/zenodo.13882307&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;
+            PID per un oggetto digitale di ricerca, pubblicato sul Web.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Rende molto più facile per gli altri citare i nostri dati, riduce il rischio di &lt;emph&gt;link rot&lt;/emph&gt; e consente di tracciare come la nostra ricerca venga utilizzata e citata.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Esistono server che associano DOI al momento della pubblicazione (es. Zenodo, FigShare, Dryad).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;citiamo-e-rendiamoci-citabili&#34;&gt;Citiamo e rendiamoci citabili&lt;/h3&gt;
+&lt;p&gt;Quando usiamo degli oggetti di ricerca (es. un dataset, un software, un articolo, una monografia, una metodologia, ecc.), citiamoli direttamente nell&amp;rsquo;articolo nei punti in cui sono rilevanti.&lt;/p&gt;
+&lt;p&gt;In generale, una citazione include le seguenti informazioni:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autore;&lt;/li&gt;
+&lt;li&gt;Titolo;&lt;/li&gt;
+&lt;li&gt;Anno di pubblicazione;&lt;/li&gt;
+&lt;li&gt;Editore;&lt;/li&gt;
+&lt;li&gt;Informazioni di accesso (URL o DOI);&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link alla guida agli stili di citazione su Scribbr: &lt;a href=&#34;https://www.scribbr.com/citing-sources/citation-styles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.scribbr.com/citing-sources/citation-styles/&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/license-intro.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;diritti-e-doveri&#34;&gt;Diritti e doveri&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@vinayak10?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Vinayak Sood&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-mountain-range-with-snow-capped-mountains-in-the-distance-fcJaN02wu70?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-dati-possono-essere-soggetti-a-diritto-dautore&#34;&gt;I dati possono essere soggetti a diritto d&amp;rsquo;autore&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;&amp;hellip; Quando sono opere dell’ingegno di carattere creativo (es. testi, immagini, tabelle, database, software, ecc.).&lt;/p&gt;
+&lt;p&gt;MA: il diritto d’autore tutela la forma espressiva di un’opera dell’ingegno, e non i dati in quanto tali.&lt;/p&gt;
+&lt;p&gt;La tutela autoriale non copre le idee, i procedimenti, i metodi di funzionamento o i concetti matematici in quanto tali.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;allautore-spettano-diritti-morali-e-patrimoniali&#34;&gt;All&amp;rsquo;autore spettano diritti morali e patrimoniali&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diritti &lt;strong&gt;morali&lt;/strong&gt;: irrinunciabili, inalienabili, imprescrittibili, possono essere fatti valere senza limiti di tempo dopo la morte dell’autore (es. il diritto di rivendicare la paternità dell’opera, il diritto di inedito e il diritto all’integrità dell’opera);&lt;/li&gt;
+&lt;li&gt;Diritti &lt;strong&gt;patrimoniali&lt;/strong&gt;: cedibili a titolo oneroso o gratuito, in via esclusiva o non esclusiva, ed esercitabili fino a 70 anni dopo la morte dell’autore (es. il diritto di sfruttamento economico dell’opera in esclusiva, il diritto di pubblicare, il diritto di digitalizzare, il diritto di modificare, il diritto di tradurre, ecc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nel-caso-delle-banche-dati-si-applica-il-diritto-_sui-generis_&#34;&gt;Nel caso delle banche dati, si applica il diritto &lt;em&gt;sui generis&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Le banche di dati sono raccolte di opere, dati o altri elementi che sono organizzati in modo sistematico o metodico, in modo che possano essere facilmente accessibili.&lt;/p&gt;
+&lt;p&gt;Le banche di dati possono essere protette dal diritto d’autore se rappresentano una creazione intellettuale dell’autore, cioè se l’organizzazione e la disposizione delle informazioni sono frutto di un lavoro creativo.&lt;/p&gt;
+&lt;p&gt;La protezione non riguarda il contenuto della banca di dati, ma solo la sua struttura e organizzazione. I diritti sui dati stessi (se appartengono a terzi) restano separati e non sono influenzati dalla protezione.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nel-caso-delle-banche-dati-si-applica-il-diritto-_sui-generis_-1&#34;&gt;Nel caso delle banche dati, si applica il diritto &lt;em&gt;sui generis&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Oltre alla protezione da diritto d’autore, esiste anche un diritto sui generis che tutela gli investimenti fatti per creare, verificare o presentare la banca di dati (come risorse finanziarie, tempo e lavoro). Questo diritto impedisce ad altri di estrarre o riutilizzare parti sostanziali della banca di dati senza permesso.&lt;/p&gt;
+&lt;p&gt;Il diritto sui generis dura 15 anni, a partire dal primo gennaio dell’anno successivo alla completazione della banca di dati o dalla prima messa a disposizione del pubblico.&lt;/p&gt;
+&lt;p&gt;Il titolare dei diritti può stabilire condizioni di utilizzo della banca di dati tramite licenze d&amp;rsquo;uso, specificando come altri possono utilizzare la banca di dati.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;usiamo-le-licenze-per-far-sapere-alle-altre-persona-cosa-possono-e-non-possono-fare&#34;&gt;Usiamo le licenze per far sapere alle altre persona cosa possono e non possono fare&lt;/h3&gt;
+&lt;p&gt;Un autore può concedere i propri diritti patrimoniali attraverso un contratto di concessione d’uso (licenza), permettendo a terzi di utilizzare l&amp;rsquo;opera alle condizioni stabilite.&lt;/p&gt;
+&lt;p&gt;I dati ad accesso aperto (Open Data) sono distribuiti con licenze che garantiscono libertà di accesso, utilizzo, modifica e condivisione, con eventuali restrizioni per attribuire la paternità e limitare usi specifici, come nel caso del diritto d&amp;rsquo;autore.&lt;/p&gt;
+&lt;p&gt;La scelta della licenza deve basarsi sul principio “as open as possible, as closed as necessary”.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;facciamo-attenzione&#34;&gt;Facciamo attenzione!&lt;/h3&gt;
+&lt;p&gt;Se non ci sono problemi legali o economici, è preferibile rendere i dati accessibili a tutti.&lt;/p&gt;
+&lt;p&gt;È consigliato scegliere licenze permissive che permettano l&amp;rsquo;uso libero dei dati in qualsiasi formato, per qualsiasi scopo, anche commerciale (es. CC0 1.0, CC BY 4.0 e CC BY-SA 4.0).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;facciamo-attenzione-1&#34;&gt;Facciamo attenzione!&lt;/h3&gt;
+&lt;p&gt;Per usare opere o materiali protetti dal diritto d&amp;rsquo;autore o da diritti connessi, è necessario ottenere il consenso preventivo del titolare dei diritti.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Diritti patrimoniali: Questi diritti proteggono l&amp;rsquo;intera opera e anche le sue singole parti. Quindi, anche l&amp;rsquo;uso di parti di un&amp;rsquo;opera richiede l&amp;rsquo;autorizzazione dell&amp;rsquo;autore;&lt;/li&gt;
+&lt;li&gt;I diritti patrimoniali sono indipendenti, quindi ogni diritto (ad esempio, il diritto di riproduzione o distribuzione) può essere trasferito separatamente;&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;uso di un&amp;rsquo;opera senza autorizzazione è consentito solo in caso di eccezioni previste dalla legge (come l&amp;rsquo;uso per scopi educativi o di critica).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;È sempre necessario verificare i termini della licenza d’uso associata alla pubblicazione e/o messa a disposizione di un’opera.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-licenze-creative-commons-cc-sono-le-licenze-maggiormente-utilizzate-per-le-opere-digitali&#34;&gt;Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali&lt;/h3&gt;
+&lt;p&gt;L’autore concede ad una generalità di soggetti indefiniti l’autorizzazione all’uso dell’opera a determinate condizioni, decidendo quali diritti riservare e quali concedere in uso.&lt;/p&gt;
+&lt;p&gt;I sei schemi di licenza disponibili si articolano sulla combinazione di quattro clausole base che l’autore può scegliere e combinare, esplicando così le modalità d’uso della propria opera da parte degli utilizzatori finali:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BY&lt;/strong&gt; (Attribuzione): l&amp;rsquo;attribuzione all&amp;rsquo;autore dell&amp;rsquo;opera originale deve essere presente;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NC&lt;/strong&gt; (Non Commercial): non è consentito l’uso commerciale;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SA&lt;/strong&gt; (Share Alike): le opere derivate devono essere condivise con la medesima licenza;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ND&lt;/strong&gt; (Non Derivates): non sono consentite opere derivate;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-licenze-creative-commons-cc-sono-le-licenze-maggiormente-utilizzate-per-le-opere-digitali-1&#34;&gt;Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/creativecommons.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: JoKalliauer; foter, CC BY-SA 3.0 &lt;a href=&#34;https://foter.com/blog/how-to-attribute-creative-commons-photos/&#34;&gt;https://foter.com/blog/how-to-attribute-creative-commons-photos/&lt;/a&gt; via Wikimedia Commons.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-14-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 14 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - Tutto è rivelato</title>
+      <link>http://localhost:1313/it/slides/dhdmch-13/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-13/</guid>
+      <description>&lt;h1 id=&#34;tutto-è-rivelato&#34;&gt;Tutto è rivelato&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-13-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 13 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;voyant-tools-attività-pratica&#34;&gt;Voyant Tools: attività pratica&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;carichiamo-un-file-tratto-da-mythologiae&#34;&gt;Carichiamo un file tratto da Mythologiae&lt;/h3&gt;
+&lt;p&gt;Link al sotto-dataset: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1v-H6uYEuJUE_1Jh7SOq4Dyhh6So1tdQU9kN7PuAFFGk/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.google.com/spreadsheets/d/1v-H6uYEuJUE_1Jh7SOq4Dyhh6So1tdQU9kN7PuAFFGk/edit?usp=sharing&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Su GitHub: &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;data&lt;/code&gt; &amp;gt; &lt;code&gt;csv&lt;/code&gt; &amp;gt; &lt;code&gt;README.md&lt;/code&gt; &amp;gt; 4. Dataset Note e Descrizioni &amp;gt; Fonti &amp;gt; Selezione di colonne.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link a Voyant Tools: &lt;a href=&#34;https://voyant-tools.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://voyant-tools.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Scaricate il sotto-dataset in CSV, ed effettuate l&amp;rsquo;upload di questo su Voyant Tools.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-parole-chiave-e-frequenze&#34;&gt;1. Parole chiave e frequenze&lt;/h3&gt;
+&lt;p&gt;Scopriamo quali sono le 10 parole più frequenti utilizzate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Di quali dati si tratta?&lt;/li&gt;
+&lt;li&gt;Quale/i visualizzazione/i usereste?&lt;/li&gt;
+&lt;li&gt;Cosa notate (qualsiasi cosa, anche &amp;ldquo;ovvio&amp;rdquo; o &amp;ldquo;banale&amp;rdquo;)?&lt;/li&gt;
+&lt;li&gt;Ci sono parole che potrebbero essere escluse (cioé aggiunte alla lista di stopwords)? Come cambia l&amp;rsquo;analisi?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;aggiungere-le-_stopword_&#34;&gt;Aggiungere le &lt;em&gt;stopword&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Su alcune skin (es. &lt;code&gt;Cirrus&lt;/code&gt;), è possibile cliccare sulle opzioni (la terza icona nell&amp;rsquo;angolo in alto a destra della skin).&lt;/p&gt;
+&lt;p&gt;Tra le opzioni, abbiamo le &lt;em&gt;stopword&lt;/em&gt;. Di default, l&amp;rsquo;opzione attiva è l&amp;rsquo;auto-detect (cioé le stopword sono individuate in automatico, sulla base della lingua del testo).&lt;/p&gt;
+&lt;p&gt;Per modificare manualmente l&amp;rsquo;elenco di stopword, è sufficiente cliccare su &lt;code&gt;Edit List&lt;/code&gt; e aggiungere o togliere parole (ad ogni parola deve corrispondere una riga!).&lt;/p&gt;
+&lt;p&gt;Una volta salvate e confermate le modifiche, cosa succede?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-relazioni-tra-parole&#34;&gt;2. Relazioni tra parole&lt;/h3&gt;
+&lt;p&gt;Scopriamo come le parole sono collegate tra loro in base alla loro co-occorrenza, utilizzando anche le funzioni di ricerca testuale.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Di quali dati si tratta?&lt;/li&gt;
+&lt;li&gt;Quale/i visualizzazione/i usereste?&lt;/li&gt;
+&lt;li&gt;Cosa notate (qualsiasi cosa, anche &amp;ldquo;ovvio&amp;rdquo; o &amp;ldquo;banale&amp;rdquo;)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;effettuare-le-ricerche&#34;&gt;Effettuare le ricerche&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pestilenza&lt;/code&gt;: trova il termine esatto;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pestilen*&lt;/code&gt;: trova termini che iniziano con &amp;ldquo;pestilen&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;marito e moglie&amp;quot;&lt;/code&gt;: cerca l&amp;rsquo;intera espressione;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;opera misericordia&amp;quot;~5&lt;/code&gt;: &amp;ldquo;opera&amp;rdquo; e &amp;ldquo;misericordia&amp;rdquo; co-occorrono
+entro 5 termini;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@Personaggi&lt;/code&gt;: ricerca raggruppata di tutti i termini inclusi in una
+categoria;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^@Personaggi&lt;/code&gt;: ricerca dei singoli termini inclusi in una categoria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;aggiungere-categorie&#34;&gt;Aggiungere categorie&lt;/h3&gt;
+&lt;p&gt;Gruppi di parole semanticamente connesse (es. personaggi, luoghi, emozioni) da usare per ricerche mirate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cliccate su opzioni;&lt;/li&gt;
+&lt;li&gt;Vicino alla voce &lt;em&gt;Categories&lt;/em&gt;, cliccate su &lt;em&gt;Edit&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Potete rimuovere le categorie esistenti;&lt;/li&gt;
+&lt;li&gt;Cliccate su &lt;em&gt;Add Category&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Scrivete un nome per la categoria, e.g. &lt;em&gt;Personaggi&lt;/em&gt; e cliccate su &lt;em&gt;Add&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Trascinate i nomi dei personaggi dalla lista &lt;em&gt;Terms&lt;/em&gt; alla lista &lt;em&gt;Personaggi&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Salvare cliccando su &lt;em&gt;Save&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esplorate&#34;&gt;Esplorate!&lt;/h3&gt;
+&lt;p&gt;Cambiate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Opzioni di upload: nella schermata principale, andate su &lt;em&gt;Options&lt;/em&gt; &amp;gt; &lt;em&gt;Tables&lt;/em&gt; e cambiate il valore di &lt;em&gt;Documents&lt;/em&gt; in &lt;code&gt;from cells in each row&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Visualizzazioni e le impostazioni per ogni visualizzazione;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come cambiano i dati? E le visualizzazioni?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esportate-le-visualizzazioni&#34;&gt;Esportate le visualizzazioni&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cliccate sull&amp;rsquo;icona per l&amp;rsquo;esportazione (la prima in alto a destra nel riquadro della skin);&lt;/li&gt;
+&lt;li&gt;Cliccate su &lt;em&gt;Export Visualization&lt;/em&gt; e poi &lt;em&gt;Export a PNG image of this visualization&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Sincronizzate, caricate le immagini nel vostro clone della repo, dentro &lt;code&gt;tutorial&lt;/code&gt; &amp;gt; &lt;code&gt;doc&lt;/code&gt; &amp;gt; &lt;code&gt;img&lt;/code&gt; &amp;gt; &lt;code&gt;viz&lt;/code&gt;, e fate il pull request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-e-già-che-ci-siamo-ri-allineamo-il-dmp-rispetto-a-tutto-quello-che-abbiamo-fatto-fino-ad-ora&#34;&gt;&amp;hellip; E già che ci siamo, ri-allineamo il DMP rispetto a tutto quello che abbiamo fatto fino ad ora!&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-13-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 13 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>

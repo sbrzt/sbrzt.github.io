@@ -384,8 +384,20 @@
                 href="http://localhost:1313/it/tag/structured-light-projection-scanning/"
                 />
   </url><url>
+    <loc>http://localhost:1313/it/slides/dhdmch-12/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/it/slides/dhdmch-11/</loc>
-    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/it/slides/dhdmch-14/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/it/slides/dhdmch-13/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/it/slides/dhdmch-10/</loc>
