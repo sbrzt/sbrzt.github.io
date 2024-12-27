@@ -441,7 +441,7 @@ Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Progr
 
 ---
 
-### Esempio di modello di dati: Resource Description Framework
+### Esempio di modello di dati: RDF
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -454,7 +454,7 @@ Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Progr
   </div>
   <div style="flex: 1;">
     <p>
-      Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l'utilizzo di triple soggetto-predicato-oggetto.
+      Resource Description framework: modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l'utilizzo di triple soggetto-predicato-oggetto.
     </p>
   </div>
 </div>

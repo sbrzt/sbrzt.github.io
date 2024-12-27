@@ -69,9 +69,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-1.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Scarica il dataset su cui lavorare: <a href="https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing</a>;</li>
         <li>In <em>Create Project</em> > <em>This computer</em>, clicca su <em>Choose files</em> e carica il dataset appena scaricato;</li>
@@ -86,9 +91,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-2a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>In <em>Parse data as</em> > <em>CSV / TSV / separator-based files</em>;</li>
         <li><em>Character encoding</em> deve avere <code>UTF-8</code> come valore;</li>
@@ -105,9 +115,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-2b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Seleziona <em>Parse next <code>1</code> line(s) as column headers</em>;</li>
         <li>Spunta <em>Store blank rows</em>;</li>
@@ -123,9 +138,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-3a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li><code>Permalink</code> ti consente di tornare ad uno stato di visualizzazione specifico del progetto, con filtri e faccette applicati, inserendo informazioni specifiche della visualizzazione direttamente nell'URL.</li>
       </ul>
@@ -138,9 +158,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-3b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li><code>Open</code> apre una nuova scheda del browser mostrando la schermata di creazione del progetto per modificare le impostazioni, avviare un nuovo progetto o aprire un progetto esistente;</li>
         <li><code>Export</code> ti consente di selezionare un formato per esportare il dataset;</li>
@@ -155,9 +180,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-4.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Visualizzazione dei dati in formato tabellare;</li>
         <li>Numero totale di righe;</li>
@@ -173,9 +203,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-5.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <p>Modi principali per esplorare i dati, mostrando pattern, tendenze e sottogruppi;</p>
       <ul>
         <li><code>Refresh</code> aggiorna ciascuna facet con le informazioni più recenti;</li>
@@ -191,9 +226,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-6.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Storico del progetto come elenco di modifiche in ordine cronologico;</li>
         <li>Salvataggio automatico ogni 5 minuti e alla chiusura con <code>CTRL + C</code>;</li>
@@ -209,9 +249,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-7a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li><strong>Row</strong>: una serie di celle, una cella per colonna;</li>
         <li>A volte, ci sono più informazioni in una singola cella (esempio: <code>dcho_keyword</code>);</li>
@@ -226,9 +271,14 @@ OpenRefine permette di:
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-7b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li><strong>Record</strong>: una collezione di una o più righe;</li>
         <li>Le molteplici informazioni in una singola cella (esempio: <code>dcho_keyword</code>), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record;</li>
@@ -253,9 +303,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Tipicamente, si crea una facet su una particolare colonna;</li>
         <li>Fai clic sul <em>triangolo</em> davanti al nome della colonna (esempio: <code>dcho_theme</code>);</li>
@@ -271,9 +326,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Prende il contenuto totale delle celle della colonna in questione e le abbina;</li>
         <li>Ordina per nome o conteggio;</li>
@@ -289,9 +349,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8c.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Molteplici facet sono impilate una sopra l'altra (esempio: nell'immagine viene aggiunta <code>cho_author</code>).</li>
       </ul>
@@ -304,9 +369,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8d.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>I filtri possono essere aggiunti su una colonna;</li>
         <li>Utili per identificare più precisamente dei dati;</li>
@@ -321,9 +391,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8e.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>I filtri condividono lo stesso spazio con le facet;</li>
         <li>Digita il testo da cercare (esempio: "edipo") per restituire le righe con quel testo contenuto in quella colonna;</li>
@@ -338,9 +413,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8f.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>È possibile filtrare anche tramite facet;</li>
         <li>Clicca su qualsiasi voce in un filtro (esempio: "Allston, Washington" nella facet <code>cho_author</code>);</li>
@@ -355,9 +435,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8g.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Puoi usare più facet per migliorare il filtraggio.</li>
       </ul>
@@ -370,9 +455,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8h.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Puoi usare facet personalizzati per ottenere determinati effetti (esempio: filtrare le righe con celle vuote).</li>
       </ul>
@@ -385,9 +475,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8i.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Puoi determinare l'ordine in cui vengono mostrate le righe in base ad alcune condizioni.</li>
         <li>Clicca sulla freccia e seleziona <em>Sort</em>.</li>
@@ -401,9 +496,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8l.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Seleziona come trattare i valori delle celle durante l'ordinamento (esempio: se sono date, molto probabilmente vorrai selezionare <em>date</em>);</li>
         <li>Puoi anche selezionare l'ordine effettivo (esempio: prima tutti i valori validi, poi quelli errati, poi quelli mancanti);</li>
@@ -418,9 +518,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8m.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Un ottimo modo per correggere le incongruenze trovate con le facet;</li>
         <li>Utilizza una varietà di metodi di confronto per trovare diciture simili ma non identiche, e mostrarle in modo da rendere possibile l'allineamento dei valori che dovrebbero essere uguali;</li>
@@ -436,9 +541,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8n.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Clicca su <em>Cluster</em>;</li>
         <li>Prova diversi algoritmi per rilevare vari cluster;</li>
@@ -454,9 +564,14 @@ Consente ulteriori operazioni, come il filtraggio e il clustering.
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-8o.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Prova diversi algoritmi per rilevare vari cluster;</li>
         <li>Per ogni cluster, puoi unire i valori spuntando <em>Merge?</em>;</li>
@@ -481,9 +596,14 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9a.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>A volte una cella può contenere più valori (esempio: colonna <code>dcho_keyword</code>, con più valori separati da virgole <code>,</code>);</li>
         <li>Fondamentale per la modalità <emph>records</emph>;</li>
@@ -499,9 +619,14 @@ OpenRefine offre numerose funzionalità per modificare e migliorare il contenuto
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9b.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Puoi decidere come dividere le celle;</li>
         <li>Idealmente, dovresti sempre usare nel testo un separatore (esempio: <code>,</code>, <code>|</code>, <code>;</code>, ecc.), e indicarlo qui;</li>
@@ -545,9 +670,14 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9c.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Clicca sulla freccia e seleziona <em>Reconcile</em>;</li>
         <li>Seleziona <em>Start reconciling</em>.</li>
@@ -561,9 +691,14 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9d.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Seleziona il servizio di riconciliazione (esempio: <code>VIAF</code>);</li>
         <li>Clicca su <em>Next</em>.</li>
@@ -577,9 +712,14 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9e.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>A seconda della colonna e del servizio di riconciliazione selezionato, scegli il tipo di entità che desideri riconciliare (esempio: <code>Person</code>);</li>
         <li>Clicca su <em>Start reconciling</em>.</li>
@@ -593,9 +733,14 @@ Avviene di default tramite ricerca di stringhe, quindi pulisci e raggruppa i dat
 
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
+      <figure>
         <img src="img/openrefine-9f.png" alt="https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html" style="max-width: 100%;">
+        <figcaption>
+          Fonte: propria.
+        </figcaption>
+      </figure>
     </div>
-    <div style="flex: 1; padding-left: 20px;">
+    <div style="flex: 1;">
       <ul>
         <li>Alcuni valori delle celle vengono riconciliati direttamente (esempio: <em>Houdon, Jean Antoine</em>);</li>
         <li>Altri richiedono una validazione manuale (esempio: <em>Gérard, Francois Baron</em>);</li>

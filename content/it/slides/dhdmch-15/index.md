@@ -113,7 +113,7 @@ Consente ai ricercatori di tutte le discipline di condividere e preservare gratu
 ### Possiamo salvare il nostro oggetto in formato _draft_ e deciderne il livello di accesso, prima di pubblicarlo definitivamente
 
 <figure>
-  <img src="img/zenodo-menu.png" height="auto" width="500"/>
+  <img src="img/zenodo-menu.png" height="auto" width="400"/>
   <figcaption>
     Fonte: propria.
   </figcaption>

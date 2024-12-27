@@ -168,7 +168,7 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 | 08 | _Strutture nascoste_ | Pratica | [TEI](https://tei-c.org/) | 02-12-2024 |
 | 09 | _L'oltretesto_ | Pratica | [RDF](https://it.wikipedia.org/wiki/Resource_Description_Framework) | 04-12-2024 |
 | 10 | _PROCESS: preparare ed elaborare_ | Teorica | `Pulizia dei dati`, `Qualità dei dati` | 05-12-2024 |
-| 11 | _Metti la cera, togli la cera_ | Pratica | [OpenRefine](https://openrefine.org/) | 09-12-2024 |
+| 11 | _Dai la cera, togli la cera_ | Pratica | [OpenRefine](https://openrefine.org/) | 09-12-2024 |
 | 12 | _ANALYZE: analizzare_ | Teorica | `Analisi dei dati`, `Visualizzazione dei dati` | 11-12-2024 |
 | 13 | _Tutto è rivelato_ | Pratica | [Voyant Tools](https://voyant-tools.org/) | 12-12-2024 |
 | 14 | _SHARE: condividere e riutilizzare_ | Teorica | `Preservazione dei dati`, `Citazione dei dati`, `Pubblicazione dei dati` | 16-12-2024 |
@@ -178,11 +178,13 @@ I miei interessi si concentrano sullo studio e l'implementazione di strumenti e 
 
 ### Esame
 
-Un progetto di _gestione dei dati_ correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).
+Un progetto di _gestione dei dati_ correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub), basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.
 
-Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.
+I dati che potranno essere utilizzati saranno due testi di guide turistiche di Roma: <https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhinmY5b4h1Eoo-t2JOpaHwBMAKdc782rxufWuaX5k7flA?e=76gfR5>.
 
-Gli studenti potranno lavorare al progetto individualmente o in gruppo (da definire).
+In alternativa, dopo un incontro conoscitivo e previa autorizzazione, è possibile portare un progetto basato su dati proposti dallo studente.
+
+Gli studenti lavoreranno al progetto individualmente (ma possono confrontarsi tra loro ed eventualmente anche chiedere chiarimenti al sottoscritto).
 
 ---
 

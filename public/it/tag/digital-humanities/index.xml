@@ -1468,7 +1468,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;creazione-di-un-progetto-13&#34;&gt;Creazione di un progetto (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-1.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1482,7 +1487,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;creazione-di-un-progetto-23&#34;&gt;Creazione di un progetto (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-2a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1498,7 +1508,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;creazione-di-un-progetto-33&#34;&gt;Creazione di un progetto (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-2b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1513,7 +1528,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;schermata-del-progetto-12&#34;&gt;Schermata del progetto (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-3a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1525,7 +1545,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;schermata-del-progetto-22&#34;&gt;Schermata del progetto (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-3b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1539,7 +1564,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;schermata-della-griglia&#34;&gt;Schermata della griglia&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-4.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1554,7 +1584,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;facetfilter&#34;&gt;Facet/Filter&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-5.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;p&gt;Modi principali per esplorare i dati, mostrando pattern, tendenze e sottogruppi;&lt;/p&gt;
@@ -1569,7 +1604,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;undoredo&#34;&gt;Undo/Redo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-6.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1584,7 +1624,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;modalità-rows&#34;&gt;Modalità rows&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-7a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1598,7 +1643,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;modalità-records&#34;&gt;Modalità records&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-7b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1617,7 +1667,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;esplora-i-dati-con-le-facet-22&#34;&gt;Esplora i dati con le Facet (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1632,7 +1687,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;text-facet-12&#34;&gt;Text facet (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1647,7 +1707,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;text-facet-22&#34;&gt;Text facet (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1659,7 +1724,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;filter-12&#34;&gt;Filter (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1673,7 +1743,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;filter-22&#34;&gt;Filter (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1687,7 +1762,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;filtrare-con-i-facet-13&#34;&gt;Filtrare con i Facet (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1701,7 +1781,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;filtrare-con-i-facet-23&#34;&gt;Filtrare con i Facet (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8g.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1713,7 +1798,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;filtrare-con-i-facet-33&#34;&gt;Filtrare con i Facet (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8h.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1725,7 +1815,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;sort-12&#34;&gt;Sort (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8i.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1738,7 +1833,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;sort-22&#34;&gt;Sort (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8l.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1752,7 +1852,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;cluster-13&#34;&gt;Cluster (1/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8m.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1767,7 +1872,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;cluster-23&#34;&gt;Cluster (2/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8n.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1782,7 +1892,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;cluster-33&#34;&gt;Cluster (3/3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-8o.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1804,7 +1919,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;split-12&#34;&gt;Split (1/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9a.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1819,7 +1939,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;split-22&#34;&gt;Split (2/2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9b.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1855,7 +1980,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;reconcile-25&#34;&gt;Reconcile (2/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9c.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1868,7 +1998,12 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;reconcile-35&#34;&gt;Reconcile (3/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9d.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
     &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
       &lt;ul&gt;
@@ -1948,6 +2083,126 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-11-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 11 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DHDMCH - L&#39;Eredità di Alessandria</title>
+      <link>http://localhost:1313/it/slides/dhdmch-15/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/dhdmch-15/</guid>
+      <description>&lt;h1 id=&#34;leredità-di-alessandria&#34;&gt;L&amp;rsquo;Eredità di Alessandria&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-15-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 15 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;zenodo&#34;&gt;Zenodo&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-repository-generalista-aperta-ospitata-dal-cern&#34;&gt;Una repository generalista aperta ospitata dal CERN&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://zenodo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zenodo.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Consente ai ricercatori di tutte le discipline di condividere e preservare gratuitamente i loro risultati di ricerca, in generale indipendentemente dalle dimensioni o dal formato dei propri dati.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcune-caratteristiche&#34;&gt;Alcune caratteristiche&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Condivisione e collegamento degli oggetti di ricerca;&lt;/li&gt;
+&lt;li&gt;Citabilità dei dati;&lt;/li&gt;
+&lt;li&gt;Reperibilità dei dati;&lt;/li&gt;
+&lt;li&gt;Versioning dei dati;&lt;/li&gt;
+&lt;li&gt;Affidabilità e sicurezza dell&amp;rsquo;infrastruttura;&lt;/li&gt;
+&lt;li&gt;Flessibilità delle licenze;&lt;/li&gt;
+&lt;li&gt;Flessibilità del livello di accesso;&lt;/li&gt;
+&lt;li&gt;Integrazione con altri servizi (es. ORCID e GitHub).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-si-usa&#34;&gt;Come si usa&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-how-to.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: &lt;a href=&#34;https://www.openaire.eu/zenodo-guide&#34;&gt;https://www.openaire.eu/zenodo-guide&lt;/a&gt;.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;se-avete-già-un-orcid-usatelo-per-iscrivervi&#34;&gt;Se avete già un ORCID, usatelo per iscrivervi&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-sign-up.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-nostri-dati-sono-elencati-nella-_dashboard_&#34;&gt;I nostri dati sono elencati nella &lt;em&gt;dashboard&lt;/em&gt;&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-dashboard.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tramite-_new-upload_-possiamo-depositare-un-nuovo-oggetto-di-ricerca&#34;&gt;Tramite &lt;em&gt;New upload&lt;/em&gt; possiamo depositare un nuovo oggetto di ricerca&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-new-upload-01.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;in-questa-pagina-inseriamo-una-serie-di-metadati-obbligatori-e-facoltativi&#34;&gt;In questa pagina inseriamo una serie di metadati obbligatori e facoltativi&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-new-upload-02.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;possiamo-generare-e-prenotare-un-doi-per-il-nostro-oggetto&#34;&gt;Possiamo generare e prenotare un DOI per il nostro oggetto&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-doi.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;possiamo-salvare-il-nostro-oggetto-in-formato-_draft_-e-deciderne-il-livello-di-accesso-prima-di-pubblicarlo-definitivamente&#34;&gt;Possiamo salvare il nostro oggetto in formato &lt;em&gt;draft&lt;/em&gt; e deciderne il livello di accesso, prima di pubblicarlo definitivamente&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/zenodo-menu.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;github-pages-o-quello-che-ne-rimane&#34;&gt;GitHub Pages (o quello che ne rimane&amp;hellip;)&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;funzionalità-di-github-che-permette-di-esporre-file-readmemd-sotto-forma-di-pagine-web-statiche&#34;&gt;Funzionalità di GitHub che permette di esporre file README.md sotto forma di pagine Web statiche&lt;/h3&gt;
+&lt;p&gt;Fino a pochissimo tempo fa, era anche possibile stilizzare in maniera semplice e veloce queste pagine secondo template esistenti.&lt;/p&gt;
+&lt;p&gt;Ora è molto più complesso e richiede un certo margine di &amp;ldquo;smanettamento&amp;rdquo; (istruzioni: &lt;a href=&#34;https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;A questo punto, ci limitiamo ad esporre delle semplici pagine Web statiche con lo stile predefinito di GitHub.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nella-repo-che-vogliamo-esporre-andiamo-su-_settings_--_pages_&#34;&gt;Nella repo che vogliamo esporre, andiamo su &lt;em&gt;Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Pages&lt;/em&gt;&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/github-pages-01.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;sotto-_branch_-cambia-la-selezione-da-none-a-main-e-da-root-a-docs-poi-clicca-su-_save_&#34;&gt;Sotto &lt;em&gt;Branch&lt;/em&gt;, cambia la selezione da &lt;code&gt;None&lt;/code&gt; a &lt;code&gt;main&lt;/code&gt; e da &lt;code&gt;/(root)&lt;/code&gt; a &lt;code&gt;/docs&lt;/code&gt;, poi clicca su &lt;em&gt;Save&lt;/em&gt;&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/github-pages-02.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dopo-un-paio-di-minuti-la-pagina-web-sarà-raggiungibile-al-link-visualizzato&#34;&gt;Dopo un paio di minuti, la pagina Web sarà raggiungibile al link visualizzato&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/github-pages-03.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-15-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 15 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>
@@ -2200,7 +2455,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@vinayak10?utm_content=creditCopyT
 &lt;hr&gt;
 &lt;h3 id=&#34;le-licenze-creative-commons-cc-sono-le-licenze-maggiormente-utilizzate-per-le-opere-digitali-1&#34;&gt;Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/creativecommons.png&#34; height=&#34;auto&#34; width=&#34;800&#34;/&gt;
+  &lt;img src=&#34;img/creativecommons.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
   &lt;figcaption&gt;
     Fonte: JoKalliauer; foter, CC BY-SA 3.0 &lt;a href=&#34;https://foter.com/blog/how-to-attribute-creative-commons-photos/&#34;&gt;https://foter.com/blog/how-to-attribute-creative-commons-photos/&lt;/a&gt; via Wikimedia Commons.
   &lt;/figcaption&gt;
@@ -3671,7 +3926,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@birminghammuseumstrust?utm_conten
 Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Programming Historian. &lt;a href=&#34;https://doi.org/10.46430/phen0068&#34;&gt;https://doi.org/10.46430/phen0068&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-modello-di-dati-resource-description-framework&#34;&gt;Esempio di modello di dati: Resource Description Framework&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-modello-di-dati-rdf&#34;&gt;Esempio di modello di dati: RDF&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3683,7 +3938,7 @@ Blaney, J. (2017). Introduction to the Principles of Linked Open Data. The Progr
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&#39;utilizzo di triple soggetto-predicato-oggetto.
+      Resource Description framework: modello di dati standard che permette di rappresentare, descrivere, e pubblicare i dati sul Web in un formato accessibile e interpretabile dalle macchine tramite l&#39;utilizzo di triple soggetto-predicato-oggetto.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3841,96 +4096,33 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;Costruire bibliografie;&lt;/li&gt;
 &lt;li&gt;Citare risorse bibliografiche.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. &lt;a href=&#34;https://doi.org/10.59350/z6cqd-2dn28&#34;&gt;https://doi.org/10.59350/z6cqd-2dn28&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-flusso-di-lavoro-classico&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0601_hu9636187785763155797.webp 400w,
-               /it/slides/dhdmch-06/img/0601_hu15251737906266957073.webp 760w,
-               /it/slides/dhdmch-06/img/0601_hu10478043182061563285.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0601_hu9636187785763155797.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;520&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0601.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. &lt;a href=&#34;https://doi.org/10.59350/z6cqd-2dn28&#34;&gt;https://doi.org/10.59350/z6cqd-2dn28&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-flusso-di-lavoro-classico-1&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0602_hu3977929110899218368.webp 400w,
-               /it/slides/dhdmch-06/img/0602_hu4066804931206622021.webp 760w,
-               /it/slides/dhdmch-06/img/0602_hu17252291362784570954.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0602_hu3977929110899218368.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;566&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0602.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. &lt;a href=&#34;https://doi.org/10.59350/z6cqd-2dn28&#34;&gt;https://doi.org/10.59350/z6cqd-2dn28&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-flusso-di-lavoro-classico-2&#34;&gt;Un flusso di lavoro classico&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0603_hu12477220500626201057.webp 400w,
-               /it/slides/dhdmch-06/img/0603_hu16892244390408734361.webp 760w,
-               /it/slides/dhdmch-06/img/0603_hu9399692037565593976.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0603_hu12477220500626201057.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;615&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0603.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. &lt;a href=&#34;https://doi.org/10.59350/z6cqd-2dn28&#34;&gt;https://doi.org/10.59350/z6cqd-2dn28&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;-con-i-soliti-problemi&#34;&gt;&amp;hellip; Con i soliti problemi&lt;/h3&gt;
 &lt;ul&gt;
@@ -3941,6 +4133,9 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;Condivisione degli articoli con metadati molto difficile;&lt;/li&gt;
 &lt;li&gt;Collaborazione sulla stessa bibliografia molto difficile.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. &lt;a href=&#34;https://doi.org/10.59350/z6cqd-2dn28&#34;&gt;https://doi.org/10.59350/z6cqd-2dn28&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;usiamo-zotero&#34;&gt;Usiamo Zotero&lt;/h3&gt;
 &lt;p&gt;Link: &lt;a href=&#34;https://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zotero.org/&lt;/a&gt;.&lt;/p&gt;
@@ -3955,274 +4150,76 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-home-page-di-zoteroorg&#34;&gt;1. Home page di Zotero.org&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0604_hu17197215731470283073.webp 400w,
-               /it/slides/dhdmch-06/img/0604_hu9597301069029693669.webp 760w,
-               /it/slides/dhdmch-06/img/0604_hu17321842742770123905.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0604_hu17197215731470283073.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;412&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0604.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;2-login&#34;&gt;2. Login&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0605_hu5327123180667322384.webp 400w,
-               /it/slides/dhdmch-06/img/0605_hu6275227569877497962.webp 760w,
-               /it/slides/dhdmch-06/img/0605_hu5005737590297212150.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0605_hu5327123180667322384.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;327&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0605.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;3-registrazione&#34;&gt;3. Registrazione&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0606_hu12658213320572395904.webp 400w,
-               /it/slides/dhdmch-06/img/0606_hu3885197780870448736.webp 760w,
-               /it/slides/dhdmch-06/img/0606_hu6426536152750925567.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0606_hu12658213320572395904.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;734&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0606.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;4-interfaccia-principale&#34;&gt;4. Interfaccia principale&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0607_hu12758280977025911315.webp 400w,
-               /it/slides/dhdmch-06/img/0607_hu948518341840259728.webp 760w,
-               /it/slides/dhdmch-06/img/0607_hu9165862217375464255.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0607_hu12758280977025911315.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;377&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0607.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;5-aggiunta-di-un-nuovo-item-alla-collezione&#34;&gt;5. Aggiunta di un nuovo item alla collezione&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0608_hu17741547005207099922.webp 400w,
-               /it/slides/dhdmch-06/img/0608_hu6327483433666945385.webp 760w,
-               /it/slides/dhdmch-06/img/0608_hu3695543278512870264.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0608_hu17741547005207099922.webp&#34;
-               width=&#34;352&#34;
-               height=&#34;257&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0608.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;6-colonna-dei-metadati-bibliografici&#34;&gt;6. Colonna dei metadati bibliografici&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0609_hu3077571612287494880.webp 400w,
-               /it/slides/dhdmch-06/img/0609_hu1030964601241576854.webp 760w,
-               /it/slides/dhdmch-06/img/0609_hu17948190825527523879.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0609_hu3077571612287494880.webp&#34;
-               width=&#34;357&#34;
-               height=&#34;715&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0609.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;7-selezione-di-item-e-export&#34;&gt;7. Selezione di item e export&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0610_hu156932284702693472.webp 400w,
-               /it/slides/dhdmch-06/img/0610_hu14741479749449565516.webp 760w,
-               /it/slides/dhdmch-06/img/0610_hu1321336167204757215.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0610_hu156932284702693472.webp&#34;
-               width=&#34;628&#34;
-               height=&#34;581&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0610.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;8-produzione-di-citazioni-inline&#34;&gt;8. Produzione di citazioni inline&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0611_hu6896288646788503308.webp 400w,
-               /it/slides/dhdmch-06/img/0611_hu6057979043840016189.webp 760w,
-               /it/slides/dhdmch-06/img/0611_hu18446620283090028543.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0611_hu6896288646788503308.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;364&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0611.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;9-produzionme-di-riferimenti-bibliografici&#34;&gt;9. Produzionme di riferimenti bibliografici&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0612_hu13522498973918706169.webp 400w,
-               /it/slides/dhdmch-06/img/0612_hu16339431060531167661.webp 760w,
-               /it/slides/dhdmch-06/img/0612_hu5062709240611631496.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0612_hu13522498973918706169.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;364&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0612.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
 &lt;hr&gt;
@@ -4262,9 +4259,8 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;Nel frattempo, ragionate su quello che state facendo: quali operazioni state effettuando? Quali fonti (siti, dataset, ecc.) state usando? Quale software? In quale modalità? Quali informazioni state raccogliendo? Queste sono tutte informazioni che finiscono nella documentazione!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Esempio:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;es. &lt;code&gt;Hom. Od. 1&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;h3 id=&#34;esempio-1&#34;&gt;Esempio 1&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Hom. Od. 1&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 1&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Author&lt;/code&gt; (&amp;gt; Switch to Single Field): Homer&lt;/li&gt;
@@ -4275,12 +4271,9 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1919&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Hom. Od. 1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Esempio:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Hom. Od. 22.75-199&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;h3 id=&#34;esempio-2&#34;&gt;Esempio 2&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Hom. Od. 22.75-199&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 22, lines 75-199&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Author&lt;/code&gt; (&amp;gt; Switch to Single Field): Homer&lt;/li&gt;
@@ -4291,12 +4284,9 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1919&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Hom. Od. 22.75-199&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Altro esempio:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Apollod. 3.5.8&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con
+&lt;h3 id=&#34;esempio-3&#34;&gt;Esempio 3&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Apollod. 3.5.8&lt;/code&gt; è un &lt;code&gt;Book section&lt;/code&gt; con&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Title&lt;/code&gt;: Book 3, chapter 5, section 8&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Author&lt;/code&gt;: Apollodorus&lt;/li&gt;
@@ -4307,100 +4297,32 @@ Hjørland, Birger. 2017. “Classification”. Knowledge Organization 44, no. 2:
 &lt;li&gt;&lt;code&gt;Date&lt;/code&gt;: 1921&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Extra&lt;/code&gt;: Apollod. 3.5.8&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;altri-lati-di-zotero-che-vi-consiglio-di-esplorare&#34;&gt;Altri lati di Zotero (che vi consiglio di esplorare)&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;zoterobib&#34;&gt;Zoterobib&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0613_hu8928287847043544383.webp 400w,
-               /it/slides/dhdmch-06/img/0613_hu13836988148785247752.webp 760w,
-               /it/slides/dhdmch-06/img/0613_hu12994444061259962917.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0613_hu8928287847043544383.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;712&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0613.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;zoterobib-1&#34;&gt;Zoterobib&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0614_hu388735774742963374.webp 400w,
-               /it/slides/dhdmch-06/img/0614_hu8063298452652814.webp 760w,
-               /it/slides/dhdmch-06/img/0614_hu9374070061271571502.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0614_hu388735774742963374.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;732&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0614.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;zotero-software-e-zotero-connector-plugin-per-browser&#34;&gt;Zotero (software) e Zotero Connector (plugin per browser)&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-06/img/0615_hu7516388424543808022.webp 400w,
-               /it/slides/dhdmch-06/img/0615_hu15223114417983799704.webp 760w,
-               /it/slides/dhdmch-06/img/0615_hu7922390442640776131.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-06/img/0615_hu7516388424543808022.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;409&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0615.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: propria.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-06-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 06 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
@@ -4675,7 +4597,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;p&gt;Esempio:
 &lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; diventa&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;lt;http://example.org/data/neuromancer&amp;gt; &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://example.org/dhdmch/Book\ &amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;http://example.org/data/neuromancer&amp;gt; &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://example.org/dhdmch/Book&amp;gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ma-turtle-è-più-leggibile-grazie-ai-_prefissi_&#34;&gt;Ma Turtle è più leggibile, grazie ai &lt;em&gt;prefissi&lt;/em&gt;&lt;/h3&gt;
@@ -4855,54 +4777,20 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;nella-marcatura-un-_elemento_-è-un-termine-che-esprime-la-semantica-del-testo-a-cui-si-riferisce&#34;&gt;Nella marcatura, un &lt;em&gt;elemento&lt;/em&gt; è un termine che esprime la semantica del testo a cui si riferisce&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../dhdmch-07/img/markup-elements.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;../dhdmch-07/img/markup-elements.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;nella-marcatura-un-_attributo_-è-uninformazione-aggiuntiva-assegnata-ad-un-elemento&#34;&gt;Nella marcatura, un &lt;em&gt;attributo&lt;/em&gt; è un&amp;rsquo;informazione aggiuntiva assegnata ad un elemento&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../dhdmch-07/img/markup-attribute.png&#34; alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;../dhdmch-07/img/markup-attribute.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://basic-inf.github.io/2022-2023/chapters/08.pdf&#34;&gt;https://basic-inf.github.io/2022-2023/chapters/08.pdf&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-tag-si-devono-annidare-correttamente&#34;&gt;I tag si devono annidare correttamente&lt;/h3&gt;
 &lt;p&gt;Devi &lt;em&gt;sempre&lt;/em&gt; chiudere l&amp;rsquo;utlimo tag che hai aperto prima di chiuderne un altro precedente.&lt;/p&gt;
@@ -5511,30 +5399,46 @@ Secondo paragrafo.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Descrizione dei dati
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali dati (ad esempio il tipo, i formati e i volumi) verranno raccolti o prodotti?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come verranno raccolti o prodotti i nuovi dati e/o come verranno riutilizzati i dati esistenti?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali dati (ad esempio il tipo, i formati e i volumi)  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;verranno raccolti o prodotti?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come verranno raccolti o prodotti i nuovi dati e/o  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;come verranno riutilizzati i dati esistenti?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Documentazione e qualità dei dati
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metadati e documentazione (ad esempio la metodologia di raccolta dei dati e il modo di organizzare i dati) accompagneranno i dati?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali misure di controllo della qualità dei dati saranno utilizzate?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metadati e documentazione (ad esempio la metodologia  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;di raccolta dei dati e il modo di organizzare i dati)  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;accompagneranno i dati?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali misure di controllo della qualità dei dati saranno  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;utilizzate?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Backup e archiviazione
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno archiviati e salvati i dati e i metadati durante la ricerca?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà gestita la sicurezza dei dati e la protezione dei dati sensibili durante la ricerca?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno archiviati e salvati i dati e i metadati  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;durante la ricerca?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà gestita la sicurezza dei dati e la protezione  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dei dati sensibili durante la ricerca?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Requisiti legali ed etici
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno gestite altre questioni legali, come i diritti di proprietà intellettuale e la proprietà? Quale legislazione si applica?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali questioni etiche e codici di condotta ci sono e come saranno presi in considerazione?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno gestite altre questioni legali, come i diritti  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;di proprietà intellettuale e la proprietà? Quale legislazione  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;si applica?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali questioni etiche e codici di condotta ci sono e come  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;saranno presi in considerazione?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Condivisione dei dati e conservazione a lungo termine
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come e quando i dati saranno condivisi? Ci sono possibili restrizioni alla condivisione dei dati o motivi di embargo?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno selezionati i dati per la conservazione e dove saranno conservati a lungo termine (ad esempio un repository di dati o un archivio)?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metodi o strumenti software sono necessari per accedere e utilizzare i dati?
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà garantita l&amp;#39;applicazione di un identificatore unico e persistente (come un Digital Object Identifier (DOI)) a ciascun set di dati?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come e quando i dati saranno condivisi? Ci sono possibili  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;restrizioni alla condivisione dei dati o motivi di embargo?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come saranno selezionati i dati per la conservazione e dove  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;saranno conservati a lungo termine (ad esempio un repository  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;di dati o un archivio)?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Quali metodi o strumenti software sono necessari per accedere  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e utilizzare i dati?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Come sarà garantita l&amp;#39;applicazione di un identificatore unico  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e persistente (come un Digital Object Identifier, o DOI) a  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ciascun set di dati?
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h3 id=&#34;salviamo-la-nostra-bozza-di-dmp-in-docs&#34;&gt;Salviamo la nostra bozza di DMP in &lt;code&gt;docs&lt;/code&gt;&lt;/h3&gt;
 &lt;hr&gt;
@@ -7202,9 +7106,10 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esame&#34;&gt;Esame&lt;/h3&gt;
-&lt;p&gt;Un progetto di &lt;em&gt;gestione dei dati&lt;/em&gt; correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub).&lt;/p&gt;
-&lt;p&gt;Basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.&lt;/p&gt;
-&lt;p&gt;Gli studenti potranno lavorare al progetto individualmente o in gruppo (da definire).&lt;/p&gt;
+&lt;p&gt;Un progetto di &lt;em&gt;gestione dei dati&lt;/em&gt; correlato a tematiche di interesse documentario e/o storico-artistico, che verrà presentato durante un colloquio orale (e pubblicato su GitHub), basato su linee guida specifiche che saranno presentate e discusse durante il corso e che saranno disponibili su Virtuale e nella repository GitHub.&lt;/p&gt;
+&lt;p&gt;I dati che potranno essere utilizzati saranno due testi di guide turistiche di Roma: &lt;a href=&#34;https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhinmY5b4h1Eoo-t2JOpaHwBMAKdc782rxufWuaX5k7flA?e=76gfR5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhinmY5b4h1Eoo-t2JOpaHwBMAKdc782rxufWuaX5k7flA?e=76gfR5&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In alternativa, dopo un incontro conoscitivo e previa autorizzazione, è possibile portare un progetto basato su dati proposti dallo studente.&lt;/p&gt;
+&lt;p&gt;Gli studenti lavoreranno al progetto individualmente (ma possono confrontarsi tra loro ed eventualmente anche chiedere chiarimenti al sottoscritto).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;preparazione-allesame&#34;&gt;Preparazione all&amp;rsquo;esame&lt;/h3&gt;
 &lt;p&gt;Non spaventatevi: avremo modo di esercitarci e capire assieme i vari passaggi da seguire per realizzare un buon progetto (e portare a casa un 30 e lode).&lt;/p&gt;

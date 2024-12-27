@@ -529,6 +529,8 @@ Un'analisi di questi elementi può aiutare a capire come si evolve la citazione 
 
 ### Progetto d'esame
 
+Link ai dati (documenti non strutturati, in formato PDF e TXT, ottenuti tramite OCR): <https://liveunibo-my.sharepoint.com/:f:/g/personal/sebastian_barzaghi2_unibo_it/EhinmY5b4h1Eoo-t2JOpaHwBMAKdc782rxufWuaX5k7flA?e=hB1d1n>.
+
 Ognuno di voi dovrà portare un progetto di gestione dei dati riguardante questo dominio di conoscenza, sulla base dei documenti disponibili (che vi fornirò a tempo debito).
 
 Il progetto avrà la forma di una repository Git, pubblicata su GitHub, con documentazione scritta in Markdown (inclusi i vari README, un DMP, e una piccola pagina Web che servirà da principale vetrina di comunicazione), e contenente anche i dati che utilizzerete e che produrrete. I dati, inoltre, dovranno essere pubblicati anche su Zenodo.
@@ -539,14 +541,14 @@ All'esame mi dovrete presentare il progetto tramite la pagina Web, che dovrà co
 
 ### Il contenuto?
 
-A livello contenutistico, vi darò delle linee guida più precise su cosa potete fare.
-
-Ognuno di voi dovrà portare avanti una linea di progetto diversa dalle altre.
+Ognuno di voi dovrà portare avanti una linea di progetto abbastanza diversa dalle altre.
 
 Un paio di esempi al volo:
 - Marcatura in TEI delle entità presenti nel testo;
 - Raccolta, strutturazione dei dati in una tabella, e pulizia;
 - Modellazione semantica dei dati in un profilo applicativo, un vocabolario controllato, o una piccola ontologia.
+
+Leggete il README per maggiori informazioni: <https://github.com/dhdmch/2024-2025>.
 
 ---
 

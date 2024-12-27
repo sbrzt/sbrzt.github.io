@@ -86,16 +86,24 @@ Ovviamente, non dobbiamo depositare i dati già disponibili (cioé pubblicati da
     </div>
 </div>
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Come scegliamo?
 
-- Utilizzo di registri come re3data e FAIRsharing per cercare uno o più repository che si adattino alle nostre necessità e alle tipologie di dato che vogliamo depositare;
-    - Esistono repository disciplinari che ci permettono di descrivere i dati usando schemi di metadati specifici alla nostra disciplina e li rende più visibili alla nostra comunità?
-    - Esistono repository istituzionali a cui possiamo fare affidamento per particolari servizi di supporto, validazione e curatela? (es. AMS Acta e AMS Historica)
-    - Esistono anche repository generalisti (es. Zenodo, figshare) per dati di ricerca eterogenei;
+- Utilizzo di registri come [re3data](https://www.re3data.org/) e [FAIRsharing](https://fairsharing.org/) per cercare uno o più repository che si adattino alle nostre necessità e alle tipologie di dato che vogliamo depositare;
+  - Esistono repository disciplinari che ci permettono di descrivere i dati usando schemi di metadati specifici alla nostra disciplina e li rende più visibili alla nostra comunità?
+  - Esistono repository istituzionali a cui possiamo fare affidamento per particolari servizi di supporto, validazione e curatela? (es. AMS Acta e AMS Historica)
+  - Esistono anche repository generalisti (es. Zenodo, figshare) per dati di ricerca eterogenei;
 
 Altri fattori: grandezza dei file, requisiti istituzionali, restrizioni di accesso...
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -103,6 +111,10 @@ Altri fattori: grandezza dei file, requisiti istituzionali, restrizioni di acces
 
 - Ogni dataset depositato è accompagnato da metadati, tra cui un identificativo persistente (PID) e una licenza (trovabilità, accessibilità, e riusabilità);
 - I dataset devono essere in formati standard e aperti e sono descritti, dove possibile, da vocabolari, ontologie e tassonomie (interoperabilità).
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -114,6 +126,10 @@ Il livello di accesso può essere descritto come:
 - **Aperto**, ovvero il dataset è apertamente accessibile a chiunque lo voglia consultare, scaricare e riutilizzare;
 - **Ristretto**, ovvero chi vuole consultare o scaricare il dataset depositato deve richiedere un’autorizzazione. Questa richiesta può essere fatta direttamente al ricercatore che ha depositato il dataset oppure, nel caso di alcuni specifici repository, ad un comitato di accesso deputato a valutare la legittimità della richiesta;
 - **Embargo**, un tipo di restrizione dell’accesso temporanea. Permette di depositare i dataset mantenendoli privati per un tempo limitato, scaduto il quale l’embargo scade e il dataset diventa aperto.
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -136,6 +152,10 @@ Photo by <a href="https://unsplash.com/@seljansalim?utm_content=creditCopyText&u
 - Aumentare la qualità della nostra ricerca;
 - Riconoscere i risultati della nostra ricerca come bene pubblico.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Usiamo ORCID per identificarci
@@ -154,7 +174,7 @@ Photo by <a href="https://unsplash.com/@seljansalim?utm_content=creditCopyText&u
             PID per l'individuo che lavora nella ricerca.
         </p>
         <p>
-            Fornisce un'identità unica a cui associare il nostro lavoro, indipendentemente dal nostro nome completo.
+            Fornisce un'identità unica a cui associare il proprio lavoro, indipendentemente dal nome completo.
         </p>
         <p>
             Inoltre, è molto utile per accedere o registrarsi a servizi che lo utilizzano come sistema di autenticazione o applicativo di supporto per ulteriori funzionalità (es. Zenodo).
@@ -180,7 +200,7 @@ Photo by <a href="https://unsplash.com/@seljansalim?utm_content=creditCopyText&u
             PID per un oggetto digitale di ricerca, pubblicato sul Web.
         </p>
         <p>
-            Rende molto più facile per gli altri citare i nostri dati, riduce il rischio di <emph>link rot</emph> e consente di tracciare come la nostra ricerca venga utilizzata e citata.
+            Rende molto più facile per gli altri citare i dati, riduce il rischio di <emph>link rot</emph> e consente di tracciare come la nostra ricerca venga utilizzata e citata.
         </p>
         <p>
             Esistono server che associano DOI al momento della pubblicazione (es. Zenodo, FigShare, Dryad).
@@ -220,9 +240,13 @@ Photo by <a href="https://unsplash.com/@vinayak10?utm_content=creditCopyText&utm
 
 ... Quando sono opere dell’ingegno di carattere creativo (es. testi, immagini, tabelle, database, software, ecc.).
 
-MA: il diritto d’autore tutela la forma espressiva di un’opera dell’ingegno, e non i dati in quanto tali.
+MA: il diritto d’autore tutela la forma espressiva di un’opera dell’ingegno, e non i dati.
 
 La tutela autoriale non copre le idee, i procedimenti, i metodi di funzionamento o i concetti matematici in quanto tali.
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -230,6 +254,10 @@ La tutela autoriale non copre le idee, i procedimenti, i metodi di funzionamento
 
 - Diritti **morali**: irrinunciabili, inalienabili, imprescrittibili, possono essere fatti valere senza limiti di tempo dopo la morte dell’autore (es. il diritto di rivendicare la paternità dell’opera, il diritto di inedito e il diritto all’integrità dell’opera);
 - Diritti **patrimoniali**: cedibili a titolo oneroso o gratuito, in via esclusiva o non esclusiva, ed esercitabili fino a 70 anni dopo la morte dell’autore (es. il diritto di sfruttamento economico dell’opera in esclusiva, il diritto di pubblicare, il diritto di digitalizzare, il diritto di modificare, il diritto di tradurre, ecc.).
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -241,6 +269,10 @@ Le banche di dati possono essere protette dal diritto d’autore se rappresentan
 
 La protezione non riguarda il contenuto della banca di dati, ma solo la sua struttura e organizzazione. I diritti sui dati stessi (se appartengono a terzi) restano separati e non sono influenzati dalla protezione.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Nel caso delle banche dati, si applica il diritto _sui generis_
@@ -250,6 +282,10 @@ Oltre alla protezione da diritto d’autore, esiste anche un diritto sui generis
 Il diritto sui generis dura 15 anni, a partire dal primo gennaio dell’anno successivo alla completazione della banca di dati o dalla prima messa a disposizione del pubblico.
 
 Il titolare dei diritti può stabilire condizioni di utilizzo della banca di dati tramite licenze d'uso, specificando come altri possono utilizzare la banca di dati.
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -261,6 +297,10 @@ I dati ad accesso aperto (Open Data) sono distribuiti con licenze che garantisco
 
 La scelta della licenza deve basarsi sul principio “as open as possible, as closed as necessary”.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Facciamo attenzione!
@@ -268,6 +308,10 @@ La scelta della licenza deve basarsi sul principio “as open as possible, as cl
 Se non ci sono problemi legali o economici, è preferibile rendere i dati accessibili a tutti.
 
 È consigliato scegliere licenze permissive che permettano l'uso libero dei dati in qualsiasi formato, per qualsiasi scopo, anche commerciale (es. CC0 1.0, CC BY 4.0 e CC BY-SA 4.0).
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 
@@ -281,6 +325,10 @@ Per usare opere o materiali protetti dal diritto d'autore o da diritti connessi,
 
 È sempre necessario verificare i termini della licenza d’uso associata alla pubblicazione e/o messa a disposizione di un’opera.
 
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
+
 ---
 
 ### Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali
@@ -292,6 +340,10 @@ I sei schemi di licenza disponibili si articolano sulla combinazione di quattro 
 - **NC** (Non Commercial): non è consentito l’uso commerciale;
 - **SA** (Share Alike): le opere derivate devono essere condivise con la medesima licenza;
 - **ND** (Non Derivates): non sono consentite opere derivate;
+
+<div class="footer">
+Alma Mater Studiorum – Università di Bologna & ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. <a href="https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf">https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf</a>.
+</div>
 
 ---
 

@@ -82,39 +82,35 @@ Graham, E. (2017). Introduction: Data visualisation and the humanities. English 
 
 ---
 
-### Altre tipologie di dati
+### Altre tipologie di dati (1)
 
-1. Dati
-    - **Testuali**: stringhe di testo (es. descrizioni di opere d'arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l'analisi di frequenze o sentimenti;
-    - **Numerici**: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;
-    - **Spaziali**: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d'arte) che possono essere utilizzate per analizzare distribuzioni geografiche;
-    - **Temporali**: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.
-
----
-
-### Altre tipologie di dati
-
-2. Dati
-    - **Strutturati**: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);
-    - **Semi-strutturati**: organizzati in strutture più flessibili (es. XML, RDF);
-    - **Non strutturati**: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).
+- **Testuali**: stringhe di testo (es. descrizioni di opere d'arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l'analisi di frequenze o sentimenti;
+- **Numerici**: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;
+- **Spaziali**: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d'arte) che possono essere utilizzate per analizzare distribuzioni geografiche;
+- **Temporali**: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.
 
 ---
 
-### Altre tipologie di dati
+### Altre tipologie di dati (2)
 
-3. Dati
-    - **Qualitativi**: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;
-    - **Quantitativi**: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.
+- **Strutturati**: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);
+- **Semi-strutturati**: organizzati in strutture più flessibili (es. XML, RDF);
+- **Non strutturati**: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).
 
 ---
 
-### Altre tipologie di dati
+### Altre tipologie di dati (3)
 
-4. Dati 
-    - **Numerici**: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;
-    - **Categorici**: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d'arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;
-    - **Ordinali**: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).
+- **Qualitativi**: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;
+- **Quantitativi**: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.
+
+---
+
+### Altre tipologie di dati (4)
+
+- **Numerici**: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;
+- **Categorici**: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d'arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;
+- **Ordinali**: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).
 
 ---
 
@@ -407,7 +403,10 @@ Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi
 ### Struttura generale
 
 <figure>
-    <img src="img/voyant-tools.png" height="auto" width="700"/>
+  <img src="img/voyant-tools.png" height="auto" width="700"/>
+  <figcaption>
+    Fonte: propria.
+  </figcaption>
 </figure>
 
 ---
@@ -415,7 +414,10 @@ Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi
 ### I blocchi (skin)
 
 <figure>
-    <img src="img/skin.png" height="auto" width="700"/>
+  <img src="img/skin.png" height="auto" width="700"/>
+  <figcaption>
+    Fonte: propria.
+  </figcaption>
 </figure>
 
 ---
@@ -443,7 +445,7 @@ Il formato e il modo in cui vengono caricati i file influenza il tipo di analisi
 - **DOCUMENTS**: informazioni sui singoli documenti;
 - **TOPICS**: topic modeling.
 
-Documentazione: <https://voyant-tools.org/docs/#!/guide/tools>.
+Link alla documentazione completa: <https://voyant-tools.org/docs/#!/guide/tools>.
 
 ---
 

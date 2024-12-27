@@ -29,23 +29,42 @@ slides:
 - Costruire bibliografie;
 - Citare risorse bibliografiche.
 
----
-
-### Un flusso di lavoro classico...
-
-![](img/0601.png)
+<div class="footer">
+Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. <a href="https://doi.org/10.59350/z6cqd-2dn28">https://doi.org/10.59350/z6cqd-2dn28</a>.
+</div>
 
 ---
 
 ### Un flusso di lavoro classico...
 
-![](img/0602.png)
+<figure>
+  <img src="img/0601.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. <a href="https://doi.org/10.59350/z6cqd-2dn28">https://doi.org/10.59350/z6cqd-2dn28</a>.
+    </figcaption>
+</figure>
 
 ---
 
 ### Un flusso di lavoro classico...
 
-![](img/0603.png)
+<figure>
+  <img src="img/0602.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. <a href="https://doi.org/10.59350/z6cqd-2dn28">https://doi.org/10.59350/z6cqd-2dn28</a>.
+    </figcaption>
+</figure>
+
+---
+
+### Un flusso di lavoro classico...
+
+<figure>
+  <img src="img/0603.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. <a href="https://doi.org/10.59350/z6cqd-2dn28">https://doi.org/10.59350/z6cqd-2dn28</a>.
+    </figcaption>
+</figure>
 
 ---
 
@@ -57,6 +76,10 @@ slides:
 - Riformattazione manuale delle citazioni;
 - Condivisione degli articoli con metadati molto difficile;
 - Collaborazione sulla stessa bibliografia molto difficile.
+
+<div class="footer">
+Dingemanse, M. (2018). Slides for a hands-on Zotero workshop. The Ideophone. <a href="https://doi.org/10.59350/z6cqd-2dn28">https://doi.org/10.59350/z6cqd-2dn28</a>.
+</div>
 
 ---
 
@@ -78,55 +101,100 @@ In particolare, serve per:
 
 ### 1. Home page di Zotero.org
 
-![](img/0604.png)
+<figure>
+  <img src="img/0604.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 2. Login 
 
-![](img/0605.png)
+<figure>
+  <img src="img/0605.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 3. Registrazione
 
-![](img/0606.png)
+<figure>
+  <img src="img/0606.png" height="auto" width="400"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 4. Interfaccia principale
 
-![](img/0607.png)
+<figure>
+  <img src="img/0607.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 5. Aggiunta di un nuovo item alla collezione
 
-![](img/0608.png)
+<figure>
+  <img src="img/0608.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 6. Colonna dei metadati bibliografici
 
-![](img/0609.png)
+<figure>
+  <img src="img/0609.png" height="auto" width="200"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 7. Selezione di item e export
 
-![](img/0610.png)
+<figure>
+  <img src="img/0610.png" height="auto" width="500"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 8. Produzione di citazioni inline
 
-![](img/0611.png)
+<figure>
+  <img src="img/0611.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### 9. Produzionme di riferimenti bibliografici
 
-![](img/0612.png)
+<figure>
+  <img src="img/0612.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
@@ -172,42 +240,45 @@ Esempi:
 
 ---
 
-Esempio:
-- es. `Hom. Od. 1` è un `Book section` con
-  - `Title`: Book 1
-  - `Author` (> Switch to Single Field): Homer
-  - `Translator`: Murray, Augustus Taber
-  - `Book Title`: The Odyssey
-  - `Place`: London
-  - `Publisher`: William Heinemann, Ltd.
-  - `Date`: 1919
-  - `Extra`: Hom. Od. 1
+### Esempio 1
+
+`Hom. Od. 1` è un `Book section` con
+- `Title`: Book 1
+- `Author` (> Switch to Single Field): Homer
+- `Translator`: Murray, Augustus Taber
+- `Book Title`: The Odyssey
+- `Place`: London
+- `Publisher`: William Heinemann, Ltd.
+- `Date`: 1919
+- `Extra`: Hom. Od. 1
 
 ---
 
-Esempio:
-- `Hom. Od. 22.75-199` è un `Book section` con
-  - `Title`: Book 22, lines 75-199
-  - `Author` (> Switch to Single Field): Homer
-  - `Translator`: Murray, Augustus Taber
-  - `Book Title`: The Odyssey
-  - `Place`: London
-  - `Publisher`: William Heinemann, Ltd.
-  - `Date`: 1919
-  - `Extra`: Hom. Od. 22.75-199
+### Esempio 2
+
+`Hom. Od. 22.75-199` è un `Book section` con
+- `Title`: Book 22, lines 75-199
+- `Author` (> Switch to Single Field): Homer
+- `Translator`: Murray, Augustus Taber
+- `Book Title`: The Odyssey
+- `Place`: London
+- `Publisher`: William Heinemann, Ltd.
+- `Date`: 1919
+- `Extra`: Hom. Od. 22.75-199
 
 ---
 
-Altro esempio:
-- `Apollod. 3.5.8` è un `Book section` con
-  - `Title`: Book 3, chapter 5, section 8
-  - `Author`: Apollodorus
-  - `Translator`: Frazer, James George
-  - `Book Title`: The Library
-  - `Place`: London
-  - `Publisher`: William Heinemann, Ltd.
-  - `Date`: 1921
-  - `Extra`: Apollod. 3.5.8
+### Esempio 3
+
+`Apollod. 3.5.8` è un `Book section` con
+- `Title`: Book 3, chapter 5, section 8
+- `Author`: Apollodorus
+- `Translator`: Frazer, James George
+- `Book Title`: The Library
+- `Place`: London
+- `Publisher`: William Heinemann, Ltd.
+- `Date`: 1921
+- `Extra`: Apollod. 3.5.8
 
 ---
 
@@ -217,19 +288,34 @@ Altro esempio:
 
 ### Zoterobib
 
-![](img/0613.png)
+<figure>
+  <img src="img/0613.png" height="auto" width="400"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### Zoterobib
 
-![](img/0614.png)
+<figure>
+  <img src="img/0614.png" height="auto" width="400"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 
 ### Zotero (software) e Zotero Connector (plugin per browser)
 
-![](img/0615.png)
+<figure>
+  <img src="img/0615.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: propria.
+    </figcaption>
+</figure>
 
 ---
 

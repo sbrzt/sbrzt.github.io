@@ -51,13 +51,23 @@ slides:
 
 ### Nella marcatura, un _elemento_ è un termine che esprime la semantica del testo a cui si riferisce
 
-![](../dhdmch-07/img/markup-elements.png "Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.")
+<figure>
+    <img src="../dhdmch-07/img/markup-elements.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://basic-inf.github.io/2022-2023/chapters/08.pdf">https://basic-inf.github.io/2022-2023/chapters/08.pdf</a>.
+    </figcaption>
+</figure>
 
 ---
 
 ### Nella marcatura, un _attributo_ è un'informazione aggiuntiva assegnata ad un elemento
 
-![](../dhdmch-07/img/markup-attribute.png "Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.")
+<figure>
+    <img src="../dhdmch-07/img/markup-attribute.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://basic-inf.github.io/2022-2023/chapters/08.pdf">https://basic-inf.github.io/2022-2023/chapters/08.pdf</a>.
+    </figcaption>
+</figure>
 
 ---
 
@@ -435,9 +445,10 @@ Ci sono solo due modi per capire bene come funziona TEI (ma questo in realtà va
 
 ### Alcune risorse utili
 
-- <https://teibyexample.org/exist/tutorials/>
-- <http://www.ultraslavonic.info/intro-to-xml/>
-- <https://jsonformatter.org/xml-editor>
+- <https://leaf-writer.leaf-vre.org/>: Web app per scrivere e marcare testi in TEI;
+- <https://teibyexample.org/exist/tutorials/>: sito di lezioni, tutorial ed esempi per imparare TEI;
+- <http://www.ultraslavonic.info/intro-to-xml/>: breve testo introduttivo su XML;
+- <https://jsonformatter.org/xml-editor>: Web editor per XML.
 
 ---
 
