@@ -1040,6 +1040,552 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>ABINF - Pensiero Computazionale</title>
+      <link>http://localhost:1313/it/slides/abinf-01/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-01/</guid>
+      <description>&lt;h1 id=&#34;digital-humanities&#34;&gt;Digital Humanities&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-01-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 01 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0100.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Greg Becker&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/body-of-water-under-clear-blue-sky-sYzFIusQp3Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0101.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-libri-sono-dati&#34;&gt;I libri sono dati?&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/it/@gulfergin_01?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Gülfer ERGİN&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/it/foto/libro-bianco-e-marrone-su-superficie-intrecciata-marrone-LUGuCtvlk1Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0102.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-manoscritti-sono-dati&#34;&gt;I manoscritti sono dati?&lt;/h3&gt;
+&lt;!--
+Foto di &lt;a href=&#34;https://unsplash.com/it/@worshae?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Worshae&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/it/foto/un-vecchio-libro-con-limmagine-di-un-uomo-su-di-esso-U-tDy-NInTs?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0103.jpeg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-quadri-sono-dati&#34;&gt;I quadri sono dati?&lt;/h3&gt;
+&lt;!--
+By &lt;a href=&#34;https://en.wikipedia.org/wiki/en:Arnold_B%C3%B6cklin&#34; class=&#34;extiw&#34; title=&#34;w:en:Arnold Böcklin&#34;&gt;&lt;span title=&#34;Swiss painter, draftsman, graphic artist and sculptor (1827–1901)&#34;&gt;Arnold Böcklin&lt;/span&gt;&lt;/a&gt; - 1. Unknown source2. &lt;a href=&#34;https://en.wikipedia.org/wiki/en:Bridgeman_Images&#34; class=&#34;extiw&#34; title=&#34;w:en:Bridgeman Images&#34;&gt;&lt;span title=&#34;library&#34;&gt;Bridgeman Art Library&lt;/span&gt;&lt;/a&gt;: Object &lt;a rel=&#34;nofollow&#34; class=&#34;external text&#34; href=&#34;https://www.bridgemanimages.co.uk/en/asset/83823&#34;&gt;83823&lt;/a&gt;3. &lt;a rel=&#34;nofollow&#34; class=&#34;external text&#34; href=&#34;http://sammlungonline.kunstmuseumbasel.ch/eMuseumPlus?service=ExternalInterface&amp;amp;module=collection&amp;amp;objectId=1118&amp;amp;viewType=detailView&#34;&gt;Kunstmuseum Basel, online collection&lt;/a&gt;, Public Domain, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=1690675&#34;&gt;Link&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0104.jpeg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-film-sono-dati&#34;&gt;I film sono dati?&lt;/h3&gt;
+&lt;!--
+&lt;a href=&#34;//it.wikipedia.org/wiki/File:Finestra_che_ride.jpg&#34; title=&#34;Questo è un fotogramma di una ripresa girata in territorio italiano o ivi realizzata senza essere mai stata pubblicata all&#39;estero[1] ed è nel pubblico dominio poiché il copyright è scaduto&#34;&gt;Pubblico dominio&lt;/a&gt;, &lt;a href=&#34;https://it.wikipedia.org/w/index.php?curid=1265682&#34;&gt;Collegamento&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0105.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-videogiochi-sono-dati&#34;&gt;I videogiochi sono dati?&lt;/h3&gt;
+&lt;!--
+By Adam Robinson-Yu - A Short Hike (2019 Video Game), &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=97139225&#34;&gt;Link&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0106.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;i-modelli-3d-sono-dati&#34;&gt;I modelli 3D sono dati?&lt;/h3&gt;
+&lt;!--
+Shrine from El Kab di fitzwilliammuseum - 2019 - Fitzwilliam Museum, United Kingdom - CC BY.
+https://www.europeana.eu/item/181/share3d_1145
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dipende&#34;&gt;Dipende&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-dato&#34;&gt;Cos&amp;rsquo;è un dato?&lt;/h3&gt;
+&lt;p&gt;Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della disciplina di riferimento, se non addirittura da persona a persona.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Borgman, Christine L. (2010). Research Data: Who Will Share What, with Whom, When, and Why?. RatSWD Working Paper No. 161. &lt;a href=&#34;http://dx.doi.org/10.2139/ssrn.1714427&#34;&gt;http://dx.doi.org/10.2139/ssrn.1714427&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;qualcosa-che-è-dato-dalla-natura-allo-scienziato&#34;&gt;&amp;ldquo;Qualcosa che è dato&amp;rdquo; dalla natura allo scienziato&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0107.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Noppe, N., Vanvelk, J., &amp; Callens, N. (2023). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.8010618&#34;&gt;https://doi.org/10.5281/zenodo.8010618&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I dati sono record fattuali raccolti, generati o riutilizzati come base di analisi, ragionamenti, discussioni o calcoli.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Vengono usati da scienziati (ma anche dai non esperti) come strumenti per comprendere il mondo e generare conoscenza.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  OECD (2007). OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;qualcosa-che-viene-preso-dalla-natura-da-parte-dello-scienziato&#34;&gt;&amp;ldquo;Qualcosa che viene preso&amp;rdquo; dalla natura da parte dello scienziato&lt;/h3&gt;
+&lt;p&gt;I dati non hanno valore di verità di per sé, né possono essere visti come rappresentazioni dirette dei fenomeni studiati.&lt;/p&gt;
+&lt;p&gt;Ciò che è considerabile “dato” dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
+&lt;p&gt;Percepire, osservare, raccogliere dati sono tutti atti interpretativi, in un contesto che dà forma ai dati e ne definisce i limiti.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of Chicago Press. &lt;a href=&#34;https://doi.org/10.7208/chicago/9780226416502.001.0001&#34;&gt;https://doi.org/10.7208/chicago/9780226416502.001.0001&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-esempio-tassi-di-violenza-domestica&#34;&gt;Un esempio: tassi di violenza domestica&lt;/h3&gt;
+&lt;p&gt;Fino a tempi recenti, le vittime di abuso infantile e violenza coniugale erano ignorate e raramente denunciavano.&lt;/p&gt;
+&lt;p&gt;Alla fine del ventesimo secolo, grazie all&amp;rsquo;influenza di attiviste femministe, emerse una maggiore consapevolezza e supporto per le vittime, con un aumento delle denunce.&lt;/p&gt;
+&lt;p&gt;Tuttavia, questo fenomeno portò anche a casi di accuse false o esagerate.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Bala, N. (2008). An historical perspective on family violence and child abuse: Comment on Moloney et al, Allegations of Family Violence, 12 June 2007. Journal of Family Studies, 14(2-3), 271-278. &lt;a href=&#34;https://doi.org/10.5172/jfs.327.14.2-3.271&#34;&gt;https://doi.org/10.5172/jfs.327.14.2-3.271&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-dati-sono-raccolti-in-dataset&#34;&gt;I dati sono raccolti in dataset&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0108.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Gontier, C., Jordan, J., &amp; Petrovici, M. A. (2022). DELAUNAY: a dataset of abstract art for psychophysical and machine learning research. arXiv preprint arXiv:2201.12123. &lt;a href=&#34;https://doi.org/10.48550/arXiv.2201.12123&#34;&gt;https://doi.org/10.48550/arXiv.2201.12123&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un dataset è una raccolta di dati organizzati secondo criteri precisi.
+    &lt;/p&gt;
+    &lt;p&gt;
+      La sua corretta gestione garantisce l&#39;efficienza, l&#39;affidabilità e l&#39;utilità dei dati.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ciston, S., &amp; Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dataset-come-strumenti-potenti-ma-imperfetti&#34;&gt;Dataset come strumenti potenti ma imperfetti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0109.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Cerf, E. (2023). Researchers’ tool finds bias in state-of-the-art generative AI model. UC Santa Cruz. &lt;a href=&#34;https://news.ucsc.edu/2023/08/t2iat.html&#34;&gt;https://news.ucsc.edu/2023/08/t2iat.html&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Riflette le circostanze che hanno portato alla sua creazione e gestione (comunità, individui, organizzazioni, ambienti, strumenti, limiti, bias, responsabilità…).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Ciston, S., &amp; Mike Ananny, K. C. (2023). A critical field guide for working with machine learning datasets. Knowing Machines project. &lt;a href=&#34;https://knowingmachines.org/critical-field-guide&#34;&gt;https://knowingmachines.org/critical-field-guide&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;non-è-facile-parlare-di-dati-nelle-discipline-umanistiche&#34;&gt;Non è facile parlare di dati nelle discipline umanistiche&lt;/h3&gt;
+&lt;p&gt;Non c&amp;rsquo;è consenso su che cosa siano i &lt;em&gt;dati&lt;/em&gt; nelle discipline umanistiche.&lt;/p&gt;
+&lt;p&gt;Il termine stesso &lt;em&gt;discipline umanistiche&lt;/em&gt; è ampio e racchiude in sé domini di conoscenza estremamente diversi.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Tóth-Czifra, E. (2019). DARIAH Pathfinder to Data Management Best Practices in the Humanities. Version 1.0.0. DARIAH-Campus. [Pathfinder]. &lt;a href=&#34;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&#34;&gt;https://campus.dariah.eu/id/yR8mHfs3eW-ibu58LerCt&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;anche-gli-umanisti-usano-e-producono-dati&#34;&gt;Anche gli umanisti usano e producono dati&lt;/h3&gt;
+&lt;p&gt;Ogni tipo di ricerca produce o riusa dei dati, anche se il termine &lt;em&gt;dato&lt;/em&gt; non viene utilizzato in certi contesti.&lt;/p&gt;
+&lt;p&gt;Esempio: un ricercatore utilizza delle fonti (primarie o secondarie) per rispondere alle proprie domande di ricerca, producendo &lt;em&gt;almeno&lt;/em&gt; una bibliografia.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Gualandi, B., Pareschi, L., &amp; Peroni, S. (2023). What do we mean by “data”? A proposed classification of data types in the arts and humanities. Journal of Documentation, 79(7), 51-71. &lt;a href=&#34;https://doi.org/10.1108/JD-07-2022-0146&#34;&gt;https://doi.org/10.1108/JD-07-2022-0146&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0110.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;esempio-bibliografia&#34;&gt;Esempio: bibliografia&lt;/h3&gt;
+&lt;!--
+https://formstudelearning.unifi.it/mod/book/view.php?id=8231&amp;chapterid=651
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-ruolo-fondamentale-del-digitale&#34;&gt;Il ruolo fondamentale del digitale&lt;/h3&gt;
+&lt;p&gt;Le tecnologie digitali mettono in discussione paradigmi esistenti e permettono di sviluppare nuovi metodi di indagine, produzione e disseminazione scientifica dei dati umanistici.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Borgman, C. L. (2010). The digital future is now: A call to action for the humanities. Digital humanities quarterly, 3(4). &lt;a href=&#34;https://escholarship.org/uc/item/0fp9n05s&#34;&gt;https://escholarship.org/uc/item/0fp9n05s&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;digital-humanities-1&#34;&gt;Digital Humanities&lt;/h3&gt;
+&lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali alle discipline umanistiche.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. &lt;a href=&#34;http://dx.doi.org/10.1632/ade.150.55&#34;&gt;http://dx.doi.org/10.1632/ade.150.55&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0111.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h2 id=&#34;un-cambio-di-paradigma&#34;&gt;Un cambio di paradigma&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-insieme-di-campi&#34;&gt;Un insieme di campi&lt;/h3&gt;
+&lt;p&gt;Più precisamente, il termine &lt;strong&gt;Digital Humanities&lt;/strong&gt; (DH) descrive un insieme di discipline nelle quali vengono utilizzate tecnologie digitali per esplorare domande di ricerca delle discipline umanistiche, o formulare domande di ricerca umanistiche su questioni riguardanti tecnologie digitali.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital humanities, 12-15. &lt;a href=&#34;https://doi.org/10.5749/minnesota/9780816677948.003.0002&#34;&gt;https://doi.org/10.5749/minnesota/9780816677948.003.0002&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h3&gt;
+&lt;p&gt;Comprende una &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34;&gt;vasta gamma di attività&lt;/a&gt;, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. &lt;a href=&#34;https://cmu-lib.github.io/dhlg/&#34;&gt;https://cmu-lib.github.io/dhlg/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;creiamo-dataset&#34;&gt;Creiamo dataset&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;figure&gt;
+      &lt;img src=&#34;img/0112.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Valentina Pasqual, &amp; Francesca Tomasi. (2021). mythlod/1.0 (1.0) [Data set]. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.4639821&#34;&gt;https://doi.org/10.5281/zenodo.4639821&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Collezioni di dati strutturati, rese disponibili ad un pubblico più ampio per ulteriori studi e analisi.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;img src=&#34;img/0113.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Barzaghi, S., &amp; Peroni, S. (2024). Cultural Heritage Acquisition and Digitisation Application Profile. &lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Astrazioni per organizzare e descrivere dati in formati strutturati e azionabili dalle macchine.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+    &lt;div style=&#34;flex: 2;&#34;&gt;
+      &lt;img src=&#34;img/0114.png&#34; height=&#34;371&#34; width=&#34;600&#34;/&gt;
+      &lt;figcaption&gt;
+          Fonte: Moro, A. (2021). Edizione Nazionale delle Opere di Aldo Moro, voll., Bologna, Università di Bologna. ISBN: 9788854970496; DOI: &lt;a href=&#34;https://doi.org/10.6092/unibo/aldomoro&#34;&gt;https://doi.org/10.6092/unibo/aldomoro&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
+        &lt;p&gt;Software e applicazioni che permettono di eseguire determinate operazioni sui dati (es. ricerca, caricamento, manipolazione, pubblicazione, ecc.) tramite interfacce visive e/o di programmazione.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;educare a costruire
+progetti digitali 1
+progetti digitali 2&lt;/p&gt;
+&lt;h3 id=&#34;queste-attività-prendono-forma-nei-progetti&#34;&gt;Queste attività prendono forma nei progetti&lt;/h3&gt;
+&lt;p&gt;La struttura di base di qualsiasi progetto di DH è una combinazione di&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;risorse digitali&lt;/strong&gt;, memorizzate in una&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;struttura&lt;/strong&gt; (es. un database, un file system) e accessibili tramite un insieme di&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;servizi&lt;/strong&gt; (es. interrogazione, ricerca, elaborazione, analisi) resi disponibili attraverso un&#39;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;interfaccia&lt;/strong&gt; che supporta l&amp;rsquo;esperienza dell&amp;rsquo;utente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-risultato-non-è-mai-uno&#34;&gt;Il risultato non è mai uno&lt;/h3&gt;
+&lt;p&gt;I risultati di un progetto di Digital Humanities consistono spesso in &lt;strong&gt;dati&lt;/strong&gt;, &lt;strong&gt;siti Web&lt;/strong&gt;, &lt;strong&gt;applicazioni&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt;, &lt;strong&gt;metodologie&lt;/strong&gt;, &lt;strong&gt;documentazione&lt;/strong&gt; e altre risorse che dovrebbero essere rese accessibili ad altri agenti (umani e software), per facilitare la loro condivisione e riuso, la riproducibilità del processo di ricerca, e così via.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;fasi&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-01-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABINF - Pensiero Computazionale</title>
+      <link>http://localhost:1313/it/slides/abinf-02/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-02/</guid>
+      <description>&lt;h1 id=&#34;pensiero-computazionale&#34;&gt;Pensiero Computazionale&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-02-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 02 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;algoritmi&#34;&gt;ALGORITMI&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-13&#34;&gt;Cos&amp;rsquo;è? (1/3)&lt;/h3&gt;
+&lt;p&gt;IMG PAD THAI&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-23&#34;&gt;Cos&amp;rsquo;è? (2/3)&lt;/h3&gt;
+&lt;p&gt;IMG ISTRUZIONI&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-33&#34;&gt;Cos&amp;rsquo;è? (3/3)&lt;/h3&gt;
+&lt;p&gt;IMG MINDMAP&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-hanno-in-comune&#34;&gt;Cosa hanno in comune?&lt;/h3&gt;
+&lt;p&gt;IMG COMPOSITA&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sequenziali&lt;/li&gt;
+&lt;li&gt;Finiti&lt;/li&gt;
+&lt;li&gt;Generali&lt;/li&gt;
+&lt;li&gt;Non ambigui&lt;/li&gt;
+&lt;li&gt;Corretti&lt;/li&gt;
+&lt;li&gt;Efficienti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;in-altre-parole-sono-algoritmi&#34;&gt;In altre parole, sono &lt;strong&gt;algoritmi&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-algoritmo-è-un-insieme-di-istruzioni-per-fare-qualcosa&#34;&gt;Un algoritmo è un insieme di istruzioni per fare qualcosa&lt;/h3&gt;
+&lt;p&gt;Una sequenza finita di procedure precise per produrre un risultato (output) a partire da uno stato iniziale (input)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-di-algoritmo-implementato&#34;&gt;Esempio di algoritmo implementato&lt;/h3&gt;
+&lt;p&gt;num1 = 1.5
+num2 = 6.3&lt;/p&gt;
+&lt;p&gt;def function (n1, n2):
+sum = n1 + n2
+return sum&lt;/p&gt;
+&lt;p&gt;function(num1,num2)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-programmatore-implementa-algoritmi-interpretabili-dal-computer&#34;&gt;Un programmatore implementa algoritmi interpretabili dal computer&lt;/h3&gt;
+&lt;p&gt;Quindi, un linguaggio di programmazione è un modo particolare per scrivere algoritmi e istruire un computer ad eseguirli&lt;/p&gt;
+&lt;p&gt;Un programma è un algoritmo (o insieme di algoritmi) scritto/i con un particolare linguaggio di programmazione che esegue delle particolari funzioni orientate allo svolgimento di alcuni compiti&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;computer&#34;&gt;COMPUTER&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-kilo-girls&#34;&gt;The kilo-girls&lt;/h3&gt;
+&lt;p&gt;Prima degli anni ‘40: il computer è una &lt;em&gt;persona&lt;/em&gt; che effettua calcoli numerici a mano (es. posizioni dei pianeti, conversioni al sistema metrico)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.messynessychic.com/2021/11/02/human-computer-the-forgotten-womens-profession/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.messynessychic.com/2021/11/02/human-computer-the-forgotten-womens-profession/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;machine-of-the-year&#34;&gt;Machine of the year&lt;/h3&gt;
+&lt;p&gt;Dopo gli anni &amp;lsquo;40: sistema elettronico (programmabile o non programmabile) di elaborazione delle informazioni&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.computerhistory.org/timeline/1982/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.computerhistory.org/timeline/1982/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-nostra-definizione&#34;&gt;La nostra definizione&lt;/h3&gt;
+&lt;p&gt;Un agente che, se istruito correttamente, esegue calcoli a partire da qualche informazione iniziale (detta input) per produrre una risposta (detta output)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.computerhistory.org/timeline/1982/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.computerhistory.org/timeline/1982/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;componenti-hardware&#34;&gt;Componenti: Hardware&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;insieme delle componenti fisiche, non modificabili (alimentatori, elementi circuitali fissi, unità di memoria, ecc.), di un computer&lt;/p&gt;
+&lt;p&gt;Scheda madre
+Central Processing Unit (CPU)
+Graphics Processing Unit (GPU)
+Random Access Memory (RAM)
+Solid State Drive (SSD)
+Hard Disk Drive (HDD)
+Periferiche&lt;/p&gt;
+&lt;p&gt;Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;componenti-software&#34;&gt;Componenti: Software&lt;/h3&gt;
+&lt;p&gt;L’insieme delle componenti digitali, modificabili (es. programmi, procedure, applicativi), di un computer&lt;/p&gt;
+&lt;p&gt;Google Chrome
+Microsoft Word
+Photoshop
+Whatsapp
+Windows
+Elden Ring
+…&lt;/p&gt;
+&lt;p&gt;Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;computational-thinking&#34;&gt;Computational thinking&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;mindstorms-papert-1980&#34;&gt;Mindstorms (Papert, 1980)&lt;/h3&gt;
+&lt;p&gt;Impariamo costruendo iterativamente conoscenza&lt;/p&gt;
+&lt;p&gt;Rappresentazioni potenti consentono un apprendimento efficace&lt;/p&gt;
+&lt;p&gt;Computer come meta-strumento per “rendere l’astratto concreto” tramite un apprendimento per tentativi, sbagli, e correzioni&lt;/p&gt;
+&lt;p&gt;Pensiero computazionale come strumento di apprendimento basato sulla costruzione socialmente ed emotivamente partecipata di un artefatto&lt;/p&gt;
+&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;computational-thinking-wing-2006&#34;&gt;Computational Thinking (Wing, 2006)&lt;/h3&gt;
+&lt;p&gt;Disponibilità di strumenti digitali, soprattutto sul World Wide Web&lt;/p&gt;
+&lt;p&gt;La maggior parte delle discipline diventano “computazionali”&lt;/p&gt;
+&lt;p&gt;Il pensiero computazionale è un atteggiamento e un insieme di competenze universalmente applicabili che vanno oltre l&amp;rsquo;informatica&lt;/p&gt;
+&lt;p&gt;Consiste in un approccio all’astrazione che aiuta a risolvere problemi e progettare soluzioni&lt;/p&gt;
+&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-computational-thinking-è-un-approccio-di-risoluzione-dei-problemi-basato-sui-concetti-della-computazione&#34;&gt;Il computational thinking è un approccio di risoluzione dei problemi basato sui concetti della computazione&lt;/h3&gt;
+&lt;p&gt;Definisce i processi mentali che coinvolgiamo quando formuliamo un certo problema ed esprimiamo le relative soluzioni usando un linguaggio che un computer (sia esso umano o macchina) può comprendere e, conseguentemente, eseguire&lt;/p&gt;
+&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;principi-della-computazione&#34;&gt;Principi della computazione&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Logica: prevedere e analizzare&lt;/li&gt;
+&lt;li&gt;Algoritmi: Formulare sequenze e regole&lt;/li&gt;
+&lt;li&gt;Pattern: Individuare e utilizzare similitudini&lt;/li&gt;
+&lt;li&gt;Decomposizione: Suddividere in parti più piccole e gestibili&lt;/li&gt;
+&lt;li&gt;Astrazione: Rimuovere dettagli non necessari&lt;/li&gt;
+&lt;li&gt;Valutazione: Formulare giudizi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;focus-sullastrazione&#34;&gt;Focus sull&amp;rsquo;astrazione&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Logica: prevedere e analizzare&lt;/li&gt;
+&lt;li&gt;Algoritmi: Formulare sequenze e regole&lt;/li&gt;
+&lt;li&gt;Pattern: Individuare e utilizzare similitudini&lt;/li&gt;
+&lt;li&gt;Decomposizione: Suddividere in parti più piccole e gestibili&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Astrazione: Rimuovere dettagli non necessari&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Valutazione: Formulare giudizi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;non-possediamo-nientaltro-che-metafore&#34;&gt;Non possediamo nient&amp;rsquo;altro che metafore&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-dilemma-del-porcospino&#34;&gt;Il dilemma del porcospino&lt;/h3&gt;
+&lt;p&gt;Quanto più due esseri umani si avvicinano tra loro per cercare calore e conforto, tanto più si feriranno a vicenda&lt;/p&gt;
+&lt;p&gt;Metafora sulle complessità delle relazioni e dell’intimità umana&lt;/p&gt;
+&lt;p&gt;Schopenhauer, A. (2000). Parerga and paralipomena: Short philosophical essays (Vol. 1). OUP UK.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-una-metafora&#34;&gt;Cos&amp;rsquo;è una metafora?&lt;/h3&gt;
+&lt;p&gt;Figura retorica che consiste nell’uso di un termine o concetto per rappresentare un altro termine o concetto&lt;/p&gt;
+&lt;p&gt;Una rappresentazione che aiuta a rendere più comprensibili concetti complessi&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;astrazione&#34;&gt;Astrazione&lt;/h3&gt;
+&lt;p&gt;Processo di rimozione dei dettagli trascurabili di una situazione in modo da semplificarla e focalizzare l’attenzione sulle sue caratteristiche principali&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Metropolitana_di_Milano&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://it.wikipedia.org/wiki/Metropolitana_di_Milano&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;astrazione-1&#34;&gt;Astrazione&lt;/h3&gt;
+&lt;p&gt;Usiamo queste astrazioni in modo intenzionale o inconscio nella vita quotidiana&lt;/p&gt;
+&lt;p&gt;Cosa hanno in comune le situazioni qui sotto?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/spilla-da-balia-dargento-su-carta-bianca-Sl69Jw-o0rU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/spilla-da-balia-dargento-su-carta-bianca-Sl69Jw-o0rU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persone-che-camminano-in-un-centro-commerciale-JWEwaHqSAHU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persone-che-camminano-in-un-centro-commerciale-JWEwaHqSAHU&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-mappa-non-è-il-territorio&#34;&gt;La mappa non è il territorio&lt;/h3&gt;
+&lt;p&gt;Un’astrazione, che rappresenta qualcosa, non è quella cosa (ma può essere utile)&lt;/p&gt;
+&lt;p&gt;Korzybski, A. (1958). Science and sanity: An introduction to non-Aristotelian systems and general semantics. Institute of GS.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-mappa-è-uninterpretazione&#34;&gt;La mappa è un&amp;rsquo;interpretazione&lt;/h3&gt;
+&lt;p&gt;Quando facciamo un&amp;rsquo;astrazione, stiamo esplicitando le nostre assunzioni sulla natura della cosa che stiamo semplificando&lt;/p&gt;
+&lt;p&gt;ES: TESTO come OGGETTO LINGUISTICO, OGGETTO MATERICO, OGGETTO CONCETTUALE, ELENCO DI SIMBOLI&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;astrazione-nel-ct&#34;&gt;Astrazione nel CT&lt;/h3&gt;
+&lt;p&gt;Dare nuovamente forma alle astrazioni che abbiamo già immagazzinato in passato come conseguenza della nostra esperienza personale – e che, spesso, riutilizziamo inconsciamente&lt;/p&gt;
+&lt;p&gt;Essere nuovamente e interamente coscienti di queste astrazioni significa doverle ridefinire usando un linguaggio appropriato per renderle comprensibili a un computer&lt;/p&gt;
+&lt;p&gt;Permettere alle persone di pensare come se fossero computer scientist, anche quando bisogna affrontare attività del quotidiano&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-struttura-dati-è-una-specie-di-contenitore-di-informazioni&#34;&gt;Una struttura dati è una specie di contenitore di informazioni&lt;/h3&gt;
+&lt;p&gt;Descrizione delle informazioni presenti in una certa situazione secondo un’organizzazione generica e riutilizzabile in più contesti come parte del processo di astrazione&lt;/p&gt;
+&lt;p&gt;Esempi: liste, code, pile, insiemi, dizionari, alberi e grafi&lt;/p&gt;
+&lt;p&gt;Qualche idea di cosa possano essere questi oggetti?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lista&#34;&gt;Lista&lt;/h3&gt;
+&lt;p&gt;Sequenza ordinata di elementi potenzialmente ripetibili e numerabili&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persona-che-scrive-la-lista-dei-desideri-sul-libro-RLw-UC03Gwc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persona-che-scrive-la-lista-dei-desideri-sul-libro-RLw-UC03Gwc&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pila&#34;&gt;Pila&lt;/h3&gt;
+&lt;p&gt;Lista in cui le operazioni di aggiunta e rimozione seguono una strategia last in first out (LIFO)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/assorted-books-on-wooden-table-eMP4sYPJ9x0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/assorted-books-on-wooden-table-eMP4sYPJ9x0&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;coda&#34;&gt;Coda&lt;/h3&gt;
+&lt;p&gt;Un tipo di lista in cui le operazioni di aggiunta e rimozione seguono una strategia first in first out (FIFO)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persone-in-piedi-sul-pavimento-di-cemento-grigio-durante-il-giorno-ZAbIO5eas9Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persone-in-piedi-sul-pavimento-di-cemento-grigio-durante-il-giorno-ZAbIO5eas9Q&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;insieme&#34;&gt;Insieme&lt;/h3&gt;
+&lt;p&gt;Una collezione di elementi non ordinati e non ripetibili che si possono contare&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/una-pila-di-barre-colorate-diverse-0Yi5hg61omY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/una-pila-di-barre-colorate-diverse-0Yi5hg61omY&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dizionario&#34;&gt;Dizionario&lt;/h3&gt;
+&lt;p&gt;Una collezione non ordinata di elementi definiti da coppie chiave-valore non ripetibili&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/carta-bianca-per-stampante-con-testo-nero-1UDjq8s8cy0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/carta-bianca-per-stampante-con-testo-nero-1UDjq8s8cy0&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;albero&#34;&gt;Albero&lt;/h3&gt;
+&lt;p&gt;Un insieme di nodi collegati tra loro da una relazione gerarchica genitore-figlio&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/libro-di-fiabe-su-superficie-grigia-qtUAV-_yWZc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/libro-di-fiabe-su-superficie-grigia-qtUAV-_yWZc&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grafo&#34;&gt;Grafo&lt;/h3&gt;
+&lt;p&gt;Un insieme di nodi di una rete collegati da archi (che possono essere orientati)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-02-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 02 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DHDMCH - ANALYZE - Analizzare</title>
       <link>http://localhost:1313/it/slides/dhdmch-12/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
@@ -1094,49 +1640,33 @@ Koltay, T. (2017). Data literacy for researchers and data librarians. Journal of
 Graham, E. (2017). Introduction: Data visualisation and the humanities. English Studies, 98(5), 449-458. &lt;a href=&#34;https://doi.org/10.1080/0013838X.2017.1332021&#34;&gt;https://doi.org/10.1080/0013838X.2017.1332021&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;altre-tipologie-di-dati&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Dati
+&lt;h3 id=&#34;altre-tipologie-di-dati-1&#34;&gt;Altre tipologie di dati (1)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Testuali&lt;/strong&gt;: stringhe di testo (es. descrizioni di opere d&amp;rsquo;arte) che possono essere utilizzate per analizzare il linguaggio utilizzato, identificare parole chiave, o esplorare il contenuto di testi storici attraverso l&amp;rsquo;analisi di frequenze o sentimenti;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Numerici&lt;/strong&gt;: quantità fisiche (es. altezza e larghezza) che possono essere utilizzate per analisi statistiche e calcoli;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Spaziali&lt;/strong&gt;: posizioni geografiche di oggetti o eventi (es. localizzazione di opere d&amp;rsquo;arte) che possono essere utilizzate per analizzare distribuzioni geografiche;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Temporali&lt;/strong&gt;: espressioni di temporalità (es. date, periodi) che possono essere utilizzate per analizzare tendenze e cambiamenti nel tempo.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;altre-tipologie-di-dati-1&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Dati
+&lt;h3 id=&#34;altre-tipologie-di-dati-2&#34;&gt;Altre tipologie di dati (2)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Strutturati&lt;/strong&gt;: organizzati in formati rigorosi (es. fogli di calcolo, tabelle di database);&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Semi-strutturati&lt;/strong&gt;: organizzati in strutture più flessibili (es. XML, RDF);&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Non strutturati&lt;/strong&gt;: non seguono alcuna struttura predefinita (es. testo, immagini, audio, video).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;altre-tipologie-di-dati-2&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Dati
+&lt;h3 id=&#34;altre-tipologie-di-dati-3&#34;&gt;Altre tipologie di dati (3)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Qualitativi&lt;/strong&gt;: descrivono caratteristiche non misurabili numericamente (es. descrizioni, interpretazioni, classificazioni) e sono analizzati usando tecniche di analisi del contenuto e di codifica;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Quantitativi&lt;/strong&gt;: descrivono caratteristiche misurabili numericamente (es. misure, età), che possono essere discrete o continue, e sono analizzati per esaminare tendenze, fare previsioni, e confrontare oggetti ed eventi su scala quantitativa.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;altre-tipologie-di-dati-3&#34;&gt;Altre tipologie di dati&lt;/h3&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Dati
+&lt;h3 id=&#34;altre-tipologie-di-dati-4&#34;&gt;Altre tipologie di dati (4)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Numerici&lt;/strong&gt;: possono essere espressi numericamente e hanno un significato quantitativo diretto (es. misure, età), usati per calcolare medie, deviazioni standard, correlazioni;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Categorici&lt;/strong&gt;: appartengono a categorie distinte e non hanno un ordine intrinseco (es. titolo, tipologia di opera d&amp;rsquo;arte, genere), usati per classificare gli oggetti e determinare la distribuzione tra le categorie;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Ordinali&lt;/strong&gt;: simili a numerici e categorici, ma con un ordine implicito (es. anni, valori Likert).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-punto-di-inizio-è-leda&#34;&gt;Il punto di inizio è l&amp;rsquo;EDA&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Exploratory Data Analysis&lt;/strong&gt;: Passo iniziale nel processo di analisi dei dati, che si concentra sull&amp;rsquo;esplorazione e sulla comprensione dei dati attraverso un&amp;rsquo;elaborazione e visualizzazione veloce dei dati.&lt;/p&gt;
@@ -1364,12 +1894,18 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;hr&gt;
 &lt;h3 id=&#34;struttura-generale&#34;&gt;Struttura generale&lt;/h3&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;img/voyant-tools.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/voyant-tools.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-blocchi-skin&#34;&gt;I blocchi (skin)&lt;/h3&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;img/skin.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/skin.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;figcaption&gt;
+    Fonte: propria.
+  &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;funzioni-principali&#34;&gt;Funzioni principali&lt;/h3&gt;
@@ -1394,7 +1930,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;li&gt;&lt;strong&gt;DOCUMENTS&lt;/strong&gt;: informazioni sui singoli documenti;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;TOPICS&lt;/strong&gt;: topic modeling.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Documentazione: &lt;a href=&#34;https://voyant-tools.org/docs/#!/guide/tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://voyant-tools.org/docs/#!/guide/tools&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Link alla documentazione completa: &lt;a href=&#34;https://voyant-tools.org/docs/#!/guide/tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://voyant-tools.org/docs/#!/guide/tools&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;come-e-cosa-esportare&#34;&gt;Come e cosa esportare&lt;/h3&gt;
 &lt;p&gt;L’esportazione si può applicare all&amp;rsquo;intero progetto o a una singola skin.&lt;/p&gt;
@@ -1469,7 +2005,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Scarica il dataset su cui lavorare: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing&#34;&gt;https://docs.google.com/spreadsheets/d/1Gbzev9aD1z-uwklFN3ie92XA8dQdwI1hW7KFQX7OyN0/edit?usp=sharing&lt;/a&gt;;&lt;/li&gt;
         &lt;li&gt;In &lt;em&gt;Create Project&lt;/em&gt; &gt; &lt;em&gt;This computer&lt;/em&gt;, clicca su &lt;em&gt;Choose files&lt;/em&gt; e carica il dataset appena scaricato;&lt;/li&gt;
@@ -1488,7 +2024,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;In &lt;em&gt;Parse data as&lt;/em&gt; &gt; &lt;em&gt;CSV / TSV / separator-based files&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;&lt;em&gt;Character encoding&lt;/em&gt; deve avere &lt;code&gt;UTF-8&lt;/code&gt; come valore;&lt;/li&gt;
@@ -1509,7 +2045,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Seleziona &lt;em&gt;Parse next &lt;code&gt;1&lt;/code&gt; line(s) as column headers&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;Spunta &lt;em&gt;Store blank rows&lt;/em&gt;;&lt;/li&gt;
@@ -1529,7 +2065,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;code&gt;Permalink&lt;/code&gt; ti consente di tornare ad uno stato di visualizzazione specifico del progetto, con filtri e faccette applicati, inserendo informazioni specifiche della visualizzazione direttamente nell&#39;URL.&lt;/li&gt;
       &lt;/ul&gt;
@@ -1546,7 +2082,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;code&gt;Open&lt;/code&gt; apre una nuova scheda del browser mostrando la schermata di creazione del progetto per modificare le impostazioni, avviare un nuovo progetto o aprire un progetto esistente;&lt;/li&gt;
         &lt;li&gt;&lt;code&gt;Export&lt;/code&gt; ti consente di selezionare un formato per esportare il dataset;&lt;/li&gt;
@@ -1565,7 +2101,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Visualizzazione dei dati in formato tabellare;&lt;/li&gt;
         &lt;li&gt;Numero totale di righe;&lt;/li&gt;
@@ -1585,7 +2121,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;Modi principali per esplorare i dati, mostrando pattern, tendenze e sottogruppi;&lt;/p&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;code&gt;Refresh&lt;/code&gt; aggiorna ciascuna facet con le informazioni più recenti;&lt;/li&gt;
@@ -1605,7 +2141,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Storico del progetto come elenco di modifiche in ordine cronologico;&lt;/li&gt;
         &lt;li&gt;Salvataggio automatico ogni 5 minuti e alla chiusura con &lt;code&gt;CTRL + C&lt;/code&gt;;&lt;/li&gt;
@@ -1625,7 +2161,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;: una serie di celle, una cella per colonna;&lt;/li&gt;
         &lt;li&gt;A volte, ci sono più informazioni in una singola cella (esempio: &lt;code&gt;dcho_keyword&lt;/code&gt;);&lt;/li&gt;
@@ -1644,7 +2180,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt;: una collezione di una o più righe;&lt;/li&gt;
         &lt;li&gt;Le molteplici informazioni in una singola cella (esempio: &lt;code&gt;dcho_keyword&lt;/code&gt;), una volta divise, vengono visualizzate ognuna in una riga diversa, ma appartengono allo stesso record;&lt;/li&gt;
@@ -1668,7 +2204,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Tipicamente, si crea una facet su una particolare colonna;&lt;/li&gt;
         &lt;li&gt;Fai clic sul &lt;em&gt;triangolo&lt;/em&gt; davanti al nome della colonna (esempio: &lt;code&gt;dcho_theme&lt;/code&gt;);&lt;/li&gt;
@@ -1688,7 +2224,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Prende il contenuto totale delle celle della colonna in questione e le abbina;&lt;/li&gt;
         &lt;li&gt;Ordina per nome o conteggio;&lt;/li&gt;
@@ -1708,7 +2244,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Molteplici facet sono impilate una sopra l&#39;altra (esempio: nell&#39;immagine viene aggiunta &lt;code&gt;cho_author&lt;/code&gt;).&lt;/li&gt;
       &lt;/ul&gt;
@@ -1725,7 +2261,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;I filtri possono essere aggiunti su una colonna;&lt;/li&gt;
         &lt;li&gt;Utili per identificare più precisamente dei dati;&lt;/li&gt;
@@ -1744,7 +2280,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;I filtri condividono lo stesso spazio con le facet;&lt;/li&gt;
         &lt;li&gt;Digita il testo da cercare (esempio: &#34;edipo&#34;) per restituire le righe con quel testo contenuto in quella colonna;&lt;/li&gt;
@@ -1763,7 +2299,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;È possibile filtrare anche tramite facet;&lt;/li&gt;
         &lt;li&gt;Clicca su qualsiasi voce in un filtro (esempio: &#34;Allston, Washington&#34; nella facet &lt;code&gt;cho_author&lt;/code&gt;);&lt;/li&gt;
@@ -1782,7 +2318,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Puoi usare più facet per migliorare il filtraggio.&lt;/li&gt;
       &lt;/ul&gt;
@@ -1799,7 +2335,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Puoi usare facet personalizzati per ottenere determinati effetti (esempio: filtrare le righe con celle vuote).&lt;/li&gt;
       &lt;/ul&gt;
@@ -1816,7 +2352,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Puoi determinare l&#39;ordine in cui vengono mostrate le righe in base ad alcune condizioni.&lt;/li&gt;
         &lt;li&gt;Clicca sulla freccia e seleziona &lt;em&gt;Sort&lt;/em&gt;.&lt;/li&gt;
@@ -1834,7 +2370,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Seleziona come trattare i valori delle celle durante l&#39;ordinamento (esempio: se sono date, molto probabilmente vorrai selezionare &lt;em&gt;date&lt;/em&gt;);&lt;/li&gt;
         &lt;li&gt;Puoi anche selezionare l&#39;ordine effettivo (esempio: prima tutti i valori validi, poi quelli errati, poi quelli mancanti);&lt;/li&gt;
@@ -1853,7 +2389,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Un ottimo modo per correggere le incongruenze trovate con le facet;&lt;/li&gt;
         &lt;li&gt;Utilizza una varietà di metodi di confronto per trovare diciture simili ma non identiche, e mostrarle in modo da rendere possibile l&#39;allineamento dei valori che dovrebbero essere uguali;&lt;/li&gt;
@@ -1873,7 +2409,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Clicca su &lt;em&gt;Cluster&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;Prova diversi algoritmi per rilevare vari cluster;&lt;/li&gt;
@@ -1893,7 +2429,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Prova diversi algoritmi per rilevare vari cluster;&lt;/li&gt;
         &lt;li&gt;Per ogni cluster, puoi unire i valori spuntando &lt;em&gt;Merge?&lt;/em&gt;;&lt;/li&gt;
@@ -1920,7 +2456,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;A volte una cella può contenere più valori (esempio: colonna &lt;code&gt;dcho_keyword&lt;/code&gt;, con più valori separati da virgole &lt;code&gt;,&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Fondamentale per la modalità &lt;emph&gt;records&lt;/emph&gt;;&lt;/li&gt;
@@ -1940,7 +2476,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Puoi decidere come dividere le celle;&lt;/li&gt;
         &lt;li&gt;Idealmente, dovresti sempre usare nel testo un separatore (esempio: &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;;&lt;/code&gt;, ecc.), e indicarlo qui;&lt;/li&gt;
@@ -1981,7 +2517,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Clicca sulla freccia e seleziona &lt;em&gt;Reconcile&lt;/em&gt;;&lt;/li&gt;
         &lt;li&gt;Seleziona &lt;em&gt;Start reconciling&lt;/em&gt;.&lt;/li&gt;
@@ -1999,7 +2535,7 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
         &lt;/figcaption&gt;
       &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Seleziona il servizio di riconciliazione (esempio: &lt;code&gt;VIAF&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Clicca su &lt;em&gt;Next&lt;/em&gt;.&lt;/li&gt;
@@ -2010,9 +2546,14 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;reconcile-45&#34;&gt;Reconcile (4/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9e.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;A seconda della colonna e del servizio di riconciliazione selezionato, scegli il tipo di entità che desideri riconciliare (esempio: &lt;code&gt;Person&lt;/code&gt;);&lt;/li&gt;
         &lt;li&gt;Clicca su &lt;em&gt;Start reconciling&lt;/em&gt;.&lt;/li&gt;
@@ -2023,9 +2564,14 @@ Zhang, Y., Jin, R., &amp; Zhou, Z. H. (2010). Understanding bag-of-words model: 
 &lt;h3 id=&#34;reconcile-55&#34;&gt;Reconcile (5/5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
     &lt;div style=&#34;flex: 1;&#34;&gt;
+      &lt;figure&gt;
         &lt;img src=&#34;img/openrefine-9f.png&#34; alt=&#34;https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data.html&#34; style=&#34;max-width: 100%;&#34;&gt;
+        &lt;figcaption&gt;
+          Fonte: propria.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;flex: 1; padding-left: 20px;&#34;&gt;
+    &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;ul&gt;
         &lt;li&gt;Alcuni valori delle celle vengono riconciliati direttamente (esempio: &lt;em&gt;Houdon, Jean Antoine&lt;/em&gt;);&lt;/li&gt;
         &lt;li&gt;Altri richiedono una validazione manuale (esempio: &lt;em&gt;Gérard, Francois Baron&lt;/em&gt;);&lt;/li&gt;
@@ -2271,10 +2817,13 @@ Photo by &lt;a href=&#34;https://unsplash.com/@viswanathd_11?utm_content=creditC
         &lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;come-scegliamo&#34;&gt;Come scegliamo?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Utilizzo di registri come re3data e FAIRsharing per cercare uno o più repository che si adattino alle nostre necessità e alle tipologie di dato che vogliamo depositare;
+&lt;li&gt;Utilizzo di registri come &lt;a href=&#34;https://www.re3data.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;re3data&lt;/a&gt; e &lt;a href=&#34;https://fairsharing.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAIRsharing&lt;/a&gt; per cercare uno o più repository che si adattino alle nostre necessità e alle tipologie di dato che vogliamo depositare;
 &lt;ul&gt;
 &lt;li&gt;Esistono repository disciplinari che ci permettono di descrivere i dati usando schemi di metadati specifici alla nostra disciplina e li rende più visibili alla nostra comunità?&lt;/li&gt;
 &lt;li&gt;Esistono repository istituzionali a cui possiamo fare affidamento per particolari servizi di supporto, validazione e curatela? (es. AMS Acta e AMS Historica)&lt;/li&gt;
@@ -2283,12 +2832,18 @@ Photo by &lt;a href=&#34;https://unsplash.com/@viswanathd_11?utm_content=creditC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Altri fattori: grandezza dei file, requisiti istituzionali, restrizioni di accesso&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;usare-una-repository-è-un-elemento-fondamentale-di-fairness&#34;&gt;Usare una repository è un elemento fondamentale di FAIRness&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ogni dataset depositato è accompagnato da metadati, tra cui un identificativo persistente (PID) e una licenza (trovabilità, accessibilità, e riusabilità);&lt;/li&gt;
 &lt;li&gt;I dataset devono essere in formati standard e aperti e sono descritti, dove possibile, da vocabolari, ontologie e tassonomie (interoperabilità).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;scegliere-il-livello-di-accesso-è-un-punto-essenziale&#34;&gt;Scegliere il livello di accesso è un punto essenziale&lt;/h3&gt;
 &lt;p&gt;Scegliere un repository che consenta di depositare i dati secondo pratiche di Scienza Aperta, ma anche di avere maggiori restrizioni dove necessario.&lt;/p&gt;
@@ -2298,6 +2853,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@viswanathd_11?utm_content=creditC
 &lt;li&gt;&lt;strong&gt;Ristretto&lt;/strong&gt;, ovvero chi vuole consultare o scaricare il dataset depositato deve richiedere un’autorizzazione. Questa richiesta può essere fatta direttamente al ricercatore che ha depositato il dataset oppure, nel caso di alcuni specifici repository, ad un comitato di accesso deputato a valutare la legittimità della richiesta;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Embargo&lt;/strong&gt;, un tipo di restrizione dell’accesso temporanea. Permette di depositare i dataset mantenendoli privati per un tempo limitato, scaduto il quale l’embargo scade e il dataset diventa aperto.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2323,6 +2881,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@seljansalim?utm_content=creditCop
 &lt;li&gt;Aumentare la qualità della nostra ricerca;&lt;/li&gt;
 &lt;li&gt;Riconoscere i risultati della nostra ricerca come bene pubblico.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;usiamo-orcid-per-identificarci&#34;&gt;Usiamo ORCID per identificarci&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -2339,7 +2900,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@seljansalim?utm_content=creditCop
             PID per l&#39;individuo che lavora nella ricerca.
         &lt;/p&gt;
         &lt;p&gt;
-            Fornisce un&#39;identità unica a cui associare il nostro lavoro, indipendentemente dal nostro nome completo.
+            Fornisce un&#39;identità unica a cui associare il proprio lavoro, indipendentemente dal nome completo.
         &lt;/p&gt;
         &lt;p&gt;
             Inoltre, è molto utile per accedere o registrarsi a servizi che lo utilizzano come sistema di autenticazione o applicativo di supporto per ulteriori funzionalità (es. Zenodo).
@@ -2362,7 +2923,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@seljansalim?utm_content=creditCop
             PID per un oggetto digitale di ricerca, pubblicato sul Web.
         &lt;/p&gt;
         &lt;p&gt;
-            Rende molto più facile per gli altri citare i nostri dati, riduce il rischio di &lt;emph&gt;link rot&lt;/emph&gt; e consente di tracciare come la nostra ricerca venga utilizzata e citata.
+            Rende molto più facile per gli altri citare i dati, riduce il rischio di &lt;emph&gt;link rot&lt;/emph&gt; e consente di tracciare come la nostra ricerca venga utilizzata e citata.
         &lt;/p&gt;
         &lt;p&gt;
             Esistono server che associano DOI al momento della pubblicazione (es. Zenodo, FigShare, Dryad).
@@ -2400,33 +2961,51 @@ Photo by &lt;a href=&#34;https://unsplash.com/@vinayak10?utm_content=creditCopyT
 &lt;hr&gt;
 &lt;h3 id=&#34;i-dati-possono-essere-soggetti-a-diritto-dautore&#34;&gt;I dati possono essere soggetti a diritto d&amp;rsquo;autore&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;&amp;hellip; Quando sono opere dell’ingegno di carattere creativo (es. testi, immagini, tabelle, database, software, ecc.).&lt;/p&gt;
-&lt;p&gt;MA: il diritto d’autore tutela la forma espressiva di un’opera dell’ingegno, e non i dati in quanto tali.&lt;/p&gt;
+&lt;p&gt;MA: il diritto d’autore tutela la forma espressiva di un’opera dell’ingegno, e non i dati.&lt;/p&gt;
 &lt;p&gt;La tutela autoriale non copre le idee, i procedimenti, i metodi di funzionamento o i concetti matematici in quanto tali.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;allautore-spettano-diritti-morali-e-patrimoniali&#34;&gt;All&amp;rsquo;autore spettano diritti morali e patrimoniali&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Diritti &lt;strong&gt;morali&lt;/strong&gt;: irrinunciabili, inalienabili, imprescrittibili, possono essere fatti valere senza limiti di tempo dopo la morte dell’autore (es. il diritto di rivendicare la paternità dell’opera, il diritto di inedito e il diritto all’integrità dell’opera);&lt;/li&gt;
 &lt;li&gt;Diritti &lt;strong&gt;patrimoniali&lt;/strong&gt;: cedibili a titolo oneroso o gratuito, in via esclusiva o non esclusiva, ed esercitabili fino a 70 anni dopo la morte dell’autore (es. il diritto di sfruttamento economico dell’opera in esclusiva, il diritto di pubblicare, il diritto di digitalizzare, il diritto di modificare, il diritto di tradurre, ecc.).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;nel-caso-delle-banche-dati-si-applica-il-diritto-_sui-generis_&#34;&gt;Nel caso delle banche dati, si applica il diritto &lt;em&gt;sui generis&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Le banche di dati sono raccolte di opere, dati o altri elementi che sono organizzati in modo sistematico o metodico, in modo che possano essere facilmente accessibili.&lt;/p&gt;
 &lt;p&gt;Le banche di dati possono essere protette dal diritto d’autore se rappresentano una creazione intellettuale dell’autore, cioè se l’organizzazione e la disposizione delle informazioni sono frutto di un lavoro creativo.&lt;/p&gt;
 &lt;p&gt;La protezione non riguarda il contenuto della banca di dati, ma solo la sua struttura e organizzazione. I diritti sui dati stessi (se appartengono a terzi) restano separati e non sono influenzati dalla protezione.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;nel-caso-delle-banche-dati-si-applica-il-diritto-_sui-generis_-1&#34;&gt;Nel caso delle banche dati, si applica il diritto &lt;em&gt;sui generis&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Oltre alla protezione da diritto d’autore, esiste anche un diritto sui generis che tutela gli investimenti fatti per creare, verificare o presentare la banca di dati (come risorse finanziarie, tempo e lavoro). Questo diritto impedisce ad altri di estrarre o riutilizzare parti sostanziali della banca di dati senza permesso.&lt;/p&gt;
 &lt;p&gt;Il diritto sui generis dura 15 anni, a partire dal primo gennaio dell’anno successivo alla completazione della banca di dati o dalla prima messa a disposizione del pubblico.&lt;/p&gt;
 &lt;p&gt;Il titolare dei diritti può stabilire condizioni di utilizzo della banca di dati tramite licenze d&amp;rsquo;uso, specificando come altri possono utilizzare la banca di dati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;usiamo-le-licenze-per-far-sapere-alle-altre-persona-cosa-possono-e-non-possono-fare&#34;&gt;Usiamo le licenze per far sapere alle altre persona cosa possono e non possono fare&lt;/h3&gt;
 &lt;p&gt;Un autore può concedere i propri diritti patrimoniali attraverso un contratto di concessione d’uso (licenza), permettendo a terzi di utilizzare l&amp;rsquo;opera alle condizioni stabilite.&lt;/p&gt;
 &lt;p&gt;I dati ad accesso aperto (Open Data) sono distribuiti con licenze che garantiscono libertà di accesso, utilizzo, modifica e condivisione, con eventuali restrizioni per attribuire la paternità e limitare usi specifici, come nel caso del diritto d&amp;rsquo;autore.&lt;/p&gt;
 &lt;p&gt;La scelta della licenza deve basarsi sul principio “as open as possible, as closed as necessary”.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;facciamo-attenzione&#34;&gt;Facciamo attenzione!&lt;/h3&gt;
 &lt;p&gt;Se non ci sono problemi legali o economici, è preferibile rendere i dati accessibili a tutti.&lt;/p&gt;
 &lt;p&gt;È consigliato scegliere licenze permissive che permettano l&amp;rsquo;uso libero dei dati in qualsiasi formato, per qualsiasi scopo, anche commerciale (es. CC0 1.0, CC BY 4.0 e CC BY-SA 4.0).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;facciamo-attenzione-1&#34;&gt;Facciamo attenzione!&lt;/h3&gt;
 &lt;p&gt;Per usare opere o materiali protetti dal diritto d&amp;rsquo;autore o da diritti connessi, è necessario ottenere il consenso preventivo del titolare dei diritti.&lt;/p&gt;
@@ -2436,6 +3015,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@vinayak10?utm_content=creditCopyT
 &lt;li&gt;L&amp;rsquo;uso di un&amp;rsquo;opera senza autorizzazione è consentito solo in caso di eccezioni previste dalla legge (come l&amp;rsquo;uso per scopi educativi o di critica).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;È sempre necessario verificare i termini della licenza d’uso associata alla pubblicazione e/o messa a disposizione di un’opera.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-licenze-creative-commons-cc-sono-le-licenze-maggiormente-utilizzate-per-le-opere-digitali&#34;&gt;Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali&lt;/h3&gt;
 &lt;p&gt;L’autore concede ad una generalità di soggetti indefiniti l’autorizzazione all’uso dell’opera a determinate condizioni, decidendo quali diritti riservare e quali concedere in uso.&lt;/p&gt;
@@ -2446,6 +3028,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@vinayak10?utm_content=creditCopyT
 &lt;li&gt;&lt;strong&gt;SA&lt;/strong&gt; (Share Alike): le opere derivate devono essere condivise con la medesima licenza;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ND&lt;/strong&gt; (Non Derivates): non sono consentite opere derivate;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;le-licenze-creative-commons-cc-sono-le-licenze-maggiormente-utilizzate-per-le-opere-digitali-1&#34;&gt;Le licenze Creative Commons (CC) sono le licenze maggiormente utilizzate per le opere digitali&lt;/h3&gt;
 &lt;figure&gt;
@@ -3424,10 +4009,10 @@ Rocca-Serra, P., Sansone, S.-A., Gu, W., Welter, D., Abbassi Daloii, T., &amp; P
 &lt;figure  id=&#34;figure-fonte-httpslibguidesucdiedatametadata&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Un esempio di utilizzo di Dublin Core per la metadatazione di una registrazione audio di un&amp;rsquo;intervista.&#34; srcset=&#34;
-               /it/slides/dhdmch-05/img/dc-example_hu302024898354176731.webp 400w,
-               /it/slides/dhdmch-05/img/dc-example_hu4947373633304788738.webp 760w,
-               /it/slides/dhdmch-05/img/dc-example_hu8137017941484898736.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-05/img/dc-example_hu302024898354176731.webp&#34;
+               /it/slides/dhdmch-05/img/dc-example_hu_5ed2c3126de7aba4.webp 400w,
+               /it/slides/dhdmch-05/img/dc-example_hu_5a9947ad9a23ab48.webp 760w,
+               /it/slides/dhdmch-05/img/dc-example_hu_c396942749092adc.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-05/img/dc-example_hu_5ed2c3126de7aba4.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3737,10 +4322,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@leiadakrozjhen?utm_content=credit
 &lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; srcset=&#34;
-               /it/slides/dhdmch-07/img/markup-elements_hu16619115593832795126.webp 400w,
-               /it/slides/dhdmch-07/img/markup-elements_hu10256604837348511573.webp 760w,
-               /it/slides/dhdmch-07/img/markup-elements_hu2697673683155838696.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-07/img/markup-elements_hu16619115593832795126.webp&#34;
+               /it/slides/dhdmch-07/img/markup-elements_hu_3abc10ba04ebf7d.webp 400w,
+               /it/slides/dhdmch-07/img/markup-elements_hu_26df38beb16f7069.webp 760w,
+               /it/slides/dhdmch-07/img/markup-elements_hu_4a82e51c3a0e2b44.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-07/img/markup-elements_hu_3abc10ba04ebf7d.webp&#34;
                width=&#34;587&#34;
                height=&#34;223&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3769,10 +4354,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@leiadakrozjhen?utm_content=credit
 &lt;figure  id=&#34;figure-fonte-httpsbasic-infgithubio2022-2023chapters08pdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Fonte: https://basic-inf.github.io/2022-2023/chapters/08.pdf.&#34; srcset=&#34;
-               /it/slides/dhdmch-07/img/markup-attribute_hu4368268469420536521.webp 400w,
-               /it/slides/dhdmch-07/img/markup-attribute_hu12299935778595859014.webp 760w,
-               /it/slides/dhdmch-07/img/markup-attribute_hu16298959401368444766.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-07/img/markup-attribute_hu4368268469420536521.webp&#34;
+               /it/slides/dhdmch-07/img/markup-attribute_hu_82b4f12be9deec81.webp 400w,
+               /it/slides/dhdmch-07/img/markup-attribute_hu_7d79b47ba2b4a851.webp 760w,
+               /it/slides/dhdmch-07/img/markup-attribute_hu_4595ac6fe243644a.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-07/img/markup-attribute_hu_82b4f12be9deec81.webp&#34;
                width=&#34;530&#34;
                height=&#34;97&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -5095,9 +5680,10 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;hr&gt;
 &lt;h3 id=&#34;alcune-risorse-utili&#34;&gt;Alcune risorse utili&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://teibyexample.org/exist/tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://teibyexample.org/exist/tutorials/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leaf-writer.leaf-vre.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://leaf-writer.leaf-vre.org/&lt;/a&gt;: Web app per scrivere e marcare testi in TEI;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://teibyexample.org/exist/tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://teibyexample.org/exist/tutorials/&lt;/a&gt;: sito di lezioni, tutorial ed esempi per imparare TEI;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ultraslavonic.info/intro-to-xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.ultraslavonic.info/intro-to-xml/&lt;/a&gt;: breve testo introduttivo su XML;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jsonformatter.org/xml-editor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jsonformatter.org/xml-editor&lt;/a&gt;: Web editor per XML.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;attività-pratica&#34;&gt;Attività pratica&lt;/h2&gt;
@@ -6024,10 +6610,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0201_hu226403352692629993.webp 400w,
-               /it/slides/dhdmch-02/img/0201_hu16703070642394521998.webp 760w,
-               /it/slides/dhdmch-02/img/0201_hu799665965055901570.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0201_hu226403352692629993.webp&#34;
+               /it/slides/dhdmch-02/img/0201_hu_89e5bf0b3018b822.webp 400w,
+               /it/slides/dhdmch-02/img/0201_hu_5806dc98ff1e880c.webp 760w,
+               /it/slides/dhdmch-02/img/0201_hu_8e1a6c41dab3c946.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0201_hu_89e5bf0b3018b822.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6054,10 +6640,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0202_hu14503444176725521860.webp 400w,
-               /it/slides/dhdmch-02/img/0202_hu11344718852253495818.webp 760w,
-               /it/slides/dhdmch-02/img/0202_hu1219882755447835410.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0202_hu14503444176725521860.webp&#34;
+               /it/slides/dhdmch-02/img/0202_hu_53f44b58ec17565a.webp 400w,
+               /it/slides/dhdmch-02/img/0202_hu_e1f4c07a42a99f55.webp 760w,
+               /it/slides/dhdmch-02/img/0202_hu_ceb006d19ecc8a80.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0202_hu_53f44b58ec17565a.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6084,10 +6670,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0203_hu10694699998833864925.webp 400w,
-               /it/slides/dhdmch-02/img/0203_hu8508677589899614496.webp 760w,
-               /it/slides/dhdmch-02/img/0203_hu11129489229251260773.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0203_hu10694699998833864925.webp&#34;
+               /it/slides/dhdmch-02/img/0203_hu_2125ea4062dc44cc.webp 400w,
+               /it/slides/dhdmch-02/img/0203_hu_4521e0a98746e010.webp 760w,
+               /it/slides/dhdmch-02/img/0203_hu_ddd821d688e48b37.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0203_hu_2125ea4062dc44cc.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6114,10 +6700,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0204_hu2108288688866782409.webp 400w,
-               /it/slides/dhdmch-02/img/0204_hu8986839528574733795.webp 760w,
-               /it/slides/dhdmch-02/img/0204_hu16074717501237190761.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0204_hu2108288688866782409.webp&#34;
+               /it/slides/dhdmch-02/img/0204_hu_5c39d8843e4d9d34.webp 400w,
+               /it/slides/dhdmch-02/img/0204_hu_d757c86e6b3d9b81.webp 760w,
+               /it/slides/dhdmch-02/img/0204_hu_c88f7ffab3d60d3f.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0204_hu_5c39d8843e4d9d34.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6144,10 +6730,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0205_hu15477043006548699688.webp 400w,
-               /it/slides/dhdmch-02/img/0205_hu11808208914543549911.webp 760w,
-               /it/slides/dhdmch-02/img/0205_hu9247932627771311358.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0205_hu15477043006548699688.webp&#34;
+               /it/slides/dhdmch-02/img/0205_hu_96b7b4a80d77f8cf.webp 400w,
+               /it/slides/dhdmch-02/img/0205_hu_1c19d1b5b2ae91f1.webp 760w,
+               /it/slides/dhdmch-02/img/0205_hu_9731f60b0ecc83eb.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0205_hu_96b7b4a80d77f8cf.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6174,10 +6760,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0206_hu8389042571426827302.webp 400w,
-               /it/slides/dhdmch-02/img/0206_hu5586400459374425071.webp 760w,
-               /it/slides/dhdmch-02/img/0206_hu11818964171848345072.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0206_hu8389042571426827302.webp&#34;
+               /it/slides/dhdmch-02/img/0206_hu_d77dc221e3c9fd81.webp 400w,
+               /it/slides/dhdmch-02/img/0206_hu_ef55d3c0eaffa347.webp 760w,
+               /it/slides/dhdmch-02/img/0206_hu_ca8f888b6b7b14c2.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0206_hu_d77dc221e3c9fd81.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6204,10 +6790,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0207_hu3881841779924273090.webp 400w,
-               /it/slides/dhdmch-02/img/0207_hu7569592508277646587.webp 760w,
-               /it/slides/dhdmch-02/img/0207_hu12648824727064207274.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0207_hu3881841779924273090.webp&#34;
+               /it/slides/dhdmch-02/img/0207_hu_893c39465ac4d35a.webp 400w,
+               /it/slides/dhdmch-02/img/0207_hu_e396dd540dd11ec1.webp 760w,
+               /it/slides/dhdmch-02/img/0207_hu_f9ee68b7d29a15bc.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0207_hu_893c39465ac4d35a.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6234,10 +6820,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0208_hu17301054383119247716.webp 400w,
-               /it/slides/dhdmch-02/img/0208_hu111052853902988374.webp 760w,
-               /it/slides/dhdmch-02/img/0208_hu15108280185551641253.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0208_hu17301054383119247716.webp&#34;
+               /it/slides/dhdmch-02/img/0208_hu_951a5dd2f9e2e39.webp 400w,
+               /it/slides/dhdmch-02/img/0208_hu_aa1a98060222a19a.webp 760w,
+               /it/slides/dhdmch-02/img/0208_hu_6080ae559f0c3e37.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0208_hu_951a5dd2f9e2e39.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6264,10 +6850,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0209_hu12403106887282160236.webp 400w,
-               /it/slides/dhdmch-02/img/0209_hu5966203029683988876.webp 760w,
-               /it/slides/dhdmch-02/img/0209_hu1220958561405358956.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0209_hu12403106887282160236.webp&#34;
+               /it/slides/dhdmch-02/img/0209_hu_8ccf194808b89d44.webp 400w,
+               /it/slides/dhdmch-02/img/0209_hu_cdd0916c13b943d6.webp 760w,
+               /it/slides/dhdmch-02/img/0209_hu_808b9cebfcd65905.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0209_hu_8ccf194808b89d44.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6294,10 +6880,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0210_hu2792548881443445770.webp 400w,
-               /it/slides/dhdmch-02/img/0210_hu8327023006314504413.webp 760w,
-               /it/slides/dhdmch-02/img/0210_hu4020322915085242801.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0210_hu2792548881443445770.webp&#34;
+               /it/slides/dhdmch-02/img/0210_hu_e2073bfb4dc0d4a2.webp 400w,
+               /it/slides/dhdmch-02/img/0210_hu_87d963fdbc71fcda.webp 760w,
+               /it/slides/dhdmch-02/img/0210_hu_369db9dd3d6855ad.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0210_hu_e2073bfb4dc0d4a2.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6324,10 +6910,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0211_hu16623935730455689193.webp 400w,
-               /it/slides/dhdmch-02/img/0211_hu10264499422887001352.webp 760w,
-               /it/slides/dhdmch-02/img/0211_hu14316986164220365857.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0211_hu16623935730455689193.webp&#34;
+               /it/slides/dhdmch-02/img/0211_hu_15b72884a70404b9.webp 400w,
+               /it/slides/dhdmch-02/img/0211_hu_fd2f4f7503fd904f.webp 760w,
+               /it/slides/dhdmch-02/img/0211_hu_1cfd7aece599e209.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0211_hu_15b72884a70404b9.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6354,10 +6940,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0212_hu1791191788293218451.webp 400w,
-               /it/slides/dhdmch-02/img/0212_hu346647344155985550.webp 760w,
-               /it/slides/dhdmch-02/img/0212_hu18159793039370140946.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0212_hu1791191788293218451.webp&#34;
+               /it/slides/dhdmch-02/img/0212_hu_5954e91cea589704.webp 400w,
+               /it/slides/dhdmch-02/img/0212_hu_828c12b80fd9240e.webp 760w,
+               /it/slides/dhdmch-02/img/0212_hu_5011e23aaf46270d.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0212_hu_5954e91cea589704.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6384,10 +6970,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0213_hu8874905510995793265.webp 400w,
-               /it/slides/dhdmch-02/img/0213_hu9347889762164645608.webp 760w,
-               /it/slides/dhdmch-02/img/0213_hu5170940283724590198.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0213_hu8874905510995793265.webp&#34;
+               /it/slides/dhdmch-02/img/0213_hu_a0288b31900ed69a.webp 400w,
+               /it/slides/dhdmch-02/img/0213_hu_561da0d31454099c.webp 760w,
+               /it/slides/dhdmch-02/img/0213_hu_75f3a72c6f3697b0.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0213_hu_a0288b31900ed69a.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6414,10 +7000,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0214_hu16191129441553905381.webp 400w,
-               /it/slides/dhdmch-02/img/0214_hu10300709738676434266.webp 760w,
-               /it/slides/dhdmch-02/img/0214_hu17913377753488274667.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0214_hu16191129441553905381.webp&#34;
+               /it/slides/dhdmch-02/img/0214_hu_de61439f34bf6f9b.webp 400w,
+               /it/slides/dhdmch-02/img/0214_hu_38a07ce02b079b1.webp 760w,
+               /it/slides/dhdmch-02/img/0214_hu_d647caeef8133960.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0214_hu_de61439f34bf6f9b.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6444,10 +7030,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0215_hu3536258615460261704.webp 400w,
-               /it/slides/dhdmch-02/img/0215_hu12906451046386566994.webp 760w,
-               /it/slides/dhdmch-02/img/0215_hu2901481093873764892.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0215_hu3536258615460261704.webp&#34;
+               /it/slides/dhdmch-02/img/0215_hu_79b54be142dce949.webp 400w,
+               /it/slides/dhdmch-02/img/0215_hu_8e62daf44eb30d1f.webp 760w,
+               /it/slides/dhdmch-02/img/0215_hu_ce8929f332b12175.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0215_hu_79b54be142dce949.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6474,10 +7060,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0216_hu5492667311774476559.webp 400w,
-               /it/slides/dhdmch-02/img/0216_hu4667365946677042005.webp 760w,
-               /it/slides/dhdmch-02/img/0216_hu6474792070625561605.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0216_hu5492667311774476559.webp&#34;
+               /it/slides/dhdmch-02/img/0216_hu_6638cb4e626040ec.webp 400w,
+               /it/slides/dhdmch-02/img/0216_hu_3400942c2932fe55.webp 760w,
+               /it/slides/dhdmch-02/img/0216_hu_90f67ca2f6e68ee2.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0216_hu_6638cb4e626040ec.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6504,10 +7090,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0217_hu6226745504757942079.webp 400w,
-               /it/slides/dhdmch-02/img/0217_hu17663299877388979068.webp 760w,
-               /it/slides/dhdmch-02/img/0217_hu17637586118302636073.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0217_hu6226745504757942079.webp&#34;
+               /it/slides/dhdmch-02/img/0217_hu_fdada0f2011400a9.webp 400w,
+               /it/slides/dhdmch-02/img/0217_hu_99748372493a14cb.webp 760w,
+               /it/slides/dhdmch-02/img/0217_hu_ef260dec9955f2a4.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0217_hu_fdada0f2011400a9.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6534,10 +7120,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0218_hu10513708129943998196.webp 400w,
-               /it/slides/dhdmch-02/img/0218_hu10816858387381586138.webp 760w,
-               /it/slides/dhdmch-02/img/0218_hu18168984303127939161.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0218_hu10513708129943998196.webp&#34;
+               /it/slides/dhdmch-02/img/0218_hu_4fcaf26d0951d5fb.webp 400w,
+               /it/slides/dhdmch-02/img/0218_hu_d683de46b8f6527e.webp 760w,
+               /it/slides/dhdmch-02/img/0218_hu_d1d8e60229bd7c9b.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0218_hu_4fcaf26d0951d5fb.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6564,10 +7150,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0219_hu14236455616395175796.webp 400w,
-               /it/slides/dhdmch-02/img/0219_hu15566261442987343857.webp 760w,
-               /it/slides/dhdmch-02/img/0219_hu11129136514266528140.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0219_hu14236455616395175796.webp&#34;
+               /it/slides/dhdmch-02/img/0219_hu_b87fe7b663fa4e5f.webp 400w,
+               /it/slides/dhdmch-02/img/0219_hu_56836057ac0f8c08.webp 760w,
+               /it/slides/dhdmch-02/img/0219_hu_800773c02b304aca.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0219_hu_b87fe7b663fa4e5f.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6594,10 +7180,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0220_hu13739620127169789816.webp 400w,
-               /it/slides/dhdmch-02/img/0220_hu1545875793226938427.webp 760w,
-               /it/slides/dhdmch-02/img/0220_hu6374832164249218685.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0220_hu13739620127169789816.webp&#34;
+               /it/slides/dhdmch-02/img/0220_hu_9f49c80b45c0cf31.webp 400w,
+               /it/slides/dhdmch-02/img/0220_hu_2e990f41b678e52.webp 760w,
+               /it/slides/dhdmch-02/img/0220_hu_b809aad4cb4dd879.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0220_hu_9f49c80b45c0cf31.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6624,10 +7210,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0221_hu14427652876152732040.webp 400w,
-               /it/slides/dhdmch-02/img/0221_hu2478237946761511239.webp 760w,
-               /it/slides/dhdmch-02/img/0221_hu11831741073052364656.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0221_hu14427652876152732040.webp&#34;
+               /it/slides/dhdmch-02/img/0221_hu_112d88681ba1e419.webp 400w,
+               /it/slides/dhdmch-02/img/0221_hu_b0c184de3104106d.webp 760w,
+               /it/slides/dhdmch-02/img/0221_hu_1e58841c1c57f6c1.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0221_hu_112d88681ba1e419.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6654,10 +7240,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0222_hu16606640605161320185.webp 400w,
-               /it/slides/dhdmch-02/img/0222_hu10495324300929796013.webp 760w,
-               /it/slides/dhdmch-02/img/0222_hu14896323891608129730.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0222_hu16606640605161320185.webp&#34;
+               /it/slides/dhdmch-02/img/0222_hu_7e285a319eb7d3e4.webp 400w,
+               /it/slides/dhdmch-02/img/0222_hu_31d9ba23ee88424a.webp 760w,
+               /it/slides/dhdmch-02/img/0222_hu_ef3c32d0f7dbbd0f.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0222_hu_7e285a319eb7d3e4.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6684,10 +7270,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0235_hu10798714842601394458.webp 400w,
-               /it/slides/dhdmch-02/img/0235_hu12068622548557271725.webp 760w,
-               /it/slides/dhdmch-02/img/0235_hu3996459036790980997.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu10798714842601394458.webp&#34;
+               /it/slides/dhdmch-02/img/0235_hu_ae069dcce0d33705.webp 400w,
+               /it/slides/dhdmch-02/img/0235_hu_d073189be90e24b0.webp 760w,
+               /it/slides/dhdmch-02/img/0235_hu_a5f4ef62d49467e2.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0235_hu_ae069dcce0d33705.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6714,10 +7300,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0236_hu1001416378329377385.webp 400w,
-               /it/slides/dhdmch-02/img/0236_hu6482062782361292217.webp 760w,
-               /it/slides/dhdmch-02/img/0236_hu9124961503794694590.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu1001416378329377385.webp&#34;
+               /it/slides/dhdmch-02/img/0236_hu_30070ddf92ba2581.webp 400w,
+               /it/slides/dhdmch-02/img/0236_hu_996cfccc32a3781a.webp 760w,
+               /it/slides/dhdmch-02/img/0236_hu_af6839c54d228074.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0236_hu_30070ddf92ba2581.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6744,10 +7330,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0237_hu7165673099521225062.webp 400w,
-               /it/slides/dhdmch-02/img/0237_hu11219664966579550247.webp 760w,
-               /it/slides/dhdmch-02/img/0237_hu11601159818575706197.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu7165673099521225062.webp&#34;
+               /it/slides/dhdmch-02/img/0237_hu_be95009259c8ebc6.webp 400w,
+               /it/slides/dhdmch-02/img/0237_hu_37ebcf6aac63237b.webp 760w,
+               /it/slides/dhdmch-02/img/0237_hu_785166fbd65d6ebd.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0237_hu_be95009259c8ebc6.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6774,10 +7360,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0238_hu12666977274456718294.webp 400w,
-               /it/slides/dhdmch-02/img/0238_hu7300193164722962581.webp 760w,
-               /it/slides/dhdmch-02/img/0238_hu12292049150924318488.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu12666977274456718294.webp&#34;
+               /it/slides/dhdmch-02/img/0238_hu_5b6fdc2a3efa8806.webp 400w,
+               /it/slides/dhdmch-02/img/0238_hu_37eba352232e1436.webp 760w,
+               /it/slides/dhdmch-02/img/0238_hu_d682c34e720309bb.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0238_hu_5b6fdc2a3efa8806.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6804,10 +7390,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0239_hu15121561683514762249.webp 400w,
-               /it/slides/dhdmch-02/img/0239_hu17206343429452009424.webp 760w,
-               /it/slides/dhdmch-02/img/0239_hu562862717664442030.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu15121561683514762249.webp&#34;
+               /it/slides/dhdmch-02/img/0239_hu_433d16c1284c389c.webp 400w,
+               /it/slides/dhdmch-02/img/0239_hu_786a74f30910a97a.webp 760w,
+               /it/slides/dhdmch-02/img/0239_hu_4ebcb0c8e955e1e4.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0239_hu_433d16c1284c389c.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6834,10 +7420,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0240_hu7602659538752319390.webp 400w,
-               /it/slides/dhdmch-02/img/0240_hu14975135134252092802.webp 760w,
-               /it/slides/dhdmch-02/img/0240_hu3562733759342420585.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu7602659538752319390.webp&#34;
+               /it/slides/dhdmch-02/img/0240_hu_90c946666ad25113.webp 400w,
+               /it/slides/dhdmch-02/img/0240_hu_9f606b36239021c6.webp 760w,
+               /it/slides/dhdmch-02/img/0240_hu_b7ce6912f59e1821.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0240_hu_90c946666ad25113.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6864,10 +7450,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0223_hu17332422929922577840.webp 400w,
-               /it/slides/dhdmch-02/img/0223_hu10021931470989970657.webp 760w,
-               /it/slides/dhdmch-02/img/0223_hu16564859178845572166.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0223_hu17332422929922577840.webp&#34;
+               /it/slides/dhdmch-02/img/0223_hu_7be233eebbf8cb32.webp 400w,
+               /it/slides/dhdmch-02/img/0223_hu_f18a8d0c2c5ea9e4.webp 760w,
+               /it/slides/dhdmch-02/img/0223_hu_bc32fc3de65a72f9.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0223_hu_7be233eebbf8cb32.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6894,10 +7480,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0224_hu588726478882865502.webp 400w,
-               /it/slides/dhdmch-02/img/0224_hu11016880653377708831.webp 760w,
-               /it/slides/dhdmch-02/img/0224_hu4111846845249172793.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0224_hu588726478882865502.webp&#34;
+               /it/slides/dhdmch-02/img/0224_hu_ca98335d05f9b365.webp 400w,
+               /it/slides/dhdmch-02/img/0224_hu_c41eca99683ce7fe.webp 760w,
+               /it/slides/dhdmch-02/img/0224_hu_999df0a7cda4cc0a.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0224_hu_ca98335d05f9b365.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6924,10 +7510,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0225_hu16418836550981750019.webp 400w,
-               /it/slides/dhdmch-02/img/0225_hu17360680223030552872.webp 760w,
-               /it/slides/dhdmch-02/img/0225_hu16396566913653714593.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0225_hu16418836550981750019.webp&#34;
+               /it/slides/dhdmch-02/img/0225_hu_3c5e3339da513b35.webp 400w,
+               /it/slides/dhdmch-02/img/0225_hu_378df8344ad6abdf.webp 760w,
+               /it/slides/dhdmch-02/img/0225_hu_5f79df4f28610384.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0225_hu_3c5e3339da513b35.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6954,10 +7540,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0226_hu13058362677727245833.webp 400w,
-               /it/slides/dhdmch-02/img/0226_hu895045318240927456.webp 760w,
-               /it/slides/dhdmch-02/img/0226_hu14506437849163520497.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0226_hu13058362677727245833.webp&#34;
+               /it/slides/dhdmch-02/img/0226_hu_3c9f5c2512aa515e.webp 400w,
+               /it/slides/dhdmch-02/img/0226_hu_16077ee612e3c30d.webp 760w,
+               /it/slides/dhdmch-02/img/0226_hu_6585accff16ea938.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0226_hu_3c9f5c2512aa515e.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -6984,10 +7570,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0231_hu16998020315897564033.webp 400w,
-               /it/slides/dhdmch-02/img/0231_hu1393825696932678691.webp 760w,
-               /it/slides/dhdmch-02/img/0231_hu2683798449278842308.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0231_hu16998020315897564033.webp&#34;
+               /it/slides/dhdmch-02/img/0231_hu_7521517808a33f53.webp 400w,
+               /it/slides/dhdmch-02/img/0231_hu_9e71b2acb01ddc52.webp 760w,
+               /it/slides/dhdmch-02/img/0231_hu_5c9ca9b882c7d870.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0231_hu_7521517808a33f53.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7014,10 +7600,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0232_hu4733817021116188931.webp 400w,
-               /it/slides/dhdmch-02/img/0232_hu9894330422476635015.webp 760w,
-               /it/slides/dhdmch-02/img/0232_hu843238965674902796.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0232_hu4733817021116188931.webp&#34;
+               /it/slides/dhdmch-02/img/0232_hu_c4a0b0db9e668ad7.webp 400w,
+               /it/slides/dhdmch-02/img/0232_hu_16bdf5a145df930f.webp 760w,
+               /it/slides/dhdmch-02/img/0232_hu_e92835bfd505e423.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0232_hu_c4a0b0db9e668ad7.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7044,10 +7630,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0233_hu16768221949760430968.webp 400w,
-               /it/slides/dhdmch-02/img/0233_hu13356967724106257657.webp 760w,
-               /it/slides/dhdmch-02/img/0233_hu10543007878214537693.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0233_hu16768221949760430968.webp&#34;
+               /it/slides/dhdmch-02/img/0233_hu_ae24f4f69206442f.webp 400w,
+               /it/slides/dhdmch-02/img/0233_hu_1ee4bd121c06e4df.webp 760w,
+               /it/slides/dhdmch-02/img/0233_hu_f79c8b2320b5a178.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0233_hu_ae24f4f69206442f.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7074,10 +7660,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0227_hu5820607158218123038.webp 400w,
-               /it/slides/dhdmch-02/img/0227_hu3816457823307985302.webp 760w,
-               /it/slides/dhdmch-02/img/0227_hu10251743813891231607.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0227_hu5820607158218123038.webp&#34;
+               /it/slides/dhdmch-02/img/0227_hu_caedb8579989e366.webp 400w,
+               /it/slides/dhdmch-02/img/0227_hu_7ffda0fca4ed7bda.webp 760w,
+               /it/slides/dhdmch-02/img/0227_hu_724b9b21e916ddf0.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0227_hu_caedb8579989e366.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7104,10 +7690,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0228_hu2108642968154308499.webp 400w,
-               /it/slides/dhdmch-02/img/0228_hu8447863487907217595.webp 760w,
-               /it/slides/dhdmch-02/img/0228_hu13734785348195863764.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0228_hu2108642968154308499.webp&#34;
+               /it/slides/dhdmch-02/img/0228_hu_8318deb22587a137.webp 400w,
+               /it/slides/dhdmch-02/img/0228_hu_dc73525e4e74abc6.webp 760w,
+               /it/slides/dhdmch-02/img/0228_hu_19ffeba679daaa0.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0228_hu_8318deb22587a137.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7134,10 +7720,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0229_hu10906826585619976507.webp 400w,
-               /it/slides/dhdmch-02/img/0229_hu12438324115939746570.webp 760w,
-               /it/slides/dhdmch-02/img/0229_hu9861353448667636068.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0229_hu10906826585619976507.webp&#34;
+               /it/slides/dhdmch-02/img/0229_hu_b78a6ec48e9b0fc8.webp 400w,
+               /it/slides/dhdmch-02/img/0229_hu_64f372f5aacbb0aa.webp 760w,
+               /it/slides/dhdmch-02/img/0229_hu_def5b1dfd0d15871.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0229_hu_b78a6ec48e9b0fc8.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7164,10 +7750,10 @@ Blischak, J. D., Davenport, E. R., &amp; Wilson, G. (2016). A quick introduction
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /it/slides/dhdmch-02/img/0230_hu6819942535067318716.webp 400w,
-               /it/slides/dhdmch-02/img/0230_hu10438350457986176933.webp 760w,
-               /it/slides/dhdmch-02/img/0230_hu3459599729679350474.webp 1200w&#34;
-               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0230_hu6819942535067318716.webp&#34;
+               /it/slides/dhdmch-02/img/0230_hu_4af9ca4a889ff191.webp 400w,
+               /it/slides/dhdmch-02/img/0230_hu_3a2bc5f7ecd555e0.webp 760w,
+               /it/slides/dhdmch-02/img/0230_hu_3a5d05f8d2a7c4b5.webp 1200w&#34;
+               src=&#34;http://localhost:1313/it/slides/dhdmch-02/img/0230_hu_4af9ca4a889ff191.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -7520,7 +8106,7 @@ Van Strien, D. (2016). An Introduction to Version Control Using GitHub Desktop. 
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;11&lt;/td&gt;
-          &lt;td&gt;&lt;em&gt;Metti la cera, togli la cera&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;Dai la cera, togli la cera&lt;/em&gt;&lt;/td&gt;
           &lt;td&gt;Pratica&lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://openrefine.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenRefine&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;09-12-2024&lt;/td&gt;
