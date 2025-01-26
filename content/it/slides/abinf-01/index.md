@@ -21,6 +21,8 @@ slides:
 
 {{< slide background-image="img/0100.jpg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ##  Partiamo dai dati
 
 <!--
@@ -30,6 +32,8 @@ Photo by <a href="https://unsplash.com/@gregbecker?utm_content=creditCopyText&ut
 ---
 
 {{< slide background-image="img/0101.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ### I libri sono dati?
 
@@ -41,6 +45,8 @@ Photo by <a href="https://unsplash.com/it/@gulfergin_01?utm_content=creditCopyTe
 
 {{< slide background-image="img/0102.jpg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### I manoscritti sono dati?
 
 <!--
@@ -50,6 +56,8 @@ Foto di <a href="https://unsplash.com/it/@worshae?utm_content=creditCopyText&utm
 ---
 
 {{< slide background-image="img/0103.jpeg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ### I film sono dati?
 
@@ -61,6 +69,8 @@ By <a href="https://en.wikipedia.org/wiki/en:Arnold_B%C3%B6cklin" class="extiw" 
 
 {{< slide background-image="img/0104.jpeg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### I quadri sono dati?
 
 <!--
@@ -71,6 +81,8 @@ By <a href="https://en.wikipedia.org/wiki/en:Arnold_B%C3%B6cklin" class="extiw" 
 
 {{< slide background-image="img/0105.png" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### I videogiochi sono dati?
 
 <!--
@@ -80,6 +92,8 @@ By Adam Robinson-Yu - A Short Hike (2019 Video Game), <a href="https://creativec
 ---
 
 {{< slide background-image="img/0106.png" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ### I modelli 3D sono dati?
 
@@ -236,6 +250,8 @@ Esempio: un ricercatore utilizza delle fonti (primarie o secondarie) per rispond
 
 {{< slide background-image="img/0110.png" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### Esempio: bibliografia
 
 <!--
@@ -267,6 +283,8 @@ Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologi
 {{< slide background-image="img/0111.jpg" class="section-slide">}}
 
 ## Un cambio di paradigma
+
+<div class="dark-overlay"></div>
 
 <!--
 Photo by <a href="https://unsplash.com/@spaceboy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Henrik Dønnestad</a> on <a href="https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

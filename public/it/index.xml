@@ -1126,7 +1126,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;p&gt;Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno&amp;hellip;)&lt;/p&gt;
 &lt;p&gt;Come alternativa useremo anche GitHub (&lt;a href=&#34;https://github.com/ab-inf/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ab-inf/2024-2025&lt;/a&gt;) (troverete il link in questa slide e sulla mia pagina della didattica).&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;contenuti&#34;&gt;Contenuti&lt;/h3&gt;
+&lt;h3 id=&#34;i-contenuti&#34;&gt;I contenuti&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Digital Humanities&lt;/li&gt;
 &lt;li&gt;Pensiero Computazionale&lt;/li&gt;
@@ -1136,7 +1136,25 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esame&#34;&gt;Esame&lt;/h3&gt;
+&lt;h3 id=&#34;i-materiali&#34;&gt;I materiali&lt;/h3&gt;
+&lt;p&gt;Frequentanti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slide&lt;/li&gt;
+&lt;li&gt;Lezioni&lt;/li&gt;
+&lt;li&gt;Bibliografia (che troverete su GitHub e, si spera, sulla pagina del corso)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Non frequentanti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slide&lt;/li&gt;
+&lt;li&gt;Lezioni (registrate)&lt;/li&gt;
+&lt;li&gt;Bibliografia estesa (che troverete su GitHub e, si spera, sulla pagina del corso)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I materiali sono tutti gratuiti e liberamente accessibili.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Spesso in una slide troverete un riquadro di questo tipo, contenente la fonte bibliografica (liberamente accessibile) da cui ho tratto il contenuto della slide. Consideratela parte facoltativa del materiale integrativo, da leggere secondo il vostro interesse.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lesame&#34;&gt;L&amp;rsquo;esame&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Test al computer a risposta multipla
 &lt;ul&gt;
@@ -1182,6 +1200,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;partiamo-dai-dati&#34;&gt;Partiamo dai dati&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Greg Becker&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/body-of-water-under-clear-blue-sky-sYzFIusQp3Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -1197,6 +1216,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gregbecker?utm_content=creditCopy
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;i-libri-sono-dati&#34;&gt;I libri sono dati?&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/it/@gulfergin_01?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Gülfer ERGİN&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/it/foto/libro-bianco-e-marrone-su-superficie-intrecciata-marrone-LUGuCtvlk1Q?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -1212,6 +1232,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/it/@gulfergin_01?utm_content=credi
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;i-manoscritti-sono-dati&#34;&gt;I manoscritti sono dati?&lt;/h3&gt;
 &lt;!--
 Foto di &lt;a href=&#34;https://unsplash.com/it/@worshae?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Worshae&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/it/foto/un-vecchio-libro-con-limmagine-di-un-uomo-su-di-esso-U-tDy-NInTs?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
