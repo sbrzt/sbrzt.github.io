@@ -110,7 +110,7 @@ https://www.europeana.eu/item/181/share3d_1145
 
 ### Cos'è un dato?
 
-Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della disciplina di riferimento, se non addirittura da persona a persona.
+Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della disciplina di riferimento, o che variano addirittura da persona a persona.
 
 <div class="footer">
   Borgman, Christine L. (2010). Research Data: Who Will Share What, with Whom, When, and Why?. RatSWD Working Paper No. 161. <a href="http://dx.doi.org/10.2139/ssrn.1714427">http://dx.doi.org/10.2139/ssrn.1714427</a>.
@@ -119,6 +119,20 @@ Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della
 ---
 
 ### "Qualcosa che è dato" dalla natura allo scienziato
+
+_Datum_ (participio passato di dare): “qualcosa che è dato” (dalla natura allo scienziato).
+
+Un dato non esiste di per sé, ma deve essere generato o raccolto tramite sensori o attraverso uno sforzo umano.
+
+Da "Datum" a _Captum_ ("qualcosa che è preso").
+
+<div class="footer">
+Drucker, J. (2011). Humanities Approaches to Graphical Display. Digital Humanities Quarterly, 5(1). <a href="https://www.proquest.com/scholarly-journals/humanities-approaches-graphical-display/docview/2555208513/se-2">https://www.proquest.com/scholarly-journals/humanities-approaches-graphical-display/docview/2555208513/se-2</a> 
+</div>
+
+---
+
+### "Qualcosa che viene preso" dalla natura da parte dello scienziato
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -145,7 +159,7 @@ Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della
 
 ---
 
-### "Qualcosa che viene preso" dalla natura da parte dello scienziato
+### Categorie relazionali
 
 I dati non hanno valore di verità di per sé, né possono essere visti come rappresentazioni dirette dei fenomeni studiati. 
 
@@ -161,11 +175,11 @@ Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of 
 
 ### Un esempio: tassi di violenza domestica
 
-Fino a tempi recenti, le vittime di abuso infantile e violenza coniugale erano ignorate e raramente denunciavano. 
+Nell'articolo di Bala citato qui sotto, viene commentato un articolo precedente di Moloney et al. in cui le stime dei tassi di violenza domestica sono sottorappresentati.
 
-Alla fine del ventesimo secolo, grazie all'influenza di attiviste femministe, emerse una maggiore consapevolezza e supporto per le vittime, con un aumento delle denunce. 
+Fino a tempi recenti, le vittime di abuso infantile e violenza coniugale erano ignorate e raramente denunciavano (in altre parole: esistevano pochissimi dati). 
 
-Tuttavia, questo fenomeno portò anche a casi di accuse false o esagerate.
+Alla fine del ventesimo secolo, grazie all'influenza di attiviste femministe, emerse una maggiore consapevolezza e supporto per le vittime, con un aumento delle denunce (e quindi dei dati, anche falsati).
 
 <div class="footer">
 Bala, N. (2008). An historical perspective on family violence and child abuse: Comment on Moloney et al, Allegations of Family Violence, 12 June 2007. Journal of Family Studies, 14(2-3), 271-278. <a href="https://doi.org/10.5172/jfs.327.14.2-3.271">https://doi.org/10.5172/jfs.327.14.2-3.271</a>
@@ -186,10 +200,7 @@ Bala, N. (2008). An historical perspective on family violence and child abuse: C
   </div>
   <div style="flex: 1;">
     <p>
-      Un dataset è una raccolta di dati organizzati secondo criteri precisi.
-    </p>
-    <p>
-      La sua corretta gestione garantisce l'efficienza, l'affidabilità e l'utilità dei dati.
+      Un dataset è una raccolta di dati organizzati secondo determinati criteri.
     </p>
   </div>
 </div>
@@ -203,7 +214,7 @@ Bala, N. (2008). An historical perspective on family violence and child abuse: C
 ### Dataset come strumenti potenti ma imperfetti
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 2;">
+  <div style="flex: 1;">
     <figure>
       <img src="img/0109.png" height="auto" width="700"/>
         <figcaption>
@@ -270,16 +281,6 @@ Le tecnologie digitali mettono in discussione paradigmi esistenti e permettono d
 
 ---
 
-### Digital Humanities
-
-Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali alle discipline umanistiche.
-
-<div class="footer">
-  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. <a href="http://dx.doi.org/10.1632/ade.150.55">http://dx.doi.org/10.1632/ade.150.55</a>.
-</div>
-
----
-
 {{< slide background-image="img/0111.jpg" class="section-slide">}}
 
 ## Un cambio di paradigma
@@ -292,7 +293,19 @@ Photo by <a href="https://unsplash.com/@spaceboy?utm_content=creditCopyText&utm_
 
 ---
 
-### Un insieme di campi
+### Digital Humanities
+
+Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali alle discipline umanistiche.
+
+Costituito da più discipline in cui vengono utilizzate tecnologie digitali per esplorare domande di ricerca in ambito umanistico, o formulare domande di ricerca umanistiche su questioni riguardanti tecnologie digitali.
+
+<div class="footer">
+Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital humanities, 12-15. <a href="https://doi.org/10.5749/minnesota/9780816677948.003.0002">https://doi.org/10.5749/minnesota/9780816677948.003.0002</a>
+</div>
+
+---
+
+### Cosa facciamo nelle DH?
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -305,20 +318,10 @@ Photo by <a href="https://unsplash.com/@spaceboy?utm_content=creditCopyText&utm_
   </div>
   <div style="flex: 1;">
     <p>
-      Più precisamente, il termine Digital Humanities (DH) descrive un insieme di discipline nelle quali vengono utilizzate tecnologie digitali per esplorare domande di ricerca delle discipline umanistiche, o formulare domande di ricerca umanistiche su questioni riguardanti tecnologie digitali.
+      Comprende una <a href="https://vocabs.dariah.eu/tadirah/en/">vasta gamma di attività</a>, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.
     </p>
   </div>
 </div>
-
-<div class="footer">
-Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital humanities, 12-15. <a href="https://doi.org/10.5749/minnesota/9780816677948.003.0002">https://doi.org/10.5749/minnesota/9780816677948.003.0002</a>
-</div>
-
----
-
-### Cosa facciamo nelle DH?
-
-Comprende una <a href="https://vocabs.dariah.eu/tadirah/en/">vasta gamma di attività</a>, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.
 
 <div class="footer">
   Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. <a href="https://cmu-lib.github.io/dhlg/">https://cmu-lib.github.io/dhlg/</a>.
@@ -342,6 +345,10 @@ Comprende una <a href="https://vocabs.dariah.eu/tadirah/en/">vasta gamma di atti
     </div>
 </div>
 
+<div class="footer">
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. <a href="http://dx.doi.org/10.1632/ade.150.55">http://dx.doi.org/10.1632/ade.150.55</a>.
+</div>
+
 ---
 
 ### Creiamo modelli
@@ -358,6 +365,10 @@ Comprende una <a href="https://vocabs.dariah.eu/tadirah/en/">vasta gamma di atti
     </div>
 </div>
 
+<div class="footer">
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. <a href="http://dx.doi.org/10.1632/ade.150.55">http://dx.doi.org/10.1632/ade.150.55</a>.
+</div>
+
 ---
 
 ### Creiamo strumenti
@@ -372,6 +383,10 @@ Comprende una <a href="https://vocabs.dariah.eu/tadirah/en/">vasta gamma di atti
     <div style="flex: 1;">
         <p>Software e applicazioni che permettono di eseguire determinate operazioni sui dati (es. ricerca, caricamento, manipolazione, pubblicazione, ecc.) tramite interfacce visive e/o di programmazione.</p>
     </div>
+</div>
+
+<div class="footer">
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. <a href="http://dx.doi.org/10.1632/ade.150.55">http://dx.doi.org/10.1632/ade.150.55</a>.
 </div>
 
 ---
@@ -449,7 +464,7 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
     </figcaption>
   </div>
   <div style="flex: 1;">
-      <p>Creare uno strumento scientificamente valido, affidabile e riutilizzabile, capace di affrontare domande di ricerca, metodologie e temi pertinenti alle discipline umanistiche (testo, interpretazione, incertezza, esperienza umana, ecc.)</p>
+      <p>Creare uno strumento scientificamente valido, affidabile e riutilizzabile, capace di affrontare domande di ricerca, metodologie e temi pertinenti alle discipline umanistiche (testo, interpretazione, incertezza, esperienza umana, ecc.).</p>
   </div>
 </div>
 
@@ -469,10 +484,10 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
     </figcaption>
   </div>
   <div style="flex: 1;">
-      <p>Selezione delle risorse, acquisizione digitale e/o trascrizione delle risorse, produzione/riuso di dataset
+      <p>Selezione delle risorse, acquisizione digitale e/o trascrizione delle risorse, produzione/riuso di dataset.
       </p>
       <p>
-      Esempio: raccolta e trascrizione di una serie di documenti per la digitalizzazione per un'edizione digitale
+      Esempio: raccolta e trascrizione di una serie di documenti per la digitalizzazione per un'edizione digitale.
       </p>
   </div>
 </div>
@@ -494,10 +509,10 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
   </div>
   <div style="flex: 1;">
       <p>
-      Analisi del contenuto, contesto e utenti; selezione e/o progettazione di schemi di metadati, vocabolari controllati e altri standard
+      Analisi del contenuto, contesto e utenti; selezione e/o progettazione di schemi di metadati, vocabolari controllati e altri standard.
       </p>
       <p>
-      Esempio: definire lo schema di markup per la struttura del documento e le ontologie per i contenuti e le relazioni
+      Esempio: definire lo schema di markup per la struttura del documento e le ontologie per i contenuti e le relazioni.
       </p>
   </div>
 </div>
@@ -519,10 +534,10 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
   </div>
   <div style="flex: 1;">
       <p>
-      Riflessione sul servizio di archiviazione; controllo qualità; garantire la loro accessibilità a lungo termine
+      Riflessione sul servizio di archiviazione; controllo qualità dei dati; garantire la loro accessibilità a lungo termine.
       </p>
       <p>
-      Esempio: scegliere il server per ospitare l'edizione digitale, pubblicare il dump del dataset su Zenodo
+      Esempio: scegliere il server per ospitare l'edizione digitale, pubblicare il  dataset su una repository online (es. Zenodo).
       </p>
   </div>
 </div>
@@ -544,10 +559,10 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
   </div>
   <div style="flex: 1;">
       <p>
-      Elaborazione delle risorse; analisi e interrogazione delle risorse; ragionamento a livello di infrastruttura per ospitare i risultati
+      Elaborazione delle risorse; analisi e interrogazione delle risorse; ragionamento a livello di infrastruttura per ospitare i risultati.
       </p>
       <p>
-      Esempio: conversione semi-automatica dei documenti in formati adatti alla pubblicazione semantica tramite un'applicazione e degli script
+      Esempio: conversione semi-automatica dei documenti in formati adatti alla pubblicazione semantica tramite un'applicazione e/o degli script.
       </p>
   </div>
 </div>
@@ -569,7 +584,7 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
   </div>
   <div style="flex: 1;">
       <p>
-      Progettazione e sviluppo di interfacce; progettazione e sviluppo di servizi di query e download; sviluppo di politiche di condivisione dei dati e delle applicazioni
+      Progettazione e sviluppo di interfacce; progettazione e sviluppo di servizi di query e download; sviluppo di politiche di condivisione dei dati e delle applicazioni.
       </p>
       <p>
       Esempio: implementazione di meccanismi di ricerca, visualizzazioni dei dati, download, ecc.
@@ -580,6 +595,25 @@ I risultati di un progetto digitale consistono spesso in **dati**, **siti Web**,
 <div class="footer">
   Peroni, S., & Tomasi, F. (2022). Approaching Digital Humanities at the University: A Cultural Challenge. Journal of Art Historiography, December 2022(27S), 27s/SPFT1. <a href="https://arthistoriography.files.wordpress.com/2022/11/03_peroni.pdf">https://arthistoriography.files.wordpress.com/2022/11/03_peroni.pdf</a>
 </div>
+
+---
+
+### Alcuni esempi (tutti UNIBO!)
+
+- https://aldomorodigitale.unibo.it/
+- https://projects.dharc.unibo.it/vespasiano/
+- http://projects.dharc.unibo.it/bufalini-notebook/
+- http://data.fondazionezeri.unibo.it/
+- https://dharc-org.github.io/mythlod/
+- https://projects.dharc.unibo.it/odi/
+- https://w3id.org/musow/
+- https://raguproject.github.io/
+- https://w3id.org/dharc/ontology/chad-ap
+- http://artchives.fondazionezeri.unibo.it/
+- https://dl.ficlit.unibo.it/
+- https://projects.dharc.unibo.it/leggomanzoni/
+- https://projects.dharc.unibo.it/melody/
+- http://projects.dharc.unibo.it/philoeditor/
 
 ---
 

@@ -21,14 +21,16 @@ slides:
 
 ### Il corso
 
-- 10 lezioni (lunedì e venerdì, dalle 11:00 alle 14:00, presso il LAB CAD di Ingegneria presso Via Tombesi dall'Ova 5)
+- 10 lezioni (lunedì e venerdì, dalle 11:00 alle 14:00, presso il LAB CAD di Ingegneria presso Via Tombesi dall'Ova 55)
 - 3 ore per lezione
 - 1 pausa per lezione
 - 15 minuti per pausa
 
-Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno...)
+Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno...).
 
-Come alternativa useremo anche GitHub (https://github.com/ab-inf/2024-2025) (troverete il link in questa slide e sulla mia pagina della didattica).
+Come alternativa useremo anche GitHub (https://github.com/ab-inf/2024-2025).
+
+Troverete il link in questa slide e nella sezione _Contenuti utili_ della mia pagina di UNIBO (https://www.unibo.it/sitoweb/sebastian.barzaghi2/contenuti-utili/).
 
 ---
 
