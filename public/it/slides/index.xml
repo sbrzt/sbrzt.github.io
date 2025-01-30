@@ -1050,13 +1050,14 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;hr&gt;
 &lt;h3 id=&#34;il-corso&#34;&gt;Il corso&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;10 lezioni (lunedì e venerdì, dalle 11:00 alle 14:00, presso il LAB CAD di Ingegneria presso Via Tombesi dall&amp;rsquo;Ova 5)&lt;/li&gt;
+&lt;li&gt;10 lezioni (lunedì e venerdì, dalle 11:00 alle 14:00, presso il LAB CAD di Ingegneria presso Via Tombesi dall&amp;rsquo;Ova 55)&lt;/li&gt;
 &lt;li&gt;3 ore per lezione&lt;/li&gt;
 &lt;li&gt;1 pausa per lezione&lt;/li&gt;
 &lt;li&gt;15 minuti per pausa&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno&amp;hellip;)&lt;/p&gt;
-&lt;p&gt;Come alternativa useremo anche GitHub (&lt;a href=&#34;https://github.com/ab-inf/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ab-inf/2024-2025&lt;/a&gt;) (troverete il link in questa slide e sulla mia pagina della didattica).&lt;/p&gt;
+&lt;p&gt;Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno&amp;hellip;).&lt;/p&gt;
+&lt;p&gt;Come alternativa useremo (anche) &lt;a href=&#34;https://github.com/ab-inf/2024-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Troverete il link in questa slide e nella sezione &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/contenuti-utili/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Contenuti utili&lt;/em&gt; della mia pagina di UNIBO&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-contenuti&#34;&gt;I contenuti&lt;/h3&gt;
 &lt;ul&gt;
@@ -1092,6 +1093,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;ul&gt;
 &lt;li&gt;Domande teoriche&lt;/li&gt;
 &lt;li&gt;Domande di ragionamento&lt;/li&gt;
+&lt;li&gt;Vi comunicherò il numero di domande più avanti (tra le 24 e le 30)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Vi darò le istruzioni subito prima dell&amp;rsquo;esame&lt;/li&gt;
@@ -1101,7 +1103,7 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;ul&gt;
 &lt;li&gt;1 punto per risposta corretta&lt;/li&gt;
 &lt;li&gt;0 punti per risposta sbagliata o nulla&lt;/li&gt;
-&lt;li&gt;doneità a partire da 18 punti&lt;/li&gt;
+&lt;li&gt;Idoneità a partire da 18 punti&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;I risultati li sapete subito dopo aver concluso&lt;/li&gt;
@@ -1238,12 +1240,20 @@ https://www.europeana.eu/item/181/share3d_1145
 &lt;h3 id=&#34;dipende&#34;&gt;Dipende&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-un-dato&#34;&gt;Cos&amp;rsquo;è un dato?&lt;/h3&gt;
-&lt;p&gt;Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della disciplina di riferimento, se non addirittura da persona a persona.&lt;/p&gt;
+&lt;p&gt;Problemi epistemologici: definizioni numerose, ambigue e diverse a seconda della disciplina di riferimento, o che variano addirittura da persona a persona.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Borgman, Christine L. (2010). Research Data: Who Will Share What, with Whom, When, and Why?. RatSWD Working Paper No. 161. &lt;a href=&#34;http://dx.doi.org/10.2139/ssrn.1714427&#34;&gt;http://dx.doi.org/10.2139/ssrn.1714427&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;qualcosa-che-è-dato-dalla-natura-allo-scienziato&#34;&gt;&amp;ldquo;Qualcosa che è dato&amp;rdquo; dalla natura allo scienziato&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Datum&lt;/em&gt; (participio passato di dare): “qualcosa che è dato” (dalla natura allo scienziato).&lt;/p&gt;
+&lt;p&gt;Un dato non esiste di per sé, ma deve essere generato o raccolto tramite sensori o attraverso uno sforzo umano.&lt;/p&gt;
+&lt;p&gt;Da &amp;ldquo;Datum&amp;rdquo; a &lt;em&gt;Captum&lt;/em&gt; (&amp;ldquo;qualcosa che è preso&amp;rdquo;).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Drucker, J. (2011). Humanities Approaches to Graphical Display. Digital Humanities Quarterly, 5(1). &lt;a href=&#34;https://www.proquest.com/scholarly-journals/humanities-approaches-graphical-display/docview/2555208513/se-2&#34;&gt;https://www.proquest.com/scholarly-journals/humanities-approaches-graphical-display/docview/2555208513/se-2&lt;/a&gt; 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;qualcosa-che-viene-preso-dalla-natura-da-parte-dello-scienziato&#34;&gt;&amp;ldquo;Qualcosa che viene preso&amp;rdquo; dalla natura da parte dello scienziato&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -1266,7 +1276,7 @@ https://www.europeana.eu/item/181/share3d_1145
   OECD (2007). OECD Principles and Guidelines for Access to Research Data from Public Funding, OECD Publishing, Paris. &lt;a href=&#34;https://doi.org/10.1787/9789264034020-en-fr&#34;&gt;https://doi.org/10.1787/9789264034020-en-fr&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;qualcosa-che-viene-preso-dalla-natura-da-parte-dello-scienziato&#34;&gt;&amp;ldquo;Qualcosa che viene preso&amp;rdquo; dalla natura da parte dello scienziato&lt;/h3&gt;
+&lt;h3 id=&#34;categorie-relazionali&#34;&gt;Categorie relazionali&lt;/h3&gt;
 &lt;p&gt;I dati non hanno valore di verità di per sé, né possono essere visti come rappresentazioni dirette dei fenomeni studiati.&lt;/p&gt;
 &lt;p&gt;Ciò che è considerabile “dato” dipende da chi lo usa, come, e per quale scopo.&lt;/p&gt;
 &lt;p&gt;Percepire, osservare, raccogliere dati sono tutti atti interpretativi, in un contesto che dà forma ai dati e ne definisce i limiti.&lt;/p&gt;
@@ -1275,9 +1285,9 @@ Leonelli, S. (2016). Data-Centric Biology: A Philosophical Study. University of 
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-esempio-tassi-di-violenza-domestica&#34;&gt;Un esempio: tassi di violenza domestica&lt;/h3&gt;
-&lt;p&gt;Fino a tempi recenti, le vittime di abuso infantile e violenza coniugale erano ignorate e raramente denunciavano.&lt;/p&gt;
-&lt;p&gt;Alla fine del ventesimo secolo, grazie all&amp;rsquo;influenza di attiviste femministe, emerse una maggiore consapevolezza e supporto per le vittime, con un aumento delle denunce.&lt;/p&gt;
-&lt;p&gt;Tuttavia, questo fenomeno portò anche a casi di accuse false o esagerate.&lt;/p&gt;
+&lt;p&gt;Nell&amp;rsquo;articolo di Bala citato qui sotto, viene commentato un articolo precedente di Moloney et al. in cui le stime dei tassi di violenza domestica sono sottorappresentati.&lt;/p&gt;
+&lt;p&gt;Fino a tempi recenti, le vittime di abuso infantile e violenza coniugale erano ignorate e raramente denunciavano (in altre parole: esistevano pochissimi dati).&lt;/p&gt;
+&lt;p&gt;Alla fine del ventesimo secolo, grazie all&amp;rsquo;influenza di attiviste femministe, emerse una maggiore consapevolezza e supporto per le vittime, con un aumento delle denunce (e quindi dei dati, anche falsati).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Bala, N. (2008). An historical perspective on family violence and child abuse: Comment on Moloney et al, Allegations of Family Violence, 12 June 2007. Journal of Family Studies, 14(2-3), 271-278. &lt;a href=&#34;https://doi.org/10.5172/jfs.327.14.2-3.271&#34;&gt;https://doi.org/10.5172/jfs.327.14.2-3.271&lt;/a&gt;
 &lt;/div&gt;
@@ -1294,10 +1304,7 @@ Bala, N. (2008). An historical perspective on family violence and child abuse: C
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Un dataset è una raccolta di dati organizzati secondo criteri precisi.
-    &lt;/p&gt;
-    &lt;p&gt;
-      La sua corretta gestione garantisce l&#39;efficienza, l&#39;affidabilità e l&#39;utilità dei dati.
+      Un dataset è una raccolta di dati organizzati secondo determinati criteri.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1307,7 +1314,7 @@ Bala, N. (2008). An historical perspective on family violence and child abuse: C
 &lt;hr&gt;
 &lt;h3 id=&#34;dataset-come-strumenti-potenti-ma-imperfetti&#34;&gt;Dataset come strumenti potenti ma imperfetti&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 2;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0109.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1361,12 +1368,6 @@ https://formstudelearning.unifi.it/mod/book/view.php?id=8231&amp;chapterid=651
   Borgman, C. L. (2010). The digital future is now: A call to action for the humanities. Digital humanities quarterly, 3(4). &lt;a href=&#34;https://escholarship.org/uc/item/0fp9n05s&#34;&gt;https://escholarship.org/uc/item/0fp9n05s&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;digital-humanities-1&#34;&gt;Digital Humanities&lt;/h3&gt;
-&lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali alle discipline umanistiche.&lt;/p&gt;
-&lt;div class=&#34;footer&#34;&gt;
-  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. &lt;a href=&#34;http://dx.doi.org/10.1632/ade.150.55&#34;&gt;http://dx.doi.org/10.1632/ade.150.55&lt;/a&gt;.
-&lt;/div&gt;
-&lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1383,7 +1384,14 @@ https://formstudelearning.unifi.it/mod/book/view.php?id=8231&amp;chapterid=651
 Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Henrik Dønnestad&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/abstract-painting-t2Sai-AqIpI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-insieme-di-campi&#34;&gt;Un insieme di campi&lt;/h3&gt;
+&lt;h3 id=&#34;digital-humanities-1&#34;&gt;Digital Humanities&lt;/h3&gt;
+&lt;p&gt;Il campo in rapida espansione che esplora, sviluppa e applica metodi e tecnologie digitali alle discipline umanistiche.&lt;/p&gt;
+&lt;p&gt;Costituito da più discipline in cui vengono utilizzate tecnologie digitali per esplorare domande di ricerca in ambito umanistico, o formulare domande di ricerca umanistiche su questioni riguardanti tecnologie digitali.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital humanities, 12-15. &lt;a href=&#34;https://doi.org/10.5749/minnesota/9780816677948.003.0002&#34;&gt;https://doi.org/10.5749/minnesota/9780816677948.003.0002&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -1395,16 +1403,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@spaceboy?utm_content=creditCopyTe
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Più precisamente, il termine Digital Humanities (DH) descrive un insieme di discipline nelle quali vengono utilizzate tecnologie digitali per esplorare domande di ricerca delle discipline umanistiche, o formulare domande di ricerca umanistiche su questioni riguardanti tecnologie digitali.
+      Comprende una &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34;&gt;vasta gamma di attività&lt;/a&gt;, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;footer&#34;&gt;
-Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital humanities, 12-15. &lt;a href=&#34;https://doi.org/10.5749/minnesota/9780816677948.003.0002&#34;&gt;https://doi.org/10.5749/minnesota/9780816677948.003.0002&lt;/a&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;cosa-facciamo-nelle-dh&#34;&gt;Cosa facciamo nelle DH?&lt;/h3&gt;
-&lt;p&gt;Comprende una &lt;a href=&#34;https://vocabs.dariah.eu/tadirah/en/&#34;&gt;vasta gamma di attività&lt;/a&gt;, come la creazione di dataset e lo sviluppo di strumenti informatici necessari per la ricerca, la didattica e la disseminazione scientifica nelle scienze umanistiche.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
   Weingart, Scott B., Susan Grunewald, Matthew Lincoln et al. (eds.). The Digital Humanities Literacy Guidebook. Carnegie Mellon University, Updated November 11, 2022. &lt;a href=&#34;https://cmu-lib.github.io/dhlg/&#34;&gt;https://cmu-lib.github.io/dhlg/&lt;/a&gt;.
 &lt;/div&gt;
@@ -1423,6 +1425,9 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
         &lt;p&gt;Collezioni di dati strutturati, rese disponibili ad un pubblico più ampio per ulteriori studi e analisi.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. &lt;a href=&#34;http://dx.doi.org/10.1632/ade.150.55&#34;&gt;http://dx.doi.org/10.1632/ade.150.55&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;creiamo-modelli&#34;&gt;Creiamo modelli&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -1436,6 +1441,9 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
         &lt;p&gt;Astrazioni per organizzare e descrivere dati in formati strutturati e azionabili dalle macchine.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. &lt;a href=&#34;http://dx.doi.org/10.1632/ade.150.55&#34;&gt;http://dx.doi.org/10.1632/ade.150.55&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;creiamo-strumenti&#34;&gt;Creiamo strumenti&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -1448,6 +1456,9 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
     &lt;div style=&#34;flex: 1;&#34;&gt;
         &lt;p&gt;Software e applicazioni che permettono di eseguire determinate operazioni sui dati (es. ricerca, caricamento, manipolazione, pubblicazione, ecc.) tramite interfacce visive e/o di programmazione.&lt;/p&gt;
     &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+  Kirschenbaum, M. G. (2016). What is digital humanities and what’s it doing in English departments?. In Defining digital humanities (pp. 211-220). Routledge. &lt;a href=&#34;http://dx.doi.org/10.1632/ade.150.55&#34;&gt;http://dx.doi.org/10.1632/ade.150.55&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;educare-a-costruire&#34;&gt;Educare a costruire&lt;/h3&gt;
@@ -1506,7 +1517,7 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
     &lt;/figcaption&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;p&gt;Creare uno strumento scientificamente valido, affidabile e riutilizzabile, capace di affrontare domande di ricerca, metodologie e temi pertinenti alle discipline umanistiche (testo, interpretazione, incertezza, esperienza umana, ecc.)&lt;/p&gt;
+      &lt;p&gt;Creare uno strumento scientificamente valido, affidabile e riutilizzabile, capace di affrontare domande di ricerca, metodologie e temi pertinenti alle discipline umanistiche (testo, interpretazione, incertezza, esperienza umana, ecc.).&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1522,10 +1533,10 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
     &lt;/figcaption&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
-      &lt;p&gt;Selezione delle risorse, acquisizione digitale e/o trascrizione delle risorse, produzione/riuso di dataset
+      &lt;p&gt;Selezione delle risorse, acquisizione digitale e/o trascrizione delle risorse, produzione/riuso di dataset.
       &lt;/p&gt;
       &lt;p&gt;
-      Esempio: raccolta e trascrizione di una serie di documenti per la digitalizzazione per un&#39;edizione digitale
+      Esempio: raccolta e trascrizione di una serie di documenti per la digitalizzazione per un&#39;edizione digitale.
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1543,10 +1554,10 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Analisi del contenuto, contesto e utenti; selezione e/o progettazione di schemi di metadati, vocabolari controllati e altri standard
+      Analisi del contenuto, contesto e utenti; selezione e/o progettazione di schemi di metadati, vocabolari controllati e altri standard.
       &lt;/p&gt;
       &lt;p&gt;
-      Esempio: definire lo schema di markup per la struttura del documento e le ontologie per i contenuti e le relazioni
+      Esempio: definire lo schema di markup per la struttura del documento e le ontologie per i contenuti e le relazioni.
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1564,10 +1575,10 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Riflessione sul servizio di archiviazione; controllo qualità; garantire la loro accessibilità a lungo termine
+      Riflessione sul servizio di archiviazione; controllo qualità dei dati; garantire la loro accessibilità a lungo termine.
       &lt;/p&gt;
       &lt;p&gt;
-      Esempio: scegliere il server per ospitare l&#39;edizione digitale, pubblicare il dump del dataset su Zenodo
+      Esempio: scegliere il server per ospitare l&#39;edizione digitale, pubblicare il  dataset su una repository online (es. Zenodo).
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1585,10 +1596,10 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Elaborazione delle risorse; analisi e interrogazione delle risorse; ragionamento a livello di infrastruttura per ospitare i risultati
+      Elaborazione delle risorse; analisi e interrogazione delle risorse; ragionamento a livello di infrastruttura per ospitare i risultati.
       &lt;/p&gt;
       &lt;p&gt;
-      Esempio: conversione semi-automatica dei documenti in formati adatti alla pubblicazione semantica tramite un&#39;applicazione e degli script
+      Esempio: conversione semi-automatica dei documenti in formati adatti alla pubblicazione semantica tramite un&#39;applicazione e/o degli script.
       &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1606,7 +1617,7 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
       &lt;p&gt;
-      Progettazione e sviluppo di interfacce; progettazione e sviluppo di servizi di query e download; sviluppo di politiche di condivisione dei dati e delle applicazioni
+      Progettazione e sviluppo di interfacce; progettazione e sviluppo di servizi di query e download; sviluppo di politiche di condivisione dei dati e delle applicazioni.
       &lt;/p&gt;
       &lt;p&gt;
       Esempio: implementazione di meccanismi di ricerca, visualizzazioni dei dati, download, ecc.
@@ -1616,6 +1627,24 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
 &lt;div class=&#34;footer&#34;&gt;
   Peroni, S., &amp; Tomasi, F. (2022). Approaching Digital Humanities at the University: A Cultural Challenge. Journal of Art Historiography, December 2022(27S), 27s/SPFT1. &lt;a href=&#34;https://arthistoriography.files.wordpress.com/2022/11/03_peroni.pdf&#34;&gt;https://arthistoriography.files.wordpress.com/2022/11/03_peroni.pdf&lt;/a&gt;
 &lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-esempi-tutti-unibo&#34;&gt;Alcuni esempi (tutti UNIBO!)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aldomorodigitale.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aldomorodigitale.unibo.it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projects.dharc.unibo.it/vespasiano/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://projects.dharc.unibo.it/vespasiano/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.dharc.unibo.it/bufalini-notebook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://projects.dharc.unibo.it/bufalini-notebook/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://data.fondazionezeri.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://data.fondazionezeri.unibo.it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dharc-org.github.io/mythlod/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dharc-org.github.io/mythlod/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projects.dharc.unibo.it/odi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://projects.dharc.unibo.it/odi/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://w3id.org/musow/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://w3id.org/musow/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raguproject.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://raguproject.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://w3id.org/dharc/ontology/chad-ap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://w3id.org/dharc/ontology/chad-ap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://artchives.fondazionezeri.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://artchives.fondazionezeri.unibo.it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.ficlit.unibo.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.ficlit.unibo.it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projects.dharc.unibo.it/leggomanzoni/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://projects.dharc.unibo.it/leggomanzoni/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://projects.dharc.unibo.it/melody/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://projects.dharc.unibo.it/melody/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.dharc.unibo.it/philoeditor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://projects.dharc.unibo.it/philoeditor/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-01-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 01 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
@@ -1632,7 +1661,523 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
 &lt;h2 id=&#34;lezione-02-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 02 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;algoritmi&#34;&gt;ALGORITMI&lt;/h2&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0200.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;lincantatrice-dei-numeri&#34;&gt;L&amp;rsquo;incantatrice dei numeri&lt;/h2&gt;
+&lt;!--
+Marlyn Wescoff (standing) and Ruth Lichterman reprogram the ENIAC in 1946. https://www.messynessychic.com/2021/11/02/human-computer-the-forgotten-womens-profession/
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-kilo-girls&#34;&gt;The kilo-girls&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0201.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Prima degli anni ‘40: il computer è una persona che effettua calcoli numerici a mano (es. posizioni dei pianeti, conversioni al sistema metrico).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Copeland, B. Jack, &#34;The Modern History of Computing&#34;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;machine-of-the-year&#34;&gt;Machine of the year&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0202.png&#34; height=&#34;auto&#34; width=&#34;250&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.computerhistory.org/timeline/1982/&#34;&gt;https://www.computerhistory.org/timeline/1982/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Dopo gli anni &#39;40: sistema elettronico (programmabile o non programmabile) di elaborazione delle informazioni.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Copeland, B. Jack, &#34;The Modern History of Computing&#34;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-definizione-generale&#34;&gt;Una definizione generale&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02020.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.computerhistory.org/timeline/1986/&#34;&gt;https://www.computerhistory.org/timeline/1986/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un agente che, se istruito correttamente, esegue calcoli a partire da qualche informazione iniziale (detta input) per produrre una risposta (detta output).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Copeland, B. Jack, &#34;The Modern History of Computing&#34;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;componenti-hardware&#34;&gt;Componenti: Hardware&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02025.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.britannica.com/facts/computer#/media/1/130429/94239&#34;&gt;https://www.britannica.com/facts/computer#/media/1/130429/94239&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      L&#39;insieme delle componenti fisiche (alimentatori, elementi circuitali fissi, unità di memoria, ecc.), di un computer.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alcuni-elementi-hardware&#34;&gt;Alcuni elementi hardware&lt;/h3&gt;
+&lt;p&gt;Piccoli chip di silicio che contengono innumerevoli transistor che funzionano come interruttori elettrici:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Central Processing Unit (CPU): componente che coordina tutte le operazioni da eseguire;&lt;/li&gt;
+&lt;li&gt;Random Access Memory (RAM): memoria volatile per registrare temporaneamente i dati;&lt;/li&gt;
+&lt;li&gt;Read-Only Memory (ROM): memoria di sola lettura che contiene informazioni fisse e immodificabili;&lt;/li&gt;
+&lt;li&gt;Memoria di massa (hard disk): memoria dove vengono conservati i dati in modo permanente;&lt;/li&gt;
+&lt;li&gt;Scheda madre: connettore di tutti gli altri componenti interni.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Periferiche (Input/Output): tastiera, monitor, mouse&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;componenti-software&#34;&gt;Componenti: Software&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02026.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.britannica.com/technology/computer/images-videos#/media/1/130429/19612&#34;&gt;https://www.britannica.com/technology/computer/images-videos#/media/1/130429/19612&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      L’insieme delle componenti digitali (es. programmi, procedure, applicativi) assiociate alle operazioni effettuate da un computer.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Software di sistema: controlla il funzionamento interno del computer (es. sistema operativo) e gestisce anche dispositivi esterni;&lt;/li&gt;
+      &lt;li&gt;Software applicativo: fa eseguire ai computer i comandi dell&#39;utente e include programmi che elaborano dati.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02021.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;pensare-come-un-computer-computazionalmente&#34;&gt;Pensare &lt;del&gt;come un computer&lt;/del&gt; computazionalmente&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@museumsvictoria?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Museums Victoria&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/woman-in-black-coat-standing-in-front-of-mirror-WGeO6dW5GZM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-computer-servono-a-risolvere-problemi&#34;&gt;I computer servono a risolvere problemi&lt;/h3&gt;
+&lt;p&gt;Tuttavia, prima che un problema possa essere affrontato, è necessario comprendere il problema stesso e i modi in cui potrebbe essere risolto.&lt;/p&gt;
+&lt;p&gt;Il pensiero computazionale ci permette di prendere un problema complesso, capire di che si tratta e sviluppare possibili soluzioni.&lt;/p&gt;
+&lt;p&gt;Possiamo poi presentare queste soluzioni in un modo che un computer, un essere umano, o entrambi, possano comprendere.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;mindstorms-papert-1980&#34;&gt;Mindstorms (Papert, 1980)&lt;/h3&gt;
+&lt;p&gt;Impariamo costruendo iterativamente conoscenza.&lt;/p&gt;
+&lt;p&gt;Le &lt;em&gt;rappresentazioni potenti&lt;/em&gt; consentono un apprendimento efficace.&lt;/p&gt;
+&lt;p&gt;Il computer come &lt;em&gt;meta-strumento&lt;/em&gt; per “rendere l’astratto concreto” tramite un apprendimento per tentativi, sbagli, e correzioni.&lt;/p&gt;
+&lt;p&gt;Il pensiero computazionale come strumento di apprendimento basato sulla costruzione socialmente ed emotivamente partecipata di un artefatto.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Lodi, M., &amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;computational-thinking-wing-2006&#34;&gt;Computational Thinking (Wing, 2006)&lt;/h3&gt;
+&lt;p&gt;Esiste una disponibilità enorme di strumenti digitali, soprattutto sul World Wide Web.&lt;/p&gt;
+&lt;p&gt;La maggior parte delle discipline diventano “computazionali”.&lt;/p&gt;
+&lt;p&gt;Diventa quindi necessario assumere un approccio basato sulla computazione che aiuta a risolvere problemi e progettare soluzioni.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Lodi, M., &amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-principi-della-computazione&#34;&gt;I principi della computazione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0203.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Decomposizione&lt;/strong&gt;: dividere un problema in parti più piccole e gestibili;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Riconoscimento di pattern&lt;/strong&gt;: cercare somiglianze e tendenze nei componenti del problema;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Astrazione&lt;/strong&gt;: focalizzarsi solo sulle informazioni rilevanti, rimuovendo dettagli non necessari;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Algoritmi&lt;/strong&gt;: sviluppare una soluzione sequenziale al problema.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-approccio-di-risoluzione-dei-problemi-basato-sui-principi-della-computazione&#34;&gt;Un approccio di risoluzione dei problemi basato sui principi della computazione&lt;/h3&gt;
+&lt;p&gt;Il pensiero computazionale consiste nel prendere un problema complesso e suddividerlo in una serie di problemi più piccoli e gestibili (decomposizione).&lt;/p&gt;
+&lt;p&gt;Ognuno di questi problemi più piccoli può essere esaminato singolarmente, considerando come problemi simili sono stati risolti in passato (riconoscimento di pattern) e concentrandosi solo sui dettagli importanti, ignorando le informazioni irrilevanti (astrazione).&lt;/p&gt;
+&lt;p&gt;Successivamente, si possono progettare passi o regole semplici per risolvere ciascuno di questi problemi più piccoli (algoritmi).&lt;/p&gt;
+&lt;p&gt;Infine, questi semplici passi o regole vengono utilizzati per programmare un computer che aiuti a risolvere il problema complesso nel miglior modo possibile.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Lodi, M., &amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp; education, 30(4), 883-908. a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pensare-in-modo-computazionale-non-è-programmare&#34;&gt;Pensare in modo computazionale non è programmare&lt;/h3&gt;
+&lt;p&gt;Programmare equivale ad istruire un computer, ovvero dirgli cosa fare e come farlo.&lt;/p&gt;
+&lt;p&gt;Il pensiero computazionale permette di capire esattamente cosa dire al computer di fare.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-incontro-con-gli-amici&#34;&gt;Esempio: incontro con gli amici&lt;/h3&gt;
+&lt;p&gt;Se decidi di incontrare i tuoi amici in un posto in cui non sei mai stato, probabilmente pianificheresti il percorso prima di uscire di casa.&lt;/p&gt;
+&lt;p&gt;Potresti considerare le diverse strade disponibili e quale sia la più &amp;ldquo;adatta&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Poi seguiresti le indicazioni passo dopo passo per arrivarci.&lt;/p&gt;
+&lt;p&gt;In questo caso, la parte di pianificazione è simile al pensiero computazionale, mentre seguire le indicazioni è come programmare.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02027.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;un-puzzle-al-contrario&#34;&gt;Un puzzle al contrario&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@melpoole?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Mel Poole&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/white-blue-and-red-stars-print-textile-i6NcIJXdK10?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;decomposizione&#34;&gt;Decomposizione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0204.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Affrontare più fasi diverse contemporaneamente è molto più complicato che suddividere il problema in parti più piccole e risolverle una alla volta. 
+    &lt;/p&gt;
+    &lt;p&gt;
+      La decomposizione è la suddivisione di di un problema complesso o di un sistema in parti più piccole, che sono più gestibili e facili da comprendere.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-risolvere-un-crimine&#34;&gt;Esempio: risolvere un crimine&lt;/h3&gt;
+&lt;p&gt;Risolvere un crimine può essere un problema molto complesso, poiché ci sono molte cose da considerare.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;quale crimine è stato commesso;&lt;/li&gt;
+&lt;li&gt;quando è stato commesso il crimine;&lt;/li&gt;
+&lt;li&gt;dove è stato commesso il crimine;&lt;/li&gt;
+&lt;li&gt;quali solo le prove rilevanti;&lt;/li&gt;
+&lt;li&gt;se ci sono stati testimoni;&lt;/li&gt;
+&lt;li&gt;se ci sono stati recentemente crimini simili.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-sviluppo-di-un-videogioco&#34;&gt;Esempio: sviluppo di un videogioco&lt;/h3&gt;
+&lt;p&gt;Immaginiamo di voler creare un videogioco.&lt;/p&gt;
+&lt;p&gt;Domanda: &lt;em&gt;come possiamo usare la decomposizione per affrontare questo problema?&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-sviluppo-di-un-videogioco-1&#34;&gt;Esempio: sviluppo di un videogioco&lt;/h3&gt;
+&lt;p&gt;Decomponiamo il problema in una serie di problemi più piccoli:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;che tipo di videogioco vogliamo creare;&lt;/li&gt;
+&lt;li&gt;chi sarà il pubblico target del videogioco;&lt;/li&gt;
+&lt;li&gt;come sono gli asset grafici;&lt;/li&gt;
+&lt;li&gt;quali strumenti utilizziamo per svilupparlo;&lt;/li&gt;
+&lt;li&gt;com&amp;rsquo;è l&amp;rsquo;esperienza dell&amp;rsquo;utente;&lt;/li&gt;
+&lt;li&gt;come lo testiamo;&lt;/li&gt;
+&lt;li&gt;dove lo distribuiamo e/o vendiamo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02028.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;schemi-ovunque&#34;&gt;Schemi ovunque&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@magicpattern?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;MagicPattern&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/blue-and-white-checkered-pattern-KfFmwa7m5VQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;riconoscimento-di-pattern&#34;&gt;Riconoscimento di pattern&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0205.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Quando decomponiamo un problema complesso, spesso troviamo pattern tra i sotto-problemi. I pattern sono somiglianze o caratteristiche condivise che si ripetono.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Trovare somiglianze tra i problemi decomposti ci permette di risolverli in modo più efficiente.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-disegnare-gatti&#34;&gt;Esempio: disegnare gatti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02022.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Tutti i gatti condividono caratteristiche comuni (es. occhi, code e pelliccia). Queste caratteristiche sono pattern.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Una volta che sappiamo come descrivere un gatto, possiamo descriverne altri, semplicemente seguendo questo schema. L&#39;unica cosa che cambia sono i dettagli specifici.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;perché-dobbiamo-cercare-i-pattern&#34;&gt;Perché dobbiamo cercare i pattern?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02023.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Trovare pattern è fondamentale perché semplifica la risoluzione dei problemi, potendo applicare la stessa soluzione ovunque si presenti lo stesso pattern.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Se vogliamo disegnare gatti, sapendo che tendenzialmente tutti i gatti hanno occhi, code e pelliccia, possiamo disegnarli rapidamente senza dover ripensare ogni volta le stesse caratteristiche.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pattern-tra-problemi-diversi&#34;&gt;Pattern tra problemi diversi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02024.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/3&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zxxbgk7/revision/3&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Preparare una torta implica risolvere vari problemi, come scegliere gli ingredienti e il tempo di cottura. Una volta che conosciamo il processo per una torta, possiamo applicarlo anche ad altre, poiché esistono schemi comuni, come le quantità precise di ingredienti e i tempi di cottura.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Identificando questi pattern, possiamo trovare soluzioni comuni per problemi simili.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pattern-nello-stesso-problema&#34;&gt;Pattern nello stesso problema&lt;/h3&gt;
+&lt;p&gt;Durante la preparazione di una torta, possiamo trovare pattern anche nei problemi più piccoli.&lt;/p&gt;
+&lt;p&gt;Ad esempio, sapendo che &amp;ldquo;ogni torta avrà bisogno di una quantità precisa di ingredienti specifici&amp;rdquo;, ogni ingrediente deve:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;essere identificato con un nome;&lt;/li&gt;
+&lt;li&gt;avere una misura specifica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una volta che sappiamo come identificare ogni ingrediente e la sua quantità, possiamo applicare questo pattern a tutti gli ingredienti.&lt;/p&gt;
+&lt;p&gt;Di nuovo, ciò che cambia sono i dettagli specifici.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02060.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;non-possediamo-nientaltro-che-metafore&#34;&gt;Non possediamo nient&amp;rsquo;altro che metafore&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@googledeepmind?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Google DeepMind&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/diagram-schematic-OFt3fSN2qV4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;astrazione&#34;&gt;Astrazione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0206.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Quando decomponiamo i problemi, cerchiamo pattern tra e all&#39;interno dei problemi più piccoli che compongono il problema complesso.
+    &lt;/p&gt;
+    &lt;p&gt;
+      L&#39;astrazione è il processo di eliminare le caratteristiche dei pattern che non ci servono, per concentrarci su quelle che ci sono utili e creare così una rappresentazione di ciò che stiamo cercando di risolvere.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02062.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;esempio-londra&#34;&gt;Esempio: Londra&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@bendavisual?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Benjamin Davies&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/aerial-photography-of-london-skyline-during-daytime-Oja2ty_9ZLM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02063.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;esempio-mappa-di-londra&#34;&gt;Esempio: Mappa di Londra&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@londonschoolofeconomics?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;LSE Library&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/white-and-brown-city-buildings-sketch-yzrdcOgEs6c?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-mappa-non-è-il-territorio-ma-una-sua-interpretazione&#34;&gt;La mappa non è il territorio, ma una sua interpretazione&lt;/h3&gt;
+&lt;p&gt;Un’astrazione, che rappresenta qualcosa, non è quella cosa (ma può essere utile)!&lt;/p&gt;
+&lt;p&gt;Quando facciamo un&amp;rsquo;astrazione, stiamo esplicitando le nostre supposizioni sulla natura della cosa che stiamo semplificando.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Siegert, B. (2011). The map is the territory. Radical Philosophy, (5), 13-16. &lt;a href=&#34;https://mediarep.org/server/api/core/bitstreams/d803e812-bda2-46c2-b798-e5f6a6c0431f/content&#34;&gt;https://mediarep.org/server/api/core/bitstreams/d803e812-bda2-46c2-b798-e5f6a6c0431f/content&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-disegnare-gatti-di-nuovo&#34;&gt;Esempio: disegnare gatti (di nuovo)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02061.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I gatti hanno caratteristiche generali comuni, come occhi, coda e pelliccia, che sono rilevanti per disegnarli. Tuttavia, dettagli specifici come il colore o la dimensione possono essere irrilevanti e quindi eliminabili.
+    &lt;/p&gt;
+    &lt;p&gt;
+      L&#39;astrazione ci permette di concentrarci solo sulle caratteristiche essenziali, creando così un&#39;idea di base di cosa sia un gatto, che ci aiuta a disegnarlo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;perché-lastrazione-è-importante&#34;&gt;Perché l&amp;rsquo;astrazione è importante?&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;astrazione ci aiuta a creare un&amp;rsquo;idea generale del problema, rimuovendo i dettagli irrilevanti.&lt;/p&gt;
+&lt;p&gt;Senza astrazione, potremmo arrivare a una soluzione sbagliata.&lt;/p&gt;
+&lt;p&gt;Ad esempio, nel caso dei gatti, senza astrazione potremmo pensare che tutti i gatti abbiano code lunghe e pelliccia corta, mentre sappiamo che non è così.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;astrazione ci aiuta a formare un modello più preciso del problema.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-preparazione-di-una-torta&#34;&gt;Esempio: preparazione di una torta&lt;/h3&gt;
+&lt;p&gt;Quando si prepara una torta, ci sono alcune caratteristiche generali comuni tra le torte.&lt;/p&gt;
+&lt;p&gt;Ad esempio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una torta ha bisogno di ingredienti;&lt;/li&gt;
+&lt;li&gt;Ogni ingrediente necessita di una quantità specificata;&lt;/li&gt;
+&lt;li&gt;Una torta necessita di tempi di cottura.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Di contro:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Non dobbiamo sapere quali sono questi ingredienti;&lt;/li&gt;
+&lt;li&gt;Non dobbiamo sapere quale sia questa quantità;&lt;/li&gt;
+&lt;li&gt;Non dobbiamo sapere quanto dura questo tempo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;creare-un-modello&#34;&gt;Creare un modello&lt;/h3&gt;
+&lt;p&gt;Un modello è un&amp;rsquo;idea generale del problema che stiamo cercando di risolvere.&lt;/p&gt;
+&lt;p&gt;Ad esempio, un modello di gatto rappresenta tutti i gatti, non uno specifico, mentre un modello di torta rappresenta tutte le torte.&lt;/p&gt;
+&lt;p&gt;I modelli ci permettono di comprendere gli schemi comuni tra gli oggetti o situazioni e di applicarli per risolvere il problema.&lt;/p&gt;
+&lt;p&gt;Una volta creato un modello, possiamo progettare un algoritmo per risolverlo.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02070.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;algoritmi&#34;&gt;Algoritmi&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@alpridephoto?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Андрей Сизов&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-book-with-a-diagram-on-it-nuz3rK5iiKg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-13&#34;&gt;Cos&amp;rsquo;è? (1/3)&lt;/h3&gt;
 &lt;p&gt;IMG PAD THAI&lt;/p&gt;
@@ -1654,172 +2199,55 @@ Fitzpatrick, K. (2012). The humanities, done digitally. Debates in the digital h
 &lt;li&gt;Efficienti&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;in-altre-parole-sono-algoritmi&#34;&gt;In altre parole, sono &lt;strong&gt;algoritmi&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;algoritmo&#34;&gt;Algoritmo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0207.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una sequenza finita di procedure precise per produrre un risultato (output) a partire da uno stato iniziale (input).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Gli algoritmi sono spesso usati come base per creare programmi informatici e possono essere scritti come diagrammi di flusso o pseudocodice.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-algoritmo-è-un-insieme-di-istruzioni-per-fare-qualcosa&#34;&gt;Un algoritmo è un insieme di istruzioni per fare qualcosa&lt;/h3&gt;
-&lt;p&gt;Una sequenza finita di procedure precise per produrre un risultato (output) a partire da uno stato iniziale (input)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;garbage-in-garbage-out&#34;&gt;Garbage in, garbage out&lt;/h3&gt;
+&lt;p&gt;Se vogliamo dire a un computer di fare qualcosa, dobbiamo scrivere un programma che indichi, passo dopo passo, esattamente cosa vogliamo che faccia e come vogliamo che lo faccia.&lt;/p&gt;
+&lt;p&gt;Questo programma passo dopo passo necessita di pianificazione, e per farlo utilizziamo un algoritmo.&lt;/p&gt;
+&lt;p&gt;I computer sono tanto bravi quanto gli algoritmi che vengono loro forniti. Un algoritmo scadente porta ad un risultato scadente.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-algoritmo-implementato&#34;&gt;Esempio di algoritmo implementato&lt;/h3&gt;
-&lt;p&gt;num1 = 1.5
-num2 = 6.3&lt;/p&gt;
-&lt;p&gt;def function (n1, n2):
-sum = n1 + n2
-return sum&lt;/p&gt;
-&lt;p&gt;function(num1,num2)&lt;/p&gt;
+&lt;h3 id=&#34;un-algoritmo-deve-essere-chiaro&#34;&gt;Un algoritmo deve essere chiaro&lt;/h3&gt;
+&lt;p&gt;Possiamo suddividere il problema in parti più piccole e poi pianificare come queste si combinano di nuovo in un ordine appropriato per risolvere il problema.&lt;/p&gt;
+&lt;p&gt;Questo ordine può essere rappresentato come un algoritmo.&lt;/p&gt;
+&lt;p&gt;Deve avere un punto di partenza, un punto di arrivo e un insieme di istruzioni chiare nel mezzo.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-programmatore-implementa-algoritmi-interpretabili-dal-computer&#34;&gt;Un programmatore implementa algoritmi interpretabili dal computer&lt;/h3&gt;
-&lt;p&gt;Quindi, un linguaggio di programmazione è un modo particolare per scrivere algoritmi e istruire un computer ad eseguirli&lt;/p&gt;
-&lt;p&gt;Un programma è un algoritmo (o insieme di algoritmi) scritto/i con un particolare linguaggio di programmazione che esegue delle particolari funzioni orientate allo svolgimento di alcuni compiti&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;computer&#34;&gt;COMPUTER&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;the-kilo-girls&#34;&gt;The kilo-girls&lt;/h3&gt;
-&lt;p&gt;Prima degli anni ‘40: il computer è una &lt;em&gt;persona&lt;/em&gt; che effettua calcoli numerici a mano (es. posizioni dei pianeti, conversioni al sistema metrico)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.messynessychic.com/2021/11/02/human-computer-the-forgotten-womens-profession/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.messynessychic.com/2021/11/02/human-computer-the-forgotten-womens-profession/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;machine-of-the-year&#34;&gt;Machine of the year&lt;/h3&gt;
-&lt;p&gt;Dopo gli anni &amp;lsquo;40: sistema elettronico (programmabile o non programmabile) di elaborazione delle informazioni&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.computerhistory.org/timeline/1982/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.computerhistory.org/timeline/1982/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;la-nostra-definizione&#34;&gt;La nostra definizione&lt;/h3&gt;
-&lt;p&gt;Un agente che, se istruito correttamente, esegue calcoli a partire da qualche informazione iniziale (detta input) per produrre una risposta (detta output)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.computerhistory.org/timeline/1982/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.computerhistory.org/timeline/1982/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Copeland, B. Jack, &amp;ldquo;The Modern History of Computing&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Winter 2020 Edition), Edward N. Zalta (ed.), URL: &lt;a href=&#34;https://plato.stanford.edu/archives/win2020/entries/computing-history/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://plato.stanford.edu/archives/win2020/entries/computing-history/&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;componenti-hardware&#34;&gt;Componenti: Hardware&lt;/h3&gt;
-&lt;p&gt;L&amp;rsquo;insieme delle componenti fisiche, non modificabili (alimentatori, elementi circuitali fissi, unità di memoria, ecc.), di un computer&lt;/p&gt;
-&lt;p&gt;Scheda madre
-Central Processing Unit (CPU)
-Graphics Processing Unit (GPU)
-Random Access Memory (RAM)
-Solid State Drive (SSD)
-Hard Disk Drive (HDD)
-Periferiche&lt;/p&gt;
-&lt;p&gt;Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;componenti-software&#34;&gt;Componenti: Software&lt;/h3&gt;
-&lt;p&gt;L’insieme delle componenti digitali, modificabili (es. programmi, procedure, applicativi), di un computer&lt;/p&gt;
-&lt;p&gt;Google Chrome
-Microsoft Word
-Photoshop
-Whatsapp
-Windows
-Elden Ring
-…&lt;/p&gt;
-&lt;p&gt;Hemmendinger, D. , Pottenger, . William Morton , Freiberger, . Paul A. and Swaine, . Michael R. (2023, December 28). computer. Encyclopedia Britannica. &lt;a href=&#34;https://www.britannica.com/technology/computer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/technology/computer&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;computational-thinking&#34;&gt;Computational thinking&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;mindstorms-papert-1980&#34;&gt;Mindstorms (Papert, 1980)&lt;/h3&gt;
-&lt;p&gt;Impariamo costruendo iterativamente conoscenza&lt;/p&gt;
-&lt;p&gt;Rappresentazioni potenti consentono un apprendimento efficace&lt;/p&gt;
-&lt;p&gt;Computer come meta-strumento per “rendere l’astratto concreto” tramite un apprendimento per tentativi, sbagli, e correzioni&lt;/p&gt;
-&lt;p&gt;Pensiero computazionale come strumento di apprendimento basato sulla costruzione socialmente ed emotivamente partecipata di un artefatto&lt;/p&gt;
-&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;computational-thinking-wing-2006&#34;&gt;Computational Thinking (Wing, 2006)&lt;/h3&gt;
-&lt;p&gt;Disponibilità di strumenti digitali, soprattutto sul World Wide Web&lt;/p&gt;
-&lt;p&gt;La maggior parte delle discipline diventano “computazionali”&lt;/p&gt;
-&lt;p&gt;Il pensiero computazionale è un atteggiamento e un insieme di competenze universalmente applicabili che vanno oltre l&amp;rsquo;informatica&lt;/p&gt;
-&lt;p&gt;Consiste in un approccio all’astrazione che aiuta a risolvere problemi e progettare soluzioni&lt;/p&gt;
-&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;il-computational-thinking-è-un-approccio-di-risoluzione-dei-problemi-basato-sui-concetti-della-computazione&#34;&gt;Il computational thinking è un approccio di risoluzione dei problemi basato sui concetti della computazione&lt;/h3&gt;
-&lt;p&gt;Definisce i processi mentali che coinvolgiamo quando formuliamo un certo problema ed esprimiamo le relative soluzioni usando un linguaggio che un computer (sia esso umano o macchina) può comprendere e, conseguentemente, eseguire&lt;/p&gt;
-&lt;p&gt;Lodi, M., &amp;amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp;amp; education, 30(4), 883-908. &lt;a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;principi-della-computazione&#34;&gt;Principi della computazione&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Logica: prevedere e analizzare&lt;/li&gt;
-&lt;li&gt;Algoritmi: Formulare sequenze e regole&lt;/li&gt;
-&lt;li&gt;Pattern: Individuare e utilizzare similitudini&lt;/li&gt;
-&lt;li&gt;Decomposizione: Suddividere in parti più piccole e gestibili&lt;/li&gt;
-&lt;li&gt;Astrazione: Rimuovere dettagli non necessari&lt;/li&gt;
-&lt;li&gt;Valutazione: Formulare giudizi&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;focus-sullastrazione&#34;&gt;Focus sull&amp;rsquo;astrazione&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Logica: prevedere e analizzare&lt;/li&gt;
-&lt;li&gt;Algoritmi: Formulare sequenze e regole&lt;/li&gt;
-&lt;li&gt;Pattern: Individuare e utilizzare similitudini&lt;/li&gt;
-&lt;li&gt;Decomposizione: Suddividere in parti più piccole e gestibili&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Astrazione: Rimuovere dettagli non necessari&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Valutazione: Formulare giudizi&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;non-possediamo-nientaltro-che-metafore&#34;&gt;Non possediamo nient&amp;rsquo;altro che metafore&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;il-dilemma-del-porcospino&#34;&gt;Il dilemma del porcospino&lt;/h3&gt;
-&lt;p&gt;Quanto più due esseri umani si avvicinano tra loro per cercare calore e conforto, tanto più si feriranno a vicenda&lt;/p&gt;
-&lt;p&gt;Metafora sulle complessità delle relazioni e dell’intimità umana&lt;/p&gt;
-&lt;p&gt;Schopenhauer, A. (2000). Parerga and paralipomena: Short philosophical essays (Vol. 1). OUP UK.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;cosè-una-metafora&#34;&gt;Cos&amp;rsquo;è una metafora?&lt;/h3&gt;
-&lt;p&gt;Figura retorica che consiste nell’uso di un termine o concetto per rappresentare un altro termine o concetto&lt;/p&gt;
-&lt;p&gt;Una rappresentazione che aiuta a rendere più comprensibili concetti complessi&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;astrazione&#34;&gt;Astrazione&lt;/h3&gt;
-&lt;p&gt;Processo di rimozione dei dettagli trascurabili di una situazione in modo da semplificarla e focalizzare l’attenzione sulle sue caratteristiche principali&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Metropolitana_di_Milano&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://it.wikipedia.org/wiki/Metropolitana_di_Milano&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;astrazione-1&#34;&gt;Astrazione&lt;/h3&gt;
-&lt;p&gt;Usiamo queste astrazioni in modo intenzionale o inconscio nella vita quotidiana&lt;/p&gt;
-&lt;p&gt;Cosa hanno in comune le situazioni qui sotto?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/spilla-da-balia-dargento-su-carta-bianca-Sl69Jw-o0rU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/spilla-da-balia-dargento-su-carta-bianca-Sl69Jw-o0rU&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persone-che-camminano-in-un-centro-commerciale-JWEwaHqSAHU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persone-che-camminano-in-un-centro-commerciale-JWEwaHqSAHU&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;la-mappa-non-è-il-territorio&#34;&gt;La mappa non è il territorio&lt;/h3&gt;
-&lt;p&gt;Un’astrazione, che rappresenta qualcosa, non è quella cosa (ma può essere utile)&lt;/p&gt;
-&lt;p&gt;Korzybski, A. (1958). Science and sanity: An introduction to non-Aristotelian systems and general semantics. Institute of GS.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;la-mappa-è-uninterpretazione&#34;&gt;La mappa è un&amp;rsquo;interpretazione&lt;/h3&gt;
-&lt;p&gt;Quando facciamo un&amp;rsquo;astrazione, stiamo esplicitando le nostre assunzioni sulla natura della cosa che stiamo semplificando&lt;/p&gt;
-&lt;p&gt;ES: TESTO come OGGETTO LINGUISTICO, OGGETTO MATERICO, OGGETTO CONCETTUALE, ELENCO DI SIMBOLI&amp;hellip;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;astrazione-nel-ct&#34;&gt;Astrazione nel CT&lt;/h3&gt;
-&lt;p&gt;Dare nuovamente forma alle astrazioni che abbiamo già immagazzinato in passato come conseguenza della nostra esperienza personale – e che, spesso, riutilizziamo inconsciamente&lt;/p&gt;
-&lt;p&gt;Essere nuovamente e interamente coscienti di queste astrazioni significa doverle ridefinire usando un linguaggio appropriato per renderle comprensibili a un computer&lt;/p&gt;
-&lt;p&gt;Permettere alle persone di pensare come se fossero computer scientist, anche quando bisogna affrontare attività del quotidiano&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;una-struttura-dati-è-una-specie-di-contenitore-di-informazioni&#34;&gt;Una struttura dati è una specie di contenitore di informazioni&lt;/h3&gt;
-&lt;p&gt;Descrizione delle informazioni presenti in una certa situazione secondo un’organizzazione generica e riutilizzabile in più contesti come parte del processo di astrazione&lt;/p&gt;
-&lt;p&gt;Esempi: liste, code, pile, insiemi, dizionari, alberi e grafi&lt;/p&gt;
-&lt;p&gt;Qualche idea di cosa possano essere questi oggetti?&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;lista&#34;&gt;Lista&lt;/h3&gt;
-&lt;p&gt;Sequenza ordinata di elementi potenzialmente ripetibili e numerabili&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persona-che-scrive-la-lista-dei-desideri-sul-libro-RLw-UC03Gwc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persona-che-scrive-la-lista-dei-desideri-sul-libro-RLw-UC03Gwc&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;pila&#34;&gt;Pila&lt;/h3&gt;
-&lt;p&gt;Lista in cui le operazioni di aggiunta e rimozione seguono una strategia last in first out (LIFO)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/assorted-books-on-wooden-table-eMP4sYPJ9x0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/assorted-books-on-wooden-table-eMP4sYPJ9x0&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;coda&#34;&gt;Coda&lt;/h3&gt;
-&lt;p&gt;Un tipo di lista in cui le operazioni di aggiunta e rimozione seguono una strategia first in first out (FIFO)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/persone-in-piedi-sul-pavimento-di-cemento-grigio-durante-il-giorno-ZAbIO5eas9Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/persone-in-piedi-sul-pavimento-di-cemento-grigio-durante-il-giorno-ZAbIO5eas9Q&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;insieme&#34;&gt;Insieme&lt;/h3&gt;
-&lt;p&gt;Una collezione di elementi non ordinati e non ripetibili che si possono contare&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/una-pila-di-barre-colorate-diverse-0Yi5hg61omY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/una-pila-di-barre-colorate-diverse-0Yi5hg61omY&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;dizionario&#34;&gt;Dizionario&lt;/h3&gt;
-&lt;p&gt;Una collezione non ordinata di elementi definiti da coppie chiave-valore non ripetibili&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/carta-bianca-per-stampante-con-testo-nero-1UDjq8s8cy0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/carta-bianca-per-stampante-con-testo-nero-1UDjq8s8cy0&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;albero&#34;&gt;Albero&lt;/h3&gt;
-&lt;p&gt;Un insieme di nodi collegati tra loro da una relazione gerarchica genitore-figlio&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://unsplash.com/it/foto/libro-di-fiabe-su-superficie-grigia-qtUAV-_yWZc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://unsplash.com/it/foto/libro-di-fiabe-su-superficie-grigia-qtUAV-_yWZc&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;grafo&#34;&gt;Grafo&lt;/h3&gt;
-&lt;p&gt;Un insieme di nodi di una rete collegati da archi (che possono essere orientati)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;diagramma-di-flusso&#34;&gt;Diagramma di flusso&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0208.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&#34;&gt;https://www.lospaziodirosanna.it/testo-e-testi/algoritmi-diagrammi-di-flusso-esempi-e-attivita/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Rappresentazione grafica di un algoritmo.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Non ci sono molte regole precise riguardo al livello di dettaglio necessario in un diagramma di flusso.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-02-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 02 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;

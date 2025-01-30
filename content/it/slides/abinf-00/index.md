@@ -28,9 +28,9 @@ slides:
 
 Comunicazioni e informazioni su Virtuale (se e quando lo attiveranno...).
 
-Come alternativa useremo anche GitHub (https://github.com/ab-inf/2024-2025).
+Come alternativa useremo (anche) [GitHub](https://github.com/ab-inf/2024-2025).
 
-Troverete il link in questa slide e nella sezione _Contenuti utili_ della mia pagina di UNIBO (https://www.unibo.it/sitoweb/sebastian.barzaghi2/contenuti-utili/).
+Troverete il link in questa slide e nella sezione [_Contenuti utili_ della mia pagina di UNIBO](https://www.unibo.it/sitoweb/sebastian.barzaghi2/contenuti-utili/).
 
 ---
 
@@ -70,13 +70,14 @@ I materiali sono tutti gratuiti e liberamente accessibili.
 - Test al computer a risposta multipla
     - Domande teoriche
     - Domande di ragionamento
+    - Vi comunicherò il numero di domande più avanti (tra le 24 e le 30)
 - Vi darò le istruzioni subito prima dell'esame
 - Durata di 60 minuti
 - Vi comunicherò le date più avanti
 - Regole sul punteggio:
     - 1 punto per risposta corretta
     - 0 punti per risposta sbagliata o nulla
-    - doneità a partire da 18 punti
+    - Idoneità a partire da 18 punti
 - I risultati li sapete subito dopo aver concluso
 
 ---
