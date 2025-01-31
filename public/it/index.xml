@@ -1930,16 +1930,6 @@ Lodi, M., &amp; Martini, S. (2021). Computational thinking, between Papert and W
 Lodi, M., &amp; Martini, S. (2021). Computational thinking, between Papert and Wing. Science &amp; education, 30(4), 883-908. a href=&#34;https://doi.org/10.1007/s11191-021-00202-5&#34;&gt;https://doi.org/10.1007/s11191-021-00202-5&lt;/a&gt;. 
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;pensare-in-modo-computazionale-non-è-programmare&#34;&gt;Pensare in modo computazionale non è programmare&lt;/h3&gt;
-&lt;p&gt;Programmare equivale ad istruire un computer, ovvero dirgli cosa fare e come farlo.&lt;/p&gt;
-&lt;p&gt;Il pensiero computazionale permette di capire esattamente cosa dire al computer di fare.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;esempio-incontro-con-gli-amici&#34;&gt;Esempio: incontro con gli amici&lt;/h3&gt;
-&lt;p&gt;Se decidi di incontrare i tuoi amici in un posto in cui non sei mai stato, probabilmente pianificheresti il percorso prima di uscire di casa.&lt;/p&gt;
-&lt;p&gt;Potresti considerare le diverse strade disponibili e quale sia la più &amp;ldquo;adatta&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Poi seguiresti le indicazioni passo dopo passo per arrivarci.&lt;/p&gt;
-&lt;p&gt;In questo caso, la parte di pianificazione è simile al pensiero computazionale, mentre seguire le indicazioni è come programmare.&lt;/p&gt;
-&lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
@@ -2156,7 +2146,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@googledeepmind?utm_content=credit
   &gt;
 
 &lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
-&lt;h3 id=&#34;esempio-londra&#34;&gt;Esempio: Londra&lt;/h3&gt;
+&lt;h3 id=&#34;questa-è-londra&#34;&gt;Questa è Londra&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@bendavisual?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Benjamin Davies&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/aerial-photography-of-london-skyline-during-daytime-Oja2ty_9ZLM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
@@ -2172,7 +2162,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@bendavisual?utm_content=creditCop
   &gt;
 
 &lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
-&lt;h3 id=&#34;esempio-mappa-di-londra&#34;&gt;Esempio: Mappa di Londra&lt;/h3&gt;
+&lt;h3 id=&#34;questa-è-londra-1&#34;&gt;Questa è Londra?&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@londonschoolofeconomics?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;LSE Library&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/white-and-brown-city-buildings-sketch-yzrdcOgEs6c?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
@@ -2196,7 +2186,7 @@ Siegert, B. (2011). The map is the territory. Radical Philosophy, (5), 13-16. &l
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      I gatti hanno caratteristiche generali comuni, come occhi, coda e pelliccia, che sono rilevanti per disegnarli. Tuttavia, dettagli specifici come il colore o la dimensione possono essere irrilevanti e quindi eliminabili.
+      I gatti hanno caratteristiche generali comuni, come occhi, coda e pelliccia, che sono rilevanti per disegnarli. Tuttavia, dettagli specifici come il colore o la dimensione possono essere irrilevanti (e quindi eliminabili).
     &lt;/p&gt;
     &lt;p&gt;
       L&#39;astrazione ci permette di concentrarci solo sulle caratteristiche essenziali, creando così un&#39;idea di base di cosa sia un gatto, che ci aiuta a disegnarlo.
@@ -2204,32 +2194,43 @@ Siegert, B. (2011). The map is the territory. Radical Philosophy, (5), 13-16. &l
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;perché-lastrazione-è-importante&#34;&gt;Perché l&amp;rsquo;astrazione è importante?&lt;/h3&gt;
-&lt;p&gt;L&amp;rsquo;astrazione ci aiuta a creare un&amp;rsquo;idea generale del problema, rimuovendo i dettagli irrilevanti.&lt;/p&gt;
-&lt;p&gt;Senza astrazione, potremmo arrivare a una soluzione sbagliata.&lt;/p&gt;
-&lt;p&gt;Ad esempio, nel caso dei gatti, senza astrazione potremmo pensare che tutti i gatti abbiano code lunghe e pelliccia corta, mentre sappiamo che non è così.&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;astrazione ci aiuta a formare un modello più preciso del problema.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;esempio-preparazione-di-una-torta&#34;&gt;Esempio: preparazione di una torta&lt;/h3&gt;
-&lt;p&gt;Quando si prepara una torta, ci sono alcune caratteristiche generali comuni tra le torte.&lt;/p&gt;
-&lt;p&gt;Ad esempio:&lt;/p&gt;
+&lt;p&gt;Quando si prepara una torta, ci sono alcune caratteristiche generali che accomunano le torte.&lt;/p&gt;
+&lt;p&gt;Ad esempio, sappiamo che:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Una torta ha bisogno di ingredienti;&lt;/li&gt;
-&lt;li&gt;Ogni ingrediente necessita di una quantità specificata;&lt;/li&gt;
-&lt;li&gt;Una torta necessita di tempi di cottura.&lt;/li&gt;
+&lt;li&gt;Ogni ingrediente necessita di una quantità specifica;&lt;/li&gt;
+&lt;li&gt;Una torta necessita di un preciso tempo di cottura.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Di contro:&lt;/p&gt;
+&lt;p&gt;Di contro, se pensiamo ad un livello più generale, non dobbiamo sapere:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Non dobbiamo sapere quali sono questi ingredienti;&lt;/li&gt;
-&lt;li&gt;Non dobbiamo sapere quale sia questa quantità;&lt;/li&gt;
-&lt;li&gt;Non dobbiamo sapere quanto dura questo tempo.&lt;/li&gt;
+&lt;li&gt;Quali sono questi ingredienti;&lt;/li&gt;
+&lt;li&gt;Quale sia la quantità dell&amp;rsquo;ingrediente;&lt;/li&gt;
+&lt;li&gt;Quanto dura il tempo di cottura.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;creare-un-modello&#34;&gt;Creare un modello&lt;/h3&gt;
-&lt;p&gt;Un modello è un&amp;rsquo;idea generale del problema che stiamo cercando di risolvere.&lt;/p&gt;
-&lt;p&gt;Ad esempio, un modello di gatto rappresenta tutti i gatti, non uno specifico, mentre un modello di torta rappresenta tutte le torte.&lt;/p&gt;
-&lt;p&gt;I modelli ci permettono di comprendere gli schemi comuni tra gli oggetti o situazioni e di applicarli per risolvere il problema.&lt;/p&gt;
-&lt;p&gt;Una volta creato un modello, possiamo progettare un algoritmo per risolverlo.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02061.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un modello è un&#39;idea generale, un&#39;astrazione. Ad esempio, un modello di gatto rappresenta tutti i gatti, un modello di torta rappresenta tutte le torte, e così via.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I modelli ci permettono di comprendere gli schemi comuni tra gli oggetti o situazioni e di applicarli per risolvere il problema.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Una volta creato un modello, possiamo progettare un algoritmo per risolverlo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt; 
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2242,29 +2243,66 @@ Siegert, B. (2011). The map is the territory. Radical Philosophy, (5), 13-16. &l
   &gt;
 
 &lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
-&lt;h2 id=&#34;algoritmi&#34;&gt;Algoritmi&lt;/h2&gt;
+&lt;h2 id=&#34;il-nuovo-dio&#34;&gt;Il nuovo dio&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@alpridephoto?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Андрей Сизов&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-book-with-a-diagram-on-it-nuz3rK5iiKg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;cosè-13&#34;&gt;Cos&amp;rsquo;è? (1/3)&lt;/h3&gt;
-&lt;p&gt;IMG PAD THAI&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02071.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;una-ricetta&#34;&gt;Una ricetta&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@picsbyjameslee?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;James Lee&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/text-Mfjq1hi-lVg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;  
 &lt;hr&gt;
-&lt;h3 id=&#34;cosè-23&#34;&gt;Cos&amp;rsquo;è? (2/3)&lt;/h3&gt;
-&lt;p&gt;IMG ISTRUZIONI&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02072.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;una-carta-di-istruzioni&#34;&gt;Una carta di istruzioni&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@callemac?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Calle Macarone&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/white-and-blue-instruction-guide-15wIddvL5dU?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;  
 &lt;hr&gt;
-&lt;h3 id=&#34;cosè-33&#34;&gt;Cos&amp;rsquo;è? (3/3)&lt;/h3&gt;
-&lt;p&gt;IMG MINDMAP&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/02073.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;h3 id=&#34;una-mappa-concettuale&#34;&gt;Una mappa concettuale&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;charlesdeluvio&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-couple-of-people-standing-in-front-of-a-wall-OWkXt1ikC5g?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;  
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-hanno-in-comune&#34;&gt;Cosa hanno in comune?&lt;/h3&gt;
-&lt;p&gt;IMG COMPOSITA&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-hanno-in-comune-1&#34;&gt;Cosa hanno in comune?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Sequenziali&lt;/li&gt;
-&lt;li&gt;Finiti&lt;/li&gt;
-&lt;li&gt;Generali&lt;/li&gt;
-&lt;li&gt;Non ambigui&lt;/li&gt;
-&lt;li&gt;Corretti&lt;/li&gt;
-&lt;li&gt;Efficienti&lt;/li&gt;
+&lt;li&gt;Sequenziali;&lt;/li&gt;
+&lt;li&gt;Finiti;&lt;/li&gt;
+&lt;li&gt;Generali;&lt;/li&gt;
+&lt;li&gt;Non ambigui;&lt;/li&gt;
+&lt;li&gt;Corretti;&lt;/li&gt;
+&lt;li&gt;Efficienti.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;algoritmo&#34;&gt;Algoritmo&lt;/h3&gt;
@@ -2282,15 +2320,15 @@ Photo by &lt;a href=&#34;https://unsplash.com/@alpridephoto?utm_content=creditCo
       Una sequenza finita di procedure precise per produrre un risultato (output) a partire da uno stato iniziale (input).
     &lt;/p&gt;
     &lt;p&gt;
-      Gli algoritmi sono spesso usati come base per creare programmi informatici e possono essere scritti come diagrammi di flusso o pseudocodice.
+      Gli algoritmi sono spesso usati come base per sviluppare software. Possono essere espressi come diagrammi di flusso oppure come pseudocodice.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;garbage-in-garbage-out&#34;&gt;Garbage in, garbage out&lt;/h3&gt;
 &lt;p&gt;Se vogliamo dire a un computer di fare qualcosa, dobbiamo scrivere un programma che indichi, passo dopo passo, esattamente cosa vogliamo che faccia e come vogliamo che lo faccia.&lt;/p&gt;
-&lt;p&gt;Questo programma passo dopo passo necessita di pianificazione, e per farlo utilizziamo un algoritmo.&lt;/p&gt;
-&lt;p&gt;I computer sono tanto bravi quanto gli algoritmi che vengono loro forniti. Un algoritmo scadente porta ad un risultato scadente.&lt;/p&gt;
+&lt;p&gt;Questo programma necessita di pianificazione, e per farlo utilizziamo un algoritmo.&lt;/p&gt;
+&lt;p&gt;I computer sono tanto bravi quanto gli algoritmi che vengono loro forniti: un algoritmo scadente porta ad un risultato scadente.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-algoritmo-deve-essere-chiaro&#34;&gt;Un algoritmo deve essere chiaro&lt;/h3&gt;
 &lt;p&gt;Possiamo suddividere il problema in parti più piccole e poi pianificare come queste si combinano di nuovo in un ordine appropriato per risolvere il problema.&lt;/p&gt;

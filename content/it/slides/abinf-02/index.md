@@ -263,16 +263,6 @@ Lodi, M., & Martini, S. (2021). Computational thinking, between Papert and Wing.
 
 ---
 
-### Attenzione
-
-Pensare in modo computazionale non è programmazione.
-
-Non significa nemmeno pensare come un computer, poiché i computer non pensano, e non possono pensare.
-
-In parole semplici, la programmazione dice a un computer cosa fare e come farlo. Il pensiero computazionale ti permette di capire esattamente cosa dire al computer di fare.
-
----
-
 {{< slide background-image="img/02027.jpg" class="section-slide">}}
 
 <div class="dark-overlay"></div>
@@ -576,13 +566,27 @@ Di contro, se pensiamo ad un livello più generale, non dobbiamo sapere:
 
 ### Creare un modello
 
-Un modello è un'idea generale, un'astrazione. 
-
-Ad esempio, un modello di gatto rappresenta tutti i gatti, un modello di torta rappresenta tutte le torte, e così via.
-
-I modelli ci permettono di comprendere gli schemi comuni tra gli oggetti o situazioni e di applicarli per risolvere il problema. 
-
-Una volta creato un modello, possiamo progettare un algoritmo per risolverlo.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/02061.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1">https://www.bbc.co.uk/bitesize/guides/zttrcdm/revision/1</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un modello è un'idea generale, un'astrazione. Ad esempio, un modello di gatto rappresenta tutti i gatti, un modello di torta rappresenta tutte le torte, e così via.
+    </p>
+    <p>
+      I modelli ci permettono di comprendere gli schemi comuni tra gli oggetti o situazioni e di applicarli per risolvere il problema.
+    </p>
+    <p>
+      Una volta creato un modello, possiamo progettare un algoritmo per risolverlo.
+    </p>
+  </div>
+</div> 
 
 ---
 
@@ -600,6 +604,8 @@ Photo by <a href="https://unsplash.com/@alpridephoto?utm_content=creditCopyText&
 
 {{< slide background-image="img/02071.jpg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### Una ricetta
 
 <!--
@@ -610,6 +616,8 @@ Photo by <a href="https://unsplash.com/@picsbyjameslee?utm_content=creditCopyTex
 
 {{< slide background-image="img/02072.jpg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### Una carta di istruzioni
 
 <!--
@@ -619,6 +627,8 @@ Photo by <a href="https://unsplash.com/@callemac?utm_content=creditCopyText&utm_
 ---
 
 {{< slide background-image="img/02073.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ### Una mappa concettuale
 
@@ -666,6 +676,26 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 
 ---
 
+### In altre parole: istruzioni
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/02074.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2">https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Gli algoritmi possono essere usati per descrivere praticamente qualsiasi tipo di processo.
+    </p>
+  </div>
+</div>
+
+---
+
 ### Garbage in, garbage out
 
 Se vogliamo dire a un computer di fare qualcosa, dobbiamo scrivere un programma che indichi, passo dopo passo, esattamente cosa vogliamo che faccia e come vogliamo che lo faccia. 
@@ -686,7 +716,47 @@ Deve avere un punto di partenza, un punto di arrivo e un insieme di istruzioni c
 
 ---
 
-### Diagramma di flusso
+### Come rappresentare un algoritmo: Pseudocodice
+
+La maggior parte dei programmi viene sviluppata utilizzando linguaggi di programmazione. 
+
+Questi linguaggi hanno una sintassi specifica che deve essere utilizzata affinché il programma funzioni correttamente. 
+
+Lo pseudocodice è un modo semplice di descrivere un insieme di istruzioni che non deve seguire una sintassi specifica.
+
+---
+
+### Scrivere in pseudocodice è simile a scrivere in un linguaggio di programmazione
+
+<div style="display: flex;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
+    <code>
+      OUTPUT 'What is your name?'<br/>
+      INPUT user inputs their name<br/>
+      STORE the user's input in the name variable<br/>
+      OUTPUT 'Hello' + name<br/>
+      OUTPUT 'How old are you?'<br/>
+      INPUT user inputs their age<br/>
+      STORE the user's input in the age variable<br/>
+      IF age >= 70 THEN<br/>
+        OUTPUT 'You are aged to perfection!'<br/>
+      ELSE<br/>
+        OUTPUT 'You are a spring chicken!'
+    </code>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un programma che chiede all'utente il nome e l'età e che fa un commento sulla base di questi.
+    </p>
+    <p>
+      Ogni passo dell'algoritmo è scritto su una riga a sé stante in sequenza. Le istruzioni sono scritte in maiuscolo, le variabili in minuscolo e i messaggi in maiuscolo e minuscolo. INPUT pone una domanda; OUTPUT stampa un messaggio sullo schermo.
+    </p>
+  </div>
+</div>
+
+---
+
+### Come rappresentare un algoritmo: Diagramma di flusso
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -699,10 +769,120 @@ Deve avere un punto di partenza, un punto di arrivo e un insieme di istruzioni c
   </div>
   <div style="flex: 1;">
     <p>
-      Rappresentazione grafica di un algoritmo.
+      La rappresentazione grafica di un algoritmo.
     </p>
     <p>
-      Non ci sono molte regole precise riguardo al livello di dettaglio necessario in un diagramma di flusso.
+      Non ci sono molte regole precise riguardo al livello di dettaglio necessario in un diagramma di flusso. A volte vengono suddivisi in molti passaggi per fornire più dettagli, altre volte vengono semplificati per essere più comprensibili.
+    </p>
+  </div>
+</div>
+
+---
+
+### Esistono alcune convenzioni per rappresentare un diagramma di flusso
+
+
+<figure>
+  <img src="img/02075.png" height="auto" width="500"/>
+    <figcaption>
+        Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3">https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3</a>.
+    </figcaption>
+</figure>
+
+---
+
+### Diagramma dell'algoritmo di prima
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/02076.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3">https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un programma che chiede all'utente il nome e l'età e che fa un commento sulla base di questi.
+    </p>
+  </div>
+</div>
+
+---
+
+### Per concludere
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/02077.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Come superiamo questo livello?
+    </p>
+  </div>
+</div>
+
+---
+
+### Per completare il livello, cosa dobbiamo sapere?
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/02077.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <ul>
+      <li>quali oggetti dobbiamo raccogliere;</li>
+      <li>come possiamo raccoglierli;</li>
+      <li>quanto tempo abbiamo per raccoglierli;</li>
+      <li>dove si trova l'uscita;</li> 
+      <li>qual è il miglior percorso per raggiungerla nel minor tempo possibile;</li>
+      <li>che tipo di nemici ci sono;</li>
+      <li>quali sono i loro punti deboli.</li>
+    </ul>
+    <p>
+      Da queste informazioni possiamo elaborare una strategia per completare il livello nel modo più efficiente possibile.
+    </p>
+  </div>
+</div>
+
+---
+
+### Questo è il pensiero computazionale
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/02077.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Abbiamo suddiviso il problema in diverse piccole decisioni e passaggi.
+    </p>
+    <p>
+      Abbiamo posto la nostra attenzione solo sui dettagli rilevanti.
+    </p>
+    <p>
+      Abbiamo usato la nostra conoscenza di problemi simili precedenti.
+    </p>
+    <p>
+      Abbiamo elaborato un piano d'azione sequenziale e strutturato.
     </p>
   </div>
 </div>
