@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu_13c8fe773aa7ff30.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_5acbe59741a45e4d.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/abinf-03/">
+
+  <title>ABINF - Rappresentare l&#39;informazione | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="rappresentare-linformazione">Rappresentare l&rsquo;informazione</h1>
+<h2 id="lezione-03-del-corso-di-_abilità-informatiche_-20242025">Lezione 03 del corso di <em>Abilità Informatiche</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-sonda-nellorbita-di-marte">Una sonda nell&rsquo;orbita di Marte</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0301.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      1988, Cape Canaveral, 2 settimane a Natale.
+    </p>
+    <p>
+      La NASA lancia la missione Mars Climate Orbiter, con l'obiettivo di inserire una sonda nell'orbita di Marte per effettuare investigazioni scientifiche sul clima del pianeta rosso e per fare da ponte radio con la Terra.
+    </p>
+  </div>
+</div>
+<p><a href="https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/" target="_blank" rel="noopener">https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="lerrore-da-125-milioni-di-dollari">L&rsquo;errore da 125 milioni di dollari</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0302.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Il 23 settembre 1999, dopo 283 giorni di viaggio nello spazio, la sonda, dal valore di 125 milioni di dollari, eseguì una manovra ad alta quota nell'orbita di Marte con 49 secondi di anticipo: in altre parole, non stava seguendo la traiettoria prevista.
+    </p>
+    <p>
+      Alle 2:27 del mattino, la sonda scompare dietro Marte per non riapparire mai più.
+    </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-motivo-del-fallimento">Il motivo del fallimento</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0303.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Una settimana dopo la perdita della sonda, la NASA rilascia una dichiarazione, attribuendo l'incidente a un errore legato al sistema usato per ricalcolare la posizione della sonda nello spazio. 
+    </p>
+    <p>
+      Tra la sonda e la NASA c'era uno scambio continuo di dati, che permetteva il ricalcolo della traiettoria della sonda rispetto all'obiettivo finale.
+    </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="due-lingue-diverse">Due lingue diverse</h3>
+<p>La Lockheed Martin, azienda incaricata di realizzare la sonda e alcuni strumenti usati dai tecnici per gestirla, aveva adottato la <strong>libbra-forza per secondo</strong> come unità di misura per il ricalcolo.</p>
+<p>La NASA, invece, utilizzava il <strong>Newton per secondo</strong>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="tra-codifiche-e-metadati">Tra codifiche e metadati</h3>
+<p>Senza le unità di misura, i dati numerici non hanno significato, e assumere erroneamente determinate unità può portare a gravi problemi.</p>
+<p>I comandi di navigazione dovevano essere codificati correttamente nelle unità appropriate per essere compresi da entrambi i sistemi.</p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0304.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h2 id="una-questione-di-linguaggio">Una questione di linguaggio</h2>
+<!--
+
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-linguaggio-naturale-è-quello-parlato-da-noi">Un linguaggio naturale è quello parlato da noi</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0305.jpg" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Foto di <a href="https://unsplash.com/@mikham?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mikayla Storms</a> su <a href="https://unsplash.com/photos/man-in-black-helmet-riding-brown-horse-during-daytime-9h_bJdGqzCk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Linguaggio caratterizzato da ricchezza espressiva, ambiguità e ridondanza, per cui un qualsiasi costrutto formulato è potenzialmente polisemico.
+    </p>
+    <p>
+      Esempio: "Sposto il cavallo".
+    </p>
+  </div>
+</div>
+<div class="footer">
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ <a href="https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html">https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-linguaggio-naturale-è-quello-parlato-da-noi-1">Un linguaggio naturale è quello parlato da noi</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0306.jpg" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Foto di <a href="https://unsplash.com/@vdphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">VD Photography</a> su <a href="https://unsplash.com/photos/a-group-of-chess-pieces-sitting-on-top-of-a-chess-board-qHv3EowYEk0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Linguaggio caratterizzato da ricchezza espressiva, ambiguità e ridondanza, per cui un qualsiasi costrutto formulato è potenzialmente polisemico.
+    </p>
+    <p>
+      Esempio: "Sposto il cavallo".
+    </p>
+  </div>
+</div>
+<div class="footer">
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ <a href="https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html">https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-linguaggio-formale-è-quello-usato-per-ridurre-al-minimo-lincertezza">Un linguaggio formale è quello usato per ridurre al minimo l&rsquo;incertezza</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0307.jpg" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Foto di <a href="https://unsplash.com/@thisisengineering?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ThisisEngineering</a> su <a href="https://unsplash.com/photos/woman-in-black-long-sleeve-shirt-GzDrm7SYQ0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      .
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Linguaggio per formulare costrutti dotati di significato in modo preciso e non ambiguo.
+    </p>
+    <p>
+      Per comunicare con un computer, l'ambiguità del linguaggio naturale è un problema (servono altre informazioni relative al contesto e alla pragmatica che un computer, di base, non recepisce), quindi vengono usati linguaggi formali.
+    </p>
+  </div>
+</div>
+<div class="footer">
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ <a href="https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html">https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-linguaggio-formale-è-costituito-da-tre-elementi">Un linguaggio formale è costituito da tre elementi</h3>
+<ul>
+<li><strong>Alfabeto</strong>: insieme finito di simboli;
+<ul>
+<li>Esempio: <code>{a, b, c}</code> (un alfabeto costituito da tre simboli: <code>a</code>, <code>b</code> e <code>c</code>);</li>
+</ul>
+</li>
+<li><strong>Grammatica</strong>: insieme di regole sintattiche che specificano combinazioni valide di simboli;
+<ul>
+<li>Esempio: <code>G → a ∣ b ∣ c</code> (<code>G</code> è una grammatica che stabilisce che possiamo solo usare <code>a</code>, <code>b</code> o <code>c</code> separatamente);</li>
+</ul>
+</li>
+<li><strong>Semantica</strong>: insieme di significati attribuiti ai simboli e alle loro combinazioni;
+<ul>
+<li>Esempio: <code>a: &quot;rosso&quot; ; b: &quot;blu&quot; ; c: &quot;verde&quot;</code> (ad ogni simbolo ed eventuali combinazioni viene associato un significato).</li>
+</ul>
+</li>
+</ul>
+<div class="footer">
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ <a href="https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html">https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0308.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h3 id="il-linguaggio-di-un-semaforo">Il linguaggio di un semaforo!</h3>
+<!--
+Photo by <a href="https://unsplash.com/@thealmani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">almani ماني</a> on <a href="https://unsplash.com/photos/red-stop-light-on-green-background-g6mxlM-h0jQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0309.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h2 id="la-codifica">La codifica</h2>
+<!--
+Photo by <a href="https://unsplash.com/@gabiontheroad?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabriella Clare Marino</a> on <a href="https://unsplash.com/photos/gray-and-white-abstract-painting-J5zIt97NYxQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-codifica-è-un-processo-di-trasformazione-di-uninformazione-da-un-alfabeto-ad-un-altro">Una codifica è un processo di trasformazione di un&rsquo;informazione da un alfabeto ad un altro</h3>
+<p>Tecnica con la quale un dato viene rappresentato mediante un definito insieme di simboli.</p>
+<p>Con tali simboli è possibile formare sequenze che possono essere messe in relazione biunivoca con gli elementi costituenti l&rsquo;informazione.</p>
+<p>Esempi:</p>
+<ul>
+<li>Numero di matricola</li>
+<li>Braille</li>
+<li>Codice fiscale</li>
+<li>Morse</li>
+<li>&hellip;</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="linformazione-quantitativa-analogica-e-digitale">L&rsquo;informazione quantitativa, analogica e digitale</h3>
+<p>Esistono due principali approcci per rappresentare quantitativamente l&rsquo;informazione:</p>
+<ul>
+<li>Codifica analogica: si basa sull&rsquo;associare una grandezza fisica continua a quella che si vuole rappresentare. Ogni variazione della grandezza originale (ad esempio, un cambiamento in volume o intensità) corrisponde direttamente a una variazione della grandezza rappresentativa;</li>
+<li>Codifica digitale: utilizza un alfabeto finito e regole di codifica per rappresentare i valori di una grandezza tramite una sequenza di simboli discreti, come numeri o lettere. Ogni possibile valore della grandezza è rappresentato da una combinazione di simboli.</li>
+</ul>
+<p>Es. quantità di caramelle:</p>
+<ul>
+<li>rappresentazione analogica: sassolini (una caramella = un sassolino);</li>
+<li>rappresentazione digitale: sequenza di simboli (una caramella = 1).</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="vantaggi-e-svantaggi">vantaggi e svantaggi</h3>
+<p>L&rsquo;approccio digitale è più compatto ed economico.</p>
+<p>L&rsquo;approccio analogico porta con sé una ricchezza implicita di meta-informazioni:</p>
+<ul>
+<li>Ci consente di capire se un valore è uguale, maggiore o minore rispetto a un altro;</li>
+<li>Ci consente di quantificare le differenze tra i valori.</li>
+</ul>
+<p>Con i sassolini è facile comprendere che tre sassolini rappresentano una quantità maggiore rispetto a due, o che sottraendo quattro sassolini da dieci, rimarremmo con sei.</p>
+<p>Nel caso della codifica digitale, invece, non è possibile intuire che la sequenza &ldquo;31&rdquo; sia maggiore di &ldquo;13&rdquo; o che la differenza tra &ldquo;5&rdquo; e &ldquo;3&rdquo; sia rappresentata dal numero &ldquo;2&rdquo; senza conoscere le regole di codifica che stabiliscono il significato dei simboli.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-codifica-dei-numeri">La codifica dei numeri</h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="partiamo-dalla-notazione-decimale-posizionale">Partiamo dalla notazione decimale posizionale</h3>
+<p>La codifica più comunemente adottata oggi per la rappresentazione dei numeri interi.</p>
+<p>Il termine <strong>decimale</strong> indica il numero di simboli utilizzati (<strong>cifre</strong>): <code>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}</code>.</p>
+<p>Il termine <strong>posizionale</strong> indica che il significato dei simboli cambia in base alla loro posizione. Il numero rappresentato da ogni simbolo è moltiplicato per una potenza di 10 (il numero di simboli che cotituiscono l&rsquo;alfabeto, la <strong>base</strong>).</p>
+<p>Con <code>N</code> cifre è possibile rappresentare <code>10^N</code> numeri naturali: da 0 a 10^N-1.</p>
+<p>Es. con 4 cifre possiamo rappresentare 10^4 numeri (da 0 a 9999).</p>
+<div class="footer">
+Rappresentazione posizionale degli interi. <a href="http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html">http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html </a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esempio-il-numero-2465">Esempio: il numero 2465</h3>
+<p>Il significato di ogni simbolo dipende dalla posizione di questo all&rsquo;interno della sequenza di simboli creata in base alla loro combinazione.</p>
+<p><code>2 X 10^3 + 4 X 10^2 + 6 X 10^1 + 5 X 10^0</code></p>
+<p>Che equivale a 2 <em>migliaia</em> + 4 <em>centinaia</em> + 6 <em>decine</em> + 5 <em>unità</em>.</p>
+<div class="footer">
+Rappresentazione posizionale degli interi. <a href="http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html">http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esistono-codifiche-non-posizionali">Esistono codifiche non posizionali?</h3>
+<p>Il sistema di numerazione romano!</p>
+<p>Si tratta di un <strong>sistema additivo</strong> basato su:</p>
+<ul>
+<li>Un alfabeto di simboli letterari a ciascuno dei quali viene assegnato un valore numerico;</li>
+<li>Un numero è rappresentato da una sequenza di tali simboli;</li>
+<li>Il valore di un numero è dato dalla somma dei valori corrispondenti ai simboli ottenuti, se in ordine decrescente; altrimenti, li si sottrae.</li>
+</ul>
+<p>Esempi:</p>
+<ul>
+<li><code>VIII = 5 + 1 + 1 + 1 = 8</code>;</li>
+<li><code>IV = 5 - 1 = 4</code>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esistono-codifiche-non-decimali">Esistono codifiche non decimali?</h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="linformazione-va-codificata-per-il-computer">L&rsquo;informazione va codificata per il computer</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0310.jpg" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Foto di <a href="https://unsplash.com/@aler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">alerkiv</a> su <a href="https://unsplash.com/photos/close-up-photography-of-green-motherboard--9jmFkN-_U4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Il computer memorizza ed elabora vari tipi di informazioni (numeri, testi, immagini, suoni, ecc.).
+    </p>
+    <p>
+      Occorre rappresentare tale informazione in un formato facilmente manipolabile dal computer.
+    </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="di-fatto-un-computer-è-una-grande-collezione-di-dispositivi-_bistabili_">Di fatto, un computer è una grande collezione di dispositivi <em>bistabili</em></h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0311.jpg" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Foto di <a href="https://unsplash.com/@mk__s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">mk. s</a> su <a href="https://unsplash.com/photos/a-light-switch-cover-on-a-white-wall-Ual1Obieofc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      "Bistabile" indica qualcosa che può assumere nel tempo solo due stati stabili (es. interruttore). Nel caso del computer, si tratta della presenza / assenza di corrente elettrica.
+    </p>
+    <p>
+       Per ogni tipo di informazione (numerica, testuale, grafica, sonora, ecc.) che vogliamo trattare con un computer, dobbiamo individuare una codifica che si avvalga esclusivamente di questa caratteristica.
+    </p>
+  </div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="consideriamo-un-alfabeto-binario">Consideriamo un alfabeto binario</h3>
+<p>Alfabeto: <code>{0, 1}</code>.</p>
+<p><strong>Bit</strong>: cifra binaria, ovvero uno dei due simboli del sistema numerico binario, classicamente chiamati <em>zero</em> (0) e <em>uno</em> (1).</p>
+<p>Allo <em>zero</em> sono spesso associate le idee di &ldquo;chiuso&rdquo;, &ldquo;spento&rdquo;, &ldquo;assente&rdquo;, &ldquo;falso&rdquo;.</p>
+<p>All&rsquo;<em>uno</em> sono spesso associate le idee di &ldquo;aperto&rdquo;, &ldquo;acceso&rdquo;, &ldquo;presente&rdquo;, &ldquo;vero&rdquo;.</p>
+<div class="footer">
+History of the Binary System. In Cut The Knot.
+ <a href="https://www.cut-the-knot.org/do_you_know/BinaryHistory.shtml">https://www.cut-the-knot.org/do_you_know/BinaryHistory.shtml</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="con-1-bit-rappresentiamo-poco">Con 1 bit rappresentiamo poco&hellip;</h3>
+<p>Solo 2 diverse informazioni:</p>
+<ul>
+<li>0 → No / Falso / Off;</li>
+<li>1 → Si / Vero / On.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="-ma-se-usassimo-più-bit">&hellip; Ma se usassimo più bit?</h3>
+<p>Proviamo a rappresentare le stagioni con una codifica binaria. Le stagioni sono 4, quindi ci servono 2 bit (2^2 sequenze possibili).</p>
+<ul>
+<li>00 → Primavera;</li>
+<li>10 → Estate;</li>
+<li>01 → Autunno;</li>
+<li>11 → Inverno.</li>
+</ul>
+<p>Mettendo insieme più bit possiamo rappresentare più informazioni e quindi più complessità.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-binarietà-è-conveniente">La binarietà è conveniente</h3>
+<p>2 bit : 4 (2^2) sequenze possibili: 00, 01, 10, 11.</p>
+<p>3 bit: 8 (2^3) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.</p>
+<p>&hellip;</p>
+<p>Con <code>N bit</code> possiamo rappresentare <code>2^N sequenze</code>: da 0 a 2^N-1.</p>
+<p>8 bit costituiscono un <strong>byte</strong>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="codifica-numerica-da-base-2-a-base-10">Codifica numerica da base 2 a base 10</h3>
+<p>Moltiplicare ogni bit per il suo peso (attenzione a partire da 2^n-1!) e sommare le potenze.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">10100  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">1 X 2^4 + 0 X 2^3 + 1 X 2^2 + 0 X 2^1 + 0 X 2^0  
+</span></span><span class="line"><span class="cl">= 1 X 16 + 0 X 8 + 1 X 4 + 0 X 2 + 0 X 1  
+</span></span><span class="line"><span class="cl">= 16 + 0 + 4 + 0 + 0  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">= 20  
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="codifica-numerica-da-base-10-a-base-2">Codifica numerica da base 10 a base 2</h3>
+<p>Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">12
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">12 / 2 → resto 0       ^
+</span></span><span class="line"><span class="cl">= 6 / 2 → resto 0      |
+</span></span><span class="line"><span class="cl">= 3 / 2 → resto 1      |
+</span></span><span class="line"><span class="cl">= 1 / 2 → resto 1      |
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">= 1100
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="quindi">Quindi…</h3>
+<ul>
+<li>Conosciamo la numerazione in base 2;</li>
+<li>Conosciamo la numerazione in base 10;</li>
+<li>Sappiamo passare da una base di numerazione all&rsquo;altra (cioé convertire i numeri in bit).</li>
+</ul>
+<p>Come digitalizziamo invece la lettera “a”?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-rappresentazione-del-testo">La rappresentazione del testo</h3>
+<p>Viene realizzata con codici binari corrispondenti a caratteri.</p>
+<p>L&rsquo;alfabeto anglosassone ha circa 120 caratteri (maiuscole + minuscole + numeri + interpunzione + &hellip;)</p>
+<p>Quanti bit ci servono per coprirli tutti?</p>
+<p>Bastano 7 bit = 2^7 = 128 simboli.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="american-standard-code-for-information-interchange-ascii">American Standard Code for Information Interchange (ASCII)</h3>
+<p>Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.</p>
+<p>Esempi:</p>
+<ul>
+<li>A →  1000001</li>
+<li>B →  1000010</li>
+<li>BABA → 1000010 1000001 1000010 1000001</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ascii-esteso">ASCII esteso</h3>
+<ul>
+<li>Estensione di ASCII a 8 bit (2^8 = 256 simboli);</li>
+<li>Codifica quasi tutti i linguaggi occidentali;</li>
+<li>Include molti altri simboli utili.</li>
+</ul>
+<p>Esempi:</p>
+<ul>
+<li>CAT → 01000011 01000001 01010100;</li>
+<li>cat → 01100011 01100001 01110100.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="altro-esempio-di-ascii-utf-ecc">altro esempio di ascii, utf, ecc</h3>
+<figure>
+  <img src="img/0304.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/">https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/</a>.
+    </figcaption>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="laltra-metà-del-problema">L&rsquo;altra metà del problema</h3>
+<p>La digitalizzazione - cioé codificare contenuto informativo in binario - è solo metà del problema.</p>
+<p>Dobbiamo anche codificare le caratteristiche del contenuto, incluso quanto segue:</p>
+<ul>
+<li>Come è strutturato il contenuto?</li>
+<li>A quali altri contenuti è collegato?</li>
+<li>Dove è stato raccolto?</li>
+<li>In quali unità è dato?</li>
+<li>Come dovrebbe essere visualizzato?</li>
+<li>Quando è stato creato o catturato?</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="i-dati-sopra-e-oltre-i-dati">I dati sopra (e oltre) i dati</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cosa-sono-i-metadati">Cosa sono i metadati?</h3>
+<figure>
+  <img src="img/photo.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cosa-sono-i-metadati-1">Cosa sono i metadati?</h3>
+<figure>
+  <img src="img/book.png" height="auto" width="600"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cosa-sono-i-metadati-2">Cosa sono i metadati?</h3>
+<figure>
+  <img src="img/spreadsheet.png" height="auto" width="400"/>
+    <figcaption>
+        Fonte: <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">https://dataedo.com/kb/data-glossary/what-is-metadata</a>.
+    </figcaption>
+</figure>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-termine-ampiamente-utilizzato-ma-variamente-interpretato">Un termine ampiamente utilizzato ma variamente interpretato</h3>
+<p>Fino agli anni &lsquo;90, erano associati alla gestione dei dati geospaziali e alla progettazione dei sistemi.</p>
+<p>Standard, documentazione e dati necessari per l&rsquo;identificazione, la gestione, l&rsquo;interoperabilità e l&rsquo;uso dei dati in un sistema informativo.</p>
+<p>Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. <a href="https://www.getty.edu/publications/intrometadata/" target="_blank" rel="noopener">https://www.getty.edu/publications/intrometadata/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="dati-su-dati">Dati su dati</h3>
+<p>I metadati possono essere visti come l&rsquo;insieme di tutto ciò che si può dire su un dato (oggetto informativo) in un determinato momento, a qualsiasi livello di aggregazione.</p>
+<p>Es. una pagina, un capitolo, un libro, una collezione possono avere tutti i propri metadati bibliografici.</p>
+<p>I dati hanno tre caratteristiche che dovrebbero riflettersi nei metadati che li descrivono:</p>
+<ul>
+<li>Contenuto: ciò che l&rsquo;oggetto contiene o rappresenta (intrinseco all&rsquo;oggetto);</li>
+<li>Contesto: informazioni su chi, cosa, quando, dove e come l&rsquo;oggetto è stato creato e utilizzato (estrinseco all&rsquo;oggetto):</li>
+<li>Struttura: le relazioni formali tra gli oggetti informativi, che possono essere intrinseche, estrinseche o entrambe.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="funzioni-dei-metadati">Funzioni dei metadati</h3>
+<ul>
+<li>Organizzazione e descrizione dei dati;</li>
+<li>Validazione e autenticazione dei dati;</li>
+<li>Ricerca e recupero delle informazioni;</li>
+<li>Utilizzo e conservazione dei dati.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="caratteristiche-non-ovvie-dei-metadati">Caratteristiche (non ovvie) dei metadati</h3>
+<p>I metadati:</p>
+<ul>
+<li>Non devono essere per forza digitali;</li>
+<li>Riguardano più della semplice descrizione dei dati;</li>
+<li>Possono provenire da diverse fonti;</li>
+<li>Continuano ad accumularsi durante la vita di un dato;</li>
+<li>Possono contemporaneamente essere dati per qualcun&rsquo;altro.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esistono-diverse-tipologie-di-metadati-e-diversi-modi-di-classificarli">Esistono diverse tipologie di metadati (e diversi modi di classificarli)</h3>
+<ul>
+<li><strong>Descrittivi</strong>: permettono la scoperta, l&rsquo;identificazione e la selezione della risorsa. Includono elementi come &ldquo;titolo&rdquo;, &ldquo;autore&rdquo;, ecc.;</li>
+<li><strong>Tecnici</strong>: forniscono informazioni sul funzionamento o comportamento della risorsa. Includono elementi come &ldquo;formato&rdquo;, &ldquo;compression ratio&rdquo;, &ldquo;password&rdquo;, ecc.;</li>
+<li><strong>Amministrativi</strong>: facilitano la gestione della risorsa. Includono elementi come &ldquo;identificativo&rdquo;, &ldquo;licenza&rdquo;, <em>provenance</em>, ecc.</li>
+</ul>
+<div class="footer">
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a href="https://doi.org/10.5281/zenodo.6459832">https://doi.org/10.5281/zenodo.6459832</a>. 
+</div>
+<h2 id="standard">STANDARD</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="in-cosa-dovrebbero-consistere-dei-metadati-per-essere-buoni-metadati">In cosa dovrebbero consistere dei metadati per essere &ldquo;buoni&rdquo; metadati?</h3>
+<p>I metadati dovrebbero focalizzarsi su:</p>
+<ul>
+<li>Cosa</li>
+<li>Quando</li>
+<li>Dove</li>
+<li>Chi</li>
+<li>Come</li>
+<li>Da quale</li>
+<li>Perché</li>
+</ul>
+<p><a href="https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research" target="_blank" rel="noopener">https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="in-principio-lidea-è-semplice">In principio, l&rsquo;idea è semplice</h3>
+<p>L&rsquo;applicazione dei metadati in un caso concreto, però, è complessa: da dove partiamo? Come descriviamo i dati in modo tale da renderli consistenti e gestibili da me e altre persone? Come lo facciamo in una maniera scalabile?</p>
+<p>Fortunatamente, esistono gli schemi di metadati.</p>
+<p><a href="https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/" target="_blank" rel="noopener">https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="i-metadati-seguono-degli-schemi">I metadati seguono degli schemi</h3>
+<p>Strutture concettuali che specificano quali metadati utilizzare e secondo quali regole.</p>
+<p>Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una vera e propria lingua comune dei dati descritti.</p>
+<p>Spesso specifici per ambito disciplinare, consolidati a livello delle comunità di ricerca, e implementati da piattaforme online (es. cataloghi, registri, basi di dati, portali, ecc.).</p>
+<div class="footer">
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a href="https://doi.org/10.5281/zenodo.6459832">https://doi.org/10.5281/zenodo.6459832</a>. 
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esempio-decidiamo-di-descrivere-un-libro">Esempio: decidiamo di descrivere un libro</h3>
+<p>Per farlo, usiamo una serie di metadati come:</p>
+<ul>
+<li>Titolo: &ldquo;Neuromante&rdquo;</li>
+<li>Autore: &ldquo;William Gibson&rdquo;</li>
+<li>Data di pubblicazione: 1984</li>
+<li>Genere: &ldquo;cyberpunk&rdquo;</li>
+<li>&hellip;</li>
+</ul>
+<p>I termini, molto comuni, li abbiamo decisi noi.</p>
+<p>Volendo, li possiamo ri-utilizzare per descrivere anche altri libri.</p>
+<p>Abbiamo creato uno schema di metadati per i libri.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="se-formalmente-validati-e-riconosciuti-diventano-standard">Se formalmente validati e riconosciuti, diventano standard</h3>
+<ul>
+<li>
+<p>MARC (standard per la rappresentazione di informazioni bibliografiche)</p>
+</li>
+<li>
+<p>Dublin Core (standard per la rappresentazione di risorse sul Web)</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="esempio-dublin-core">Esempio: Dublin Core</h3>
+<p>Schema di metadati per descrivere risorse pubblicate sul Web.</p>
+<p>Include quindici elementi (poi estesi ulteriormente) ritenuti fondamentali.</p>
+<p>→ è un minimo comun denominatore: semplice, economico, facile da imparare e da usare.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="schemi-di-codifica">Schemi di codifica</h3>
+<p>Insieme di regole che specificano sintassi o lessico utilizzati dai metadati di uno schema di metadati.</p>
+<ul>
+<li>Schema di codifica sintattica: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date)</li>
+<li>Vocabolario controllato: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT)</li>
+<li>Authority file: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. VIAF)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="lelemento-umano">L&rsquo;elemento umano</h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-62-delle-persone-a-bruxelles-non-è-nato-in-belgio">&ldquo;Il 62% delle persone a Bruxelles non è nato in Belgio&rdquo;</h3>
+<p><a href="https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories" target="_blank" rel="noopener">https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories</a></p>
+<p>Una statistica piuttosto interessante.</p>
+<p>Merita di essere in prima pagina in un articolo di giornale, no?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Secondo l&rsquo;articolo, Bruxelles è la città con la seconda percentuale più alta di residenti nati all&rsquo;estero, dopo Dubai (83%), ma prima di Toronto, Auckland e Sydney.</p>
+<p>Anche considerando che Bruxelles è la sede delle istituzioni dell&rsquo;Unione Europea, questa percentuale rimane notevolmente alta.</p>
+<p>L&rsquo;autore ha trovato questa statistica in una fonte molto affidabile: il World Migration Report 2015, pubblicato dall&rsquo;Organizzazione Internazionale per le Migrazioni delle Nazioni Unite (IOM).</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="troppo-bello-per-essere-vero">Troppo bello per essere vero</h3>
+<p>La fonte riportata sotto il grafico (&ldquo;Compilato dall&rsquo;IOM da varie fonti&rdquo;) avrebbe dovuto essere un campanello d&rsquo;allarme.</p>
+<p>La fonte per la percentuale di popolazione nata all&rsquo;estero a Bruxelles è l&rsquo;articolo Belgium: A Country of Permanent Immigration, che menziona:</p>
+<p>Nelle due città più grandi, i dati demografici dimostrano la natura permanentemente diversificata del Belgio: ad Anversa, quasi il 38% della popolazione ha origini straniere, mentre circa il 18% ha una nazionalità straniera; a Bruxelles, quasi il 62% ha origini straniere e circa il 31% ha una nazionalità straniera.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="uninterpretazione-sbagliata-delle-fonti">Un&rsquo;interpretazione sbagliata delle fonti</h3>
+<p>La fonte originale utilizzava l&rsquo;espressione &ldquo;di origine straniera&rdquo; e non &ldquo;nato all&rsquo;estero&rdquo;, con una definizione in Belgio che include chi ha almeno un genitore senza nazionalità belga.</p>
+<p>Questo ha portato a un errore nel World Migration Report, che ha erroneamente interpretato i dati come relativi alla popolazione nata all&rsquo;estero.</p>
+<p>Gli autori del rapporto non avevano esaminato correttamente i metadati della fonte.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="il-rapimento-a-chibok">Il rapimento a Chibok</h3>
+<p><a href="https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories" target="_blank" rel="noopener">https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories</a></p>
+<p>76 ragazze furono rapite da una scuola a Chibok, nell&rsquo;est della Nigeria, dal gruppo terroristico Boko Haram.</p>
+<p>FiveThirtyEight cercò di inserire questo orribile evento in un contesto storico, esaminando il quadro generale in un articolo.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="rapimenti-o-_notizie_-sui-rapimenti">Rapimenti o <em>notizie</em> sui rapimenti?</h3>
+<p>L&rsquo;articolo ha subito critiche per la fonte utilizzata per i dati nel grafico e per l&rsquo;analisi nel contenuto.</p>
+<p>I numeri provengono dal Global Database of Events, Language and Tone (GDELT), un database che raccoglie quotidianamente dati su eventi e località in modo automatizzato da migliaia di fonti di notizie, tra cui televisione, stampa e online.</p>
+<p>Invece di mostrare i &ldquo;rapimenti giornalieri in Nigeria&rdquo;, il grafico mostra i &ldquo;rapporti giornalieri di notizie sui rapimenti in Nigeria&rdquo;.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="due-metriche-diverse">Due metriche diverse</h3>
+<p>Una tendenza in aumento potrebbe essere dovuta a un numero maggiore di rapimenti, ma anche a un numero maggiore di notizie in generale o a una maggiore attenzione dei media verso il fenomeno.</p>
+<p>Il problema maggiore è l&rsquo;assunzione che un singolo evento o luogo nel database corrisponda a un singolo rapimento. È molto probabile che più rapporti di notizie nel database facciano riferimento allo stesso evento.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="di-nuovo-uninterpretazione-sbagliata">Di nuovo, un&rsquo;interpretazione sbagliata</h3>
+<p>Di conseguenza, l&rsquo;articolo è stato aggiornato, precisando: &ldquo;Questo post dovrebbe fare riferimento ai rapporti dei media sui rapimenti, non ai rapimenti stessi&rdquo;.</p>
+<p>Il giornalista di FiveThirtyEight ha preso i dati nel database GDELT per ciò che erano, senza considerare come i dati vengano raccolti e cosa rappresenta ogni record nel database. Questa è un&rsquo;informazione cruciale sui dati (= metadati) per interpretare correttamente le informazioni.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="le-persone-vengono-uccise-sulla-base-dei-metadati">Le persone vengono uccise sulla base dei metadati</h3>
+<p><a href="https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB" target="_blank" rel="noopener">https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-03-del-corso-di-_abilità-informatiche_-20242025-1">Lezione 03 del corso di <em>Abilità Informatiche</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

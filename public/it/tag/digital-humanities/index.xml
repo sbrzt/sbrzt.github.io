@@ -2196,6 +2196,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@alpridephoto?utm_content=creditCo
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;una-ricetta&#34;&gt;Una ricetta&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@picsbyjameslee?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;James Lee&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/text-Mfjq1hi-lVg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -2211,6 +2212,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@picsbyjameslee?utm_content=credit
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;una-carta-di-istruzioni&#34;&gt;Una carta di istruzioni&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@callemac?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Calle Macarone&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/white-and-blue-instruction-guide-15wIddvL5dU?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -2226,6 +2228,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@callemac?utm_content=creditCopyTe
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h3 id=&#34;una-mappa-concettuale&#34;&gt;Una mappa concettuale&lt;/h3&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;charlesdeluvio&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/a-couple-of-people-standing-in-front-of-a-wall-OWkXt1ikC5g?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -2263,6 +2266,23 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;in-altre-parole-istruzioni&#34;&gt;In altre parole: istruzioni&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02074.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zqqfyrd/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Gli algoritmi possono essere usati per descrivere praticamente qualsiasi tipo di processo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;garbage-in-garbage-out&#34;&gt;Garbage in, garbage out&lt;/h3&gt;
 &lt;p&gt;Se vogliamo dire a un computer di fare qualcosa, dobbiamo scrivere un programma che indichi, passo dopo passo, esattamente cosa vogliamo che faccia e come vogliamo che lo faccia.&lt;/p&gt;
 &lt;p&gt;Questo programma necessita di pianificazione, e per farlo utilizziamo un algoritmo.&lt;/p&gt;
@@ -2273,7 +2293,39 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
 &lt;p&gt;Questo ordine può essere rappresentato come un algoritmo.&lt;/p&gt;
 &lt;p&gt;Deve avere un punto di partenza, un punto di arrivo e un insieme di istruzioni chiare nel mezzo.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;diagramma-di-flusso&#34;&gt;Diagramma di flusso&lt;/h3&gt;
+&lt;h3 id=&#34;come-rappresentare-un-algoritmo-pseudocodice&#34;&gt;Come rappresentare un algoritmo: Pseudocodice&lt;/h3&gt;
+&lt;p&gt;La maggior parte dei programmi viene sviluppata utilizzando linguaggi di programmazione.&lt;/p&gt;
+&lt;p&gt;Questi linguaggi hanno una sintassi specifica che deve essere utilizzata affinché il programma funzioni correttamente.&lt;/p&gt;
+&lt;p&gt;Lo pseudocodice è un modo semplice di descrivere un insieme di istruzioni che non deve seguire una sintassi specifica.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrivere-in-pseudocodice-è-simile-a-scrivere-in-un-linguaggio-di-programmazione&#34;&gt;Scrivere in pseudocodice è simile a scrivere in un linguaggio di programmazione&lt;/h3&gt;
+&lt;div style=&#34;display: flex;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
+    &lt;code&gt;
+      OUTPUT &#39;What is your name?&#39;&lt;br/&gt;
+      INPUT user inputs their name&lt;br/&gt;
+      STORE the user&#39;s input in the name variable&lt;br/&gt;
+      OUTPUT &#39;Hello&#39; + name&lt;br/&gt;
+      OUTPUT &#39;How old are you?&#39;&lt;br/&gt;
+      INPUT user inputs their age&lt;br/&gt;
+      STORE the user&#39;s input in the age variable&lt;br/&gt;
+      IF age &gt;= 70 THEN&lt;br/&gt;
+        OUTPUT &#39;You are aged to perfection!&#39;&lt;br/&gt;
+      ELSE&lt;br/&gt;
+        OUTPUT &#39;You are a spring chicken!&#39;
+    &lt;/code&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un programma che chiede all&#39;utente il nome e l&#39;età e che fa un commento sulla base di questi.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Ogni passo dell&#39;algoritmo è scritto su una riga a sé stante in sequenza. Le istruzioni sono scritte in maiuscolo, le variabili in minuscolo e i messaggi in maiuscolo e minuscolo. INPUT pone una domanda; OUTPUT stampa un messaggio sullo schermo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-rappresentare-un-algoritmo-diagramma-di-flusso&#34;&gt;Come rappresentare un algoritmo: Diagramma di flusso&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2285,16 +2337,702 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Rappresentazione grafica di un algoritmo.
+      La rappresentazione grafica di un algoritmo.
     &lt;/p&gt;
     &lt;p&gt;
-      Non ci sono molte regole precise riguardo al livello di dettaglio necessario in un diagramma di flusso.
+      Non ci sono molte regole precise riguardo al livello di dettaglio necessario in un diagramma di flusso. A volte vengono suddivisi in molti passaggi per fornire più dettagli, altre volte vengono semplificati per essere più comprensibili.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-alcune-convenzioni-per-rappresentare-un-diagramma-di-flusso&#34;&gt;Esistono alcune convenzioni per rappresentare un diagramma di flusso&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/02075.png&#34; height=&#34;auto&#34; width=&#34;500&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;diagramma-dellalgoritmo-di-prima&#34;&gt;Diagramma dell&amp;rsquo;algoritmo di prima&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02076.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zpp49j6/revision/3&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un programma che chiede all&#39;utente il nome e l&#39;età e che fa un commento sulla base di questi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;per-concludere&#34;&gt;Per concludere&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02077.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Come superiamo questo livello?
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;per-completare-il-livello-cosa-dobbiamo-sapere&#34;&gt;Per completare il livello, cosa dobbiamo sapere?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02077.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;quali oggetti dobbiamo raccogliere;&lt;/li&gt;
+      &lt;li&gt;come possiamo raccoglierli;&lt;/li&gt;
+      &lt;li&gt;quanto tempo abbiamo per raccoglierli;&lt;/li&gt;
+      &lt;li&gt;dove si trova l&#39;uscita;&lt;/li&gt; 
+      &lt;li&gt;qual è il miglior percorso per raggiungerla nel minor tempo possibile;&lt;/li&gt;
+      &lt;li&gt;che tipo di nemici ci sono;&lt;/li&gt;
+      &lt;li&gt;quali sono i loro punti deboli.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;
+      Da queste informazioni possiamo elaborare una strategia per completare il livello nel modo più efficiente possibile.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;questo-è-il-pensiero-computazionale&#34;&gt;Questo è il pensiero computazionale&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/02077.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/2&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Abbiamo suddiviso il problema in diverse piccole decisioni e passaggi.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Abbiamo posto la nostra attenzione solo sui dettagli rilevanti.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Abbiamo usato la nostra conoscenza di problemi simili precedenti.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Abbiamo elaborato un piano d&#39;azione sequenziale e strutturato.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-02-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 02 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABINF - Rappresentare l&#39;informazione</title>
+      <link>http://localhost:1313/it/slides/abinf-03/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-03/</guid>
+      <description>&lt;h1 id=&#34;rappresentare-linformazione&#34;&gt;Rappresentare l&amp;rsquo;informazione&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 03 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lerrore-da-125-milioni-di-dollari&#34;&gt;L&amp;rsquo;errore da 125 milioni di dollari&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0301.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      1988, Cape Canaveral, 2 settimane a Natale.
+    &lt;/p&gt;
+    &lt;p&gt;
+      La NASA lancia la missione Mars Climate Orbiter, con l&#39;obiettivo di inserire una sonda nell&#39;orbita di Marte per effettuare investigazioni scientifiche sul clima del pianeta rosso e per fare da ponte radio con la Terra.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0302.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il 23 settembre 1999, dopo 283 giorni di viaggio nello spazio, la sonda, dal valore di 125 milioni di dollari, eseguì una manovra ad alta quota nell&#39;orbita di Marte con 49 secondi di anticipo: in altre parole, non stava seguendo la traiettoria prevista.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Alle 2:27 del mattino, la sonda scompare dietro Marte per non riapparire mai più.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-motivo-del-fallimento&#34;&gt;Il motivo del fallimento&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0303.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una settimana dopo la perdita della sonda, la NASA rilascia una dichiarazione, attribuendo l&#39;incidente a un errore legato al sistema usato per ricalcolare la posizione della sonda nello spazio. 
+    &lt;/p&gt;
+    &lt;p&gt;
+      Tra la sonda e la NASA c&#39;era uno scambio continuo di dati, che permetteva il ricalcolo della traiettoria della sonda rispetto all&#39;obiettivo finale.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;due-lingue-diverse&#34;&gt;Due lingue diverse&lt;/h3&gt;
+&lt;p&gt;La Lockheed Martin, azienda incaricata di realizzare la sonda e alcuni strumenti usati dai tecnici per gestirla, aveva adottato la &lt;strong&gt;libbra-forza per secondo&lt;/strong&gt; come unità di misura per il ricalcolo.&lt;/p&gt;
+&lt;p&gt;La NASA, invece, utilizzava il &lt;strong&gt;Newton per secondo&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tra-codifiche-e-metadati&#34;&gt;Tra codifiche e metadati&lt;/h3&gt;
+&lt;p&gt;Senza le unità di misura, i dati numerici non hanno significato, e assumere erroneamente determinate unità può portare a gravi problemi.&lt;/p&gt;
+&lt;p&gt;I comandi di navigazione dovevano essere codificati correttamente nelle unità appropriate per essere compresi da entrambi i sistemi.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0304.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;una-questione-di-linguaggio&#34;&gt;Una questione di linguaggio&lt;/h2&gt;
+&lt;!--
+
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-linguaggio-naturale-è-quello-parlato-da-noi&#34;&gt;Un linguaggio naturale è quello parlato da noi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0305.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Foto di &lt;a href=&#34;https://unsplash.com/@mikham?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Mikayla Storms&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/man-in-black-helmet-riding-brown-horse-during-daytime-9h_bJdGqzCk?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio caratterizzato da ricchezza espressiva, ambiguità e ridondanza, per cui un qualsiasi costrutto formulato è potenzialmente polisemico.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esempio: &#34;Sposto il cavallo&#34;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ &lt;a href=&#34;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&#34;&gt;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-linguaggio-naturale-è-quello-parlato-da-noi-1&#34;&gt;Un linguaggio naturale è quello parlato da noi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0306.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Foto di &lt;a href=&#34;https://unsplash.com/@vdphotography?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;VD Photography&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/a-group-of-chess-pieces-sitting-on-top-of-a-chess-board-qHv3EowYEk0?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio caratterizzato da ricchezza espressiva, ambiguità e ridondanza, per cui un qualsiasi costrutto formulato è potenzialmente polisemico.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esempio: &#34;Sposto il cavallo&#34;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ &lt;a href=&#34;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&#34;&gt;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-linguaggio-formale-è-quello-usato-per-ridurre-al-minimo-lincertezza&#34;&gt;Un linguaggio formale è quello usato per ridurre al minimo l&amp;rsquo;incertezza&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0307.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Foto di &lt;a href=&#34;https://unsplash.com/@thisisengineering?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;ThisisEngineering&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/woman-in-black-long-sleeve-shirt-GzDrm7SYQ0g?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+      .
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio per formulare costrutti dotati di significato in modo preciso e non ambiguo.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Per comunicare con un computer, l&#39;ambiguità del linguaggio naturale è un problema (servono altre informazioni relative al contesto e alla pragmatica che un computer, di base, non recepisce), quindi vengono usati linguaggi formali.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ &lt;a href=&#34;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&#34;&gt;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-linguaggio-formale-è-costituito-da-tre-elementi&#34;&gt;Un linguaggio formale è costituito da tre elementi&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alfabeto&lt;/strong&gt;: insieme finito di simboli;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;code&gt;{a, b, c}&lt;/code&gt; (un alfabeto costituito da tre simboli: &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt; e &lt;code&gt;c&lt;/code&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grammatica&lt;/strong&gt;: insieme di regole sintattiche che specificano combinazioni valide di simboli;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;code&gt;G → a ∣ b ∣ c&lt;/code&gt; (&lt;code&gt;G&lt;/code&gt; è una grammatica che stabilisce che possiamo solo usare &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt; o &lt;code&gt;c&lt;/code&gt; separatamente);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantica&lt;/strong&gt;: insieme di significati attribuiti ai simboli e alle loro combinazioni;
+&lt;ul&gt;
+&lt;li&gt;Esempio: &lt;code&gt;a: &amp;quot;rosso&amp;quot; ; b: &amp;quot;blu&amp;quot; ; c: &amp;quot;verde&amp;quot;&lt;/code&gt; (ad ogni simbolo ed eventuali combinazioni viene associato un significato).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Formal and Natural Languages. In How To Think Like A Computer Scientist: Interactive Edition.  
+ &lt;a href=&#34;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&#34;&gt;https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0308.pnjpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;il-linguaggio-di-un-semaforo&#34;&gt;Il linguaggio di un semaforo!&lt;/h3&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@thealmani?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;almani ماني&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/red-stop-light-on-green-background-g6mxlM-h0jQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0309.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;la-codifica&#34;&gt;La codifica&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Gabriella Clare Marino&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/gray-and-white-abstract-painting-J5zIt97NYxQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;una-codifica-è-un-processo-di-trasformazione-di-uninformazione-da-un-alfabeto-ad-un-altro&#34;&gt;Una codifica è un processo di trasformazione di un&amp;rsquo;informazione da un alfabeto ad un altro&lt;/h3&gt;
+&lt;p&gt;Tecnica con la quale un dato viene rappresentato mediante un definito insieme di simboli.&lt;/p&gt;
+&lt;p&gt;Con tali simboli è possibile formare sequenze che possono essere messe in relazione biunivoca con gli elementi costituenti l&amp;rsquo;informazione.&lt;/p&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numero di matricola&lt;/li&gt;
+&lt;li&gt;Braille&lt;/li&gt;
+&lt;li&gt;Codice fiscale&lt;/li&gt;
+&lt;li&gt;Morse&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chiunque può definire le codifiche che vuole, ma queste hanno senso di esistere se favoriscono una comprensione condivisa!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-codifica-dei-numeri&#34;&gt;La codifica dei numeri&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;partiamo-dalla-notazione-decimale-posizionale&#34;&gt;Partiamo dalla notazione decimale posizionale&lt;/h3&gt;
+&lt;p&gt;La codifica più comunemente adottata oggi per la rappresentazione dei numeri interi.&lt;/p&gt;
+&lt;p&gt;Il termine &lt;strong&gt;decimale&lt;/strong&gt; indica il numero di simboli utilizzati (&lt;strong&gt;cifre&lt;/strong&gt;): &lt;code&gt;{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Il termine &lt;strong&gt;posizionale&lt;/strong&gt; indica che il significato dei simboli cambia in base alla loro posizione. Il numero rappresentato da ogni simbolo è moltiplicato per una potenza di 10 (il numero di simboli che cotituiscono l&amp;rsquo;alfabeto, la &lt;strong&gt;base&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Con N cifre è possibile rappresentare 10^N numeri naturali: da 0 a 10^N-1.&lt;/p&gt;
+&lt;p&gt;Es. con 4 cifre possiamo rappresentare 10^4 numeri (da 0 a 9999).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html &lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-il-numero-2465&#34;&gt;Esempio: il numero 2465&lt;/h3&gt;
+&lt;p&gt;Il significato di ogni simbolo dipende dalla posizione di questo all&amp;rsquo;interno della sequenza di simboli creata in base alla loro combinazione.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2 X 10^3 + 4 X 10^2 + 6 X 10^1 + 5 X 10^0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;2 &lt;em&gt;migliaia&lt;/em&gt; + 4 &lt;em&gt;centinaia&lt;/em&gt; + 6 &lt;em&gt;decine&lt;/em&gt; + 5 &lt;em&gt;unità&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-codifiche-non-posizionali&#34;&gt;Esistono codifiche non posizionali?&lt;/h3&gt;
+&lt;p&gt;Il sistema di numerazione romano!&lt;/p&gt;
+&lt;p&gt;Si tratta di un &lt;strong&gt;sistema additivo&lt;/strong&gt; basato su:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un alfabeto di simboli letterari a ciascuno dei quali viene assegnato un valore numerico;&lt;/li&gt;
+&lt;li&gt;Un numero è rappresentato da una sequenza di tali simboli;&lt;/li&gt;
+&lt;li&gt;Il valore di un numero è dato dalla somma dei valori corrispondenti ai simboli ottenuti, se in ordine decrescente; altrimenti, li si sottrae.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es. &lt;code&gt;VIII = 5 + 1 + 1 + 1 = 8&lt;/code&gt;, &lt;code&gt;IV = 5 - 1 = 4&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-codifiche-non-decimali&#34;&gt;Esistono codifiche non decimali?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;linformazione-va-codificata-per-il-computer&#34;&gt;L&amp;rsquo;informazione va codificata per il computer&lt;/h3&gt;
+&lt;p&gt;Il computer memorizza ed elabora vari tipi di informazioni (numeri, testi, immagini, suoni, ecc.).&lt;/p&gt;
+&lt;p&gt;Occorre rappresentare tale informazione in un formato facilmente manipolabile dal computer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-computer-è-di-fatto-una-grande-collezione-di-dispositivi-_bistabili_&#34;&gt;Un computer è di fatto una grande collezione di dispositivi &lt;em&gt;bistabili&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Bistabile&lt;/em&gt; indica qualcosa che può assumere nel tempo solo due stati stabili (es. interruttore, moneta per testa/croce, ecc.).&lt;/p&gt;
+&lt;p&gt;Nel caso del computer, si tratta della presenza / assenza di corrente elettrica.&lt;/p&gt;
+&lt;p&gt;Per ogni tipo di informazione (numerica, testuale, grafica, sonora, ecc.) che vogliamo trattare con un computer, dobbiamo individuare una codifica che si avvalga esclusivamente di questa caratteristica.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;consideriamo-un-alfabeto-binario&#34;&gt;Consideriamo un alfabeto binario&lt;/h3&gt;
+&lt;p&gt;Alfabeto: &lt;code&gt;{0, 1}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bit&lt;/strong&gt;: cifra binaria, ovvero uno dei due simboli del sistema numerico binario, classicamente chiamati &lt;em&gt;zero&lt;/em&gt; (0) e &lt;em&gt;uno&lt;/em&gt; (1).&lt;/p&gt;
+&lt;p&gt;Allo &lt;em&gt;zero&lt;/em&gt; sono spesso associate le idee di &amp;ldquo;chiuso&amp;rdquo;, &amp;ldquo;spento&amp;rdquo;, &amp;ldquo;assente&amp;rdquo;, &amp;ldquo;falso&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;All&amp;rsquo;&lt;em&gt;uno&lt;/em&gt; sono spesso associate le idee di &amp;ldquo;aperto&amp;rdquo;, &amp;ldquo;acceso&amp;rdquo;, &amp;ldquo;presente&amp;rdquo;, &amp;ldquo;vero&amp;rdquo;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+History of the Binary System. In Cut The Knot.
+ &lt;a href=&#34;https://www.cut-the-knot.org/do_you_know/BinaryHistory.shtml&#34;&gt;https://www.cut-the-knot.org/do_you_know/BinaryHistory.shtml&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;con-1-bit-rappresentiamo-poco&#34;&gt;Con 1 bit rappresentiamo poco&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Solo 2 diverse informazioni:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 → No / Falso / Off;&lt;/li&gt;
+&lt;li&gt;1 → Si / Vero / On.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-ma-se-usassimo-più-bit&#34;&gt;&amp;hellip; Ma se usassimo più bit?&lt;/h3&gt;
+&lt;p&gt;Proviamo a rappresentare le stagioni con una codifica binaria. Le stagioni sono 4, quindi ci servono 2 bit (2^2 sequenze possibili).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;00 → Primavera;&lt;/li&gt;
+&lt;li&gt;10 → Estate;&lt;/li&gt;
+&lt;li&gt;01 → Autunno;&lt;/li&gt;
+&lt;li&gt;11 → Inverno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mettendo insieme più bit possiamo rappresentare più informazioni e quindi più complessità.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-binarietà-è-conveniente&#34;&gt;La binarietà è conveniente&lt;/h3&gt;
+&lt;p&gt;2 bit : 4 (2^2) sequenze possibili: 00, 01, 10, 11.&lt;/p&gt;
+&lt;p&gt;3 bit: 8 (2^3) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Con N bit possiamo rappresentare 2^N numeri: da 0 a 2^N-1.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-byte-descrivono-caratteristiche-del-computer&#34;&gt;I byte descrivono caratteristiche del computer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Byte&lt;/strong&gt;: Una sequenza di 8 bit.&lt;/p&gt;
+&lt;p&gt;Usato come unità di misura per indicare le dimensioni della memoria, la velocità di trasmissione, la “potenza” di un elaboratore&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Es. 01000001.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;codifica-numerica-da-base-2-a-base-10&#34;&gt;Codifica numerica da base 2 a base 10&lt;/h3&gt;
+&lt;p&gt;Moltiplicare ogni bit per il suo peso (attenzione a partire da 2^n-1!) e sommare le potenze.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10100  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1 X 2^4 + 0 X 2^3 + 1 X 2^2 + 0 X 2^1 + 0 X 2^0  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 X 16 + 0 X 8 + 1 X 4 + 0 X 2 + 0 X 1  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 16 + 0 + 4 + 0 + 0  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 20  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;codifica-numerica-da-base-10-a-base-2&#34;&gt;Codifica numerica da base 10 a base 2&lt;/h3&gt;
+&lt;p&gt;Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12 / 2 → resto 0  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 6 / 2 → resto 0  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 3 / 2 → resto 1  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 / 2 → resto 1  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1100
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;linformazione-quantitativa-analogica-e-digitale&#34;&gt;L&amp;rsquo;informazione quantitativa, analogica e digitale&lt;/h3&gt;
+&lt;p&gt;Esistono due principali approcci per rappresentare quantitativamente l&amp;rsquo;informazione:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Codifica analogica: si basa sull&amp;rsquo;associare una grandezza fisica continua a quella che si vuole rappresentare. Ogni variazione della grandezza originale (ad esempio, un cambiamento in volume o intensità) corrisponde direttamente a una variazione della grandezza rappresentativa;&lt;/li&gt;
+&lt;li&gt;Codifica digitale: utilizza un alfabeto finito e regole di codifica per rappresentare i valori di una grandezza tramite una sequenza di simboli discreti, come numeri o lettere. Ogni possibile valore della grandezza è rappresentato da una combinazione di simboli.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es. quantità di caramelle:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rappresentazione analogica: sassolini (una caramella = un sassolino);&lt;/li&gt;
+&lt;li&gt;rappresentazione digitale: sequenza di simboli (una caramella = 1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vantaggi-e-svantaggi&#34;&gt;vantaggi e svantaggi&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;approccio digitale è più compatto ed economico.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;approccio analogico porta con sé una ricchezza implicita di meta-informazioni:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ci consente di capire se un valore è uguale, maggiore o minore rispetto a un altro;&lt;/li&gt;
+&lt;li&gt;Ci consente di quantificare le differenze tra i valori.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Con i sassolini è facile comprendere che tre sassolini rappresentano una quantità maggiore rispetto a due, o che sottraendo quattro sassolini da dieci, rimarremmo con sei.&lt;/p&gt;
+&lt;p&gt;Nel caso della codifica digitale, invece, non è possibile intuire che la sequenza &amp;ldquo;31&amp;rdquo; sia maggiore di &amp;ldquo;13&amp;rdquo; o che la differenza tra &amp;ldquo;5&amp;rdquo; e &amp;ldquo;3&amp;rdquo; sia rappresentata dal numero &amp;ldquo;2&amp;rdquo; senza conoscere le regole di codifica che stabiliscono il significato dei simboli.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quindi&#34;&gt;Quindi…&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Conosciamo la numerazione in base 2;&lt;/li&gt;
+&lt;li&gt;Conosciamo la numerazione in base 10;&lt;/li&gt;
+&lt;li&gt;Sappiamo passare da una base di numerazione all&amp;rsquo;altra (cioé convertire i numeri in bit).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come digitalizziamo invece la lettera “a”?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-rappresentazione-del-testo&#34;&gt;La rappresentazione del testo&lt;/h3&gt;
+&lt;p&gt;Viene realizzata con codici binari corrispondenti a caratteri.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;alfabeto anglosassone ha circa 120 caratteri (maiuscole + minuscole + numeri + interpunzione + &amp;hellip;)&lt;/p&gt;
+&lt;p&gt;Quanti bit ci servono per coprirli tutti?&lt;/p&gt;
+&lt;p&gt;Bastano 7 bit = 2^7 = 128 simboli.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;american-standard-code-for-information-interchange-ascii&#34;&gt;American Standard Code for Information Interchange (ASCII)&lt;/h3&gt;
+&lt;p&gt;Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.&lt;/p&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A →  1000001&lt;/li&gt;
+&lt;li&gt;B →  1000010&lt;/li&gt;
+&lt;li&gt;BABA → 1000010 1000001 1000010 1000001&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ascii-esteso&#34;&gt;ASCII esteso&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Estensione di ASCII a 8 bit (2^8 = 256 simboli);&lt;/li&gt;
+&lt;li&gt;Codifica quasi tutti i linguaggi occidentali;&lt;/li&gt;
+&lt;li&gt;Include molti altri simboli utili.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CAT → 01000011 01000001 01010100;&lt;/li&gt;
+&lt;li&gt;cat → 01100011 01100001 01110100.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altro-esempio-di-ascii-utf-ecc&#34;&gt;altro esempio di ascii, utf, ecc&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0304.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/&#34;&gt;https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;laltra-metà-del-problema&#34;&gt;L&amp;rsquo;altra metà del problema&lt;/h3&gt;
+&lt;p&gt;La digitalizzazione - cioé codificare contenuto informativo in binario - è solo metà del problema.&lt;/p&gt;
+&lt;p&gt;Dobbiamo anche codificare le caratteristiche del contenuto, incluso quanto segue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come è strutturato il contenuto?&lt;/li&gt;
+&lt;li&gt;A quali altri contenuti è collegato?&lt;/li&gt;
+&lt;li&gt;Dove è stato raccolto?&lt;/li&gt;
+&lt;li&gt;In quali unità è dato?&lt;/li&gt;
+&lt;li&gt;Come dovrebbe essere visualizzato?&lt;/li&gt;
+&lt;li&gt;Quando è stato creato o catturato?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-dati-sopra-e-oltre-i-dati&#34;&gt;I dati sopra (e oltre) i dati&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/photo.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati-1&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/book.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-sono-i-metadati-2&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/spreadsheet.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-termine-ampiamente-utilizzato-ma-variamente-interpretato&#34;&gt;Un termine ampiamente utilizzato ma variamente interpretato&lt;/h3&gt;
+&lt;p&gt;Fino agli anni &amp;lsquo;90, erano associati alla gestione dei dati geospaziali e alla progettazione dei sistemi.&lt;/p&gt;
+&lt;p&gt;Standard, documentazione e dati necessari per l&amp;rsquo;identificazione, la gestione, l&amp;rsquo;interoperabilità e l&amp;rsquo;uso dei dati in un sistema informativo.&lt;/p&gt;
+&lt;p&gt;Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dati-su-dati&#34;&gt;Dati su dati&lt;/h3&gt;
+&lt;p&gt;I metadati possono essere visti come l&amp;rsquo;insieme di tutto ciò che si può dire su un dato (oggetto informativo) in un determinato momento, a qualsiasi livello di aggregazione.&lt;/p&gt;
+&lt;p&gt;Es. una pagina, un capitolo, un libro, una collezione possono avere tutti i propri metadati bibliografici.&lt;/p&gt;
+&lt;p&gt;I dati hanno tre caratteristiche che dovrebbero riflettersi nei metadati che li descrivono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contenuto: ciò che l&amp;rsquo;oggetto contiene o rappresenta (intrinseco all&amp;rsquo;oggetto);&lt;/li&gt;
+&lt;li&gt;Contesto: informazioni su chi, cosa, quando, dove e come l&amp;rsquo;oggetto è stato creato e utilizzato (estrinseco all&amp;rsquo;oggetto):&lt;/li&gt;
+&lt;li&gt;Struttura: le relazioni formali tra gli oggetti informativi, che possono essere intrinseche, estrinseche o entrambe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;funzioni-dei-metadati&#34;&gt;Funzioni dei metadati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizzazione e descrizione dei dati;&lt;/li&gt;
+&lt;li&gt;Validazione e autenticazione dei dati;&lt;/li&gt;
+&lt;li&gt;Ricerca e recupero delle informazioni;&lt;/li&gt;
+&lt;li&gt;Utilizzo e conservazione dei dati.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;caratteristiche-non-ovvie-dei-metadati&#34;&gt;Caratteristiche (non ovvie) dei metadati&lt;/h3&gt;
+&lt;p&gt;I metadati:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Non devono essere per forza digitali;&lt;/li&gt;
+&lt;li&gt;Riguardano più della semplice descrizione dei dati;&lt;/li&gt;
+&lt;li&gt;Possono provenire da diverse fonti;&lt;/li&gt;
+&lt;li&gt;Continuano ad accumularsi durante la vita di un dato;&lt;/li&gt;
+&lt;li&gt;Possono contemporaneamente essere dati per qualcun&amp;rsquo;altro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esistono-diverse-tipologie-di-metadati-e-diversi-modi-di-classificarli&#34;&gt;Esistono diverse tipologie di metadati (e diversi modi di classificarli)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Descrittivi&lt;/strong&gt;: permettono la scoperta, l&amp;rsquo;identificazione e la selezione della risorsa. Includono elementi come &amp;ldquo;titolo&amp;rdquo;, &amp;ldquo;autore&amp;rdquo;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tecnici&lt;/strong&gt;: forniscono informazioni sul funzionamento o comportamento della risorsa. Includono elementi come &amp;ldquo;formato&amp;rdquo;, &amp;ldquo;compression ratio&amp;rdquo;, &amp;ldquo;password&amp;rdquo;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amministrativi&lt;/strong&gt;: facilitano la gestione della risorsa. Includono elementi come &amp;ldquo;identificativo&amp;rdquo;, &amp;ldquo;licenza&amp;rdquo;, &lt;em&gt;provenance&lt;/em&gt;, ecc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;h2 id=&#34;standard&#34;&gt;STANDARD&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;in-cosa-dovrebbero-consistere-dei-metadati-per-essere-buoni-metadati&#34;&gt;In cosa dovrebbero consistere dei metadati per essere &amp;ldquo;buoni&amp;rdquo; metadati?&lt;/h3&gt;
+&lt;p&gt;I metadati dovrebbero focalizzarsi su:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cosa&lt;/li&gt;
+&lt;li&gt;Quando&lt;/li&gt;
+&lt;li&gt;Dove&lt;/li&gt;
+&lt;li&gt;Chi&lt;/li&gt;
+&lt;li&gt;Come&lt;/li&gt;
+&lt;li&gt;Da quale&lt;/li&gt;
+&lt;li&gt;Perché&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;in-principio-lidea-è-semplice&#34;&gt;In principio, l&amp;rsquo;idea è semplice&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;applicazione dei metadati in un caso concreto, però, è complessa: da dove partiamo? Come descriviamo i dati in modo tale da renderli consistenti e gestibili da me e altre persone? Come lo facciamo in una maniera scalabile?&lt;/p&gt;
+&lt;p&gt;Fortunatamente, esistono gli schemi di metadati.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-metadati-seguono-degli-schemi&#34;&gt;I metadati seguono degli schemi&lt;/h3&gt;
+&lt;p&gt;Strutture concettuali che specificano quali metadati utilizzare e secondo quali regole.&lt;/p&gt;
+&lt;p&gt;Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una vera e propria lingua comune dei dati descritti.&lt;/p&gt;
+&lt;p&gt;Spesso specifici per ambito disciplinare, consolidati a livello delle comunità di ricerca, e implementati da piattaforme online (es. cataloghi, registri, basi di dati, portali, ecc.).&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-decidiamo-di-descrivere-un-libro&#34;&gt;Esempio: decidiamo di descrivere un libro&lt;/h3&gt;
+&lt;p&gt;Per farlo, usiamo una serie di metadati come:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titolo: &amp;ldquo;Neuromante&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Autore: &amp;ldquo;William Gibson&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Data di pubblicazione: 1984&lt;/li&gt;
+&lt;li&gt;Genere: &amp;ldquo;cyberpunk&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I termini, molto comuni, li abbiamo decisi noi.&lt;/p&gt;
+&lt;p&gt;Volendo, li possiamo ri-utilizzare per descrivere anche altri libri.&lt;/p&gt;
+&lt;p&gt;Abbiamo creato uno schema di metadati per i libri.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;se-formalmente-validati-e-riconosciuti-diventano-standard&#34;&gt;Se formalmente validati e riconosciuti, diventano standard&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;MARC (standard per la rappresentazione di informazioni bibliografiche)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dublin Core (standard per la rappresentazione di risorse sul Web)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-dublin-core&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
+&lt;p&gt;Schema di metadati per descrivere risorse pubblicate sul Web.&lt;/p&gt;
+&lt;p&gt;Include quindici elementi (poi estesi ulteriormente) ritenuti fondamentali.&lt;/p&gt;
+&lt;p&gt;→ è un minimo comun denominatore: semplice, economico, facile da imparare e da usare.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;schemi-di-codifica&#34;&gt;Schemi di codifica&lt;/h3&gt;
+&lt;p&gt;Insieme di regole che specificano sintassi o lessico utilizzati dai metadati di uno schema di metadati.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schema di codifica sintattica: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date)&lt;/li&gt;
+&lt;li&gt;Vocabolario controllato: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT)&lt;/li&gt;
+&lt;li&gt;Authority file: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. VIAF)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-62-delle-persone-a-bruxelles-non-è-nato-in-belgio&#34;&gt;&amp;ldquo;Il 62% delle persone a Bruxelles non è nato in Belgio&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Una statistica piuttosto interessante.&lt;/p&gt;
+&lt;p&gt;Merita di essere in prima pagina in un articolo di giornale, no?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Secondo l&amp;rsquo;articolo, Bruxelles è la città con la seconda percentuale più alta di residenti nati all&amp;rsquo;estero, dopo Dubai (83%), ma prima di Toronto, Auckland e Sydney.&lt;/p&gt;
+&lt;p&gt;Anche considerando che Bruxelles è la sede delle istituzioni dell&amp;rsquo;Unione Europea, questa percentuale rimane notevolmente alta.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;autore ha trovato questa statistica in una fonte molto affidabile: il World Migration Report 2015, pubblicato dall&amp;rsquo;Organizzazione Internazionale per le Migrazioni delle Nazioni Unite (IOM).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;troppo-bello-per-essere-vero&#34;&gt;Troppo bello per essere vero&lt;/h3&gt;
+&lt;p&gt;La fonte riportata sotto il grafico (&amp;ldquo;Compilato dall&amp;rsquo;IOM da varie fonti&amp;rdquo;) avrebbe dovuto essere un campanello d&amp;rsquo;allarme.&lt;/p&gt;
+&lt;p&gt;La fonte per la percentuale di popolazione nata all&amp;rsquo;estero a Bruxelles è l&amp;rsquo;articolo Belgium: A Country of Permanent Immigration, che menziona:&lt;/p&gt;
+&lt;p&gt;Nelle due città più grandi, i dati demografici dimostrano la natura permanentemente diversificata del Belgio: ad Anversa, quasi il 38% della popolazione ha origini straniere, mentre circa il 18% ha una nazionalità straniera; a Bruxelles, quasi il 62% ha origini straniere e circa il 31% ha una nazionalità straniera.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;uninterpretazione-sbagliata-delle-fonti&#34;&gt;Un&amp;rsquo;interpretazione sbagliata delle fonti&lt;/h3&gt;
+&lt;p&gt;La fonte originale utilizzava l&amp;rsquo;espressione &amp;ldquo;di origine straniera&amp;rdquo; e non &amp;ldquo;nato all&amp;rsquo;estero&amp;rdquo;, con una definizione in Belgio che include chi ha almeno un genitore senza nazionalità belga.&lt;/p&gt;
+&lt;p&gt;Questo ha portato a un errore nel World Migration Report, che ha erroneamente interpretato i dati come relativi alla popolazione nata all&amp;rsquo;estero.&lt;/p&gt;
+&lt;p&gt;Gli autori del rapporto non avevano esaminato correttamente i metadati della fonte.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-rapimento-a-chibok&#34;&gt;Il rapimento a Chibok&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;76 ragazze furono rapite da una scuola a Chibok, nell&amp;rsquo;est della Nigeria, dal gruppo terroristico Boko Haram.&lt;/p&gt;
+&lt;p&gt;FiveThirtyEight cercò di inserire questo orribile evento in un contesto storico, esaminando il quadro generale in un articolo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rapimenti-o-_notizie_-sui-rapimenti&#34;&gt;Rapimenti o &lt;em&gt;notizie&lt;/em&gt; sui rapimenti?&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;articolo ha subito critiche per la fonte utilizzata per i dati nel grafico e per l&amp;rsquo;analisi nel contenuto.&lt;/p&gt;
+&lt;p&gt;I numeri provengono dal Global Database of Events, Language and Tone (GDELT), un database che raccoglie quotidianamente dati su eventi e località in modo automatizzato da migliaia di fonti di notizie, tra cui televisione, stampa e online.&lt;/p&gt;
+&lt;p&gt;Invece di mostrare i &amp;ldquo;rapimenti giornalieri in Nigeria&amp;rdquo;, il grafico mostra i &amp;ldquo;rapporti giornalieri di notizie sui rapimenti in Nigeria&amp;rdquo;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;due-metriche-diverse&#34;&gt;Due metriche diverse&lt;/h3&gt;
+&lt;p&gt;Una tendenza in aumento potrebbe essere dovuta a un numero maggiore di rapimenti, ma anche a un numero maggiore di notizie in generale o a una maggiore attenzione dei media verso il fenomeno.&lt;/p&gt;
+&lt;p&gt;Il problema maggiore è l&amp;rsquo;assunzione che un singolo evento o luogo nel database corrisponda a un singolo rapimento. È molto probabile che più rapporti di notizie nel database facciano riferimento allo stesso evento.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;di-nuovo-uninterpretazione-sbagliata&#34;&gt;Di nuovo, un&amp;rsquo;interpretazione sbagliata&lt;/h3&gt;
+&lt;p&gt;Di conseguenza, l&amp;rsquo;articolo è stato aggiornato, precisando: &amp;ldquo;Questo post dovrebbe fare riferimento ai rapporti dei media sui rapimenti, non ai rapimenti stessi&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Il giornalista di FiveThirtyEight ha preso i dati nel database GDELT per ciò che erano, senza considerare come i dati vengano raccolti e cosa rappresenta ogni record nel database. Questa è un&amp;rsquo;informazione cruciale sui dati (= metadati) per interpretare correttamente le informazioni.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-persone-vengono-uccise-sulla-base-dei-metadati&#34;&gt;Le persone vengono uccise sulla base dei metadati&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>
@@ -3892,8 +4630,7 @@ categoria;&lt;/li&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;capiamo-i-dati-che-abbiamo-1&#34;&gt;Capiamo i dati che abbiamo&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;L&amp;rsquo;appuntamento con il Dott. Watt è martedì alle 14:30 presso il centro medico di Heslington Lane.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;L&amp;rsquo;appuntamento con il Dott. Watt è martedì alle 14:30 presso il centro medico di Heslington Lane.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Questo testo contiene i seguenti campi di dati:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Con chi è l&amp;rsquo;appuntamento;&lt;/li&gt;
@@ -4609,8 +5346,7 @@ Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibili
 &lt;p&gt;Documenta i dettagli nei vari README e/o nel DMP.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[ProjectName]_[DocumentType]_[Date]_[Version].[Extension]&lt;/p&gt;
-&lt;p&gt;ClimateStudy_Report_20240522_v1.0.docx&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;ClimateStudy_Report_20240522_v1.0.docx&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Schweinberger, Martin. 2022. Data Management, Version Control, and Reproducibility. Brisbane: The University of Queensland. url: &lt;a href=&#34;https://slcladal.github.io/repro.html&#34;&gt;https://slcladal.github.io/repro.html&lt;/a&gt; (Version 2022.10.10).
 &lt;/div&gt;
@@ -4934,14 +5670,12 @@ Tomasi, F. (2018). Modelling in the digital humanities: conceptual data models a
 &lt;hr&gt;
 &lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Neuromante, scritto da William Gibson e pubblicato nel 1984, è un libro di 271 pagine e di genere cyberpunk.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire-1&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-esempio-grossolano-giusto-per-capire-2&#34;&gt;Un esempio grossolano, giusto per capire&lt;/h3&gt;
@@ -5683,8 +6417,7 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;hr&gt;
 &lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;scritto da&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;William Gibson&lt;/span&gt; (una &lt;span class=&#34;class&#34;&gt;persona&lt;/span&gt;) e &lt;span class=&#34;attribute&#34;&gt;pubblicato nel 1984&lt;/span&gt;, &lt;span class=&#34;relation&#34;&gt;è un&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; &lt;span class=&#34;attribute&#34;&gt;di 271 pagine&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;di genere&lt;/span&gt; &lt;span class=&#34;entity&#34;&gt;cyberpunk&lt;/span&gt; (un &lt;span class=&#34;class&#34;&gt;genere&lt;/span&gt;).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Individuiamo &lt;span class=&#34;class&#34;&gt;classi&lt;/span&gt;, &lt;span class=&#34;entity&#34;&gt;entità&lt;/span&gt;, &lt;span class=&#34;attribute&#34;&gt;attributi&lt;/span&gt; e &lt;span class=&#34;relation&#34;&gt;relazioni&lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;riprendiamo-il-nostro-esempio-con-neuromante-1&#34;&gt;Riprendiamo il nostro esempio con Neuromante&lt;/h3&gt;
@@ -5836,39 +6569,31 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;h3 id=&#34;una-precisazione-i-_namespace_&#34;&gt;Una precisazione: i &lt;em&gt;namespace&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Cosa notate?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;uno-è-luri-del-modello-laltro-è-di-una-classe-appartenente-a-quel-modello&#34;&gt;Uno è l&amp;rsquo;URI &amp;ldquo;del modello&amp;rdquo;, l&amp;rsquo;altro è di una classe appartenente a quel modello&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt; (URI &amp;ldquo;del modello&amp;rdquo;)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt; (URI &amp;ldquo;del modello&amp;rdquo;)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch/Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch/Book&lt;/a&gt;&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;la-parte-di-uri-in-comune-fa-da-base-per-gli-uri-degli-elementi-classi-proprietà-entità-fa-cioè-da-_namespace_&#34;&gt;La parte di URI in comune fa da &amp;ldquo;base&amp;rdquo; per gli URI degli elementi (classi, proprietà, entità): fa cioè da &lt;em&gt;namespace&lt;/em&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; (URI del modello)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; (URI del modello)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;/Book&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;/Book&lt;/em&gt; (URI della classe Book del modello)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;lultima-parte-delluri-dellelemento-si-riferisce-allelemento&#34;&gt;L&amp;rsquo;ultima parte dell&amp;rsquo;URI dell&amp;rsquo;elemento si riferisce all&amp;rsquo;elemento&lt;/h3&gt;
 &lt;p&gt;Inizia con un separatore (di solito un &lt;code&gt;/&lt;/code&gt; o un &lt;code&gt;#&lt;/code&gt;).&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;/Book&lt;/em&gt;&lt;/strong&gt; (URI della classe Book del modello)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/dhdmch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/dhdmch&lt;/a&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;/Book&lt;/em&gt;&lt;/strong&gt; (URI della classe Book del modello)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-discorso-vale-anche-per-i-dati&#34;&gt;Il discorso vale anche per i dati&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://example.org/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data&lt;/a&gt;&lt;/em&gt;
-&lt;em&gt;&lt;a href=&#34;http://example.org/data/neuromante&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromante&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;em&gt;&lt;a href=&#34;http://example.org/data/neuromante&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://example.org/data/neuromante&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-piccolo-limite-di-rdf-in-quanto-modello-di-dati&#34;&gt;Un piccolo limite di RDF in quanto modello di dati&lt;/h3&gt;
 &lt;p&gt;Dice &lt;em&gt;cosa&lt;/em&gt; fare, ma non dice:&lt;/p&gt;
@@ -5883,15 +6608,13 @@ Jonathan Blaney, &#34;Introduction to the Principles of Linked Open Data,&#34; P
 &lt;p&gt;Una tripla in Turtle è scritta sequenziando soggetto, predicato e oggetto uno dopo l&amp;rsquo;altro e separati da uno spazio.&lt;/p&gt;
 &lt;p&gt;Una tripla finisce sempre con un punto.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;[SOGGETTO]&lt;/code&gt; &lt;code&gt;[PREDICATO]&lt;/code&gt; &lt;code&gt;[OGGETTO]&lt;/code&gt; .&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;[SOGGETTO]&lt;/code&gt; &lt;code&gt;[PREDICATO]&lt;/code&gt; &lt;code&gt;[OGGETTO]&lt;/code&gt; .&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;anche-altre-serializzazioni-fanno-cose-simili&#34;&gt;Anche altre serializzazioni fanno cose simili&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;Esempio:
 &lt;span class=&#34;entity&#34;&gt;Neuromante&lt;/span&gt; è un &lt;span class=&#34;class&#34;&gt;libro&lt;/span&gt; diventa&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;lt;http://example.org/data/neuromancer&amp;gt; &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://example.org/dhdmch/Book&amp;gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&amp;lt;http://example.org/data/neuromancer&amp;gt; &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://example.org/dhdmch/Book&amp;gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ma-turtle-è-più-leggibile-grazie-ai-_prefissi_&#34;&gt;Ma Turtle è più leggibile, grazie ai &lt;em&gt;prefissi&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Turtle permette di usare &lt;strong&gt;prefissi&lt;/strong&gt; per accorciare gli URI degli elementi (sostituendo la base offerta dai rispettivi modelli) e rendere le triple più leggibili.&lt;/p&gt;
@@ -6549,8 +7272,7 @@ E ora torniamo a &lt;a href=&#34;www.github.com&#34;&gt;primo link&lt;/a&gt;.&lt
 &lt;p&gt;Per creare una citazione, tutto quello che devi fare è precedere la linea con il simbolo &amp;ldquo;maggiore di&amp;rdquo; &lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;gt; Questa è una citazione.&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Questa è una citazione.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Questa è una citazione.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;liste&#34;&gt;Liste&lt;/h3&gt;
 &lt;p&gt;Esistono due tipi di liste: ordinate e non ordinate.&lt;/p&gt;
@@ -6785,53 +7507,43 @@ Ram, K. (2013). Git can facilitate greater reproducibility and increased transpa
 &lt;hr&gt;
 &lt;h3 id=&#34;repository-repo&#34;&gt;Repository (&amp;ldquo;repo&amp;rdquo;)&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Cartella contenente tutti i file di un progetto, insieme alla cronologia completa delle modifiche che sono state fatte su di essi.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Cartella contenente tutti i file di un progetto, insieme alla cronologia completa delle modifiche che sono state fatte su di essi.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;commit&#34;&gt;Commit&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Operazione che registra le modifiche apportate ai file in una repository (simile ad una &amp;ldquo;fotografia&amp;rdquo; dello stato del progetto in un determinato momento).&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Operazione che registra le modifiche apportate ai file in una repository (simile ad una &amp;ldquo;fotografia&amp;rdquo; dello stato del progetto in un determinato momento).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;branch&#34;&gt;Branch&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Copia indipendente del progetto ma collegata ad esso, utile per apportare modifiche senza influire sui file originali.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Copia indipendente del progetto ma collegata ad esso, utile per apportare modifiche senza influire sui file originali.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;merge&#34;&gt;Merge&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Operazione che unisce le modifiche fatte in un branch con un&amp;rsquo;altro branch (di solito quello principale).&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Operazione che unisce le modifiche fatte in un branch con un&amp;rsquo;altro branch (di solito quello principale).&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;clone&#34;&gt;Clone&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Copia locale di una repository.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Copia locale di una repository.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pull&#34;&gt;Pull&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Operazione che scarica le modifiche da una repository remota ad un clone sul tuo computer.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Operazione che scarica le modifiche da una repository remota ad un clone sul tuo computer.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;push&#34;&gt;Push&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Operazione che invia le modifiche da un clone sul tuo computer ad una repository remota.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Operazione che invia le modifiche da un clone sul tuo computer ad una repository remota.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;conflict&#34;&gt;Conflict&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Evento che si verifica quando si cerca di unire due modifiche incompatibili fatte sugli stessi file in branch diversi.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Evento che si verifica quando si cerca di unire due modifiche incompatibili fatte sugli stessi file in branch diversi.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;fork&#34;&gt;Fork&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Copia online di una repository.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Copia online di una repository.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pull-request&#34;&gt;Pull request&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Proposta di modifica inviata ad una repository remota.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Proposta di modifica inviata ad una repository remota.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;github-è-una-piattaforma-online-per-repository-git&#34;&gt;GitHub è una piattaforma online per repository Git&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;&lt;/p&gt;
