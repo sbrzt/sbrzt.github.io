@@ -425,7 +425,7 @@ Mettendo insieme più bit possiamo rappresentare più informazioni e quindi più
 
 ...
 
-Con `N bit` possiamo rappresentare 2<sup>N</sup> sequenze: da 0 a 2<sup>N</sup>-1.
+Con `n bit` possiamo rappresentare 2<sup>n</sup> sequenze: da 0 a 2<sup>n</sup>-1.
 
 8 bit costituiscono un **byte**.
 
@@ -451,10 +451,12 @@ Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i rest
 
 12
 
-12 / 2 → resto 0       ^  
-= 6 / 2 → resto 0      |  
-= 3 / 2 → resto 1      |  
-= 1 / 2 → resto 1      |  
+12 / 2 → resto 0
+= 6 / 2 → resto 0
+= 3 / 2 → resto 1
+= 1 / 2 → resto 1 
+
+Prendiamo i resti dall'ultimo al primo:
 
 = 1100
 
@@ -466,7 +468,7 @@ Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i rest
 * Conosciamo la numerazione in base 10;
 * Sappiamo passare da una base di numerazione all'altra (cioé convertire i numeri in bit).
 
-Come digitalizziamo invece la lettera “a”?
+Come digitalizziamo invece la lettera `a`?
 
 ---
 
@@ -486,13 +488,13 @@ Bastano 7 bit = 2<sup>7</sup> = 128 sequenze.
 
 ### American Standard Code for Information Interchange (ASCII)
 
-Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.
+Codifica secondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.
 
 Esempi:
 
-* A → 1000001
-* B → 1000010 
-* BABA → 1000010 1000001 1000010 1000001
+* `A` → `1000001`;
+* `B` → `1000010`;
+* `BABA` → `1000010 1000001 1000010 1000001`.
 
 ---
 
@@ -504,8 +506,8 @@ Esempi:
 
 Esempi:
 
-* CAT → 01000011 01000001 01010100;
-* cat → 01100011 01100001 01110100.
+* `CAT` → `01000011 01000001 01010100`;
+* `cat` → `01100011 01100001 01110100`.
 
 ---
 
@@ -663,7 +665,7 @@ I metadati dovrebbero focalizzarsi su:
 * Dove
 * Chi
 * Come
-* Da quale
+* Da quale fonte
 * Perché
 
 <div class="footer">
@@ -774,10 +776,10 @@ Abbiamo creato uno schema di metadati per i libri.
   <div style="flex: 1;">
     <ul>
     <li>
-      Standard per i contenuti dei dati: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date, o ISO 639 per le lingue);
+      <strong>Standard per i contenuti dei dati</strong>: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. <a href="https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/">ISO 8601</a> per le date, o <a href="https://it.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> per le lingue);
     </li>
     <li>
-      Standard per i valori dei dati: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT);
+      <strong>Standard per i valori dei dati</strong>: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. <a href="https://en.wikipedia.org/wiki/Art_%26_Architecture_Thesaurus">AAT</a>);
     </li>
     </ul>
   </div>

@@ -626,7 +626,7 @@ History of the Binary System. In Cut The Knot.
 <p>2 bit : 4 (2<sup>2</sup>) sequenze possibili: 00, 01, 10, 11.</p>
 <p>3 bit: 8 (2<sup>3</sup>) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.</p>
 <p>&hellip;</p>
-<p>Con <code>N bit</code> possiamo rappresentare 2<sup>N</sup> sequenze: da 0 a 2<sup>N</sup>-1.</p>
+<p>Con <code>n bit</code> possiamo rappresentare 2<sup>n</sup> sequenze: da 0 a 2<sup>n</sup>-1.</p>
 <p>8 bit costituiscono un <strong>byte</strong>.</p>
 
     </section>
@@ -658,10 +658,11 @@ History of the Binary System. In Cut The Knot.
 <h3 id="codifica-numerica-da-base-10-a-base-2">Codifica numerica da base 10 a base 2</h3>
 <p>Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.</p>
 <p>12</p>
-<p>12 / 2 → resto 0       ^<br>
-= 6 / 2 → resto 0      |<br>
-= 3 / 2 → resto 1      |<br>
-= 1 / 2 → resto 1      |</p>
+<p>12 / 2 → resto 0
+= 6 / 2 → resto 0
+= 3 / 2 → resto 1
+= 1 / 2 → resto 1</p>
+<p>Prendiamo i resti dall&rsquo;ultimo al primo:</p>
 <p>= 1100</p>
 
     </section>
@@ -679,7 +680,7 @@ History of the Binary System. In Cut The Knot.
 <li>Conosciamo la numerazione in base 10;</li>
 <li>Sappiamo passare da una base di numerazione all&rsquo;altra (cioé convertire i numeri in bit).</li>
 </ul>
-<p>Come digitalizziamo invece la lettera “a”?</p>
+<p>Come digitalizziamo invece la lettera <code>a</code>?</p>
 
     </section>
     
@@ -716,12 +717,12 @@ History of the Binary System. In Cut The Knot.
     
       
 <h3 id="american-standard-code-for-information-interchange-ascii">American Standard Code for Information Interchange (ASCII)</h3>
-<p>Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.</p>
+<p>Codifica secondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.</p>
 <p>Esempi:</p>
 <ul>
-<li>A → 1000001</li>
-<li>B → 1000010</li>
-<li>BABA → 1000010 1000001 1000010 1000001</li>
+<li><code>A</code> → <code>1000001</code>;</li>
+<li><code>B</code> → <code>1000010</code>;</li>
+<li><code>BABA</code> → <code>1000010 1000001 1000010 1000001</code>.</li>
 </ul>
 
     </section>
@@ -741,8 +742,8 @@ History of the Binary System. In Cut The Knot.
 </ul>
 <p>Esempi:</p>
 <ul>
-<li>CAT → 01000011 01000001 01010100;</li>
-<li>cat → 01100011 01100001 01110100.</li>
+<li><code>CAT</code> → <code>01000011 01000001 01010100</code>;</li>
+<li><code>cat</code> → <code>01100011 01100001 01110100</code>.</li>
 </ul>
 
     </section>
@@ -983,7 +984,7 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a
 <li>Dove</li>
 <li>Chi</li>
 <li>Come</li>
-<li>Da quale</li>
+<li>Da quale fonte</li>
 <li>Perché</li>
 </ul>
 <div class="footer">
@@ -1127,10 +1128,10 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a
   <div style="flex: 1;">
     <ul>
     <li>
-      Standard per i contenuti dei dati: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date, o ISO 639 per le lingue);
+      <strong>Standard per i contenuti dei dati</strong>: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. <a href="https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/">ISO 8601</a> per le date, o <a href="https://it.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> per le lingue);
     </li>
     <li>
-      Standard per i valori dei dati: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT);
+      <strong>Standard per i valori dei dati</strong>: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. <a href="https://en.wikipedia.org/wiki/Art_%26_Architecture_Thesaurus">AAT</a>);
     </li>
     </ul>
   </div>

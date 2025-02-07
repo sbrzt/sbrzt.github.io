@@ -2535,7 +2535,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Novelli, A. (2023). Il disastro del Mars Climate Orbiter. Astrospace.
+ &lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;lerrore-da-125-milioni-di-dollari&#34;&gt;L&amp;rsquo;errore da 125 milioni di dollari&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -2555,6 +2558,10 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
       Alle 2:27 del mattino, la sonda scompare dietro Marte per non riapparire mai più.
     &lt;/p&gt;
   &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Novelli, A. (2023). Il disastro del Mars Climate Orbiter. Astrospace.
+ &lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-motivo-del-fallimento&#34;&gt;Il motivo del fallimento&lt;/h3&gt;
@@ -2576,10 +2583,18 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Novelli, A. (2023). Il disastro del Mars Climate Orbiter. Astrospace.
+ &lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;due-lingue-diverse&#34;&gt;Due lingue diverse&lt;/h3&gt;
 &lt;p&gt;La Lockheed Martin, azienda incaricata di realizzare la sonda e alcuni strumenti usati dai tecnici per gestirla, aveva adottato la &lt;strong&gt;libbra-forza per secondo&lt;/strong&gt; come unità di misura per il ricalcolo.&lt;/p&gt;
 &lt;p&gt;La NASA, invece, utilizzava il &lt;strong&gt;Newton per secondo&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Novelli, A. (2023). Il disastro del Mars Climate Orbiter. Astrospace.
+ &lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;tra-codifiche-e-metadati&#34;&gt;Tra codifiche e metadati&lt;/h3&gt;
 &lt;p&gt;Senza le unità di misura, i dati numerici non hanno significato, e assumere erroneamente determinate unità può portare a gravi problemi.&lt;/p&gt;
@@ -2747,15 +2762,15 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditC
 &lt;p&gt;La codifica più comunemente adottata oggi per la rappresentazione dei numeri interi.&lt;/p&gt;
 &lt;p&gt;Il termine &lt;strong&gt;decimale&lt;/strong&gt; indica il numero di simboli utilizzati (&lt;strong&gt;cifre&lt;/strong&gt;): &lt;code&gt;{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Il termine &lt;strong&gt;posizionale&lt;/strong&gt; indica che il significato dei simboli cambia in base alla loro posizione. Il numero rappresentato da ogni simbolo è moltiplicato per una potenza di 10 (il numero di simboli che cotituiscono l&amp;rsquo;alfabeto, la &lt;strong&gt;base&lt;/strong&gt;).&lt;/p&gt;
-&lt;p&gt;Con &lt;code&gt;N&lt;/code&gt; cifre è possibile rappresentare &lt;code&gt;10^N&lt;/code&gt; numeri naturali: da 0 a 10^N-1.&lt;/p&gt;
-&lt;p&gt;Es. con 4 cifre possiamo rappresentare 10^4 numeri (da 0 a 9999).&lt;/p&gt;
+&lt;p&gt;Con &lt;code&gt;n&lt;/code&gt; cifre è possibile rappresentare 10&lt;sup&gt;n&lt;/sup&gt; numeri naturali: da 0 a 10&lt;sup&gt;n&lt;/sup&gt;-1.&lt;/p&gt;
+&lt;p&gt;Es. con 4 cifre possiamo rappresentare 10&lt;sup&gt;4&lt;/sup&gt; numeri (da 0 a 9999).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html &lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-il-numero-2465&#34;&gt;Esempio: il numero 2465&lt;/h3&gt;
 &lt;p&gt;Il significato di ogni simbolo dipende dalla posizione di questo all&amp;rsquo;interno della sequenza di simboli creata in base alla loro combinazione.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2 X 10^3 + 4 X 10^2 + 6 X 10^1 + 5 X 10^0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2 X 10&lt;sup&gt;3&lt;/sup&gt; + 4 X 10&lt;sup&gt;2&lt;/sup&gt; + 6 X 10&lt;sup&gt;1&lt;/sup&gt; + 5 X 10&lt;sup&gt;0&lt;/sup&gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Che equivale a 2 &lt;em&gt;migliaia&lt;/em&gt; + 4 &lt;em&gt;centinaia&lt;/em&gt; + 6 &lt;em&gt;decine&lt;/em&gt; + 5 &lt;em&gt;unità&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&lt;/a&gt;.
@@ -2835,7 +2850,7 @@ History of the Binary System. In Cut The Knot.
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;-ma-se-usassimo-più-bit&#34;&gt;&amp;hellip; Ma se usassimo più bit?&lt;/h3&gt;
-&lt;p&gt;Proviamo a rappresentare le stagioni con una codifica binaria. Le stagioni sono 4, quindi ci servono 2 bit (2^2 sequenze possibili).&lt;/p&gt;
+&lt;p&gt;Proviamo a rappresentare le stagioni con una codifica binaria. Le stagioni sono 4, quindi ci servono 2 bit (2&lt;sup&gt;2&lt;/sup&gt; sequenze possibili).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;00 → Primavera;&lt;/li&gt;
 &lt;li&gt;10 → Estate;&lt;/li&gt;
@@ -2845,33 +2860,29 @@ History of the Binary System. In Cut The Knot.
 &lt;p&gt;Mettendo insieme più bit possiamo rappresentare più informazioni e quindi più complessità.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;la-binarietà-è-conveniente&#34;&gt;La binarietà è conveniente&lt;/h3&gt;
-&lt;p&gt;2 bit : 4 (2^2) sequenze possibili: 00, 01, 10, 11.&lt;/p&gt;
-&lt;p&gt;3 bit: 8 (2^3) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.&lt;/p&gt;
+&lt;p&gt;2 bit : 4 (2&lt;sup&gt;2&lt;/sup&gt;) sequenze possibili: 00, 01, 10, 11.&lt;/p&gt;
+&lt;p&gt;3 bit: 8 (2&lt;sup&gt;3&lt;/sup&gt;) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Con &lt;code&gt;N bit&lt;/code&gt; possiamo rappresentare &lt;code&gt;2^N sequenze&lt;/code&gt;: da 0 a 2^N-1.&lt;/p&gt;
+&lt;p&gt;Con &lt;code&gt;N bit&lt;/code&gt; possiamo rappresentare 2&lt;sup&gt;N&lt;/sup&gt; sequenze: da 0 a 2&lt;sup&gt;N&lt;/sup&gt;-1.&lt;/p&gt;
 &lt;p&gt;8 bit costituiscono un &lt;strong&gt;byte&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;codifica-numerica-da-base-2-a-base-10&#34;&gt;Codifica numerica da base 2 a base 10&lt;/h3&gt;
-&lt;p&gt;Moltiplicare ogni bit per il suo peso (attenzione a partire da 2^n-1!) e sommare le potenze.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10100  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1 X 2^4 + 0 X 2^3 + 1 X 2^2 + 0 X 2^1 + 0 X 2^0  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 X 16 + 0 X 8 + 1 X 4 + 0 X 2 + 0 X 1  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 16 + 0 + 4 + 0 + 0  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 20  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Moltiplicare ogni bit per il suo peso (attenzione a partire da 2&lt;sup&gt;n&lt;/sup&gt;-1!) e sommare le potenze.&lt;/p&gt;
+&lt;p&gt;10100&lt;/p&gt;
+&lt;p&gt;1 X 2&lt;sup&gt;4&lt;/sup&gt; + 0 X 2&lt;sup&gt;3&lt;/sup&gt; + 1 X 2&lt;sup&gt;2&lt;/sup&gt; + 0 X 2&lt;sup&gt;1&lt;/sup&gt; + 0 X 2&lt;sup&gt;0&lt;/sup&gt;&lt;br&gt;
+= 1 X 16 + 0 X 8 + 1 X 4 + 0 X 2 + 0 X 1&lt;br&gt;
+= 16 + 0 + 4 + 0 + 0&lt;/p&gt;
+&lt;p&gt;= 20&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;codifica-numerica-da-base-10-a-base-2&#34;&gt;Codifica numerica da base 10 a base 2&lt;/h3&gt;
 &lt;p&gt;Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12 / 2 → resto 0       ^
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 6 / 2 → resto 0      |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 3 / 2 → resto 1      |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 / 2 → resto 1      |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1100
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;p&gt;12 / 2 → resto 0       ^&lt;br&gt;
+= 6 / 2 → resto 0      |&lt;br&gt;
+= 3 / 2 → resto 1      |&lt;br&gt;
+= 1 / 2 → resto 1      |&lt;/p&gt;
+&lt;p&gt;= 1100&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;quindi&#34;&gt;Quindi…&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Conosciamo la numerazione in base 2;&lt;/li&gt;
@@ -2885,7 +2896,7 @@ History of the Binary System. In Cut The Knot.
 &lt;h3 id=&#34;i-caratteri-corrispondono-a-codici-binari&#34;&gt;I caratteri corrispondono a codici binari&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;alfabeto anglosassone ha circa 120 caratteri (maiuscole + minuscole + numeri + interpunzione + &amp;hellip;)&lt;/p&gt;
 &lt;p&gt;Quanti bit ci servono per coprirli tutti?&lt;/p&gt;
-&lt;p&gt;Bastano 7 bit = 2^7 = 128 sequenze.&lt;/p&gt;
+&lt;p&gt;Bastano 7 bit = 2&lt;sup&gt;7&lt;/sup&gt; = 128 sequenze.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;american-standard-code-for-information-interchange-ascii&#34;&gt;American Standard Code for Information Interchange (ASCII)&lt;/h3&gt;
 &lt;p&gt;Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.&lt;/p&gt;
@@ -2898,7 +2909,7 @@ History of the Binary System. In Cut The Knot.
 &lt;hr&gt;
 &lt;h3 id=&#34;ascii-esteso&#34;&gt;ASCII esteso&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Estensione di ASCII a 8 bit (2^8 = 256 simboli);&lt;/li&gt;
+&lt;li&gt;Estensione di ASCII a 8 bit (2&lt;sup&gt;8&lt;/sup&gt; = 256 simboli);&lt;/li&gt;
 &lt;li&gt;Codifica quasi tutti i linguaggi occidentali;&lt;/li&gt;
 &lt;li&gt;Include molti altri simboli utili.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2918,7 +2929,7 @@ History of the Binary System. In Cut The Knot.
 &lt;hr&gt;
 &lt;h3 id=&#34;laltra-metà-del-problema&#34;&gt;L&amp;rsquo;altra metà del problema&lt;/h3&gt;
 &lt;p&gt;La digitalizzazione - cioé codificare contenuto informativo in binario - è solo metà del problema.&lt;/p&gt;
-&lt;p&gt;Dobbiamo anche codificare le caratteristiche del contenuto, contestualizzarlo (&amp;ldquo;specificare le unità di misura&amp;rdquo;, nel caso della sonda spaziale).&lt;/p&gt;
+&lt;p&gt;Dobbiamo anche codificare le caratteristiche del contenuto, cioé contestualizzarlo (&amp;ldquo;specificare le unità di misura&amp;rdquo;, nel caso della sonda spaziale).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;i-dati-sopra-e-oltre-i-dati&#34;&gt;I dati sopra (e oltre) i dati&lt;/h2&gt;
 &lt;hr&gt;
@@ -2962,7 +2973,18 @@ History of the Binary System. In Cut The Knot.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications.
+ &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;sembra-roba-complicata&#34;&gt;Sembra roba complicata&amp;hellip;&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0320.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: Margaritopoulos, Merkourios &amp; Margaritopoulos, Thomas &amp; Mavridis, Ioannis &amp; Manitsaris, Athanasios. (2012). Quantifying and Measuring Metadata Completeness. Journal of the American Society for Information Science and Technology. 63. &lt;a href=&#34;http://dx.doi.org/10.1002/asi.21706&#34;&gt;http://dx.doi.org/10.1002/asi.21706&lt;/a&gt;. 
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-metadati-dovrebbero-riflettere-tre-caratteristiche-di-ciò-che-descrivono&#34;&gt;I metadati dovrebbero riflettere tre caratteristiche di ciò che descrivono&lt;/h3&gt;
 &lt;ul&gt;
@@ -2970,7 +2992,10 @@ History of the Binary System. In Cut The Knot.
 &lt;li&gt;&lt;strong&gt;Contesto&lt;/strong&gt;: informazioni su chi, cosa, quando, dove e come l&amp;rsquo;oggetto è stato creato e utilizzato (estrinseco all&amp;rsquo;oggetto):&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Struttura&lt;/strong&gt;: le relazioni formali tra gli oggetti informativi, che possono essere intrinseche, estrinseche o entrambe.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications.
+ &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;funzioni-dei-metadati&#34;&gt;Funzioni dei metadati&lt;/h3&gt;
 &lt;ul&gt;
@@ -2979,6 +3004,10 @@ History of the Binary System. In Cut The Knot.
 &lt;li&gt;Ricerca e recupero;&lt;/li&gt;
 &lt;li&gt;Utilizzo e conservazione.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications.
+ &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;caratteristiche-non-ovvie-dei-metadati&#34;&gt;Caratteristiche (non ovvie) dei metadati&lt;/h3&gt;
 &lt;ul&gt;
@@ -2988,6 +3017,10 @@ History of the Binary System. In Cut The Knot.
 &lt;li&gt;Continuano ad accumularsi durante tutto il ciclo di vita di un dato;&lt;/li&gt;
 &lt;li&gt;Possono essere metadati per qualcuno e dati per qualcun&amp;rsquo;altro.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications.
+ &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esistono-diverse-tipologie-di-metadati-e-diversi-modi-di-classificarli&#34;&gt;Esistono diverse tipologie di metadati (e diversi modi di classificarli)&lt;/h3&gt;
 &lt;ul&gt;
@@ -3010,12 +3043,16 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;li&gt;Da quale&lt;/li&gt;
 &lt;li&gt;Perché&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.researchgate.net/publication/220144233_A_Semiotics_Framework_for_Analyzing_Data_Provenance_Research&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ram, Sudha &amp; Liu, Jun. (2008). A Semiotics Framework for Analyzing Data Provenance Research. JCSE. 2. 221-248. &lt;a href=&#34;http://dx.doi.org/10.5626/JCSE.2008.2.3.221&#34;&gt;http://dx.doi.org/10.5626/JCSE.2008.2.3.221&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;in-principio-lidea-è-semplice&#34;&gt;In principio, l&amp;rsquo;idea è semplice&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;applicazione dei metadati in un caso concreto, però, è complessa: da dove partiamo? Come descriviamo i dati in modo tale da renderli consistenti e gestibili da me e altre persone? Come lo facciamo in una maniera scalabile?&lt;/p&gt;
 &lt;p&gt;Fortunatamente, esistono gli &lt;strong&gt;schemi di metadati&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Saux, L. (2024). What is metadata and why is it as important as the data itself? Opendatasoft. &lt;a href=&#34;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&#34;&gt;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-metadati-seguono-degli-schemi&#34;&gt;I metadati seguono degli schemi&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -3055,9 +3092,9 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;hr&gt;
 &lt;h3 id=&#34;se-formalmente-validati-e-riconosciuti-diventano-standard&#34;&gt;Se formalmente validati e riconosciuti, diventano standard&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;MARC (standard per la rappresentazione di informazioni bibliografiche);&lt;/li&gt;
-&lt;li&gt;Dublin Core (standard per la rappresentazione di risorse sul Web);&lt;/li&gt;
-&lt;li&gt;CIDOC-CRM (standard per la documentazione di beni culturali).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.loc.gov/marc/bibliographic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MARC&lt;/a&gt; (standard per la rappresentazione di informazioni bibliografiche);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dublincore.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dublin Core&lt;/a&gt; (standard per la rappresentazione di risorse sul Web);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cidoc-crm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIDOC-CRM&lt;/a&gt; (standard per la documentazione di beni culturali).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-dublin-core&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
@@ -3093,57 +3130,97 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;ul&gt;
     &lt;li&gt;
-      Standard per i contenuti dei dati: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date, o ISO 639 per le lingue);
+      &lt;strong&gt;Standard per i contenuti dei dati&lt;/strong&gt;: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. &lt;a href=&#34;https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/iso-8601/&#34;&gt;ISO 8601&lt;/a&gt; per le date, o &lt;a href=&#34;https://it.wikipedia.org/wiki/ISO_639-1&#34;&gt;ISO 639-1&lt;/a&gt; per le lingue);
     &lt;/li&gt;
     &lt;li&gt;
-      Standard per i valori dei dati: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT);
+      &lt;strong&gt;Standard per i valori dei dati&lt;/strong&gt;: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. &lt;a href=&#34;https://en.wikipedia.org/wiki/Art_%26_Architecture_Thesaurus&#34;&gt;AAT&lt;/a&gt;);
     &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;il-62-delle-persone-a-bruxelles-non-è-nato-in-belgio&#34;&gt;&amp;ldquo;Il 62% delle persone a Bruxelles non è nato in Belgio&amp;rdquo;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Una statistica piuttosto interessante.&lt;/p&gt;
-&lt;p&gt;Merita di essere in prima pagina in un articolo di giornale, no?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Secondo l&amp;rsquo;articolo, Bruxelles è la città con la seconda percentuale più alta di residenti nati all&amp;rsquo;estero, dopo Dubai (83%), ma prima di Toronto, Auckland e Sydney.&lt;/p&gt;
-&lt;p&gt;Anche considerando che Bruxelles è la sede delle istituzioni dell&amp;rsquo;Unione Europea, questa percentuale rimane notevolmente alta.&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;autore ha trovato questa statistica in una fonte molto affidabile: il World Migration Report 2015, pubblicato dall&amp;rsquo;Organizzazione Internazionale per le Migrazioni delle Nazioni Unite (IOM).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;troppo-bello-per-essere-vero&#34;&gt;Troppo bello per essere vero&lt;/h3&gt;
-&lt;p&gt;La fonte riportata sotto il grafico (&amp;ldquo;Compilato dall&amp;rsquo;IOM da varie fonti&amp;rdquo;) avrebbe dovuto essere un campanello d&amp;rsquo;allarme.&lt;/p&gt;
-&lt;p&gt;La fonte per la percentuale di popolazione nata all&amp;rsquo;estero a Bruxelles è l&amp;rsquo;articolo Belgium: A Country of Permanent Immigration, che menziona:&lt;/p&gt;
-&lt;p&gt;Nelle due città più grandi, i dati demografici dimostrano la natura permanentemente diversificata del Belgio: ad Anversa, quasi il 38% della popolazione ha origini straniere, mentre circa il 18% ha una nazionalità straniera; a Bruxelles, quasi il 62% ha origini straniere e circa il 31% ha una nazionalità straniera.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;uninterpretazione-sbagliata-delle-fonti&#34;&gt;Un&amp;rsquo;interpretazione sbagliata delle fonti&lt;/h3&gt;
-&lt;p&gt;La fonte originale utilizzava l&amp;rsquo;espressione &amp;ldquo;di origine straniera&amp;rdquo; e non &amp;ldquo;nato all&amp;rsquo;estero&amp;rdquo;, con una definizione in Belgio che include chi ha almeno un genitore senza nazionalità belga.&lt;/p&gt;
-&lt;p&gt;Questo ha portato a un errore nel World Migration Report, che ha erroneamente interpretato i dati come relativi alla popolazione nata all&amp;rsquo;estero.&lt;/p&gt;
-&lt;p&gt;Gli autori del rapporto non avevano esaminato correttamente i metadati della fonte.&lt;/p&gt;
+&lt;h2 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-rapimento-a-chibok&#34;&gt;Il rapimento a Chibok&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;76 ragazze furono rapite da una scuola a Chibok, nell&amp;rsquo;est della Nigeria, dal gruppo terroristico Boko Haram.&lt;/p&gt;
-&lt;p&gt;FiveThirtyEight cercò di inserire questo orribile evento in un contesto storico, esaminando il quadro generale in un articolo.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0321.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://fivethirtyeight.com/features/nigeria-kidnapping/&#34;&gt;https://fivethirtyeight.com/features/nigeria-kidnapping/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+      Aprile 2014: 76 ragazze vengono rapite da una scuola a Chibok, nell&#39;est della Nigeria, dal gruppo terroristico Boko Haram.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Poco dopo, FiveThirtyEight esamina la situazione in un articolo.
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Pitfalls in metadata: 3 stories. &lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;rapimenti-o-_notizie_-sui-rapimenti&#34;&gt;Rapimenti o &lt;em&gt;notizie&lt;/em&gt; sui rapimenti?&lt;/h3&gt;
-&lt;p&gt;L&amp;rsquo;articolo ha subito critiche per la fonte utilizzata per i dati nel grafico e per l&amp;rsquo;analisi nel contenuto.&lt;/p&gt;
-&lt;p&gt;I numeri provengono dal Global Database of Events, Language and Tone (GDELT), un database che raccoglie quotidianamente dati su eventi e località in modo automatizzato da migliaia di fonti di notizie, tra cui televisione, stampa e online.&lt;/p&gt;
-&lt;p&gt;Invece di mostrare i &amp;ldquo;rapimenti giornalieri in Nigeria&amp;rdquo;, il grafico mostra i &amp;ldquo;rapporti giornalieri di notizie sui rapimenti in Nigeria&amp;rdquo;.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0322.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://fivethirtyeight.com/features/nigeria-kidnapping/&#34;&gt;https://fivethirtyeight.com/features/nigeria-kidnapping/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+      L&#39;articolo ha subito critiche per la fonte utilizzata per i dati nel grafico e per l&#39;analisi nel contenuto.
+    &lt;/li&gt;
+    &lt;li&gt;
+      I numeri provengono dal Global Database of Events, Language and Tone (GDELT), un database che raccoglie dati su eventi e località da migliaia di fonti di notizie, tra cui televisione, stampa e online.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Invece di mostrare i &#34;rapimenti giornalieri in Nigeria&#34;, il grafico mostra i &#34;rapporti giornalieri di notizie sui rapimenti in Nigeria&#34;.
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Pitfalls in metadata: 3 stories. &lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;due-metriche-diverse&#34;&gt;Due metriche diverse&lt;/h3&gt;
 &lt;p&gt;Una tendenza in aumento potrebbe essere dovuta a un numero maggiore di rapimenti, ma anche a un numero maggiore di notizie in generale o a una maggiore attenzione dei media verso il fenomeno.&lt;/p&gt;
-&lt;p&gt;Il problema maggiore è l&amp;rsquo;assunzione che un singolo evento o luogo nel database corrisponda a un singolo rapimento. È molto probabile che più rapporti di notizie nel database facciano riferimento allo stesso evento.&lt;/p&gt;
+&lt;p&gt;Il problema maggiore è l&amp;rsquo;assunzione che un singolo evento o luogo nel database corrisponda a un singolo rapimento.&lt;/p&gt;
+&lt;p&gt;È molto probabile che più rapporti di notizie nel database facciano riferimento allo stesso evento.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Pitfalls in metadata: 3 stories. &lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;di-nuovo-uninterpretazione-sbagliata&#34;&gt;Di nuovo, un&amp;rsquo;interpretazione sbagliata&lt;/h3&gt;
 &lt;p&gt;Di conseguenza, l&amp;rsquo;articolo è stato aggiornato, precisando: &amp;ldquo;Questo post dovrebbe fare riferimento ai rapporti dei media sui rapimenti, non ai rapimenti stessi&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Il giornalista di FiveThirtyEight ha preso i dati nel database GDELT per ciò che erano, senza considerare come i dati vengano raccolti e cosa rappresenta ogni record nel database. Questa è un&amp;rsquo;informazione cruciale sui dati (= metadati) per interpretare correttamente le informazioni.&lt;/p&gt;
+&lt;p&gt;Il giornalista di FiveThirtyEight ha preso i dati nel database GDELT per ciò che erano, senza considerare come i dati vengano raccolti e cosa rappresenta ogni record nel database.&lt;/p&gt;
+&lt;p&gt;Questa è un&amp;rsquo;informazione cruciale sui dati (= metadati) per interpretare correttamente le informazioni.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Pitfalls in metadata: 3 stories. &lt;a href=&#34;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&#34;&gt;https://data.europa.eu/apps/data-visualisation-guide/pitfalls-in-metadata-3-stories
+&lt;/a&gt;. 
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;le-persone-vengono-uccise-sulla-base-dei-metadati&#34;&gt;Le persone vengono uccise sulla base dei metadati&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;!--
+https://www.cambridge.org/core/books/privacy-and-power/metadeath/A0943FA90B2F321B10F83EB2629D4AFB
+--&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-03-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
