@@ -2448,7 +2448,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
 &lt;h2 id=&#34;lezione-03-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 03 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;lerrore-da-125-milioni-di-dollari&#34;&gt;L&amp;rsquo;errore da 125 milioni di dollari&lt;/h3&gt;
+&lt;h3 id=&#34;una-sonda-nellorbita-di-marte&#34;&gt;Una sonda nell&amp;rsquo;orbita di Marte&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2469,6 +2469,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@charlesdeluvio?utm_content=credit
 &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.astrospace.it/2022/09/23/il-disastro-del-mars-climate-orbiter/&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;lerrore-da-125-milioni-di-dollari&#34;&gt;L&amp;rsquo;errore da 125 milioni di dollari&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2632,7 +2633,7 @@ Formal and Natural Languages. In How To Think Like A Computer Scientist: Interac
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/0308.pnjpg&#34;
+      data-background-image=&#34;img/0308.jpg&#34;
   
       
       class=&#34;section-slide&#34;
@@ -2660,7 +2661,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@thealmani?utm_content=creditCopyT
 Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Gabriella Clare Marino&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/gray-and-white-abstract-painting-J5zIt97NYxQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;una-codifica-è-un-processo-di-trasformazione-di-uninformazione-da-un-alfabeto-ad-un-altro&#34;&gt;Una codifica è un processo di trasformazione di un&amp;rsquo;informazione da un alfabeto ad un altro&lt;/h3&gt;
+&lt;h3 id=&#34;una-codifica-è-il-processo-di-trasformazione-di-uninformazione-da-un-alfabeto-ad-un-altro&#34;&gt;Una codifica è il processo di trasformazione di un&amp;rsquo;informazione da un alfabeto ad un altro&lt;/h3&gt;
 &lt;p&gt;Tecnica con la quale un dato viene rappresentato mediante un definito insieme di simboli.&lt;/p&gt;
 &lt;p&gt;Con tali simboli è possibile formare sequenze che possono essere messe in relazione biunivoca con gli elementi costituenti l&amp;rsquo;informazione.&lt;/p&gt;
 &lt;p&gt;Esempi:&lt;/p&gt;
@@ -2671,7 +2672,6 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditC
 &lt;li&gt;Morse&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Chiunque può definire le codifiche che vuole, ma queste hanno senso di esistere se favoriscono una comprensione condivisa!&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;la-codifica-dei-numeri&#34;&gt;La codifica dei numeri&lt;/h3&gt;
 &lt;hr&gt;
@@ -2679,7 +2679,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditC
 &lt;p&gt;La codifica più comunemente adottata oggi per la rappresentazione dei numeri interi.&lt;/p&gt;
 &lt;p&gt;Il termine &lt;strong&gt;decimale&lt;/strong&gt; indica il numero di simboli utilizzati (&lt;strong&gt;cifre&lt;/strong&gt;): &lt;code&gt;{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Il termine &lt;strong&gt;posizionale&lt;/strong&gt; indica che il significato dei simboli cambia in base alla loro posizione. Il numero rappresentato da ogni simbolo è moltiplicato per una potenza di 10 (il numero di simboli che cotituiscono l&amp;rsquo;alfabeto, la &lt;strong&gt;base&lt;/strong&gt;).&lt;/p&gt;
-&lt;p&gt;Con N cifre è possibile rappresentare 10^N numeri naturali: da 0 a 10^N-1.&lt;/p&gt;
+&lt;p&gt;Con &lt;code&gt;N&lt;/code&gt; cifre è possibile rappresentare &lt;code&gt;10^N&lt;/code&gt; numeri naturali: da 0 a 10^N-1.&lt;/p&gt;
 &lt;p&gt;Es. con 4 cifre possiamo rappresentare 10^4 numeri (da 0 a 9999).&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html &lt;/a&gt;.
@@ -2687,9 +2687,8 @@ Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.inf
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-il-numero-2465&#34;&gt;Esempio: il numero 2465&lt;/h3&gt;
 &lt;p&gt;Il significato di ogni simbolo dipende dalla posizione di questo all&amp;rsquo;interno della sequenza di simboli creata in base alla loro combinazione.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2 X 10^3 + 4 X 10^2 + 6 X 10^1 + 5 X 10^0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;2 &lt;em&gt;migliaia&lt;/em&gt; + 4 &lt;em&gt;centinaia&lt;/em&gt; + 6 &lt;em&gt;decine&lt;/em&gt; + 5 &lt;em&gt;unità&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2 X 10^3 + 4 X 10^2 + 6 X 10^1 + 5 X 10^0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Che equivale a 2 &lt;em&gt;migliaia&lt;/em&gt; + 4 &lt;em&gt;centinaia&lt;/em&gt; + 6 &lt;em&gt;decine&lt;/em&gt; + 5 &lt;em&gt;unità&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&#34;&gt;http://www-dft.ts.infn.it/~pastore/DIDA/MNF/posizionale.html&lt;/a&gt;.
 &lt;/div&gt;
@@ -2702,18 +2701,53 @@ Rappresentazione posizionale degli interi. &lt;a href=&#34;http://www-dft.ts.inf
 &lt;li&gt;Un numero è rappresentato da una sequenza di tali simboli;&lt;/li&gt;
 &lt;li&gt;Il valore di un numero è dato dalla somma dei valori corrispondenti ai simboli ottenuti, se in ordine decrescente; altrimenti, li si sottrae.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Es. &lt;code&gt;VIII = 5 + 1 + 1 + 1 = 8&lt;/code&gt;, &lt;code&gt;IV = 5 - 1 = 4&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Esempi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;VIII = 5 + 1 + 1 + 1 = 8&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IV = 5 - 1 = 4&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esistono-codifiche-non-decimali&#34;&gt;Esistono codifiche non decimali?&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;linformazione-va-codificata-per-il-computer&#34;&gt;L&amp;rsquo;informazione va codificata per il computer&lt;/h3&gt;
-&lt;p&gt;Il computer memorizza ed elabora vari tipi di informazioni (numeri, testi, immagini, suoni, ecc.).&lt;/p&gt;
-&lt;p&gt;Occorre rappresentare tale informazione in un formato facilmente manipolabile dal computer.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0310.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Foto di &lt;a href=&#34;https://unsplash.com/@aler?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;alerkiv&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/close-up-photography-of-green-motherboard--9jmFkN-_U4?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il computer memorizza ed elabora vari tipi di informazioni (numeri, testi, immagini, suoni, ecc.).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Occorre rappresentare tale informazione in un formato facilmente manipolabile dal computer.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-computer-è-di-fatto-una-grande-collezione-di-dispositivi-_bistabili_&#34;&gt;Un computer è di fatto una grande collezione di dispositivi &lt;em&gt;bistabili&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Bistabile&lt;/em&gt; indica qualcosa che può assumere nel tempo solo due stati stabili (es. interruttore, moneta per testa/croce, ecc.).&lt;/p&gt;
-&lt;p&gt;Nel caso del computer, si tratta della presenza / assenza di corrente elettrica.&lt;/p&gt;
-&lt;p&gt;Per ogni tipo di informazione (numerica, testuale, grafica, sonora, ecc.) che vogliamo trattare con un computer, dobbiamo individuare una codifica che si avvalga esclusivamente di questa caratteristica.&lt;/p&gt;
+&lt;h3 id=&#34;di-fatto-un-computer-è-una-grande-collezione-di-dispositivi-_bistabili_&#34;&gt;Di fatto, un computer è una grande collezione di dispositivi &lt;em&gt;bistabili&lt;/em&gt;&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0311.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Foto di &lt;a href=&#34;https://unsplash.com/@mk__s?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;mk. s&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/a-light-switch-cover-on-a-white-wall-Ual1Obieofc?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      &#34;Bistabile&#34; indica qualcosa che può assumere nel tempo solo due stati stabili (es. interruttore). Nel caso del computer, si tratta della presenza / assenza di corrente elettrica.
+    &lt;/p&gt;
+    &lt;p&gt;
+       Per ogni tipo di informazione (numerica, testuale, grafica, sonora, ecc.) che vogliamo trattare con un computer, dobbiamo individuare una codifica che si avvalga esclusivamente di questa caratteristica.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;consideriamo-un-alfabeto-binario&#34;&gt;Consideriamo un alfabeto binario&lt;/h3&gt;
 &lt;p&gt;Alfabeto: &lt;code&gt;{0, 1}&lt;/code&gt;.&lt;/p&gt;
@@ -2746,12 +2780,8 @@ History of the Binary System. In Cut The Knot.
 &lt;p&gt;2 bit : 4 (2^2) sequenze possibili: 00, 01, 10, 11.&lt;/p&gt;
 &lt;p&gt;3 bit: 8 (2^3) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Con N bit possiamo rappresentare 2^N numeri: da 0 a 2^N-1.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;i-byte-descrivono-caratteristiche-del-computer&#34;&gt;I byte descrivono caratteristiche del computer&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Byte&lt;/strong&gt;: Una sequenza di 8 bit.&lt;/p&gt;
-&lt;p&gt;Usato come unità di misura per indicare le dimensioni della memoria, la velocità di trasmissione, la “potenza” di un elaboratore&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Es. 01000001.&lt;/p&gt;
+&lt;p&gt;Con &lt;code&gt;N bit&lt;/code&gt; possiamo rappresentare &lt;code&gt;2^N sequenze&lt;/code&gt;: da 0 a 2^N-1.&lt;/p&gt;
+&lt;p&gt;8 bit costituiscono un &lt;strong&gt;byte&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;codifica-numerica-da-base-2-a-base-10&#34;&gt;Codifica numerica da base 2 a base 10&lt;/h3&gt;
 &lt;p&gt;Moltiplicare ogni bit per il suo peso (attenzione a partire da 2^n-1!) e sommare le potenze.&lt;/p&gt;
@@ -2767,35 +2797,13 @@ History of the Binary System. In Cut The Knot.
 &lt;p&gt;Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12 / 2 → resto 0  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 6 / 2 → resto 0  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 3 / 2 → resto 1  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 / 2 → resto 1  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;12 / 2 → resto 0       ^
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 6 / 2 → resto 0      |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 3 / 2 → resto 1      |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1 / 2 → resto 1      |
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;= 1100
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;linformazione-quantitativa-analogica-e-digitale&#34;&gt;L&amp;rsquo;informazione quantitativa, analogica e digitale&lt;/h3&gt;
-&lt;p&gt;Esistono due principali approcci per rappresentare quantitativamente l&amp;rsquo;informazione:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Codifica analogica: si basa sull&amp;rsquo;associare una grandezza fisica continua a quella che si vuole rappresentare. Ogni variazione della grandezza originale (ad esempio, un cambiamento in volume o intensità) corrisponde direttamente a una variazione della grandezza rappresentativa;&lt;/li&gt;
-&lt;li&gt;Codifica digitale: utilizza un alfabeto finito e regole di codifica per rappresentare i valori di una grandezza tramite una sequenza di simboli discreti, come numeri o lettere. Ogni possibile valore della grandezza è rappresentato da una combinazione di simboli.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Es. quantità di caramelle:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;rappresentazione analogica: sassolini (una caramella = un sassolino);&lt;/li&gt;
-&lt;li&gt;rappresentazione digitale: sequenza di simboli (una caramella = 1).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;vantaggi-e-svantaggi&#34;&gt;vantaggi e svantaggi&lt;/h3&gt;
-&lt;p&gt;L&amp;rsquo;approccio digitale è più compatto ed economico.&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;approccio analogico porta con sé una ricchezza implicita di meta-informazioni:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ci consente di capire se un valore è uguale, maggiore o minore rispetto a un altro;&lt;/li&gt;
-&lt;li&gt;Ci consente di quantificare le differenze tra i valori.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Con i sassolini è facile comprendere che tre sassolini rappresentano una quantità maggiore rispetto a due, o che sottraendo quattro sassolini da dieci, rimarremmo con sei.&lt;/p&gt;
-&lt;p&gt;Nel caso della codifica digitale, invece, non è possibile intuire che la sequenza &amp;ldquo;31&amp;rdquo; sia maggiore di &amp;ldquo;13&amp;rdquo; o che la differenza tra &amp;ldquo;5&amp;rdquo; e &amp;ldquo;3&amp;rdquo; sia rappresentata dal numero &amp;ldquo;2&amp;rdquo; senza conoscere le regole di codifica che stabiliscono il significato dei simboli.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;quindi&#34;&gt;Quindi…&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Conosciamo la numerazione in base 2;&lt;/li&gt;
@@ -2804,18 +2812,19 @@ History of the Binary System. In Cut The Knot.
 &lt;/ul&gt;
 &lt;p&gt;Come digitalizziamo invece la lettera “a”?&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;la-rappresentazione-del-testo&#34;&gt;La rappresentazione del testo&lt;/h3&gt;
-&lt;p&gt;Viene realizzata con codici binari corrispondenti a caratteri.&lt;/p&gt;
+&lt;h2 id=&#34;la-codifica-del-testo&#34;&gt;La codifica del testo&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-caratteri-corrispondono-a-codici-binari&#34;&gt;I caratteri corrispondono a codici binari&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;alfabeto anglosassone ha circa 120 caratteri (maiuscole + minuscole + numeri + interpunzione + &amp;hellip;)&lt;/p&gt;
 &lt;p&gt;Quanti bit ci servono per coprirli tutti?&lt;/p&gt;
-&lt;p&gt;Bastano 7 bit = 2^7 = 128 simboli.&lt;/p&gt;
+&lt;p&gt;Bastano 7 bit = 2^7 = 128 sequenze.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;american-standard-code-for-information-interchange-ascii&#34;&gt;American Standard Code for Information Interchange (ASCII)&lt;/h3&gt;
 &lt;p&gt;Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.&lt;/p&gt;
 &lt;p&gt;Esempi:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A →  1000001&lt;/li&gt;
-&lt;li&gt;B →  1000010&lt;/li&gt;
+&lt;li&gt;A → 1000001&lt;/li&gt;
+&lt;li&gt;B → 1000010&lt;/li&gt;
 &lt;li&gt;BABA → 1000010 1000001 1000010 1000001&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -2831,9 +2840,9 @@ History of the Binary System. In Cut The Knot.
 &lt;li&gt;cat → 01100011 01100001 01110100.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;altro-esempio-di-ascii-utf-ecc&#34;&gt;altro esempio di ascii, utf, ecc&lt;/h3&gt;
+&lt;h3 id=&#34;un-altro-esempio&#34;&gt;Un altro esempio&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/0304.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/0312.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
     &lt;figcaption&gt;
         Fonte: &lt;a href=&#34;https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/&#34;&gt;https://computerscienceiseasy.com/an-introduction-to-ascii-and-unicode/&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -2841,21 +2850,13 @@ History of the Binary System. In Cut The Knot.
 &lt;hr&gt;
 &lt;h3 id=&#34;laltra-metà-del-problema&#34;&gt;L&amp;rsquo;altra metà del problema&lt;/h3&gt;
 &lt;p&gt;La digitalizzazione - cioé codificare contenuto informativo in binario - è solo metà del problema.&lt;/p&gt;
-&lt;p&gt;Dobbiamo anche codificare le caratteristiche del contenuto, incluso quanto segue:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Come è strutturato il contenuto?&lt;/li&gt;
-&lt;li&gt;A quali altri contenuti è collegato?&lt;/li&gt;
-&lt;li&gt;Dove è stato raccolto?&lt;/li&gt;
-&lt;li&gt;In quali unità è dato?&lt;/li&gt;
-&lt;li&gt;Come dovrebbe essere visualizzato?&lt;/li&gt;
-&lt;li&gt;Quando è stato creato o catturato?&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Dobbiamo anche codificare le caratteristiche del contenuto, contestualizzarlo (&amp;ldquo;specificare le unità di misura&amp;rdquo;, nel caso della sonda spaziale).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;i-dati-sopra-e-oltre-i-dati&#34;&gt;I dati sopra (e oltre) i dati&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-sono-i-metadati&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/photo.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/0313.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
     &lt;figcaption&gt;
         Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -2863,7 +2864,7 @@ History of the Binary System. In Cut The Knot.
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-sono-i-metadati-1&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/book.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
+  &lt;img src=&#34;img/0314.png&#34; height=&#34;auto&#34; width=&#34;600&#34;/&gt;
     &lt;figcaption&gt;
         Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -2871,55 +2872,64 @@ History of the Binary System. In Cut The Knot.
 &lt;hr&gt;
 &lt;h3 id=&#34;cosa-sono-i-metadati-2&#34;&gt;Cosa sono i metadati?&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/spreadsheet.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+  &lt;img src=&#34;img/0315.png&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
     &lt;figcaption&gt;
         Fonte: &lt;a href=&#34;https://dataedo.com/kb/data-glossary/what-is-metadata&#34;&gt;https://dataedo.com/kb/data-glossary/what-is-metadata&lt;/a&gt;.
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-termine-ampiamente-utilizzato-ma-variamente-interpretato&#34;&gt;Un termine ampiamente utilizzato ma variamente interpretato&lt;/h3&gt;
-&lt;p&gt;Fino agli anni &amp;lsquo;90, erano associati alla gestione dei dati geospaziali e alla progettazione dei sistemi.&lt;/p&gt;
-&lt;p&gt;Standard, documentazione e dati necessari per l&amp;rsquo;identificazione, la gestione, l&amp;rsquo;interoperabilità e l&amp;rsquo;uso dei dati in un sistema informativo.&lt;/p&gt;
+&lt;h3 id=&#34;dati-su-dati&#34;&gt;Dati su dati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0316.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://medium.com/towards-data-science/what-is-metadata-800403c0767b&#34;&gt;https://medium.com/towards-data-science/what-is-metadata-800403c0767b&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I metadati possono essere visti come l&#39;insieme di tutto ciò che si può dire su un dato (oggetto informativo) in un determinato momento, a qualsiasi livello di aggregazione.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;dati-su-dati&#34;&gt;Dati su dati&lt;/h3&gt;
-&lt;p&gt;I metadati possono essere visti come l&amp;rsquo;insieme di tutto ciò che si può dire su un dato (oggetto informativo) in un determinato momento, a qualsiasi livello di aggregazione.&lt;/p&gt;
-&lt;p&gt;Es. una pagina, un capitolo, un libro, una collezione possono avere tutti i propri metadati bibliografici.&lt;/p&gt;
-&lt;p&gt;I dati hanno tre caratteristiche che dovrebbero riflettersi nei metadati che li descrivono:&lt;/p&gt;
+&lt;h3 id=&#34;i-metadati-dovrebbero-riflettere-tre-caratteristiche-di-ciò-che-descrivono&#34;&gt;I metadati dovrebbero riflettere tre caratteristiche di ciò che descrivono&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Contenuto: ciò che l&amp;rsquo;oggetto contiene o rappresenta (intrinseco all&amp;rsquo;oggetto);&lt;/li&gt;
-&lt;li&gt;Contesto: informazioni su chi, cosa, quando, dove e come l&amp;rsquo;oggetto è stato creato e utilizzato (estrinseco all&amp;rsquo;oggetto):&lt;/li&gt;
-&lt;li&gt;Struttura: le relazioni formali tra gli oggetti informativi, che possono essere intrinseche, estrinseche o entrambe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contenuto&lt;/strong&gt;: ciò che l&amp;rsquo;oggetto contiene o rappresenta (intrinseco all&amp;rsquo;oggetto);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contesto&lt;/strong&gt;: informazioni su chi, cosa, quando, dove e come l&amp;rsquo;oggetto è stato creato e utilizzato (estrinseco all&amp;rsquo;oggetto):&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Struttura&lt;/strong&gt;: le relazioni formali tra gli oggetti informativi, che possono essere intrinseche, estrinseche o entrambe.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Baca, M. (Ed.). (2016). Introduction to metadata. Getty Publications. &lt;a href=&#34;https://www.getty.edu/publications/intrometadata/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.getty.edu/publications/intrometadata/&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;funzioni-dei-metadati&#34;&gt;Funzioni dei metadati&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Organizzazione e descrizione dei dati;&lt;/li&gt;
-&lt;li&gt;Validazione e autenticazione dei dati;&lt;/li&gt;
-&lt;li&gt;Ricerca e recupero delle informazioni;&lt;/li&gt;
-&lt;li&gt;Utilizzo e conservazione dei dati.&lt;/li&gt;
+&lt;li&gt;Organizzazione e descrizione;&lt;/li&gt;
+&lt;li&gt;Validazione e autenticazione;&lt;/li&gt;
+&lt;li&gt;Ricerca e recupero;&lt;/li&gt;
+&lt;li&gt;Utilizzo e conservazione.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;caratteristiche-non-ovvie-dei-metadati&#34;&gt;Caratteristiche (non ovvie) dei metadati&lt;/h3&gt;
-&lt;p&gt;I metadati:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Non devono essere per forza digitali;&lt;/li&gt;
-&lt;li&gt;Riguardano più della semplice descrizione dei dati;&lt;/li&gt;
+&lt;li&gt;Sono più di semplici descrizioni dei dati;&lt;/li&gt;
 &lt;li&gt;Possono provenire da diverse fonti;&lt;/li&gt;
-&lt;li&gt;Continuano ad accumularsi durante la vita di un dato;&lt;/li&gt;
-&lt;li&gt;Possono contemporaneamente essere dati per qualcun&amp;rsquo;altro.&lt;/li&gt;
+&lt;li&gt;Continuano ad accumularsi durante tutto il ciclo di vita di un dato;&lt;/li&gt;
+&lt;li&gt;Possono essere metadati per qualcuno e dati per qualcun&amp;rsquo;altro.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esistono-diverse-tipologie-di-metadati-e-diversi-modi-di-classificarli&#34;&gt;Esistono diverse tipologie di metadati (e diversi modi di classificarli)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Descrittivi&lt;/strong&gt;: permettono la scoperta, l&amp;rsquo;identificazione e la selezione della risorsa. Includono elementi come &amp;ldquo;titolo&amp;rdquo;, &amp;ldquo;autore&amp;rdquo;, ecc.;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tecnici&lt;/strong&gt;: forniscono informazioni sul funzionamento o comportamento della risorsa. Includono elementi come &amp;ldquo;formato&amp;rdquo;, &amp;ldquo;compression ratio&amp;rdquo;, &amp;ldquo;password&amp;rdquo;, ecc.;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Amministrativi&lt;/strong&gt;: facilitano la gestione della risorsa. Includono elementi come &amp;ldquo;identificativo&amp;rdquo;, &amp;ldquo;licenza&amp;rdquo;, &lt;em&gt;provenance&lt;/em&gt;, ecc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tecnici&lt;/strong&gt;: forniscono informazioni sul funzionamento o comportamento della risorsa. Includono elementi come &amp;ldquo;formato&amp;rdquo;, &amp;ldquo;compressione&amp;rdquo;, &amp;ldquo;password&amp;rdquo;, ecc.;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amministrativi&lt;/strong&gt;: facilitano la gestione della risorsa. Includono elementi come &amp;ldquo;identificativo&amp;rdquo;, &amp;ldquo;licenza&amp;rdquo;, &amp;ldquo;provenienza&amp;rdquo;, ecc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
 &lt;/div&gt;
-&lt;h2 id=&#34;standard&#34;&gt;STANDARD&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;in-cosa-dovrebbero-consistere-dei-metadati-per-essere-buoni-metadati&#34;&gt;In cosa dovrebbero consistere dei metadati per essere &amp;ldquo;buoni&amp;rdquo; metadati?&lt;/h3&gt;
 &lt;p&gt;I metadati dovrebbero focalizzarsi su:&lt;/p&gt;
@@ -2936,13 +2946,28 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;hr&gt;
 &lt;h3 id=&#34;in-principio-lidea-è-semplice&#34;&gt;In principio, l&amp;rsquo;idea è semplice&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;applicazione dei metadati in un caso concreto, però, è complessa: da dove partiamo? Come descriviamo i dati in modo tale da renderli consistenti e gestibili da me e altre persone? Come lo facciamo in una maniera scalabile?&lt;/p&gt;
-&lt;p&gt;Fortunatamente, esistono gli schemi di metadati.&lt;/p&gt;
+&lt;p&gt;Fortunatamente, esistono gli &lt;strong&gt;schemi di metadati&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opendatasoft.com/en/blog/what-is-metadata-and-why-is-it-important-data/&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;i-metadati-seguono-degli-schemi&#34;&gt;I metadati seguono degli schemi&lt;/h3&gt;
-&lt;p&gt;Strutture concettuali che specificano quali metadati utilizzare e secondo quali regole.&lt;/p&gt;
-&lt;p&gt;Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una vera e propria lingua comune dei dati descritti.&lt;/p&gt;
-&lt;p&gt;Spesso specifici per ambito disciplinare, consolidati a livello delle comunità di ricerca, e implementati da piattaforme online (es. cataloghi, registri, basi di dati, portali, ecc.).&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0317.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://project-thor.readme.io/docs/datacite-metadata-schema&#34;&gt;https://project-thor.readme.io/docs/datacite-metadata-schema&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Strutture concettuali che specificano quali metadati utilizzare e secondo quali regole.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Stabiliscono un significato unico e non ambiguo per i metadati, costituendo una sorta di lingua semplificata comune per caratterizzare i dati.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &lt;a href=&#34;https://doi.org/10.5281/zenodo.6459832&#34;&gt;https://doi.org/10.5281/zenodo.6459832&lt;/a&gt;. 
 &lt;/div&gt;
@@ -2950,10 +2975,10 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;h3 id=&#34;esempio-decidiamo-di-descrivere-un-libro&#34;&gt;Esempio: decidiamo di descrivere un libro&lt;/h3&gt;
 &lt;p&gt;Per farlo, usiamo una serie di metadati come:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Titolo: &amp;ldquo;Neuromante&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Autore: &amp;ldquo;William Gibson&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Data di pubblicazione: 1984&lt;/li&gt;
-&lt;li&gt;Genere: &amp;ldquo;cyberpunk&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Titolo&lt;/li&gt;
+&lt;li&gt;Autore&lt;/li&gt;
+&lt;li&gt;Data di pubblicazione&lt;/li&gt;
+&lt;li&gt;Genere&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I termini, molto comuni, li abbiamo decisi noi.&lt;/p&gt;
@@ -2962,26 +2987,52 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;hr&gt;
 &lt;h3 id=&#34;se-formalmente-validati-e-riconosciuti-diventano-standard&#34;&gt;Se formalmente validati e riconosciuti, diventano standard&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;MARC (standard per la rappresentazione di informazioni bibliografiche)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dublin Core (standard per la rappresentazione di risorse sul Web)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;MARC (standard per la rappresentazione di informazioni bibliografiche);&lt;/li&gt;
+&lt;li&gt;Dublin Core (standard per la rappresentazione di risorse sul Web);&lt;/li&gt;
+&lt;li&gt;CIDOC-CRM (standard per la documentazione di beni culturali).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-dublin-core&#34;&gt;Esempio: Dublin Core&lt;/h3&gt;
-&lt;p&gt;Schema di metadati per descrivere risorse pubblicate sul Web.&lt;/p&gt;
-&lt;p&gt;Include quindici elementi (poi estesi ulteriormente) ritenuti fondamentali.&lt;/p&gt;
-&lt;p&gt;→ è un minimo comun denominatore: semplice, economico, facile da imparare e da usare.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0318.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://project-thor.readme.io/docs/datacite-metadata-schema&#34;&gt;https://project-thor.readme.io/docs/datacite-metadata-schema&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Schema di metadati per descrivere risorse pubblicate sul Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Include quindici elementi (poi estesi ulteriormente) ritenuti fondamentali.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;schemi-di-codifica&#34;&gt;Schemi di codifica&lt;/h3&gt;
-&lt;p&gt;Insieme di regole che specificano sintassi o lessico utilizzati dai metadati di uno schema di metadati.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Schema di codifica sintattica: definisce come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date)&lt;/li&gt;
-&lt;li&gt;Vocabolario controllato: definisce come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT)&lt;/li&gt;
-&lt;li&gt;Authority file: definisce come rappresentare le varianti di un valore stabilito come autoritativo (es. VIAF)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;altri-standard-rilevanti&#34;&gt;Altri standard rilevanti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0319.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://metadataetc.org/metadatabasics/standards.htm&#34;&gt;https://metadataetc.org/metadatabasics/standards.htm&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+      Standard per i contenuti dei dati: definiscono come rappresentare uno specifico tipo di dati a partire dal formato (es. ISO 8601 per le date, o ISO 639 per le lingue);
+    &lt;/li&gt;
+    &lt;li&gt;
+      Standard per i valori dei dati: definiscono come rappresentare uno specifico tipo di dati a partire da un insieme finito e controllato di opzioni (es. AAT);
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h3&gt;
 &lt;hr&gt;
