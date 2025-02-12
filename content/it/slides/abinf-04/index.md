@@ -19,6 +19,10 @@ slides:
 
 ---
 
+{{< slide background-image="img/0400.jpeg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
+
 ## Ipertesti
 
 <!--
@@ -27,12 +31,14 @@ By Gregory Lloyd - <span class="int-own-work">Self-photographed</span>, <a href=
 
 ---
 
+### Ipertesto
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
       <img src="img/0401.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1</a>.
+            Fonte: <a href="http://iasl.uni-muenchen.de/links/GCA-VI.2e.html">http://iasl.uni-muenchen.de/links/GCA-VI.2e.html</a>.
         </figcaption>
     </figure>
   </div>
@@ -46,7 +52,9 @@ By Gregory Lloyd - <span class="int-own-work">Self-photographed</span>, <a href=
   </div>
 </div>
 
-Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, https://www.isko.org/cyclo/hypertext 
+<div class="footer">
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, <a href="https://www.isko.org/cyclo/hypertext">https://www.isko.org/cyclo/hypertext</a>.
+</div>
 
 ---
 
@@ -55,7 +63,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0402.png" height="auto" width="700"/>
+      <img src="img/0402.jpeg" height="auto" width="700"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
         </figcaption>
@@ -79,7 +87,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0403.png" height="auto" width="700"/>
+      <img src="img/0402.jpeg" height="auto" width="700"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
         </figcaption>
@@ -87,7 +95,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
   </div>
   <div style="flex: 1;">
     <p>
-      Un grafo orientato composto da un insieme di elementi (nodi) collegati tra loro da relazioni (archi) unidirezionali.
+      Può essere anche visto come un grafo orientato composto da un insieme di elementi (nodi) collegati tra loro da relazioni (archi) unidirezionali.
     </p>
   </div>
 </div>
@@ -103,9 +111,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0403.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: <a href="https://rreisman.medium.com/as-we-will-think-the-legacy-of-ted-nelson-original-visionary-of-the-web-f4f69a60bd6">https://rreisman.medium.com/as-we-will-think-the-legacy-of-ted-nelson-original-visionary-of-the-web-f4f69a60bd6</a>.
         </figcaption>
     </figure>
   </div>
@@ -127,9 +135,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 
 ### Elementi principali dell'ipertesto
 
-* Nodo: unità minima di informazione, dotata di autonomia e completezza;
-* Ancora: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;
-* Link: connessione tra una coppia di ancore.
+* **Nodo**: unità minima di informazione, dotata di autonomia e completezza;
+* **Ancora**: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;
+* **Link**: connessione tra una coppia di ancore.
 
 <div class="footer">
 Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, <a href="https://www.isko.org/cyclo/hypertext">https://www.isko.org/cyclo/hypertext</a>.
@@ -155,9 +163,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0405.png" height="auto" width="700"/>
+      <img src="img/0404.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di Editorial Alfaguara - <a rel="nofollow" class="external free" href="https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12">https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12</a>, Pubblico dominio, <a href="https://commons.wikimedia.org/w/index.php?curid=85847990">Collegamento</a>.
         </figcaption>
     </figure>
   </div>
@@ -179,9 +187,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
+      <img src="img/0405.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: <a href="http://iasl.uni-muenchen.de/links/GCA-VI.2e.html">http://iasl.uni-muenchen.de/links/GCA-VI.2e.html</a>.
         </figcaption>
     </figure>
   </div>
@@ -203,15 +211,18 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0407.png" height="auto" width="700"/>
+      <img src="img/0406.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: <a href="http://www.thetednelson.com/designs.php">http://www.thetednelson.com/designs.php</a>.
         </figcaption>
     </figure>
   </div>
   <div style="flex: 1;">
     <p>
-      una delle principali fonti di ispirazione per il World Wide Web
+      Progetto di creazione di un contenitore per la letteratura mondiale, interconnessa e liberamente disponibile.
+    </p>
+    <p>
+      Una delle principali fonti di ispirazione per il World Wide Web.
     </p>
   </div>
 </div>
@@ -240,7 +251,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0407.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
         </figcaption>
@@ -262,14 +273,15 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 
 ---
 
-{{< slide background-image="img/0409.jpg" class="section-slide">}}
+{{< slide background-image="img/0408.jpeg" class="section-slide">}}
 
 <div class="dark-overlay"></div>
 
 ## Il World Wide Web (e Internet, che è una cosa diversa)
 
 <!--
-
+Wilkau-Haßlau. Stadtbibliothek, Poststraße 1. Internet-Arbeitsplatz di Ahlers, Henrik (Herstellung) (Fotograf) - Deutsche Fotothek, Germany - CC BY-SA.
+https://www.europeana.eu/item/437/item_GKF3L2NASWXWWOHYNJ4KMMADCGZOI2ZX
 -->
 
 ---
@@ -279,7 +291,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0410.jpg" height="auto" width="700"/>
+      <img src="img/0409.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://rubenverborgh.github.io/WebFundamentals/">https://rubenverborgh.github.io/WebFundamentals/</a>.
         </figcaption>
@@ -307,7 +319,7 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0410.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://rubenverborgh.github.io/WebFundamentals/">https://rubenverborgh.github.io/WebFundamentals/</a>.
         </figcaption>
@@ -332,7 +344,7 @@ How the web works. In MDN Web Docs.
 
 ### Il Web e l'Internet non sono la stessa cosa
 
-Il Web è un servizio ospitato da Internet, ideato da Cailliau e Berners-Lee al CERN di Ginevra verso la fine degli anni ‘80 come sistema di facilitazione delle comunicazioni a distanza fra ricercatori.
+Il Web è un servizio ospitato da Internet, ideato da Cailliau e Berners-Lee al CERN di Ginevra verso la fine degli anni ‘80 come sistema di gestione e comunicazione di informazioni a distanza fra ricercatori.
 
 1990: [prima pagina Web](http://info.cern.ch/hypertext/WWW/TheProject.html).
 
@@ -367,7 +379,7 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0411.svg" height="auto" width="700"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a>: David Vignoni. <a href="//commons.wikimedia.org/wiki/User:Calimo" title="User:Calimo">Calimo</a> - Basato su: <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a><a href="//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg" title="File:Gnome-fs-server.svg">Gnome-fs-server.svg</a>, <a href="http://www.gnu.org/licenses/lgpl.html" title="GNU Lesser General Public License">LGPL</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15782858">Link</a>.
         </figcaption>
@@ -397,9 +409,9 @@ How the web works. In MDN Web Docs.
 
 ### E la terminologia del Web?
 
-* Uniform Resource Locator (URL): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;
-* Hypertext Transfer Protocol (HTTP): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;
-* Hypertext Markup Language (HTML): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.
+* **Uniform Resource Locator** (**URL**): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;
+* **Hypertext Transfer Protocol** (**HTTP**): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;
+* **Hypertext Markup Language** (**HTML**): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.
 
 <div class="footer">
 How the web works. In MDN Web Docs.   
@@ -414,7 +426,7 @@ How the web works. In MDN Web Docs.
 2. Mettere a disposizione i suddetti documenti ipertestuali (attraverso **server Web**);
 3. Identificarli mediante l’utilizzo di un opportuno identificativo (**URL**);
 4. Richiederli mediante l’utilizzo di uno specifico protocollo di comunicazione (**HTTP**);
-5. Visualizzarli su un computer (attraverso un client).
+5. Visualizzarli su un computer (attraverso un **client**).
 
 <div class="footer">
 How the web works. In MDN Web Docs.   
@@ -423,7 +435,15 @@ How the web works. In MDN Web Docs.
 
 ---
 
+{{< slide background-image="img/0412.png" class="section-slide">}}
+
+<div class="dark-overlay"></div>
+
 ## Client e server
+
+<!--
+https://theconversation.com/how-the-internet-was-born-the-network-begins-to-take-shape-67904
+-->
 
 ---
 
@@ -432,9 +452,9 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0411.svg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a>: David Vignoni. <a href="//commons.wikimedia.org/wiki/User:Calimo" title="User:Calimo">Calimo</a> - Basato su: <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a><a href="//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg" title="File:Gnome-fs-server.svg">Gnome-fs-server.svg</a>, <a href="http://www.gnu.org/licenses/lgpl.html" title="GNU Lesser General Public License">LGPL</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15782858">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -457,9 +477,9 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0411.svg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a>: David Vignoni. <a href="//commons.wikimedia.org/wiki/User:Calimo" title="User:Calimo">Calimo</a> - Basato su: <a href="//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg" title="File:Gnome-fs-client.svg">Gnome-fs-client.svg</a><a href="//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg" title="File:Gnome-fs-server.svg">Gnome-fs-server.svg</a>, <a href="http://www.gnu.org/licenses/lgpl.html" title="GNU Lesser General Public License">LGPL</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15782858">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -487,9 +507,9 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0413.jpeg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a rel="nofollow" class="external text" href="https://www.flickr.com/people/mwichary/">Marcin Wichary</a> - <a rel="nofollow" class="external free" href="https://www.flickr.com/photos/mwichary/2151368358/">https://www.flickr.com/photos/mwichary/2151368358/</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3344188">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -518,9 +538,9 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0414.jpeg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a href="//commons.wikimedia.org/wiki/User:Victorgrigas" title="User:Victorgrigas">Victor Grigas</a> - <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=20348454">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -549,7 +569,7 @@ How the web works. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0411.svg" height="auto" width="700"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
         </figcaption>
@@ -590,7 +610,15 @@ How the web works. In MDN Web Docs.
 
 ---
 
+{{< slide background-image="img/0415.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
+
 ## URL
+
+<!--
+Photo by <a href="https://unsplash.com/@polarmermaid?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Anne Nygård</a> on <a href="https://unsplash.com/photos/suomi-postage-stamp-usTo-Ajfuhg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
@@ -623,8 +651,12 @@ What is a URL? In MDN Web Docs.
 
 ### Un URL come una sorta di codice postale
 
-![](image copy)
-
+<figure>
+  <img src="img/0416.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
+    </figcaption>
+</figure>
 
 ---
 
@@ -633,9 +665,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0417.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -661,9 +693,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0418.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -689,9 +721,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0418.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -717,9 +749,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0419.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -745,9 +777,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0420.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -773,9 +805,9 @@ What is a URL? In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0421.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
         </figcaption>
     </figure>
   </div>
@@ -792,347 +824,6 @@ What is a URL? In MDN Web Docs.
 <div class="footer">
 What is a URL? In MDN Web Docs.   
  <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL</a>.
-</div>
-
----
-
-## HTTP
-
----
-
-### Cos'è un protocollo?
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Per comunicare, gli elementi all’interno delle reti devono seguire regole comuni.
-    </p>
-    <p>
-      Un protocollo è un insieme di regole e di messaggi che governano la comunicazione tra due entità.
-    </p>
-    <p>
-      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (~ semafori).
-    </p>
-  </div>
-</div>
-
----
-
-### Cos'è un protocollo?
-
-Deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.
-
-* Una sintassi da seguire per costruire i messaggi
-* Delle regole interpretative del messaggio, per definire la semantica dei messaggi
-* Dei meccanismi per sincronizzare la comunicazione
-* Dei meccanismi per correggere e/o gestire eventuali errori che possono intercorrere nello scambio dei messaggi
-
----
-
-### Il protocollo HTTP
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      HTTP standardizza come client e server comunicano tramite il metodo richiesta-risposta, in cui il client invia una richiesta al server e il server risponde con una risposta contenente i dati richiesti.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-An Overview of HTTP. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
-</div>
-
----
-
-### Le proxy
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-An Overview of HTTP. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
-</div>
-
----
-
-### Il messaggio HTTP
-
-Permette lo scambio di dati tra un server e un client.
-
-Esistono due tipi di messaggio HTTP:
-* Richiesta: messaggio mandato dal client per richiedere una determinata azione da parte del server;
-* Risposta: messaggio mandato dal server come risposta alla richiesta del client.
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### La struttura di un messaggio HTTP
-
-1. Una testa composta da:
-  * Una riga iniziale che descrive il messaggio;
-  * Un insieme opzionale di intestazioni (o header) che specificano la richiesta o descrivono il corpo del messaggio;
-2. Una riga vuota che separa le informazioni dal corpo del messaggio;
-3. Un corpo (o payload) opzionale contenente dati o contenuti associati al messaggio.
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### La richiesta HTTP
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### La richiesta HTTP
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del client, lingua, ecc.).
-    </p>
-    <p>
-      Un'eventuale riga vuota.
-    </p>
-    <p>
-      Un eventuale corpo.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### Il metodo GET
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      GET (il più usato nel web) permette di richiedere informazioni sulla risorsa definita dall’URL specificato – per esempio come conseguenza di un click su un collegamento ipertestuale.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### Il metodo POST
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      POST permette di creare sul server web contattato la risorsa specificata dall’URL utilizzato nella richiesta, e di associare informazioni incluse nella richiesta.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### Il metodo DELETE
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      DELETE permette di rimuovere dal server web contattato tutte le informazioni relative alla risorsa specificata nella richiesta tramite l’URL.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### Il metodo PUT
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      PUT permette di specificare informazioni aggiuntive, incluse nella richiesta, ad una risorsa esistente che già risiede sul server.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### La risposta HTTP
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Tutte le risposte, oltre che a contenere metadati nell’header (e talvolta dati) nel corpo, specificano anche un codice di stato (un numero di tre cifre che specifica la classe di risposta.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
----
-
-### I codici di stato
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <ul>
-      <li>
-        1XX: Risposta informativa (molto raro, di solito non usato);
-      </li>
-      <li>
-        2XX: Successo (es. 200 OK);
-      </li>
-      <li>
-        3XX: Redirezione (es. 303 See other);
-      </li>
-      <li>
-        4XX: Errore del client (es. 403 Forbidden, 404 Not Found);
-      </li>
-      <li>
-        5XX: Errore del server (es. 503 Service Unavailable.
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
 </div>
 
 ---

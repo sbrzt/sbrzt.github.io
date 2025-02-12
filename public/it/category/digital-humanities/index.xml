@@ -1122,6 +1122,1651 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>ABINF - Internet e World Wide Web</title>
+      <link>http://localhost:1313/it/slides/abinf-04/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-04/</guid>
+      <description>&lt;h1 id=&#34;internet-e-world-wide-web&#34;&gt;Internet e World Wide Web&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-04-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 04 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ipertesti&#34;&gt;Ipertesti&lt;/h2&gt;
+&lt;!--
+By Gregory Lloyd - &lt;span class=&#34;int-own-work&#34;&gt;Self-photographed&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0&#34; title=&#34;Creative Commons Attribution 2.0&#34;&gt;CC BY 2.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=89019&#34;&gt;Link&lt;/a&gt;
+--&gt;
+&lt;hr&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0401.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Termine coniato da Nelson nel 1965, da hyper (“oltre”) e testo.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Ipotizza un sistema in grado di memorizzare documenti e consentire all’utente di costruire percorsi preferenziali e di navigare nella rete informativa costituita dall’insieme di documenti interconnessi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-ipertesto&#34;&gt;Cos&amp;rsquo;è un ipertesto?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0402.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un modo non lineare di presentazione dell’informazione tramite un insieme di unità informative (dette nodi), connesse tra loro da collegamenti (detti link).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-ipertesto-1&#34;&gt;Cos&amp;rsquo;è un ipertesto?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0403.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un grafo orientato composto da un insieme di elementi (nodi) collegati tra loro da relazioni (archi) unidirezionali.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-ipertesto-2&#34;&gt;Cos&amp;rsquo;è un ipertesto?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Ha diversi percorsi logici, ciascuno dotato di autonomia di significato.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I percorsi sono scelti a priori dal creatore del documento e a posteriori dall’utilizzatore, in base alla situazione o alle sue personali esigenze.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;elementi-principali-dellipertesto&#34;&gt;Elementi principali dell&amp;rsquo;ipertesto&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nodo: unità minima di informazione, dotata di autonomia e completezza;&lt;/li&gt;
+&lt;li&gt;Ancora: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;&lt;/li&gt;
+&lt;li&gt;Link: connessione tra una coppia di ancore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;caratteristiche-dellipertesto&#34;&gt;Caratteristiche dell&amp;rsquo;ipertesto&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Granularità&lt;/strong&gt;: decomponibile in parti più piccole e autosufficienti, dotate di senso, e utilizzabili;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interattività&lt;/strong&gt;: dà la possibilità al lettore di rapportarsi non-linearmente con esso;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrabilità&lt;/strong&gt;: estendibile in maniera potenzialmente infinita;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multimedialità&lt;/strong&gt;: compresenza di molteplici mezzi di comunicazione differenti.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lipertesto-ha-una-lunga-storia-alle-spalle&#34;&gt;L&amp;rsquo;ipertesto ha una lunga storia alle spalle&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0405.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Ipertestualità - in quanto testualità con struttura reticolare e navigazione non lineare - è sempre esistita (es. note, indici, commenti, sperimentazioni letterarie).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-memory-extender-di-vannevar-bush-30&#34;&gt;Il Memory extender di Vannevar Bush (&amp;lsquo;30)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Concezione moderna (cioè digitale) di ipertesto: un dispositivo teorico impiantato in una struttura a scrivania tramite cui era possibile conservare, annotare, connettere, e leggere documenti registrati su microfilm.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;xanadu-di-nelson-1967&#34;&gt;Xanadu di Nelson (1967)&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0407.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      una delle principali fonti di ispirazione per il World Wide Web
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;altro-contesto-storico&#34;&gt;Altro contesto storico&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistemi ipertestuali di prima generazione (ZOG, Xerox Alto, ecc.)&lt;/li&gt;
+&lt;li&gt;Dopo il 1983 (anno della messa a disposizione massiva dei personal computer sul mercato): sistemi ipertestuali di seconda generazione (KMS, NoteCards, HyperCard, ecc.)
+1987: prima conferenza internazionale sugli ipertesti&lt;/li&gt;
+&lt;li&gt;1987: prima conferenza internazionale sugli ipertesti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;fine-anni-ottanta-lipertesto-nel-mondo&#34;&gt;Fine anni Ottanta: l&amp;rsquo;ipertesto nel mondo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      L’ipertesto è estremamente popolare e testato.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Un fisico trentenne col compito di progettare un sistema di gestione dei documenti dell’istituto di ricerca per cui lavorava trae ispirazione da questa tecnologia, finendo per creare il più ampio, utilizzato e influente sistema ipertestuale di tutti i tempi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0409.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;il-world-wide-web-e-internet-che-è-una-cosa-diversa&#34;&gt;Il World Wide Web (e Internet, che è una cosa diversa)&lt;/h2&gt;
+&lt;!--
+
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-internet&#34;&gt;Cos&amp;rsquo;è Internet?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0410.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una rete di comunicazione tra dispositivi distribuiti a livello globale.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Tecnologie su chui si basa: TCP, IP, DNS, ecc...
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-il-world-wide-web&#34;&gt;Cos&amp;rsquo;è il World Wide Web?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un sistema documentale ipertestuale distribuito su Internet.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Tecnologie su chui si basa: HTTP, HTML, URL, ecc...
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-web-e-linternet-non-sono-la-stessa-cosa&#34;&gt;Il Web e l&amp;rsquo;Internet non sono la stessa cosa&lt;/h3&gt;
+&lt;p&gt;Il Web è un servizio ospitato da Internet, ideato da Cailliau e Berners-Lee al CERN di Ginevra verso la fine degli anni ‘80 come sistema di facilitazione delle comunicazioni a distanza fra ricercatori.&lt;/p&gt;
+&lt;p&gt;1990: &lt;a href=&#34;http://info.cern.ch/hypertext/WWW/TheProject.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prima pagina Web&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1993: rilasciato nel pubblico dominio.&lt;/p&gt;
+&lt;p&gt;Dopo il 1993: sistema di informazione e comunicazione globale per eccellenza.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;uno-sguardo-più-da-vicino&#34;&gt;Uno sguardo più da vicino&lt;/h3&gt;
+&lt;p&gt;Il Web è costituito da un insieme di documenti ipertestuali (&lt;strong&gt;pagine web&lt;/strong&gt;), ciascuno dei quali può essere collegato ad altri tramite link unidirezionali.&lt;/p&gt;
+&lt;p&gt;Le pagine sono ospitate da nodi specializzati di Internet detti &lt;strong&gt;server web&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Un utente può navigare nella struttura ipertestuale accedendo da un nodo, detto &lt;strong&gt;client&lt;/strong&gt;, usando un apposito tipo di programma, detto &lt;strong&gt;browser&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;specifichiamo-meglio-la-terminologia-di-internet&#34;&gt;Specifichiamo meglio la terminologia di Internet&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;: David Vignoni. &lt;a href=&#34;//commons.wikimedia.org/wiki/User:Calimo&#34; title=&#34;User:Calimo&#34;&gt;Calimo&lt;/a&gt; - Basato su: &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;&lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg&#34; title=&#34;File:Gnome-fs-server.svg&#34;&gt;Gnome-fs-server.svg&lt;/a&gt;, &lt;a href=&#34;http://www.gnu.org/licenses/lgpl.html&#34; title=&#34;GNU Lesser General Public License&#34;&gt;LGPL&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=15782858&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      L’architettura di Internet è basata sull’interazione continua tra
+      &lt;ul&gt;
+        &lt;li&gt;
+          Server: programmi (e i computer su cui operano) che servono dati e servizi;
+        &lt;/li&gt;
+        &lt;li&gt;
+          Client: programmi (e i computer su cui operano) che fanno richiesta di dati e servizi.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;e-la-terminologia-del-web&#34;&gt;E la terminologia del Web?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Uniform Resource Locator (URL): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;&lt;/li&gt;
+&lt;li&gt;Hypertext Transfer Protocol (HTTP): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;&lt;/li&gt;
+&lt;li&gt;Hypertext Markup Language (HTML): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quindi-cosa-permette-di-fare-linterazione-tra-internet-e-web&#34;&gt;Quindi, cosa permette di fare l&amp;rsquo;interazione tra Internet e Web?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Rappresentare risorse tramite documenti ipertestuali (attraverso &lt;strong&gt;HTML&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;Mettere a disposizione i suddetti documenti ipertestuali (attraverso &lt;strong&gt;server Web&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;Identificarli mediante l’utilizzo di un opportuno identificativo (&lt;strong&gt;URL&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;Richiederli mediante l’utilizzo di uno specifico protocollo di comunicazione (&lt;strong&gt;HTTP&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;Visualizzarli su un computer (attraverso un client).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;client-e-server&#34;&gt;Client e server&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-modello-client-server&#34;&gt;Il modello client-server&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Architettura di rete in cui un agente - computer o software - (il client) accede ai servizi o alle risorse di un altro agente - computer o software - (il server) attraverso una rete.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gli-agenti&#34;&gt;Gli agenti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        Client: agente che effettua la richiesta;
+      &lt;/li&gt;
+      &lt;li&gt;
+        Server: agente che dovrebbe avere informazioni su una risorsa e che risponde alla richiesta.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nel-dettaglio-il-client&#34;&gt;Nel dettaglio: il client&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un computer o un software che accede a un servizio fornito da un server.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Consente agli utenti di interagire facilmente con un servizio o una risorsa remota (es. sito Web, un server di posta elettronica o un sistema di archiviazione cloud).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Es. il computer che state usando; un browser (Firefox, Chrome, Edge, Safari, ecc.); Applicazioni (Netflix, Dropbox, Gmail, Canva, ecc.); un crawler; sensori incorporati (smartwatch, domotica, ecc.)
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nel-dettaglio-il-server&#34;&gt;Nel dettaglio: il server&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un computer o software che fornisce servizi o risorse ai client, attraverso una rete.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Progettato per eseguire specifiche funzioni di elaborazione e gestione delle risorse.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Es. un server Web ospita un sito Web e lo serve ai client che richiedono di accedere e visualizzare il sito.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-messaggi&#34;&gt;I messaggi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        Messaggio di richiesta: il messaggio mandato dal client al server in cui vengono chieste informazioni riguardo una specifica risorsa indicata da un URL;
+      &lt;/li&gt;
+      &lt;li&gt;
+        Messaggio di risposta: il messaggio che il server restituisce al client, che può essere positivo oppure negativo.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;interazione-client---server-esempio-del-browser&#34;&gt;Interazione Client - Server: esempio del browser&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;L&amp;rsquo;interazione viene avviata tipicamente da una richiesta dell’utente, tramite digitazione nella barra degli indirizzi del browser o per attivazione di un link;&lt;/li&gt;
+&lt;li&gt;Il browser (client) interpreta il comando come la richiesta da parte dell’utente della pagina web corrispondente all’indirizzo specificato;&lt;/li&gt;
+&lt;li&gt;Il client codifica la richiesta della pagina secondo determinate specifiche e inoltra la richiesta al server, sfruttando opportunamente l’infrastruttura di rete e i relativi servizi;&lt;/li&gt;
+&lt;li&gt;La richiesta viene instradata e raggiunge il server, che la codifica, la interpreta e cerca di soddisfarla;&lt;/li&gt;
+&lt;li&gt;Se il server approva la richiesta del client, manda al client una risposta “200 OK”, genera una copia del file corrispondente alla richiesta e la spedisce al client;&lt;/li&gt;
+&lt;li&gt;Arrivata a destinazione, il client interpreta la copia e la visualizza per l’utente.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;url&#34;&gt;URL&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-uniform-resource-locator&#34;&gt;Cos’è un Uniform Resource Locator?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meccanismo usato dai browser per recuperare risorse pubblicate sul Web;&lt;/li&gt;
+&lt;li&gt;Una stringa di testo che identifica (~codice fiscale) e localizza (~indirizzo di casa) una risorsa Web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;https://it.wikipedia.org/wiki/Amore_e_Psiche&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-uniform-resource-locator-1&#34;&gt;Cos’è un Uniform Resource Locator?&lt;/h3&gt;
+&lt;p&gt;Ogni volta che, da un proprio dispositivo (un computer, uno smartphone, etc.), si clicca su un link, il dispositivo stesso recupera una copia della risorsa a cui l’URL si riferisce, per poi visualizzarla sullo schermo del dispositivo.&lt;/p&gt;
+&lt;p&gt;In teoria un URL valido punta ad un’unica risorsa, la quale può essere una pagina HTML, un documento CSS, un’immagine, ecc.; in pratica, esistono delle eccezioni, come un URL che punta ad una risorsa che non esiste più o che è stata spostata.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;un-url-come-una-sorta-di-codice-postale&#34;&gt;Un URL come una sorta di codice postale&lt;/h3&gt;
+&lt;p&gt;![](image copy)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-lo-schema&#34;&gt;URL: lo schema&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Lo schema (scheme) rappresenta il protocollo (l’insieme di regole) per accedere alla risorsa.
+    &lt;/p&gt;
+    &lt;p&gt;
+      servizio postale da utilizzare
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-il-dominio&#34;&gt;URL: il dominio&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il dominio (domain name) identifica il tipo di entità che possiede il sito web, il servizio o la risorsa specifica a cui si accede.
+    &lt;/p&gt;
+    &lt;p&gt;
+      la città dove risiede l’indirizzo a cui inviare il pacco
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-il-dominio-1&#34;&gt;URL: il dominio&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      La porta (port) è il numero del punto di contatto virtuale del server.
+    &lt;/p&gt;
+    &lt;p&gt;
+      codice di avviamento postale
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-il-percorso&#34;&gt;URL: il percorso&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il percorso (path) rappresenta il percorso della risorsa nel server.
+    &lt;/p&gt;
+    &lt;p&gt;
+      l’edificio dove il pacco deve essere inviato
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-i-parametri&#34;&gt;URL: i parametri&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      I parametri (parameters) rappresentano informazioni operative sulla risorsa (es. filtri in una ricerca a faccette)
+    &lt;/p&gt;
+    &lt;p&gt;
+      informazioni aggiuntive, come il numero dell’appartamento nell’edificio
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;url-lancora&#34;&gt;URL: l&amp;rsquo;ancora&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      L’ancora (anchor) è l’identificativo di una sezione specifica nella risorsa.
+    &lt;/p&gt;
+    &lt;p&gt;
+      la persona a cui è intestato il pacco.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+What is a URL? In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-04-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 04 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABINF - Internet e World Wide Web</title>
+      <link>http://localhost:1313/it/slides/abinf-05/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-05/</guid>
+      <description>&lt;h1 id=&#34;internet-e-world-wide-web&#34;&gt;Internet e World Wide Web&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-05-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 05 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;http&#34;&gt;HTTP&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-protocollo&#34;&gt;Cos&amp;rsquo;è un protocollo?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0501.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Per comunicare, gli elementi all’interno delle reti devono seguire regole comuni.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Un protocollo è un insieme di regole e di messaggi che governano la comunicazione tra due entità.
+    &lt;/p&gt;
+    &lt;p&gt;
+      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (~ semafori).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosè-un-protocollo-1&#34;&gt;Cos&amp;rsquo;è un protocollo?&lt;/h3&gt;
+&lt;p&gt;Deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una sintassi da seguire per costruire i messaggi&lt;/li&gt;
+&lt;li&gt;Delle regole interpretative del messaggio, per definire la semantica dei messaggi&lt;/li&gt;
+&lt;li&gt;Dei meccanismi per sincronizzare la comunicazione&lt;/li&gt;
+&lt;li&gt;Dei meccanismi per correggere e/o gestire eventuali errori che possono intercorrere nello scambio dei messaggi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-protocollo-http&#34;&gt;Il protocollo HTTP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0502.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Protocollo di comunicazione utilizzato per il trasferimento di dati tra un client e un server su una rete.
+    &lt;/p&gt;
+    &lt;p&gt;
+      HTTP standardizza come client e server comunicano tramite il metodo richiesta-risposta, in cui il client invia una richiesta al server e il server risponde con una risposta contenente i dati richiesti.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+An Overview of HTTP. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-proxy&#34;&gt;Le proxy&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+An Overview of HTTP. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-messaggio-http&#34;&gt;Il messaggio HTTP&lt;/h3&gt;
+&lt;p&gt;Permette lo scambio di dati tra un server e un client.&lt;/p&gt;
+&lt;p&gt;Esistono due tipi di messaggio HTTP:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Richiesta: messaggio mandato dal client per richiedere una determinata azione da parte del server;&lt;/li&gt;
+&lt;li&gt;Risposta: messaggio mandato dal server come risposta alla richiesta del client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-struttura-di-un-messaggio-http&#34;&gt;La struttura di un messaggio HTTP&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Una testa composta da:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Una riga descrittiva iniziale (di richiesta o di risposta);&lt;/li&gt;
+&lt;li&gt;Un insieme opzionale di intestazioni (o header) che specificano la richiesta o descrivono il corpo del messaggio;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Una riga vuota che separa la testa dal corpo del messaggio;&lt;/li&gt;
+&lt;li&gt;Un corpo (o body o payload) opzionale con il contenuto del messaggio.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-richiesta-http&#34;&gt;La richiesta HTTP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-richiesta-http-1&#34;&gt;La richiesta HTTP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del client, lingua, ecc.).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Un&#39;eventuale riga vuota.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Un eventuale corpo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-metodo-get&#34;&gt;Il metodo GET&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato – per esempio come conseguenza di un click su un collegamento ipertestuale.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-metodo-post&#34;&gt;Il metodo POST&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      POST permette di creare sul server web contattato la risorsa specificata dall’URL utilizzato nella richiesta, e di associare informazioni incluse nella richiesta.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-metodo-delete&#34;&gt;Il metodo DELETE&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      DELETE permette di rimuovere dal server web contattato tutte le informazioni relative alla risorsa specificata nella richiesta tramite l’URL.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-metodo-put&#34;&gt;Il metodo PUT&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      PUT permette di specificare informazioni aggiuntive, incluse nella richiesta, ad una risorsa esistente che già risiede sul server.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-risposta-http&#34;&gt;La risposta HTTP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Tutte le risposte, oltre che a contenere metadati nell’header (e talvolta dati) nel corpo, specificano anche un codice di stato (un numero di tre cifre che specifica la classe di risposta.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-codici-di-stato-1xx&#34;&gt;I codici di stato: 1XX&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Risposta informativa preliminare o di diagnostica (molto raro, di solito non usato).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-codici-di-stato-2xx&#34;&gt;I codici di stato: 2XX&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      La richiesta è stata ricevuta, compresa, accettata e elaborata con successo dal server.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;i-codici-di-stato-3xx&#34;&gt;I codici di stato: 3XX&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il client deve effettuare ulteriori azioni per completare la richiesta.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h3 id=&#34;i-codici-di-stato-4xx&#34;&gt;I codici di stato: 4XX&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      C&#39;è stato un errore che dipende dalla richiesta del client (spesso derivante da errori nell&#39;URL della richiesta).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt; 
+&lt;hr&gt;
+&lt;h3 id=&#34;i-codici-di-stato-5xx&#34;&gt;I codici di stato: 5XX&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      C&#39;è stato un errore che dipende dal server durante il tentativo di elaborazione della richiesta del client.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;html&#34;&gt;HTML&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pagine-e-siti-web&#34;&gt;Pagine e siti Web&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una pagina Web è un documento ipertestuale pubblicato sul World Wide Web e visualizzato dall’utente tramite un client (browser, app, ecc.).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Quindi, un sito Web consiste in un insieme di pagine Web (più altri file correlati) che il client richiede ad uno o più server per elaborarli e generarne la visualizzazione sullo schermo del dispositivo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tecnologie-web&#34;&gt;Tecnologie Web&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Tecniche e strumenti continuano ad evolvere (es. framework), ma in sostanza le tecnologie di visualizzazione che stanno alla base di una pagina Web sono le stesse.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;hypertext-markup-language&#34;&gt;HyperText Markup Language&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio di marcatura che definisce la struttura e la semantica del contenuto di una pagina Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Consiste in una serie di elementi che vengono utilizzati per racchiudere parti del contenuto della pagina per farle apparire e/o comportare in una certa maniera.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cascading-style-sheets&#34;&gt;Cascading Style Sheets&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio per definire lo stile delle pagine Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Basato sul concetto di selettore per individuare specifici elementi HTML all’interno della pagina Web e applicargli un certo tipo di formattazione.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio di programmazione usato per aggiungere interattività alle pagine Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Esecuzione di determinate azioni in seguito allo scatenarsi di specifici eventi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-marcature-del-testo&#34;&gt;La marcature del testo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Annotazione del testo per definire esplicitamente i ruoli strutturali e semantici delle parti di cui è costituito.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-marcature-del-testo-1&#34;&gt;La marcature del testo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      La marcatura trasforma il testo in una struttura ad albero.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-marcature-del-testo-2&#34;&gt;La marcature del testo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Diversi linguaggi di marcatura (es. SGML, XML).
+    &lt;/p&gt;
+    &lt;p&gt;
+      Metalinguaggi che definiscono regole sintattiche per specificare la marcatura, ma non impongono alcun vocabolario.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-marcatura-lelemento&#34;&gt;La marcatura: l&amp;rsquo;elemento&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Termine informativo che esprime la semantica della porzione di testo a cui si riferisce.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-marcatura-lattributo&#34;&gt;La marcatura: l&amp;rsquo;attributo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Informazione aggiuntiva che si riferisce all’elemento a cui viene assegnata, sotto forma di coppia chiave-valore inserita nel marcatore di apertura.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;marcatura-di-un-testo-esempio&#34;&gt;Marcatura di un testo: esempio&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0410.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;marcatura-di-un-testo-esempio-1&#34;&gt;Marcatura di un testo: esempio&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0410.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;introduzione-a-html&#34;&gt;Introduzione a HTML&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Linguaggio che segue una sintassi simile a XML e che inoltre utilizza uno specifico vocabolario costituito da elementi ed attributi per identificare i vari ruoli strutturali e semantici di una pagina Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Il contenuto di un elemento può essere testo, altri elementi, o entrambi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;struttura-base-di-un-documento-html&#34;&gt;Struttura base di un documento HTML&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      Linguaggio che segue una sintassi simile a XML e che inoltre utilizza uno specifico vocabolario costituito da elementi ed attributi per identificare i vari ruoli strutturali e semantici di una pagina Web.
+      &lt;/li&gt;
+      &lt;li&gt;
+      Il contenuto di un elemento può essere testo, altri elementi, o entrambi.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML&lt;/a&gt;.
+&lt;/div&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;le-tecnologie-di-rete&#34;&gt;Le tecnologie di rete&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-fa-il-client-a-trovare-il-server&#34;&gt;Come fa il client a trovare il server?&lt;/h3&gt;
+&lt;p&gt;URL e HTTP forniscono le istruzioni necessarie ad ottenere una rappresentazione della risorsa cercata (ovvero, una copia della pagina HTML che visualizziamo).&lt;/p&gt;
+&lt;p&gt;Prendiamo un URL come questo: &lt;code&gt;http://&amp;lt;dominio&amp;gt;/&amp;lt;percorso&amp;gt;?&amp;lt;parametri&amp;gt;#&amp;lt;ancora&amp;gt;&lt;/code&gt;:
+2. Il client richiede al server &lt;code&gt;/&amp;lt;percorso&amp;gt;?&amp;lt;parametri&amp;gt;#&amp;lt;ancora&amp;gt;&lt;/code&gt;;
+3. Il server restituisce un messaggio con la copia della risorsa richiesta.&lt;/p&gt;
+&lt;p&gt;Ma manca il punto 1:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Il client cerca uno degli indirizzi IP del dominio usando il DNS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footer&#34;&gt;
+IP Address. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lindirizzo-ip&#34;&gt;L&amp;rsquo;indirizzo IP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+    Pur usando l’URL per accedere ad una risorsa, in realtà il server web che la ospita non è direttamente raggiungibile usando il suo nome ma attraverso un indirizzo specifico.
+    &lt;/p&gt;
+    &lt;p&gt;
+    Un indirizzo IP è un identificativo numerico assegnato a ogni dispositivo connesso a Internet.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+IP Address. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lindirizzo-ip-1&#34;&gt;L&amp;rsquo;indirizzo IP&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una serie di numeri separati da punti, utilizzata per instradare il traffico di rete tra i dispositivi.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Essenziali per la comunicazione su Internet, poiché consentono ai dispositivi di identificarsi e di scambiarsi informazioni tra di loro.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+IP Address. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/IP_Address&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-domain-name-system&#34;&gt;Il Domain Name System&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Quando un utente inserisce un URL o clicca su un link, il browser deve scoprire l&#39;indirizzo IP associato a quel dominio per stabilire una connessione.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Il DNS è un sistema di nomenclatura utilizzato per tradurre i nomi di dominio degli indirizzi Web in indirizzi IP numerici.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+DNS. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/DNS&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/DNS&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-domain-name-system-1&#34;&gt;Il Domain Name System&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      In pratica, è come un elenco telefonico per Internet, dove i nomi di dominio come &#34;google.com&#34; vengono tradotti in indirizzi IP numerici come &#34;172.217.168.78&#34; che i computer possono usare per connettersi ai server Web corrispondenti.
+    &lt;p&gt;
+      Permette agli utenti di trovare i siti web desiderati utilizzando nomi di dominio, invece di usare gli indirizzi IP numerici.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+DNS. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/DNS&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/DNS&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-transmission-control-protocol&#34;&gt;Il Transmission Control Protocol&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un protocollo che garantisce una trasmissione affidabile dei dati attraverso una rete.
+    &lt;p&gt;
+      Basato sulla commutazione di pacchetto: suddivisione dei dati in pacchetti, aggiunta di un&#39;intestazione che contiene informazioni sui dati, e garanzia che i pacchetti siano consegnati senza errori e nell&#39;ordine corretto.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+TCP. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/TCP&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/TCP&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-transmission-control-protocol-1&#34;&gt;Il Transmission Control Protocol&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Gli indirizzi IP vengono utilizzati per instradare i pacchetti di dati attraverso la rete da un dispositivo all’altro.
+    &lt;p&gt;
+      Insieme, TCP e IP costituiscono il protocollo TCP/IP, che è diventato lo standard de facto per la comunicazione di rete su Internet.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+TCP. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Glossary/TCP&#34;&gt;https://developer.mozilla.org/en-US/docs/Glossary/TCP&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ricapitolando&#34;&gt;Ricapitolando&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-web-è-una-strada-e-noi-dobbiamo-andare-ad-un-negozio&#34;&gt;Il Web è una strada, e noi dobbiamo andare ad un negozio&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Ad un’estremità c’è il client (casa), all’altra il server (un negozio).
+    &lt;p&gt;
+      Durante la navigazione tramite browser, digitare un URL o cliccare su un link equivale a camminare dalla casa verso il negozio.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;chiediamo-lindirizzo&#34;&gt;Chiediamo l&amp;rsquo;indirizzo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il browser si collega al server DNS e trova l&#39;indirizzo reale del server su cui risiede il sito Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In pratica, cerchiamo e troviamo l&#39;indirizzo del negozio.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;troviamo-lindirizzo&#34;&gt;Troviamo l&amp;rsquo;indirizzo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il browser si collega al server DNS e trova l&#39;indirizzo reale del server su cui risiede il sito Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In pratica, cerchiamo e troviamo l&#39;indirizzo del negozio.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;trovato-il-negozio-facciamo-il-nostro-ordine&#34;&gt;Trovato il negozio, facciamo il nostro ordine&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      l browser invia un messaggio di richiesta HTTP al server, chiedendogli di inviare una copia del sito Web al client.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In pratica, una volta arrivati al negozio, ordiniamo quello che ci serve.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-nostro-ordine-va-a-buon-fine-e-ci-vengono-consegnati-i-prodotti&#34;&gt;Il nostro ordine va a buon fine e ci vengono consegnati i prodotti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Se il server approva la richiesta del client, invia al client un messaggio &#34;200 OK&#34;, che significa &#34;Certo, puoi guardare quel sito web! Eccolo qui&#34;, e inizia quindi a inviare i file del sito Web al browser sotto forma di pacchetti di dati.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In pratica, il negozio ci consegna i prodotti che abbiamo ordinato, e noi li riportiamo a casa.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;durante-tutto-questo&#34;&gt;Durante tutto questo&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il messaggio e tutti i dati in esso contenuti, inviati tra il client e il server, vengono trasmessi attraverso la connessione Internet utilizzando il protocollo TCP/IP.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;infine-ritorniamo-a-casa&#34;&gt;Infine, ritorniamo a casa&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Il browser assembla i pacchetti in una pagina Web completa e la visualizza a schermo.
+    &lt;/p&gt;
+    &lt;p&gt;
+      In pratica, ritorni a casa con i prodotti in mano, pronti per essere usati.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-05-del-corso-di-_abilità-informatiche_-20242025-1&#34;&gt;Lezione 05 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ABINF - Pensiero Computazionale</title>
       <link>http://localhost:1313/it/slides/abinf-01/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
@@ -2801,7 +4446,7 @@ History of the Binary System. In Cut The Knot.
 &lt;p&gt;2 bit : 4 (2&lt;sup&gt;2&lt;/sup&gt;) sequenze possibili: 00, 01, 10, 11.&lt;/p&gt;
 &lt;p&gt;3 bit: 8 (2&lt;sup&gt;3&lt;/sup&gt;) sequenze possibili: 000, 001, 010, 100, 011, 101, 110, 111.&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Con &lt;code&gt;N bit&lt;/code&gt; possiamo rappresentare 2&lt;sup&gt;N&lt;/sup&gt; sequenze: da 0 a 2&lt;sup&gt;N&lt;/sup&gt;-1.&lt;/p&gt;
+&lt;p&gt;Con &lt;code&gt;n bit&lt;/code&gt; possiamo rappresentare 2&lt;sup&gt;n&lt;/sup&gt; sequenze: da 0 a 2&lt;sup&gt;n&lt;/sup&gt;-1.&lt;/p&gt;
 &lt;p&gt;8 bit costituiscono un &lt;strong&gt;byte&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;codifica-numerica-da-base-2-a-base-10&#34;&gt;Codifica numerica da base 2 a base 10&lt;/h3&gt;
@@ -2815,10 +4460,11 @@ History of the Binary System. In Cut The Knot.
 &lt;h3 id=&#34;codifica-numerica-da-base-10-a-base-2&#34;&gt;Codifica numerica da base 10 a base 2&lt;/h3&gt;
 &lt;p&gt;Dividere il numero per 2 ripetutamente fino ad arrivare a zero e disporre i resti in ordine inverso.&lt;/p&gt;
 &lt;p&gt;12&lt;/p&gt;
-&lt;p&gt;12 / 2 → resto 0       ^&lt;br&gt;
-= 6 / 2 → resto 0      |&lt;br&gt;
-= 3 / 2 → resto 1      |&lt;br&gt;
-= 1 / 2 → resto 1      |&lt;/p&gt;
+&lt;p&gt;12 / 2 → resto 0
+= 6 / 2 → resto 0
+= 3 / 2 → resto 1
+= 1 / 2 → resto 1&lt;/p&gt;
+&lt;p&gt;Prendiamo i resti dall&amp;rsquo;ultimo al primo:&lt;/p&gt;
 &lt;p&gt;= 1100&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;quindi&#34;&gt;Quindi…&lt;/h3&gt;
@@ -2827,7 +4473,7 @@ History of the Binary System. In Cut The Knot.
 &lt;li&gt;Conosciamo la numerazione in base 10;&lt;/li&gt;
 &lt;li&gt;Sappiamo passare da una base di numerazione all&amp;rsquo;altra (cioé convertire i numeri in bit).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Come digitalizziamo invece la lettera “a”?&lt;/p&gt;
+&lt;p&gt;Come digitalizziamo invece la lettera &lt;code&gt;a&lt;/code&gt;?&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;la-codifica-del-testo&#34;&gt;La codifica del testo&lt;/h2&gt;
 &lt;hr&gt;
@@ -2837,12 +4483,12 @@ History of the Binary System. In Cut The Knot.
 &lt;p&gt;Bastano 7 bit = 2&lt;sup&gt;7&lt;/sup&gt; = 128 sequenze.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;american-standard-code-for-information-interchange-ascii&#34;&gt;American Standard Code for Information Interchange (ASCII)&lt;/h3&gt;
-&lt;p&gt;Codifica sencondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.&lt;/p&gt;
+&lt;p&gt;Codifica secondo la quale ogni carattere è rappresentato da una sequenza di 7 bit.&lt;/p&gt;
 &lt;p&gt;Esempi:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A → 1000001&lt;/li&gt;
-&lt;li&gt;B → 1000010&lt;/li&gt;
-&lt;li&gt;BABA → 1000010 1000001 1000010 1000001&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;A&lt;/code&gt; → &lt;code&gt;1000001&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;B&lt;/code&gt; → &lt;code&gt;1000010&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BABA&lt;/code&gt; → &lt;code&gt;1000010 1000001 1000010 1000001&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ascii-esteso&#34;&gt;ASCII esteso&lt;/h3&gt;
@@ -2853,8 +4499,8 @@ History of the Binary System. In Cut The Knot.
 &lt;/ul&gt;
 &lt;p&gt;Esempi:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;CAT → 01000011 01000001 01010100;&lt;/li&gt;
-&lt;li&gt;cat → 01100011 01100001 01110100.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CAT&lt;/code&gt; → &lt;code&gt;01000011 01000001 01010100&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cat&lt;/code&gt; → &lt;code&gt;01100011 01100001 01110100&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-altro-esempio&#34;&gt;Un altro esempio&lt;/h3&gt;
@@ -2978,7 +4624,7 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
 &lt;li&gt;Dove&lt;/li&gt;
 &lt;li&gt;Chi&lt;/li&gt;
 &lt;li&gt;Come&lt;/li&gt;
-&lt;li&gt;Da quale&lt;/li&gt;
+&lt;li&gt;Da quale fonte&lt;/li&gt;
 &lt;li&gt;Perché&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -3077,7 +4723,7 @@ Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. &l
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h2&gt;
+&lt;h3 id=&#34;lelemento-umano&#34;&gt;L&amp;rsquo;elemento umano&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-rapimento-a-chibok&#34;&gt;Il rapimento a Chibok&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
