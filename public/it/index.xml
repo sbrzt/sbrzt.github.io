@@ -1192,17 +1192,29 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
 &lt;h2 id=&#34;lezione-04-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 04 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
 &lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0400.jpeg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;ipertesti&#34;&gt;Ipertesti&lt;/h2&gt;
 &lt;!--
 By Gregory Lloyd - &lt;span class=&#34;int-own-work&#34;&gt;Self-photographed&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0&#34; title=&#34;Creative Commons Attribution 2.0&#34;&gt;CC BY 2.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=89019&#34;&gt;Link&lt;/a&gt;
 --&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;ipertesto&#34;&gt;Ipertesto&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0401.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: &lt;a href=&#34;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&#34;&gt;https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;http://iasl.uni-muenchen.de/links/GCA-VI.2e.html&#34;&gt;http://iasl.uni-muenchen.de/links/GCA-VI.2e.html&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1215,13 +1227,15 @@ By Gregory Lloyd - &lt;span class=&#34;int-own-work&#34;&gt;Self-photographed&lt
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-un-ipertesto&#34;&gt;Cos&amp;rsquo;è un ipertesto?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0402.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0402.jpeg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1241,7 +1255,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0403.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0402.jpeg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1249,7 +1263,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Un grafo orientato composto da un insieme di elementi (nodi) collegati tra loro da relazioni (archi) unidirezionali.
+      Può essere anche visto come un grafo orientato composto da un insieme di elementi (nodi) collegati tra loro da relazioni (archi) unidirezionali.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1261,9 +1275,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0403.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://rreisman.medium.com/as-we-will-think-the-legacy-of-ted-nelson-original-visionary-of-the-web-f4f69a60bd6&#34;&gt;https://rreisman.medium.com/as-we-will-think-the-legacy-of-ted-nelson-original-visionary-of-the-web-f4f69a60bd6&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1282,9 +1296,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;hr&gt;
 &lt;h3 id=&#34;elementi-principali-dellipertesto&#34;&gt;Elementi principali dell&amp;rsquo;ipertesto&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Nodo: unità minima di informazione, dotata di autonomia e completezza;&lt;/li&gt;
-&lt;li&gt;Ancora: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;&lt;/li&gt;
-&lt;li&gt;Link: connessione tra una coppia di ancore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nodo&lt;/strong&gt;: unità minima di informazione, dotata di autonomia e completezza;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ancora&lt;/strong&gt;: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: connessione tra una coppia di ancore.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
@@ -1305,9 +1319,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0405.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+            Fonte: Di Editorial Alfaguara - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12&#34;&gt;https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12&lt;/a&gt;, Pubblico dominio, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=85847990&#34;&gt;Collegamento&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1325,9 +1339,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0405.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;http://iasl.uni-muenchen.de/links/GCA-VI.2e.html&#34;&gt;http://iasl.uni-muenchen.de/links/GCA-VI.2e.html&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1345,15 +1359,18 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0407.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:RobertCailliau (page does not exist)&#34;&gt;Robert Cailliau&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.cailliau.org/IMG_20231124_230228.jpg&#34;&gt;https://www.cailliau.org/IMG_20231124_230228.jpg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=26140236&#34;&gt;Link&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;http://www.thetednelson.com/designs.php&#34;&gt;http://www.thetednelson.com/designs.php&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      una delle principali fonti di ispirazione per il World Wide Web
+      Progetto di creazione di un contenitore per la letteratura mondiale, interconnessa e liberamente disponibile.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Una delle principali fonti di ispirazione per il World Wide Web.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1376,7 +1393,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0408.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0407.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;https://home.cern/science/computing/birth-web/short-history-web&#34;&gt;https://home.cern/science/computing/birth-web/short-history-web&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1399,7 +1416,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/0409.jpg&#34;
+      data-background-image=&#34;img/0408.jpeg&#34;
   
       
       class=&#34;section-slide&#34;
@@ -1408,14 +1425,15 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;il-world-wide-web-e-internet-che-è-una-cosa-diversa&#34;&gt;Il World Wide Web (e Internet, che è una cosa diversa)&lt;/h2&gt;
 &lt;!--
-
+Wilkau-Haßlau. Stadtbibliothek, Poststraße 1. Internet-Arbeitsplatz di Ahlers, Henrik (Herstellung) (Fotograf) - Deutsche Fotothek, Germany - CC BY-SA.
+https://www.europeana.eu/item/437/item_GKF3L2NASWXWWOHYNJ4KMMADCGZOI2ZX
 --&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-internet&#34;&gt;Cos&amp;rsquo;è Internet?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0410.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0409.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1439,7 +1457,7 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0410.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;https://rubenverborgh.github.io/WebFundamentals/&#34;&gt;https://rubenverborgh.github.io/WebFundamentals/&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1460,7 +1478,7 @@ How the web works. In MDN Web Docs.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-web-e-linternet-non-sono-la-stessa-cosa&#34;&gt;Il Web e l&amp;rsquo;Internet non sono la stessa cosa&lt;/h3&gt;
-&lt;p&gt;Il Web è un servizio ospitato da Internet, ideato da Cailliau e Berners-Lee al CERN di Ginevra verso la fine degli anni ‘80 come sistema di facilitazione delle comunicazioni a distanza fra ricercatori.&lt;/p&gt;
+&lt;p&gt;Il Web è un servizio ospitato da Internet, ideato da Cailliau e Berners-Lee al CERN di Ginevra verso la fine degli anni ‘80 come sistema di gestione e comunicazione di informazioni a distanza fra ricercatori.&lt;/p&gt;
 &lt;p&gt;1990: &lt;a href=&#34;http://info.cern.ch/hypertext/WWW/TheProject.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prima pagina Web&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;1993: rilasciato nel pubblico dominio.&lt;/p&gt;
 &lt;p&gt;Dopo il 1993: sistema di informazione e comunicazione globale per eccellenza.&lt;/p&gt;
@@ -1482,7 +1500,7 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;: David Vignoni. &lt;a href=&#34;//commons.wikimedia.org/wiki/User:Calimo&#34; title=&#34;User:Calimo&#34;&gt;Calimo&lt;/a&gt; - Basato su: &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;&lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg&#34; title=&#34;File:Gnome-fs-server.svg&#34;&gt;Gnome-fs-server.svg&lt;/a&gt;, &lt;a href=&#34;http://www.gnu.org/licenses/lgpl.html&#34; title=&#34;GNU Lesser General Public License&#34;&gt;LGPL&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=15782858&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1509,9 +1527,9 @@ How the web works. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;e-la-terminologia-del-web&#34;&gt;E la terminologia del Web?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Uniform Resource Locator (URL): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;&lt;/li&gt;
-&lt;li&gt;Hypertext Transfer Protocol (HTTP): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;&lt;/li&gt;
-&lt;li&gt;Hypertext Markup Language (HTML): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uniform Resource Locator&lt;/strong&gt; (&lt;strong&gt;URL&lt;/strong&gt;): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hypertext Transfer Protocol&lt;/strong&gt; (&lt;strong&gt;HTTP&lt;/strong&gt;): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hypertext Markup Language&lt;/strong&gt; (&lt;strong&gt;HTML&lt;/strong&gt;): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 How the web works. In MDN Web Docs.   
@@ -1524,22 +1542,36 @@ How the web works. In MDN Web Docs.
 &lt;li&gt;Mettere a disposizione i suddetti documenti ipertestuali (attraverso &lt;strong&gt;server Web&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Identificarli mediante l’utilizzo di un opportuno identificativo (&lt;strong&gt;URL&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Richiederli mediante l’utilizzo di uno specifico protocollo di comunicazione (&lt;strong&gt;HTTP&lt;/strong&gt;);&lt;/li&gt;
-&lt;li&gt;Visualizzarli su un computer (attraverso un client).&lt;/li&gt;
+&lt;li&gt;Visualizzarli su un computer (attraverso un &lt;strong&gt;client&lt;/strong&gt;).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;footer&#34;&gt;
 How the web works. In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0412.png&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;client-e-server&#34;&gt;Client e server&lt;/h2&gt;
+&lt;!--
+https://theconversation.com/how-the-internet-was-born-the-network-begins-to-take-shape-67904
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-modello-client-server&#34;&gt;Il modello client-server&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;: David Vignoni. &lt;a href=&#34;//commons.wikimedia.org/wiki/User:Calimo&#34; title=&#34;User:Calimo&#34;&gt;Calimo&lt;/a&gt; - Basato su: &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;&lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg&#34; title=&#34;File:Gnome-fs-server.svg&#34;&gt;Gnome-fs-server.svg&lt;/a&gt;, &lt;a href=&#34;http://www.gnu.org/licenses/lgpl.html&#34; title=&#34;GNU Lesser General Public License&#34;&gt;LGPL&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=15782858&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1558,9 +1590,9 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;: David Vignoni. &lt;a href=&#34;//commons.wikimedia.org/wiki/User:Calimo&#34; title=&#34;User:Calimo&#34;&gt;Calimo&lt;/a&gt; - Basato su: &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-client.svg&#34; title=&#34;File:Gnome-fs-client.svg&#34;&gt;Gnome-fs-client.svg&lt;/a&gt;&lt;a href=&#34;//commons.wikimedia.org/wiki/File:Gnome-fs-server.svg&#34; title=&#34;File:Gnome-fs-server.svg&#34;&gt;Gnome-fs-server.svg&lt;/a&gt;, &lt;a href=&#34;http://www.gnu.org/licenses/lgpl.html&#34; title=&#34;GNU Lesser General Public License&#34;&gt;LGPL&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=15782858&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1584,9 +1616,9 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0413.jpeg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di &lt;a rel=&#34;nofollow&#34; class=&#34;external text&#34; href=&#34;https://www.flickr.com/people/mwichary/&#34;&gt;Marcin Wichary&lt;/a&gt; - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://www.flickr.com/photos/mwichary/2151368358/&#34;&gt;https://www.flickr.com/photos/mwichary/2151368358/&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0&#34; title=&#34;Creative Commons Attribution 2.0&#34;&gt;CC BY 2.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=3344188&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1611,9 +1643,9 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0414.jpeg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/User:Victorgrigas&#34; title=&#34;User:Victorgrigas&#34;&gt;Victor Grigas&lt;/a&gt; - &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=20348454&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1638,7 +1670,7 @@ How the web works. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1674,7 +1706,21 @@ How the web works. In MDN Web Docs.
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0415.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;url&#34;&gt;URL&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@polarmermaid?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Anne Nygård&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/suomi-postage-stamp-usTo-Ajfuhg?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-un-uniform-resource-locator&#34;&gt;Cos’è un Uniform Resource Locator?&lt;/h3&gt;
 &lt;ul&gt;
@@ -1696,15 +1742,20 @@ What is a URL? In MDN Web Docs.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;un-url-come-una-sorta-di-codice-postale&#34;&gt;Un URL come una sorta di codice postale&lt;/h3&gt;
-&lt;p&gt;![](image copy)&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0416.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;url-lo-schema&#34;&gt;URL: lo schema&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0417.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1726,9 +1777,9 @@ What is a URL? In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0418.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1750,9 +1801,9 @@ What is a URL? In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0418.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1774,9 +1825,9 @@ What is a URL? In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0419.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1798,9 +1849,9 @@ What is a URL? In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0420.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1822,9 +1873,9 @@ What is a URL? In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0421.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
