@@ -5,7 +5,7 @@
     <link>http://localhost:1313/it/publication-type/manuscript/</link>
       <atom:link href="http://localhost:1313/it/publication-type/manuscript/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuscript</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png</url>
       <title>Manuscript</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>A reproducible workflow for the creation of digital twins in the cultural heritage domain</title>
+      <link>http://localhost:1313/it/publication/sebastian-reproducible-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/sebastian-reproducible-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KwicKwocKwac, a tool for rapidly generating concordances and marking up a literary text</title>
+      <link>http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
-      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</link>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</guid>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024/</guid>
       <description></description>
     </item>
     
@@ -30,9 +46,65 @@
     
     <item>
       <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
-      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024/</link>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024/</guid>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <link>http://localhost:1313/it/publication/balzani-saving-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/balzani-saving-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for PDF conversion of introductory essays in the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-1/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Edition of Aldo Moro&#39;s works (RDF Dataset)</title>
+      <link>http://localhost:1313/it/publication/barzaghi-national-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-national-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code for processing the National Edition of Aldo Moro&#39;s works data</title>
+      <link>http://localhost:1313/it/publication/barzaghi-source-2021-2/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-source-2021-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmark Dataset for designing and developing the National Edition of Aldo Moro&#39;s works</title>
+      <link>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vespasiano da Bisticci, Lettere. Knowledge Base 2020</title>
+      <link>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</guid>
       <description></description>
     </item>
     

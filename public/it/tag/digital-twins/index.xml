@@ -5,7 +5,7 @@
     <link>http://localhost:1313/it/tag/digital-twins/</link>
       <atom:link href="http://localhost:1313/it/tag/digital-twins/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Twins</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png</url>
       <title>Digital Twins</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Saving temporary exhibitions in virtual environments: the Digital Renaissance of Ulisse Aldrovandi</title>
+      <title>Saving temporary exhibitions in virtual environments: The Digital Renaissance of Ulisse Aldrovandi - Acquisition and digitisation of cultural heritage objects</title>
       <link>http://localhost:1313/it/publication/balzani-saving-2024/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/publication/balzani-saving-2024/</guid>
       <description></description>
     </item>

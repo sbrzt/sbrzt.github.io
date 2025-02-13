@@ -1,10 +1,6 @@
 ---
-# Documentation: https://hugoblox.com/docs/managing-content/
-
 title: 'Saving temporary exhibitions in virtual environments: the Digital Renaissance
   of Ulisse Aldrovandi'
-subtitle: ''
-summary: ''
 authors:
 - Roberto Balzani
 - Sebastian Barzaghi
@@ -39,32 +35,12 @@ authors:
 - Francesca Tomasi
 - Laura Travaglini
 - Luca Vittuari
-tags:
-- Computer Science - Digital Libraries
-- Computer Science - Graphics
-categories: []
 date: '2023-08-01'
-lastmod: 2023-12-20T14:33:26+01:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-12-20T13:33:25.353900Z'
+publishDate: '2025-02-13T15:40:36.786416Z'
 publication_types:
-- '0'
+- manuscript
+publication: '*arXiv*'
+doi: 10.48550/arXiv.2308.15920
 abstract: 'Our goal was to obtain the digital twin of the temporary exhibition \"The
   Other Renaissance: Ulisse Aldrovandi and the Wonders of the World\", to make it
   accessible online to users using various devices (from smartphones to VR headsets).
@@ -78,12 +54,10 @@ abstract: 'Our goal was to obtain the digital twin of the temporary exhibition \
   digital product. We described the process to collect and curate bibliographical
   (meta)data of the exhibition and digital twin creation process to foster its findability,
   accessibility, interoperability and reusability.'
-publication: '*arXiv*'
-doi: 10.48550/arXiv.2308.15920
+tags:
+- Computer Science - Digital Libraries
+- Computer Science - Graphics
 links:
 - name: URL
   url: http://arxiv.org/abs/2308.15920
-
-# Display this page in the Featured widget?
-featured: false
 ---

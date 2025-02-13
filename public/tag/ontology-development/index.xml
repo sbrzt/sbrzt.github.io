@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ontology Development | sbrzt</title>
+    <link>http://localhost:1313/tag/ontology-development/</link>
+      <atom:link href="http://localhost:1313/tag/ontology-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ontology Development</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png</url>
+      <title>Ontology Development</title>
+      <link>http://localhost:1313/tag/ontology-development/</link>
+    </image>
+    
+    <item>
+      <title>Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes</title>
+      <link>http://localhost:1313/publication/barzaghi-developing-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barzaghi-developing-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a FAIR Ontology Pattern for Describing Heritage Risk Assessment Activities</title>
+      <link>http://localhost:1313/publication/barzaghi-towards-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barzaghi-towards-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

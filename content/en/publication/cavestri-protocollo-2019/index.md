@@ -6,7 +6,7 @@ authors:
 - Sebastian Barzaghi
 - Silvio Peroni
 date: '2019-07-01'
-publishDate: '2024-06-27T23:07:53.249629Z'
+publishDate: '2025-02-13T15:40:36.851411Z'
 publication_types:
 - article-journal
 abstract: Questo protocollo è stato utilizzato per indagare la legittimità della definizione

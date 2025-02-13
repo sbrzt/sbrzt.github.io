@@ -5,12 +5,20 @@
     <link>http://localhost:1313/it/tag/computer-science-digital-libraries/</link>
       <atom:link href="http://localhost:1313/it/tag/computer-science-digital-libraries/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Science - Digital Libraries</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png</url>
       <title>Computer Science - Digital Libraries</title>
       <link>http://localhost:1313/it/tag/computer-science-digital-libraries/</link>
     </image>
+    
+    <item>
+      <title>KwicKwocKwac, a tool for rapidly generating concordances and marking up a literary text</title>
+      <link>http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes</title>
@@ -22,9 +30,9 @@
     
     <item>
       <title>Thinking Outside the Black Box: Insights from a Digital Exhibition in the Humanities</title>
-      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024/</link>
+      <link>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024/</guid>
+      <guid>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</guid>
       <description></description>
     </item>
     

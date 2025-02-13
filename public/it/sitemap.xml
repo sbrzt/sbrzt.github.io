@@ -30,6 +30,258 @@
                 href="http://localhost:1313/it/event/"
                 />
   </url><url>
+    <loc>http://localhost:1313/it/tag/3d-digitisation/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/3d-digitisation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/3d-digitisation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/application-profiles/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/application-profiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/application-profiles/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/cultural-heritage/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/cultural-heritage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/cultural-heritage/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/barzaghi-developing-2025/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/barzaghi-developing-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/barzaghi-developing-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/fair-principles/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/fair-principles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/fair-principles/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/ontology-development/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/ontology-development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/ontology-development/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/owl/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/owl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/owl/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication-type/paper-conference/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication-type/paper-conference/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication-type/paper-conference/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication_types/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication_types/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tags/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/barzaghi-proposal-2024/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/barzaghi-proposal-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/barzaghi-proposal-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication-type/article-journal/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication-type/article-journal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication-type/article-journal/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/sebastian-reproducible-2024/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/sebastian-reproducible-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/sebastian-reproducible-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication-type/manuscript/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication-type/manuscript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication-type/manuscript/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/computer-science-digital-libraries/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/computer-science-digital-libraries/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/computer-science-digital-libraries/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/computer-science-information-retrieval/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/computer-science-information-retrieval/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/computer-science-information-retrieval/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/barzaghi-kwickwockwac-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/barzaghi-kwickwockwac-2024/"
+                />
+  </url><url>
     <loc>http://localhost:1313/it/categories/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -118,74 +370,18 @@
                 href="http://localhost:1313/it/slides/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tags/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication-type/manuscript/</loc>
+    <loc>http://localhost:1313/it/publication/barzaghi-thinking-2024/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication-type/manuscript/"
+                href="http://localhost:1313/publication/barzaghi-thinking-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/publication-type/manuscript/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication_types/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication_types/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-thinking-2024-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-thinking-2024-1/"
+                href="http://localhost:1313/it/publication/barzaghi-thinking-2024/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/project/chad-ap/</loc>
@@ -244,20 +440,6 @@
                 href="http://localhost:1313/it/project/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/computer-science-digital-libraries/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tag/computer-science-digital-libraries/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tag/computer-science-digital-libraries/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-developing-2024/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -272,18 +454,102 @@
                 href="http://localhost:1313/it/publication/barzaghi-developing-2024/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-thinking-2024/</loc>
+    <loc>http://localhost:1313/it/publication/barzaghi-thinking-2024-1/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-thinking-2024/"
+                href="http://localhost:1313/publication/barzaghi-thinking-2024-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-thinking-2024/"
+                href="http://localhost:1313/it/publication/barzaghi-thinking-2024-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/digital-cultural-heritage-objects/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/digital-cultural-heritage-objects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/digital-cultural-heritage-objects/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/digital-twins/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/digital-twins/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/digital-twins/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/photogrammetry/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/photogrammetry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/photogrammetry/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/preservation-of-temporary-exhibitions/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/preservation-of-temporary-exhibitions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/preservation-of-temporary-exhibitions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/balzani-saving-2024/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/balzani-saving-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/balzani-saving-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/structured-light-projection-scanning/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/structured-light-projection-scanning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/structured-light-projection-scanning/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/slides/abinf-00/</loc>
@@ -310,102 +576,74 @@
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/it/publication-type/0/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
+    <loc>http://localhost:1313/it/tag/digital-preservation/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication-type/0/"
+                href="http://localhost:1313/tag/digital-preservation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/publication-type/0/"
+                href="http://localhost:1313/it/tag/digital-preservation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/digital-cultural-heritage-objects/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
+    <loc>http://localhost:1313/it/tag/heritage-risk-assessment-ontology/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/digital-cultural-heritage-objects/"
+                href="http://localhost:1313/tag/heritage-risk-assessment-ontology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tag/digital-cultural-heritage-objects/"
+                href="http://localhost:1313/it/tag/heritage-risk-assessment-ontology/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/digital-twins/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
+    <loc>http://localhost:1313/it/publication/barzaghi-hero-nodate/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/digital-twins/"
+                href="http://localhost:1313/publication/barzaghi-hero-nodate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tag/digital-twins/"
+                href="http://localhost:1313/it/publication/barzaghi-hero-nodate/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/photogrammetry/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
+    <loc>http://localhost:1313/it/tag/risk-assessment/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/photogrammetry/"
+                href="http://localhost:1313/tag/risk-assessment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tag/photogrammetry/"
+                href="http://localhost:1313/it/tag/risk-assessment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/preservation-of-temporary-exhibitions/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
+    <loc>http://localhost:1313/it/publication/barzaghi-towards-2024/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/preservation-of-temporary-exhibitions/"
+                href="http://localhost:1313/publication/barzaghi-towards-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tag/preservation-of-temporary-exhibitions/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication/balzani-saving-2024/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication/balzani-saving-2024/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication/balzani-saving-2024/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/tag/structured-light-projection-scanning/</loc>
-    <lastmod>2024-01-10T14:33:26+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tag/structured-light-projection-scanning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tag/structured-light-projection-scanning/"
+                href="http://localhost:1313/it/publication/barzaghi-towards-2024/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/slides/dhdmch-12/</loc>
@@ -497,7 +735,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/computer-science-graphics/</loc>
-    <lastmod>2023-12-20T14:33:26+01:00</lastmod>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -511,7 +749,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/balzani-saving-2023/</loc>
-    <lastmod>2023-12-20T14:33:26+01:00</lastmod>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -524,22 +762,8 @@
                 href="http://localhost:1313/it/publication/balzani-saving-2023/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication-type/2/</loc>
-    <lastmod>2023-12-20T14:33:28+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication-type/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication-type/2/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/publication/fabbri-ai-nodate/</loc>
-    <lastmod>2023-12-20T14:33:28+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -553,7 +777,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/based-design/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -567,7 +791,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/ccs-concepts-human-centered-computinguser-interface-design/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -581,7 +805,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/centered-computinguser-interface-design/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -595,7 +819,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/concepts-and-models/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -609,7 +833,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-digitisation-2023/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -623,7 +847,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/hci-theory/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -637,7 +861,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/human/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -651,7 +875,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/scenario/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -665,7 +889,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/scenario-based-design/</loc>
-    <lastmod>2023-12-20T14:33:27+01:00</lastmod>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -701,7 +925,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/digital-editions/</loc>
-    <lastmod>2023-12-20T14:33:25+01:00</lastmod>
+    <lastmod>2021-12-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -729,7 +953,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/controlled-vocabulary/</loc>
-    <lastmod>2023-12-20T14:33:23+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -742,36 +966,8 @@
                 href="http://localhost:1313/it/tag/controlled-vocabulary/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-controlled-2021/</loc>
-    <lastmod>2023-12-20T14:33:20+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-controlled-2021/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-controlled-2021/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</loc>
-    <lastmod>2023-12-20T14:33:22+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-controlled-2021-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-controlled-2021-1/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-controlled-2021-2/</loc>
-    <lastmod>2023-12-20T14:33:23+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -784,8 +980,36 @@
                 href="http://localhost:1313/it/publication/barzaghi-controlled-2021-2/"
                 />
   </url><url>
+    <loc>http://localhost:1313/it/publication/barzaghi-controlled-2021-1/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/barzaghi-controlled-2021-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/barzaghi-controlled-2021-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/publication/barzaghi-controlled-2021/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/publication/barzaghi-controlled-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/publication/barzaghi-controlled-2021/"
+                />
+  </url><url>
     <loc>http://localhost:1313/it/tag/datacite/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -799,7 +1023,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/digital-edition/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -813,7 +1037,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/digital-object-identifier/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -827,7 +1051,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/knowledge-organization/</loc>
-    <lastmod>2023-12-20T14:33:23+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -841,7 +1065,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/national-edition-of-aldo-moros-works/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -855,7 +1079,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/python/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -869,7 +1093,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/semantic-web/</loc>
-    <lastmod>2023-12-20T14:33:23+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -883,7 +1107,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/skos/</loc>
-    <lastmod>2023-12-20T14:33:23+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -896,22 +1120,22 @@
                 href="http://localhost:1313/it/tag/skos/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-source-2021-2/</loc>
-    <lastmod>2023-12-20T14:33:24+01:00</lastmod>
+    <loc>http://localhost:1313/it/publication/barzaghi-source-2021/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-source-2021-2/"
+                href="http://localhost:1313/publication/barzaghi-source-2021/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-source-2021-2/"
+                href="http://localhost:1313/it/publication/barzaghi-source-2021/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-source-2021-1/</loc>
-    <lastmod>2023-12-20T14:33:19+01:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -925,7 +1149,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/data-cleaning/</loc>
-    <lastmod>2023-12-20T14:33:18+01:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -939,7 +1163,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/data-wrangling/</loc>
-    <lastmod>2023-12-20T14:33:18+01:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -953,7 +1177,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-national-2021/</loc>
-    <lastmod>2023-12-20T14:33:17+01:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -967,7 +1191,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/rdf/</loc>
-    <lastmod>2023-12-20T14:33:17+01:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -980,22 +1204,22 @@
                 href="http://localhost:1313/it/tag/rdf/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication/barzaghi-source-2021/</loc>
-    <lastmod>2023-12-20T14:33:18+01:00</lastmod>
+    <loc>http://localhost:1313/it/publication/barzaghi-source-2021-2/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/barzaghi-source-2021/"
+                href="http://localhost:1313/publication/barzaghi-source-2021-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/publication/barzaghi-source-2021/"
+                href="http://localhost:1313/it/publication/barzaghi-source-2021-2/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/turtle/</loc>
-    <lastmod>2023-12-20T14:33:17+01:00</lastmod>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1009,7 +1233,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-protocol-2021/</loc>
-    <lastmod>2023-12-20T14:33:12+01:00</lastmod>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1023,7 +1247,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-modellazione-2021/</loc>
-    <lastmod>2023-12-20T14:33:13+01:00</lastmod>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1037,7 +1261,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/benchmark/</loc>
-    <lastmod>2023-12-20T14:33:25+01:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1051,7 +1275,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-benchmark-2021/</loc>
-    <lastmod>2023-12-20T14:33:25+01:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1065,7 +1289,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-competitive-2021/</loc>
-    <lastmod>2023-12-20T14:33:14+01:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1093,7 +1317,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/bibliografia-e-biblioteconomia/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1107,7 +1331,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/cultural-memory/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1121,7 +1345,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/data-fusion/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1135,7 +1359,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/database-systems/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1149,7 +1373,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/barzaghi-development-2020/</loc>
-    <lastmod>2023-12-20T14:33:11+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1163,7 +1387,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/information-retrieval-and-digital-libraries/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1177,7 +1401,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/m-sto/08-archivistica/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1191,7 +1415,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/pe6_10-web-and-information-systems/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1205,7 +1429,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/tag/sh5_11-cultural-heritage/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1219,7 +1443,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/it/publication/tomasi-vespasiano-2020/</loc>
-    <lastmod>2023-12-20T14:33:10+01:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -1232,22 +1456,8 @@
                 href="http://localhost:1313/it/publication/tomasi-vespasiano-2020/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/publication-type/article-journal/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/publication-type/article-journal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/publication-type/article-journal/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/publication/auddino-conformita-2019/</loc>
-    <lastmod>2023-12-20T14:33:15+01:00</lastmod>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"

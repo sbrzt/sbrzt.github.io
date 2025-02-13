@@ -279,7 +279,7 @@
 
   
 
-<meta name="description" content="A collection of the source codes used to automatically register the Digital Object Identifiers of the works published on the National Edition of Aldo Moro&#39;s works. The software connects to both an external MongoDB database and the DataCite API in order to assign to each document its respective DOI and register it on DataCite Fabrica. To start the program, fill in the blanks in the code (marked with &#39;@&#39;) accordingly, then run `python doifier.py` in the command prompt, and select the HTTP method to run." />
+<meta name="description" content="A series of Python scripts that have been used to process the documents in the National Edition of Aldo Moro&#39;s works.  In particular, the scripts are: recast.py, for refactoring the documents code, correcting possible errors, normalizing and finalizing resource URIs, and so on; TEIfy.py, for generating TEI documents from the HTML code. The TEI structure imitates the source code as closely as possible, and in addition integrates bibliographic metadata in the document header as well; PDFfy.py, for generating PDF documents from the HTML code. The PDF pagination and visualization is regulated by a CSS stylesheet (stylesheet.css); generate.py, for converting metadata into semantic statements collected in a knowledge base and organized on the basis of the standards defined in the data modelling phase; align.py, for integrating document markup in the knowledge base; main.py, for gathering and managing the functions defined in the other scripts; utils.py, for choosing which script to run and in which local directory. To start the program, run `python main.py` in the command prompt, then select the function you want to run and the directory you intend to use. You will either need a `config.json` file containing some variables in order to make it work (such as your local paths and names of the directories), or write them directly into the code as variables." />
 
 
 
@@ -329,17 +329,17 @@
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="sbrzt" />
 <meta property="og:url" content="http://localhost:1313/publication/barzaghi-source-2021-2/" />
-<meta property="og:title" content="Source code for generating the National Edition of Aldo Moro&#39;s works DOIs | sbrzt" />
-<meta property="og:description" content="A collection of the source codes used to automatically register the Digital Object Identifiers of the works published on the National Edition of Aldo Moro&#39;s works. The software connects to both an external MongoDB database and the DataCite API in order to assign to each document its respective DOI and register it on DataCite Fabrica. To start the program, fill in the blanks in the code (marked with &#39;@&#39;) accordingly, then run `python doifier.py` in the command prompt, and select the HTTP method to run." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Source code for processing the National Edition of Aldo Moro&#39;s works data | sbrzt" />
+<meta property="og:description" content="A series of Python scripts that have been used to process the documents in the National Edition of Aldo Moro&#39;s works.  In particular, the scripts are: recast.py, for refactoring the documents code, correcting possible errors, normalizing and finalizing resource URIs, and so on; TEIfy.py, for generating TEI documents from the HTML code. The TEI structure imitates the source code as closely as possible, and in addition integrates bibliographic metadata in the document header as well; PDFfy.py, for generating PDF documents from the HTML code. The PDF pagination and visualization is regulated by a CSS stylesheet (stylesheet.css); generate.py, for converting metadata into semantic statements collected in a knowledge base and organized on the basis of the standards defined in the data modelling phase; align.py, for integrating document markup in the knowledge base; main.py, for gathering and managing the functions defined in the other scripts; utils.py, for choosing which script to run and in which local directory. To start the program, run `python main.py` in the command prompt, then select the function you want to run and the directory you intend to use. You will either need a `config.json` file containing some variables in order to make it work (such as your local paths and names of the directories), or write them directly into the code as variables." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2023-12-20T13:33:23&#43;00:00"
+      content="2025-02-13T15:40:36&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2023-12-20T14:33:24&#43;01:00">
+    <meta property="article:modified_time" content="2021-10-01T00:00:00&#43;00:00">
   
 
 
@@ -365,10 +365,10 @@
     "@type": "WebPage",
     "@id": "http://localhost:1313/publication/barzaghi-source-2021-2/"
   },
-  "headline": "Source code for generating the National Edition of Aldo Moro's works DOIs",
+  "headline": "Source code for processing the National Edition of Aldo Moro's works data",
   
-  "datePublished": "2023-12-20T13:33:23Z",
-  "dateModified": "2023-12-20T14:33:24+01:00",
+  "datePublished": "2025-02-13T15:40:36Z",
+  "dateModified": "2021-10-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -383,7 +383,7 @@
       "url": "http://localhost:1313/media/icon_hu_5acbe59741a45e4d.png"
     }
   },
-  "description": "A collection of the source codes used to automatically register the Digital Object Identifiers of the works published on the National Edition of Aldo Moro's works. The software connects to both an external MongoDB database and the DataCite API in order to assign to each document its respective DOI and register it on DataCite Fabrica. To start the program, fill in the blanks in the code (marked with '@') accordingly, then run `python doifier.py` in the command prompt, and select the HTTP method to run."
+  "description": "A series of Python scripts that have been used to process the documents in the National Edition of Aldo Moro's works.  In particular, the scripts are: recast.py, for refactoring the documents code, correcting possible errors, normalizing and finalizing resource URIs, and so on; TEIfy.py, for generating TEI documents from the HTML code. The TEI structure imitates the source code as closely as possible, and in addition integrates bibliographic metadata in the document header as well; PDFfy.py, for generating PDF documents from the HTML code. The PDF pagination and visualization is regulated by a CSS stylesheet (stylesheet.css); generate.py, for converting metadata into semantic statements collected in a knowledge base and organized on the basis of the standards defined in the data modelling phase; align.py, for integrating document markup in the knowledge base; main.py, for gathering and managing the functions defined in the other scripts; utils.py, for choosing which script to run and in which local directory. To start the program, run `python main.py` in the command prompt, then select the function you want to run and the directory you intend to use. You will either need a `config.json` file containing some variables in order to make it work (such as your local paths and names of the directories), or write them directly into the code as variables."
 }
 </script>
 
@@ -405,7 +405,7 @@
 
 
   
-  <title>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs | sbrzt</title>
+  <title>Source code for processing the National Edition of Aldo Moro&#39;s works data | sbrzt</title>
 
   
   
@@ -818,7 +818,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Source code for generating the National Edition of Aldo Moro&#39;s works DOIs</h1>
+  <h1>Source code for processing the National Edition of Aldo Moro&#39;s works data</h1>
 
   
 
@@ -847,7 +847,7 @@
     
       
     
-    November, 2021
+    October, 2021
   </span>
   
 
@@ -904,7 +904,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.5281/zenodo.5651219" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.5281/zenodo.5592470" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -920,7 +920,7 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://zenodo.org/record/5651219" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://zenodo.org/record/5592470" target="_blank" rel="noopener">
     URL</a>
 
 
@@ -936,7 +936,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">A collection of the source codes used to automatically register the Digital Object Identifiers of the works published on the National Edition of Aldo Moro&rsquo;s works. The software connects to both an external MongoDB database and the DataCite API in order to assign to each document its respective DOI and register it on DataCite Fabrica. To start the program, fill in the blanks in the code (marked with &lsquo;@&rsquo;) accordingly, then run <code>python doifier.py</code> in the command prompt, and select the HTTP method to run.</p>
+    <p class="pub-abstract">A series of Python scripts that have been used to process the documents in the National Edition of Aldo Moro&rsquo;s works.  In particular, the scripts are: recast.py, for refactoring the documents code, correcting possible errors, normalizing and finalizing resource URIs, and so on; TEIfy.py, for generating TEI documents from the HTML code. The TEI structure imitates the source code as closely as possible, and in addition integrates bibliographic metadata in the document header as well; PDFfy.py, for generating PDF documents from the HTML code. The PDF pagination and visualization is regulated by a CSS stylesheet (stylesheet.css); generate.py, for converting metadata into semantic statements collected in a knowledge base and organized on the basis of the standards defined in the data modelling phase; align.py, for integrating document markup in the knowledge base; main.py, for gathering and managing the functions defined in the other scripts; utils.py, for choosing which script to run and in which local directory. To start the program, run <code>python main.py</code> in the command prompt, then select the function you want to run and the directory you intend to use. You will either need a <code>config.json</code> file containing some variables in order to make it work (such as your local paths and names of the directories), or write them directly into the code as variables.</p>
     
 
     
@@ -947,8 +947,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#0">
-              0
+            <a href="/publication/#manuscript">
+              Manuscript
             </a>
           </div>
         </div>
@@ -984,15 +984,19 @@
 
 <div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/data-cleaning/">Data Cleaning</a>
+  
+  <a class="badge badge-light" href="/tag/data-wrangling/">Data Wrangling</a>
+  
   <a class="badge badge-light" href="/tag/digital-edition/">Digital Edition</a>
+  
+  <a class="badge badge-light" href="/tag/digital-humanities/">Digital Humanities</a>
   
   <a class="badge badge-light" href="/tag/national-edition-of-aldo-moros-works/">National Edition of Aldo Moro&#39;s Works</a>
   
   <a class="badge badge-light" href="/tag/python/">Python</a>
   
-  <a class="badge badge-light" href="/tag/datacite/">Datacite</a>
-  
-  <a class="badge badge-light" href="/tag/digital-object-identifier/">Digital Object Identifier</a>
+  <a class="badge badge-light" href="/tag/semantic-web/">Semantic Web</a>
   
 </div>
 
@@ -1013,7 +1017,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;text=Source&#43;code&#43;for&#43;generating&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;DOIs" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;text=Source&#43;code&#43;for&#43;processing&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;data" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1030,7 +1034,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;t=Source&#43;code&#43;for&#43;generating&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;DOIs" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;t=Source&#43;code&#43;for&#43;processing&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;data" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1049,7 +1053,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Source%20code%20for%20generating%20the%20National%20Edition%20of%20Aldo%20Moro%27s%20works%20DOIs&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Source%20code%20for%20processing%20the%20National%20Edition%20of%20Aldo%20Moro%27s%20works%20data&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1066,7 +1070,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;title=Source&#43;code&#43;for&#43;generating&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;DOIs" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;title=Source&#43;code&#43;for&#43;processing&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;data" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1083,7 +1087,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Source&#43;code&#43;for&#43;generating&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;DOIs%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Source&#43;code&#43;for&#43;processing&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;data%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1100,7 +1104,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;title=Source&#43;code&#43;for&#43;generating&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;DOIs" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fbarzaghi-source-2021-2%2F&amp;title=Source&#43;code&#43;for&#43;processing&#43;the&#43;National&#43;Edition&#43;of&#43;Aldo&#43;Moro%27s&#43;works&#43;data" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

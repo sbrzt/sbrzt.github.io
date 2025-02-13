@@ -1227,22 +1227,18 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;elementi-principali-dellipertesto&#34;&gt;Elementi principali dell&amp;rsquo;ipertesto&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Nodo&lt;/strong&gt;: unità minima di informazione, dotata di autonomia e completezza;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ancora&lt;/strong&gt;: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: connessione tra una coppia di ancore.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Nodo&lt;/strong&gt;: unità minima di informazione, dotata di autonomia e completezza;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ancora&lt;/strong&gt;: frammento di un nodo da cui un link viene orientato verso un altro frammento di un nodo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;: connessione tra una coppia di ancore.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;caratteristiche-dellipertesto&#34;&gt;Caratteristiche dell&amp;rsquo;ipertesto&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Granularità&lt;/strong&gt;: decomponibile in parti più piccole e autosufficienti, dotate di senso, e utilizzabili;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interattività&lt;/strong&gt;: dà la possibilità al lettore di rapportarsi non-linearmente con esso;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrabilità&lt;/strong&gt;: estendibile in maniera potenzialmente infinita;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multimedialità&lt;/strong&gt;: compresenza di molteplici mezzi di comunicazione differenti.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Granularità&lt;/strong&gt;: decomponibile in parti più piccole e autosufficienti, dotate di senso, e utilizzabili;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interattività&lt;/strong&gt;: dà la possibilità al lettore di rapportarsi non-linearmente con esso;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Integrabilità&lt;/strong&gt;: estendibile in maniera potenzialmente infinita;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Multimedialità&lt;/strong&gt;: compresenza di molteplici mezzi di comunicazione differenti.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
 &lt;/div&gt;
@@ -1251,7 +1247,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0404.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di Editorial Alfaguara - &lt;a rel=&#34;nofollow&#34; class=&#34;external free&#34; href=&#34;https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12&#34;&gt;https://elpais.com/cultura/2013/06/24/album/1372074250_748413.html#foto_gal_12&lt;/a&gt;, Pubblico dominio, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=85847990&#34;&gt;Collegamento&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1291,7 +1287,7 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0406.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;http://www.thetednelson.com/designs.php&#34;&gt;http://www.thetednelson.com/designs.php&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -1311,12 +1307,9 @@ Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;altro-contesto-storico&#34;&gt;Altro contesto storico&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Sistemi ipertestuali di prima generazione (ZOG, Xerox Alto, ecc.)&lt;/li&gt;
-&lt;li&gt;Dopo il 1983 (anno della messa a disposizione massiva dei personal computer sul mercato): sistemi ipertestuali di seconda generazione (KMS, NoteCards, HyperCard, ecc.)
-1987: prima conferenza internazionale sugli ipertesti&lt;/li&gt;
-&lt;li&gt;1987: prima conferenza internazionale sugli ipertesti&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Sistemi ipertestuali di prima generazione (ZOG, Xerox Alto, ecc.);&lt;/p&gt;
+&lt;p&gt;Dopo il 1983 (anno della messa a disposizione massiva dei personal computer sul mercato): sistemi ipertestuali di seconda generazione (KMS, NoteCards, HyperCard, ecc.);&lt;/p&gt;
+&lt;p&gt;1987: prima conferenza internazionale sugli ipertesti.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 Ridi, Riccardo. 2018. “Hypertext”. Knowledge Organization 45, no. 5: 393-424. Also available in ISKO Encyclopedia of Knowledge Organization, ed. Birger Hjørland, coed. Claudio Gnoli, &lt;a href=&#34;https://www.isko.org/cyclo/hypertext&#34;&gt;https://www.isko.org/cyclo/hypertext&lt;/a&gt;.
 &lt;/div&gt;
@@ -1363,7 +1356,7 @@ https://www.europeana.eu/item/437/item_GKF3L2NASWXWWOHYNJ4KMMADCGZOI2ZX
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-internet&#34;&gt;Cos&amp;rsquo;è Internet?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0409.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1387,7 +1380,7 @@ How the web works. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-il-world-wide-web&#34;&gt;Cos&amp;rsquo;è il World Wide Web?&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0410.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1430,7 +1423,7 @@ How the web works. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;specifichiamo-meglio-la-terminologia-di-internet&#34;&gt;Specifichiamo meglio la terminologia di Internet&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1443,10 +1436,10 @@ How the web works. In MDN Web Docs.
       L’architettura di Internet è basata sull’interazione continua tra
       &lt;ul&gt;
         &lt;li&gt;
-          Server: programmi (e i computer su cui operano) che servono dati e servizi;
+          &lt;strong&gt;Server&lt;/strong&gt;: programmi (e i computer su cui operano) che servono dati e servizi;
         &lt;/li&gt;
         &lt;li&gt;
-          Client: programmi (e i computer su cui operano) che fanno richiesta di dati e servizi.
+          &lt;strong&gt;Client&lt;/strong&gt;: programmi (e i computer su cui operano) che fanno richiesta di dati e servizi.
         &lt;/li&gt;
       &lt;/ul&gt;
     &lt;/p&gt;
@@ -1458,24 +1451,22 @@ How the web works. In MDN Web Docs.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;e-la-terminologia-del-web&#34;&gt;E la terminologia del Web?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Uniform Resource Locator&lt;/strong&gt; (&lt;strong&gt;URL&lt;/strong&gt;): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hypertext Transfer Protocol&lt;/strong&gt; (&lt;strong&gt;HTTP&lt;/strong&gt;): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hypertext Markup Language&lt;/strong&gt; (&lt;strong&gt;HTML&lt;/strong&gt;): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Uniform Resource Locator&lt;/strong&gt; (&lt;strong&gt;URL&lt;/strong&gt;): schema di identificazione dei contenuti del Web e la singola stringa che agisce da identificatore univoco di una risorsa Web;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hypertext Transfer Protocol&lt;/strong&gt; (&lt;strong&gt;HTTP&lt;/strong&gt;): protocollo usato dai server e dai client per comunicare gli uni con gli altri e per il recupero della rappresentazione di una risorsa Web tramite il suo URL;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hypertext Markup Language&lt;/strong&gt; (&lt;strong&gt;HTML&lt;/strong&gt;): linguaggio di marcatura di cui sono composte le pagine web e che permette la rappresentazione di una risorsa Web.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 How the web works. In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;quindi-cosa-permette-di-fare-linterazione-tra-internet-e-web&#34;&gt;Quindi, cosa permette di fare l&amp;rsquo;interazione tra Internet e Web?&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Rappresentare risorse tramite documenti ipertestuali (attraverso &lt;strong&gt;HTML&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Mettere a disposizione i suddetti documenti ipertestuali (attraverso &lt;strong&gt;server Web&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Identificarli mediante l’utilizzo di un opportuno identificativo (&lt;strong&gt;URL&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Richiederli mediante l’utilizzo di uno specifico protocollo di comunicazione (&lt;strong&gt;HTTP&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Visualizzarli su un computer (attraverso un &lt;strong&gt;client&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 How the web works. In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
@@ -1499,7 +1490,7 @@ https://theconversation.com/how-the-internet-was-born-the-network-begins-to-take
 &lt;hr&gt;
 &lt;h3 id=&#34;il-modello-client-server&#34;&gt;Il modello client-server&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1520,7 +1511,7 @@ How the web works. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;gli-agenti&#34;&gt;Gli agenti&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1531,10 +1522,10 @@ How the web works. In MDN Web Docs.
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;
-        Client: agente che effettua la richiesta;
+        &lt;strong&gt;Client&lt;/strong&gt;: agente che effettua la richiesta;
       &lt;/li&gt;
       &lt;li&gt;
-        Server: agente che dovrebbe avere informazioni su una risorsa e che risponde alla richiesta.
+        &lt;strong&gt;Server&lt;/strong&gt;: agente che dovrebbe avere informazioni su una risorsa e che risponde alla richiesta.
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
@@ -1600,7 +1591,7 @@ How the web works. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-messaggi&#34;&gt;I messaggi&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0411.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -1611,10 +1602,10 @@ How the web works. In MDN Web Docs.
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;
-        Messaggio di richiesta: il messaggio mandato dal client al server in cui vengono chieste informazioni riguardo una specifica risorsa indicata da un URL;
+        &lt;strong&gt;Richiesta&lt;/strong&gt;: il messaggio mandato dal client al server in cui vengono chieste informazioni riguardo una specifica risorsa indicata da un URL;
       &lt;/li&gt;
       &lt;li&gt;
-        Messaggio di risposta: il messaggio che il server restituisce al client, che può essere positivo oppure negativo.
+        &lt;strong&gt;Risposta&lt;/strong&gt;: il messaggio che il server restituisce al client, che può essere positivo oppure negativo.
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
@@ -1625,14 +1616,18 @@ How the web works. In MDN Web Docs.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;interazione-client---server-esempio-del-browser&#34;&gt;Interazione Client - Server: esempio del browser&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;L&amp;rsquo;interazione viene avviata tipicamente da una richiesta dell’utente, tramite digitazione nella barra degli indirizzi del browser o per attivazione di un link;&lt;/li&gt;
-&lt;li&gt;Il browser (client) interpreta il comando come la richiesta da parte dell’utente della pagina web corrispondente all’indirizzo specificato;&lt;/li&gt;
-&lt;li&gt;Il client codifica la richiesta della pagina secondo determinate specifiche e inoltra la richiesta al server, sfruttando opportunamente l’infrastruttura di rete e i relativi servizi;&lt;/li&gt;
-&lt;li&gt;La richiesta viene instradata e raggiunge il server, che la codifica, la interpreta e cerca di soddisfarla;&lt;/li&gt;
-&lt;li&gt;Se il server approva la richiesta del client, manda al client una risposta “200 OK”, genera una copia del file corrispondente alla richiesta e la spedisce al client;&lt;/li&gt;
-&lt;li&gt;Arrivata a destinazione, il client interpreta la copia e la visualizza per l’utente.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;L&amp;rsquo;interazione viene avviata tipicamente da una richiesta dell’utente, tramite digitazione nella barra degli indirizzi del browser o per attivazione di un link;&lt;/p&gt;
+&lt;p&gt;Il browser (client) interpreta il comando come la richiesta da parte dell’utente della pagina web corrispondente all’indirizzo specificato;&lt;/p&gt;
+&lt;p&gt;Il client codifica la richiesta della pagina secondo determinate specifiche e inoltra la richiesta al server, sfruttando opportunamente l’infrastruttura di rete e i relativi servizi;&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+How the web works. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;interazione-client---server-esempio-del-browser-1&#34;&gt;Interazione Client - Server: esempio del browser&lt;/h3&gt;
+&lt;p&gt;La richiesta viene instradata e raggiunge il server, che la codifica, la interpreta e cerca di soddisfarla;&lt;/p&gt;
+&lt;p&gt;Se il server approva la richiesta del client, manda al client una risposta “200 OK”, genera una copia del file corrispondente alla richiesta e la spedisce al client;&lt;/p&gt;
+&lt;p&gt;Arrivata a destinazione, il client interpreta la copia e la visualizza per l’utente.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 How the web works. In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works&lt;/a&gt;.
@@ -1657,7 +1652,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@polarmermaid?utm_content=creditCo
 &lt;h3 id=&#34;cosè-un-uniform-resource-locator&#34;&gt;Cos’è un Uniform Resource Locator?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Meccanismo usato dai browser per recuperare risorse pubblicate sul Web;&lt;/li&gt;
-&lt;li&gt;Una stringa di testo che identifica (~codice fiscale) e localizza (~indirizzo di casa) una risorsa Web.&lt;/li&gt;
+&lt;li&gt;Una stringa di testo che identifica (come un codice fiscale) e localizza (come un indirizzo di casa) una risorsa Web.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;https://it.wikipedia.org/wiki/Amore_e_Psiche&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
@@ -1667,7 +1662,7 @@ What is a URL? In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-un-uniform-resource-locator-1&#34;&gt;Cos’è un Uniform Resource Locator?&lt;/h3&gt;
 &lt;p&gt;Ogni volta che, da un proprio dispositivo (un computer, uno smartphone, etc.), si clicca su un link, il dispositivo stesso recupera una copia della risorsa a cui l’URL si riferisce, per poi visualizzarla sullo schermo del dispositivo.&lt;/p&gt;
-&lt;p&gt;In teoria un URL valido punta ad un’unica risorsa, la quale può essere una pagina HTML, un documento CSS, un’immagine, ecc.; in pratica, esistono delle eccezioni, come un URL che punta ad una risorsa che non esiste più o che è stata spostata.&lt;/p&gt;
+&lt;p&gt;In teoria, un URL valido punta ad un’unica risorsa, la quale può essere una pagina HTML, un documento CSS, un’immagine, ecc.; in pratica, esistono delle eccezioni, come un URL che punta ad una risorsa che non esiste più o che è stata spostata.&lt;/p&gt;
 &lt;div class=&#34;footer&#34;&gt;
 What is a URL? In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
@@ -1675,7 +1670,7 @@ What is a URL? In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;un-url-come-una-sorta-di-codice-postale&#34;&gt;Un URL come una sorta di codice postale&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;img/0416.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+  &lt;img src=&#34;img/0416.png&#34; height=&#34;auto&#34; width=&#34;1500&#34;/&gt;
     &lt;figcaption&gt;
         Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
     &lt;/figcaption&gt;
@@ -1696,7 +1691,7 @@ What is a URL? In MDN Web Docs.
       Lo schema (scheme) rappresenta il protocollo (l’insieme di regole) per accedere alla risorsa.
     &lt;/p&gt;
     &lt;p&gt;
-      servizio postale da utilizzare
+      ~ Servizio postale da utilizzare.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1720,7 +1715,7 @@ What is a URL? In MDN Web Docs.
       Il dominio (domain name) identifica il tipo di entità che possiede il sito web, il servizio o la risorsa specifica a cui si accede.
     &lt;/p&gt;
     &lt;p&gt;
-      la città dove risiede l’indirizzo a cui inviare il pacco
+      ~ La città dove risiede l’indirizzo a cui inviare il pacco.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1729,7 +1724,7 @@ What is a URL? In MDN Web Docs.
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;url-il-dominio-1&#34;&gt;URL: il dominio&lt;/h3&gt;
+&lt;h3 id=&#34;url-la-porta&#34;&gt;URL: la porta&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -1744,7 +1739,7 @@ What is a URL? In MDN Web Docs.
       La porta (port) è il numero del punto di contatto virtuale del server.
     &lt;/p&gt;
     &lt;p&gt;
-      codice di avviamento postale
+      ~ Codice di avviamento postale.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1768,7 +1763,7 @@ What is a URL? In MDN Web Docs.
       Il percorso (path) rappresenta il percorso della risorsa nel server.
     &lt;/p&gt;
     &lt;p&gt;
-      l’edificio dove il pacco deve essere inviato
+      ~ L’edificio dove il pacco deve essere inviato.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1792,7 +1787,7 @@ What is a URL? In MDN Web Docs.
       I parametri (parameters) rappresentano informazioni operative sulla risorsa (es. filtri in una ricerca a faccette)
     &lt;/p&gt;
     &lt;p&gt;
-      informazioni aggiuntive, come il numero dell’appartamento nell’edificio
+      ~ Informazioni aggiuntive, come il numero dell’appartamento nell’edificio.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1816,7 +1811,7 @@ What is a URL? In MDN Web Docs.
       L’ancora (anchor) è l’identificativo di una sezione specifica nella risorsa.
     &lt;/p&gt;
     &lt;p&gt;
-      la persona a cui è intestato il pacco.
+      ~ La persona a cui è intestato il pacco.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;

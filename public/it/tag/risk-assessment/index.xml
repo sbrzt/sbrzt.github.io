@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Risk Assessment | sbrzt</title>
+    <link>http://localhost:1313/it/tag/risk-assessment/</link>
+      <atom:link href="http://localhost:1313/it/tag/risk-assessment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Risk Assessment</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>it</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9d9b593248f3c06d.png</url>
+      <title>Risk Assessment</title>
+      <link>http://localhost:1313/it/tag/risk-assessment/</link>
+    </image>
+    
+    <item>
+      <title>Towards a FAIR Ontology Pattern for Describing Heritage Risk Assessment Activities</title>
+      <link>http://localhost:1313/it/publication/barzaghi-towards-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/publication/barzaghi-towards-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
