@@ -101,15 +101,19 @@
   </div>
   <div style="flex: 1;">
     <p>
-      Per comunicare, gli elementi all’interno delle reti devono seguire regole comuni.
+      Per comunicare, gli elementi all’interno di un sistema devono seguire regole comuni.
     </p>
     <p>
       Un protocollo è un insieme di regole e di messaggi che governano la comunicazione tra due entità.
     </p>
     <p>
-      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (~ semafori).
+      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (es. semaforo).
     </p>
   </div>
+</div>
+<div class="footer">
+An Overview of HTTP. In MDN Web Docs.   
+ <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
 </div>
 
     </section>
@@ -122,13 +126,18 @@
     
       
 <h3 id="cosè-un-protocollo-1">Cos&rsquo;è un protocollo?</h3>
-<p>Deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.</p>
+<p>Un protocollo deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.</p>
+<p>Un linguaggio di questo tipo deve avere:</p>
 <ul>
-<li>Una sintassi da seguire per costruire i messaggi</li>
-<li>Delle regole interpretative del messaggio, per definire la semantica dei messaggi</li>
-<li>Dei meccanismi per sincronizzare la comunicazione</li>
-<li>Dei meccanismi per correggere e/o gestire eventuali errori che possono intercorrere nello scambio dei messaggi</li>
+<li>Una <strong>sintassi</strong> da seguire per costruire i messaggi;</li>
+<li>Delle regole interpretative del messaggio, per definire la <strong>semantica</strong> dei messaggi;</li>
+<li>Dei <strong>meccanismi per sincronizzare</strong> la comunicazione;</li>
+<li>Dei <strong>meccanismi per correggere e/o gestire</strong> eventuali errori che possono intercorrere nello scambio dei messaggi.</li>
 </ul>
+<div class="footer">
+An Overview of HTTP. In MDN Web Docs.   
+ <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
+</div>
 
     </section>
     
@@ -143,9 +152,9 @@
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0502.jpg" height="auto" width="700"/>
+      <img src="img/0502.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://www.ionos.it/digitalguide/hosting/tecniche-hosting/protocollo-http/">https://www.ionos.it/digitalguide/hosting/tecniche-hosting/protocollo-http/</a>.
         </figcaption>
     </figure>
   </div>
@@ -176,9 +185,9 @@ An Overview of HTTP. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0503.svg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di H2g2bob - Opera propria basata su: <a href="//commons.wikimedia.org/wiki/File:Proxy_concept_en.svg" title="File:Proxy concept en.svg">Proxy concept en.svg</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=124743074">Collegamento</a>.
         </figcaption>
     </figure>
   </div>
@@ -206,8 +215,8 @@ An Overview of HTTP. In MDN Web Docs.
 <p>Permette lo scambio di dati tra un server e un client.</p>
 <p>Esistono due tipi di messaggio HTTP:</p>
 <ul>
-<li>Richiesta: messaggio mandato dal client per richiedere una determinata azione da parte del server;</li>
-<li>Risposta: messaggio mandato dal server come risposta alla richiesta del client.</li>
+<li><strong>Richiesta</strong>: messaggio mandato dal client per richiedere una determinata azione da parte del server;</li>
+<li><strong>Risposta</strong>: messaggio mandato dal server come risposta alla richiesta del client.</li>
 </ul>
 <div class="footer">
 HTTP Messages. In MDN Web Docs.   
@@ -224,17 +233,37 @@ HTTP Messages. In MDN Web Docs.
     
       
 <h3 id="la-struttura-di-un-messaggio-http">La struttura di un messaggio HTTP</h3>
-<ol>
-<li>Una testa composta da:</li>
-</ol>
 <ul>
-<li>Una riga descrittiva iniziale (di richiesta o di risposta);</li>
-<li>Un insieme opzionale di intestazioni (o header) che specificano la richiesta o descrivono il corpo del messaggio;</li>
+<li>Una <strong>testa</strong> composta da:
+<ul>
+<li>Una <strong>riga iniziale</strong> (di richiesta o di risposta);</li>
+<li>Un insieme di <strong>intestazioni opzionali</strong> (o header) che specificano la richiesta o descrivono il corpo del messaggio;</li>
 </ul>
-<ol start="2">
-<li>Una riga vuota che separa la testa dal corpo del messaggio;</li>
-<li>Un corpo (o body o payload) opzionale con il contenuto del messaggio.</li>
-</ol>
+</li>
+<li>Una <strong>riga vuota</strong> che separa la testa dal corpo del messaggio;</li>
+<li>Un <strong>corpo opzionale</strong> (o body o payload) con il contenuto del messaggio.</li>
+</ul>
+<div class="footer">
+HTTP Messages. In MDN Web Docs.   
+ <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="la-struttura-di-un-messaggio-http-1">La struttura di un messaggio HTTP</h3>
+<figure>
+  <img src="img/0504.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messagesg</a>.
+    </figcaption>
+</figure>
 <div class="footer">
 HTTP Messages. In MDN Web Docs.   
  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
@@ -253,45 +282,15 @@ HTTP Messages. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0505.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
         </figcaption>
     </figure>
   </div>
   <div style="flex: 1;">
     <p>
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
-    </p>
-  </div>
-</div>
-<div class="footer">
-HTTP Messages. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="la-richiesta-http-1">La richiesta HTTP</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del client, lingua, ecc.).
+      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
     </p>
     <p>
       Un'eventuale riga vuota.
@@ -318,12 +317,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="il-metodo-get">Il metodo GET</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -348,12 +347,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="il-metodo-post">Il metodo POST</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -378,12 +377,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="il-metodo-delete">Il metodo DELETE</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -408,12 +407,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="il-metodo-put">Il metodo PUT</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -439,9 +438,9 @@ HTTP Messages. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
+      <img src="img/0506.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
         </figcaption>
     </figure>
   </div>
@@ -468,12 +467,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="i-codici-di-stato-1xx">I codici di stato: 1XX</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -498,12 +497,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="i-codici-di-stato-2xx">I codici di stato: 2XX</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -528,12 +527,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="i-codici-di-stato-3xx">I codici di stato: 3XX</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -558,12 +557,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="i-codici-di-stato-4xx">I codici di stato: 4XX</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -588,12 +587,12 @@ HTTP Messages. In MDN Web Docs.
 <h3 id="i-codici-di-stato-5xx">I codici di stato: 5XX</h3>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <figure>
-      <img src="img/0411.jpg" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
-        </figcaption>
-    </figure>
+    <code>
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    </code>
   </div>
   <div style="flex: 1;">
     <p>
@@ -1053,13 +1052,15 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
       
 <h3 id="come-fa-il-client-a-trovare-il-server">Come fa il client a trovare il server?</h3>
 <p>URL e HTTP forniscono le istruzioni necessarie ad ottenere una rappresentazione della risorsa cercata (ovvero, una copia della pagina HTML che visualizziamo).</p>
-<p>Prendiamo un URL come questo: <code>http://&lt;dominio&gt;/&lt;percorso&gt;?&lt;parametri&gt;#&lt;ancora&gt;</code>:
-2. Il client richiede al server <code>/&lt;percorso&gt;?&lt;parametri&gt;#&lt;ancora&gt;</code>;
-3. Il server restituisce un messaggio con la copia della risorsa richiesta.</p>
+<p>Prendiamo un URL come questo: <code>http://&lt;dominio&gt;/&lt;percorso&gt;?&lt;parametri&gt;#&lt;ancora&gt;</code>:</p>
+<ul>
+<li>Il client richiede al server <code>/&lt;percorso&gt;?&lt;parametri&gt;#&lt;ancora&gt;</code>;</li>
+<li>Il server restituisce un messaggio con la copia della risorsa richiesta.</li>
+</ul>
 <p>Ma manca il punto 1:</p>
-<ol>
+<ul>
 <li>Il client cerca uno degli indirizzi IP del dominio usando il DNS.</li>
-</ol>
+</ul>
 <div class="footer">
 IP Address. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary/IP_Address">https://developer.mozilla.org/en-US/docs/Glossary/IP_Address</a>.
 </div>

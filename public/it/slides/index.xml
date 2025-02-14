@@ -1849,33 +1849,42 @@ What is a URL? In MDN Web Docs.
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Per comunicare, gli elementi all’interno delle reti devono seguire regole comuni.
+      Per comunicare, gli elementi all’interno di un sistema devono seguire regole comuni.
     &lt;/p&gt;
     &lt;p&gt;
       Un protocollo è un insieme di regole e di messaggi che governano la comunicazione tra due entità.
     &lt;/p&gt;
     &lt;p&gt;
-      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (~ semafori).
+      La definizione di ogni protocollo consiste nel fornire un insieme di regole non ambigue, definendo i messaggi che possono essere scambiati tra entità, il loro significato e le azioni da intraprendere in ogni situazione (es. semaforo).
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+An Overview of HTTP. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;cosè-un-protocollo-1&#34;&gt;Cos&amp;rsquo;è un protocollo?&lt;/h3&gt;
-&lt;p&gt;Deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.&lt;/p&gt;
+&lt;p&gt;Un protocollo deve essere espresso in un particolare linguaggio, un insieme di segnali e/o simboli comprensibili alle entità al fine di avviare e gestire la comunicazione.&lt;/p&gt;
+&lt;p&gt;Un linguaggio di questo tipo deve avere:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Una sintassi da seguire per costruire i messaggi&lt;/li&gt;
-&lt;li&gt;Delle regole interpretative del messaggio, per definire la semantica dei messaggi&lt;/li&gt;
-&lt;li&gt;Dei meccanismi per sincronizzare la comunicazione&lt;/li&gt;
-&lt;li&gt;Dei meccanismi per correggere e/o gestire eventuali errori che possono intercorrere nello scambio dei messaggi&lt;/li&gt;
+&lt;li&gt;Una &lt;strong&gt;sintassi&lt;/strong&gt; da seguire per costruire i messaggi;&lt;/li&gt;
+&lt;li&gt;Delle regole interpretative del messaggio, per definire la &lt;strong&gt;semantica&lt;/strong&gt; dei messaggi;&lt;/li&gt;
+&lt;li&gt;Dei &lt;strong&gt;meccanismi per sincronizzare&lt;/strong&gt; la comunicazione;&lt;/li&gt;
+&lt;li&gt;Dei &lt;strong&gt;meccanismi per correggere e/o gestire&lt;/strong&gt; eventuali errori che possono intercorrere nello scambio dei messaggi.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+An Overview of HTTP. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-protocollo-http&#34;&gt;Il protocollo HTTP&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0502.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0502.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://www.ionos.it/digitalguide/hosting/tecniche-hosting/protocollo-http/&#34;&gt;https://www.ionos.it/digitalguide/hosting/tecniche-hosting/protocollo-http/&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1897,9 +1906,9 @@ An Overview of HTTP. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0503.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di H2g2bob - Opera propria basata su: &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Proxy_concept_en.svg&#34; title=&#34;File:Proxy concept en.svg&#34;&gt;Proxy concept en.svg&lt;/a&gt;, &lt;a href=&#34;http://creativecommons.org/publicdomain/zero/1.0/deed.en&#34; title=&#34;Creative Commons Zero, Public Domain Dedication&#34;&gt;CC0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=124743074&#34;&gt;Collegamento&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1918,8 +1927,8 @@ An Overview of HTTP. In MDN Web Docs.
 &lt;p&gt;Permette lo scambio di dati tra un server e un client.&lt;/p&gt;
 &lt;p&gt;Esistono due tipi di messaggio HTTP:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Richiesta: messaggio mandato dal client per richiedere una determinata azione da parte del server;&lt;/li&gt;
-&lt;li&gt;Risposta: messaggio mandato dal server come risposta alla richiesta del client.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Richiesta&lt;/strong&gt;: messaggio mandato dal client per richiedere una determinata azione da parte del server;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risposta&lt;/strong&gt;: messaggio mandato dal server come risposta alla richiesta del client.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footer&#34;&gt;
 HTTP Messages. In MDN Web Docs.   
@@ -1927,17 +1936,28 @@ HTTP Messages. In MDN Web Docs.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;la-struttura-di-un-messaggio-http&#34;&gt;La struttura di un messaggio HTTP&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Una testa composta da:&lt;/li&gt;
-&lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;Una riga descrittiva iniziale (di richiesta o di risposta);&lt;/li&gt;
-&lt;li&gt;Un insieme opzionale di intestazioni (o header) che specificano la richiesta o descrivono il corpo del messaggio;&lt;/li&gt;
+&lt;li&gt;Una &lt;strong&gt;testa&lt;/strong&gt; composta da:
+&lt;ul&gt;
+&lt;li&gt;Una &lt;strong&gt;riga iniziale&lt;/strong&gt; (di richiesta o di risposta);&lt;/li&gt;
+&lt;li&gt;Un insieme di &lt;strong&gt;intestazioni opzionali&lt;/strong&gt; (o header) che specificano la richiesta o descrivono il corpo del messaggio;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Una riga vuota che separa la testa dal corpo del messaggio;&lt;/li&gt;
-&lt;li&gt;Un corpo (o body o payload) opzionale con il contenuto del messaggio.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Una &lt;strong&gt;riga vuota&lt;/strong&gt; che separa la testa dal corpo del messaggio;&lt;/li&gt;
+&lt;li&gt;Un &lt;strong&gt;corpo opzionale&lt;/strong&gt; (o body o payload) con il contenuto del messaggio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+HTTP Messages. In MDN Web Docs.   
+ &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-struttura-di-un-messaggio-http-1&#34;&gt;La struttura di un messaggio HTTP&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;img/0504.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messagesg&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;footer&#34;&gt;
 HTTP Messages. In MDN Web Docs.   
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
@@ -1947,36 +1967,15 @@ HTTP Messages. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0505.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footer&#34;&gt;
-HTTP Messages. In MDN Web Docs.   
- &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;.
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;la-richiesta-http-1&#34;&gt;La richiesta HTTP&lt;/h3&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
-    &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
-        &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
-        &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
-    &lt;p&gt;
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del client, lingua, ecc.).
+      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
     &lt;/p&gt;
     &lt;p&gt;
       Un&#39;eventuale riga vuota.
@@ -1994,12 +1993,12 @@ HTTP Messages. In MDN Web Docs.
 &lt;h3 id=&#34;il-metodo-get&#34;&gt;Il metodo GET&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
-    &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
-        &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
-        &lt;/figcaption&gt;
-    &lt;/figure&gt;
+    &lt;code&gt;
+      GET /contact HTTP/1.1
+      Host: example.com
+      User-Agent: curl/8.6.0
+      Accept: */*
+    &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
@@ -2079,9 +2078,9 @@ HTTP Messages. In MDN Web Docs.
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0411.jpg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0506.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
