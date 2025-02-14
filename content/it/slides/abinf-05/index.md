@@ -19,7 +19,13 @@ slides:
 
 ---
 
+{{< slide background-image="img/0500.jpeg" class="section-slide">}}
+
 ## HTTP
+
+<!--
+
+-->
 
 ---
 
@@ -28,7 +34,7 @@ slides:
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0501.jpg" height="auto" width="700"/>
+      <img src="img/0501.jpg" height="auto" width="400"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
         </figcaption>
@@ -51,7 +57,6 @@ slides:
 An Overview of HTTP. In MDN Web Docs.   
  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>.
 </div>
-
 
 ---
 
@@ -76,7 +81,7 @@ An Overview of HTTP. In MDN Web Docs.
 ### Il protocollo HTTP
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0502.png" height="auto" width="700"/>
         <figcaption>
@@ -104,7 +109,7 @@ An Overview of HTTP. In MDN Web Docs.
 ### Le proxy
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0503.svg" height="auto" width="700"/>
         <figcaption>
@@ -126,13 +131,11 @@ An Overview of HTTP. In MDN Web Docs.
 
 ---
 
-### Il messaggio HTTP
+### Ricordiamoci che esistono due tipi di messaggi
 
-Permette lo scambio di dati tra un server e un client.
+**Richiesta**: messaggio mandato dal client per richiedere una determinata azione da parte del server;
 
-Esistono due tipi di messaggio HTTP:
-* **Richiesta**: messaggio mandato dal client per richiedere una determinata azione da parte del server;
-* **Risposta**: messaggio mandato dal server come risposta alla richiesta del client.
+**Risposta**: messaggio mandato dal server come risposta alla richiesta del client.
 
 <div class="footer">
 HTTP Messages. In MDN Web Docs.   
@@ -141,7 +144,7 @@ HTTP Messages. In MDN Web Docs.
 
 ---
 
-### La struttura di un messaggio HTTP
+### La struttura di un messaggio secondo HTTP
 
 - Una **testa** composta da:
   * Una **riga iniziale** (di richiesta o di risposta);
@@ -159,7 +162,7 @@ HTTP Messages. In MDN Web Docs.
 ### La struttura di un messaggio HTTP
 
 <figure>
-  <img src="img/0504.png" height="auto" width="700"/>
+  <img src="img/0504.png" height="auto" width="1000"/>
     <figcaption>
         Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messagesg</a>.
     </figcaption>
@@ -453,7 +456,13 @@ HTTP Messages. In MDN Web Docs.
 
 ---
 
-## HTML
+{{< slide background-image="img/0507.jpg" class="section-slide">}}
+
+## Le Tecnologie Web
+
+<!--
+Photo by <a href="https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mohammad Rahmani</a> on <a href="https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
@@ -462,9 +471,9 @@ HTTP Messages. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0508.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di <a href="https://en.wikipedia.org/wiki/User:Lulzmango" class="extiw" title="en:User:Lulzmango">Lulzmango</a> - <a href="https://en.wikipedia.org/wiki/Web_page" class="extiw" title="en:Web page">en:Web_page</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=16944315">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -484,38 +493,14 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 
 ---
 
-### Tecnologie Web
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Tecniche e strumenti continuano ad evolvere (es. framework), ma in sostanza le tecnologie di visualizzazione che stanno alla base di una pagina Web sono le stesse.
-    </p>
-  </div>
-</div>
-
-<div class="footer">
-Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
-</div>
-
----
-
 ### HyperText Markup Language
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0509.svg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di <a rel="nofollow" class="external text" href="https://www.w3.org/html/logo/index.html">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=12736763">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -540,9 +525,9 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0510.svg" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di Rudloff - <a href="//commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg" title="File:CSS3 and HTML5 logos and wordmarks.svg">CSS3 and HTML5 logos and wordmarks.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -567,9 +552,9 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
+      <img src="img/0511.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di JavaScript Corp. - The JavaScript foundation, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=103235118">Link</a>.
         </figcaption>
     </figure>
   </div>
