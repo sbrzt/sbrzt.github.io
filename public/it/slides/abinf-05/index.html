@@ -75,10 +75,22 @@
     
     
     
-    <section>
-    
       
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0500.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
 <h2 id="http">HTTP</h2>
+<!--
+Photo by <a href="https://unsplash.com/@thisisjlaw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Justin Lawrence</a> on <a href="https://unsplash.com/photos/cn-tower--Y9XT1-5LL8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
     </section>
     
@@ -93,9 +105,9 @@
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0501.jpg" height="auto" width="700"/>
+      <img src="img/0501.jpg" height="auto" width="200"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a href="https://unsplash.com/@thealmani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">almani ماني</a> su <a href="https://unsplash.com/photos/red-stop-light-on-green-background-g6mxlM-h0jQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
         </figcaption>
     </figure>
   </div>
@@ -150,7 +162,7 @@ An Overview of HTTP. In MDN Web Docs.
       
 <h3 id="il-protocollo-http">Il protocollo HTTP</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0502.png" height="auto" width="700"/>
         <figcaption>
@@ -181,9 +193,9 @@ An Overview of HTTP. In MDN Web Docs.
     <section>
     
       
-<h3 id="le-proxy">Le proxy</h3>
+<h3 id="tra-client-e-server-esistono-_proxy_">Tra client e server esistono <em>proxy</em></h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0503.svg" height="auto" width="700"/>
         <figcaption>
@@ -193,7 +205,7 @@ An Overview of HTTP. In MDN Web Docs.
   </div>
   <div style="flex: 1;">
     <p>
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
+      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati <strong>proxy</strong>, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
     </p>
   </div>
 </div>
@@ -211,13 +223,9 @@ An Overview of HTTP. In MDN Web Docs.
     <section>
     
       
-<h3 id="il-messaggio-http">Il messaggio HTTP</h3>
-<p>Permette lo scambio di dati tra un server e un client.</p>
-<p>Esistono due tipi di messaggio HTTP:</p>
-<ul>
-<li><strong>Richiesta</strong>: messaggio mandato dal client per richiedere una determinata azione da parte del server;</li>
-<li><strong>Risposta</strong>: messaggio mandato dal server come risposta alla richiesta del client.</li>
-</ul>
+<h3 id="ricordiamoci-che-esistono-due-tipi-di-messaggi">Ricordiamoci che esistono due tipi di messaggi</h3>
+<p><strong>Richiesta</strong>: messaggio mandato dal client per richiedere una determinata azione da parte del server;</p>
+<p><strong>Risposta</strong>: messaggio mandato dal server come risposta alla richiesta del client.</p>
 <div class="footer">
 HTTP Messages. In MDN Web Docs.   
  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a>.
@@ -232,7 +240,7 @@ HTTP Messages. In MDN Web Docs.
     <section>
     
       
-<h3 id="la-struttura-di-un-messaggio-http">La struttura di un messaggio HTTP</h3>
+<h3 id="la-struttura-di-un-messaggio-secondo-http">La struttura di un messaggio secondo HTTP</h3>
 <ul>
 <li>Una <strong>testa</strong> composta da:
 <ul>
@@ -257,9 +265,9 @@ HTTP Messages. In MDN Web Docs.
     <section>
     
       
-<h3 id="la-struttura-di-un-messaggio-http-1">La struttura di un messaggio HTTP</h3>
+<h3 id="la-struttura-di-un-messaggio-http">La struttura di un messaggio HTTP</h3>
 <figure>
-  <img src="img/0504.png" height="auto" width="700"/>
+  <img src="img/0504.png" height="auto" width="1000"/>
     <figcaption>
         Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messagesg</a>.
     </figcaption>
@@ -290,13 +298,13 @@ HTTP Messages. In MDN Web Docs.
   </div>
   <div style="flex: 1;">
     <p>
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
+      Testa: una riga di richiesta (contenente il <strong>metodo</strong>, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
     </p>
     <p>
-      Un'eventuale riga vuota.
+      Un'eventuale riga vuota (nell'immagine non c'è).
     </p>
     <p>
-      Un eventuale corpo.
+      Un eventuale corpo (nell'immagine non c'è).
     </p>
   </div>
 </div>
@@ -316,17 +324,17 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="il-metodo-get">Il metodo GET</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
+      GET /contact HTTP/1.1<br/>
+      Host: example.com<br/>
+      User-Agent: curl/8.6.0<br/>
       Accept: */*
     </code>
   </div>
   <div style="flex: 1;">
     <p>
-      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato – per esempio come conseguenza di un click su un collegamento ipertestuale.
+      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato.
     </p>
   </div>
 </div>
@@ -346,17 +354,24 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="il-metodo-post">Il metodo POST</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      POST /contact HTTP/1.1<br/>
+      Host: example.com<br/>
+      User-Agent: curl/8.6.0<br/>
+      Accept: application/json<br/>
+      Content-Type: application/json<br/>
+      Content-Length: 74<br/>
+      {</br>
+        "name": "John Doe",<br/>
+        "email": "john.doe@example.com",<br/>
+        "message": "I'd like to get in touch regarding your services."<br/>
+      }
     </code>
   </div>
   <div style="flex: 1;">
     <p>
-      POST permette di creare sul server web contattato la risorsa specificata dall’URL utilizzato nella richiesta, e di associare informazioni incluse nella richiesta.
+      POST permette di creare sul server Web la risorsa specificata dall’URL utilizzato e di associare informazioni incluse nella richiesta.
     </p>
   </div>
 </div>
@@ -376,12 +391,13 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="il-metodo-delete">Il metodo DELETE</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      DELETE /contact/12345 HTTP/1.1</br>
+      Host: example.com</br>
+      User-Agent: curl/8.6.0</br>
+      Accept: application/json</br>
+      Authorization: Bearer your-access-token
     </code>
   </div>
   <div style="flex: 1;">
@@ -406,12 +422,19 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="il-metodo-put">Il metodo PUT</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      PUT /contact/12345 HTTP/1.1</br>
+      Host: example.com</br>
+      User-Agent: curl/8.6.0</br>
+      Accept: application/json</br>
+      Content-Type: application/json</br>
+      Content-Length: 89</br>
+      {</br>
+        "name": "John Doe",</br>
+        "email": "john.doe@example.com",</br>
+        "message": "I'd like to update my contact information with new details."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -466,12 +489,12 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="i-codici-di-stato-1xx">I codici di stato: 1XX</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 100 Continue</br>
+      Date: Sat, 17 Feb 2025 10:52:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Length: 0
     </code>
   </div>
   <div style="flex: 1;">
@@ -496,12 +519,17 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="i-codici-di-stato-2xx">I codici di stato: 2XX</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 200 OK</br>
+      Date: Sat, 17 Feb 2025 10:53:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 123</br>
+      {</br>
+        "status": "success",</br>
+        "message": "Request processed successfully."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -526,12 +554,13 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="i-codici-di-stato-3xx">I codici di stato: 3XX</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 301 Moved Permanently</br>
+      Location: https://www.example.com/new-contact</br>
+      Date: Sat, 17 Feb 2025 10:55:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Length: 0
     </code>
   </div>
   <div style="flex: 1;">
@@ -556,12 +585,17 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="i-codici-di-stato-4xx">I codici di stato: 4XX</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 404 Not Found</br>
+      Date: Sat, 17 Feb 2025 10:57:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 85</br>
+      {</br>
+        "status": "error",</br>
+        "message": "Not found. The requested resource could not be found on this server."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -586,12 +620,17 @@ HTTP Messages. In MDN Web Docs.
       
 <h3 id="i-codici-di-stato-5xx">I codici di stato: 5XX</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 500 Internal Server Error</br>
+      Date: Sat, 17 Feb 2025 11:00:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 95</br>
+      {</br>
+        "status": "error",</br>
+        "message": "An unexpected error occurred. Please try again later."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -611,10 +650,22 @@ HTTP Messages. In MDN Web Docs.
     
     
     
-    <section>
-    
       
-<h2 id="html">HTML</h2>
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0507.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h2 id="le-tecnologie-web">Le tecnologie Web</h2>
+<!--
+Photo by <a href="https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mohammad Rahmani</a> on <a href="https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
     </section>
     
@@ -629,9 +680,9 @@ HTTP Messages. In MDN Web Docs.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0508.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: Di <a href="https://en.wikipedia.org/wiki/User:Lulzmango" class="extiw" title="en:User:Lulzmango">Lulzmango</a> - <a href="https://en.wikipedia.org/wiki/Web_page" class="extiw" title="en:Web page">en:Web_page</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=16944315">Link</a>.
         </figcaption>
     </figure>
   </div>
@@ -657,138 +708,13 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
     <section>
     
       
-<h3 id="tecnologie-web">Tecnologie Web</h3>
+<h3 id="la-marcatura-del-testo">La marcatura del testo</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
+      <img src="img/0512.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Tecniche e strumenti continuano ad evolvere (es. framework), ma in sostanza le tecnologie di visualizzazione che stanno alla base di una pagina Web sono le stesse.
-    </p>
-  </div>
-</div>
-<div class="footer">
-Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="hypertext-markup-language">HyperText Markup Language</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Linguaggio di marcatura che definisce la struttura e la semantica del contenuto di una pagina Web.
-    </p>
-    <p>
-      Consiste in una serie di elementi che vengono utilizzati per racchiudere parti del contenuto della pagina per farle apparire e/o comportare in una certa maniera.
-    </p>
-  </div>
-</div>
-<div class="footer">
-Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="cascading-style-sheets">Cascading Style Sheets</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0404.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Linguaggio per definire lo stile delle pagine Web.
-    </p>
-    <p>
-      Basato sul concetto di selettore per individuare specifici elementi HTML all’interno della pagina Web e applicargli un certo tipo di formattazione.
-    </p>
-  </div>
-</div>
-<div class="footer">
-Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="javascript">JavaScript</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Linguaggio di programmazione usato per aggiungere interattività alle pagine Web.
-    </p>
-    <p>
-      Esecuzione di determinate azioni in seguito allo scatenarsi di specifici eventi.
-    </p>
-  </div>
-</div>
-<div class="footer">
-Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="la-marcature-del-testo">La marcature del testo</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/08.pdf">https://basic-inf.github.io/2024-2025/chapters/08.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -811,13 +737,13 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
     <section>
     
       
-<h3 id="la-marcature-del-testo-1">La marcature del testo</h3>
+<h3 id="la-marcatura-del-testo-1">La marcatura del testo</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
+      <img src="img/0513.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/08.pdf">https://basic-inf.github.io/2024-2025/chapters/08.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -840,13 +766,13 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
     <section>
     
       
-<h3 id="la-marcature-del-testo-2">La marcature del testo</h3>
+<h3 id="la-marcatura-del-testo-2">La marcatura del testo</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0406.png" height="auto" width="700"/>
+      <img src="img/0516.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:RobertCailliau&amp;action=edit&amp;redlink=1" class="new" title="User:RobertCailliau (page does not exist)">Robert Cailliau</a> - <a rel="nofollow" class="external free" href="https://www.cailliau.org/IMG_20231124_230228.jpg">https://www.cailliau.org/IMG_20231124_230228.jpg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=26140236">Link</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -874,11 +800,11 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
       
 <h3 id="la-marcatura-lelemento">La marcatura: l&rsquo;elemento</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0514.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/08.pdf">https://basic-inf.github.io/2024-2025/chapters/08.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -903,11 +829,11 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
       
 <h3 id="la-marcatura-lattributo">La marcatura: l&rsquo;attributo</h3>
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0515.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/08.pdf">https://basic-inf.github.io/2024-2025/chapters/08.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -930,35 +856,21 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
     <section>
     
       
-<h3 id="marcatura-di-un-testo-esempio">Marcatura di un testo: esempio</h3>
-<figure>
-  <img src="img/0410.jpg" height="auto" width="700"/>
-    <figcaption>
-        Fonte: <a href="https://rubenverborgh.github.io/WebFundamentals/">https://rubenverborgh.github.io/WebFundamentals/</a>.
-    </figcaption>
-</figure>
-<div class="footer">
-How the web works. In MDN Web Docs.   
- <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works</a>.
-</div>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h3 id="marcatura-di-un-testo-esempio-1">Marcatura di un testo: esempio</h3>
-<figure>
-  <img src="img/0410.jpg" height="auto" width="700"/>
-    <figcaption>
-        Fonte: <a href="https://rubenverborgh.github.io/WebFundamentals/">https://rubenverborgh.github.io/WebFundamentals/</a>.
-    </figcaption>
-</figure>
-<div class="footer">
+<h3 id="marcatura-di-un-pezzo-di-testo-esempio">Marcatura di un pezzo di testo: esempio</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;book language=&#34;english&#34;&gt;  
+</span></span><span class="line"><span class="cl">  &lt;chapter&gt;  
+</span></span><span class="line"><span class="cl">    &lt;paragraph&gt;  
+</span></span><span class="line"><span class="cl">      Alice was beginning to get very tired of sitting by her  
+</span></span><span class="line"><span class="cl">      sister on the bank, and of having nothing to do: once or  
+</span></span><span class="line"><span class="cl">      twice she had peeped into the book her sister was  
+</span></span><span class="line"><span class="cl">      reading, but it had no pictures or conversations in it,  
+</span></span><span class="line"><span class="cl">      &lt;quotation&gt;“and what is the use of a book,”&lt;/quotation&gt;  
+</span></span><span class="line"><span class="cl">      thought Alice, &lt;quotation&gt;“without pictures or  
+</span></span><span class="line"><span class="cl">      conversations?”&lt;/quotation&gt;  
+</span></span><span class="line"><span class="cl">    &lt;/paragraph&gt;  
+</span></span><span class="line"><span class="cl">  &lt;/chapter&gt;  
+</span></span><span class="line"><span class="cl">&lt;/book&gt;  
+</span></span></code></pre></div><div class="footer">
 How the web works. In MDN Web Docs.   
  <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works</a>.
 </div>
@@ -973,24 +885,47 @@ How the web works. In MDN Web Docs.
     
       
 <h3 id="introduzione-a-html">Introduzione a HTML</h3>
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Linguaggio che segue una sintassi simile a XML e che inoltre utilizza uno specifico vocabolario costituito da elementi ed attributi per identificare i vari ruoli strutturali e semantici di una pagina Web.
-    </p>
-    <p>
-      Il contenuto di un elemento può essere testo, altri elementi, o entrambi.
-    </p>
-  </div>
+<p>Linguaggio che segue una sintassi simile a XML e che inoltre utilizza uno specifico vocabolario costituito da elementi ed attributi per identificare i vari ruoli strutturali e semantici di una pagina Web.</p>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
 </div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="html-può-essere-semplicissimo">HTML può essere semplicissimo</h3>
+<figure>
+  <img src="img/0517.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://www.w3schools.com/html/html_editors.asp">https://www.w3schools.com/html/html_editors.asp</a>.
+    </figcaption>
+</figure>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="html-può-essere-semplicissimo-1">HTML può essere semplicissimo</h3>
+<figure>
+  <img src="img/0518.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://www.w3schools.com/html/html_editors.asp">https://www.w3schools.com/html/html_editors.asp</a>.
+    </figcaption>
+</figure>
 <div class="footer">
 Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
 </div>
@@ -1008,27 +943,21 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0519.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://www.codewithharry.com/tutorial/html-page-structure/">https://www.codewithharry.com/tutorial/html-page-structure/</a>.
         </figcaption>
     </figure>
   </div>
   <div style="flex: 1;">
-    <ul>
-      <li>
-      Linguaggio che segue una sintassi simile a XML e che inoltre utilizza uno specifico vocabolario costituito da elementi ed attributi per identificare i vari ruoli strutturali e semantici di una pagina Web.
-      </li>
-      <li>
-      Il contenuto di un elemento può essere testo, altri elementi, o entrambi.
-      </li>
-    </ul>
+    <p>
+      <code>!DOCTYPE</code>: informazione per il client riguardante il tipo di documento che si deve aspettare
+    </p>
   </div>
 </div>
 <div class="footer">
 Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
 </div>
-<p>&hellip;</p>
 
     </section>
     
@@ -1039,7 +968,170 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
     <section>
     
       
+<h3 id="struttura-base-di-un-documento-html-1">Struttura base di un documento HTML</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0519.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.codewithharry.com/tutorial/html-page-structure/">https://www.codewithharry.com/tutorial/html-page-structure/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      <code>html</code>: inizio e fine del documento HTML.
+    </p>
+  </div>
+</div>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="struttura-base-di-un-documento-html-2">Struttura base di un documento HTML</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0519.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.codewithharry.com/tutorial/html-page-structure/">https://www.codewithharry.com/tutorial/html-page-structure/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      <code>head</code>: sezione di intestazione del documento, contenente metadati e altre informazioni tecniche (invisibile all'utente).
+    </p>
+  </div>
+</div>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="struttura-base-di-un-documento-html-3">Struttura base di un documento HTML</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0519.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.codewithharry.com/tutorial/html-page-structure/">https://www.codewithharry.com/tutorial/html-page-structure/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      <code>body</code>: sezione di contenuto del documento, contenente titoli, paragrafi, immagini, video, ecc. (tutto ciò che è visibile all'utente).
+    </p>
+  </div>
+</div>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="cascading-style-sheets">Cascading Style Sheets</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0510.svg" height="auto" width="200"/>
+        <figcaption>
+            Fonte: Di Rudloff - <a href="//commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg" title="File:CSS3 and HTML5 logos and wordmarks.svg">CSS3 and HTML5 logos and wordmarks.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Linguaggio per definire lo stile delle pagine Web.
+    </p>
+    <p>
+      Separazione tra contenuto e la sua rappresentazione: <a href="https://csszengarden.com/">https://csszengarden.com/</a>.
+    </p>
+  </div>
+</div>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="javascript">JavaScript</h3>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0511.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: Di JavaScript Corp. - The JavaScript foundation, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=103235118">Link</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Linguaggio di programmazione usato per aggiungere interattività alle pagine Web.
+    </p>
+    <p>
+      Esecuzione di determinate azioni in seguito allo scatenarsi di specifici eventi.
+    </p>
+  </div>
+</div>
+<div class="footer">
+Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML</a>.
+</div>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0520.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
 <h2 id="le-tecnologie-di-rete">Le tecnologie di rete</h2>
+<!--
+Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alina Grubnyak</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
     </section>
     
@@ -1078,9 +1170,9 @@ IP Address. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/G
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0521.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://www.giovannicirillo.it/definizione-indirizzo-ip/">https://www.giovannicirillo.it/definizione-indirizzo-ip/</a>.
         </figcaption>
     </figure>
   </div>
@@ -1110,9 +1202,9 @@ IP Address. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/G
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0521.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://www.giovannicirillo.it/definizione-indirizzo-ip/">https://www.giovannicirillo.it/definizione-indirizzo-ip/</a>.
         </figcaption>
     </figure>
   </div>
@@ -1142,9 +1234,9 @@ IP Address. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/G
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0522.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://www.geeksforgeeks.org/working-of-domain-name-system-dns-server/">https://www.geeksforgeeks.org/working-of-domain-name-system-dns-server/</a>.
         </figcaption>
     </figure>
   </div>
@@ -1174,9 +1266,9 @@ DNS. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0522.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://www.geeksforgeeks.org/working-of-domain-name-system-dns-server/">https://www.geeksforgeeks.org/working-of-domain-name-system-dns-server/</a>.
         </figcaption>
     </figure>
   </div>
@@ -1205,9 +1297,9 @@ DNS. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0523.png" height="auto" width="300"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/06.pdf">https://basic-inf.github.io/2024-2025/chapters/06.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -1236,9 +1328,9 @@ TCP. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0523.png" height="auto" width="300"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/06.pdf">https://basic-inf.github.io/2024-2025/chapters/06.pdf</a>.
         </figcaption>
     </figure>
   </div>
@@ -1278,9 +1370,9 @@ TCP. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0524.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1309,9 +1401,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0525.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1341,9 +1433,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0526.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1373,9 +1465,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0527.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1405,9 +1497,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0528.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1437,9 +1529,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0529.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>
@@ -1466,9 +1558,9 @@ How the web works. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0408.png" height="auto" width="700"/>
+      <img src="img/0530.png" height="auto" width="700"/>
         <figcaption>
-            Fonte: <a href="https://home.cern/science/computing/birth-web/short-history-web">https://home.cern/science/computing/birth-web/short-history-web</a>.
+            Fonte: propria.
         </figcaption>
     </figure>
   </div>

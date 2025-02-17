@@ -19,12 +19,14 @@ slides:
 
 ---
 
-{{< slide background-image="img/0500.jpeg" class="section-slide">}}
+{{< slide background-image="img/0500.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ## HTTP
 
 <!--
-
+Photo by <a href="https://unsplash.com/@thisisjlaw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Justin Lawrence</a> on <a href="https://unsplash.com/photos/cn-tower--Y9XT1-5LL8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
@@ -34,9 +36,9 @@ slides:
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0501.jpg" height="auto" width="400"/>
+      <img src="img/0501.jpg" height="auto" width="200"/>
         <figcaption>
-            Fonte: Di <a href="//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;action=edit&amp;redlink=1" class="new" title="User:Lubaochuan (page does not exist)">Lubaochuan</a> - <span class="int-own-work" lang="it">Opera propria</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34946450">Collegamento</a>.
+            Fonte: Di <a href="https://unsplash.com/@thealmani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">almani ماني</a> su <a href="https://unsplash.com/photos/red-stop-light-on-green-background-g6mxlM-h0jQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
         </figcaption>
     </figure>
   </div>
@@ -106,7 +108,7 @@ An Overview of HTTP. In MDN Web Docs.
 
 ---
 
-### Le proxy
+### Tra client e server esistono _proxy_
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -119,7 +121,7 @@ An Overview of HTTP. In MDN Web Docs.
   </div>
   <div style="flex: 1;">
     <p>
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
+      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati <strong>proxy</strong>, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
     </p>
   </div>
 </div>
@@ -188,13 +190,13 @@ HTTP Messages. In MDN Web Docs.
   </div>
   <div style="flex: 1;">
     <p>
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
+      Testa: una riga di richiesta (contenente il <strong>metodo</strong>, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
     </p>
     <p>
-      Un'eventuale riga vuota.
+      Un'eventuale riga vuota (nell'immagine non c'è).
     </p>
     <p>
-      Un eventuale corpo.
+      Un eventuale corpo (nell'immagine non c'è).
     </p>
   </div>
 </div>
@@ -209,17 +211,17 @@ HTTP Messages. In MDN Web Docs.
 ### Il metodo GET
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
+      GET /contact HTTP/1.1<br/>
+      Host: example.com<br/>
+      User-Agent: curl/8.6.0<br/>
       Accept: */*
     </code>
   </div>
   <div style="flex: 1;">
     <p>
-      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato – per esempio come conseguenza di un click su un collegamento ipertestuale.
+      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato.
     </p>
   </div>
 </div>
@@ -234,17 +236,24 @@ HTTP Messages. In MDN Web Docs.
 ### Il metodo POST
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      POST /contact HTTP/1.1<br/>
+      Host: example.com<br/>
+      User-Agent: curl/8.6.0<br/>
+      Accept: application/json<br/>
+      Content-Type: application/json<br/>
+      Content-Length: 74<br/>
+      {</br>
+        "name": "John Doe",<br/>
+        "email": "john.doe@example.com",<br/>
+        "message": "I'd like to get in touch regarding your services."<br/>
+      }
     </code>
   </div>
   <div style="flex: 1;">
     <p>
-      POST permette di creare sul server web contattato la risorsa specificata dall’URL utilizzato nella richiesta, e di associare informazioni incluse nella richiesta.
+      POST permette di creare sul server Web la risorsa specificata dall’URL utilizzato e di associare informazioni incluse nella richiesta.
     </p>
   </div>
 </div>
@@ -259,12 +268,13 @@ HTTP Messages. In MDN Web Docs.
 ### Il metodo DELETE
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      DELETE /contact/12345 HTTP/1.1</br>
+      Host: example.com</br>
+      User-Agent: curl/8.6.0</br>
+      Accept: application/json</br>
+      Authorization: Bearer your-access-token
     </code>
   </div>
   <div style="flex: 1;">
@@ -284,12 +294,19 @@ HTTP Messages. In MDN Web Docs.
 ### Il metodo PUT
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      PUT /contact/12345 HTTP/1.1</br>
+      Host: example.com</br>
+      User-Agent: curl/8.6.0</br>
+      Accept: application/json</br>
+      Content-Type: application/json</br>
+      Content-Length: 89</br>
+      {</br>
+        "name": "John Doe",</br>
+        "email": "john.doe@example.com",</br>
+        "message": "I'd like to update my contact information with new details."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -334,12 +351,12 @@ HTTP Messages. In MDN Web Docs.
 ### I codici di stato: 1XX
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 100 Continue</br>
+      Date: Sat, 17 Feb 2025 10:52:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Length: 0
     </code>
   </div>
   <div style="flex: 1;">
@@ -359,12 +376,17 @@ HTTP Messages. In MDN Web Docs.
 ### I codici di stato: 2XX
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 200 OK</br>
+      Date: Sat, 17 Feb 2025 10:53:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 123</br>
+      {</br>
+        "status": "success",</br>
+        "message": "Request processed successfully."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -384,12 +406,13 @@ HTTP Messages. In MDN Web Docs.
 ### I codici di stato: 3XX
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 301 Moved Permanently</br>
+      Location: https://www.example.com/new-contact</br>
+      Date: Sat, 17 Feb 2025 10:55:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Length: 0
     </code>
   </div>
   <div style="flex: 1;">
@@ -409,12 +432,17 @@ HTTP Messages. In MDN Web Docs.
 ### I codici di stato: 4XX
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 404 Not Found</br>
+      Date: Sat, 17 Feb 2025 10:57:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 85</br>
+      {</br>
+        "status": "error",</br>
+        "message": "Not found. The requested resource could not be found on this server."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -434,12 +462,17 @@ HTTP Messages. In MDN Web Docs.
 ### I codici di stato: 5XX
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 20px; text-align: left;">
     <code>
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 500 Internal Server Error</br>
+      Date: Sat, 17 Feb 2025 11:00:00 GMT</br>
+      Server: Apache/2.4.41 (Unix)</br>
+      Content-Type: application/json</br>
+      Content-Length: 95</br>
+      {</br>
+        "status": "error",</br>
+        "message": "An unexpected error occurred. Please try again later."</br>
+      }
     </code>
   </div>
   <div style="flex: 1;">
@@ -457,6 +490,8 @@ HTTP Messages. In MDN Web Docs.
 ---
 
 {{< slide background-image="img/0507.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ## Le tecnologie Web
 
@@ -496,7 +531,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 ### La marcatura del testo
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0512.png" height="auto" width="700"/>
         <figcaption>
@@ -520,7 +555,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 ### La marcatura del testo
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0513.png" height="auto" width="700"/>
         <figcaption>
@@ -544,7 +579,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 ### La marcatura del testo
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0516.png" height="auto" width="700"/>
         <figcaption>
@@ -571,7 +606,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 ### La marcatura: l'elemento
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0514.png" height="auto" width="700"/>
         <figcaption>
@@ -595,7 +630,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 ### La marcatura: l'attributo
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
       <img src="img/0515.png" height="auto" width="700"/>
         <figcaption>
@@ -694,7 +729,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
   </div>
   <div style="flex: 1;">
     <p>
-      <code><!DOCTYPE></code>: informazione per il client riguardante il tipo di documento che si deve aspettare
+      <code>!DOCTYPE</code>: informazione per il client riguardante il tipo di documento che si deve aspettare
     </p>
   </div>
 </div>
@@ -718,7 +753,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
   </div>
   <div style="flex: 1;">
     <p>
-      <code><html></code>: inizio e fine del documento HTML.
+      <code>html</code>: inizio e fine del documento HTML.
     </p>
   </div>
 </div>
@@ -742,7 +777,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
   </div>
   <div style="flex: 1;">
     <p>
-      <code><head></code>: sezione di intestazione del documento, contenente metadati e altre informazioni tecniche (invisibile all'utente).
+      <code>head</code>: sezione di intestazione del documento, contenente metadati e altre informazioni tecniche (invisibile all'utente).
     </p>
   </div>
 </div>
@@ -766,7 +801,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
   </div>
   <div style="flex: 1;">
     <p>
-      <code><body></code>: sezione di contenuto del documento, contenente titoli, paragrafi, immagini, video, ecc. (tutto ciò che è visibile all'utente).
+      <code>body</code>: sezione di contenuto del documento, contenente titoli, paragrafi, immagini, video, ecc. (tutto ciò che è visibile all'utente).
     </p>
   </div>
 </div>
@@ -782,7 +817,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0510.svg" height="auto" width="700"/>
+      <img src="img/0510.svg" height="auto" width="200"/>
         <figcaption>
             Fonte: Di Rudloff - <a href="//commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg" title="File:CSS3 and HTML5 logos and wordmarks.svg">CSS3 and HTML5 logos and wordmarks.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>.
         </figcaption>
@@ -809,7 +844,7 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0511.png" height="auto" width="700"/>
+      <img src="img/0511.png" height="auto" width="200"/>
         <figcaption>
             Fonte: Di JavaScript Corp. - The JavaScript foundation, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=103235118">Link</a>.
         </figcaption>
@@ -831,9 +866,15 @@ Introduction to HTML. In MDN Web Docs. <a href="https://developer.mozilla.org/en
 
 ---
 
-{{< slide background-image="img/0520.jpeg" class="section-slide">}}
+{{< slide background-image="img/0520.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ## Le tecnologie di rete
+
+<!--
+Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alina Grubnyak</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
@@ -966,7 +1007,7 @@ DNS. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0523.png" height="auto" width="700"/>
+      <img src="img/0523.png" height="auto" width="300"/>
         <figcaption>
             Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/06.pdf">https://basic-inf.github.io/2024-2025/chapters/06.pdf</a>.
         </figcaption>
@@ -992,7 +1033,7 @@ TCP. In MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Glossary
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0523.png" height="auto" width="700"/>
+      <img src="img/0523.png" height="auto" width="300"/>
         <figcaption>
             Fonte: <a href="https://basic-inf.github.io/2024-2025/chapters/06.pdf">https://basic-inf.github.io/2024-2025/chapters/06.pdf</a>.
         </figcaption>
