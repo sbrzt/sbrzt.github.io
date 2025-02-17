@@ -244,6 +244,7 @@ HTTP Messages. In MDN Web Docs.
       Accept: application/json<br/>
       Content-Type: application/json<br/>
       Content-Length: 74<br/>
+      </br>
       {</br>
         "name": "John Doe",<br/>
         "email": "john.doe@example.com",<br/>
@@ -302,6 +303,7 @@ HTTP Messages. In MDN Web Docs.
       Accept: application/json</br>
       Content-Type: application/json</br>
       Content-Length: 89</br>
+      </br>
       {</br>
         "name": "John Doe",</br>
         "email": "john.doe@example.com",</br>
@@ -383,6 +385,7 @@ HTTP Messages. In MDN Web Docs.
       Server: Apache/2.4.41 (Unix)</br>
       Content-Type: application/json</br>
       Content-Length: 123</br>
+      </br>
       {</br>
         "status": "success",</br>
         "message": "Request processed successfully."</br>
@@ -439,6 +442,7 @@ HTTP Messages. In MDN Web Docs.
       Server: Apache/2.4.41 (Unix)</br>
       Content-Type: application/json</br>
       Content-Length: 85</br>
+      </br>
       {</br>
         "status": "error",</br>
         "message": "Not found. The requested resource could not be found on this server."</br>
@@ -469,6 +473,7 @@ HTTP Messages. In MDN Web Docs.
       Server: Apache/2.4.41 (Unix)</br>
       Content-Type: application/json</br>
       Content-Length: 95</br>
+      </br>
       {</br>
         "status": "error",</br>
         "message": "An unexpected error occurred. Please try again later."</br>

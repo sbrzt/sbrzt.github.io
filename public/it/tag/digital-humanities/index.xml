@@ -1845,12 +1845,13 @@ What is a URL? In MDN Web Docs.
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/0500.jpeg&#34;
+      data-background-image=&#34;img/0500.jpg&#34;
   
       
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;http&#34;&gt;HTTP&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@thisisjlaw?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Justin Lawrence&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/cn-tower--Y9XT1-5LL8?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -1860,9 +1861,9 @@ Photo by &lt;a href=&#34;https://unsplash.com/@thisisjlaw?utm_content=creditCopy
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0501.jpg&#34; height=&#34;auto&#34; width=&#34;400&#34;/&gt;
+      &lt;img src=&#34;img/0501.jpg&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
         &lt;figcaption&gt;
-            Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/w/index.php?title=User:Lubaochuan&amp;amp;action=edit&amp;amp;redlink=1&#34; class=&#34;new&#34; title=&#34;User:Lubaochuan (page does not exist)&#34;&gt;Lubaochuan&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;it&#34;&gt;Opera propria&lt;/span&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=34946450&#34;&gt;Collegamento&lt;/a&gt;.
+            Fonte: Di &lt;a href=&#34;https://unsplash.com/@thealmani?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;almani ماني&lt;/a&gt; su &lt;a href=&#34;https://unsplash.com/photos/red-stop-light-on-green-background-g6mxlM-h0jQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;.
         &lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
@@ -1921,7 +1922,7 @@ An Overview of HTTP. In MDN Web Docs.
  &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;le-proxy&#34;&gt;Le proxy&lt;/h3&gt;
+&lt;h3 id=&#34;tra-client-e-server-esistono-_proxy_&#34;&gt;Tra client e server esistono &lt;em&gt;proxy&lt;/em&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -1933,7 +1934,7 @@ An Overview of HTTP. In MDN Web Docs.
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati proxy, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
+      Tra il client e il server ci sono numerosi intermediari, collettivamente chiamati &lt;strong&gt;proxy&lt;/strong&gt;, che eseguono diverse operazioni per migliorare le prestazioni e la sicurezza (gateway, cache, ecc.).
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1990,13 +1991,13 @@ HTTP Messages. In MDN Web Docs.
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Testa: una riga di richiesta (contenente il metodo, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
+      Testa: una riga di richiesta (contenente il &lt;strong&gt;metodo&lt;/strong&gt;, il percorso e la versione di HTTP utilizzata) e le intestazioni (headers) contenenti varie informazioni (es. nome del dominio del server, lingua del messaggio, ecc.).
     &lt;/p&gt;
     &lt;p&gt;
-      Un&#39;eventuale riga vuota.
+      Un&#39;eventuale riga vuota (nell&#39;immagine non c&#39;è).
     &lt;/p&gt;
     &lt;p&gt;
-      Un eventuale corpo.
+      Un eventuale corpo (nell&#39;immagine non c&#39;è).
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2007,17 +2008,17 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;il-metodo-get&#34;&gt;Il metodo GET&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
+      GET /contact HTTP/1.1&lt;br/&gt;
+      Host: example.com&lt;br/&gt;
+      User-Agent: curl/8.6.0&lt;br/&gt;
       Accept: */*
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato – per esempio come conseguenza di un click su un collegamento ipertestuale.
+      Permette di richiedere informazioni sulla risorsa definita dall’URL specificato.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2028,17 +2029,25 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;il-metodo-post&#34;&gt;Il metodo POST&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      POST /contact HTTP/1.1&lt;br/&gt;
+      Host: example.com&lt;br/&gt;
+      User-Agent: curl/8.6.0&lt;br/&gt;
+      Accept: application/json&lt;br/&gt;
+      Content-Type: application/json&lt;br/&gt;
+      Content-Length: 74&lt;br/&gt;
+      &lt;/br&gt;
+      {&lt;/br&gt;
+        &#34;name&#34;: &#34;John Doe&#34;,&lt;br/&gt;
+        &#34;email&#34;: &#34;john.doe@example.com&#34;,&lt;br/&gt;
+        &#34;message&#34;: &#34;I&#39;d like to get in touch regarding your services.&#34;&lt;br/&gt;
+      }
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      POST permette di creare sul server web contattato la risorsa specificata dall’URL utilizzato nella richiesta, e di associare informazioni incluse nella richiesta.
+      POST permette di creare sul server Web la risorsa specificata dall’URL utilizzato e di associare informazioni incluse nella richiesta.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2049,12 +2058,13 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;il-metodo-delete&#34;&gt;Il metodo DELETE&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      DELETE /contact/12345 HTTP/1.1&lt;/br&gt;
+      Host: example.com&lt;/br&gt;
+      User-Agent: curl/8.6.0&lt;/br&gt;
+      Accept: application/json&lt;/br&gt;
+      Authorization: Bearer your-access-token
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2070,12 +2080,20 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;il-metodo-put&#34;&gt;Il metodo PUT&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      PUT /contact/12345 HTTP/1.1&lt;/br&gt;
+      Host: example.com&lt;/br&gt;
+      User-Agent: curl/8.6.0&lt;/br&gt;
+      Accept: application/json&lt;/br&gt;
+      Content-Type: application/json&lt;/br&gt;
+      Content-Length: 89&lt;/br&gt;
+      &lt;/br&gt;
+      {&lt;/br&gt;
+        &#34;name&#34;: &#34;John Doe&#34;,&lt;/br&gt;
+        &#34;email&#34;: &#34;john.doe@example.com&#34;,&lt;/br&gt;
+        &#34;message&#34;: &#34;I&#39;d like to update my contact information with new details.&#34;&lt;/br&gt;
+      }
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2112,12 +2130,12 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-codici-di-stato-1xx&#34;&gt;I codici di stato: 1XX&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 100 Continue&lt;/br&gt;
+      Date: Sat, 17 Feb 2025 10:52:00 GMT&lt;/br&gt;
+      Server: Apache/2.4.41 (Unix)&lt;/br&gt;
+      Content-Length: 0
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2133,12 +2151,18 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-codici-di-stato-2xx&#34;&gt;I codici di stato: 2XX&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 200 OK&lt;/br&gt;
+      Date: Sat, 17 Feb 2025 10:53:00 GMT&lt;/br&gt;
+      Server: Apache/2.4.41 (Unix)&lt;/br&gt;
+      Content-Type: application/json&lt;/br&gt;
+      Content-Length: 123&lt;/br&gt;
+      &lt;/br&gt;
+      {&lt;/br&gt;
+        &#34;status&#34;: &#34;success&#34;,&lt;/br&gt;
+        &#34;message&#34;: &#34;Request processed successfully.&#34;&lt;/br&gt;
+      }
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2154,12 +2178,13 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-codici-di-stato-3xx&#34;&gt;I codici di stato: 3XX&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 301 Moved Permanently&lt;/br&gt;
+      Location: https://www.example.com/new-contact&lt;/br&gt;
+      Date: Sat, 17 Feb 2025 10:55:00 GMT&lt;/br&gt;
+      Server: Apache/2.4.41 (Unix)&lt;/br&gt;
+      Content-Length: 0
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2175,12 +2200,18 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-codici-di-stato-4xx&#34;&gt;I codici di stato: 4XX&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 404 Not Found&lt;/br&gt;
+      Date: Sat, 17 Feb 2025 10:57:00 GMT&lt;/br&gt;
+      Server: Apache/2.4.41 (Unix)&lt;/br&gt;
+      Content-Type: application/json&lt;/br&gt;
+      Content-Length: 85&lt;/br&gt;
+      &lt;/br&gt;
+      {&lt;/br&gt;
+        &#34;status&#34;: &#34;error&#34;,&lt;/br&gt;
+        &#34;message&#34;: &#34;Not found. The requested resource could not be found on this server.&#34;&lt;/br&gt;
+      }
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2196,12 +2227,18 @@ HTTP Messages. In MDN Web Docs.
 &lt;hr&gt;
 &lt;h3 id=&#34;i-codici-di-stato-5xx&#34;&gt;I codici di stato: 5XX&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 1; font-size: 20px; text-align: left;&#34;&gt;
     &lt;code&gt;
-      GET /contact HTTP/1.1
-      Host: example.com
-      User-Agent: curl/8.6.0
-      Accept: */*
+      HTTP/1.1 500 Internal Server Error&lt;/br&gt;
+      Date: Sat, 17 Feb 2025 11:00:00 GMT&lt;/br&gt;
+      Server: Apache/2.4.41 (Unix)&lt;/br&gt;
+      Content-Type: application/json&lt;/br&gt;
+      Content-Length: 95&lt;/br&gt;
+      &lt;/br&gt;
+      {&lt;/br&gt;
+        &#34;status&#34;: &#34;error&#34;,&lt;/br&gt;
+        &#34;message&#34;: &#34;An unexpected error occurred. Please try again later.&#34;&lt;/br&gt;
+      }
     &lt;/code&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
@@ -2225,6 +2262,7 @@ HTTP Messages. In MDN Web Docs.
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;le-tecnologie-web&#34;&gt;Le tecnologie Web&lt;/h2&gt;
 &lt;!--
 Photo by &lt;a href=&#34;https://unsplash.com/@afgprogrammer?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Mohammad Rahmani&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
@@ -2255,7 +2293,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;hr&gt;
 &lt;h3 id=&#34;la-marcatura-del-testo&#34;&gt;La marcatura del testo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0512.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -2275,7 +2313,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;hr&gt;
 &lt;h3 id=&#34;la-marcatura-del-testo-1&#34;&gt;La marcatura del testo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0513.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -2295,7 +2333,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;hr&gt;
 &lt;h3 id=&#34;la-marcatura-del-testo-2&#34;&gt;La marcatura del testo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0516.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -2318,7 +2356,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;hr&gt;
 &lt;h3 id=&#34;la-marcatura-lelemento&#34;&gt;La marcatura: l&amp;rsquo;elemento&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0514.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -2338,7 +2376,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;hr&gt;
 &lt;h3 id=&#34;la-marcatura-lattributo&#34;&gt;La marcatura: l&amp;rsquo;attributo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
       &lt;img src=&#34;img/0515.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
         &lt;figcaption&gt;
@@ -2415,7 +2453,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      &lt;code&gt;&lt;!DOCTYPE&gt;&lt;/code&gt;: informazione per il client riguardante il tipo di documento che si deve aspettare
+      &lt;code&gt;!DOCTYPE&lt;/code&gt;: informazione per il client riguardante il tipo di documento che si deve aspettare
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2435,7 +2473,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      &lt;code&gt;&lt;html&gt;&lt;/code&gt;: inizio e fine del documento HTML.
+      &lt;code&gt;html&lt;/code&gt;: inizio e fine del documento HTML.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2455,7 +2493,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      &lt;code&gt;&lt;head&gt;&lt;/code&gt;: sezione di intestazione del documento, contenente metadati e altre informazioni tecniche (invisibile all&#39;utente).
+      &lt;code&gt;head&lt;/code&gt;: sezione di intestazione del documento, contenente metadati e altre informazioni tecniche (invisibile all&#39;utente).
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2475,7 +2513,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      &lt;code&gt;&lt;body&gt;&lt;/code&gt;: sezione di contenuto del documento, contenente titoli, paragrafi, immagini, video, ecc. (tutto ciò che è visibile all&#39;utente).
+      &lt;code&gt;body&lt;/code&gt;: sezione di contenuto del documento, contenente titoli, paragrafi, immagini, video, ecc. (tutto ciò che è visibile all&#39;utente).
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2487,7 +2525,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0510.svg&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0510.svg&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di Rudloff - &lt;a href=&#34;//commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg&#34; title=&#34;File:CSS3 and HTML5 logos and wordmarks.svg&#34;&gt;CSS3 and HTML5 logos and wordmarks.svg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by/3.0&#34; title=&#34;Creative Commons Attribution 3.0&#34;&gt;CC BY 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=49121103&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2510,7 +2548,7 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0511.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0511.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di JavaScript Corp. - The JavaScript foundation, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0&#34; title=&#34;Creative Commons Attribution-Share Alike 4.0&#34;&gt;CC BY-SA 4.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=103235118&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2533,13 +2571,17 @@ Introduction to HTML. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;img/0520.jpeg&#34;
+      data-background-image=&#34;img/0520.jpg&#34;
   
       
       class=&#34;section-slide&#34;
   &gt;
 
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;le-tecnologie-di-rete&#34;&gt;Le tecnologie di rete&lt;/h2&gt;
+&lt;!--
+Photo by &lt;a href=&#34;https://unsplash.com/@alinnnaaaa?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Alina Grubnyak&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+--&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;come-fa-il-client-a-trovare-il-server&#34;&gt;Come fa il client a trovare il server?&lt;/h3&gt;
 &lt;p&gt;URL e HTTP forniscono le istruzioni necessarie ad ottenere una rappresentazione della risorsa cercata (ovvero, una copia della pagina HTML che visualizziamo).&lt;/p&gt;
@@ -2651,7 +2693,7 @@ DNS. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/G
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0523.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0523.png&#34; height=&#34;auto&#34; width=&#34;300&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;https://basic-inf.github.io/2024-2025/chapters/06.pdf&#34;&gt;https://basic-inf.github.io/2024-2025/chapters/06.pdf&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2673,7 +2715,7 @@ TCP. In MDN Web Docs. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/G
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0523.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0523.png&#34; height=&#34;auto&#34; width=&#34;300&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: &lt;a href=&#34;https://basic-inf.github.io/2024-2025/chapters/06.pdf&#34;&gt;https://basic-inf.github.io/2024-2025/chapters/06.pdf&lt;/a&gt;.
         &lt;/figcaption&gt;
