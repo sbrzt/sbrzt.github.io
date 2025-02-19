@@ -448,74 +448,51 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 
 ### Le intenzioni possono coincidere...
 
--
-
 ---
 
-### ... Ma possono anche contrastare
+### L'esempio dell'accessibilità
 
-Per YouTube, l'utente deve vedere più video possibili, deve cliccare sulla pubblicità, e deve commentare.
+La capacità dei sistemi informatici (come siti e applicazioni Web) di erogare servizi e fornire informazioni fruibili, senza discriminazioni.
 
-L'utente ha invece bisogno di vedere video specifici, magari da parte dello stesso creator o sullo stesso soggetto, deve caricare il proprio contenuto, e commentare.
+Ne beneficiano:
+* Anziani
+* Persone con dislessia (3-5%)
+* Persone con difficoltà visive, uditive, intellettive, linguistiche, motorie
+* Persone con disabilità temporanee
+* Persone in mobilità
+* Persone con connessione lenta
 
----
+Circa 15% della popolazione mondiale
+Circa 80 milioni in Europa
+Circa 13% della popolazione in Italia
 
-### Percorso dell'utente
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0613.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-        "Devo comprare un libro di fantascienza su Amazon".
-    </p>
-    <ul>
-      <li>"Cerco ‘libro fantascienza’ nella barra di ricerca";</li>
-      <li>“Guardo i risultati”;</li>
-      <li>“Clicco su un titolo che mi interessa”;</li>
-      <li>...</li>
-    </ul>
-  </div>
-</div>
+L'accessibilità è anche un'opportunità per aziende e organizzazioni:
+* Aumenta le visite
+* Migliora la Search Engine Optimization
+* Responsabilità sociale
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Yesilada, Y., Brajnik, G., Vigo, M., & Harper, S. (2012). Understanding web accessibility and its drivers. In Proceedings of the international cross-disciplinary conference on web accessibility (pp. 1-9). <a href="https://doi.org/10.1145/2207016.22070">https://doi.org/10.1145/2207016.22070</a>.
 </div>
 
 ---
 
-### Percorso dell'utente
+### Queste cose vengono definite secondo metodologie precise
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0613.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-        Uno degli strumenti utilizzati dai designer per la progettazione di un sito Web.
-    </p>
-    <p>
-        Mappatura dettagliata e completa di intenzioni, azioni, ed emozioni dell’utente.
-    </p>
-  </div>
-</div>
+<figure>
+  <img src="img/0613.png" height="auto" width="200"/>
+    <figcaption>
+        Fonte: <a href="https://think360studio.com/process">https://think360studio.com/process</a>.
+    </figcaption>
+</figure>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Earnshaw, Y., Tawfik, A. A., & Schmidt, M. (2017). User experience design. Foundations of learning and instructional design technology. <a href="https://pressbooks.pub/lidtfoundations/chapter/user-experience-design/">https://pressbooks.pub/lidtfoundations/chapter/user-experience-design/</a>.
 </div>
+
+---
+
+### ... Ma possono anche contrastare!
 
 ---
 
@@ -532,7 +509,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
   </div>
   <div style="flex: 1;">
     <p>
-        Modelli di progettazione usati per manipolare le emozioni dell’utente ed indurlo a compiere azioni in contrasto con le sue intenzioni.
+        Modelli di progettazione, usati per manipolare le emozioni dell’utente ed indurlo a compiere azioni in contrasto con le sue intenzioni.
     </p>
     <p>
         Es. posizionamento tattico di bottoni, testi volutamente ambigui, ecc.
@@ -541,8 +518,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 </div>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). The dark (patterns) side of UX design. In Proceedings of the 2018 CHI conference on human factors in computing systems (pp. 1-14). <a href="https://doi.org/10.1145/3173574.3174108">https://doi.org/10.1145/3173574.3174108</a>.
 </div>
 
 ---
@@ -563,14 +539,13 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
         Utilizzo crescente da parte delle aziende (nonostante le sanzioni).
     </p>
     <p>
-        Funzionano: ci portano a fare esattamente quello che vogliono loro, facendoci credere che sia nei nostri migliori interessi.
+        Funzionano. Ci portano a fare esattamente quello che vogliono loro, facendoci credere che sia nei nostri migliori interessi.
     </p>
   </div>
 </div>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). The dark (patterns) side of UX design. In Proceedings of the 2018 CHI conference on human factors in computing systems (pp. 1-14). <a href="https://doi.org/10.1145/3173574.3174108">https://doi.org/10.1145/3173574.3174108</a>.
 </div>
 
 ---
@@ -642,8 +617,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 </div>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
 </div>
 
 ---
@@ -822,151 +796,104 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 
 ### La nostra ombra digitale
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-        Ogni giorno disseminiamo sul Web una serie di dati che riconducono irrimediabilmente alle nostre attività, ai nostri segreti, ai nostri pensieri, a noi.
-    </p>
-    <p>
-        A chi appartengono questi dati? Per cosa vengono utilizzati?
-    </p>
-  </div>
-</div>
+Ogni giorno disseminiamo sul Web una serie di dati che riconducono irrimediabilmente alle nostre attività, ai nostri segreti, ai nostri pensieri, a noi.
+
+A chi appartengono questi dati? Per cosa vengono utilizzati?
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Micheli, M., Lutz, C., & Büchi, M. (2018). Digital footprints: an emerging dimension of digital inequality. Journal of Information, Communication and Ethics in Society, 16(3), 242-251. <a href="https://doi.org/10.1108/JICES-02-2018-0014">https://doi.org/10.1108/JICES-02-2018-0014</a>.
 </div>
 
 ---
 
-### Ogni cosa viene tracciata
+### L'ombra digitale è composta dai nostri dati (e metadati) personali
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-        La maggior parte dei siti deposita sui nostri sistemi dei cookie che tengono traccia di tutti i nostri movimenti (anche e soprattutto da sito a sito), con l’intenzione di migliorare l’efficacia di pubblicità mirate.
-    </p>
-    <p>
-        Sui social, tutto viene registrato (anche i commenti privati).
-    </p>
-    <p>
-        Le politiche di gestione dei dati della singola azienda possono cambiare improvvisamente.
-    </p>
-  </div>
-</div>
+<figure>
+  <img src="img/0618.png" height="auto" width="200"/>
+    <figcaption>
+        Fonte: <a href="https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint">https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint</a>.
+    </figcaption>
+</figure>
+
+---
+
+### In Europa abbiamo il General Data Protection Regulation
+
+Il nuovo Regolamento Generale Europeo sulla Protezione dei Dati Personali, applicato a decorrere dal 25 maggio 2018 a livello europeo.
+
+La necessità nasce dalla continua evoluzione degli stessi concetti di privacy e protezione dei dati personali, dovuta principalmente alla diffusione del progresso tecnologico.
+
+Obiettivo di definire una base per la protezione dei dati di persone fisiche nel contesto del loro trattamento (automatizzato e non).
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology development. Journal of Global Information Technology Management, 22(1), 1-6. <a href="https://doi.org/10.1080/1097198X.2019.1569186">https://doi.org/10.1080/1097198X.2019.1569186</a>.
 </div>
 
 ---
 
-### L'ombra digitale sono metadati
+### Cosa sono i dati personali?
 
--
+Qualsiasi informazione riguardante una persona fisica identificata o identificabile, direttamente o indirettamente, con particolare riferimento a un identificativo come il nome, un numero di identificazione, dati relativi all’ubicazione, un identificativo online o a uno o più elementi caratteristici della sua identità fisica, fisiologica genetica, psichica, economica, culturale o sociale.
+
+<div class="footer">
+Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology development. Journal of Global Information Technology Management, 22(1), 1-6. <a href="https://doi.org/10.1080/1097198X.2019.1569186">https://doi.org/10.1080/1097198X.2019.1569186</a>.
+</div>
 
 ---
 
-### GENERAL DATA PROTECTION REGULATION
+### Cos’è il trattamento di un dato? 
 
-l Regolamento si applicherà
-a decorrere dal 25 maggio 2018
- Il nuovo Regolamento Generale Europeo sulla
-Protezione dei Dati Personali n. 2016/679 (GDPR),
-con i suoi 99 articoli ha riscritto la disciplina della
-Privacy a livello europeo.
+Qualsiasi attività di gestione del dato, incluse la raccolta, conservazione, modifica, consultazione, comunicazione, cancellazione su qualsiasi supporto informatico, cartaceo o analogico, sia attraverso operatori sia con processi automatizzati.
 
-La necessità di emanare un Regolamento Europeo in
-materia di privacy nasce dalla continua evoluzione
-degli stessi concetti di privacy e protezione dei dati
-personali e quindi della relativa tutela dovuta
-principalmente alla diffusione del progresso
-tecnologico.
+<div class="footer">
+Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology development. Journal of Global Information Technology Management, 22(1), 1-6. <a href="https://doi.org/10.1080/1097198X.2019.1569186">https://doi.org/10.1080/1097198X.2019.1569186</a>.
+</div>
 
-Definire una BASELINE per la protezione dei dati
-Proteggere e tutelare meglioo la protezione dei dati di
-tutti I cittadini in Europa
-Armonizzare la normativa in Europa in materia Privacy
-eliminando le differenze di approccio tra Stati membri
+---
 
-l Regolamento si applica:
-1. alla protezione delle persone fisiche con riguardo al trattamento dei loro dati
-personali
-2. al trattamento automatizzato di dati personali
-3. al trattamento NON automatizzato di dati personali contenuti in un archivio
+### Principi del GDPR
 
-Ai fini del regolamento per "dato personale” si intende qualsiasi informazione
-riguardante una persona fisica identificata o identificabile ("interessato");
-si considera identificabile la persona fisica che può essere identificata, direttamente
-o indirettamente, con particolare riferimento a un identificativo come il nome, un
-numero di identificazione, dati relativi all’ubicazione, un identificativo
-online o a uno o più elementi caratteristici della sua identità fisica, fisiologica,
-genetica, psichica, economica, culturale o sociale.
+* Liceità e correttezza: necessità del consenso, protezione dell'interesse vitale, dell'interesse pubblico e dell'interesse legittimo;
+* Trasparenza: fornire informazioni sul trattamento facilmente accessibili e comprensibili;
+* Limitazione delle finalità dei trattamenti: identificazione necessaria delle finalità per le quali i dati saranno usati;
+* Minimizzazione: limitazione della raccolta ai soli dati direttamente rilevanti e necessari per raggiungere uno scopo specifico;
+* Esattezza: i dati devono essere corretti e aggiornati;
+* Limitazione della conservazione: i dati devono essere  conservati solo per il tempo necessario;
+* Integrità e riservatezza: i dati devono essere trattati con tecniche di sicurezza per proteggerli da attacchi o danni accidentali.
 
-Cos’è il trattamento di un dato?
-Qualsiasi attività di gestione del dato
-come:
-trattamento
-del dato
- la raccolta,
- la conservazione,
- la modifica,
- la consultazione,
- la comunicazione,
- la cancellazione
-su qualsiasi supporto
- informatico,
- cartaceo o analogico,
-sia attraverso operatori sia con processi automatizzati
+<div class="footer">
+Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology development. Journal of Global Information Technology Management, 22(1), 1-6. <a href="https://doi.org/10.1080/1097198X.2019.1569186">https://doi.org/10.1080/1097198X.2019.1569186</a>.
+</div>
 
-Principi di:
-* liceità e correttezza
-* trasparenza
-* limitazione delle finalità dei trattamenti
-* minimizzazione
-* esattezza
-* limitazione della conservazione
-* integrità e riservatezza
+---
 
-Requisiti:
-* impianto sanzonatorio
-* privacy by design
-* privacy by default
-* notifica della violazione
-* nuovi diritti individuali
-* consenso
-* accountability
-* data protection officer
-* nuovo ambito di applicazione territoriale
+### Alcuni requisiti del GDPR
+
+* Privacy by design e by default: implementazione dei principi di protezione dei dati fin dall'inizio;
+* Nuovi diritti individuali (di essere informati, di accesso, di rettifica, alla cancellazione, alla portabilità, ecc.);
+* Consenso (specifico, informato, dimostrabile, revocabile, esplicito);
+* ...
 
 ---
 
 ### Cookie
 
+Immaginate di tornare su [amazon.com](https://www.amazon.com) dopo esservi loggati settimane fa.
+
+Una volta che la pagina si carica, siete già automaticamente loggati.
+
+Non hai dovuto effettuare di nuovo il login, perché Amazon sapeva già qualcosa su di te.
+
+---
+
+### Cosa sono i cookie?
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
       <img src="img/0618.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies">https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies</a>.
         </figcaption>
     </figure>
   </div>
@@ -987,60 +914,74 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 
 ---
 
-### Cookie
+### Alcune tipologie di cookie
+
+**Tecnici**: essenziali per l’interazione con un sito Web (es. cookie di sessione che mantengono l’accesso dell’utente al sito).
+
+**Analitici**: raccolgono informazioni sull’utilizzo del sito Web da parte dell’utente (e.g. Google Analytics).
+
+**Profilazione**: raccolgono informazioni sull’utente per profilarlo ed inviargli pubblicità mirata (e.g. Google AdSense).
+
+<div class="footer">
+Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empirical study of web cookies. In Proceedings of the 25th international conference on world wide web (pp. 891-901). <a href="https://doi.org/10.1145/2872427.2882991">https://doi.org/10.1145/2872427.2882991</a>.
+</div>
+
+---
+
+### Come funzionano i cookie?
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
       <img src="img/0618.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
     </figure>
   </div>
   <div style="flex: 1;">
     <p>
-        Tecnici: essenziali per l’interazione con un sito Web (es. cookie di sessione che mantengono l’accesso dell’utente al sito).
+        Esempio: visita medica.
     </p>
     <p>
-        Analitici: raccolgono informazioni sull’utilizzo del sito Web da parte dell’utente (e.g. Google Analytics).
+        Immaginate di portare un familiare alla visita annuale dal medico di fiducia.
     </p>
     <p>
-        Profilazione: raccolgono informazioni sull’utente per profilarlo ed inviargli pubblicità mirata (e.g. Google AdSense).
+        Quando visitate lo studio quel giorno, vi registrate con una segretaria, che verifica la vostra identità e vi manda, insieme al vostro familiare, in una stanza. Quando il medico arriva, ha già una copia della tua storia medica e inizia a esaminarla con entrambi.
     </p>
   </div>
 </div>
 
-<div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+---
+
+### Come funzionano i cookie?
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0618.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+        Nel nostro esempio, il sito web è un po' come il medico, che vede molti pazienti e deve essere in grado di reagire rapidamente per rispondere ad ognuno di loro.
+    </p>
+    <p>
+        L'assistente è come il server, in quanto prepara il medico dandogli informazioni sul prossimo paziente in anticipo.
+    </p>
+    <p>
+        Il vostro familiare è come il browser, poiché visita e risponde a molteplici persone ogni giorno.
+    </p>
+  </div>
 </div>
 
 ---
 
-### Cookie
 
-Let’s get one thing out of the way quickly: cookies are not a good name for these little snippets of text that get stored in your browser. In fact, they are a terrible name. Apparently, the name originates from the fable of Hansel and Gretel, although I have no idea if that is an urban legend or not.
 
-Also, here is a quick example of cookies in action if you are looking for some context. Let’s say that you type amazon.com into your browser, and when the page loads, you are automatically logged in. Cookies allow that to happen.
-
-Notice how you didn’t take any action on the site itself, but Amazon already knew something about you. This is because there is a small piece of text that gets stored in your browser when you create an account on Amazon.
-
----
-
-similar to the experience of visiting a doctor, dentist or other health professional. 
-
-In this example, you are actually going to be the parent that is taking your child to an appointment.
-
-Imagine that you are in charge of taking your son or daughter to their annual doctor’s checkup. This is not your first one. In the past, you picked a doctor that you trusted and now you return to that doctor every year.
-
-When you visit the office on that day, you check in with a secretary, who verifies your identity and send you and your child into a room. When the doctor shows up, he or she already has a copy of your medical history, and begins reviewing it with both of you.
-
-In our example, the website is kind of like the doctor. He or she sees many patients, and must be able to react quickly to give each one a great experience.
-
-The assistant is like the server. He or she prepares the doctor to give a great experience.
-
-And your child is like the browser. He or she visits specific sites, or health practitioners. Your child also sees a dentist and an optometrist, which we will cover in a little bit. The doctor must see many children, or in technical terms, receives many visits from browsers around the world.
 
 ---
 
