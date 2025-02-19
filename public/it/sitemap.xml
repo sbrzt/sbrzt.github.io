@@ -552,6 +552,10 @@
                 href="http://localhost:1313/it/tag/structured-light-projection-scanning/"
                 />
   </url><url>
+    <loc>http://localhost:1313/it/slides/abinf-06/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/it/slides/abinf-00/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>

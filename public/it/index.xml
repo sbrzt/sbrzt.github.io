@@ -1148,6 +1148,1035 @@ un collegamento fra rappresentazione iconografica e fonti testuali di riferiment
     </item>
     
     <item>
+      <title>ABINF - Digital Literacy</title>
+      <link>http://localhost:1313/it/slides/abinf-06/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/slides/abinf-06/</guid>
+      <description>&lt;h1 id=&#34;digital-literacy&#34;&gt;Digital Literacy&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-06-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 06 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0600.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;disinformazione&#34;&gt;Disinformazione&lt;/h2&gt;
+&lt;!--
+
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pizzagate&#34;&gt;PizzaGate&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0601.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Una teoria complottista che ha sostenuto che una pizzeria di Washington D.C., Comet Ping Pong, fosse il centro di una rete di pedofilia gestita da membri di alto livello del Partito Democratico degli Stati Uniti, tra cui Hillary Clinton.
+    &lt;/p&gt;
+    &lt;p&gt;
+      La teoria è nata da una serie di email trapelate da Wikileaks, che sono state interpretate (e distorte) in modo errato da alcuni utenti su Reddit e 4chan.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Robb, Amanda (2017). Anatomy of a Fake News Scandal. 
+ &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;pizzagate-1&#34;&gt;PizzaGate&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0601.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Un uomo armato si è recato nella pizzeria nel dicembre 2016 per &#34;indagare&#34; sulla presunta rete pedofila e ha sparato all&#39;interno del locale.
+    &lt;/p&gt;
+    &lt;p&gt;
+      La teoria è nata da una serie di email trapelate da Wikileaks, che sono state interpretate, distorte e diffuse da alcuni utenti su Reddit, Twitter e 4chan.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Robb, Amanda (2017). Anatomy of a Fake News Scandal. 
+ &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;disinformazione-1&#34;&gt;Disinformazione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0602.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;&#34;&gt;&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Fenomeno di condivisione di contenuti informativi falsi, fuorvianti o decontestualizzati, effettuata da agenti consapevoli o inconsapevoli, con una serie di possibili intenti, e spesso caratterizzata da un aspetto memetico.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tipologie-di-disinformazione&#34;&gt;Tipologie di disinformazione&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/0602.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://eavi.eu/beyond-fake-news-10-types-misleading-info/&#34;&gt;https://eavi.eu/beyond-fake-news-10-types-misleading-info/&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/0603.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-1&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0603.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Falso. La fonte potrebbe essere legittima, ma la foto è falsa. Si tratta di una trovata dell&#39;artista americano Zardulu, che ha messo in scena la foto con animali tassidermizzati.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-2&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/0604.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-3&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0604.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Falso. Il sito sta cercando di sembrare ABC News, ma l&#39;URL è sbagliato. Il vero sito è abc.go.com, mentre questo è abc.com.co (il .co è un codice paese per la Colombia, i cui domini sono facili da registrare).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-4&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/0605.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+    &lt;figcaption&gt;
+        Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-5&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0605.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Vero. Lo scoiattolo gigante indiano, o Ratufa indica, esiste!
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-6&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CE0Q904gtMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=CE0Q904gtMI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;&lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;amp;p=4391900&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vero-o-falso-7&#34;&gt;Vero o falso?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        &lt;a href=&#34;https://www.youtube.com/watch?v=CE0Q904gtMI&#34;&gt;https://www.youtube.com/watch?v=CE0Q904gtMI&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        Fonte: &lt;a href=&#34;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&#34;&gt;https://libguides.lib.cwu.edu/c.php?g=625394&amp;p=4391900&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Falso. Si tratta di un video creato da tre studenti di animazione di Montreal nel 2012 come progetto d’esame.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;intento-memetico-e-conseguenze&#34;&gt;Intento memetico e conseguenze&lt;/h3&gt;
+&lt;p&gt;Social media disinformation networks pose a significant risk this election season. It is becoming increasingly accessible for individual actors to generate entire social media networks to spread disinformation. Of the Facebook and X influence operation takedowns in 2020, 76% were specific actors spreading disinformation, compared with 62% in 2019 and 47% in 2018. One such network identified in 2019, The Kullberg Network, consisted of 24 pages with ~1.4 million followers. The network disseminated far-right disinformation and Islamophobic content through pages targeting Christian, Jewish, and Black Americans. Despite attempts at mimicking diversity, Snopes identified that radical American evangelical Kelly Monroe Kullberg was responsible for the network. Even more troubling is that these pages received funding from political donors to boost divisive posts as political advertisements to target audiences.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Mishra, A. &amp; Karumbaya, V. (2024). A Deadly Trifecta: Disinformation Networks, AI Memetic Warfare, and Deepfakes. On Global Network on Extremism &amp; Technology. &lt;a href=&#34;https://gnet-research.org/2024/02/15/a-deadly-trifecta-disinformation-networks-ai-memetic-warfare-and-deepfakes/&#34;&gt;https://gnet-research.org/2024/02/15/a-deadly-trifecta-disinformation-networks-ai-memetic-warfare-and-deepfakes/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-genocidio-dei-rohingya-in-myanmar-2017-&#34;&gt;Esempio: Genocidio dei Rohingya in Myanmar (2017-)&lt;/h3&gt;
+&lt;p&gt;Facebook played a &amp;ldquo;determining role&amp;rdquo; in the Rohingya genocide. Facebook has been accused of enabling the spread of Islamophobic content which targets the Rohingya people.&lt;/p&gt;
+&lt;p&gt;Myanmar&amp;rsquo;s relatively recent democratic transition did not provide the country with substantial time to form professional and reliable media outlets free from government intervention. Furthermore, approximately 1% of Myanmar&amp;rsquo;s residents had internet access before internet.org. As a result, Facebook was the primary source of information and without verifiable professional media options, Facebook became a breeding ground for hate speech and disinformation.&lt;/p&gt;
+&lt;p&gt;Myanmar&amp;rsquo;s Facebook community was also nearly completely unmonitored by Facebook, who at the time only had two Burmese-speaking employees.&lt;/p&gt;
+&lt;p&gt;Myanmar: Facebook’s systems promoted violence against Rohingya; Meta owes reparations – new report. In Amnesty International. &lt;a href=&#34;https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;come-fare&#34;&gt;Come fare?&lt;/h3&gt;
+&lt;p&gt;Check for previous work: Look around to see if someone else has already fact-checked the claim or provided a synthesis of research.
+Go upstream to the source: Go “upstream” to the source of the claim. Most web content is not original. Get to the original source to understand the trustworthiness of the information.
+Read laterally: Read laterally.[1] Once you get to the source of a claim, read what other people say about the source (publication, author, etc.). The truth is in the network.
+Circle back: If you get lost, hit dead ends, or find yourself going down an increasingly confusing rabbit hole, back up and start over knowing what you know now. You’re likely to take a more informed path with different search terms and better decisions.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Caulfield, M.A. (2017). Web Literacy for Student Fact-checkers. 
+ &lt;a href=&#34;https://webliteracy.pressbooks.com/&#34;&gt;https://webliteracy.pressbooks.com/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;risorse-utili&#34;&gt;Risorse utili&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.politifact.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.politifact.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.factcheck.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.factcheck.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://snopes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://snopes.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.open.online/c/fact-checking/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.open.online/c/fact-checking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pagellapolitica.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pagellapolitica.it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://facta.news/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://facta.news/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://verificationhandbook.com/downloads/verification.handbook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://verificationhandbook.com/downloads/verification.handbook.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://digitalresource.center/content/introducing-imvain&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://digitalresource.center/content/introducing-imvain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tineye.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.tineye.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0607.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;design-persuasivo&#34;&gt;Design Persuasivo&lt;/h2&gt;
+&lt;!--
+
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;il-web-è-uno-spazio-progettato&#34;&gt;Il Web è uno spazio progettato&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0607.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Ogni cosa sul Web è frutto di decisioni prese da esseri umani, quindi di un’intenzione.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-vuol-dire-progettare-qualcosa&#34;&gt;Cosa vuol dire progettare qualcosa?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-vuol-dire-progettare-qualcosa-1&#34;&gt;Cosa vuol dire progettare qualcosa?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-vuol-dire-progettare-qualcosa-2&#34;&gt;Cosa vuol dire progettare qualcosa?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0608.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Diverse intenzioni;&lt;/li&gt;
+      &lt;li&gt;Diverse funzioni;&lt;/li&gt;
+      &lt;li&gt;Diverse emozioni;&lt;/li&gt;
+      &lt;li&gt;Diverse azioni.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cosa-vuol-dire-progettare-qualcosa-3&#34;&gt;Cosa vuol dire progettare qualcosa?&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0608.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Prendere determinate scelte nella realizzazione di qualcosa per ottenere un determinato risultato in termini di azioni o emozioni da parte di un utente.
+    &lt;/p&gt;
+    &lt;p&gt;
+        In quanto utenti, reagite alla progettazione con emozioni e/o azioni.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;quindi-nel-web-è-tutto-intenzione&#34;&gt;Quindi, nel Web è tutto intenzione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0609.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Le risorse Web sono progettate con un’intenzione.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Quali sono le intenzioni dei designer? Quali sono le vostre intenzioni?
+    &lt;/p&gt;
+    &lt;p&gt;
+        Migliore è il design, più probabilmente soddisfarete le intenzioni del designer.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-googlecom&#34;&gt;Esempio: google.com&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0610.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Focus su logo e barra di ricerca;&lt;/li&gt;
+      &lt;li&gt;Spazio vuoto;&lt;/li&gt;
+      &lt;li&gt;Contrasto.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-amazoncom&#34;&gt;Esempio: amazon.com&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0611.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Numerosità degli elementi;&lt;/li&gt;
+      &lt;li&gt;Dimensioni variabili;&lt;/li&gt;
+      &lt;li&gt;Alcuni elementi più visibili di altri.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-youtubecom&#34;&gt;Esempio: youtube.com&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0612.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Numerosi elementi interattivi;&lt;/li&gt;
+      &lt;li&gt;Progettazione che guida la vostra attenzione a seconda dell&#39;intenzione del designer.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;le-intenzioni-possono-coincidere&#34;&gt;Le intenzioni possono coincidere&amp;hellip;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-ma-possono-anche-contrastare&#34;&gt;&amp;hellip; Ma possono anche contrastare&lt;/h3&gt;
+&lt;p&gt;Per YouTube, l&amp;rsquo;utente deve vedere più video possibili, deve cliccare sulla pubblicità, e deve commentare.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;utente ha invece bisogno di vedere video specifici, magari da parte dello stesso creator o sullo stesso soggetto, deve caricare il proprio contenuto, e commentare.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;percorso-dellutente&#34;&gt;Percorso dell&amp;rsquo;utente&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0613.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        &#34;Devo comprare un libro di fantascienza du Amazon&#34;.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&#34;Cerco ‘libro fantascienza’ nella barra di ricerca&#34;;&lt;/li&gt;
+      &lt;li&gt;“Guardo i risultati”;&lt;/li&gt;
+      &lt;li&gt;“Clicco su un titolo che mi interessa”;&lt;/li&gt;
+      &lt;li&gt;...&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;percorso-dellutente-1&#34;&gt;Percorso dell&amp;rsquo;utente&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0613.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Uno degli strumenti utilizzati dai designer per la progettazione di un sito Web.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Mappatura dettagliata e completa di intenzioni, azioni, ed emozioni dell’utente.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dark-pattern&#34;&gt;Dark pattern&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0614.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Modelli di progettazione usati per manipolare le emozioni dell’utente ed indurlo a compiere azioni in contrasto con le sue intenzioni.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Es. posizionamento tattico di bottoni, testi volutamente ambigui, ecc.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;dark-pattern-1&#34;&gt;Dark pattern&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0615.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Utilizzo crescente da parte delle aziende (nonostante le sanzioni).
+    &lt;/p&gt;
+    &lt;p&gt;
+        Funzionano: ci portano a fare esattamente quello che vogliono loro, facendoci credere che sia nei nostri migliori interessi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-linkedin&#34;&gt;Esempio: LinkedIn&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0616.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Al momento della creazione dell’account, il sistema tenta più volte di farti importare la rubrica, usando una combinazione di testo ingannevoli, colori poco contrastanti e posizionamento strategico degli elementi.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-linkedin-1&#34;&gt;Esempio: LinkedIn&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0617.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Se l’utente tenta di saltare questo step (e solo in quel caso), una finestra aggiuntiva appare per chiedere all’utente di confermare la scelta, utilizzando un linguaggio totalmente fuorviante.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-linkedin-2&#34;&gt;Esempio: LinkedIn&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        … e nonostante i ripetuti rifiuti da parte dell’utente, il sistema ci riprova, cambiando di nuovo la terminologia.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;prevenzione-del-confronto&#34;&gt;Prevenzione del confronto&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente non riesce a comparare i prodotti perché le loro caratteristiche e i loro prezzi sono combinati in maniera volutamente convoluta.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;conferma-imbarazzante&#34;&gt;Conferma imbarazzante&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene manipolato emotivamente al fine di fargli compiere azioni che altrimenti non avrebbe fatto.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;annunci-mascherati&#34;&gt;Annunci mascherati&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene indotto a interagire con annuncio pubblicitario spacciato come un elemento dell’interfaccia.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;urgenza-fasulla&#34;&gt;Urgenza fasulla&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene indotto a completare un’azione tramite un’indicazione fasulla di scarsità del prodotto o di tempo.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;depistaggio&#34;&gt;Depistaggio&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene spinto a compiere un’azione indesiderata per ottenere quello che vuole.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;motel-di-scarafaggi&#34;&gt;Motel di scarafaggi&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene intrappolato nella sottoscrizione ad un servizio, rendendo l’iscrizione molto semplice e la cancellazione molto difficile.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;costi-nascosti&#34;&gt;Costi nascosti&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente viene attratto da prezzi bassi, che si rivelano essere parziali e parti di un prezzo più alto al momento del checkout.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;nagging&#34;&gt;Nagging&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente prova a fare qualcosa, ma viene sistematicamente interrotto da richieste di fare qualcos’altro.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;preselezione&#34;&gt;Preselezione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        All’utente viene presentata un’opzione già selezionata.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;intrusione&#34;&gt;Intrusione&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente è spinto con l’inganno a completare una transazione con informazioni parziali.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;formulazione-a-trabocchetto&#34;&gt;Formulazione a trabocchetto&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        L’utente è spinto con l’inganno ad effettuare un’azione sulla base di un testo scritto in maniera volutamente ambigua.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;img/0607.jpg&#34;
+  
+      
+      class=&#34;section-slide&#34;
+  &gt;
+
+&lt;div class=&#34;dark-overlay&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;
+&lt;!--
+
+--&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-nostra-ombra-digitale&#34;&gt;La nostra ombra digitale&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Ogni giorno disseminiamo sul Web una serie di dati che riconducono irrimediabilmente alle nostre attività, ai nostri segreti, ai nostri pensieri, a noi.
+    &lt;/p&gt;
+    &lt;p&gt;
+        A chi appartengono questi dati? Per cosa vengono utilizzati?
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;la-mia-giornata&#34;&gt;La mia giornata&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ogni-cosa-viene-tracciata&#34;&gt;Ogni cosa viene tracciata&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        La maggior parte dei siti deposita sui nostri sistemi dei cookie che tengono traccia di tutti i nostri movimenti (anche e soprattutto da sito a sito), con l’intenzione di migliorare l’efficacia di pubblicità mirate.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Sui social, tutto viene registrato (anche i commenti privati).
+    &lt;/p&gt;
+    &lt;p&gt;
+        Le politiche di gestione dei dati della singola azienda possono cambiare improvvisamente.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lombra-digitale-sono-metadati&#34;&gt;L&amp;rsquo;ombra digitale sono metadati&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cookie&#34;&gt;Cookie&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Piccoli file mandati da un sito Web, trattenuti dal browser e memorizzati sul dispositivo, progettati per tenere traccia delle informazioni riguardanti l’utente.
+    &lt;/p&gt;
+    &lt;p&gt;
+        I siti ci “fiutano” seguendo la traccia lasciata dai cookie.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cookie-1&#34;&gt;Cookie&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&#34;&gt;https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Tecnici: essenziali per l’interazione con un sito Web (es. cookie di sessione che mantengono l’accesso dell’utente al sito).
+    &lt;/p&gt;
+    &lt;p&gt;
+        Analitici: raccolgono informazioni sull’utilizzo del sito Web da parte dell’utente (e.g. Google Analytics).
+    &lt;/p&gt;
+    &lt;p&gt;
+        Profilazione: raccolgono informazioni sull’utente per profilarlo ed inviargli pubblicità mirata (e.g. Google AdSense).
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cookie-2&#34;&gt;Cookie&lt;/h3&gt;
+&lt;p&gt;Let’s get one thing out of the way quickly: cookies are not a good name for these little snippets of text that get stored in your browser. In fact, they are a terrible name. Apparently, the name originates from the fable of Hansel and Gretel, although I have no idea if that is an urban legend or not.&lt;/p&gt;
+&lt;p&gt;Also, here is a quick example of cookies in action if you are looking for some context. Let’s say that you type amazon.com into your browser, and when the page loads, you are automatically logged in. Cookies allow that to happen.&lt;/p&gt;
+&lt;p&gt;Notice how you didn’t take any action on the site itself, but Amazon already knew something about you. This is because there is a small piece of text that gets stored in your browser when you create an account on Amazon.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;similar to the experience of visiting a doctor, dentist or other health professional.&lt;/p&gt;
+&lt;p&gt;In this example, you are actually going to be the parent that is taking your child to an appointment.&lt;/p&gt;
+&lt;p&gt;Imagine that you are in charge of taking your son or daughter to their annual doctor’s checkup. This is not your first one. In the past, you picked a doctor that you trusted and now you return to that doctor every year.&lt;/p&gt;
+&lt;p&gt;When you visit the office on that day, you check in with a secretary, who verifies your identity and send you and your child into a room. When the doctor shows up, he or she already has a copy of your medical history, and begins reviewing it with both of you.&lt;/p&gt;
+&lt;p&gt;In our example, the website is kind of like the doctor. He or she sees many patients, and must be able to react quickly to give each one a great experience.&lt;/p&gt;
+&lt;p&gt;The assistant is like the server. He or she prepares the doctor to give a great experience.&lt;/p&gt;
+&lt;p&gt;And your child is like the browser. He or she visits specific sites, or health practitioners. Your child also sees a dentist and an optometrist, which we will cover in a little bit. The doctor must see many children, or in technical terms, receives many visits from browsers around the world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Let’s take a moment and imagine that initial communication between you and the assistant did not happen. Instead, you just strolled into the doctor’s office and were forced to recount your child’s health history. That would be a terrible experience for you, the visitor, for two reasons:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;You can’t perfectly recall your child’s health history in a way that is meaningful to a doctor. You might have some memory, but they need the actual specific conditions over time.
+This would take WAY too long for you.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Instead, there needs to be a system to rapidly deliver the right information to the doctor so you have a great experience when you visit. From a technical perspective, this is why we need cookies. Web developers want to give users a great experience as soon as they hit the page, and they just need a small hint to customize the experience for each returning visitor. That is the value of having a local cookie.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So, a cookie is a short piece of text that is stored in web visitor’s browser. If you are visiting a shopping site, it might contain a user ID that will allow the site to instantly log you in. You received that user ID when you created an account for the first time, and it was then stored in your browser by Amazon’s servers. Similarly, a doctor’s office will tie your child’s medical policy number to a specific account in their system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Let’s align these two processes.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;You enter the doctor’s office and check in with the receptionist. The receptionist asks for your child’s medical ID.
+You enter an exam room with your child, and the doctor arrives with your child’s health history
+You are able to add on to your child’s health history since the doctor can quickly catch up with past notes. You resume as if the doctor just saw your child yesterday, when in reality, he/she has no memory of your last appointment from the previous year.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From a technical view:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;You type in Amazon.com. This means you are sending an HTTP request to the amazon.com servers.
+The servers read your cookie, and prepare a customized page that will allow you to be automatically logged in.
+The page is served to you, the visitor. You are already logged in and can resume shopping from where you left off.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;First of all, there is no universal cookie protocol. Each site uses their own data categorization system, so cookies are not shared between sites, except in the case of retargeting. So, it is unlike a social security number, where one number unlocks multiple types of personal data. Similarly, your medical history is not automatically shared among practitioners unless you grant permission.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So far, the relationship between the web server and cookie is 1:1. But, sites can also share your information with third-party ad networks. For example, let’s say you are shopping for rollerblades. You leave coolrollerblades.com without buying anything. But, coolrollerblades.com uses the Facebook Ads tracking pixel. So, when you visit Facebook the next time, you see an ad for rollerblades. How can this happen?&lt;/p&gt;
+&lt;p&gt;Let’s imagine that your child visits the dentist’s office, and gets the news that many children get: she is going to need braces! Your doctor has taken an x-ray of your teeth, and is going to send them to the local orthodontist so you can speak to an expert. Here are the steps that would need to happen in this process:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The doctor sends your x-rays to the assistant at the orthodontist’s office so he/she can create a file for you.
+You visit the orthodontist’s office and let the assistant know that your dentist referred you.
+The assistant gets your x-rays to the orthodontist so he/she can discuss with you as you meet.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;Here’s one area where cookies and doctor’s visits are pretty different. Most people would say that an annual doctor’s visit for a child is an unquestionably good thing. Unless you do not trust modern medicine, it’s an easy way to get your child in front of an expert at least once a year.&lt;/p&gt;
+&lt;p&gt;On the other hand, there is a little more debate around the privacy issues that come along with cookies. Most people are comfortable with a site that simply uses your info to load your account in your browser of choice. But, especially after the Facebook Ads crisis stemming from the 2016 US Presidential Election, some people have become uncomfortable with retargeting. They don’t want ad networks to track them on many sites across the Internet. I am going to stay out of the privacy debate, but instead wanted to offer some background on the range of opinions on cookies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cookie-3&#34;&gt;Cookie&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0618.png&#34; height=&#34;auto&#34; width=&#34;200&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office &#34;&gt;https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office &lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+        Quando si visita un sito Web, i cookie vengono inviati dal server al client.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Durante la navigazione successiva sul sito, il browser invia i cookie al server per consentire all’utente di accedere alle funzionalità del sito, ricevere ad personalizzati, ecc.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+La Rassegna Stampa. In Rassegna Stampa per Bambini. 
+ &lt;a href=&#34;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&#34;&gt;https://www.rassegnastampaperbambini.it/la-rassegna-stampa/&lt;/a&gt;.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
+&lt;h2 id=&#34;lezione-05-del-corso-di-_abilità-informatiche_-20242025&#34;&gt;Lezione 05 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ABINF - Informazioni generali</title>
       <link>http://localhost:1313/it/slides/abinf-00/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
