@@ -908,8 +908,7 @@ Non hai dovuto effettuare di nuovo il login, perché Amazon sapeva già qualcosa
 </div>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empirical study of web cookies. In Proceedings of the 25th international conference on world wide web (pp. 891-901). <a href="https://doi.org/10.1145/2872427.2882991">https://doi.org/10.1145/2872427.2882991</a>.
 </div>
 
 ---
@@ -952,6 +951,10 @@ Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empiric
   </div>
 </div>
 
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
+
 ---
 
 ### Come funzionano i cookie?
@@ -978,65 +981,141 @@ Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empiric
   </div>
 </div>
 
----
-
-
-
-
----
-
-Let’s take a moment and imagine that initial communication between you and the assistant did not happen. Instead, you just strolled into the doctor’s office and were forced to recount your child’s health history. That would be a terrible experience for you, the visitor, for two reasons:
-
-    You can’t perfectly recall your child’s health history in a way that is meaningful to a doctor. You might have some memory, but they need the actual specific conditions over time.
-    This would take WAY too long for you.
-
-Instead, there needs to be a system to rapidly deliver the right information to the doctor so you have a great experience when you visit. From a technical perspective, this is why we need cookies. Web developers want to give users a great experience as soon as they hit the page, and they just need a small hint to customize the experience for each returning visitor. That is the value of having a local cookie.
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-So, a cookie is a short piece of text that is stored in web visitor’s browser. If you are visiting a shopping site, it might contain a user ID that will allow the site to instantly log you in. You received that user ID when you created an account for the first time, and it was then stored in your browser by Amazon’s servers. Similarly, a doctor’s office will tie your child’s medical policy number to a specific account in their system.
+### Come funzionano i cookie?
+
+Ora immaginiamo che quella comunicazione iniziale tra noi e l'assistente non sia mai avvenuta.
+
+Siamo semplicemente entrati nell'ambulatorio e siamo passati direttamente a raccontare la storia clinica del nostro parente.
+
+Per noi sarebbe molto difficile, per almeno due motivi:
+* Faremmo moltissima fatica a ricordare tutto, o comunque in una maniera che sia utile per il medico;
+* Ci metteremmo troppo tempo.
+
+Invece, è necessario un meccanismo che fornisca rapidamente le informazioni necessarie al medico.
+
+Tecnicamente, è per questo che abbiamo bisogno dei cookie.
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-Let’s align these two processes.
+### Come funzionano i cookie?
 
-    You enter the doctor’s office and check in with the receptionist. The receptionist asks for your child’s medical ID.
-    You enter an exam room with your child, and the doctor arrives with your child’s health history
-    You are able to add on to your child’s health history since the doctor can quickly catch up with past notes. You resume as if the doctor just saw your child yesterday, when in reality, he/she has no memory of your last appointment from the previous year.
+Quindi, un cookie è un breve pezzo di testo che viene memorizzato nel browser del visitatore del sito Web.
 
-From a technical view:
+Se stiamo visitando un sito di e-commerce, potrebbe contenere un ID utente che permetterà al sito di farci accedere immediatamente.
 
-    You type in Amazon.com. This means you are sending an HTTP request to the amazon.com servers.
-    The servers read your cookie, and prepare a customized page that will allow you to be automatically logged in.
-    The page is served to you, the visitor. You are already logged in and can resume shopping from where you left off.
+Abbiamo ricevuto quell'ID quando abbiamo creato l'account per la prima volta.
 
----
+Quell'ID viene poi inviato dal server al client (browser) al momento del login e da quest'ultimo memorizzato (fino a quando o a meno che non abbiamo intrapreso determinate azioni, come cancellare i dati di navigazione).
 
-First of all, there is no universal cookie protocol. Each site uses their own data categorization system, so cookies are not shared between sites, except in the case of retargeting. So, it is unlike a social security number, where one number unlocks multiple types of personal data. Similarly, your medical history is not automatically shared among practitioners unless you grant permission.
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-So far, the relationship between the web server and cookie is 1:1. But, sites can also share your information with third-party ad networks. For example, let’s say you are shopping for rollerblades. You leave coolrollerblades.com without buying anything. But, coolrollerblades.com uses the Facebook Ads tracking pixel. So, when you visit Facebook the next time, you see an ad for rollerblades. How can this happen?
+### Come funzionano i cookie?
 
-Let’s imagine that your child visits the dentist’s office, and gets the news that many children get: she is going to need braces! Your doctor has taken an x-ray of your teeth, and is going to send them to the local orthodontist so you can speak to an expert. Here are the steps that would need to happen in this process:
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0618.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <ul>
+    <li>
+        Entriamo in ambulatorio e ci registriamo dall'assistente, che ci chiede l'ID del nostro parente;
+    </li>
+    <li>
+        Passiamo alla stanza d'esame. Il medico arriva con la storia clinica del nostro parente;
+    </li>
+    <li>
+        Possiamo specificare o aggiungere informazioni utili riguardanti la storia clinica del parente, poiché il medico può recuperare rapidamente le note precedenti.
+    </li>
+    </ul>
+  </div>
+</div>
 
-    The doctor sends your x-rays to the assistant at the orthodontist’s office so he/she can create a file for you.
-    You visit the orthodontist’s office and let the assistant know that your dentist referred you.
-    The assistant gets your x-rays to the orthodontist so he/she can discuss with you as you meet.
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-Here’s one area where cookies and doctor’s visits are pretty different. Most people would say that an annual doctor’s visit for a child is an unquestionably good thing. Unless you do not trust modern medicine, it’s an easy way to get your child in front of an expert at least once a year.
+### Come funzionano i cookie?
 
-On the other hand, there is a little more debate around the privacy issues that come along with cookies. Most people are comfortable with a site that simply uses your info to load your account in your browser of choice. But, especially after the Facebook Ads crisis stemming from the 2016 US Presidential Election, some people have become uncomfortable with retargeting. They don’t want ad networks to track them on many sites across the Internet. I am going to stay out of the privacy debate, but instead wanted to offer some background on the range of opinions on cookies.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0618.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <ul>
+    <li>
+        Digitiamo nel nostro browser "amazon.com". Quindi, stiamo inviando una richiesta HTTP al server di Amazon, nella quale è presente un cookie che il server stesso ci ha mandato in precedenza;
+    </li>
+    <li>
+        Il server legge il nostro cookie e risponde con un messaggio HTTP contenente una copia della pagina richiesta in cui noi siamo già autenticati;
+    </li>
+    <li>
+        Possiamo riprendere da dove siamo rimasti.
+    </li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-...
+### In teoria, i cookie non sono condivisi tra i siti che visitate
+
+In teoria, non esiste un protocollo universale per i cookie.
+
+I cookie sono solitamente associati ai rispettivi domini; possono quindi essere letti e manipolati solo dal server che li ha prodotti.
+
+D'altro canto, i cookie prodotti da server che fanno parte dello stesso ecosistema o che appartengono a realtà che collaborano tra loro, possono comunicare tra loro (e lo fanno).
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
 
 ---
 
-### Cookie
+### Cookie di terze parti
+
+Ad esempio, supponiamo che vogliamo comprare dei pattini.
+
+Andiamo su un sito chiamato "coolrollerblades.com", ma non acquistiamo nulla.
+
+Poi saliamo su Instagram, e vediamo degli annunci riguardanti vari pattini molto simili a quelli che abbiamo visto sull'altro sito.
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
+
+---
+
+### Cookie di terze parti
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -1049,22 +1128,88 @@ On the other hand, there is a little more debate around the privacy issues that 
   </div>
   <div style="flex: 1;">
     <p>
-        Quando si visita un sito Web, i cookie vengono inviati dal server al client.
+      Immaginiamo di andare dal dentista.
     </p>
     <p>
-        Durante la navigazione successiva sul sito, il browser invia i cookie al server per consentire all’utente di accedere alle funzionalità del sito, ricevere ad personalizzati, ecc.
+      Alla fine della visita, il dentista ci comunica che dobbiamo utilizzare l'apparecchio.
     </p>
   </div>
 </div>
 
 <div class="footer">
-La Rassegna Stampa. In Rassegna Stampa per Bambini. 
- <a href="https://www.rassegnastampaperbambini.it/la-rassegna-stampa/">https://www.rassegnastampaperbambini.it/la-rassegna-stampa/</a>.
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
 </div>
 
 ---
 
+### Cookie di terze parti
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0618.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Il dentista invia le radiografie all'assistente dell'ortodontista.
+    </p>
+    <p>
+      Andiamo dall'ortodontista e diciamo all'assistente di essere stati mandati dal dentista.
+    </p>
+    <p>
+      L'assistente porta le nostre radiografie all'ortodontista così che possa discuterne con noi.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
+
+---
+
+### Cookie di terze parti
+
+<figure>
+  <img src="img/0618.png" height="auto" width="200"/>
+    <figcaption>
+        Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+    </figcaption>
+</figure>
+
+---
+
+### La questione della privacy
+
+Il punto in cui la nostra metafora viene meno.
+
+La maggior parte delle persone direbbe che una visita annuale dal medico è indiscutibilmente una cosa buona.
+
+D'altra parte, c'è un po' più di dibattito sulle questioni relative alla privacy che accompagnano i cookie.
+
+La maggior parte delle persone è a proprio agio con un sito che utilizza le loro informazioni per facilitare il processo di autenticazione ai propri siti.
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
+
+---
+
+### La questione della privacy
+
+Ma sempre più persone si stanno rendendo conto che questa condivisione sta prendendo pieghe inquietanti.
+
+Inoltre, la condivisione dei dati personali tra domini diversi e con terze parti implica anche rischi per la sicurezza e una seria messa in discussione dei meccanismi di consenso e controllo da parte dell'utente sui propri dati.
+
+Esempio: [il problema del legittimo interesse](https://shop.acconsento.click/cookie-legittimo-interesse-non-basta-serve-lesplicito-consenso-dellutente/).
+
+<div class="footer">
+Kyi, L., Ammanaghatta Shivakumar, S., Santos, C. T., Roesner, F., Zufall, F., & Biega, A. J. (2023, April). Investigating deceptive design in GDPR’s legitimate interest. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (pp. 1-16). <a href="https://doi.org/10.1145/3544548.3580637">https://doi.org/10.1145/3544548.3580637</a>
+</div>
 
 ---
 
