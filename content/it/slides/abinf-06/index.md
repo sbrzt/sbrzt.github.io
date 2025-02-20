@@ -89,21 +89,7 @@ Robb, Amanda (2017). Anatomy of a Fake News Scandal.
 
 ### Disinformazione
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0602.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href=""></a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Fenomeno di condivisione di contenuti informativi falsi, fuorvianti o decontestualizzati, effettuata da agenti consapevoli o inconsapevoli, con una serie di possibili intenti, e spesso caratterizzata da un aspetto memetico.
-    </p>
-  </div>
-</div>
+Fenomeno di condivisione di contenuti informativi falsi, fuorvianti o decontestualizzati, effettuata da agenti consapevoli o inconsapevoli, con una serie di possibili intenti, e spesso caratterizzata da un aspetto memetico.
 
 <div class="footer">
 La Rassegna Stampa. In Rassegna Stampa per Bambini. 
@@ -268,10 +254,10 @@ Mishra, A. & Karumbaya, V. (2024). A Deadly Trifecta: Disinformation Networks, A
 
 ### Come fare?
 
-* Controlla se ci sono lavori precedenti: dai un'occhiata per vedere se qualcun altro ha già verificato i fatti o ha fornito una sintesi della ricerca;
-* Vai alla fonte: vai "a monte" alla fonte dell'affermazione per comprendere l'affidabilità delle informazioni;
-* Leggi lateralmente: una volta che hai trovato la fonte di un'affermazione, leggi cosa dicono altri sulla fonte (pubblicazione, autore, ecc.);
-* Ritorna indietro: se ti perdi, fai un passo indietro e ricomincia da capo, tenendo conto di ciò che sai ora.
+* **Controlla se ci sono lavori precedenti**: dai un'occhiata per vedere se qualcun altro ha già verificato i fatti o ha fornito una sintesi della ricerca;
+* **Vai alla fonte**: vai "a monte" alla fonte dell'affermazione per comprendere l'affidabilità delle informazioni;
+* **Leggi lateralmente**: una volta che hai trovato la fonte di un'affermazione, leggi cosa dicono altri sulla fonte (pubblicazione, autore, ecc.);
+* **Ritorna indietro**: se ti perdi, fai un passo indietro e ricomincia da capo, tenendo conto di ciò che sai ora.
 
 <div class="footer">
 Caulfield, M.A. (2017). Web Literacy for Student Fact-checkers. 
@@ -294,7 +280,7 @@ Caulfield, M.A. (2017). Web Literacy for Student Fact-checkers.
 
 ---
 
-{{< slide background-image="img/0607.jpg" class="section-slide">}}
+{{< slide background-image="img/0606.jpg" class="section-slide">}}
 
 <div class="dark-overlay"></div>
 
@@ -330,7 +316,7 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 
 ---
 
-{{< slide background-image="img/0607.jpg" class="section-slide">}}
+{{< slide background-image="img/0608.jpeg" class="section-slide">}}
 
 ### Cosa vuol dire progettare qualcosa?
 
@@ -340,7 +326,7 @@ By Benjamin D. Esham / Wikimedia Commons, <a href="https://creativecommons.org/l
 
 ---
 
-{{< slide background-image="img/0607.jpg" class="section-slide">}}
+{{< slide background-image="img/0609.jpeg" class="section-slide">}}
 
 ### Cosa vuol dire progettare qualcosa?
 
@@ -455,21 +441,39 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 La capacità dei sistemi informatici (come siti e applicazioni Web) di erogare servizi e fornire informazioni fruibili, senza discriminazioni.
 
 Ne beneficiano:
-* Anziani
-* Persone con dislessia (3-5%)
-* Persone con difficoltà visive, uditive, intellettive, linguistiche, motorie
-* Persone con disabilità temporanee
-* Persone in mobilità
-* Persone con connessione lenta
+* Anziani;
+* Persone con difficoltà visive, uditive, intellettive, linguistiche, motorie.
 
-Circa 15% della popolazione mondiale
-Circa 80 milioni in Europa
-Circa 13% della popolazione in Italia
+<div class="footer">
+Yesilada, Y., Brajnik, G., Vigo, M., & Harper, S. (2012). Understanding web accessibility and its drivers. In Proceedings of the international cross-disciplinary conference on web accessibility (pp. 1-9). <a href="https://doi.org/10.1145/2207016.22070">https://doi.org/10.1145/2207016.22070</a>.
+</div>
 
-L'accessibilità è anche un'opportunità per aziende e organizzazioni:
-* Aumenta le visite
-* Migliora la Search Engine Optimization
-* Responsabilità sociale
+---
+
+### L'esempio dell'accessibilità
+
+Ma anche:
+* Persone con disabilità temporanee;
+* Persone in mobilità;
+* Persone con connessione lenta.
+
+Parliamo di numeri ingenti:
+* Circa 15% della popolazione mondiale;
+* Circa 80 milioni in Europa;
+* Circa 13% della popolazione in Italia.
+
+<div class="footer">
+Yesilada, Y., Brajnik, G., Vigo, M., & Harper, S. (2012). Understanding web accessibility and its drivers. In Proceedings of the international cross-disciplinary conference on web accessibility (pp. 1-9). <a href="https://doi.org/10.1145/2207016.22070">https://doi.org/10.1145/2207016.22070</a>.
+</div>
+
+---
+
+### L'esempio dell'accessibilità
+
+Un'opportunità per aziende e organizzazioni:
+* Aumenta le visite (quindi, i guadagni);
+* Migliora la Search Engine Optimization (SEO);
+* Responsabilità sociale e fidelizzazione.
 
 <div class="footer">
 Yesilada, Y., Brajnik, G., Vigo, M., & Harper, S. (2012). Understanding web accessibility and its drivers. In Proceedings of the international cross-disciplinary conference on web accessibility (pp. 1-9). <a href="https://doi.org/10.1145/2207016.22070">https://doi.org/10.1145/2207016.22070</a>.
@@ -492,7 +496,7 @@ Earnshaw, Y., Tawfik, A. A., & Schmidt, M. (2017). User experience design. Found
 
 ---
 
-### ... Ma possono anche contrastare!
+### ... Ma le intenzioni possono anche contrastare!
 
 ---
 
@@ -503,7 +507,7 @@ Earnshaw, Y., Tawfik, A. A., & Schmidt, M. (2017). User experience design. Found
     <figure>
       <img src="img/0614.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
     </figure>
   </div>
@@ -528,9 +532,9 @@ Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). T
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0615.png" height="auto" width="200"/>
+      <img src="img/0614.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
     </figure>
   </div>
@@ -555,9 +559,9 @@ Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). T
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0616.png" height="auto" width="200"/>
+      <img src="img/0615.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
     </figure>
   </div>
@@ -579,9 +583,33 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
+      <img src="img/0616.png" height="auto" width="200"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+        Se l’utente tenta di saltare questo step (e solo in quel caso), una finestra aggiuntiva appare per chiedere all’utente di confermare la scelta, utilizzando un linguaggio totalmente fuorviante.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
+</div>
+
+---
+
+### Esempio: LinkedIn
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
       <img src="img/0617.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
     </figure>
   </div>
@@ -605,7 +633,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
     <figure>
       <img src="img/0618.png" height="auto" width="200"/>
         <figcaption>
-            Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
+            Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
     </figure>
   </div>
@@ -627,7 +655,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0614.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
@@ -647,7 +675,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0619.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/disguised-ads">https://www.deceptive.design/types/disguised-ads</a>.
         </figcaption>
@@ -667,7 +695,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0620.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/fake-scarcity">https://www.deceptive.design/types/fake-scarcity</a>.
         </figcaption>
@@ -687,7 +715,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0621.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/hard-to-cancel">https://www.deceptive.design/types/hard-to-cancel</a>.
         </figcaption>
@@ -707,7 +735,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0622.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/hidden-costs">https://www.deceptive.design/types/hidden-costs</a>.
         </figcaption>
@@ -727,7 +755,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0623.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/nagging">https://www.deceptive.design/types/nagging</a>.
         </figcaption>
@@ -747,7 +775,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0624.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/preselection">https://www.deceptive.design/types/preselection</a>.
         </figcaption>
@@ -767,7 +795,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0625.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://blog.mobiversal.com/dark-patterns-or-how-ux-exploits-the-user-trick-questions-fake-new-notification.html">https://blog.mobiversal.com/dark-patterns-or-how-ux-exploits-the-user-trick-questions-fake-new-notification.html</a>.
         </figcaption>
@@ -782,7 +810,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 
 ---
 
-{{< slide background-image="img/0607.jpg" class="section-slide">}}
+{{< slide background-image="img/0626.jpg" class="section-slide">}}
 
 <div class="dark-overlay"></div>
 
@@ -809,7 +837,7 @@ Micheli, M., Lutz, C., & Büchi, M. (2018). Digital footprints: an emerging dime
 ### L'ombra digitale è composta dai nostri dati (e metadati) personali
 
 <figure>
-  <img src="img/0618.png" height="auto" width="200"/>
+  <img src="img/0627.png" height="auto" width="200"/>
     <figcaption>
         Fonte: <a href="https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint">https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint</a>.
     </figcaption>
@@ -853,13 +881,13 @@ Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology develop
 
 ### Principi del GDPR
 
-* Liceità e correttezza: necessità del consenso, protezione dell'interesse vitale, dell'interesse pubblico e dell'interesse legittimo;
-* Trasparenza: fornire informazioni sul trattamento facilmente accessibili e comprensibili;
-* Limitazione delle finalità dei trattamenti: identificazione necessaria delle finalità per le quali i dati saranno usati;
-* Minimizzazione: limitazione della raccolta ai soli dati direttamente rilevanti e necessari per raggiungere uno scopo specifico;
-* Esattezza: i dati devono essere corretti e aggiornati;
-* Limitazione della conservazione: i dati devono essere  conservati solo per il tempo necessario;
-* Integrità e riservatezza: i dati devono essere trattati con tecniche di sicurezza per proteggerli da attacchi o danni accidentali.
+* **Liceità e correttezza**: necessità del consenso, protezione dell'interesse vitale, dell'interesse pubblico e dell'interesse legittimo;
+* **Trasparenza**: fornire informazioni sul trattamento facilmente accessibili e comprensibili;
+* **Limitazione delle finalità dei trattamenti**: identificazione necessaria delle finalità per le quali i dati saranno usati;
+* **Minimizzazione**: limitazione della raccolta ai soli dati direttamente rilevanti e necessari per raggiungere uno scopo specifico;
+* **Esattezza**: i dati devono essere corretti e aggiornati;
+* **Limitazione della conservazione**: i dati devono essere  conservati solo per il tempo necessario;
+* **Integrità e riservatezza**: i dati devono essere trattati con tecniche di sicurezza per proteggerli da attacchi o danni accidentali.
 
 <div class="footer">
 Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology development. Journal of Global Information Technology Management, 22(1), 1-6. <a href="https://doi.org/10.1080/1097198X.2019.1569186">https://doi.org/10.1080/1097198X.2019.1569186</a>.
@@ -869,9 +897,9 @@ Li, H., Yu, L., & He, W. (2019). The impact of GDPR on global technology develop
 
 ### Alcuni requisiti del GDPR
 
-* Privacy by design e by default: implementazione dei principi di protezione dei dati fin dall'inizio;
-* Nuovi diritti individuali (di essere informati, di accesso, di rettifica, alla cancellazione, alla portabilità, ecc.);
-* Consenso (specifico, informato, dimostrabile, revocabile, esplicito);
+* **Privacy by design e by default**: implementazione dei principi di protezione dei dati fin dall'inizio;
+* **Nuovi diritti individuali** (di essere informati, di accesso, di rettifica, alla cancellazione, alla portabilità, ecc.);
+* **Consenso** (specifico, informato, dimostrabile, revocabile, esplicito);
 * ...
 
 ---
@@ -891,7 +919,7 @@ Non hai dovuto effettuare di nuovo il login, perché Amazon sapeva già qualcosa
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0628.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies">https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies</a>.
         </figcaption>
@@ -932,7 +960,7 @@ Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empiric
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0629.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -962,7 +990,7 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0630.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -1028,7 +1056,7 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0631.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -1060,7 +1088,7 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0632.png" height="auto" width="200"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -1117,54 +1145,11 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 
 ### Cookie di terze parti
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Immaginiamo di andare dal dentista.
-    </p>
-    <p>
-      Alla fine della visita, il dentista ci comunica che dobbiamo utilizzare l'apparecchio.
-    </p>
-  </div>
-</div>
+Immaginiamo di andare dal dentista.
 
-<div class="footer">
-Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
-</div>
+Alla fine della visita, il dentista ci comunica che dobbiamo utilizzare l'apparecchio.
 
----
-
-### Cookie di terze parti
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Il dentista invia le radiografie all'assistente dell'ortodontista.
-    </p>
-    <p>
-      Andiamo dall'ortodontista e diciamo all'assistente di essere stati mandati dal dentista.
-    </p>
-    <p>
-      L'assistente porta le nostre radiografie all'ortodontista così che possa discuterne con noi.
-    </p>
-  </div>
-</div>
+Il dentista inoltra la nostra cartella contenente le scannerizzazioni a raggi X ad un ortodentista che ci aiuterà con il nostro apparecchio.
 
 <div class="footer">
 Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
@@ -1175,7 +1160,22 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 ### Cookie di terze parti
 
 <figure>
-  <img src="img/0618.png" height="auto" width="200"/>
+  <img src="img/0633.png" height="auto" width="200"/>
+    <figcaption>
+        Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
+    </figcaption>
+</figure>
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
+</div>
+
+---
+
+### Cookie di terze parti
+
+<figure>
+  <img src="img/0634.png" height="auto" width="200"/>
     <figcaption>
         Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
     </figcaption>
