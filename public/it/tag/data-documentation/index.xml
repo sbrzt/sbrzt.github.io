@@ -34,8 +34,8 @@
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/slides/dhdmch-03/</guid>
       <description>&lt;h1 id=&#34;plan-pianificare&#34;&gt;PLAN: Pianificare&lt;/h1&gt;
-&lt;h2 id=&#34;lezione-03-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
-&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-digital-humanities-e-data-management-per-i-beni-culturali-20242025&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;il-dm-consiste-in-una-serie-di-attività-complesse&#34;&gt;Il DM consiste in una serie di attività complesse&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -280,7 +280,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@sebastiantapiahuerta?utm_content=
 &lt;li&gt;&lt;a href=&#34;https://www.esquire.com/news-politics/politics/a33994802/pasco-county-sheriff-pre-crime-harassment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.esquire.com/news-politics/politics/a33994802/pasco-county-sheriff-pre-crime-harassment/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;la-_data-documentation_-è-una-panoramica-chiara-sui-dati&#34;&gt;La &lt;em&gt;data documentation&lt;/em&gt; è una panoramica chiara sui dati&lt;/h3&gt;
+&lt;h3 id=&#34;la-data-documentation-è-una-panoramica-chiara-sui-dati&#34;&gt;La &lt;em&gt;data documentation&lt;/em&gt; è una panoramica chiara sui dati&lt;/h3&gt;
 &lt;p&gt;Una descrizione critica di tutto quello che serve ad un&amp;rsquo;altra persona o ai voi stessi del futuro per trovare, comprendere, e contestualizzare i vostri dati in maniera indipendente.&lt;/p&gt;
 &lt;p&gt;I dati senza documentazione sono uno spreco di soldi, tempo, risorse, inutili (o addirittura dannosi).&lt;/p&gt;
 &lt;p&gt;Esempi: README, metadati, ecc.&lt;/p&gt;
@@ -389,7 +389,7 @@ Photo by &lt;a href=&#34;https://unsplash.com/@andreea_swank?utm_content=creditC
 Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-_molti_-elementi&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
+&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-molti-elementi&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fornisce una panoramica dettagliata dei dati di ricerca, sia nuovi che riutilizzati;&lt;/li&gt;
 &lt;li&gt;Specifica metodologie, strumenti e software utilizzati per raccogliere, creare o analizzare i dati;&lt;/li&gt;
@@ -400,7 +400,7 @@ Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Set
 Alma Mater Studiorum – Università di Bologna &amp; ARIC – Area Ricerca, Settore Coordinamento Servizi Ricerca e Progetti di Area, Data Steward (2024). Linee guida di Ateneo per la gestione dei dati della ricerca. &lt;a href=&#34;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&#34;&gt;https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-_molti_-elementi-1&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
+&lt;h3 id=&#34;un-dmp-è-solitamente-composto-da-molti-elementi-1&#34;&gt;Un DMP è solitamente composto da &lt;em&gt;molti&lt;/em&gt; elementi&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Descrive le strategie di archiviazione a lungo termine e di applicazione dei principi FAIR ai dati;&lt;/li&gt;
 &lt;li&gt;Descrivi i ruoli e le responsabilità all’interno del team di ricerca;&lt;/li&gt;
@@ -480,8 +480,8 @@ Photo by &lt;a href=&#34;https://unsplash.com/@gabiontheroad?utm_content=creditC
 &lt;p&gt;La cosa che più mi interessa è che abbiate consapevolezza delle tematiche trattate, della metodologia, e degli strumenti utilizzati, e che sappiate trasmettermi questa consapevolezza durante l&amp;rsquo;esposizione.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
-&lt;h2 id=&#34;lezione-03-del-corso-di-_digital-humanities-e-data-management-per-i-beni-culturali_-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
-&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboitmailtosebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
+&lt;h2 id=&#34;lezione-03-del-corso-di-digital-humanities-e-data-management-per-i-beni-culturali-20242025-1&#34;&gt;Lezione 03 del corso di &lt;em&gt;Digital Humanities e Data Management per i Beni Culturali&lt;/em&gt; (2024/2025)&lt;/h2&gt;
+&lt;h6 id=&#34;sebastian-barzaghi--sebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2-1&#34;&gt;Sebastian Barzaghi | &lt;a href=&#34;mailto:sebastian.barzaghi2@unibo.it&#34;&gt;sebastian.barzaghi2@unibo.it&lt;/a&gt; | &lt;a href=&#34;https://orcid.org/0000-0002-0799-1527&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://orcid.org/0000-0002-0799-1527&lt;/a&gt; | &lt;a href=&#34;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unibo.it/sitoweb/sebastian.barzaghi2/&lt;/a&gt;&lt;/h6&gt;
 </description>
     </item>
     

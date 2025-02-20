@@ -36,7 +36,7 @@ Photo by <a href="https://unsplash.com/@visuals?utm_content=creditCopyText&utm_m
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0601.png" height="auto" width="200"/>
+      <img src="img/0601.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
         </figcaption>
@@ -64,7 +64,7 @@ Robb, Amanda (2017). Anatomy of a Fake News Scandal.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0601.png" height="auto" width="200"/>
+      <img src="img/0601.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/">https://www.rollingstone.com/feature/anatomy-of-a-fake-news-scandal-125877/</a>.
         </figcaption>
@@ -101,7 +101,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 ### Tipologie di disinformazione
 
 <figure>
-    <img src="img/0602.png" height="auto" width="200"/>
+    <img src="img/0602.png" height="auto" width="650"/>
     <figcaption>
         Fonte: <a href="https://eavi.eu/beyond-fake-news-10-types-misleading-info/">https://eavi.eu/beyond-fake-news-10-types-misleading-info/</a>.
     </figcaption>
@@ -112,7 +112,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 ### Vero o falso?
 
 <figure>
-    <img src="img/0603.png" height="auto" width="200"/>
+    <img src="img/0603.png" height="auto" width="500"/>
     <figcaption>
         Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
     </figcaption>
@@ -125,7 +125,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0603.png" height="auto" width="200"/>
+      <img src="img/0603.png" height="auto" width="500"/>
         <figcaption>
             Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
         </figcaption>
@@ -143,7 +143,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 ### Vero o falso?
 
 <figure>
-    <img src="img/0604.png" height="auto" width="200"/>
+    <img src="img/0604.png" height="auto" width="700"/>
     <figcaption>
         Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
     </figcaption>
@@ -154,9 +154,9 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 ### Vero o falso?
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0604.png" height="auto" width="200"/>
+      <img src="img/0604.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
         </figcaption>
@@ -174,7 +174,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 ### Vero o falso?
 
 <figure>
-    <img src="img/0605.png" height="auto" width="200"/>
+    <img src="img/0605.png" height="auto" width="700"/>
     <figcaption>
         Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
     </figcaption>
@@ -187,7 +187,7 @@ La Rassegna Stampa. In Rassegna Stampa per Bambini.
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0605.png" height="auto" width="200"/>
+      <img src="img/0605.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900</a>.
         </figcaption>
@@ -232,9 +232,9 @@ Fonte: <a href="https://libguides.lib.cwu.edu/c.php?g=625394&p=4391900">https://
 
 ### Intento memetico e conseguenze
 
-Sta diventando sempre più accessibile per singoli attori generare intere reti sociali per diffondere disinformazione.
+Sta diventando sempre più facile generare meccanismi di diffusione della disinformazione.
 
-Delle operazioni di rimozione di influenze su Facebook e X nel 2020, il 76% riguardava attori specifici che diffondevano disinformazione, rispetto al 62% nel 2019 e al 47% nel 2018.
+Delle operazioni di rimozione di influenze su Facebook e Twitter nel 2020, il 76% riguardava attori specifici che diffondevano disinformazione, rispetto al 62% nel 2019 e al 47% nel 2018.
 
 <div class="footer">
 Mishra, A. & Karumbaya, V. (2024). A Deadly Trifecta: Disinformation Networks, AI Memetic Warfare, and Deepfakes. On Global Network on Extremism & Technology. <a href="https://gnet-research.org/2024/02/15/a-deadly-trifecta-disinformation-networks-ai-memetic-warfare-and-deepfakes/">https://gnet-research.org/2024/02/15/a-deadly-trifecta-disinformation-networks-ai-memetic-warfare-and-deepfakes/</a>.
@@ -297,7 +297,7 @@ Photo by <a href="https://unsplash.com/@rishabhdharmani?utm_content=creditCopyTe
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0607.png" height="auto" width="200"/>
+      <img src="img/0607.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://designshack.net/articles/typography/font-psychology/">https://designshack.net/articles/typography/font-psychology/</a>.
         </figcaption>
@@ -318,6 +318,8 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 
 {{< slide background-image="img/0608.jpeg" class="section-slide">}}
 
+<div class="dark-overlay"></div>
+
 ### Cosa vuol dire progettare qualcosa?
 
 <!--
@@ -327,6 +329,8 @@ By Benjamin D. Esham / Wikimedia Commons, <a href="https://creativecommons.org/l
 ---
 
 {{< slide background-image="img/0609.jpeg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
 
 ### Cosa vuol dire progettare qualcosa?
 
@@ -370,9 +374,9 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 ### Esempio: google.com
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0610.png" height="auto" width="200"/>
+      <img src="img/0610.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://mozilla.github.io/web-lit-core/design-on-the-web/">https://mozilla.github.io/web-lit-core/design-on-the-web/</a>.
         </figcaption>
@@ -392,9 +396,9 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 ### Esempio: amazon.com
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0611.png" height="auto" width="200"/>
+      <img src="img/0611.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://mozilla.github.io/web-lit-core/design-on-the-web/">https://mozilla.github.io/web-lit-core/design-on-the-web/</a>.
         </figcaption>
@@ -414,9 +418,9 @@ Fogg, B. J. (2009, April). A behavior model for persuasive design. In Proceeding
 ### Esempio: youtube.com
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0612.png" height="auto" width="200"/>
+      <img src="img/0612.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://mozilla.github.io/web-lit-core/design-on-the-web/">https://mozilla.github.io/web-lit-core/design-on-the-web/</a>.
         </figcaption>
@@ -484,7 +488,7 @@ Yesilada, Y., Brajnik, G., Vigo, M., & Harper, S. (2012). Understanding web acce
 ### Queste cose vengono definite secondo metodologie precise
 
 <figure>
-  <img src="img/0613.png" height="auto" width="200"/>
+  <img src="img/0613.png" height="auto" width="600"/>
     <figcaption>
         Fonte: <a href="https://think360studio.com/process">https://think360studio.com/process</a>.
     </figcaption>
@@ -503,9 +507,9 @@ Earnshaw, Y., Tawfik, A. A., & Schmidt, M. (2017). User experience design. Found
 ### Dark pattern
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0614.png" height="auto" width="200"/>
+      <img src="img/0614.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
@@ -530,9 +534,9 @@ Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). T
 ### Dark pattern
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0614.png" height="auto" width="200"/>
+      <img src="img/0614.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
@@ -557,9 +561,9 @@ Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018, April). T
 ### Esempio: LinkedIn
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0615.png" height="auto" width="200"/>
+      <img src="img/0615.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
@@ -581,9 +585,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Esempio: LinkedIn
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0616.png" height="auto" width="200"/>
+      <img src="img/0616.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
@@ -605,9 +609,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Esempio: LinkedIn
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0617.png" height="auto" width="200"/>
+      <img src="img/0617.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
@@ -629,9 +633,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Esempio: LinkedIn
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0618.png" height="auto" width="200"/>
+      <img src="img/0618.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462">https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462</a>.
         </figcaption>
@@ -653,9 +657,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Conferma imbarazzante
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0614.png" height="auto" width="200"/>
+      <img src="img/0614.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/confirmshaming">https://www.deceptive.design/types/confirmshaming</a>.
         </figcaption>
@@ -673,9 +677,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Annunci mascherati
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0619.png" height="auto" width="200"/>
+      <img src="img/0619.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/disguised-ads">https://www.deceptive.design/types/disguised-ads</a>.
         </figcaption>
@@ -693,9 +697,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Urgenza fasulla
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0620.png" height="auto" width="200"/>
+      <img src="img/0620.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/fake-scarcity">https://www.deceptive.design/types/fake-scarcity</a>.
         </figcaption>
@@ -713,9 +717,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Motel di scarafaggi
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0621.png" height="auto" width="200"/>
+      <img src="img/0621.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/hard-to-cancel">https://www.deceptive.design/types/hard-to-cancel</a>.
         </figcaption>
@@ -733,9 +737,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Costi nascosti
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0622.png" height="auto" width="200"/>
+      <img src="img/0622.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/hidden-costs">https://www.deceptive.design/types/hidden-costs</a>.
         </figcaption>
@@ -753,9 +757,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Nagging
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0623.png" height="auto" width="200"/>
+      <img src="img/0623.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/nagging">https://www.deceptive.design/types/nagging</a>.
         </figcaption>
@@ -773,9 +777,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Preselezione
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0624.png" height="auto" width="200"/>
+      <img src="img/0624.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://www.deceptive.design/types/preselection">https://www.deceptive.design/types/preselection</a>.
         </figcaption>
@@ -793,9 +797,9 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ### Formulazione a trabocchetto
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0625.png" height="auto" width="200"/>
+      <img src="img/0625.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://blog.mobiversal.com/dark-patterns-or-how-ux-exploits-the-user-trick-questions-fake-new-notification.html">https://blog.mobiversal.com/dark-patterns-or-how-ux-exploits-the-user-trick-questions-fake-new-notification.html</a>.
         </figcaption>
@@ -837,7 +841,7 @@ Micheli, M., Lutz, C., & Büchi, M. (2018). Digital footprints: an emerging dime
 ### L'ombra digitale è composta dai nostri dati (e metadati) personali
 
 <figure>
-  <img src="img/0627.png" height="auto" width="200"/>
+  <img src="img/0627.png" height="auto" width="700"/>
     <figcaption>
         Fonte: <a href="https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint">https://www.bitdefender.com/en-us/cyberpedia/what-is-digital-footprint</a>.
     </figcaption>
@@ -919,7 +923,7 @@ Non hai dovuto effettuare di nuovo il login, perché Amazon sapeva già qualcosa
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <figure>
-      <img src="img/0628.png" height="auto" width="200"/>
+      <img src="img/0628.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies">https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-cookies</a>.
         </figcaption>
@@ -958,9 +962,9 @@ Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empiric
 ### Come funzionano i cookie?
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0629.png" height="auto" width="200"/>
+      <img src="img/0629.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -971,10 +975,10 @@ Cahn, A., Alfeld, S., Barford, P., & Muthukrishnan, S. (2016, April). An empiric
         Esempio: visita medica.
     </p>
     <p>
-        Immaginate di portare un familiare alla visita annuale dal medico di fiducia.
+        Immaginiamo di andare dal medico.
     </p>
     <p>
-        Quando visitate lo studio quel giorno, vi registrate con una segretaria, che verifica la vostra identità e vi manda, insieme al vostro familiare, in una stanza. Quando il medico arriva, ha già una copia della tua storia medica e inizia a esaminarla con entrambi.
+        Un assistente verifica la nostra identità e ci manda in una stanza. Quando il medico arriva, ha già una copia della nostra storia clinica.
     </p>
   </div>
 </div>
@@ -988,9 +992,9 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 ### Come funzionano i cookie?
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0630.png" height="auto" width="200"/>
+      <img src="img/0630.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -998,13 +1002,13 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
   </div>
   <div style="flex: 1;">
     <p>
-        Nel nostro esempio, il sito web è un po' come il medico, che vede molti pazienti e deve essere in grado di reagire rapidamente per rispondere ad ognuno di loro.
+        Nel nostro esempio, il medico è il sito Web, che interagisce con molti pazienti (browser) e deve essere in grado di reagire rapidamente per rispondere ad ognuno di loro.
     </p>
     <p>
-        L'assistente è come il server, in quanto prepara il medico dandogli informazioni sul prossimo paziente in anticipo.
+        L'assistente è come il server, in quanto "prepara il medico" dandogli informazioni sul prossimo paziente in anticipo.
     </p>
     <p>
-        Il vostro familiare è come il browser, poiché visita e risponde a molteplici persone ogni giorno.
+        Noi siamo il browser.
     </p>
   </div>
 </div>
@@ -1019,7 +1023,7 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 
 Ora immaginiamo che quella comunicazione iniziale tra noi e l'assistente non sia mai avvenuta.
 
-Siamo semplicemente entrati nell'ambulatorio e siamo passati direttamente a raccontare la storia clinica del nostro parente.
+Siamo semplicemente entrati nell'ambulatorio e siamo passati direttamente a raccontare la nostra storia clinica.
 
 Per noi sarebbe molto difficile, per almeno due motivi:
 * Faremmo moltissima fatica a ricordare tutto, o comunque in una maniera che sia utile per il medico;
@@ -1043,7 +1047,7 @@ Se stiamo visitando un sito di e-commerce, potrebbe contenere un ID utente che p
 
 Abbiamo ricevuto quell'ID quando abbiamo creato l'account per la prima volta.
 
-Quell'ID viene poi inviato dal server al client (browser) al momento del login e da quest'ultimo memorizzato (fino a quando o a meno che non abbiamo intrapreso determinate azioni, come cancellare i dati di navigazione).
+Quell'ID viene poi inviato dal server al client (browser) al momento del login e da quest'ultimo memorizzato (fino a quando - o a meno che - non abbiamo intrapreso determinate azioni, come cancellare i dati di navigazione).
 
 <div class="footer">
 Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
@@ -1054,9 +1058,9 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 ### Come funzionano i cookie?
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 2;">
     <figure>
-      <img src="img/0631.png" height="auto" width="200"/>
+      <img src="img/0631.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
         </figcaption>
@@ -1065,13 +1069,13 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
   <div style="flex: 1;">
     <ul>
     <li>
-        Entriamo in ambulatorio e ci registriamo dall'assistente, che ci chiede l'ID del nostro parente;
+        Entriamo in ambulatorio e ci registriamo dall'assistente, che ci chiede l'ID;
     </li>
     <li>
-        Passiamo alla stanza d'esame. Il medico arriva con la storia clinica del nostro parente;
+        Il medico arriva con la nostra storia clinica;
     </li>
     <li>
-        Possiamo specificare o aggiungere informazioni utili riguardanti la storia clinica del parente, poiché il medico può recuperare rapidamente le note precedenti.
+        Possiamo interagire facilmente con il medico e arrivare al nostro obiettivo.
     </li>
     </ul>
   </div>
@@ -1085,29 +1089,26 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 
 ### Come funzionano i cookie?
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <figure>
-      <img src="img/0632.png" height="auto" width="200"/>
-        <figcaption>
-            Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <ul>
-    <li>
-        Digitiamo nel nostro browser "amazon.com". Quindi, stiamo inviando una richiesta HTTP al server di Amazon, nella quale è presente un cookie che il server stesso ci ha mandato in precedenza;
-    </li>
-    <li>
-        Il server legge il nostro cookie e risponde con un messaggio HTTP contenente una copia della pagina richiesta in cui noi siamo già autenticati;
-    </li>
-    <li>
-        Possiamo riprendere da dove siamo rimasti.
-    </li>
-    </ul>
-  </div>
+Digitiamo nel nostro browser "amazon.com". Quindi, stiamo inviando una richiesta HTTP al server di Amazon. Nella richiesta è presente un cookie che il server stesso ci ha mandato in precedenza;
+
+Il server legge il nostro cookie e risponde con un messaggio HTTP contenente una copia della pagina richiesta in cui noi siamo già autenticati;
+
+Possiamo interagire con il sito e raggiungere i nostri obiettivi.
+
+<div class="footer">
+Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
 </div>
+
+---
+
+### Come funzionano i cookie?
+
+<figure>
+  <img src="img/0632.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office</a>.
+    </figcaption>
+</figure>
 
 <div class="footer">
 Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
@@ -1160,22 +1161,18 @@ Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doct
 ### Cookie di terze parti
 
 <figure>
-  <img src="img/0633.png" height="auto" width="200"/>
+  <img src="img/0633.png" height="auto" width="700"/>
     <figcaption>
         Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
     </figcaption>
 </figure>
-
-<div class="footer">
-Kononenko, K. (2018). Internet Cookies Explained by Taking Your Kids To The Doctor’s Office. On CodeAnalogies Blog. <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office/</a>.
-</div>
 
 ---
 
 ### Cookie di terze parti
 
 <figure>
-  <img src="img/0634.png" height="auto" width="200"/>
+  <img src="img/0634.png" height="auto" width="700"/>
     <figcaption>
         Fonte: <a href="https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office ">https://blog.codeanalogies.com/2018/06/02/internet-cookies-explained-by-taking-your-kids-to-the-doctors-office </a>.
     </figcaption>
@@ -1208,7 +1205,7 @@ Inoltre, la condivisione dei dati personali tra domini diversi e con terze parti
 Esempio: [il problema del legittimo interesse](https://shop.acconsento.click/cookie-legittimo-interesse-non-basta-serve-lesplicito-consenso-dellutente/).
 
 <div class="footer">
-Kyi, L., Ammanaghatta Shivakumar, S., Santos, C. T., Roesner, F., Zufall, F., & Biega, A. J. (2023, April). Investigating deceptive design in GDPR’s legitimate interest. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (pp. 1-16). <a href="https://doi.org/10.1145/3544548.3580637">https://doi.org/10.1145/3544548.3580637</a>
+Kyi, L., Ammanaghatta Shivakumar, S., Santos, C. T., Roesner, F., Zufall, F., & Biega, A. J. (2023). Investigating deceptive design in GDPR’s legitimate interest. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (pp. 1-16). <a href="https://doi.org/10.1145/3544548.3580637">https://doi.org/10.1145/3544548.3580637</a>
 </div>
 
 ---
