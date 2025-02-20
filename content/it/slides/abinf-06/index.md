@@ -26,7 +26,7 @@ slides:
 ## Disinformazione
 
 <!--
-
+Photo by <a href="https://unsplash.com/@visuals?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">visuals</a> on <a href="https://unsplash.com/photos/gray-and-black-cat-sketch-2TS23o0-pUc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
@@ -287,7 +287,7 @@ Caulfield, M.A. (2017). Web Literacy for Student Fact-checkers.
 ## Design Persuasivo
 
 <!--
-
+Photo by <a href="https://unsplash.com/@rishabhdharmani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rishabh Dharmani</a> on <a href="https://unsplash.com/photos/man-in-black-suit-jacket-raising-his-right-hand-IvfAs3Qk64M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
@@ -817,7 +817,7 @@ Schlosser, D. (2015). LinkedIn Dark Patterns. Deceptive Patterns. <a href="https
 ## Privacy
 
 <!--
-
+Photo by <a href="https://unsplash.com/@arthurbizkit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arthur Mazi</a> on <a href="https://unsplash.com/photos/blue-sky-over-white-clouds-a8CxRWIu8yw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
