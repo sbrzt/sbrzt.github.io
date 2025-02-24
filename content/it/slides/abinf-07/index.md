@@ -699,7 +699,7 @@ https://static.javatpoint.com/tutorial/machine-learning/images/unsupervised-mach
 
 Come nell’apprendimento per rinforzo umano, è possibile guidare l’addestramento di una macchina assegnando premi o punizioni in base alle azioni svolte.
 
-Questo premio/punizione può riferirsi a una catena complessa di azioni svolte dalla macchina, a volte in tempi diversi (es., scacchi), o ad azioni semplici.
+Questo premio/punizione può riferirsi a una catena complessa di azioni svolte dalla macchina, a volte in tempi diversi (es. scacchi), o ad azioni semplici.
 
 ---
 
@@ -711,6 +711,8 @@ Modelli di IA di tipo discriminativo vengono addestrati per distinguere tra cate
 
 I modelli apprendono una funzione matematica in grado di separare i dati.
 
+https://vitalflux.com/wp-content/uploads/2023/03/discriminative-modeling-example.png
+
 ---
 
 ### IA generativa
@@ -721,35 +723,34 @@ I modelli di tipo generativo imparano a produrre nuovi dati con caratteristiche 
 
 I modelli apprendono una funzione matematica che rappresenta la distribuzione di probabilità dei dati.
 
----
-
-### Un esempio ibrido: Generative Adversarial Networks
-
-Durante il training, il discriminatore apprende a riconoscere immagini reali (es. apprendimento non supervisionato o supervisionato per specifiche classi, come gatti).
-
-Alla fine dell'apprendimento è in grado di dire se uno stimolo appartiene alla classe di immagini di training (fotografie reali, volti, gatti, etc.) o no.
+https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png
 
 ---
 
 ### Un esempio ibrido: Generative Adversarial Networks
 
-Un generatore crea immagini sulla base di dati casuali: inizialmente, le immagini create saranno senza senso.
+Un modello che usa due reti diverse: un discriminatore e un generatore.
 
-È come le immagini di training?
-* NO-> il generatore deve correggere i pesi
-* SI-> il discriminatore è stato «ingannato», e l’immagine è presa come risultato valido
+Durante il training, il discriminatore apprende a riconoscere immagini reali (es. apprendimento non supervisionato o supervisionato per specifiche classi, come i gatti).
+
+Alla fine dell'apprendimento, è in grado di dire se uno stimolo appartiene alla classe di immagini di training (fotografie reali, volti, gatti, etc.) o no.
 
 ---
 
 ### Un esempio ibrido: Generative Adversarial Networks
 
-Per ogni contenuto che il «discriminatore» sa riconoscere, è possibile creare un esempio.
+Il generatore, invece, crea immagini sulla base di dati casuali: inizialmente, le immagini create saranno senza senso.
 
-È necessario che il sistema riesca a discriminare con esattezza le caratteristiche (features) di ciascun contenuto!
+L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano accettabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
 
-• https://thispersondoesnotexist.com/
-• https://thiscatdoesnotexist.com/
-• https://www.craiyon.com/
+Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks
+
+* https://thispersondoesnotexist.com/
+* https://thiscatdoesnotexist.com/
 
 ---
 
