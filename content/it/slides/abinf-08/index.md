@@ -57,7 +57,9 @@ https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0D9B/production/_887384
 
 L'IA forte è un tipo di intelligenza artificiale le cui capacità imitano le proprietà adattive e generalizzabili del cervello umano, comprese il ragionamento, la pianificazione e l'intuizione.
 
-Conosciuta anche come AI Generale, per ora è pura speculazione.
+Conosciuta anche come IA Generale (AGI), _per ora_ è pura speculazione.
+
+https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea
 
 ---
 
