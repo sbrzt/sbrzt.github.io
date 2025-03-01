@@ -1,5 +1,5 @@
 ---
-title: ABINF - Intelligenza Artificiale
+title: ABINF - Intelligenza Artificiale (2)
 summary: Lezione di "Intelligenza Artificiale" del corso di Abilità Informatiche per i Beni Culturali
 authors: [Sebastian Barzaghi]
 tags: [Digital Humanities]
@@ -33,23 +33,50 @@ slides:
 
 ### IA debole (o ristretta)
 
-L'IA debole, anche chiamata IA ristretta, è focalizzata su un compito specifico (ad esempio, il riconoscimento di oggetti). 
-
-Risolve una classe di problemi specifici attraverso alcune capacità cognitive.
-
-Esempi: recommendation systems, assistenti virtuali, ecc.
-
-https://www.miquido.com/wp-content/uploads/2023/07/Hybrid-Recommendation-System-in-Netflix-700x492.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0801.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.miquido.com/blog/ai-based-personalisation/">https://www.miquido.com/blog/ai-based-personalisation/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      L'IA debole, anche chiamata IA ristretta, è focalizzata su un compito specifico (ad esempio, il riconoscimento di oggetti). 
+    </p>
+    <p>
+      Risolve una classe di problemi specifici attraverso alcune capacità cognitive.
+    </p>
+    <p>
+      Esempi: recommendation systems, assistenti virtuali, ecc.
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Esempio: AlphaGo
 
-Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese.
-
-Documentario: https://www.youtube.com/watch?v=WXuK6gekU1Y.
-
-https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0D9B/production/_88738430_pic1go.jpg
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0801.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.bbc.com/news/technology-35785875">https://www.bbc.com/news/technology-35785875</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese. 
+    </p>
+    <p>
+      Documentario: <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y">https://www.youtube.com/watch?v=WXuK6gekU1Y</a>.
+    </p>
+  </div>
+</div>
 
 ---
 
@@ -59,25 +86,21 @@ L'IA forte è un tipo di intelligenza artificiale le cui capacità imitano le pr
 
 Conosciuta anche come IA Generale (AGI), _per ora_ è pura speculazione.
 
-https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea
+Articolo di Vox sui rapporti tra IA e religione: https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea
 
 ---
 
 ### Pseudo-esempio: Watson
 
-Nel 2011 sconfigge campioni umani nel gioco televisivo statunitense Jeopardy.
+Nel 2011 Watson sconfigge campioni umani nel gioco televisivo statunitense Jeopardy.
 
-Usa conoscenza ad ampio spettro, comprensione e generazione di linguaggio naturale, forme di ragionamento e apprendimento.
-
-Analizza dati da molte fonti, pari a 1 milione di libri al secondo.
+Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
 
 “Customizzabile” per diverse applicazioni specifiche:
 * Supporto alle decisioni in diagnosi e terapie;
 * Servizi al cliente;
 * Assistenza nei processi legali;
 * ...
-
-https://www.youtube.com/watch?v=P18EdAKuC1U
 
 ---
 
@@ -93,104 +116,294 @@ https://www.youtube.com/watch?v=P18EdAKuC1U
 
 ### Approccio simbolico
 
-Le AI simboliche rappresentano la conoscenza in modo chiaro e definito tramite simboli (parole, numeri, segni, etc.) che hanno un significato ben preciso, e seguono regole definite per manipolare questi simboli.
-
-Per esempio, un programma che "ragiona" su come risolvere un problema di logica (come "Se piove, allora prendo l'ombrello") lavora usando sequenze di simboli come "piove" e "ombrello" e segue regole di inferenza logica per prendere una decisione.
-
-Un sistema esperto di medicina potrebbe usare simboli come "febbre", "tosse", "mal di testa" per fare diagnosi, applicando regole logiche per determinare quale malattia potrebbe corrispondere a questi sintomi.
-
-https://miro.medium.com/v2/resize:fit:1400/1*xYZrAXZi6Iq3c1Z_CxW6ZA.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0802.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Le AI simboliche rappresentano la conoscenza tramite simboli ben distinti (parole, numeri, segni, etc.) che hanno un significato preciso, secondo regole definite.
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Approccio simbolico
 
-Vantaggi: l'approccio simbolico è molto potente per risolvere problemi complessi in ambienti ben definiti, come la logica formale, la pianificazione e la manipolazione di concetti astratti. È facile da controllare, correggere e interpretare, e permette di costruire modelli molto trasparenti.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0802.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Es. un programma che "ragiona" su come risolvere un problema di logica (come "Se piove, allora prendo l'ombrello") lavora usando sequenze di simboli come "piovere", "prendere" e "ombrello" e segue regole di inferenza logica ("Se X, allora Y") per prendere una decisione.
+    </p>
+  </div>
+</div>
 
-Svantaggi: la sua principale limitazione è che dipende da una conoscenza predefinita. Inoltre, la rappresentazione simbolica è rigida, e richiede notevoli sforzi nella sua definizione (in termini di simboli da utilizzare e di regole da applicare per la loro manipolazione). Non è particolarmente adattabile o capace di gestire l'incertezza o i contesti ambigui, come quelli che si trovano nel mondo reale.
+---
+
+### Approccio simbolico
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0802.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un sistema esperto di medicina potrebbe usare simboli come "febbre", "tosse", "mal di testa" per fare diagnosi, applicando regole logiche per determinare quale malattia potrebbe corrispondere a questi sintomi.
+    </p>
+  </div>
+</div>
+
+---
+
+### Approccio simbolico
+
+**Vantaggi**: 
+* Potente per risolvere problemi complessi in ambienti ben definiti, come la logica formale, la pianificazione e la manipolazione di concetti astratti;
+* È facile da controllare, correggere e interpretare, e permette di costruire modelli molto trasparenti.
+
+---
+
+### Approccio simbolico
+
+**Svantaggi**: 
+* Dipende da una conoscenza predefinita;
+* La rappresentazione simbolica è rigida, e richiede notevoli sforzi nella sua definizione (in termini di simboli da utilizzare e di regole da applicare per la loro manipolazione);* Non è particolarmente adattabile o capace di gestire l'incertezza o i contesti ambigui, come quelli che si trovano nel mondo reale.
 
 ---
 
 ### Approccio sub-simbolico
 
-La conoscenza non è rappresentata da simboli visibili o comprensibili dall'uomo (come "mela", "albero", "rosso"), ma è distribuita attraverso le connessioni tra elementi informativi atomizzati (come i neuroni in un cervello umano).
-
-In altre parole, la conoscenza è codificata in modo implicito attraverso pattern di attivazione. In un cervello, ogni neurone e la sua connessione ad altri neuroni rappresentano in modo molto più astratto la conoscenza.
-
-Una rete neurale "impara" a riconoscere pattern, ma non lo fa in modo esplicito con simboli: non ha un concetto formale di "mela" in termini simbolici, ma riconosce pattern di dati che, per esempio, corrispondono ad una mela in una foto.
-
-https://miro.medium.com/v2/resize:fit:1400/1*q3lZ7tRz1vf48uL6PNmeSg.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0803.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Le IA sub-simboliche non rappresentano la conoscenza con simboli visibili o comprensibili dall'uomo (come "mela", "albero", "rosso"), ma la distribuiscono attraverso le connessioni tra elementi che processano le informazioni che la costituiscono (come i neuroni in un cervello umano).
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Approccio sub-simbolico
 
-Vantaggi: l'approccio sub-simbolico è molto più performante per compiti percettivi (es. riconoscimento vocale o visivo) in cui è necessario gestire l'incertezza. È molto flessibile e può essere addestrato per adattarsi a nuovi dati senza essere riprogrammato esplicitamente, rendendolo quindi molto più facile da scalare.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0803.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      In altre parole, la conoscenza è codificata in modo implicito attraverso pattern di attivazione.
+    </p>
+    <p>
+      In un cervello, ogni neurone e la sua connessione ad altri neuroni rappresentano in modo molto più astratto la conoscenza.
+    </p>
+  </div>
+</div>
 
-Svantaggi: una rete neurale non è facilmente interpretabile, perché non esiste una rappresentazione esplicita e comprensibile per l'uomo di cosa "sa" la rete. Inoltre, l'AI sub-simbolica tendenzialmente richiede enormi quantità di dati e di potenza hardware per allenarsi e può fare errori in scenari non previsti durante l'addestramento.
+---
+
+### Approccio sub-simbolico
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0803.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Una rete neurale "impara" a riconoscere pattern, ma non lo fa in modo esplicito con simboli: non ha un concetto formale di "mela" in termini simbolici, ma riconosce pattern di dati che, per esempio, corrispondono ad una mela in una foto.
+    </p>
+  </div>
+</div>
+
+---
+
+### Approccio sub-simbolico
+
+**Vantaggi**: 
+* Molto più performante, specialmente per compiti in cui bisogna gestire l'incertezza (es. riconoscimento, classificazione, ecc.);
+* Molto flessibile e adattabile a nuovi dati senza essere riprogrammato esplicitamente.
+
+---
+
+### Approccio sub-simbolico
+
+**Svantaggi**: 
+* Non è facilmente interpretabile, perché non esiste una rappresentazione esplicita e comprensibile per l'uomo di cosa "sa";
+* Richiede enormi quantità di dati e di potenza hardware per allenarsi.
 
 ---
 
 ### Esempio di approccio sub-simbolico: Machine learning
 
-IA che impara dai dati e fa previsioni sulla base di quello che ha imparato, in assenza di istruzioni esplicite (cioé simboliche).
-
-https://miro.medium.com/v2/resize:fit:1400/1*uB8f6JncIQwhSVnh5DjiTA.png
-
----
-
-### Unità della rete neurale: il Percettrone
-
-Le cellule del cervello umano, i neuroni, formano una rete complessa e altamente interconnessa.
-
-Inviano segnali elettrici l'uno all'altro per elaborare informazioni provenienti dal mondo esterno.
-
-https://natureofcode.com/static/472369e80e00d3edb93dae98f30c1ebf/ddecd/10_nn_2.webp
-
----
-
-### Unità della rete neurale: il Percettrone
-
-Analogamente, una rete neurale artificiale è fatta di neuroni artificiali che prendono dati esterni come input e producono un risultato.
-
-Il modello più semplice è il **percettrone**, proposto da Rosenblatt nel 1958.
-
-https://natureofcode.com/static/cf5195820637396bd5e310f20411a82a/e4512/10_nn_4.webp
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0804.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a">https://medium.com/towards-data-science/symbolic-vs-subsymbolic-ai-paradigms-for-ai-explainability-6e3982c6948a</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      IA che impara dai dati e fa previsioni sulla base di quello che ha imparato, in assenza di istruzioni esplicite (cioé simboliche).
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Unità della rete neurale: il Percettrone
 
-Un percettrone consiste in:
-* Uno o più **input** (dati in entrata);
-* Un'**unità di calcolo**;
-* Un **output** (dati in uscita).
-
-Il percettrone prende gli input (numeri), li soppesa, somma i risultati e decide se dare come output un 1 o un 0 in base a una soglia predefinita.
-
-https://natureofcode.com/static/cf5195820637396bd5e310f20411a82a/e4512/10_nn_4.webp
-
----
-
-### Unità della rete neurale: il Percettrone
-
-Ogni dato ha un certo valore numerico.
-
-Il valore di ogni dato di input viene moltiplicato con un **peso** (un altro valore numerico, generalmente tra 0 e 1, che ne rappresenta l'importanza rispetto al risultato finale).
-
-Tutti i valori pesati vengono **sommati** insieme, producendo un unico numero (una somma pesata).
-
-https://www.w3schools.com/ai/img_perceptron.jpg
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0805.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://natureofcode.com/neural-networks/">https://natureofcode.com/neural-networks/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Le cellule del cervello umano, i neuroni, formano una rete complessa e altamente interconnessa.
+    </p>
+    <p>
+      Inviano segnali elettrici l'uno all'altro per elaborare informazioni provenienti dal mondo esterno.
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Unità della rete neurale: il Percettrone
 
-Questa somma pesata viene passata attraverso una **funzione di attivazione**, che decide se il perceptrone si "attiva" (come un neurone che si accende). 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0806.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://natureofcode.com/neural-networks/">https://natureofcode.com/neural-networks/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Analogamente, una rete neurale artificiale è fatta di neuroni artificiali che prendono dati esterni come input e producono un risultato.
+    </p>
+    <p>
+      Il modello più semplice di neurone artificiale è il percettrone, proposto da Rosenblatt nel 1958.
+    </p>
+  </div>
+</div>
 
-Il percettrone base utilizza una **funzione a gradino**: se la somma è maggiore di una certa soglia, l'output sarà 1 (vero); se è minore della soglia, l'output sarà 0 (falso).
+---
 
-https://www.sharpsightlabs.com/wp-content/uploads/2023/07/perceptron_structure_v1.png
+### Unità della rete neurale: il Percettrone
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0806.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://natureofcode.com/neural-networks/">https://natureofcode.com/neural-networks/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Consiste in: uno o più input (dati in entrata); un'unità di calcolo; e un output (dati in uscita).
+    </p>
+    <p>
+      Il percettrone riceve degli input (numeri), li soppesa, somma i risultati e decide se dare come output un 1 o uno 0 in base ad una soglia predefinita.
+    </p>
+  </div>
+</div>
+
+---
+
+### Unità della rete neurale: il Percettrone
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0807.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.w3schools.com/ai/ai_perceptrons.asp">https://www.w3schools.com/ai/ai_perceptrons.asp</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Ogni dato ha un certo valore numerico.
+    </p>
+    <p>
+      Il valore di ogni dato di input (nell'immagine sono le "x") viene moltiplicato con un <strong>peso</strong> (un altro valore numerico, generalmente tra 0 e 1, che ne rappresenta l'importanza rispetto al risultato finale) (nell'immagine sono le "w").
+    </p>
+    <p>
+      Tutti i valori pesati vengono <strong>sommati</strong> insieme, producendo un unico numero (una somma pesata).
+    </p>
+  </div>
+</div>
+
+---
+
+### Unità della rete neurale: il Percettrone
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0808.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.w3schools.com/ai/ai_perceptrons.asp">https://www.w3schools.com/ai/ai_perceptrons.asp</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Questa somma pesata viene passata attraverso una <strong>funzione di attivazione</strong>, che decide se il percettrone si "attiva" (come un neurone che si accende).
+    </p>
+    <p>
+      Un esempio è la <strong>funzione a gradino</strong>: se la somma è maggiore di una certa soglia, l'output sarà 1 (si, vero, positivo, ecc.); se è minore della soglia, l'output sarà 0 (no, falso, negativo, ecc.).
+    </p>
+  </div>
+</div>
 
 ---
 
@@ -262,7 +475,7 @@ Moltiplichiamo ogni input per il peso che gli abbiamo assegnato:
 * Non servono cibo = 0 * 0.3 = 0
 * Servono alcolici = 1 * 0.4 = 0.4
 
-Sommandoli, otteniamo: 0.7 + 0 + 0.5 + 0 + 0.4 = 1.6
+Sommandoli, otteniamo: 0.7 + 0 + 0.5 + 0 + 0.4 = **1.6**
 
 ---
 
@@ -274,54 +487,94 @@ Dato che 1.6 > 1.5, l'output è 1, quindi andrò al concerto.
 
 Nota: il criterio per stabilire la soglia dipende dal dominio del problema e dalle preferenze di chi sviluppa. Si tratta di una decisione arbitraria effettuata su basi empiriche (esperienza), su dati (in un processo di addestramento), ecc.
 
-Nota ancora più importante: abbiamo completamente ignorato il concetto di **bias**, un aggiustamento che ci permette di spostare la soglia di decisione in maniera più flessibile ed adattabile a seconda della situazione. Nella pratica, si tratta di un altro valore numerico da aggiungere alla somma pesata, per evitare di rimanere limitati alle sole funzioni lineari.
+Nota ancora più importante: abbiamo completamente ignorato il concetto di **bias**, un aggiustamento che ci permette di spostare la soglia di decisione in maniera più flessibile ed adattabile a seconda della situazione.
 
 ---
 
 ### Reti neurali multistrato
 
-Sono composte da gruppi di neuroni artificiali organizzati in livelli. 
-
-Tipicamente sono presenti: 
-* un **livello di input**: il punto in cui i dati entrano nel sistema;
-* uno o più **livelli intermedi**: strati di neuroni che elaborano i dati in modo complesso;
-* un **livello di output**: il risultato finale.
-
-Ogni neurone in un livello fa un calcolo sui dati che riceve e poi decide se attivarsi o meno, sulla base degli elementi che abbiamo già visto.
-
-https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/800px-Colored_neural_network.svg.png
-
----
-
-### Reti neurali multistrato
-
-Ogni neurone rappresenta una piccola parte di un concetto, un suo **microtratto**. 
-
-Non ha senso guardare un singolo neurone e pensare che rappresenti qualcosa di definito come "gatto", "cane", "mela", "rosso", "peso", "10cm". 
-
-Per esempio, se stiamo cercando di riconoscere una foto di un gatto, un singolo neurone ha il compito di riconoscere la presenza di un angolo, un altro la curvatura di un orecchio, un altro ancora la presenza di linee verticali.
-
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
-
----
-
-### Reti neurali multistrato
-
-I neuroni nei primi strati potrebbero identificare caratteristiche di base come bordi, angoli e forme semplici. 
-
-I neuroni in strati più profondi potrebbero combinare queste informazioni per identificare forme più complesse, come occhi, orecchie o il corpo di un animale. 
-
-Infine, gli strati finali della rete neurale potrebbero combinare tutte queste informazioni per decidere se l'immagine rappresenta un "gatto" o un "cane".
-
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0809.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: Di <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" class="mw-redirect" title="User talk:Glosser.ca">Glosser.ca</a> - <span class="int-own-work" lang="en">Opera propria</span>, deriva da <a href="//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg" title="File:Artificial neural network.svg">File:Artificial neural network.svg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=24913461">Link</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Sono composte da gruppi di neuroni artificiali organizzati in livelli.
+    </p>
+    <p>
+      Tipicamente sono presenti: un <strong>livello di input</strong> (punto di entrata dei dati); uno o più <strong>livelli intermedi o nascosti</strong> (strati di neuroni che elaborano i dati in modo complesso); un <strong>livello di output</strong> (punto di uscita del risultato finale).
+    </p>
+    <p>
+      Ogni neurone in un livello fa un calcolo sui dati che riceve e poi decide se attivarsi o meno, sulla base degli elementi che abbiamo già visto.
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Reti neurali multistrato
 
-Anche se noi progettiamo la rete, i neuroni nei layer nascosti non sono "programmati" per compiere operazioni specifiche come accade in un programma tradizionale. 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Ogni neurone rappresenta una piccola parte di un concetto, un suo <strong>microtratto</strong>. 
+    </p>
+    <p>
+      Non ha senso guardare un singolo neurone e pensare che rappresenti qualcosa di definito come "gatto", "cane", "mela", "rosso", "peso", "10cm".
+    </p>
+  </div>
+</div>
+
+---
+
+### Reti neurali multistrato
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      I neuroni nei primi strati potrebbero identificare caratteristiche di base come bordi, angoli e forme semplici. 
+    </p>
+    <p>
+      I neuroni in strati più profondi potrebbero combinare queste informazioni per identificare forme più complesse, come occhi, orecchie o il corpo di un animale.
+    </p>
+    <p>
+      Infine, gli strati finali della rete neurale potrebbero combinare tutte queste informazioni per decidere se l'immagine rappresenta un "gatto" o un "cane".
+    </p>
+  </div>
+</div>
+
+---
+
+### Reti neurali multistrato
+
+Anche se noi progettiamo la rete, i neuroni nei livelli nascosti non sono "programmati" per compiere operazioni specifiche come accade in un programma tradizionale. 
 
 Invece, attraverso il processo di addestramento, i pesi dei neuroni vengono aggiustati in modo che la rete impari a riconoscere pattern nei dati. 
+
+---
+
+### Reti neurali multistrato
 
 Ogni neurone nei layer nascosti impara a rappresentare una piccola parte di un concetto. Tuttavia, questi pattern non sono immediatamente interpretabili.
 
@@ -331,43 +584,96 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ### Esempio: capire se una foglia è malata
 
-Prendiamo l'immagine di una foglia. Vogliamo capire se la foglia è sana o malata. Decidiamo di utilizzare una rete neurale.
-
-L'immagine è fatta di pixel, e ogni pixel ha un valore numerico che rappresenta il colore del pixel stesso. Quindi, un'immagine può essere convertita in un insieme strutturato di valori numerici.
-
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
-
----
-
-### Esempio: capire se una foglia è malata
-
-Una volta che l'immagine è trasformata in numeri, questi numeri vengono passati come input alla rete neurale.
-
-La rete neurale ha livelli nascosti (strati intermedi) che si occupano di elaborare e trasformare questi numeri in informazioni più utili.
-
-Ogni neurone nei layer nascosti prende i numeri in ingresso (che sono i pixel dell'immagine), li combina con i pesi (numeri che determinano quanto ogni input è importante), e poi applica una funzione di attivazione per determinare se quel neurone deve attivarsi o meno.
-
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
-
----
-
-### Esempio: capire se una foglia è malata
-
-I layer nascosti quindi trasformano questi numeri di input in rappresentazioni più astratte. 
-
-Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano malattia.
-
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Prendiamo l'immagine di una foglia. Vogliamo capire se la foglia è sana o malata. Decidiamo di utilizzare una rete neurale. 
+    </p>
+    <p>
+      L'immagine è fatta di pixel, e ogni pixel ha un valore numerico che rappresenta il colore del pixel stesso. Quindi, un'immagine può essere convertita in un insieme strutturato di valori numerici.
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Esempio: capire se una foglia è malata
 
-L'output finale viene prodotto dal livello di output, che di solito è un singolo neurone (o più neuroni, a seconda del tipo di classificazione). 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Una volta che l'immagine è trasformata in numeri, questi numeri vengono passati come input alla rete neurale.
+    </p>
+    <p>
+      La rete neurale ha livelli nascosti (strati intermedi) che si occupano di elaborare e trasformare questi numeri in informazioni più utili.
+    </p>
+    <p>
+      Ogni neurone nei layer nascosti prende i numeri in ingresso (che sono i pixel dell'immagine), li combina con i pesi (numeri che determinano quanto ogni input è importante), e poi applica una funzione di attivazione per determinare se quel neurone deve attivarsi o meno.
+    </p>
+  </div>
+</div>
 
-Nel caso della classificazione della foglia come sana o malata, l'output sarà una probabilità tra 0 e 1, che indica quanto è probabile che l'immagine della foglia sia sana (ad esempio, 0.8 = 80% di probabilità che la foglia sia sana).
+---
 
-https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Neural-Network-Example-What-Is-A-Neural-Network-Edureka.png
+### Esempio: capire se una foglia è malata
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      I layer nascosti quindi trasformano questi numeri di input in rappresentazioni più astratte.
+    </p>
+    <p>
+      Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano malattia.
+    </p>
+  </div>
+</div>
+
+---
+
+### Esempio: capire se una foglia è malata
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      L'output finale viene prodotto dal livello di output, che di solito è un singolo neurone (o più neuroni, a seconda del tipo di classificazione).
+    </p>
+    <p>
+      Nel caso della classificazione della foglia come sana o malata, l'output sarà una probabilità tra 0 e 1, che indica quanto è probabile che l'immagine della foglia sia sana (ad esempio, 0.8 = 80% di probabilità che la foglia sia sana).
+    </p>
+  </div>
+</div>
 
 ---
 
@@ -387,31 +693,66 @@ L'apprendimento è un processo iterativo che consiste nell'ottimizzazione progre
 
 ### Tipi di ML
 
+<figure>
+  <img src="img/0811.png" height="auto" width="700"/>
+    <figcaption>
+        Fonte: Peng, J., Jury, E. C., Dönnes, P., & Ciurtin, C. (2021). Machine learning techniques for personalised medicine approaches in immune-mediated chronic inflammatory diseases: applications and challenges. Frontiers in pharmacology, 12, 720694. <a href="http://dx.doi.org/10.3389/fphar.2021.720694">http://dx.doi.org/10.3389/fphar.2021.720694</a>.
+    </figcaption>
+</figure>
+
+---
+
+### Tipi di ML
+
 L'addestramento consiste nel provare, fare errori, e correggerli tramite la **retropropagazione**, un meccanismo per cui la rete regola i vari pesi tra neuroni per migliorare il proprio risultato.
 
-Il training è poi seguito da una fase successiva di testing, in cui la rete svolge l’attività per cui è stata addestrata su nuovi dati che non aveva mai visto prima.
-
-https://www.researchgate.net/publication/354960266/figure/fig1/AS:11431281251915131@1718389091562/The-main-types-of-machine-learning-Main-approaches-include-classification-and-regression.tif
+L'addestramento è poi seguito da una fase successiva di **testing**, in cui la rete svolge l’attività per cui è stata addestrata su nuovi dati che non aveva mai visto prima.
 
 ---
 
 ### Apprendimento supervisionato
 
-In fase di addestramento della rete, vengono forniti sia i dati su cui allenarsi (es. immagini da classificare a seconda che contengano gatti oppre cani) e la risposta corretta (es. a tutte le immagini di cani è associata l’etichetta "cane"; a tutte le immagini di gatti è associata l’etichetta "gatto").
-
-https://miro.medium.com/v2/1*Iz7bCLrPTImnBDOOEyE3LA.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0812.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      In fase di addestramento, vengono forniti i dati su cui allenarsi (es. immagini da classificare a seconda che contengano gatti oppre cani) e anche la risposta corretta (es. a tutte le immagini di cani, viene associata l’etichetta "cane"; a tutte le immagini di gatti, viene associata l’etichetta "gatto").
+    </p>
+  </div>
+</div>
 
 ---
 
 ### Apprendimento non-supervisionato
 
-In fase di apprendimento della rete, vengono forniti solo dati senza la risposta corretta.
-
-L'IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.). 
-
-Sulla base di questo, è possibile creare un insieme di dati (_cluster_) omogeneo contenente le immagini di "cane" e un altro contenente le immagini di "gatto".
-
-https://static.javatpoint.com/tutorial/machine-learning/images/unsupervised-machine-learning-1.png
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0813.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      In fase di apprendimento della rete, vengono forniti solo dati senza la risposta corretta.
+    </p>
+    <p>
+      L'IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.).
+    </p>
+    <p>
+      Sulla base di questo, è possibile creare un insieme di dati (<strong>cluster</strong>) omogeneo contenente le immagini di "cane" e un altro contenente le immagini di "gatto".
+    </p>
+  </div>
+</div>
 
 ---
 
@@ -424,274 +765,6 @@ L'IA esegue azioni e riceve feedback sotto forma di ricompense o penalizzazioni.
 Una IA impara a giocare a Pokémon: https://www.youtube.com/watch?v=DcYLT37ImBY.
 
 Una IA impara a camminare: https://www.youtube.com/watch?v=L_4BPjLBF4E.
-
----
-
-### Un'ulteriore categorizzazione: IA discriminativa vs. IA generativa
-
----
-
-### IA discriminativa
-
-Finalizzata all'analisi delle informazioni ricevute e alla classificazione di tali informazioni in categorie predefinite: “discrimina” i dati secondo alcuni criteri predefiniti. 
-
-Modelli di IA di tipo discriminativo vengono addestrati per distinguere tra categorie di dati (es. come riconoscere immagini di oggetti diversi).
-
-https://vitalflux.com/wp-content/uploads/2023/03/discriminative-modeling-example.png
-
----
-
-### IA generativa
-
-Finalizzata alla generazione di nuovo contenuto (testi, immagini, musica, video, ecc.) sulla base di determinate informazioni di partenza (_prompt_). 
-
-I modelli di tipo generativo imparano a produrre nuovi dati con caratteristiche simili ai dati originali, utilizzando modelli di apprendimento automatico per identificare i pattern e le relazioni nei dati esistenti.
-
-https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png
-
----
-
-### Un esempio ibrido: Generative Adversarial Networks
-
-Un modello che usa due reti diverse: un discriminatore e un generatore.
-
-Durante il training, il discriminatore apprende a riconoscere immagini reali (es. apprendimento non supervisionato o supervisionato per specifiche classi, come i gatti).
-
-Alla fine dell'apprendimento, è in grado di dire se uno stimolo appartiene alla classe di immagini di training (fotografie reali, volti, gatti, etc.) o no.
-
-Il generatore, invece, crea immagini sulla base di dati casuali: inizialmente, le immagini create saranno senza senso.
-
----
-
-### Un esempio ibrido: Generative Adversarial Networks
-
-L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano accettabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
-
-Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
-
-* https://thispersondoesnotexist.com/
-* https://thiscatdoesnotexist.com/
-
----
-
-### Large Language Model
-
-Un modello di IA generativa basato su reti neurali multistrato e addestrato su enormi quantità di testo per imparare a riconoscere schemi e associazioni propri del linguaggio naturale.
-
-Un utente interroga il modello con un _prompt_ e riceve dal modello una risposta. Sia il prompt che la risposta vengono aggiunti iterativamente ad una "finestra contestuale" che riproduce una forma di "memoria" tenuta dal modello.
-
-https://dx1ienyxpbg1x.cloudfront.net/index_dev/articles/gallery_images/1721733661397675395_3_blob
-
----
-
-### Large Language Model
-
-Il processo di addestramento di un LLM si divide in due fasi principali:
-* **Pre-training**: in questa fase, il modello viene addestrato su un grande corpus di testo per imparare a riconoscere le relazioni tra le parole e tra le frasi;
-* **Fine-tuning**: in questa fase, il modello viene addestrato su un nuovo corpus di testo specifico per migliorare la sua capacità di generare testo in un contesto specifico.
-
-https://miro.medium.com/v2/resize:fit:720/format:webp/0*MjVPWxOiEgjK12Be.png
-
----
-
-### Large Language Model
-
-I pesi delle connessioni tra neuroni che il modello impara durante il processo di addestramento vengono chiamati **parametri**. 
-
-Conme già visto, si tratta di valori numerici che definiscono il comportamento del modello e che il modello stesso ottimizza per affinare la sua capacità di predire o generare output in modo coerente.
-
----
-
-### Large Language Model
-
-I parametri vengono inizializzati (spesso in modo casuale) e successivamente ottimizzati per riconoscere le relazioni linguistiche generali presenti nei dati (es. prevedere la parola successiva in una frase o per completare una sequenza di testo).
-
-Nel fine-tuning, i parametri già ottimizzati durante il pre-training vengono adattati ulteriormente su un corpus di testo specifico e più mirato.
-
----
-
-### Large Language Model
-
-Man mano che i parametri aumentano, aumentano le capacità del modello, ma anche le risorse di calcolo richieste. 
-
-Es. l'evoluzione dei modelli GPT per la creazione di testo: 
-* GPT-1 ha 117 milioni di parametri;
-* GPT2 ne ha 1.5 miliardi;
-* GPT3 ne ha 175 miliardi.
-
----
-
-### Large Language Model
-
-Vantaggi: elevatissima scalabilità e flessibilità; resistenza a informazioni incerte, danneggiate o lacunose.
-
-Svantaggi: performance fortemente influenzata dai dati di addestramento, potenziale presenza di allucinazioni (palesi errori nell'output generato), costi di sviluppo e addestramento elevati (legati alle risorse hardware e alla quantità di dati richieste), mancanza di trasparenza, incertezze legate all'AI Act. 
-
----
-
-{{< slide background-image="img/0700.jpg" class="section-slide">}}
-
-<div class="dark-overlay"></div>
-
-## I problemi
-
-<!--
-
--->
-
----
-
-### Uso di dati nella IA
-
-L’IA si basa su **dati storici** e **dati sintetici**.
-
-I dati storici sono raccolti in dataset "reali": le canzoni che ho ascoltato, le temperature raccolte negli ultimi 200 anni, i post su Twitter su un determinato argomento, i testi estratti da articoli di giornale digitalizzati dalla Library of Congress, ecc.
-
-I dati sintetici sono generati da un'altra IA e possono aiutare a rappresentare un problema, se ne danno una rappresentazione affidabile.
-
----
-
-### IA discriminatoria?
-
-Bias presenti nei dati possono produrre distorsioni nel funzionamento delle IA allenate su questi (es. alcuni sistemi di riconoscimento facciale trattano alcune persone in modo più impreciso rispetto alle altre, sulla base della pigmentazione della pelle o della loro struttura facciale).
-
-https://www.bbc.com/news/technology-68655429
-
----
-
-### IA e overfitting
-
-Fenomeno che si verifica quando un'IA impara troppo bene i dettagli dei dati di addestramento, al punto da diventare troppo specifico per quel dataset.
-
-Questo significa che, invece di generalizzare e fare previsioni accurate su nuovi dati, il modello diventa "troppo adattato" a quelle specifiche informazioni e quindi perde la capacità di adattamento.
-
----
-
-### Una minaccia?
-
-* Protezione dei dati?
-* Copyright?
-* Creazione di monopoli?
-* Impatto sul mercato del lavoro?
-* Disinformazione?
-* Ambiente?
-
----
-
-### Una minaccia?
-
-L'intelligence sudcoreana ha accusato DeepSeek di raccolta eccessiva dei dati personali della propria utenza, compresi i pattern di input dalla tastiera (che permettono il riconoscimento dell'individuo), e di invio di questi ad altre aziende cinesi.
-
-https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agency-says-deepseek-excessively-collects-personal-data-2025-02-10/
-
----
-
-### Una minaccia?
-
-Anthropic viene denunciata da un gruppo di autori per aver allenato i propri LLM su dati testuali, tra cui centinaia di migliaia di libri protetti da copyright. 
-
-https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-anthropic-denunciata-per-violazione-di-copyright/
-
----
-
-### Una minaccia?
-
-La stragrande maggioranza di startup di IA è vincolata in esclusiva alle big tech come Amazon, Google e Microsoft, in cambio di finanziamenti ingenti e accesso a enormi risorse di calcolo e dati. 
-
-https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia-le-indagini-2025-01-18
-
----
-
-### Una minaccia?
-
-Bp pianifica di licenziare il 5% della propria forza lavoro (circa 7700 persone) sulla base di valutazioni di ridimensionamento effettuate da una IA.
-
-https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rinnovabili-investimenti-lavoro/
-
----
-
-### Una minaccia?
-
-Grok, il chatbot della piattaforma X, permette di generare direttamente in loco testi, immagini e video non sottoposti ad alcun tipo di controllo (eccetto quelli previsti dalla piattaforma stessa).
-
-https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformazione-il-caso-grok/
-
----
-
-### Una minaccia?
-
-In media, ChatGPT consuma 519 millilitri d'acqua per generare un testo di 100 parole.
-
-https://fortune.com/article/how-much-water-does-ai-use/
-
----
-
-### Questioni etiche
-
-Le IA rischiano di essere:
-* Imperscrutabili: non è dato sapere in base a cosa abbiano favorito una decisione;
-* Fuorvianti: hanno preso una decisione in base a dati distorti da bias;
-* Ingiuste: generano effetti iniqui sulle persone;
-* Trasformative: portano a trasformazioni dell'output che minacciano l'autonomia, la privacy o altri diritti individuali;
-* Non-tracciabili: difficoltà nel rintracciare la persona o organizzazione responsabile dell'output.
-
----
-
-### AI Act
-
-Nel 2024, il Parlamento Europeo ha approvato l'AI Act, il primo Regolamento al mondo esplicitamente e totalmente dedicato all'IA.
-
-Il testo contiene norme che disciplinano l'attività delle IA, obbligando le aziende che le sviluppano e distribuiscono al rispetto dei diritti e dei valori fondamentali dell'Unione Europea.
-
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
-
-https://artificialintelligenceact.eu/
-
----
-
-### AI Act
-
-Saranno **vietati** i sistemi di IA che determinano un rischio inaccettabile per la sicurezza, la sussistenza e i diritti delle persone. 
-
-In questa categoria rientrano i sistemi che possono manipolare il comportamento umano (es. _social scoring_ e polizia predittiva).
-
-https://scenarieconomici.it/wp-content/uploads/2021/08/scs5.png
-
----
-
-### AI Act
-
-Il regolamento considera **ad alto rischio** un numero limitato di sistemi di IA che possono avere ripercussioni negative sulla sicurezza delle persone o sui loro diritti fondamentali (es. identificazione biometrica; riconoscimento delle emozioni; valutazione dell'occupazione; determinare l'accesso a servizi e a prestazioni pubblici e privati essenziali).
-
-Prima di immettere un sistema di IA ad alto rischio sul mercato dell'UE, o di farlo entrare in servizio, i fornitori dovranno sottoporlo, in particolare, a una valutazione.
-
----
-
-### AI Act
-
-I sistemi di IA **a basso rischio** (come videogiochi o filtri spam) saranno esenti da obblighi, ferma restando l'adesione volontaria a codici di condotta, da parte dei fornitori di tali sistemi, ad esempio laddove esista un evidente rischio di manipolazione. 
-
-Gli utenti dovranno essere consapevoli del fatto che stanno interagendo con una macchina.
-
----
-
-### IA e cultura
-
-Nell'AI Act europeo, la cultura è espressamente menzionata fra gli ambiti al cui sviluppo l'IA è chiamata a concorrere. 
-
-A livello nazionale si richiamano le potenzialità dell'IA, ma si evidenzia anche come "digitalizzare beni non metadatati e/o descritti sia fortemente sconsigliato".
-
-Vengono ripresi e rivisti concetti fondamentali come l'**originalità** (con ripercussioni anche sul concetto di _bene digitale come replica o copia dell'originale fisico_) e il **copyright**.
-
----
-
-### IA e cultura
-
-I fornitori dovranno assicurarsi che gli output siano esplicitamente etichettati come prodotti di IA.
-
-I fornitori dovranno pubblicare una descrizione sufficientemente dettagliata dei dati utilizzati per l'addestramento dei propri modelli.
-
-I detentori dei diritti potranno espressamente riservarsi il diritto di utilizzo delle proprie opere (in teoria)... ma come si fa con i modelli già addestrati?
 
 ---
 
