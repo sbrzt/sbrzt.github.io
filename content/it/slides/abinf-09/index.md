@@ -55,25 +55,35 @@ https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png
 
 Un modello di IA che usa contemporaneamente due reti neurali diverse: un discriminatore e un generatore.
 
-Durante l'addestramento, il discriminatore impara tramite apprendimento non supervisionato o supervisionato a discriminare i dati di input (es. a riconoscere gatti e cani nelle foto).
+Durante l'addestramento, il discriminatore impara tramite apprendimento non supervisionato o supervisionato a discriminare i dati di input (es. riconoscere cifre numeriche nelle immagini).
+
+https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
 
 ---
 
 ### Un esempio ibrido: Generative Adversarial Networks
 
-Alla fine dell'apprendimento, è in grado di classificare i dati di input (es. un'immagine) sulla base del proprio apprendimento (es. determina se l'immagine contiene un cane o un gatto sulla base dei pattern individuati e appresi in fase di apprendimento dalle altre immagini usate per allenarlo).
+Alla fine dell'apprendimento, è in grado di classificare nuovi dati di input sulla base del proprio apprendimento (es. determina se l'immagine contiene una cifra sulla base dei pattern appresi in fase di allenamento dalle altre immagini usate).
 
-Il generatore, invece, crea immagini sulla base di dati casuali: inizialmente, le immagini create saranno senza senso.
+Il generatore, invece, crea immagini sulla base di dati casuali (_noise_): inizialmente, le immagini create saranno senza senso.
+
+https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
 
 ---
 
 ### Un esempio ibrido: Generative Adversarial Networks
 
-L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano accettabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
+L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano passabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
 
 Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
 
 "Questa persona non esiste": https://thispersondoesnotexist.com/
+
+https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
+
+---
+
+L'IA di oggi: gli LLM
 
 ---
 
@@ -301,6 +311,28 @@ I fornitori dovranno assicurarsi che gli output siano esplicitamente etichettati
 I fornitori dovranno pubblicare una descrizione sufficientemente dettagliata dei dati utilizzati per l'addestramento dei propri modelli.
 
 I detentori dei diritti potranno espressamente riservarsi il diritto di utilizzo delle proprie opere (in teoria)... ma come si fa con i modelli già addestrati?
+
+---
+
+### IA generativa e professioni culturali
+
+Risultati del questionario di Dicolab: https://storymaps.arcgis.com/stories/102108ca51eb4f559c6331573ae53388.
+
+---
+
+## IA nei beni culturali
+
+---
+
+### Campi di applicazione dell'IA nei beni culturali
+
+* Restauro e analisi delle immagini;
+* Riconoscimento e classificazione degli oggetti;
+* Traduzione e trascrizione;
+* Analisi automatica del testo;
+* Realtà Virtuale (VR) e Aumentata (AR);
+* Sistemi di raccomandazione personalizzati;
+* ...
 
 ---
 

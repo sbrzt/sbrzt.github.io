@@ -2519,24 +2519,8 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-alphago&#34;&gt;Esempio: AlphaGo&lt;/h3&gt;
-&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 2;&#34;&gt;
-    &lt;figure&gt;
-      &lt;img src=&#34;img/0801.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
-        &lt;figcaption&gt;
-            Fonte: &lt;a href=&#34;https://www.bbc.com/news/technology-35785875&#34;&gt;https://www.bbc.com/news/technology-35785875&lt;/a&gt;.
-        &lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div style=&#34;flex: 1;&#34;&gt;
-    &lt;p&gt;
-      Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese. 
-    &lt;/p&gt;
-    &lt;p&gt;
-      Documentario: &lt;a href=&#34;https://www.youtube.com/watch?v=WXuK6gekU1Y&#34;&gt;https://www.youtube.com/watch?v=WXuK6gekU1Y&lt;/a&gt;.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese.&lt;/p&gt;
+&lt;p&gt;Documentario: &lt;a href=&#34;https://www.youtube.com/watch?v=WXuK6gekU1Y&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=WXuK6gekU1Y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=WXuK6gekU1Y&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ia-forte-o-estesa&#34;&gt;IA forte (o estesa)&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;IA forte è un tipo di intelligenza artificiale le cui capacità imitano le proprietà adattive e generalizzabili del cervello umano, comprese il ragionamento, la pianificazione e l&amp;rsquo;intuizione.&lt;/p&gt;
@@ -2568,8 +2552,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-simbolico&#34;&gt;Approccio simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-simbolico-1&#34;&gt;Approccio simbolico (1)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2585,8 +2572,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-simbolico-1&#34;&gt;Approccio simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-simbolico-2&#34;&gt;Approccio simbolico (2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2602,8 +2592,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-simbolico-2&#34;&gt;Approccio simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-simbolico-3&#34;&gt;Approccio simbolico (3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2619,22 +2612,31 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-simbolico-3&#34;&gt;Approccio simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-simbolico-4&#34;&gt;Approccio simbolico (4)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Potente per risolvere problemi complessi in ambienti ben definiti, come la logica formale, la pianificazione e la manipolazione di concetti astratti;&lt;/li&gt;
 &lt;li&gt;È facile da controllare, correggere e interpretare, e permette di costruire modelli molto trasparenti.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-simbolico-4&#34;&gt;Approccio simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-simbolico-5&#34;&gt;Approccio simbolico (5)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Svantaggi&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dipende da una conoscenza predefinita;&lt;/li&gt;
 &lt;li&gt;La rappresentazione simbolica è rigida, e richiede notevoli sforzi nella sua definizione (in termini di simboli da utilizzare e di regole da applicare per la loro manipolazione);* Non è particolarmente adattabile o capace di gestire l&amp;rsquo;incertezza o i contesti ambigui, come quelli che si trovano nel mondo reale.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-sub-simbolico&#34;&gt;Approccio sub-simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-sub-simbolico-1&#34;&gt;Approccio sub-simbolico (1)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2650,8 +2652,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-sub-simbolico-1&#34;&gt;Approccio sub-simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-sub-simbolico-2&#34;&gt;Approccio sub-simbolico (2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2670,8 +2675,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-sub-simbolico-2&#34;&gt;Approccio sub-simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-sub-simbolico-3&#34;&gt;Approccio sub-simbolico (3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2687,20 +2695,29 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-sub-simbolico-3&#34;&gt;Approccio sub-simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-sub-simbolico-4&#34;&gt;Approccio sub-simbolico (4)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Vantaggi&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Molto più performante, specialmente per compiti in cui bisogna gestire l&amp;rsquo;incertezza (es. riconoscimento, classificazione, ecc.);&lt;/li&gt;
 &lt;li&gt;Molto flessibile e adattabile a nuovi dati senza essere riprogrammato esplicitamente.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;approccio-sub-simbolico-4&#34;&gt;Approccio sub-simbolico&lt;/h3&gt;
+&lt;h3 id=&#34;approccio-sub-simbolico-5&#34;&gt;Approccio sub-simbolico (5)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Svantaggi&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Non è facilmente interpretabile, perché non esiste una rappresentazione esplicita e comprensibile per l&amp;rsquo;uomo di cosa &amp;ldquo;sa&amp;rdquo;;&lt;/li&gt;
 &lt;li&gt;Richiede enormi quantità di dati e di potenza hardware per allenarsi.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-di-approccio-sub-simbolico-machine-learning&#34;&gt;Esempio di approccio sub-simbolico: Machine learning&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -2718,8 +2735,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-1&#34;&gt;Unità della rete neurale: il Percettrone (1)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2738,8 +2758,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-1&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-2&#34;&gt;Unità della rete neurale: il Percettrone (2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2758,8 +2781,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-2&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-3&#34;&gt;Unità della rete neurale: il Percettrone (3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2778,8 +2804,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-3&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-4&#34;&gt;Unità della rete neurale: il Percettrone (4)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2801,8 +2830,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-4&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-5&#34;&gt;Unità della rete neurale: il Percettrone (5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2821,17 +2853,23 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-5&#34;&gt;Unità della rete neurale: il Percettrone&lt;/h3&gt;
+&lt;h3 id=&#34;unità-della-rete-neurale-il-percettrone-6&#34;&gt;Unità della rete neurale: il Percettrone (6)&lt;/h3&gt;
 &lt;p&gt;Il percettrone, in origine, era pensato per prendere input binari (0 e 1) e generare output binari (0 e 1).&lt;/p&gt;
 &lt;p&gt;Molto utile per decisioni semplici.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-1&#34;&gt;Esempio di Percettrone: il concerto (1)&lt;/h3&gt;
 &lt;p&gt;Dobbiamo decisere se andare ad un concerto.&lt;/p&gt;
 &lt;p&gt;Di solito, dobbiamo considerare una serie di fattori: l&amp;rsquo;artista è bravo? Il tempo è buono?&lt;/p&gt;
 &lt;p&gt;Per prendere questa decisione, decidiamo di usare un percettrone.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-1&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-2&#34;&gt;Esempio di Percettrone: il concerto (2)&lt;/h3&gt;
 &lt;p&gt;I fattori da considerare sono i dati di input, ad ognuno dei quali possiamo assegnare un valore binario (0 equivale a &amp;ldquo;NO&amp;rdquo;, 1 equivale a &amp;ldquo;SI&amp;rdquo;).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;L&amp;rsquo;artista è bravo? = 0 o 1&lt;/li&gt;
@@ -2841,7 +2879,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;li&gt;Servono bevande? = 0 o 1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-2&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-3&#34;&gt;Esempio di Percettrone: il concerto (3)&lt;/h3&gt;
 &lt;p&gt;Ognuno di questi fattori, però, ha per noi un&amp;rsquo;importanza diversa.&lt;/p&gt;
 &lt;p&gt;Quindi, ad ogni input assegnamo anche un peso numerico che rappresenti questa importanza (dove 0 è &amp;ldquo;importanza nulla&amp;rdquo; e 1 è &amp;ldquo;importanza essenziale&amp;rdquo;).&lt;/p&gt;
 &lt;ul&gt;
@@ -2852,7 +2890,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;li&gt;Servono alcolici? = 0 o 1, con peso = 0.4&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-3&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-4&#34;&gt;Esempio di Percettrone: il concerto (4)&lt;/h3&gt;
 &lt;p&gt;Ora, diciamo che:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;L&amp;rsquo;artista è bravo = 1&lt;/li&gt;
@@ -2863,7 +2901,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;/ul&gt;
 &lt;p&gt;E diciamo che la nostra soglia da considerare per prendere la decisione sia 1.5: sotto la soglia, l&amp;rsquo;output è 0 (&amp;ldquo;non vado al concerto&amp;rdquo;); sopra la soglia, l&amp;rsquo;output è 1 (&amp;ldquo;vado al concerto&amp;rdquo;).&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-4&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-5&#34;&gt;Esempio di Percettrone: il concerto (5)&lt;/h3&gt;
 &lt;p&gt;Moltiplichiamo ogni input per il peso che gli abbiamo assegnato:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;L&amp;rsquo;artista è bravo = 1 * 0.7 = 0.7&lt;/li&gt;
@@ -2874,13 +2912,13 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;/ul&gt;
 &lt;p&gt;Sommandoli, otteniamo: 0.7 + 0 + 0.5 + 0 + 0.4 = &lt;strong&gt;1.6&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-5&#34;&gt;Esempio di Percettrone: il concerto&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-di-percettrone-il-concerto-6&#34;&gt;Esempio di Percettrone: il concerto (6)&lt;/h3&gt;
 &lt;p&gt;La somma dei valori pesati è 1.6, e la soglia che abbiamo stabilito è 1.5.&lt;/p&gt;
 &lt;p&gt;Dato che 1.6 &amp;gt; 1.5, l&amp;rsquo;output è 1, quindi andrò al concerto.&lt;/p&gt;
 &lt;p&gt;Nota: il criterio per stabilire la soglia dipende dal dominio del problema e dalle preferenze di chi sviluppa. Si tratta di una decisione arbitraria effettuata su basi empiriche (esperienza), su dati (in un processo di addestramento), ecc.&lt;/p&gt;
 &lt;p&gt;Nota ancora più importante: abbiamo completamente ignorato il concetto di &lt;strong&gt;bias&lt;/strong&gt;, un aggiustamento che ci permette di spostare la soglia di decisione in maniera più flessibile ed adattabile a seconda della situazione.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-1&#34;&gt;Reti neurali multistrato (1)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2899,8 +2937,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-1&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-2&#34;&gt;Reti neurali multistrato (2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
@@ -2918,8 +2959,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-2&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-3&#34;&gt;Reti neurali multistrato (3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2938,8 +2982,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-3&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-4&#34;&gt;Reti neurali multistrato (4)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2958,8 +3005,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-4&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-5&#34;&gt;Reti neurali multistrato (5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -2975,16 +3025,25 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-5&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-6&#34;&gt;Reti neurali multistrato (6)&lt;/h3&gt;
 &lt;p&gt;Anche se noi progettiamo la rete, i neuroni nei livelli nascosti non sono &amp;ldquo;programmati&amp;rdquo; per compiere operazioni specifiche come accade in un programma tradizionale.&lt;/p&gt;
 &lt;p&gt;Invece, attraverso il processo di addestramento, i pesi dei neuroni vengono aggiustati in modo che la rete impari a riconoscere pattern nei dati.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-6&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-7&#34;&gt;Reti neurali multistrato (7)&lt;/h3&gt;
 &lt;p&gt;Ogni neurone nei layer nascosti impara a rappresentare una piccola parte di un concetto. Tuttavia, questi pattern non sono immediatamente interpretabili.&lt;/p&gt;
 &lt;p&gt;Non sappiamo esattamente cosa ogni neurone sta &amp;ldquo;vedendo&amp;rdquo;, ma piuttosto possiamo osservare come il risultato finale si adatti correttamente al nostro obiettivo.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-1&#34;&gt;Esempio: capire se una foglia è malata (1)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3004,7 +3063,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-1&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-2&#34;&gt;Esempio: capire se una foglia è malata (2)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3024,7 +3083,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-2&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-3&#34;&gt;Esempio: capire se una foglia è malata (3)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3041,7 +3100,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-3&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-4&#34;&gt;Esempio: capire se una foglia è malata (4)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3058,7 +3117,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-4&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-5&#34;&gt;Esempio: capire se una foglia è malata (5)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3075,7 +3134,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-5&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-6&#34;&gt;Esempio: capire se una foglia è malata (6)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3092,7 +3151,7 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-6&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-7&#34;&gt;Esempio: capire se una foglia è malata (7)&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
   &lt;div style=&#34;flex: 2;&#34;&gt;
     &lt;figure&gt;
@@ -3111,15 +3170,18 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;hr&gt;
 &lt;h3 id=&#34;torniamo-a-parlare-di-apprendimento&#34;&gt;Torniamo a parlare di apprendimento&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;tipi-di-ml&#34;&gt;Tipi di ML&lt;/h3&gt;
+&lt;h3 id=&#34;tipi-di-ml-1&#34;&gt;Tipi di ML (1)&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;apprendimento è un processo iterativo che consiste nell&amp;rsquo;ottimizzazione progressiva dei parametri che definiscono il modello di IA, attraverso la misurazione ciclica dell&amp;rsquo;errore tra il risultato prodotto e il risultato atteso.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Supervisionato&lt;/strong&gt;: l&amp;rsquo;IA viene addestrata su dati preventivamente etichettati da un essere umano;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Non supervisionato&lt;/strong&gt;: l&amp;rsquo;IA viene addestrata su dati non etichettati;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Per rinforzo&lt;/strong&gt;: l&amp;rsquo;IA apprende sulla base di penalità o ricompense ricevute dall&amp;rsquo;ambiente in cui si trova ad agire.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;tipi-di-ml-1&#34;&gt;Tipi di ML&lt;/h3&gt;
+&lt;h3 id=&#34;tipi-di-ml-2&#34;&gt;Tipi di ML (2)&lt;/h3&gt;
 &lt;figure&gt;
   &lt;img src=&#34;img/0811.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
     &lt;figcaption&gt;
@@ -3127,9 +3189,12 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;tipi-di-ml-2&#34;&gt;Tipi di ML&lt;/h3&gt;
+&lt;h3 id=&#34;tipi-di-ml-3&#34;&gt;Tipi di ML (3)&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;addestramento consiste nel provare, fare errori, e correggerli tramite la &lt;strong&gt;retropropagazione&lt;/strong&gt;, un meccanismo per cui la rete regola i vari pesi tra neuroni per migliorare il proprio risultato.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;addestramento è poi seguito da una fase successiva di &lt;strong&gt;testing&lt;/strong&gt;, in cui la rete svolge l’attività per cui è stata addestrata su nuovi dati che non aveva mai visto prima.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;apprendimento-supervisionato&#34;&gt;Apprendimento supervisionato&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -3146,6 +3211,9 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
       In fase di addestramento, vengono forniti i dati su cui allenarsi (es. immagini da classificare a seconda che contengano gatti oppre cani) e anche la risposta corretta (es. a tutte le immagini di cani, viene associata l’etichetta &#34;cane&#34;; a tutte le immagini di gatti, viene associata l’etichetta &#34;gatto&#34;).
     &lt;/p&gt;
   &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;apprendimento-non-supervisionato&#34;&gt;Apprendimento non-supervisionato&lt;/h3&gt;
@@ -3167,12 +3235,18 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;apprendimento-per-rinforzo&#34;&gt;Apprendimento per rinforzo&lt;/h3&gt;
 &lt;p&gt;In fase di apprendimento, l&amp;rsquo;IA apprende a compiere delle azioni in un ambiente al fine di massimizzare una ricompensa cumulativa nel tempo.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;IA esegue azioni e riceve feedback sotto forma di ricompense o penalizzazioni. L&amp;rsquo;obiettivo dell&amp;rsquo;agente è imparare a scegliere le azioni che massimizzano la ricompensa complessiva nel lungo periodo.&lt;/p&gt;
 &lt;p&gt;Una IA impara a giocare a Pokémon: &lt;a href=&#34;https://www.youtube.com/watch?v=DcYLT37ImBY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=DcYLT37ImBY&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Una IA impara a camminare: &lt;a href=&#34;https://www.youtube.com/watch?v=L_4BPjLBF4E&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=L_4BPjLBF4E&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-08-del-corso-di-abilità-informatiche-20242025-1&#34;&gt;Lezione 08 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
@@ -3366,6 +3440,11 @@ Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelli
 &lt;p&gt;I fornitori dovranno assicurarsi che gli output siano esplicitamente etichettati come prodotti di IA.&lt;/p&gt;
 &lt;p&gt;I fornitori dovranno pubblicare una descrizione sufficientemente dettagliata dei dati utilizzati per l&amp;rsquo;addestramento dei propri modelli.&lt;/p&gt;
 &lt;p&gt;I detentori dei diritti potranno espressamente riservarsi il diritto di utilizzo delle proprie opere (in teoria)&amp;hellip; ma come si fa con i modelli già addestrati?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ia-generativa-e-professioni-culturali&#34;&gt;IA generativa e professioni culturali&lt;/h3&gt;
+&lt;p&gt;Risultati del questionario di Dicolab: &lt;a href=&#34;https://storymaps.arcgis.com/stories/102108ca51eb4f559c6331573ae53388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://storymaps.arcgis.com/stories/102108ca51eb4f559c6331573ae53388&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;fine&#34;&gt;Fine&lt;/h1&gt;
 &lt;h2 id=&#34;lezione-09-del-corso-di-abilità-informatiche-20242025-1&#34;&gt;Lezione 09 del corso di &lt;em&gt;Abilità Informatiche&lt;/em&gt; (2024/2025)&lt;/h2&gt;
