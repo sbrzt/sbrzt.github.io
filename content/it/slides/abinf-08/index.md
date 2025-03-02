@@ -371,10 +371,10 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
   <div style="flex: 1;">
     <p>
-      Ogni dato ha un certo valore numerico.
+      Ogni dato ha un certo valore numerico (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ecc.).
     </p>
     <p>
-      Il valore di ogni dato di input (nell'immagine sono le "x") viene moltiplicato con un <strong>peso</strong> (un altro valore numerico, generalmente tra 0 e 1, che ne rappresenta l'importanza rispetto al risultato finale) (nell'immagine sono le "w").
+      Il valore di ogni dato di input viene moltiplicato con un <strong>peso</strong> (un altro valore numerico, generalmente tra 0 e 1, che ne rappresenta l'importanza rispetto al risultato finale).
     </p>
     <p>
       Tutti i valori pesati vengono <strong>sommati</strong> insieme, producendo un unico numero (una somma pesata).
@@ -494,9 +494,9 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
 ### Reti neurali multistrato
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 2;">
+  <div style="flex: 1;">
     <figure>
-      <img src="img/0809.png" height="auto" width="700"/>
+      <img src="img/0809.png" height="auto" width="250"/>
         <figcaption>
             Fonte: Di <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" class="mw-redirect" title="User talk:Glosser.ca">Glosser.ca</a> - <span class="int-own-work" lang="en">Opera propria</span>, deriva da <a href="//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg" title="File:Artificial neural network.svg">File:Artificial neural network.svg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=24913461">Link</a>.
         </figcaption>
@@ -507,11 +507,30 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
       Sono composte da gruppi di neuroni artificiali organizzati in livelli.
     </p>
     <p>
-      Tipicamente sono presenti: un <strong>livello di input</strong> (punto di entrata dei dati); uno o più <strong>livelli intermedi o nascosti</strong> (strati di neuroni che elaborano i dati in modo complesso); un <strong>livello di output</strong> (punto di uscita del risultato finale).
-    </p>
-    <p>
       Ogni neurone in un livello fa un calcolo sui dati che riceve e poi decide se attivarsi o meno, sulla base degli elementi che abbiamo già visto.
     </p>
+  </div>
+</div>
+
+---
+
+### Reti neurali multistrato
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <figure>
+      <img src="img/0809.png" height="auto" width="250"/>
+        <figcaption>
+            Fonte: Di <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" class="mw-redirect" title="User talk:Glosser.ca">Glosser.ca</a> - <span class="int-own-work" lang="en">Opera propria</span>, deriva da <a href="//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg" title="File:Artificial neural network.svg">File:Artificial neural network.svg</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=24913461">Link</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <ul>
+      <li><strong>livello di input</strong> (punto di entrata dei dati);</li> 
+      <li>uno o più <strong>livelli intermedi o nascosti</strong> (strati di neuroni che elaborano i dati in modo complesso);</li>
+      <li><strong>livello di output</strong> (punto di uscita del risultato finale).</li>
+    </ul>
   </div>
 </div>
 
@@ -558,6 +577,23 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
     <p>
       I neuroni in strati più profondi potrebbero combinare queste informazioni per identificare forme più complesse, come occhi, orecchie o il corpo di un animale.
     </p>
+  </div>
+</div>
+
+---
+
+### Reti neurali multistrato
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
     <p>
       Infine, gli strati finali della rete neurale potrebbero combinare tutte queste informazioni per decidere se l'immagine rappresenta un "gatto" o un "cane".
     </p>
@@ -623,6 +659,23 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
     <p>
       La rete neurale ha livelli nascosti (strati intermedi) che si occupano di elaborare e trasformare questi numeri in informazioni più utili.
     </p>
+  </div>
+</div>
+
+---
+
+### Esempio: capire se una foglia è malata
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
     <p>
       Ogni neurone nei layer nascosti prende i numeri in ingresso (che sono i pixel dell'immagine), li combina con i pesi (numeri che determinano quanto ogni input è importante), e poi applica una funzione di attivazione per determinare se quel neurone deve attivarsi o meno.
     </p>
@@ -646,8 +699,25 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
     <p>
       I layer nascosti quindi trasformano questi numeri di input in rappresentazioni più astratte.
     </p>
+  </div>
+</div>
+
+---
+
+### Esempio: capire se una foglia è malata
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
     <p>
-      Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano malattia.
+      Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano la presenza di malattie.
     </p>
   </div>
 </div>
@@ -669,6 +739,23 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
     <p>
       L'output finale viene prodotto dal livello di output, che di solito è un singolo neurone (o più neuroni, a seconda del tipo di classificazione).
     </p>
+  </div>
+</div>
+
+---
+
+### Esempio: capire se una foglia è malata
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0810.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://www.edureka.co/blog/what-is-a-neural-network/">https://www.edureka.co/blog/what-is-a-neural-network/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
     <p>
       Nel caso della classificazione della foglia come sana o malata, l'output sarà una probabilità tra 0 e 1, che indica quanto è probabile che l'immagine della foglia sia sana (ad esempio, 0.8 = 80% di probabilità che la foglia sia sana).
     </p>
@@ -746,10 +833,7 @@ L'addestramento è poi seguito da una fase successiva di **testing**, in cui la 
       In fase di apprendimento della rete, vengono forniti solo dati senza la risposta corretta.
     </p>
     <p>
-      L'IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.).
-    </p>
-    <p>
-      Sulla base di questo, è possibile creare un insieme di dati (<strong>cluster</strong>) omogeneo contenente le immagini di "cane" e un altro contenente le immagini di "gatto".
+      L'IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.) e li raggruppa in <strong>cluster</strong> omogenei sulla base di queste regolarità.
     </p>
   </div>
 </div>

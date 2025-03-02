@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+
+  
+    <link rel="manifest" href="/it/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu_13c8fe773aa7ff30.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_5acbe59741a45e4d.png">
+
+  <link rel="canonical" href="http://localhost:1313/it/slides/abinf-09/">
+
+  <title>ABINF - Intelligenza Artificiale (3) | sbrzt</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="intelligenza-artificiale-3">Intelligenza Artificiale (3)</h1>
+<h2 id="lezione-09-del-corso-di-abilità-informatiche-20242025">Lezione 09 del corso di <em>Abilità Informatiche</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0900.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h2 id="ia-discriminativa-vs-ia-generativa">IA discriminativa vs. IA generativa</h2>
+<!--
+
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-discriminativa">IA discriminativa</h3>
+<p>Quella che abbiamo visto fino ad ora, in pratica.</p>
+<p>Effettua diverse operazioni computazionali su dati esistenti (es. classificare un&rsquo;immagine sulla base di ciò che contiene; riconoscimento vocale; ecc.), &ldquo;discriminandoli&rdquo; (cioé analizzandoli, classificandoli e distinguendoli) secondo la loro distribuzione probabilistica.</p>
+<p><a href="https://vitalflux.com/wp-content/uploads/2023/03/discriminative-modeling-example.png" target="_blank" rel="noopener">https://vitalflux.com/wp-content/uploads/2023/03/discriminative-modeling-example.png</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-generativa">IA generativa</h3>
+<p>Finalizzata alla generazione di nuovo contenuto (testi, immagini, musica, video, ecc.) sulla base di determinate informazioni di partenza (<em>prompt</em>).</p>
+<p>I modelli di tipo generativo imparano a produrre nuovi dati con caratteristiche simili ai dati originali, utilizzando modelli di apprendimento automatico per identificare i pattern e le relazioni nei dati esistenti.</p>
+<p><a href="https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png" target="_blank" rel="noopener">https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-esempio-ibrido-generative-adversarial-networks">Un esempio ibrido: Generative Adversarial Networks</h3>
+<p>Un modello di IA che usa contemporaneamente due reti neurali diverse: un discriminatore e un generatore.</p>
+<p>Durante l&rsquo;addestramento, il discriminatore impara tramite apprendimento non supervisionato o supervisionato a discriminare i dati di input (es. a riconoscere gatti e cani nelle foto).</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-esempio-ibrido-generative-adversarial-networks-1">Un esempio ibrido: Generative Adversarial Networks</h3>
+<p>Alla fine dell&rsquo;apprendimento, è in grado di classificare i dati di input (es. un&rsquo;immagine) sulla base del proprio apprendimento (es. determina se l&rsquo;immagine contiene un cane o un gatto sulla base dei pattern individuati e appresi in fase di apprendimento dalle altre immagini usate per allenarlo).</p>
+<p>Il generatore, invece, crea immagini sulla base di dati casuali: inizialmente, le immagini create saranno senza senso.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="un-esempio-ibrido-generative-adversarial-networks-2">Un esempio ibrido: Generative Adversarial Networks</h3>
+<p>L&rsquo;output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano accettabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.</p>
+<p>Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato &ldquo;ingannato&rdquo;, e l’immagine è presa come risultato valido.</p>
+<p>&ldquo;Questa persona non esiste&rdquo;: <a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener">https://thispersondoesnotexist.com/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model">Large Language Model</h3>
+<p>Un modello di IA generativa basato su reti neurali multistrato e addestrato su enormi quantità di testo per imparare a riconoscere schemi e associazioni propri del linguaggio naturale.</p>
+<p>Un utente interroga il modello con un <strong>prompt</strong> e riceve dal modello una risposta.</p>
+<p>Sia il prompt che la risposta vengono aggiunti iterativamente ad una <strong>finestra contestuale</strong> che riproduce una forma di &ldquo;memoria&rdquo; tenuta dall&rsquo;IA.</p>
+<p><a href="https://dx1ienyxpbg1x.cloudfront.net/index_dev/articles/gallery_images/1721733661397675395_3_blob" target="_blank" rel="noopener">https://dx1ienyxpbg1x.cloudfront.net/index_dev/articles/gallery_images/1721733661397675395_3_blob</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model-1">Large Language Model</h3>
+<p>Il processo di addestramento di un LLM si divide in due fasi principali:</p>
+<ul>
+<li><strong>Pre-training</strong>: in questa fase, il modello viene addestrato su un grande corpus di testo per imparare a riconoscere le relazioni tra le parole e tra le frasi;</li>
+<li><strong>Fine-tuning</strong>: in questa fase, il modello viene addestrato su un nuovo corpus di testo specifico per migliorare la sua capacità di generare testo in un contesto specifico.</li>
+</ul>
+<p><a href="https://miro.medium.com/v2/resize:fit:720/format:webp/0" target="_blank" rel="noopener">https://miro.medium.com/v2/resize:fit:720/format:webp/0</a>*MjVPWxOiEgjK12Be.png</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model-2">Large Language Model</h3>
+<p>I pesi delle connessioni tra neuroni che il modello impara durante il processo di addestramento vengono chiamati <strong>parametri</strong>.</p>
+<p>Conme già visto, si tratta di valori numerici che definiscono il comportamento del modello e che il modello stesso ottimizza per affinare la sua capacità di predire o generare output in modo coerente.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model-3">Large Language Model</h3>
+<p>I parametri vengono inizializzati (spesso in modo casuale) e successivamente ottimizzati per riconoscere le relazioni linguistiche generali presenti nei dati (es. prevedere la parola successiva in una frase o per completare una sequenza di testo).</p>
+<p>Nel fine-tuning, i parametri già ottimizzati durante il pre-training vengono adattati ulteriormente su un corpus di testo specifico e più mirato.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model-4">Large Language Model</h3>
+<p>Man mano che i parametri aumentano, aumentano le capacità del modello, ma anche le risorse di calcolo richieste.</p>
+<p>Es. l&rsquo;evoluzione dei modelli GPT per la creazione di testo:</p>
+<ul>
+<li>GPT-1 ha 117 milioni di parametri;</li>
+<li>GPT2 ne ha 1.5 miliardi;</li>
+<li>GPT3 ne ha 175 miliardi.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="large-language-model-5">Large Language Model</h3>
+<p>Vantaggi: elevatissima scalabilità e flessibilità; resistenza a informazioni incerte, danneggiate o lacunose.</p>
+<p>Svantaggi: performance fortemente influenzata dai dati di addestramento, potenziale presenza di allucinazioni (palesi errori nell&rsquo;output generato), costi di sviluppo e addestramento elevati (legati alle risorse hardware e alla quantità di dati richieste), mancanza di trasparenza, incertezze legate all&rsquo;AI Act.</p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="img/0700.jpg"
+  
+      
+      class="section-slide"
+  >
+
+<div class="dark-overlay"></div>
+<h2 id="i-problemi">I problemi</h2>
+<!--
+
+-->
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="uso-di-dati-nella-ia">Uso di dati nella IA</h3>
+<p>L’IA si basa su <strong>dati storici</strong> e, ora, anche su <strong>dati sintetici</strong>.</p>
+<p>I dati storici sono raccolti in dataset &ldquo;reali&rdquo;: le canzoni che ho ascoltato, le temperature raccolte negli ultimi 200 anni, i post su Twitter su un determinato argomento, i testi estratti da articoli di giornale digitalizzati dalla Library of Congress, ecc.</p>
+<p>I dati sintetici sono generati da un&rsquo;altra IA e possono aiutare a rappresentare un problema, se ne danno una rappresentazione affidabile.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-e-overfitting">IA e overfitting</h3>
+<p>Fenomeno che si verifica quando un&rsquo;IA impara troppo bene i dettagli dei dati di addestramento, al punto da diventare troppo specifico per quel dataset.</p>
+<p>Questo significa che, invece di generalizzare e fare previsioni accurate su nuovi dati, il modello diventa &ldquo;troppo adattato&rdquo; a quelle specifiche informazioni e quindi perde la capacità di adattamento.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-e-discriminazione">IA e discriminazione</h3>
+<p>Bias presenti nei dati possono produrre distorsioni nel funzionamento delle IA allenate su questi</p>
+<p>Es. alcuni sistemi di riconoscimento facciale trattano alcune persone in modo più impreciso rispetto alle altre, sulla base della pigmentazione della pelle o della loro struttura facciale.</p>
+<p><a href="https://www.bbc.com/news/technology-68655429" target="_blank" rel="noopener">https://www.bbc.com/news/technology-68655429</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia">Una minaccia?</h3>
+<ul>
+<li>Protezione dei dati?</li>
+<li>Copyright?</li>
+<li>Creazione di monopoli?</li>
+<li>Impatto sul mercato del lavoro?</li>
+<li>Disinformazione?</li>
+<li>Ambiente?</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-la-privacy">Una minaccia per la privacy?</h3>
+<p>L&rsquo;intelligence sudcoreana ha accusato DeepSeek di raccolta eccessiva dei dati personali della propria utenza, compresi i pattern di input dalla tastiera (che permettono il riconoscimento dell&rsquo;individuo), e di invio di questi ad altre aziende cinesi.</p>
+<p><a href="https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agency-says-deepseek-excessively-collects-personal-data-2025-02-10/" target="_blank" rel="noopener">https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agency-says-deepseek-excessively-collects-personal-data-2025-02-10/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-il-copyright">Una minaccia per il copyright?</h3>
+<p>Anthropic viene denunciata da un gruppo di autori per aver allenato i propri LLM su dati testuali, tra cui centinaia di migliaia di libri protetti da copyright.</p>
+<p><a href="https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-anthropic-denunciata-per-violazione-di-copyright/" target="_blank" rel="noopener">https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-anthropic-denunciata-per-violazione-di-copyright/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-il-mercato">Una minaccia per il mercato?</h3>
+<p>La stragrande maggioranza di startup di IA è vincolata in esclusiva alle big tech come Amazon, Google e Microsoft, in cambio di finanziamenti ingenti e accesso a enormi risorse di calcolo e dati.</p>
+<p><a href="https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia-le-indagini-2025-01-18" target="_blank" rel="noopener">https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia-le-indagini-2025-01-18</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-il-lavoro">Una minaccia per il lavoro?</h3>
+<p>Bp pianifica di licenziare il 5% della propria forza lavoro (circa 7700 persone) sulla base di valutazioni di ridimensionamento effettuate da una IA.</p>
+<p><a href="https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rinnovabili-investimenti-lavoro/" target="_blank" rel="noopener">https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rinnovabili-investimenti-lavoro/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-linformazione">Una minaccia per l&rsquo;informazione?</h3>
+<p>Grok, il chatbot della piattaforma X, permette di generare direttamente in loco testi, immagini e video non sottoposti ad alcun tipo di controllo (eccetto quelli previsti dalla piattaforma stessa).</p>
+<p><a href="https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformazione-il-caso-grok/" target="_blank" rel="noopener">https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformazione-il-caso-grok/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="una-minaccia-per-lambiente">Una minaccia per l&rsquo;ambiente?</h3>
+<p>In media, ChatGPT consuma 519 millilitri d&rsquo;acqua (circa una bottiglietta d&rsquo;acqua) per generare 100 parole.</p>
+<p><a href="https://fortune.com/article/how-much-water-does-ai-use/" target="_blank" rel="noopener">https://fortune.com/article/how-much-water-does-ai-use/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="questioni-etiche">Questioni etiche</h3>
+<p>Le IA rischiano di essere:</p>
+<ul>
+<li>Imperscrutabili: non è dato sapere in base a cosa abbiano favorito una decisione;</li>
+<li>Fuorvianti: hanno preso una decisione in base a dati distorti da bias;</li>
+<li>Ingiuste: generano effetti iniqui sulle persone;</li>
+<li>Trasformative: portano a trasformazioni dell&rsquo;output che minacciano l&rsquo;autonomia, la privacy o altri diritti individuali;</li>
+<li>Non-tracciabili: difficoltà nel rintracciare la persona o organizzazione responsabile dell&rsquo;output.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ai-act">AI Act</h3>
+<p>Nel 2024, il Parlamento Europeo ha approvato l&rsquo;AI Act, il primo Regolamento al mondo esplicitamente e totalmente dedicato all&rsquo;IA.</p>
+<p>Il testo contiene norme che disciplinano l&rsquo;attività delle IA, obbligando le aziende che le sviluppano e distribuiscono al rispetto dei diritti e dei valori fondamentali dell&rsquo;Unione Europea.</p>
+<p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689" target="_blank" rel="noopener">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689</a></p>
+<p><a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener">https://artificialintelligenceact.eu/</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ai-act-1">AI Act</h3>
+<p>Saranno <strong>vietati</strong> i sistemi di IA che determinano un rischio inaccettabile per la sicurezza, la sussistenza e i diritti delle persone.</p>
+<p>In questa categoria rientrano i sistemi che possono manipolare il comportamento umano (es. <em>social scoring</em> e polizia predittiva).</p>
+<p><a href="https://scenarieconomici.it/wp-content/uploads/2021/08/scs5.png" target="_blank" rel="noopener">https://scenarieconomici.it/wp-content/uploads/2021/08/scs5.png</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ai-act-2">AI Act</h3>
+<p>Il regolamento considera <strong>ad alto rischio</strong> un numero limitato di sistemi di IA che possono avere ripercussioni negative sulla sicurezza delle persone o sui loro diritti fondamentali.</p>
+<p>Es. identificazione biometrica; riconoscimento delle emozioni; valutazione dell&rsquo;occupazione; determinare l&rsquo;accesso a servizi e a prestazioni pubblici e privati essenziali.</p>
+<p>Prima di immettere un sistema di IA ad alto rischio sul mercato dell&rsquo;UE, o di farlo entrare in servizio, i fornitori dovranno sottoporlo, in particolare, a una valutazione.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ai-act-3">AI Act</h3>
+<p>I sistemi di IA <strong>a basso rischio</strong> (come videogiochi o filtri spam) saranno esenti da obblighi.</p>
+<p>A prescindere dal livell odi pericolosità, gli utenti dovranno essere consapevoli del fatto che stanno interagendo con una macchina.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-e-cultura">IA e cultura</h3>
+<p>Nell&rsquo;AI Act europeo, la cultura è espressamente menzionata fra gli ambiti al cui sviluppo l&rsquo;IA è chiamata a concorrere.</p>
+<p>A livello nazionale si richiamano le potenzialità dell&rsquo;IA, ma si evidenzia anche come &ldquo;digitalizzare beni non metadatati e/o descritti sia fortemente sconsigliato&rdquo;.</p>
+<p>Vengono ripresi e rivisti concetti fondamentali come l&rsquo;<strong>originalità</strong> (con ripercussioni anche sul concetto di <em>bene digitale come replica o copia dell&rsquo;originale fisico</em>) e il <strong>copyright</strong>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="ia-e-cultura-1">IA e cultura</h3>
+<p>I fornitori dovranno assicurarsi che gli output siano esplicitamente etichettati come prodotti di IA.</p>
+<p>I fornitori dovranno pubblicare una descrizione sufficientemente dettagliata dei dati utilizzati per l&rsquo;addestramento dei propri modelli.</p>
+<p>I detentori dei diritti potranno espressamente riservarsi il diritto di utilizzo delle proprie opere (in teoria)&hellip; ma come si fa con i modelli già addestrati?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="fine">Fine</h1>
+<h2 id="lezione-09-del-corso-di-abilità-informatiche-20242025-1">Lezione 09 del corso di <em>Abilità Informatiche</em> (2024/2025)</h2>
+<h6 id="sebastian-barzaghi--sebastianbarzaghi2uniboit--httpsorcidorg0000-0002-0799-1527--httpswwwuniboitsitowebsebastianbarzaghi2-1">Sebastian Barzaghi | <a href="mailto:sebastian.barzaghi2@unibo.it">sebastian.barzaghi2@unibo.it</a> | <a href="https://orcid.org/0000-0002-0799-1527" target="_blank" rel="noopener">https://orcid.org/0000-0002-0799-1527</a> | <a href="https://www.unibo.it/sitoweb/sebastian.barzaghi2/" target="_blank" rel="noopener">https://www.unibo.it/sitoweb/sebastian.barzaghi2/</a></h6>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

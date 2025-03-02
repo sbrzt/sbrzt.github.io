@@ -314,20 +314,6 @@
                 href="http://localhost:1313/it/slides/data-cleaning-openrefine/"
                 />
   </url><url>
-    <loc>http://localhost:1313/it/tag/digital-humanities/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tag/digital-humanities/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tag/digital-humanities/"
-                />
-  </url><url>
     <loc>http://localhost:1313/it/category/digital-humanities/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -340,6 +326,20 @@
                 rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/category/digital-humanities/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/it/tag/digital-humanities/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tag/digital-humanities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/tag/digital-humanities/"
                 />
   </url><url>
     <loc>http://localhost:1313/it/post/</loc>
@@ -565,6 +565,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/it/slides/abinf-08/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/it/slides/abinf-09/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
