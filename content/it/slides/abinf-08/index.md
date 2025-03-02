@@ -55,28 +55,17 @@ slides:
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
 ### Esempio: AlphaGo
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 2;">
-    <figure>
-      <img src="img/0801.png" height="auto" width="700"/>
-        <figcaption>
-            Fonte: <a href="https://www.bbc.com/news/technology-35785875">https://www.bbc.com/news/technology-35785875</a>.
-        </figcaption>
-    </figure>
-  </div>
-  <div style="flex: 1;">
-    <p>
-      Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese. 
-    </p>
-    <p>
-      Documentario: <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y">https://www.youtube.com/watch?v=WXuK6gekU1Y</a>.
-    </p>
-  </div>
-</div>
+Nel 2015-16 DeepMind sviluppa AlphaGo, un programma che batte il campione umano di Go, un famosissimo gioco da tavolo cinese. 
+
+Documentario: <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y">https://www.youtube.com/watch?v=WXuK6gekU1Y</a>.
 
 ---
 
@@ -86,7 +75,11 @@ L'IA forte è un tipo di intelligenza artificiale le cui capacità imitano le pr
 
 Conosciuta anche come IA Generale (AGI), _per ora_ è pura speculazione.
 
-Articolo di Vox sui rapporti tra IA e religione: https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea
+Articolo di Vox sui rapporti tra IA e religione: https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea.
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
@@ -112,9 +105,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   * **Deep Learning**: sottocategoria delle reti neurali che utilizza strutture più complesse (come reti profonde) per affrontare compiti più complessi;
   * **Large Language Models**: addestrati su enormi quantità di testi per comprendere, generare e rispondere in linguaggio naturale.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio simbolico
+### Approccio simbolico (1)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -132,9 +129,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio simbolico
+### Approccio simbolico (2)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -152,9 +153,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio simbolico
+### Approccio simbolico (3)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -172,25 +177,37 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio simbolico
+### Approccio simbolico (4)
 
 **Vantaggi**: 
 * Potente per risolvere problemi complessi in ambienti ben definiti, come la logica formale, la pianificazione e la manipolazione di concetti astratti;
 * È facile da controllare, correggere e interpretare, e permette di costruire modelli molto trasparenti.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio simbolico
+### Approccio simbolico (5)
 
 **Svantaggi**: 
 * Dipende da una conoscenza predefinita;
 * La rappresentazione simbolica è rigida, e richiede notevoli sforzi nella sua definizione (in termini di simboli da utilizzare e di regole da applicare per la loro manipolazione);* Non è particolarmente adattabile o capace di gestire l'incertezza o i contesti ambigui, come quelli che si trovano nel mondo reale.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio sub-simbolico
+### Approccio sub-simbolico (1)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -208,9 +225,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio sub-simbolico
+### Approccio sub-simbolico (2)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -231,9 +252,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio sub-simbolico
+### Approccio sub-simbolico (3)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -251,21 +276,33 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio sub-simbolico
+### Approccio sub-simbolico (4)
 
 **Vantaggi**: 
 * Molto più performante, specialmente per compiti in cui bisogna gestire l'incertezza (es. riconoscimento, classificazione, ecc.);
 * Molto flessibile e adattabile a nuovi dati senza essere riprogrammato esplicitamente.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Approccio sub-simbolico
+### Approccio sub-simbolico (5)
 
 **Svantaggi**: 
 * Non è facilmente interpretabile, perché non esiste una rappresentazione esplicita e comprensibile per l'uomo di cosa "sa";
 * Richiede enormi quantità di dati e di potenza hardware per allenarsi.
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
@@ -287,9 +324,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (1)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -310,9 +351,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (2)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -333,9 +378,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (3)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -356,9 +405,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (4)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -382,9 +435,13 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (5)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -405,17 +462,25 @@ Video: https://www.youtube.com/watch?v=P18EdAKuC1U.
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Unità della rete neurale: il Percettrone
+### Unità della rete neurale: il Percettrone (6)
 
 Il percettrone, in origine, era pensato per prendere input binari (0 e 1) e generare output binari (0 e 1).
 
 Molto utile per decisioni semplici.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (1)
 
 Dobbiamo decisere se andare ad un concerto. 
 
@@ -425,7 +490,7 @@ Per prendere questa decisione, decidiamo di usare un percettrone.
 
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (2)
 
 I fattori da considerare sono i dati di input, ad ognuno dei quali possiamo assegnare un valore binario (0 equivale a "NO", 1 equivale a "SI").
 
@@ -437,7 +502,7 @@ I fattori da considerare sono i dati di input, ad ognuno dei quali possiamo asse
 
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (3)
 
 Ognuno di questi fattori, però, ha per noi un'importanza diversa. 
 
@@ -451,7 +516,7 @@ Quindi, ad ogni input assegnamo anche un peso numerico che rappresenti questa im
 
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (4)
 
 Ora, diciamo che:
 
@@ -465,7 +530,7 @@ E diciamo che la nostra soglia da considerare per prendere la decisione sia 1.5:
 
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (5)
 
 Moltiplichiamo ogni input per il peso che gli abbiamo assegnato:
 
@@ -479,7 +544,7 @@ Sommandoli, otteniamo: 0.7 + 0 + 0.5 + 0 + 0.4 = **1.6**
 
 ---
 
-### Esempio di Percettrone: il concerto
+### Esempio di Percettrone: il concerto (6)
 
 La somma dei valori pesati è 1.6, e la soglia che abbiamo stabilito è 1.5.
 
@@ -491,7 +556,7 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
 
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (1)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -512,9 +577,13 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (2)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -534,9 +603,13 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (3)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -557,9 +630,13 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (4)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -580,9 +657,13 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (5)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -600,25 +681,37 @@ Nota ancora più importante: abbiamo completamente ignorato il concetto di **bia
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (6)
 
 Anche se noi progettiamo la rete, i neuroni nei livelli nascosti non sono "programmati" per compiere operazioni specifiche come accade in un programma tradizionale. 
 
 Invece, attraverso il processo di addestramento, i pesi dei neuroni vengono aggiustati in modo che la rete impari a riconoscere pattern nei dati. 
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Reti neurali multistrato
+### Reti neurali multistrato (7)
 
 Ogni neurone nei layer nascosti impara a rappresentare una piccola parte di un concetto. Tuttavia, questi pattern non sono immediatamente interpretabili.
 
 Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo osservare come il risultato finale si adatti correttamente al nostro obiettivo.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (1)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -641,7 +734,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (2)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -664,7 +757,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (3)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -684,7 +777,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (4)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -704,7 +797,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (5)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -724,7 +817,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (6)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -744,7 +837,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Esempio: capire se una foglia è malata
+### Esempio: capire se una foglia è malata (7)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
@@ -768,7 +861,7 @@ Non sappiamo esattamente cosa ogni neurone sta "vedendo", ma piuttosto possiamo 
 
 ---
 
-### Tipi di ML
+### Tipi di ML (1)
 
 L'apprendimento è un processo iterativo che consiste nell'ottimizzazione progressiva dei parametri che definiscono il modello di IA, attraverso la misurazione ciclica dell'errore tra il risultato prodotto e il risultato atteso.
 
@@ -776,9 +869,13 @@ L'apprendimento è un processo iterativo che consiste nell'ottimizzazione progre
 * **Non supervisionato**: l'IA viene addestrata su dati non etichettati;
 * **Per rinforzo**: l'IA apprende sulla base di penalità o ricompense ricevute dall'ambiente in cui si trova ad agire.
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
-### Tipi di ML
+### Tipi di ML (2)
 
 <figure>
   <img src="img/0811.png" height="auto" width="700"/>
@@ -789,11 +886,15 @@ L'apprendimento è un processo iterativo che consiste nell'ottimizzazione progre
 
 ---
 
-### Tipi di ML
+### Tipi di ML (3)
 
 L'addestramento consiste nel provare, fare errori, e correggerli tramite la **retropropagazione**, un meccanismo per cui la rete regola i vari pesi tra neuroni per migliorare il proprio risultato.
 
 L'addestramento è poi seguito da una fase successiva di **testing**, in cui la rete svolge l’attività per cui è stata addestrata su nuovi dati che non aveva mai visto prima.
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
@@ -813,6 +914,10 @@ L'addestramento è poi seguito da una fase successiva di **testing**, in cui la 
       In fase di addestramento, vengono forniti i dati su cui allenarsi (es. immagini da classificare a seconda che contengano gatti oppre cani) e anche la risposta corretta (es. a tutte le immagini di cani, viene associata l’etichetta "cane"; a tutte le immagini di gatti, viene associata l’etichetta "gatto").
     </p>
   </div>
+</div>
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
 </div>
 
 ---
@@ -838,6 +943,10 @@ L'addestramento è poi seguito da una fase successiva di **testing**, in cui la 
   </div>
 </div>
 
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
+
 ---
 
 ### Apprendimento per rinforzo
@@ -849,6 +958,10 @@ L'IA esegue azioni e riceve feedback sotto forma di ricompense o penalizzazioni.
 Una IA impara a giocare a Pokémon: https://www.youtube.com/watch?v=DcYLT37ImBY.
 
 Una IA impara a camminare: https://www.youtube.com/watch?v=L_4BPjLBF4E.
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 

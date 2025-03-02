@@ -2508,6 +2508,9 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;esempio-alphago&#34;&gt;Esempio: AlphaGo&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
@@ -2532,7 +2535,10 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
 &lt;h3 id=&#34;ia-forte-o-estesa&#34;&gt;IA forte (o estesa)&lt;/h3&gt;
 &lt;p&gt;L&amp;rsquo;IA forte è un tipo di intelligenza artificiale le cui capacità imitano le proprietà adattive e generalizzabili del cervello umano, comprese il ragionamento, la pianificazione e l&amp;rsquo;intuizione.&lt;/p&gt;
 &lt;p&gt;Conosciuta anche come IA Generale (AGI), &lt;em&gt;per ora&lt;/em&gt; è pura speculazione.&lt;/p&gt;
-&lt;p&gt;Articolo di Vox sui rapporti tra IA e religione: &lt;a href=&#34;https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Articolo di Vox sui rapporti tra IA e religione: &lt;a href=&#34;https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.vox.com/the-highlight/23779413/silicon-valleys-ai-religion-transhumanism-longtermism-ea&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footer&#34;&gt;
+Razavian, N., Knoll, F., &amp; Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. &lt;a href=&#34;https://www.doi.org/10.1055/s-0039-3401041&#34;&gt;https://www.doi.org/10.1055/s-0039-3401041&lt;/a&gt;.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pseudo-esempio-watson&#34;&gt;Pseudo-esempio: Watson&lt;/h3&gt;
 &lt;p&gt;Nel 2011 Watson sconfigge campioni umani nel gioco televisivo statunitense Jeopardy.&lt;/p&gt;
@@ -2779,7 +2785,7 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      Ogni dato ha un certo valore numerico (x&lt;sub&gt;1&lt;/sub&gt;, x2, x3, ecc.).
+      Ogni dato ha un certo valore numerico (x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, x&lt;sub&gt;3&lt;/sub&gt;, ecc.).
     &lt;/p&gt;
     &lt;p&gt;
       Il valore di ogni dato di input viene moltiplicato con un &lt;strong&gt;peso&lt;/strong&gt; (un altro valore numerico, generalmente tra 0 e 1, che ne rappresenta l&#39;importanza rispetto al risultato finale).
@@ -2870,9 +2876,9 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
 &lt;hr&gt;
 &lt;h3 id=&#34;reti-neurali-multistrato&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 2;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0809.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0809.png&#34; height=&#34;auto&#34; width=&#34;250&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/User_talk:Glosser.ca&#34; class=&#34;mw-redirect&#34; title=&#34;User talk:Glosser.ca&#34;&gt;Glosser.ca&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;en&#34;&gt;Opera propria&lt;/span&gt;, deriva da &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg&#34; title=&#34;File:Artificial neural network.svg&#34;&gt;File:Artificial neural network.svg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=24913461&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2890,9 +2896,9 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
 &lt;hr&gt;
 &lt;h3 id=&#34;reti-neurali-multistrato-1&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
 &lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
-  &lt;div style=&#34;flex: 2;&#34;&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;figure&gt;
-      &lt;img src=&#34;img/0809.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+      &lt;img src=&#34;img/0809.png&#34; height=&#34;auto&#34; width=&#34;250&#34;/&gt;
         &lt;figcaption&gt;
             Fonte: Di &lt;a href=&#34;//commons.wikimedia.org/wiki/User_talk:Glosser.ca&#34; class=&#34;mw-redirect&#34; title=&#34;User talk:Glosser.ca&#34;&gt;Glosser.ca&lt;/a&gt; - &lt;span class=&#34;int-own-work&#34; lang=&#34;en&#34;&gt;Opera propria&lt;/span&gt;, deriva da &lt;a href=&#34;//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg&#34; title=&#34;File:Artificial neural network.svg&#34;&gt;File:Artificial neural network.svg&lt;/a&gt;, &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0&#34; title=&#34;Creative Commons Attribution-Share Alike 3.0&#34;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=24913461&#34;&gt;Link&lt;/a&gt;.
         &lt;/figcaption&gt;
@@ -2944,17 +2950,31 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
     &lt;p&gt;
       I neuroni in strati più profondi potrebbero combinare queste informazioni per identificare forme più complesse, come occhi, orecchie o il corpo di un animale.
     &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-4&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0810.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.edureka.co/blog/what-is-a-neural-network/&#34;&gt;https://www.edureka.co/blog/what-is-a-neural-network/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
       Infine, gli strati finali della rete neurale potrebbero combinare tutte queste informazioni per decidere se l&#39;immagine rappresenta un &#34;gatto&#34; o un &#34;cane&#34;.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-4&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-5&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
 &lt;p&gt;Anche se noi progettiamo la rete, i neuroni nei livelli nascosti non sono &amp;ldquo;programmati&amp;rdquo; per compiere operazioni specifiche come accade in un programma tradizionale.&lt;/p&gt;
 &lt;p&gt;Invece, attraverso il processo di addestramento, i pesi dei neuroni vengono aggiustati in modo che la rete impari a riconoscere pattern nei dati.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;reti-neurali-multistrato-5&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
+&lt;h3 id=&#34;reti-neurali-multistrato-6&#34;&gt;Reti neurali multistrato&lt;/h3&gt;
 &lt;p&gt;Ogni neurone nei layer nascosti impara a rappresentare una piccola parte di un concetto. Tuttavia, questi pattern non sono immediatamente interpretabili.&lt;/p&gt;
 &lt;p&gt;Non sappiamo esattamente cosa ogni neurone sta &amp;ldquo;vedendo&amp;rdquo;, ma piuttosto possiamo osservare come il risultato finale si adatti correttamente al nostro obiettivo.&lt;/p&gt;
 &lt;hr&gt;
@@ -2995,9 +3015,6 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
     &lt;p&gt;
       La rete neurale ha livelli nascosti (strati intermedi) che si occupano di elaborare e trasformare questi numeri in informazioni più utili.
     &lt;/p&gt;
-    &lt;p&gt;
-      Ogni neurone nei layer nascosti prende i numeri in ingresso (che sono i pixel dell&#39;immagine), li combina con i pesi (numeri che determinano quanto ogni input è importante), e poi applica una funzione di attivazione per determinare se quel neurone deve attivarsi o meno.
-    &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -3013,10 +3030,7 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
-      I layer nascosti quindi trasformano questi numeri di input in rappresentazioni più astratte.
-    &lt;/p&gt;
-    &lt;p&gt;
-      Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano malattia.
+      Ogni neurone nei layer nascosti prende i numeri in ingresso (che sono i pixel dell&#39;immagine), li combina con i pesi (numeri che determinano quanto ogni input è importante), e poi applica una funzione di attivazione per determinare se quel neurone deve attivarsi o meno.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3033,8 +3047,56 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
+      I layer nascosti quindi trasformano questi numeri di input in rappresentazioni più astratte.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-4&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0810.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.edureka.co/blog/what-is-a-neural-network/&#34;&gt;https://www.edureka.co/blog/what-is-a-neural-network/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
+      Ad esempio, mentre nel primo strato la rete potrebbe rilevare semplici caratteristiche come i bordi della foglia, nei layer successivi la rete potrebbe iniziare a riconoscere caratteristiche più complesse come la forma della foglia o eventuali macchie che indicano la presenza di malattie.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-5&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0810.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.edureka.co/blog/what-is-a-neural-network/&#34;&gt;https://www.edureka.co/blog/what-is-a-neural-network/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
+    &lt;p&gt;
       L&#39;output finale viene prodotto dal livello di output, che di solito è un singolo neurone (o più neuroni, a seconda del tipo di classificazione).
     &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;esempio-capire-se-una-foglia-è-malata-6&#34;&gt;Esempio: capire se una foglia è malata&lt;/h3&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+  &lt;div style=&#34;flex: 2;&#34;&gt;
+    &lt;figure&gt;
+      &lt;img src=&#34;img/0810.png&#34; height=&#34;auto&#34; width=&#34;700&#34;/&gt;
+        &lt;figcaption&gt;
+            Fonte: &lt;a href=&#34;https://www.edureka.co/blog/what-is-a-neural-network/&#34;&gt;https://www.edureka.co/blog/what-is-a-neural-network/&lt;/a&gt;.
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex: 1;&#34;&gt;
     &lt;p&gt;
       Nel caso della classificazione della foglia come sana o malata, l&#39;output sarà una probabilità tra 0 e 1, che indica quanto è probabile che l&#39;immagine della foglia sia sana (ad esempio, 0.8 = 80% di probabilità che la foglia sia sana).
     &lt;/p&gt;
@@ -3095,10 +3157,7 @@ Haenlein, M., &amp; Kaplan, A. (2019). A brief history of artificial intelligenc
       In fase di apprendimento della rete, vengono forniti solo dati senza la risposta corretta.
     &lt;/p&gt;
     &lt;p&gt;
-      L&#39;IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.).
-    &lt;/p&gt;
-    &lt;p&gt;
-      Sulla base di questo, è possibile creare un insieme di dati (&lt;strong&gt;cluster&lt;/strong&gt;) omogeneo contenente le immagini di &#34;cane&#34; e un altro contenente le immagini di &#34;gatto&#34;.
+      L&#39;IA individua da sola regolarità statistiche presenti nei dati (es. la conformazione del muso, la dimensione, i colori, ecc.) e li raggruppa in &lt;strong&gt;cluster&lt;/strong&gt; omogenei sulla base di queste regolarità.
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
