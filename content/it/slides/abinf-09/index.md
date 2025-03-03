@@ -362,22 +362,6 @@ Risultati del questionario di Dicolab: https://storymaps.arcgis.com/stories/1021
 
 ---
 
-## IA nei beni culturali
-
----
-
-### Campi di applicazione dell'IA nei beni culturali
-
-* Restauro e analisi delle immagini;
-* Riconoscimento e classificazione degli oggetti;
-* Traduzione e trascrizione;
-* Analisi automatica del testo;
-* Realtà Virtuale (VR) e Aumentata (AR);
-* Sistemi di raccomandazione personalizzati;
-* ...
-
----
-
 # Fine
 
 ## Lezione 09 del corso di _Abilità Informatiche_ (2024/2025)
