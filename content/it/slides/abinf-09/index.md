@@ -53,9 +53,21 @@ https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png
 
 ### Un esempio ibrido: Generative Adversarial Networks
 
-Un modello di IA che usa contemporaneamente due reti neurali diverse: un discriminatore e un generatore.
+Immaginiamoci la Gioconda.
 
-Durante l'addestramento, il discriminatore impara tramite apprendimento non supervisionato o supervisionato a discriminare i dati di input (es. riconoscere cifre numeriche nelle immagini).
+Ora, immaginiamoci un falsario che decide di creare un duplicato del dipinto.
+
+Per farlo, il falsario deve capire e imparare come l'autore originario ha creato l'opera.
+
+Immaginiamoci anche un investigatore, il cui obiettivo è quello di scovare il falsario e intuire le regole che questo sta imparando per riprodurre lo stile dell'autore originale.
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks
+
+Un modello di IA che usa contemporaneamente due reti neurali diverse: un **discriminatore** (l'investigatore) e un **generatore** (il falsario).
+
+Durante l'addestramento, il discriminatore impara a discriminare i dati di input (es. riconoscere cifre numeriche nelle immagini).
 
 https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
 
@@ -83,7 +95,37 @@ https://developer.ibm.com/developer/default/articles/generative-adversarial-netw
 
 ---
 
-L'IA di oggi: gli LLM
+## L'IA di oggi: gli LLM
+
+---
+
+### Pappagalli stocastici
+
+Immaginiamoci di avere un pappagallo, Lauro.
+
+Lauro è molto bravo ad imitare il linguaggio umano e ha una memoria estremamente sviluppata.
+
+Lauro ascolta tutte le conversazioni che avvengono in casa e le può imitare in maniera accurata.
+
+---
+
+### Pappagalli stocastici
+
+Se Lauro ci sente dire "Ho fame, vorrei proprio un po' di...", probabilmente completerà la nostra frase con "... pasta", o "riso", o "pizza".
+
+La probabilità che generi un output di questo tipo, sulla base del nostro input, è molto più alta rispetto a "bicicletta", "astuccio" o "filosofia postmoderna".
+
+Ma Lauro è pur sempre un pappagallo, e quindi non ha coscienza di cosa siano "pasta", "riso", "pizza", "astuccio". 
+
+Quello che fa è basarsi sulla distribuzione statistica del linguaggio e la probabilità che una certa parola o espressione sia seguita da un'altra.
+
+---
+
+### Pappagalli stocastici
+
+Lauro è un pappagallo stocastico, ovvero un sistema determinato in maniera casuale o probabilistica.
+
+Un Large Language Model è molto simile ad un pappagallo stocastico "on steroids", capace di ascoltare non solo le conversazioni in casa nostra, ma a tutte le conversazioni che avvengono in tutto il mondo.
 
 ---
 
