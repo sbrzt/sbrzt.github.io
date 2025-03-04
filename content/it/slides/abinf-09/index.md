@@ -460,7 +460,7 @@ Ferrer, X., Van Nuenen, T., Such, J. M., Coté, M., & Criado, N. (2021). Bias an
 
 ---
 
-### AI Act
+### AI Act (1)
 
 Nel 2024, il Parlamento Europeo ha approvato l'AI Act, il primo Regolamento al mondo esplicitamente e totalmente dedicato all'IA.
 
@@ -472,7 +472,7 @@ Sito per non esperti: https://artificialintelligenceact.eu/
 
 ---
 
-### AI Act
+### AI Act (2)
 
 Saranno **vietati** i sistemi di IA che determinano un rischio inaccettabile per la sicurezza, la sussistenza e i diritti delle persone. 
 
@@ -482,7 +482,7 @@ Esempio di _social scoring_: https://scenarieconomici.it/wp-content/uploads/2021
 
 ---
 
-### AI Act
+### AI Act (3)
 
 Il regolamento considera **ad alto rischio** un numero limitato di sistemi di IA che possono avere ripercussioni negative sulla sicurezza delle persone o sui loro diritti fondamentali.
 
@@ -492,7 +492,7 @@ Prima di immettere un sistema di IA ad alto rischio sul mercato dell'UE, o di fa
 
 ---
 
-### AI Act
+### AI Act (4)
 
 I sistemi di IA **a basso rischio** (come videogiochi o filtri spam) saranno esenti da obblighi. 
 
@@ -500,7 +500,7 @@ A prescindere dal livell odi pericolosità, gli utenti dovranno essere consapevo
 
 ---
 
-### IA e cultura
+### IA e cultura (1)
 
 Nell'AI Act europeo, la cultura è espressamente menzionata fra gli ambiti al cui sviluppo l'IA è chiamata a concorrere. 
 
@@ -510,7 +510,7 @@ Vengono ripresi e rivisti concetti fondamentali come l'**originalità** (con rip
 
 ---
 
-### IA e cultura
+### IA e cultura (2)
 
 I fornitori dovranno assicurarsi che gli output siano esplicitamente etichettati come prodotti di IA.
 
