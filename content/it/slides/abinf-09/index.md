@@ -113,9 +113,6 @@ Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial netw
     <p>
       Alla fine dell'apprendimento, è in grado di classificare nuovi dati di input sulla base del proprio apprendimento (es. determina se l'immagine contiene una cifra sulla base dei pattern appresi in fase di allenamento dalle altre immagini usate).
     </p>
-    <p>
-      Il generatore, invece, crea immagini sulla base di dati casuali (noise): inizialmente, le immagini create saranno senza senso.
-    </p>
   </div>
 </div>
 
@@ -138,8 +135,53 @@ Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial netw
   </div>
   <div style="flex: 1;">
     <p>
+      Il generatore, invece, crea immagini sulla base di dati casuali (noise): inizialmente, le immagini create saranno senza senso.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks (5)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
       L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano passabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
     </p>
+  </div>
+</div>
+
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks (6)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
     <p>
       Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
     </p>
@@ -152,7 +194,7 @@ Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial netw
 
 ---
 
-### Un esempio ibrido: Generative Adversarial Networks (5)
+### Un esempio ibrido: Generative Adversarial Networks (7)
 
 "Questa persona non esiste": https://thispersondoesnotexist.com/
 
@@ -249,7 +291,7 @@ Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
     <figure>
-      <img src="img/0901.png" height="auto" width="700"/>
+      <img src="img/0903.png" height="auto" width="700"/>
         <figcaption>
             Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
         </figcaption>
