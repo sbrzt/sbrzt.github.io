@@ -23,10 +23,10 @@ slides:
 
 <div class="dark-overlay"></div>
 
-## IA discriminativa vs. IA generativa
+## IA discriminativa e IA generativa
 
 <!--
-
+Photo by <a href="https://unsplash.com/@googledeepmind?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Google DeepMind</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-pink-wall-with-glitter-sprinkles-mEawZ3YloK4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
@@ -37,7 +37,9 @@ Quella che abbiamo visto fino ad ora, in pratica.
 
 Effettua diverse operazioni computazionali su dati esistenti (es. classificare un'immagine sulla base di ciò che contiene; riconoscimento vocale; ecc.), "discriminandoli" (cioé analizzandoli, classificandoli e distinguendoli) secondo la loro distribuzione probabilistica. 
 
-https://vitalflux.com/wp-content/uploads/2023/03/discriminative-modeling-example.png
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
@@ -47,11 +49,13 @@ Finalizzata alla generazione di nuovo contenuto (testi, immagini, musica, video,
 
 I modelli di tipo generativo imparano a produrre nuovi dati con caratteristiche simili ai dati originali, utilizzando modelli di apprendimento automatico per identificare i pattern e le relazioni nei dati esistenti.
 
-https://vitalflux.com/wp-content/uploads/2023/03/generative-modeling-example.png
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
-### Un esempio ibrido: Generative Adversarial Networks
+### Un esempio ibrido: Generative Adversarial Networks (1)
 
 Immaginiamoci la Gioconda.
 
@@ -61,45 +65,112 @@ Per farlo, il falsario deve capire e imparare come l'autore originario ha creato
 
 Immaginiamoci anche un investigatore, il cui obiettivo è quello di scovare il falsario e intuire le regole che questo sta imparando per riprodurre lo stile dell'autore originale.
 
----
-
-### Un esempio ibrido: Generative Adversarial Networks
-
-Un modello di IA che usa contemporaneamente due reti neurali diverse: un **discriminatore** (l'investigatore) e un **generatore** (il falsario).
-
-Durante l'addestramento, il discriminatore impara a discriminare i dati di input (es. riconoscere cifre numeriche nelle immagini).
-
-https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
 
 ---
 
-### Un esempio ibrido: Generative Adversarial Networks
+### Un esempio ibrido: Generative Adversarial Networks (2)
 
-Alla fine dell'apprendimento, è in grado di classificare nuovi dati di input sulla base del proprio apprendimento (es. determina se l'immagine contiene una cifra sulla base dei pattern appresi in fase di allenamento dalle altre immagini usate).
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un modello di IA che usa contemporaneamente due reti neurali diverse: un <strong>discriminatore</strong> (l'investigatore) e un <strong>generatore</strong> (il falsario).
+    </p>
+    <p>
+      Durante l'addestramento, il discriminatore impara a discriminare i dati di input (es. riconoscere cifre numeriche nelle immagini).
+    </p>
+  </div>
+</div>
 
-Il generatore, invece, crea immagini sulla base di dati casuali (_noise_): inizialmente, le immagini create saranno senza senso.
-
-https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
 
 ---
 
-### Un esempio ibrido: Generative Adversarial Networks
+### Un esempio ibrido: Generative Adversarial Networks (3)
 
-L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano passabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Alla fine dell'apprendimento, è in grado di classificare nuovi dati di input sulla base del proprio apprendimento (es. determina se l'immagine contiene una cifra sulla base dei pattern appresi in fase di allenamento dalle altre immagini usate).
+    </p>
+    <p>
+      Il generatore, invece, crea immagini sulla base di dati casuali (noise): inizialmente, le immagini create saranno senza senso.
+    </p>
+  </div>
+</div>
 
-Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks (4)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      L'output del generatore viene dato in pasto al discriminatore, che verifica che i dati prodotti dal generatore siano passabili rispetto ai dati di addestramento su cui il discriminatore si è allenato.
+    </p>
+    <p>
+      Se i dati non sono accettabili, il generatore deve correggere i pesi; se invece i dati sono accettabili, il discriminatore è stato "ingannato", e l’immagine è presa come risultato valido.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Hong, Y., Hwang, U., Yoo, J., & Yoon, S. (2019). How generative adversarial networks and their variants work: An overview. ACM Computing Surveys (CSUR), 52(1), 1-43. <a href="https://doi.org/10.1145/3301282">https://doi.org/10.1145/3301282</a>.
+</div>
+
+---
+
+### Un esempio ibrido: Generative Adversarial Networks (5)
 
 "Questa persona non esiste": https://thispersondoesnotexist.com/
 
-https://developer.ibm.com/developer/default/articles/generative-adversarial-networks-explained/images/GANs.jpg
+---
+
+{{< slide background-image="img/0902.jpg" class="section-slide">}}
+
+<div class="dark-overlay"></div>
+
+## L'IA di adesso
+
+<!--
+Photo by <a href="https://unsplash.com/@robpotter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rob Potter</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-parrot-with-a-black-background-V44l9FBHe_8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
 
 ---
 
-## L'IA di oggi: gli LLM
-
----
-
-### Pappagalli stocastici
+### Pappagalli stocastici (1)
 
 Immaginiamoci di avere un pappagallo, Lauro.
 
@@ -107,67 +178,136 @@ Lauro è molto bravo ad imitare il linguaggio umano e ha una memoria estremament
 
 Lauro ascolta tutte le conversazioni che avvengono in casa e le può imitare in maniera accurata.
 
+<div class="footer">
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623). <a href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
+</div>
+
 ---
 
-### Pappagalli stocastici
+### Pappagalli stocastici (2)
 
 Se Lauro ci sente dire "Ho fame, vorrei proprio un po' di...", probabilmente completerà la nostra frase con "... pasta", o "riso", o "pizza".
 
 La probabilità che generi un output di questo tipo, sulla base del nostro input, è molto più alta rispetto a "bicicletta", "astuccio" o "filosofia postmoderna".
 
+<div class="footer">
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623). <a href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
+</div>
+
+---
+
+### Pappagalli stocastici (3)
+
 Ma Lauro è pur sempre un pappagallo, e quindi non ha coscienza di cosa siano "pasta", "riso", "pizza", "astuccio". 
 
 Quello che fa è basarsi sulla distribuzione statistica del linguaggio e la probabilità che una certa parola o espressione sia seguita da un'altra.
 
+<div class="footer">
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623). <a href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
+</div>
+
 ---
 
-### Pappagalli stocastici
+### Pappagalli stocastici (4)
 
-Lauro è un pappagallo stocastico, ovvero un sistema determinato in maniera casuale o probabilistica.
+Lauro è un **pappagallo stocastico**, ovvero un sistema determinato in maniera casuale o probabilistica.
 
 Un Large Language Model è molto simile ad un pappagallo stocastico "on steroids", capace di ascoltare non solo le conversazioni in casa nostra, ma a tutte le conversazioni che avvengono in tutto il mondo.
 
----
-
-### Large Language Model
-
-Un modello di IA generativa basato su reti neurali multistrato e addestrato su enormi quantità di testo per imparare a riconoscere schemi e associazioni propri del linguaggio naturale.
-
-Un utente interroga il modello con un **prompt** e riceve dal modello una risposta. 
-
-Sia il prompt che la risposta vengono aggiunti iterativamente ad una **finestra contestuale** che riproduce una forma di "memoria" tenuta dall'IA.
-
-https://dx1ienyxpbg1x.cloudfront.net/index_dev/articles/gallery_images/1721733661397675395_3_blob
+<div class="footer">
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623). <a href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>.
+</div>
 
 ---
 
-### Large Language Model
+### Large Language Model (1)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0903.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un modello di IA generativa basato su reti neurali multistrato e addestrato su enormi quantità di testo per imparare a riconoscere schemi e associazioni propri del linguaggio naturale.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
+
+---
+
+### Large Language Model (2)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+    <figure>
+      <img src="img/0901.png" height="auto" width="700"/>
+        <figcaption>
+            Fonte: <a href="https://developer.ibm.com/articles/generative-adversarial-networks-explained/">https://developer.ibm.com/articles/generative-adversarial-networks-explained/</a>.
+        </figcaption>
+    </figure>
+  </div>
+  <div style="flex: 1;">
+    <p>
+      Un utente interroga il modello con un <strong>prompt</strong> e riceve dal modello una risposta. 
+    </p>
+    <p>
+      Sia il prompt che la risposta vengono aggiunti iterativamente ad una <strong>finestra contestuale</strong> che riproduce una forma di "memoria" tenuta dall'IA.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
+
+---
+
+### Large Language Model (3)
 
 Il processo di addestramento di un LLM si divide in due fasi principali:
 * **Pre-training**: in questa fase, il modello viene addestrato su un grande corpus di testo per imparare a riconoscere le relazioni tra le parole e tra le frasi;
 * **Fine-tuning**: in questa fase, il modello viene addestrato su un nuovo corpus di testo specifico per migliorare la sua capacità di generare testo in un contesto specifico.
 
-https://miro.medium.com/v2/resize:fit:720/format:webp/0*MjVPWxOiEgjK12Be.png
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
 
 ---
 
-### Large Language Model
+### Large Language Model (4)
 
 I pesi delle connessioni tra neuroni che il modello impara durante il processo di addestramento vengono chiamati **parametri**. 
 
 Conme già visto, si tratta di valori numerici che definiscono il comportamento del modello e che il modello stesso ottimizza per affinare la sua capacità di predire o generare output in modo coerente.
 
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
+
 ---
 
-### Large Language Model
+### Large Language Model (5)
 
 I parametri vengono inizializzati (spesso in modo casuale) e successivamente ottimizzati per riconoscere le relazioni linguistiche generali presenti nei dati (es. prevedere la parola successiva in una frase o per completare una sequenza di testo).
 
 Nel fine-tuning, i parametri già ottimizzati durante il pre-training vengono adattati ulteriormente su un corpus di testo specifico e più mirato.
 
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
+
 ---
 
-### Large Language Model
+### Large Language Model (6)
 
 Man mano che i parametri aumentano, aumentano le capacità del modello, ma anche le risorse di calcolo richieste. 
 
@@ -176,24 +316,32 @@ Es. l'evoluzione dei modelli GPT per la creazione di testo:
 * GPT2 ne ha 1.5 miliardi;
 * GPT3 ne ha 175 miliardi.
 
----
-
-### Large Language Model
-
-Vantaggi: elevatissima scalabilità e flessibilità; resistenza a informazioni incerte, danneggiate o lacunose.
-
-Svantaggi: performance fortemente influenzata dai dati di addestramento, potenziale presenza di allucinazioni (palesi errori nell'output generato), costi di sviluppo e addestramento elevati (legati alle risorse hardware e alla quantità di dati richieste), mancanza di trasparenza, incertezze legate all'AI Act. 
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
 
 ---
 
-{{< slide background-image="img/0700.jpg" class="section-slide">}}
+### Large Language Model (7)
+
+**Vantaggi**: elevatissima scalabilità e flessibilità; resistenza a informazioni incerte, danneggiate o lacunose.
+
+**Svantaggi**: performance fortemente influenzata dai dati di addestramento, potenziale presenza di allucinazioni (palesi errori nell'output generato), costi di sviluppo e addestramento elevati (legati alle risorse hardware e alla quantità di dati richieste), mancanza di trasparenza, incertezze legate all'AI Act. 
+
+<div class="footer">
+Lee, T. B., & Trott, S. (2023). Large language models, explained with a minimum of math and jargon. Understanding AI, 27, 2023. <a href="https://www.understandingai.org/p/large-language-models-explained-with">https://www.understandingai.org/p/large-language-models-explained-with</a>.
+</div>
+
+---
+
+{{< slide background-image="img/0904.jpg" class="section-slide">}}
 
 <div class="dark-overlay"></div>
 
 ## I problemi
 
 <!--
-
+Photo by <a href="https://unsplash.com/@rosellastudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Madison Bracaglia</a> on <a href="https://unsplash.com/photos/white-concrete-surface-close-up-photography--kxED2shuUg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -->
 
 ---
@@ -202,17 +350,24 @@ Svantaggi: performance fortemente influenzata dai dati di addestramento, potenzi
 
 L’IA si basa su **dati storici** e, ora, anche su **dati sintetici**.
 
-I dati storici sono raccolti in dataset "reali": le canzoni che ho ascoltato, le temperature raccolte negli ultimi 200 anni, i post su Twitter su un determinato argomento, i testi estratti da articoli di giornale digitalizzati dalla Library of Congress, ecc.
+* I dati storici sono raccolti in dataset "reali": le canzoni che ho ascoltato, le temperature raccolte negli ultimi 200 anni, i post su Twitter su un determinato argomento, i testi estratti da articoli di giornale digitalizzati dalla Library of Congress, ecc.
+* I dati sintetici sono generati da un'altra IA e possono aiutare a rappresentare un problema, se ne danno una rappresentazione affidabile.
 
-I dati sintetici sono generati da un'altra IA e possono aiutare a rappresentare un problema, se ne danno una rappresentazione affidabile.
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
 ### IA e overfitting
 
-Fenomeno che si verifica quando un'IA impara troppo bene i dettagli dei dati di addestramento, al punto da diventare troppo specifico per quel dataset.
+L'**overfitting** è un fenomeno che si verifica quando un'IA impara troppo bene i dettagli dei dati di addestramento, al punto da diventare troppo specifico per quel dataset.
 
 Questo significa che, invece di generalizzare e fare previsioni accurate su nuovi dati, il modello diventa "troppo adattato" a quelle specifiche informazioni e quindi perde la capacità di adattamento.
+
+<div class="footer">
+Razavian, N., Knoll, F., & Geras, K. J. (2020, February). Artificial intelligence explained for nonexperts. In Seminars in musculoskeletal radiology (Vol. 24, No. 01, pp. 003-011). Thieme Medical Publishers. <a href="https://www.doi.org/10.1055/s-0039-3401041">https://www.doi.org/10.1055/s-0039-3401041</a>.
+</div>
 
 ---
 
@@ -222,7 +377,12 @@ Bias presenti nei dati possono produrre distorsioni nel funzionamento delle IA a
 
 Es. alcuni sistemi di riconoscimento facciale trattano alcune persone in modo più impreciso rispetto alle altre, sulla base della pigmentazione della pelle o della loro struttura facciale.
 
-https://www.bbc.com/news/technology-68655429
+Esempio: https://www.bbc.com/news/technology-68655429.
+
+<div class="footer">
+Ferrer, X., Van Nuenen, T., Such, J. M., Coté, M., & Criado, N. (2021). Bias and discrimination in AI: a cross-disciplinary perspective. IEEE Technology and Society Magazine, 40(2), 72-80. <a href="https://doi.org/10.1109/MTS.2021.3056293">https://doi.org/10.1109/MTS.2021.3056293</a>.
+</div>
+
 
 ---
 
@@ -241,7 +401,7 @@ https://www.bbc.com/news/technology-68655429
 
 L'intelligence sudcoreana ha accusato DeepSeek di raccolta eccessiva dei dati personali della propria utenza, compresi i pattern di input dalla tastiera (che permettono il riconoscimento dell'individuo), e di invio di questi ad altre aziende cinesi.
 
-https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agency-says-deepseek-excessively-collects-personal-data-2025-02-10/
+Link all'articolo: https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agency-says-deepseek-excessively-collects-personal-data-2025-02-10/
 
 ---
 
@@ -249,7 +409,7 @@ https://www.reuters.com/technology/artificial-intelligence/south-korea-spy-agenc
 
 Anthropic viene denunciata da un gruppo di autori per aver allenato i propri LLM su dati testuali, tra cui centinaia di migliaia di libri protetti da copyright. 
 
-https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-anthropic-denunciata-per-violazione-di-copyright/
+Link all'articolo: https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-anthropic-denunciata-per-violazione-di-copyright/
 
 ---
 
@@ -257,7 +417,7 @@ https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-an
 
 La stragrande maggioranza di startup di IA è vincolata in esclusiva alle big tech come Amazon, Google e Microsoft, in cambio di finanziamenti ingenti e accesso a enormi risorse di calcolo e dati. 
 
-https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia-le-indagini-2025-01-18
+Link all'articolo: https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia-le-indagini-2025-01-18
 
 ---
 
@@ -265,7 +425,7 @@ https://www.tomshw.it/hardware/ia-a-rischio-monopolizzazione-lantitrust-comincia
 
 Bp pianifica di licenziare il 5% della propria forza lavoro (circa 7700 persone) sulla base di valutazioni di ridimensionamento effettuate da una IA.
 
-https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rinnovabili-investimenti-lavoro/
+Link all'articolo: https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rinnovabili-investimenti-lavoro/
 
 ---
 
@@ -273,7 +433,7 @@ https://www.wired.it/article/intelligenza-artificiale-licenziamenti-bp-tagli-rin
 
 Grok, il chatbot della piattaforma X, permette di generare direttamente in loco testi, immagini e video non sottoposti ad alcun tipo di controllo (eccetto quelli previsti dalla piattaforma stessa).
 
-https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformazione-il-caso-grok/
+Link all'articolo: https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformazione-il-caso-grok/
 
 ---
 
@@ -281,18 +441,22 @@ https://www.franzrusso.it/condividere-comunicare/ia-possibili-rischi-disinformaz
 
 In media, ChatGPT consuma 519 millilitri d'acqua (circa una bottiglietta d'acqua) per generare 100 parole.
 
-https://fortune.com/article/how-much-water-does-ai-use/
+Link all'articolo: https://fortune.com/article/how-much-water-does-ai-use/
 
 ---
 
 ### Questioni etiche
 
 Le IA rischiano di essere:
-* Imperscrutabili: non è dato sapere in base a cosa abbiano favorito una decisione;
-* Fuorvianti: hanno preso una decisione in base a dati distorti da bias;
-* Ingiuste: generano effetti iniqui sulle persone;
-* Trasformative: portano a trasformazioni dell'output che minacciano l'autonomia, la privacy o altri diritti individuali;
-* Non-tracciabili: difficoltà nel rintracciare la persona o organizzazione responsabile dell'output.
+* **Imperscrutabili**: non è dato sapere in base a cosa abbiano favorito una decisione;
+* **Fuorvianti**: hanno preso una decisione in base a dati distorti da bias;
+* **Ingiuste**: generano effetti iniqui sulle persone;
+* **Trasformative**: portano a trasformazioni dell'output che minacciano l'autonomia, la privacy o altri diritti individuali;
+* **Non-tracciabili**: difficoltà nel rintracciare la persona o organizzazione responsabile dell'output.
+
+<div class="footer">
+Ferrer, X., Van Nuenen, T., Such, J. M., Coté, M., & Criado, N. (2021). Bias and discrimination in AI: a cross-disciplinary perspective. IEEE Technology and Society Magazine, 40(2), 72-80. <a href="https://doi.org/10.1109/MTS.2021.3056293">https://doi.org/10.1109/MTS.2021.3056293</a>.
+</div>
 
 ---
 
@@ -302,9 +466,9 @@ Nel 2024, il Parlamento Europeo ha approvato l'AI Act, il primo Regolamento al m
 
 Il testo contiene norme che disciplinano l'attività delle IA, obbligando le aziende che le sviluppano e distribuiscono al rispetto dei diritti e dei valori fondamentali dell'Unione Europea.
 
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+Testo integrale: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689.
 
-https://artificialintelligenceact.eu/
+Sito per non esperti: https://artificialintelligenceact.eu/
 
 ---
 
@@ -314,7 +478,7 @@ Saranno **vietati** i sistemi di IA che determinano un rischio inaccettabile per
 
 In questa categoria rientrano i sistemi che possono manipolare il comportamento umano (es. _social scoring_ e polizia predittiva).
 
-https://scenarieconomici.it/wp-content/uploads/2021/08/scs5.png
+Esempio di _social scoring_: https://scenarieconomici.it/wp-content/uploads/2021/08/scs5.png
 
 ---
 
