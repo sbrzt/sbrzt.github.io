@@ -25,14 +25,17 @@ organizations:
     url: https://www.unibo.it/it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I miei interessi di ricerca si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui Linked Open Data e sull'Open Science per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
+bio: Assegnista di ricerca presso il Dipartimento di Beni Culturali dell'Università di Bologna. Svolge attività di ricerca sulla gestione e modellazione di metadati e paradati della ricerca, con particolare attenzione allo sviluppo e all'applicazione di metodologie e tecnologie del Web Semantico nei contesti delle scienze umane e dei beni culturali.
 
 # Interests to show in About widget
 interests:
-  - Linked Open Data Science
-  - Modellazione dei dati
-  - Analisi dei dati umanistici
-  - Open Science
+  - Gestione e sviluppo di Knowledge Graph
+  - Ingegneria dei dati e delle ontologie
+  - Gestione dei dati, metadati e paradati
+  - Modellazione, analisi e visualizzazione dei dati
+  - Ingegneria del software di ricerca
+  - FAIR e Scienza Aperta
+  - Bibliometria
 
 # Education to show in About widget
 education:
@@ -78,5 +81,5 @@ social:
 highlight_name: true
 ---
 
-Ricercatore presso il Dipartimento di Beni Culturali dell'Università di Bologna. Laureato nel 2020 nel corso di laurea magistrale in Digital Humanities and Digital Knowledge (DHDK) presso l'Università di Bologna, attualmente lavoro presso il laboratorio di ricerca FrameLAB su vari progetti legati all'applicazione di metodologie e tecnologie Linked Open Data. Nello specifico, i miei interessi di ricerca si concentrano sullo studio e l'implementazione di strumenti e metodologie basate sui Linked Open Data e sull'Open Science per migliorare le attività accademiche (ricerca, didattica e terza missione) nei settori delle discipline umanistiche e del patrimonio culturale.
+Assegnista di ricerca presso il Dipartimento di Beni Culturali dell'Università di Bologna. Svolge attività di ricerca sulla gestione e modellazione di metadati e paradati della ricerca, con particolare attenzione allo sviluppo e all'applicazione di metodologie e tecnologie del Web Semantico nei contesti delle scienze umane e dei beni culturali.
 {style="text-align: justify;"}

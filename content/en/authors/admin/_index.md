@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research fellow - Developer - Teacher
+role: Research fellow - Developer - Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -28,14 +28,18 @@ organizations:
     url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on the study and implementation of tools and methodologies based on Linked Open Data and Open Science to enhance academic activities (research, teaching, and public engagement) in the fields of the humanities and cultural heritage.
+bio: Research fellow at the Department of Cultural Heritage, University of Bologna. His research focuses on the management and modeling of metadata and paradata in research, with particular attention to the development and application of Semantic Web methodologies and technologies in the context of the humanities and cultural heritage.
 
 # Interests to show in About widget
 interests:
-  - Linked Open Data Science
-  - Data Modeling
-  - Data Analytics
-  - Open Science
+  - Knowledge Graph Management
+  - Ontology and Data Engineering
+  - RDF-based Data Management
+  - Metadata and Paradata Management
+  - Data Modeling, Analysis, Visualization
+  - Research Software Engineering
+  - FAIR & Open Science
+  - Bibliometrics & Libraries
 
 # Education to show in About widget
 education:
@@ -78,5 +82,5 @@ profiles:
 highlight_name: true
 ---
 
-Researcher at the Department of Cultural Heritage of the University of Bologna. Graduated in 2020 with a master's degree in Digital Humanities and Digital Knowledge (DHDK) from the University of Bologna, I currently work at the FrameLAB research laboratory on various projects related to the application of Linked Open Data methodologies and technologies. Specifically, my research interests focus on the study and implementation of tools and methodologies based on Linked Open Data and Open Science to enhance academic activities (research, teaching, and public engagement) in the fields of humanities and cultural heritage.
+Research fellow at the Department of Cultural Heritage, University of Bologna. His research focuses on the management and modeling of metadata and paradata in research, with particular attention to the development and application of Semantic Web methodologies and technologies in the context of the humanities and cultural heritage.
 {style="text-align: justify;"}

@@ -125,10 +125,14 @@ sections:
       buttons:
         - name: Tutti
           tag: '*'
-        - name: Knowledge Management
-          tag: Knowledge Management
-        - name: Edizioni Digitali
-          tag: Digital Editions
+        - name: Python
+          tag: Python
+        - name: Knowledge Graph
+          tag: Knowledge Graph
+        - name: Ingegneria del software di ricerca
+          tag: Ingegneria del software di ricerca
+        - name: Modellazione dei dati
+          tag: Modellazione dei dati
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
