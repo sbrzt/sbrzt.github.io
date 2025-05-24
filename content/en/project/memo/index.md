@@ -2,15 +2,14 @@
 title: Medieval Manuscript Ontology (MeMO)
 summary: The Medieval Manuscripts Ontology (MeMO) is an OWL 2 DL ontology that aims to provide a framework for the formal description of the collection of medieval codices and manuscripts. It has been developed in the context of Progetto IRNERIO, according to certain requirements and with the possibility to extend it for representing similar resources that exist in other collections.
 tags:
-  - Knowledge Management
-  - Data Documentation
+  - Ontology Engineering
 date: '2020-03-20T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Medieval manuscript. deepai.org
+  caption: Der Pilger trifft die Monastischen Tugenden, Disziplin, Gehorsam, Geistliches Studium, Enthaltsamkeit, Gebet und Gotteslob. - Heidelberg University Library, Germany - Public Domain.
   focal_point: Smart
 
 url_code: 'https://w3id.org/irnerio/ontology/memo'

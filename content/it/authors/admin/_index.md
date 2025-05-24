@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Assegnista di ricerca - Sviluppatore - Insegnante
+role: Assegnista di ricerca - Sviluppatore - Professore
 
 # Organizations/Affiliations to show in About widget
 organizations:

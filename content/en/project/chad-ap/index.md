@@ -2,15 +2,14 @@
 title: Cultural Heritage Acquisition and Digitisation Application Profile (CHAD-AP)
 summary: The Cultural Heritage Acquisition and Digitisation Application Profile (CHAD-AP) is a CIDOC CRM application profile implemented as an OWL 2 DL ontology for describing cultural heritage digitisation data and processes in a FAIR-compliant and machine-readable format.
 tags:
-  - Knowledge Management
-  - Data Documentation
+  - Ontology Engineering
 date: '2024-04-16T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: 'https://w3id.org/dharc/ontology/chad-ap'
 
 image:
-  caption: Museum. deepai.org
+  caption: Beispiele von Anomalien im Arterienverlauf der Arme und Hände - Heidelberg University Library, Germany - Public Domain.
   focal_point: Smart
 
 url_code: ''
