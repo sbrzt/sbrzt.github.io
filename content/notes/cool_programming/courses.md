@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Cool Courses
 ---
 
 ## Python
